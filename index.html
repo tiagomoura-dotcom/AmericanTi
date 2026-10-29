@@ -45,7 +45,7 @@ button{cursor:pointer}
 
 /* Navegação inferior */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding:6px 8px calc(6px + env(safe-area-inset-bottom,0px));display:flex;justify-content:center}
-.nav-inner{display:grid;grid-template-columns:repeat(5,1fr);width:100%;max-width:560px}
+.nav-inner{display:grid;grid-template-columns:repeat(6,1fr);width:100%;max-width:620px}
 .nav button{background:none;border:0;padding:6px 4px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:.72rem;color:var(--muted)}
 .nav button svg{width:24px;height:24px}
 .nav button[aria-current="page"]{color:var(--accent);font-weight:600}
@@ -256,6 +256,20 @@ dialog.importer textarea{width:100%;min-height:180px;margin:12px 0;font-family:u
 .line{margin:0 0 6px}
 .link-plain{background:none;border:0;padding:0;font:inherit;color:inherit;text-align:left}
 .who{display:inline-block;min-width:1.4em;font-family:var(--sans);font-size:.8rem;font-weight:700;color:var(--accent)}
+.plan{list-style:none;margin:10px 0 0;padding:0;border-top:1px solid var(--line)}
+.plan li{border-bottom:1px solid var(--line)}
+.plan button{width:100%;background:none;border:0;padding:12px 2px;display:grid;grid-template-columns:28px 1fr 18px;gap:12px;align-items:center;text-align:left;color:var(--ink)}
+.plan .mark{width:26px;height:26px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-size:.85rem;font-weight:700}
+.plan .ok .mark{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.plan .name{display:block;font-family:var(--serif);font-size:1.05rem}
+.plan .ok .name{color:var(--muted);text-decoration:line-through}
+.plan .sub{display:block;font-size:.82rem;color:var(--muted)}
+.plan svg{width:18px;height:18px;color:var(--muted)}
+.meter{margin:12px 0 0}
+.meter-top{display:flex;justify-content:space-between;gap:10px;font-size:.88rem;margin-bottom:4px}
+.meter-top span:last-child{color:var(--muted)}
+.bar{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.bar span{display:block;height:100%;background:var(--accent);border-radius:99px}
 .video-wrap > .load-video{position:absolute;inset:auto;left:50%;top:50%;width:auto;height:auto;transform:translate(-50%,-50%)}
 [hidden]{display:none!important}
 @media (prefers-reduced-motion: reduce){.s{transition:none}}
@@ -269,6 +283,7 @@ dialog.importer textarea{width:100%;min-height:180px;margin:12px 0;font-family:u
     <button data-tab="hoje"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Hoje</button>
     <button data-tab="aulas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="m2 13 10 5 10-5"/></svg>Aulas</button>
     <button data-tab="pratica"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg>Prática</button>
+    <button data-tab="imersao"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="m10 9.2 5 2.8-5 2.8z" fill="currentColor"/></svg>Imersão</button>
     <button data-tab="biblioteca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4h4v16H4zM10 4h4v16h-4zM15.5 5.2l3.9-1 3.1 14.6-3.9 1z"/></svg>Biblioteca</button>
     <button data-tab="revisao"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>Revisão</button>
   </div>
@@ -664,6 +679,11 @@ function telaLeitor(b, ci){
       ${glossario.length ? `<section class="glossary"><h2>Palavras do capítulo</h2><dl>
         ${glossario.map(g => `<dt>${esc(g.term)}</dt><dd>${esc(g.meaning)}</dd>`).join('')}
       </dl></section>` : ''}
+      <section class="glossary"><h2>Clube do livro</h2>
+        <p class="hint">Discuta este capítulo com o Claude: o que aconteceu, personagens, vocabulário, gramática em contexto e pronúncia. O prompt já leva o texto do capítulo.</p>
+        <div class="row"><button class="btn sm primary" data-act="clube-prompt">Copiar prompt do clube do livro</button><button class="btn sm" data-act="importar-aula">${ICON.importar}Importar resultado</button></div>
+        <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt do clube do livro"></textarea>
+      </section>
       <div class="ch-nav">
         ${ci > 0 ? `<button class="btn" data-read="${ci - 1}">Capítulo anterior</button>` : ''}
         ${ultimo ? `<button class="btn primary" id="btnConcluir">Concluir livro</button>` : `<button class="btn primary" data-read="${ci + 1}">Próximo capítulo</button>`}
@@ -1044,6 +1064,7 @@ function lerJSON(txt){
 function importarObjeto(obj){
   if (obj && obj.tipo === 'backup') return restaurarBackup(obj);
   if (obj && obj.tipo === 'pratica') return importarPratica(obj);
+  if (obj && obj.tipo === 'extra') return importarExtra(obj);
   if (obj && (obj.tipo === 'aula' || (obj.aula && obj.aula.numero !== undefined))) return importarAula(obj);
   if (obj && Array.isArray(obj.chapters)) return importarLivro(obj);
   aviso('Arquivo não reconhecido: não é aula, livro nem backup.');
@@ -1260,6 +1281,7 @@ function telaHoje(){
   const pl = livro ? progresso(livro.id) : null;
   const data = new Date().toLocaleDateString('pt-BR', {weekday:'long', day:'numeric', month:'long'});
   return `<header class="page-head"><h1>Hoje</h1><p>${esc(data.charAt(0).toUpperCase() + data.slice(1))}</p></header>
+    ${htmlPlano()}
     <div class="tiles">
       <button class="tile${pendentes ? ' primary' : ''}" data-go="#revisao/cartoes"><div class="big">${pendentes}</div><div class="lbl">${pendentes === 1 ? 'cartão para revisar' : 'cartões para revisar'}</div></button>
       <button class="tile" data-go="#revisao/erros"><div class="big">${erros}</div><div class="lbl">${erros === 1 ? 'erro no caderno' : 'erros no caderno'}</div></button>
@@ -1292,6 +1314,7 @@ function telaHoje(){
       <button class="btn" data-act="importar-aula">${ICON.importar}Importar aula</button>
     </div>
     <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt da aula"></textarea>
+    ${htmlProgresso()}
     <h2 class="section-title">Backup</h2>
     <p class="hint">Seu progresso fica salvo só neste aparelho. Exporte um backup de vez em quando.</p>
     <div class="row"><button class="btn sm" data-act="backup">Exportar backup</button><button class="btn sm" data-act="restaurar">Restaurar backup</button></div>`;
@@ -1534,11 +1557,15 @@ function initMidia(){
     const fim = +el.dataset.fim;
     const vars = {start:+el.dataset.ini, playsinline:1, rel:0};
     if (fim) vars.end = fim;
-    estadoAula.players[el.id] = new YT.Player(el, {videoId:el.dataset.yt, playerVars:vars});
+    estadoAula.players[el.id] = new YT.Player(el, {videoId:el.dataset.yt, playerVars:vars, events:{onStateChange: ev => contarImersao(ev.data === 1)}});
   });
-  if (window.YT && window.YT.Player) return criar();
+  comYT(criar);
+}
+/* Carrega a API do YouTube uma vez e chama cb quando estiver pronta */
+function comYT(cb){
+  if (window.YT && window.YT.Player) return cb();
   const anterior = window.onYouTubeIframeAPIReady;
-  window.onYouTubeIframeAPIReady = () => { if (anterior) anterior(); criar(); };
+  window.onYouTubeIframeAPIReady = () => { if (anterior) anterior(); cb(); };
   if (!ytCarregando){
     ytCarregando = true;
     const s = document.createElement('script');
@@ -1602,6 +1629,7 @@ function conferirDitado(i){
   if (!inp) return;
   if (!inp.value.trim()){ aviso('Escreva o que ouviu antes de conferir.'); return; }
   const c = comparar(alvo, inp.value);
+  registrarAtividade(estadoAula.t ? 'treino' : 'aula');
   const fb = $('#ditfb-' + i);
   fb.className = 'fb';
   fb.innerHTML = `<p>${colorirAlvo(alvo, c)}</p><p class="hint">${c.pct}% das palavras${c.extras ? `, com ${c.extras} a mais` : ''}.</p>`;
@@ -1687,6 +1715,7 @@ function testarFala(i){
 /* Exercícios */
 function registrarEx(i, ok){
   if (estadoAula.ex[i] === undefined) estadoAula.ex[i] = ok;
+  registrarAtividade(estadoAula.t ? 'treino' : typeof estadoAula.n === 'number' ? 'aula' : 'musica');
   const total = estadoAula.a.exercicios.length;
   const feitos = Object.keys(estadoAula.ex).length;
   const acertos = Object.values(estadoAula.ex).filter(Boolean).length;
@@ -1780,6 +1809,7 @@ function responderCartao(certo){
   const id = sessao.fila[sessao.pos];
   const c = cs[id];
   const repetido = sessao.repetidos.has(id);
+  registrarAtividade('cartoes');
   if (c){
     if (certo){
       if (!repetido){
@@ -2305,6 +2335,393 @@ const PODCASTS = [
   {nome:'TED Talks Daily', apple:'160904630', nivel:'C1', desc:'Palestras completas em áudio, com sotaques variados (aulas 46 a 48).'}
 ];
 
+/* ============================================================
+   IMERSÃO: VÍDEO DO DIA E MÚSICA DA SEMANA
+   Vídeos do YouTube por nível (m = módulo). Se um vídeo não abrir
+   aqui dentro, o player passa sozinho para o próximo da lista.
+   ============================================================ */
+const VIDEOS_DIA = [
+  {m:1, id:'heycg7D5VZw', t:"Let's Learn English, lição 1: Welcome!", tipo:'Série de aulas', fonte:'VOA Learning English'},
+  {m:1, id:'quJ8dlyxWIk', t:"Let's Learn English, lição 1: Speaking Practice", tipo:'Série de aulas', fonte:'VOA Learning English'},
+  {m:1, id:'VCvr3MW_vFE', t:'I go to London', tipo:'História (nível 1)', fonte:'Learn English through Story'},
+  {m:1, id:'xARq1OWZX68', t:'My First Love', tipo:'História (nível 1)', fonte:'Learn English through Story'},
+  {m:1, id:'YobMZs82_7s', t:'Titanic', tipo:'História (nível 1)', fonte:'Learn English through Story'},
+  {m:1, id:'_rULHGpaufE', t:'Beauty and the Beast', tipo:'História (nível 1)', fonte:'Learn English through Story'},
+  {m:1, id:'gVOVd_d36BM', t:'English Story for Listening', tipo:'História (nível 1)', fonte:'Learn English through Story'},
+  {m:2, id:'TBddFDX2mVQ', t:'A vida de Henry Ford', tipo:'História (nível 2)', fonte:'Learn English through Story'},
+  {m:2, id:'-RoFWlphy8E', t:'The Bricklayer Secret', tipo:'História (nível 2)', fonte:'Learn English through Story'},
+  {m:2, id:'g7zGJXYVROk', t:'Circle of Destiny', tipo:'História (nível 2)', fonte:'Learn English through Story'},
+  {m:2, id:'jBTcRaHL8EQ', t:'Audio Story', tipo:'História (nível 2)', fonte:'Learn English through Story'},
+  {m:2, id:'ka7UBM9AvSc', t:'Improve your English', tipo:'História (nível 2)', fonte:'Learn English through Story'},
+  {m:2, id:'Ow8u0Zk2wV4', t:"Let's Learn English nível 2, lição 17: Flour Baby", tipo:'Série de aulas', fonte:'VOA Learning English'},
+  {m:2, id:'cGAdSwLci5A', t:'Easy English Podcast for Beginners', tipo:'Podcast em vídeo', fonte:'Easy English Podcast'},
+  {m:3, id:'AqnvjVEI_Bo', t:'Travel', tipo:'História (nível 3)', fonte:'Learn English through Story'},
+  {m:3, id:'5oskurhpZ7c', t:'Education', tipo:'História (nível 3)', fonte:'Learn English through Story'},
+  {m:3, id:'Hj29PwozBgs', t:'Professional Life', tipo:'História (nível 3)', fonte:'Learn English through Story'},
+  {m:3, id:'mGk1APajb38', t:'Daily Routines', tipo:'História (nível 3)', fonte:'Learn English through Story'},
+  {m:3, id:'Kkj_6s6s4tM', t:'Lost in the Wilderness', tipo:'História (B1)', fonte:'Learn English through Story'},
+  {m:3, id:'yl5-ygiPOkM', t:'London Interviews, episódio 1', tipo:'Entrevistas na rua', fonte:'London Interviews'},
+  {m:3, id:'T0B226SZ3KU', t:'Easy English Podcast (B1)', tipo:'Podcast em vídeo', fonte:'Easy English Podcast'},
+  {m:4, id:'_ieNtCkXxCE', t:'The Holiday', tipo:'História (B1 e B2)', fonte:'Intermediate English Story'},
+  {m:4, id:'nsO1H6Zk2K4', t:'6 Minute English: Technology and lifestyle', tipo:'Podcast em vídeo (30 min)', fonte:'BBC Learning English'},
+  {m:4, id:'72Jatay2T6g', t:'6 Minute English: Language 3', tipo:'Podcast em vídeo (30 min)', fonte:'BBC Learning English'},
+  {m:4, id:'D9Ihs241zeg', t:'The danger of a single story', tipo:'Palestra (Chimamanda Adichie)', fonte:'TED'},
+  {m:4, id:'iG9CE55wbtY', t:'Do schools kill creativity?', tipo:'Palestra (Ken Robinson)', fonte:'TED'},
+  {m:4, id:'u4ZoJKF_VuA', t:'Start with why', tipo:'Palestra (Simon Sinek)', fonte:'TEDx'},
+  {m:4, id:'arj7oStGLkU', t:'Inside the mind of a master procrastinator', tipo:'Palestra (Tim Urban)', fonte:'TED'},
+  {m:5, id:'iCvmsMzlF7o', t:'The power of vulnerability', tipo:'Palestra (Brené Brown)', fonte:'TEDx'},
+  {m:5, id:'Ks-_Mh1QhMc', t:'Your body language may shape who you are', tipo:'Palestra (Amy Cuddy)', fonte:'TED'},
+  {m:5, id:'UF8uR6Z6KLc', t:'Steve Jobs na formatura de Stanford (2005)', tipo:'Discurso', fonte:'Stanford'},
+  {m:5, id:'8KkKuTCFvzI', t:'What makes a good life?', tipo:'Palestra (Robert Waldinger)', fonte:'TED'},
+  {m:5, id:'_LlyKiROzhU', t:'6 Minute English: Human Emotions', tipo:'Podcast em vídeo (1 hora)', fonte:'BBC Learning English'},
+  {m:5, id:'b5DOQ7iOzO4', t:'6 Minute English: Lifestyle', tipo:'Podcast em vídeo (1 hora)', fonte:'BBC Learning English'},
+  {m:5, id:'fcN0BXzK8bg', t:'6 Minute English: All About Language', tipo:'Podcast em vídeo (1 hora)', fonte:'BBC Learning English'}
+];
+/* Música da semana: o app nunca mostra a letra; o foco descreve o que estudar nela */
+const MUSICAS = [
+  {k:'let-it-be', m:1, ids:['CGj85pVzRJs'], t:'Let It Be', a:'The Beatles', ano:1970,
+   foco:['Imperativo com let: let it be é “deixe estar”.','Presente simples com -s na 3ª pessoa (Mother Mary comes to me) e frases com when.','Pronúncia: o /iː/ longo de be contra o /ɪ/ curto de it (aula 1).','No inglês americano, let it soa quase como “lé-dit”.']},
+  {k:'count-on-me', m:1, ids:['6k8cpUkKK4c', 'VIHFZEYGA3g'], t:'Count on Me', a:'Bruno Mars', ano:2010,
+   foco:['Condicional real: if you ever… , I’ll… (se um dia você…, eu vou…).','count on = contar com. Nunca count with.','can para possibilidade: you can count on me.','Ligação: count on me soa “coun-ton-me”.']},
+  {k:'yellow', m:1, ids:['yKNxeF4KMsY'], t:'Yellow', a:'Coldplay', ano:2000,
+   foco:['Imperativo: look at the stars.','Passado simples irregular: came, wrote.','Formas fracas: for you soa “fer you”.','Ritmo lento, bom para acompanhar palavra por palavra.']},
+  {k:'perfect', m:1, ids:['2Vv-BfVoq4g'], t:'Perfect', a:'Ed Sheeran', ano:2017,
+   foco:['Passado simples: I found a love.','Verbos com -ing descrevendo a cena (listening to our favourite song).','Vocabulário de romance e o vocativo darling.','Pronúncia: o TH de the e o R americano.']},
+  {k:'just-the-way-you-are', m:2, ids:['LjhCEhWiKXk'], t:'Just the Way You Are', a:'Bruno Mars', ano:2010,
+   foco:['Adjetivos para aparência: eyes, hair, smile (aula 12).',"’cause no lugar de because, comum na fala e nas músicas.",'would para hipótese: there’s not a thing that I would change.','Ligação: way you are soa quase como uma palavra só.']},
+  {k:'happy', m:2, ids:['ZbZSe6N_BXs', 'UpEe5MKthRs'], t:'Happy', a:'Pharrell Williams', ano:2013,
+   foco:['Imperativo: clap along (bata palmas junto).','if you feel like + substantivo: se você se sente como…','Phrasal verb com along.','Ritmo: palavras de conteúdo fortes e de função fracas (aula 13).']},
+  {k:'thinking-out-loud', m:2, ids:['lp-EO5I60KA'], t:'Thinking Out Loud', a:'Ed Sheeran', ano:2014,
+   foco:['will para promessas; will be loving é o futuro contínuo.','used to para comparar passado e presente (aula 47).','thinking out loud = pensando em voz alta.','Pronúncia: o L final de feel e still sem virar “u”.']},
+  {k:'hello', m:2, ids:['YQHsXMglC9A', 'dv_mMs7fXCI'], t:'Hello', a:'Adele', ano:2015,
+   foco:['Cumprimentos e perguntas ao telefone: Hello, it’s me. Can you hear me?','must have + particípio: dedução sobre o passado (I must have called…).','Present perfect: I’ve forgotten.','Pronúncia: o H aspirado de hello e de how (aula 4).']},
+  {k:'someone-like-you', m:3, ids:['hLQl3WQQoQ0'], t:'Someone Like You', a:'Adele', ano:2011,
+   foco:['Contar o que ouviu dizer: I heard that you’re settled down.','Expressões: never mind (deixa pra lá), settle down (sossegar, se casar).','Contraste entre passado simples e presente.','Contrações: I’d, you’d, I’ll (aula 26).']},
+  {k:'the-scientist', m:3, ids:['RB-RcX5DS5A'], t:'The Scientist', a:'Coldplay', ano:2002,
+   foco:['Discurso indireto: nobody said it was easy (aula 36).','had to para obrigação no passado.','Imperativo com pedido: take me back to the start.','Ritmo: frases curtas, com pausas para respirar.']},
+  {k:'fix-you', m:3, ids:['hAx-2vNb2aU', 'Lyv0LgxtSsQ'], t:'Fix You', a:'Coldplay', ano:2005,
+   foco:['when + presente para situações gerais: when you try your best…','will + try to: promessa (I will try to fix you).','Verbo + to: try to, want to (aula 23).','Pronúncia: o /ɪ/ curto de fix e o schwa em succeed.']},
+  {k:'imagine', m:3, ids:['YkgkThdzX-8', 'DEi_cuXnwbI'], t:'Imagine', a:'John Lennon', ano:1971,
+   foco:['Imperativo imagine + objeto + -ing (imagine all the people living…).','Condicional real: it’s easy if you try.','no e nothing to … for: nothing to kill or die for.','Ótima para debater ideias no chat.']},
+  {k:'shake-it-off', m:4, ids:['nfWlot6h_JM'], t:'Shake It Off', a:'Taylor Swift', ano:2014,
+   foco:['Redução gonna repetida, como na fala rápida (aula 24).','Phrasal verb com o pronome no meio: shake it off (aula 37).','Gírias: players, haters, fakers.','Ritmo rápido: formas fracas e palavras ligadas.']},
+  {k:'believer', m:4, ids:['7wtfhZwyrcc'], t:'Believer', a:'Imagine Dragons', ano:2017,
+   foco:['Causativo make + pessoa + substantivo: you made me a believer.','Expressão: first things first.','Vocabulário de dor e superação.','Pronúncia: consoantes finais fortes, sem vogal extra (aulas 2 e 27).']},
+  {k:'rolling-in-the-deep', m:4, ids:['rYEDA3JcQqw', 'x9Qv47HpEqw'], t:'Rolling in the Deep', a:'Adele', ano:2010,
+   foco:['could have + particípio: we could have had it all (o que poderia ter sido).','gonna + wish: previsão com ressentimento.','Linguagem figurada: rolling in the deep.','Pronúncia: could’ve e had it ligados.']},
+  {k:'fast-car', m:5, ids:['AIOAlaACuv4'], t:'Fast Car', a:'Tracy Chapman', ano:1988,
+   foco:['Narrativa com planos e hipóteses: tempos variados e condicionais.','Vocabulário social: shelter, checkout girl, convenience store.','Uma história completa: ótima para resumir em ordem cronológica.','Ritmo quase falado, bom para shadowing.']},
+  {k:'bohemian-rhapsody', m:5, ids:['fJ9rUzIMcZQ'], t:'Bohemian Rhapsody', a:'Queen', ano:1975,
+   foco:['Perguntas retóricas: Is this the real life?','Frases sem sujeito, como na fala (aula 44).','Linguagem figurada e mudanças de registro na mesma música.','Ótima para discutir interpretação em inglês.']}
+];
+const diaNum = () => Math.floor(Date.parse(hoje() + 'T12:00:00') / 86400000);
+const semanaAtual = () => Math.floor((diaNum() + 3) / 7);
+const nivelAtual = () => moduloDa(proximaAula());
+function videoDoDia(){
+  const m = nivelAtual();
+  const lista = VIDEOS_DIA.filter(v => v.m === m);
+  const pulo = store.get('video:pulo', {})[hoje()] || 0;
+  const i = (diaNum() + pulo) % lista.length;
+  return {lista, i, v:lista[i]};
+}
+function musicaDaSemana(){
+  const sem = semanaAtual();
+  const escolhida = store.get('musica:escolha', {})[sem];
+  const doNivel = MUSICAS.filter(s => s.m === nivelAtual());
+  const s = MUSICAS.find(x => x.k === escolhida) || doNivel[sem % doNivel.length];
+  return {s, sem};
+}
+
+/* Dias de estudo, para a sequência e o plano do dia */
+function registrarAtividade(tipo){
+  const d = store.get('dias', {});
+  const h = hoje();
+  d[h] = d[h] || [];
+  if (d[h].includes(tipo)) return;
+  d[h].push(tipo);
+  const chaves = Object.keys(d).sort();
+  while (chaves.length > 400) delete d[chaves.shift()];
+  store.set('dias', d);
+}
+function sequencia(){
+  const d = store.get('dias', {});
+  let dia = hoje(), n = 0;
+  if (!(d[dia] || []).length) dia = somarDias(dia, -1);
+  while ((d[dia] || []).length){ n++; dia = somarDias(dia, -1); }
+  return n;
+}
+const segundosImersao = () => store.get('imersao:seg', {})[hoje()] || 0;
+const META_IMERSAO = 20 * 60;
+function planoDeHoje(){
+  const seg = segundosImersao();
+  const pend = Object.values(cartoes()).filter(c => c.due <= hoje()).length;
+  const dia = store.get('dias', {})[hoje()] || [];
+  const {s, sem} = musicaDaSemana();
+  const treinoProx = proximosTreinos(proximaAula(), 1)[0];
+  const idLivro = store.get('leitura:ultimo', null);
+  const livro = idLivro ? livroPorId(idLivro) : null;
+  const pl = livro ? progresso(livro.id) : null;
+  return [
+    {ok:seg >= META_IMERSAO || !!store.get('video:visto', {})[hoje()], t:'Vídeo do dia', d:`${Math.floor(seg / 60)} de 20 minutos`, go:'#imersao/hoje'},
+    {ok:pend === 0, t:'Flashcards', d:pend ? `${pend} para revisar` : 'Em dia', go:'#revisao/cartoes'},
+    {ok:dia.includes('treino'), t:'Um treino de prática', d:treinoProx ? `${NOME_TRILHA[treinoProx.trilha]}: ${treinoProx.titulo}` : 'Gramática, escuta ou escrita', go:treinoProx ? '#treino/' + treinoProx.id : '#pratica'},
+    {ok:dia.includes('leitura'), t:'Ler um capítulo', d:livro && !(pl && pl.lido) ? livro.title : 'Escolha um livro na Biblioteca', go:livro && !(pl && pl.lido) ? `#ler/${livro.id}/${(pl ? pl.cap : 0) + 1}` : '#biblioteca'},
+    {ok:store.get('musica:feita', {})[sem] === s.k, t:'Música da semana', d:`${s.t}, de ${s.a} (uma vez por semana)`, go:'#imersao/musica'}
+  ];
+}
+function htmlPlano(){
+  const itens = planoDeHoje();
+  const feitos = itens.filter(x => x.ok).length;
+  const seq = sequencia();
+  return `<h2 class="section-title">Plano de hoje</h2>
+    <p class="hint">${feitos} de ${itens.length} feitos.${seq ? ` Sequência: ${seq} ${seq === 1 ? 'dia' : 'dias'} de estudo sem falhar.` : ' Comece hoje a sua sequência de dias.'}</p>
+    <ul class="plan">${itens.map(x => `<li><button class="${x.ok ? 'ok' : ''}" data-go="${x.go}"><span class="mark" aria-hidden="true">${x.ok ? '✓' : ''}</span><span><span class="name">${esc(x.t)}</span><span class="sub">${esc(x.d)}</span></span>${ICON.fwd}</button></li>`).join('')}</ul>`;
+}
+function htmlProgresso(){
+  const conc = ids => ids.filter(id => resultados(id).concluida).length;
+  const aulas = EMENTA.filter(x => resultados(x[0]).concluida).length;
+  const cs = Object.values(cartoes());
+  const dominados = cs.filter(c => c.nivel >= 3).length;
+  const r = store.get('imersao:seg', {});
+  let semana = 0;
+  for (let i = 0; i < 7; i++) semana += r[somarDias(hoje(), -i)] || 0;
+  const barras = [
+    ['Fala: aulas concluídas', aulas, 49],
+    ['Gramática', conc(idsTreino('gramatica')), 49],
+    ['Escuta', conc(idsTreino('escuta')), ESCUTAS.length],
+    ['Escrita', conc(idsTreino('escrita')), ESCRITAS.length],
+    ['Vocabulário dominado', dominados, Math.max(cs.length, 1)],
+    ['Imersão nesta semana (minutos)', Math.round(semana / 60), 140]
+  ];
+  return `<h2 class="section-title">Seu progresso</h2>
+    <p class="hint">Nível atual: ${MODULOS[nivelAtual() - 1].nivel} (módulo ${nivelAtual()}).</p>
+    ${barras.map(([n, v, total]) => `<div class="meter"><div class="meter-top"><span>${esc(n)}</span><span>${v} de ${total}</span></div><div class="bar"><span style="width:${Math.min(100, Math.round(v / total * 100))}%"></span></div></div>`).join('')}`;
+}
+
+/* Player do YouTube da imersão: conta os minutos assistidos e pula vídeos que não abrem aqui */
+const imersao = {player:null, timer:null};
+function contarImersao(ligar){
+  if (ligar && !imersao.timer){
+    imersao.timer = setInterval(() => {
+      const r = store.get('imersao:seg', {});
+      r[hoje()] = (r[hoje()] || 0) + 5;
+      const chaves = Object.keys(r).sort();
+      while (chaves.length > 90) delete r[chaves.shift()];
+      store.set('imersao:seg', r);
+      if (r[hoje()] >= 60) registrarAtividade('video');
+      const barra = $('#imProg'), txt = $('#imMin');
+      if (barra) barra.style.width = Math.min(100, Math.round(r[hoje()] / META_IMERSAO * 100)) + '%';
+      if (txt) txt.textContent = `${Math.floor(r[hoje()] / 60)} de 20 minutos hoje`;
+    }, 5000);
+  }
+  if (!ligar && imersao.timer){ clearInterval(imersao.timer); imersao.timer = null; }
+}
+function tocarImersao(elId, ids, aoTrocar){
+  let i = 0;
+  comYT(() => {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    const player = new YT.Player(el, {videoId:ids[0], playerVars:{playsinline:1, rel:0}, events:{
+      onError: () => {
+        i++;
+        if (i < ids.length){ if (aoTrocar) aoTrocar(i); try { player.cueVideoById(ids[i]); } catch(e) {} }
+        else aviso('Este vídeo não abre dentro do app. Use Abrir no YouTube.');
+      },
+      onStateChange: ev => contarImersao(ev.data === 1)
+    }});
+    imersao.player = player;
+  });
+}
+const linkYT = id => 'https://www.youtube.com/watch?v=' + encodeURIComponent(id);
+
+/* Tela de imersão */
+const SECOES_IMERSAO = [['hoje', 'Vídeo do dia'], ['musica', 'Música da semana'], ['videos', 'Vídeos'], ['podcasts', 'Podcasts']];
+function telaImersao(sec){
+  if (!SECOES_IMERSAO.some(x => x[0] === sec)) sec = 'hoje';
+  const seg = `<div class="seg" role="tablist">${SECOES_IMERSAO.map(([k, nome]) => `<button class="btn sm${k === sec ? ' primary' : ''}" data-go="#imersao/${k}"${k === sec ? ' aria-current="page"' : ''}>${nome}</button>`).join('')}</div>`;
+  const nivel = MODULOS[nivelAtual() - 1].nivel;
+  let corpo = '';
+  if (sec === 'hoje'){
+    const {v} = videoDoDia();
+    const e = aulaEmenta(proximaAula());
+    const notas = store.get('video:notas', {})[hoje()] || {};
+    const seg2 = segundosImersao();
+    corpo = `<div class="media-card"><h3 id="vdTitulo">${esc(v.t)}</h3><p class="hint" id="vdInfo">${esc(v.tipo)} · ${esc(v.fonte)} · nível ${nivel}</p>
+        <div class="video-wrap"><div id="playerDia"></div></div>
+        <div class="meter"><div class="meter-top"><span id="imMin">${Math.floor(seg2 / 60)} de 20 minutos hoje</span></div><div class="bar"><span id="imProg" style="width:${Math.min(100, Math.round(seg2 / META_IMERSAO * 100))}%"></span></div></div>
+        <div class="row mt"><button class="btn sm" data-act="video-outro">Outro vídeo</button><button class="btn sm" data-act="video-visto">Já assisti hoje</button><a class="btn sm" id="vdLink" href="${linkYT(v.id)}" target="_blank" rel="noopener">Abrir no YouTube</a></div></div>
+      <h2 class="section-title">Como assistir</h2>
+      <ol class="steps">
+        <li>Ative a legenda em inglês (CC). Legenda em português não ajuda o ouvido.</li>
+        <li>Fique atento ao som da sua aula atual: ${esc(e.som)}. ${esc(e.armadilha)}</li>
+        <li>Anote 5 expressões que você ouviu e quer usar.</li>
+        <li>Escolha 3 frases curtas, volte o vídeo e repita junto (shadowing), imitando ritmo e entonação.</li>
+        <li>Escreva um resumo de 3 a 5 frases e leve para o chat.</li>
+      </ol>
+      <label class="hint" for="vdExp">Expressões que anotei</label>
+      <textarea class="field" id="vdExp" data-campo="exp" rows="3" lang="en" placeholder="Uma por linha">${esc(notas.exp || '')}</textarea>
+      <label class="hint" for="vdRes">Meu resumo em inglês</label>
+      <textarea class="field writing" id="vdRes" data-campo="resumo" lang="en" placeholder="This video is about...">${esc(notas.resumo || '')}</textarea>
+      <div class="row mt"><button class="btn primary" data-act="video-prompt">Copiar prompt para o chat</button><button class="btn" data-act="importar-aula">${ICON.importar}Importar resultado</button></div>
+      <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt"></textarea>`;
+  } else if (sec === 'musica'){
+    const {s, sem} = musicaDaSemana();
+    const feita = store.get('musica:feita', {})[sem] === s.k;
+    const imp = store.get('extras', {})['musica:' + s.k];
+    const busca = encodeURIComponent(`${s.a} ${s.t}`);
+    const blocos = [];
+    let k = 0;
+    if (imp && (imp.exercicios || []).length) blocos.push(bloco(++k, 'Exercícios do chat', 'ex', pct(resultados('musica:' + s.k).exercicios), `${estadoAula.a.exercicios.map(htmlExercicio).join('')}<div class="fb" id="xsum"></div>`));
+    if (imp && (imp.vocabulario || []).length) blocos.push(bloco(++k, 'Vocabulário', 'voc', '', `<p class="hint">Já está nos seus flashcards.</p>${imp.vocabulario.map(htmlVocab).join('')}`));
+    if (imp && (imp.erros || []).length) blocos.push(bloco(++k, 'Erros', 'err', '', `<p class="hint">Já estão no caderno de erros.</p>${imp.erros.map(htmlErro).join('')}`));
+    corpo = `<p class="hint">Uma música por semana, do seu nível. Ouça durante a semana e faça uma aula no chat sobre a construção da letra.</p>
+      <div class="media-card"><h3>${esc(s.t)}</h3><p class="hint">${esc(s.a)}, ${s.ano} · nível ${MODULOS[s.m - 1].nivel}</p>
+        <div class="video-wrap"><div id="playerMusica"></div></div>
+        <div class="row"><a class="btn sm" id="muLink" href="${linkYT(s.ids[0])}" target="_blank" rel="noopener">Abrir no YouTube</a><a class="btn sm" href="https://www.google.com/search?q=${busca}%20lyrics" target="_blank" rel="noopener">Ver a letra</a><a class="btn sm" href="https://open.spotify.com/search/${busca}" target="_blank" rel="noopener">Spotify</a></div></div>
+      <h2 class="section-title">O que trabalhar nesta música</h2>
+      <ul class="steps">${s.foco.map(f => `<li>${esc(f)}</li>`).join('')}</ul>
+      <h2 class="section-title">Roteiro da semana</h2>
+      <ol class="steps">
+        <li>Dia 1: ouça sem a letra e diga em voz alta, em inglês, do que a música fala.</li>
+        <li>Dia 2: ouça com a letra e marque as palavras que você não tinha ouvido. Elas mostram onde o inglês junta ou reduz sons.</li>
+        <li>Dia 3: faça a aula no chat com o prompt abaixo: tempos verbais, gírias, vocabulário, pronúncia e escuta.</li>
+        <li>Dias 4 a 7: cante junto um trecho por dia (shadowing) e grave-se cantando o refrão.</li>
+      </ol>
+      <div class="row"><button class="btn primary" data-act="musica-prompt">Copiar prompt da música</button><button class="btn" data-act="importar-aula">${ICON.importar}Importar resultado</button></div>
+      <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt"></textarea>
+      ${blocos.length ? `<div class="acts">${blocos.join('')}</div>` : ''}
+      <div class="head-actions">${feita ? '<span class="hint">Música da semana concluída.</span>' : '<button class="btn primary" data-act="musica-feita">Marcar a música da semana como concluída</button>'}</div>
+      <h2 class="section-title">Trocar a música desta semana</h2>
+      <ul class="lesson-list">${MUSICAS.map(x => `<li><button data-act="musica-escolher" data-k="${x.k}"><span class="num">${MODULOS[x.m - 1].nivel}</span><span><span class="name">${esc(x.t)}</span><span class="sub">${esc(x.a)}, ${x.ano}</span></span><span class="tag${x.k === s.k ? ' next' : ''}">${x.k === s.k ? 'Desta semana' : ''}</span></button></li>`).join('')}</ul>`;
+  } else if (sec === 'videos'){
+    const meus = store.get('videos:meus', []);
+    corpo = `<p class="hint">Histórias, entrevistas, podcasts em vídeo e palestras, por nível. Toque em Assistir aqui para carregar o vídeo.</p>
+      ${MODULOS.map(m => `<section class="module"><h2>Módulo ${m.n}</h2><p class="note">Nível ${m.nivel}</p>
+        ${VIDEOS_DIA.filter(v => v.m === m.n).map(v => `<div class="media-card"><h3>${esc(v.t)}</h3><p class="hint">${esc(v.tipo)} · ${esc(v.fonte)}</p>
+          <div class="video-wrap" id="vw-${esc(v.id)}"><button class="btn primary sm load-video" data-act="video-carregar" data-id="${esc(v.id)}">Assistir aqui</button></div>
+          <div class="row"><a class="btn sm" href="${linkYT(v.id)}" target="_blank" rel="noopener">Abrir no YouTube</a></div></div>`).join('')}</section>`).join('')}
+      <h2 class="section-title">Canais para seguir</h2>
+      ${CANAIS.map(c => `<div class="media-card"><h3>${esc(c.nome)}</h3><p class="hint">${esc(c.desc)} Nível ${esc(c.nivel)}.</p>
+        <div class="row"><a class="btn sm" href="${esc(c.id ? 'https://www.youtube.com/channel/' + c.id : c.url)}" target="_blank" rel="noopener">Abrir o canal</a></div></div>`).join('')}
+      <h2 class="section-title">Meus vídeos</h2>
+      <p class="hint">Cole o link de um vídeo do YouTube para guardar aqui. Se o link tiver o tempo (&t=90s), o vídeo começa nesse ponto.</p>
+      <input class="field" id="vUrl" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="https://www.youtube.com/watch?v=...">
+      <input class="field mt" id="vTitulo" autocomplete="off" placeholder="Título (opcional)">
+      <div class="row mt"><button class="btn primary sm" data-act="video-add">Adicionar vídeo</button></div>
+      ${meus.map((v, i) => `<div class="media-card"><h3>${esc(v.titulo || 'Vídeo')}</h3>
+        <div class="video-wrap"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}?rel=0&playsinline=1${v.inicio ? '&start=' + v.inicio : ''}" title="${esc(v.titulo || 'Vídeo')}" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="row"><a class="btn sm" href="${linkYT(v.id)}" target="_blank" rel="noopener">Abrir no YouTube</a><button class="btn sm" data-act="video-del" data-i="${i}">Remover</button></div></div>`).join('') || '<p class="empty">Nenhum vídeo seu ainda.</p>'}`;
+  } else corpo = htmlPodcasts();
+  return `<header class="page-head"><h1>Imersão</h1><p>Vídeos, músicas e podcasts para treinar o ouvido todo dia. Meta: 20 minutos de vídeo por dia e uma música por semana.</p></header>${seg}${corpo}`;
+}
+function depoisDeImersao(sec){
+  if (sec === 'hoje'){
+    const {lista, i} = videoDoDia();
+    const ordem = lista.slice(i).concat(lista.slice(0, i));
+    tocarImersao('playerDia', ordem.map(v => v.id), k => {
+      const v = ordem[k];
+      $('#vdTitulo').textContent = v.t;
+      $('#vdInfo').textContent = `${v.tipo} · ${v.fonte}`;
+      $('#vdLink').href = linkYT(v.id);
+    });
+  } else if (sec === 'musica'){
+    const {s} = musicaDaSemana();
+    tocarImersao('playerMusica', s.ids, k => { $('#muLink').href = linkYT(s.ids[k]); });
+  }
+}
+
+/* Prompts de imersão e do clube do livro */
+function cabecalhoPrompt(m){
+  return `Você é meu professor de inglês. Sou brasileiro, estou no nível ${MODULOS[m - 1].nivel} (módulo ${m} de 5) e faço um curso focado em ouvir e falar, com aulas aqui no chat e exercícios num app meu. Explique em português e converse comigo em inglês no meu nível. Dê atenção especial aos erros típicos de quem fala português: falsos cognatos, pronúncia (vogais longas e curtas, TH, R, consoantes finais sem vogal extra) e estruturas traduzidas ao pé da letra.`;
+}
+function finalPrompt(modelo, extras){
+  return ['', 'QUANDO EU ESCREVER "FIM DA AULA"', 'Gere o JSON num único bloco de código, só com o JSON dentro, neste formato:', JSON.stringify(modelo, null, 2), 'Regras do JSON:',
+    `- "chave" e "origem" devem ficar exatamente como no modelo.`,
+    '- vocabulario: só o que for novo para mim; marque "producao": true no que devo saber falar; em "tonica", a sílaba forte em maiúsculas.',
+    '- erros: tudo o que eu errei, com "tipo" igual a "pronuncia", "gramatica" ou "vocabulario".', ...extras].join('\n');
+}
+const vocabModelo = [{termo:'look forward to', traducao:'estar ansioso por (algo bom)', exemplo:"I'm looking forward to the weekend.", tonica:'look FOR-ward to', falso_cognato:false, producao:true}];
+const errosModelo = [{disse:'I have 30 years', certo:"I'm 30", explicacao:'Idade usa to be.', tipo:'gramatica'}];
+function gerarPromptVideo(){
+  const {v} = videoDoDia();
+  const m = nivelAtual();
+  const e = aulaEmenta(proximaAula());
+  const notas = store.get('video:notas', {})[hoje()] || {};
+  const L = [cabecalhoPrompt(m), '',
+    'HOJE: CONVERSA SOBRE O VÍDEO DO DIA',
+    `- Vídeo: ${v.t} (${v.tipo}, ${v.fonte}): ${linkYT(v.id)}`,
+    '- Você não consegue assistir ao vídeo. Trabalhe com o que eu contar, com as expressões que anotei e com a transcrição, se eu colar.',
+    `- Som da minha aula atual: ${e.som}. Armadilha: ${e.armadilha}`,
+    '', 'EXPRESSÕES QUE ANOTEI', notas.exp && notas.exp.trim() ? notas.exp.trim() : '(nenhuma ainda: me peça para anotar algumas)',
+    '', 'MEU RESUMO', notas.resumo && notas.resumo.trim() ? notas.resumo.trim() : '(ainda não escrevi: me peça para contar o vídeo primeiro)',
+    '', 'COMO CONDUZIR',
+    '1. Peça para eu contar do que o vídeo trata, em inglês, e faça perguntas de acompanhamento como numa conversa.',
+    '2. Corrija meu resumo explicando em português, com foco nos erros típicos de brasileiro.',
+    '3. Para cada expressão anotada: significado, sílaba tônica, um exemplo e se é falso cognato.',
+    '4. Escolha 3 frases minhas e me peça para dizê-las de novo, de um jeito mais natural.',
+    '5. Termine com 2 perguntas de opinião sobre o tema, para eu responder em inglês.',
+    'Faça uma etapa por vez e espere minha resposta.'];
+  return L.join('\n') + '\n' + finalPrompt({tipo:'extra', versao:1, chave:'video:' + hoje(), origem:'Vídeo do dia: ' + v.t, vocabulario:vocabModelo, erros:errosModelo, notas:'O que retomar'}, []);
+}
+function gerarPromptMusica(){
+  const {s} = musicaDaSemana();
+  const L = [cabecalhoPrompt(nivelAtual()), '',
+    'HOJE: AULA COM MÚSICA (atividade da semana)',
+    `- Música: ${s.t}, de ${s.a} (${s.ano}): ${linkYT(s.ids[0])}`,
+    `- Pontos que quero trabalhar: ${s.foco.join(' ')}`,
+    '- Não reproduza a letra completa, por causa dos direitos autorais. Comente só trechos curtos, de uma linha por vez. Se eu colar um trecho, trabalhe a partir dele.',
+    '', 'COMO CONDUZIR',
+    '1. Contexto: do que a música fala, em poucas frases. Antes, pergunte o que eu entendi ouvindo.',
+    '2. Tempos verbais e estruturas: mostre como a música os usa, compare com o português e peça frases minhas com a mesma estrutura.',
+    '3. Gírias, reduções e expressões (gonna, wanna, ’cause, expressões idiomáticas): o que significam e quando usar na conversa.',
+    '4. Vocabulário: de 8 a 12 palavras ou expressões, com a sílaba tônica e os falsos cognatos.',
+    '5. Pronúncia e escuta: ligações entre palavras, sons difíceis para brasileiros e onde o cantor junta ou reduz palavras. Me desafie a dizer o que ouvi em 2 ou 3 pontos.',
+    '6. Produção: peça para eu escrever 4 versos meus sobre o mesmo tema, usando as estruturas, e corrija.',
+    'Faça uma etapa por vez e espere minha resposta.'];
+  return L.join('\n') + '\n' + finalPrompt({tipo:'extra', versao:1, chave:'musica:' + s.k, origem:'Música: ' + s.t,
+    exercicios:[{tipo:'lacuna', frase:"You can ___ on me.", resposta:['count']}], vocabulario:vocabModelo, erros:errosModelo, notas:'O que retomar'},
+    ['- exercicios: de 6 a 10 itens com frases novas que usem as estruturas da música, misturando lacuna (use ___), ordenar, escolha e corrigir. Nunca use trechos da letra.', '- Nunca inclua letra de música no JSON.']);
+}
+function gerarPromptClube(b, ci){
+  const c = b.chapters[ci];
+  const ultimo = ci === b.chapters.length - 1;
+  const L = [cabecalhoPrompt(b.module), '',
+    'HOJE: CLUBE DO LIVRO',
+    `- Livro: ${b.title}, de ${b.author}${b.year ? ` (${b.year})` : ''}, numa adaptação para o nível ${MODULOS[b.module - 1].nivel}.`,
+    `- Capítulo ${ci + 1} de ${b.chapters.length}: ${c.title}`,
+    '', 'TEXTO DO CAPÍTULO (versão adaptada que eu li)', c.paragraphs.join('\n\n')];
+  if ((c.glossary || []).length) L.push('', 'GLOSSÁRIO DO APP', c.glossary.map(g => `${g.term}: ${g.meaning}`).join('; '));
+  L.push('', 'COMO CONDUZIR',
+    '1. Pergunte o que aconteceu no capítulo e deixe eu contar em inglês, com minhas palavras. Corrija depois.',
+    '2. Faça 3 perguntas de compreensão e 2 de interpretação (personagens, motivos, o que eu faria no lugar deles).',
+    '3. Vocabulário: de 6 a 10 palavras ou expressões do capítulo, com a sílaba tônica e os falsos cognatos que confundem o brasileiro.',
+    '4. Gramática em contexto: 2 estruturas do capítulo que o brasileiro costuma errar, com uma frase minha para cada.',
+    '5. Pronúncia: escolha um parágrafo curto para eu ler em voz alta e aponte 5 palavras difíceis para brasileiros.',
+    ultimo ? '6. Opinião: o que achei do final e do livro, e se recomendaria.' : '6. Previsão: o que eu acho que vai acontecer no próximo capítulo, e por quê.',
+    'Faça uma etapa por vez e espere minha resposta.');
+  return L.join('\n') + '\n' + finalPrompt({tipo:'extra', versao:1, chave:`livro:${b.id}:${ci + 1}`, origem:`Clube do livro: ${b.title}, capítulo ${ci + 1}`, vocabulario:vocabModelo, erros:errosModelo, notas:'O que retomar'}, []);
+}
+function importarExtra(p){
+  if (typeof p.chave !== 'string' || !/^(video|musica|livro):/.test(p.chave)){ aviso('Arquivo inválido: o campo chave não foi reconhecido.'); return false; }
+  const erro = validarListas(p);
+  if (erro){ aviso('Arquivo inválido: ' + erro); return false; }
+  const origem = typeof p.origem === 'string' && p.origem ? p.origem : p.chave;
+  const todos = store.get('extras', {});
+  const reimportacao = !!todos[p.chave];
+  p.importadaEm = new Date().toISOString();
+  todos[p.chave] = p;
+  store.set('extras', todos);
+  guardarVocabulario(p.vocabulario, origem);
+  store.set('erros', guardarErros(p.erros, origem, !reimportacao).cad);
+  const tipo = p.chave.split(':')[0];
+  registrarAtividade(tipo === 'livro' ? 'leitura' : tipo === 'musica' ? 'musica' : 'video');
+  if (tipo === 'musica'){ const f = store.get('musica:feita', {}); f[semanaAtual()] = p.chave.slice(7); store.set('musica:feita', f); }
+  aviso(`Importado: ${(p.vocabulario || []).length} palavras e ${(p.erros || []).length} erros.`);
+  telaAtual = '';
+  rota();
+  return true;
+}
+
 const NOME_TRILHA = {gramatica:'Gramática', escuta:'Escuta', escrita:'Escrita'};
 const ORDEM_TRILHA = {gramatica:0, escuta:1, escrita:2};
 function exCompacto(s){
@@ -2361,8 +2778,9 @@ function montarTreino(t){
     vocabulario:imp.vocabulario || [], erros:imp.erros || [], notas:imp.notas || '', imp};
 }
 function rotuloOrigem(o){
-  const t = typeof o === 'string' ? treino(o) : null;
-  return t ? `${NOME_TRILHA[t.trilha]}: ${t.titulo}` : 'Aula ' + o;
+  if (typeof o !== 'string') return 'Aula ' + o;
+  const t = treino(o);
+  return t ? `${NOME_TRILHA[t.trilha]}: ${t.titulo}` : o;
 }
 function tagTreino(t){
   const r = resultados(t.id);
@@ -2376,21 +2794,17 @@ function proximosTreinos(n, max){
 }
 
 /* Telas da prática */
-const SECOES_PRATICA = [['gramatica', 'Gramática'], ['escuta', 'Escuta'], ['escrita', 'Escrita'], ['videos', 'Vídeos'], ['podcasts', 'Podcasts']];
+const SECOES_PRATICA = [['gramatica', 'Gramática'], ['escuta', 'Escuta'], ['escrita', 'Escrita']];
 function telaPratica(sec){
   if (!SECOES_PRATICA.some(s => s[0] === sec)) sec = 'gramatica';
   const intro = {
     gramatica:'Uma unidade para cada aula, com explicação curta e exercícios corrigidos na hora. Nos checkpoints, uma revisão sorteada do módulo.',
     escuta:'Diálogos lidos pela voz do aparelho, com perguntas, ditado e repetição. Cada unidade também tem um prompt para uma aula de escuta com vídeo ou podcast no chat.',
-    escrita:'Uma tarefa de escrita por etapa, com checklist conferido pelo app, texto modelo e um prompt para o Claude corrigir seu texto.',
-    videos:'Toque em Carregar vídeos para ver os vídeos mais recentes de cada canal aqui dentro. Para uma aula de escuta com perguntas, use o prompt das unidades de Escuta.',
-    podcasts:'Podcasts para ouvir no caminho. Os links abrem no Apple Podcasts ou numa busca no Spotify.'
+    escrita:'Uma tarefa de escrita por etapa, com checklist conferido pelo app, texto modelo e um prompt para o Claude corrigir seu texto.'
   }[sec];
   const seg = `<div class="seg" role="tablist">${SECOES_PRATICA.map(([k, nome]) => `<button class="btn sm${k === sec ? ' primary' : ''}" data-go="#pratica/${k}"${k === sec ? ' aria-current="page"' : ''}>${nome}</button>`).join('')}</div>`;
   let corpo;
-  if (sec === 'videos') corpo = htmlVideos();
-  else if (sec === 'podcasts') corpo = htmlPodcasts();
-  else {
+  {
     const lista = idsTreino(sec).map(treino).filter(Boolean);
     corpo = MODULOS.map(m => {
       const doModulo = lista.filter(t => t.modulo === m.n);
@@ -2403,23 +2817,6 @@ function telaPratica(sec){
     }).join('');
   }
   return `<header class="page-head"><h1>Prática</h1><p>${esc(intro)}</p></header>${seg}${corpo}`;
-}
-function htmlVideos(){
-  const meus = store.get('videos:meus', []);
-  const canais = CANAIS.map((c, i) => `<div class="media-card"><h3>${esc(c.nome)}</h3>
-      <p class="hint">${esc(c.desc)} Nível ${esc(c.nivel)}; módulos ${c.modulos.join(', ')}.</p>
-      ${c.id ? `<div class="video-wrap" id="canal-${i}"><button class="btn primary sm load-video" data-act="canal-carregar" data-ci="${i}">Carregar vídeos</button></div>` : ''}
-      <div class="row"><a class="btn sm" href="${esc(c.id ? 'https://www.youtube.com/channel/' + c.id : c.url)}" target="_blank" rel="noopener">Abrir no YouTube</a></div></div>`).join('');
-  const lista = meus.map((v, i) => `<div class="media-card"><h3>${esc(v.titulo || 'Vídeo')}</h3>
-      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}?rel=0&playsinline=1${v.inicio ? '&start=' + v.inicio : ''}" title="${esc(v.titulo || 'Vídeo')}" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
-      <div class="row"><button class="btn sm" data-act="video-del" data-i="${i}">Remover</button></div></div>`).join('');
-  return `<h2 class="section-title">Canais</h2>${canais}
-    <h2 class="section-title">Meus vídeos</h2>
-    <p class="hint">Cole o link de um vídeo do YouTube para guardar aqui. Se o link tiver o tempo (&t=90s), o vídeo começa nesse ponto.</p>
-    <input class="field" id="vUrl" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="https://www.youtube.com/watch?v=...">
-    <input class="field mt" id="vTitulo" autocomplete="off" placeholder="Título (opcional)">
-    <div class="row mt"><button class="btn primary sm" data-act="video-add">Adicionar vídeo</button></div>
-    ${lista || '<p class="empty">Nenhum vídeo seu ainda.</p>'}`;
 }
 function htmlPodcasts(){
   return PODCASTS.map(p => `<div class="media-card"><h3>${esc(p.nome)}</h3><p class="hint">${esc(p.desc)} Nível ${esc(p.nivel)}.</p>
@@ -2486,7 +2883,7 @@ function telaTreino(t, a){
   const chat = t.trilha === 'escrita' ? '' : `<h2 class="section-title">Aula no chat (opcional)</h2>
     <p class="hint">${t.trilha === 'gramatica'
       ? 'Para praticar mais, copie o prompt e faça uma aula de gramática com o Claude. No fim, escreva “fim da aula” e importe o JSON: os exercícios novos aparecem aqui.'
-      : 'Escolha um vídeo (aba Vídeos) ou um episódio de podcast, copie o prompt e cole no chat junto com o link e a transcrição. No fim, importe o JSON: o trecho do vídeo, as perguntas e o ditado aparecem aqui.'}</p>
+      : 'Escolha um vídeo (aba Imersão) ou um episódio de podcast, copie o prompt e cole no chat junto com o link e a transcrição. No fim, importe o JSON: o trecho do vídeo, as perguntas e o ditado aparecem aqui.'}</p>
     <div class="row"><button class="btn primary" data-act="copiar-prompt-treino" data-id="${t.id}">Copiar prompt</button><button class="btn" data-act="importar-aula">${ICON.importar}Importar aula do chat</button></div>
     <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt"></textarea>`;
 
@@ -2542,6 +2939,7 @@ function checarEscrita(){
   $('#checklist').innerHTML = htmlChecklist(estadoAula.t, ta.value, true);
   const ok = itens.filter(x => x[1]).length;
   salvarResultado(estadoAula.t.id, 'checklist', Math.round(ok / itens.length * 100));
+  registrarAtividade('treino');
   aviso(ok === itens.length ? 'Checklist completo. Agora copie o prompt e peça a correção ao Claude.' : `${ok} de ${itens.length} itens do checklist.`);
 }
 
@@ -2721,10 +3119,52 @@ function acao(nome, el){
       telaAtual = '';
       rota();
       break;
-    case 'canal-carregar': {
-      const c = CANAIS[+d.ci];
-      const box = document.getElementById('canal-' + d.ci);
-      if (c && c.id && box) box.innerHTML = `<iframe src="https://www.youtube.com/embed/videoseries?list=UU${encodeURIComponent(c.id.slice(2))}&rel=0&playsinline=1" title="${esc(c.nome)}" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+    case 'video-outro': {
+      const p = store.get('video:pulo', {});
+      p[hoje()] = (p[hoje()] || 0) + 1;
+      store.set('video:pulo', p);
+      telaAtual = '';
+      rota();
+      break;
+    }
+    case 'video-visto': {
+      const v = store.get('video:visto', {});
+      v[hoje()] = true;
+      store.set('video:visto', v);
+      registrarAtividade('video');
+      aviso('Vídeo do dia marcado como visto.');
+      break;
+    }
+    case 'video-prompt': copiarTexto(gerarPromptVideo()); break;
+    case 'video-carregar': {
+      const box = document.getElementById('vw-' + d.id);
+      if (box){ box.innerHTML = `<div id="vp-${esc(d.id)}"></div>`; tocarImersao('vp-' + d.id, [d.id]); }
+      break;
+    }
+    case 'musica-prompt': copiarTexto(gerarPromptMusica()); break;
+    case 'musica-feita': {
+      const {s, sem} = musicaDaSemana();
+      const f = store.get('musica:feita', {});
+      f[sem] = s.k;
+      store.set('musica:feita', f);
+      registrarAtividade('musica');
+      aviso('Música da semana concluída.');
+      telaAtual = '';
+      rota();
+      break;
+    }
+    case 'musica-escolher': {
+      const e = store.get('musica:escolha', {});
+      e[semanaAtual()] = d.k;
+      store.set('musica:escolha', e);
+      telaAtual = '';
+      rota();
+      window.scrollTo(0, 0);
+      break;
+    }
+    case 'clube-prompt': {
+      const b = leitor.livro;
+      if (b) copiarTexto(gerarPromptClube(b, leitor.cap));
       break;
     }
     case 'video-add': {
@@ -2753,6 +3193,14 @@ function acao(nome, el){
 }
 document.addEventListener('input', e => {
   const ta = e.target;
+  if (ta.id === 'vdExp' || ta.id === 'vdRes'){
+    const n = store.get('video:notas', {});
+    n[hoje()] = {...(n[hoje()] || {}), [ta.dataset.campo]:ta.value};
+    const chaves = Object.keys(n).sort();
+    while (chaves.length > 60) delete n[chaves.shift()];
+    store.set('video:notas', n);
+    return;
+  }
   if (ta.id !== 'textoEscrita') return;
   store.set('texto:' + ta.dataset.id, ta.value);
   const t = treino(ta.dataset.id);
@@ -2797,6 +3245,8 @@ function rota(){
     speechSynthesis.cancel();
   }
   pararGravacao();
+  contarImersao(false);
+  imersao.player = null;
   $('#sheet').hidden = true;
 
   const partes = h.split('/');
@@ -2815,6 +3265,7 @@ function rota(){
     if (!b || ci >= b.chapters.length){ location.hash = '#biblioteca'; return; }
     leitor.livro = b; leitor.cap = ci;
     store.set('leitura:ultimo', b.id);
+    registrarAtividade('leitura');
     view.innerHTML = telaLeitor(b, ci);
     noLeitor = true;
     aba = 'biblioteca';
@@ -2838,7 +3289,17 @@ function rota(){
     view.innerHTML = telaAula(n, a);
     aba = 'aulas';
   } else if (partes[0] === 'pratica'){
+    if (partes[1] === 'videos' || partes[1] === 'podcasts'){ location.hash = '#imersao/' + partes[1]; return; }
     view.innerHTML = telaPratica(partes[1] || 'gramatica');
+  } else if (partes[0] === 'imersao'){
+    const sec = partes[1] || 'hoje';
+    if (sec === 'musica'){
+      const {s} = musicaDaSemana();
+      const imp = store.get('extras', {})['musica:' + s.k] || {};
+      prepararAula('musica:' + s.k, {exercicios:imp.exercicios || []});
+    }
+    view.innerHTML = telaImersao(sec);
+    depoisDeImersao(sec);
   } else if (partes[0] === 'treino'){
     const t = treino(partes[1]);
     if (!t){ location.hash = '#pratica'; return; }

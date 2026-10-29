@@ -61,6 +61,23 @@ A aba **Prática** tem treinos que o próprio app corrige, ligados às aulas de 
 
 Cada treino tem um prompt para uma aula no chat: gramática, escuta com um vídeo ou podcast que você escolher, ou correção do seu texto. No fim, o Claude gera um JSON com `"tipo": "pratica"` e o `"unidade"` do treino (por exemplo `g5`, `e3` ou `w2`). Ele entra pelo mesmo botão **Importar aula**: os exercícios novos, o trecho do vídeo com perguntas e o ditado aparecem no treino, o vocabulário vira flashcard e os erros vão para o caderno.
 
+## Plano de hoje e progresso
+
+A aba **Hoje** abre com o plano do dia: vídeo do dia (meta de 20 minutos), flashcards, um treino de prática, um capítulo de leitura e a música da semana. O app conta a sequência de dias de estudo e mostra o progresso por habilidade: fala, gramática, escuta, escrita, vocabulário e minutos de imersão na semana.
+
+## Imersão: vídeo do dia, música da semana, vídeos e podcasts
+
+- **Vídeo do dia:** um vídeo do YouTube por dia, do nível da sua próxima aula (histórias, entrevistas, podcasts em vídeo e palestras), tocado dentro do app. O app conta os minutos assistidos até a meta de 20. Se um vídeo não abrir dentro do app, o player passa sozinho para o próximo da lista. Há campos para anotar expressões e escrever um resumo, e um prompt para conversar sobre o vídeo no chat. A lista fica na constante `VIDEOS_DIA`.
+- **Música da semana:** uma música por semana, do seu nível, com o clipe oficial, o que estudar nela (tempo verbal, gírias, vocabulário e pronúncia), um roteiro de 7 dias e um prompt para discutir a construção da letra no chat. O app nunca mostra a letra; o link Ver a letra abre uma busca. A lista fica na constante `MUSICAS`.
+- **Vídeos:** todos os vídeos por nível, canais para seguir e uma lista sua de vídeos do YouTube.
+- **Podcasts:** links para o Apple Podcasts e uma busca no Spotify.
+
+## Clube do livro
+
+No fim de cada capítulo, na **Biblioteca**, o botão **Copiar prompt do clube do livro** monta uma aula de discussão com o texto do capítulo: compreensão, interpretação, vocabulário, gramática em contexto, pronúncia e previsão do próximo capítulo.
+
+Os prompts do vídeo do dia, da música e do clube do livro terminam com um JSON `"tipo": "extra"`. Ele entra pelo botão **Importar**: o vocabulário vira flashcard, os erros vão para o caderno e, na música, os exercícios aparecem na própria página.
+
 ## Seus dados
 
 Tudo fica salvo no navegador do aparelho. Exporte um backup pela aba **Hoje** de vez em quando, principalmente antes de trocar de celular ou limpar os dados do navegador, e restaure pela mesma aba. Não suba arquivos de aula nem backups no repositório: eles trazem seus erros e trechos de transcrições, e o repositório é público.
