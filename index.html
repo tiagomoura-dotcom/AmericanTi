@@ -272,6 +272,23 @@ dialog.importer textarea{width:100%;min-height:180px;margin:12px 0;font-family:u
 .sheet .def{font-size:.88rem;font-style:italic;color:var(--muted);margin-top:2px}
 .sheet-sec{margin-top:10px;padding-top:8px;border-top:1px solid var(--line);font-size:.92rem}
 .sheet .wiki{display:block;max-width:140px;max-height:140px;border-radius:8px;margin:8px 0 4px}
+.small{font-size:.8rem}
+.sheet .frase,.vocab-item .frase{font-family:var(--serif);margin-top:8px}
+.sheet .frase.strong{font-weight:600;font-size:1.05rem}
+.sheet .tr-linha{margin:4px 0 0}
+.sheet-sec.first{margin-top:0;padding-top:0;border-top:0}
+.sheet-sec.first + .sheet-sec.first{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+.sheet .wiki{max-width:100%;max-height:260px;cursor:zoom-in}
+.act summary .name .sub{display:block;font-family:var(--sans);font-size:.8rem;color:var(--muted)}
+.exemplo{display:block;width:100%;text-align:left;background:none;border:0;border-top:1px dashed var(--line);padding:10px 0;color:var(--ink)}
+.exemplo .frase{display:block;font-family:var(--serif)}
+.exemplo strong{text-decoration:underline}
+.vocab-item{padding:12px 0;border-bottom:1px dashed var(--line)}
+.vocab-item .t{font-family:var(--serif);font-size:1.15rem;font-weight:600}
+.vocab-item .def{font-size:.88rem;font-style:italic;color:var(--muted)}
+.img-cheia{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column;overflow:auto;touch-action:pinch-zoom}
+.img-cheia-top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:calc(10px + env(safe-area-inset-top,0px)) 14px 10px}
+.img-cheia img{max-width:100%;margin:auto;object-fit:contain}
 .exemplos{margin:4px 0 0;padding-left:1.1em;font-family:var(--serif);font-size:.95rem}
 .level-select{width:auto;padding:7px 10px}
 .plan{list-style:none;margin:10px 0 0;padding:0;border-top:1px solid var(--line)}
@@ -309,6 +326,7 @@ dialog.importer textarea{width:100%;min-height:180px;margin:12px 0;font-family:u
 <div class="audiobar" id="audiobar" hidden></div>
 <div class="sheet" id="sheet" hidden role="dialog" aria-live="polite"></div>
 <div class="toast" id="toast" hidden role="status"></div>
+<div class="img-cheia" id="imgCheia" hidden></div>
 <dialog class="importer" id="importer" aria-labelledby="impTitulo">
   <h2 id="impTitulo">Importar</h2>
   <p class="hint" id="impDica">Cole aqui o JSON ou escolha um arquivo .json.</p>
@@ -362,7 +380,9 @@ const CATALOGO = [
   {id:'three-musketeers-2', title:'The Three Musketeers, Part 2', author:'Alexandre Dumas', year:1844, module:3, arquivo:true, caps:10},
   {id:'macbeth', title:'Macbeth', author:'William Shakespeare', year:1606, module:3, arquivo:true, caps:9},
   {id:'othello', title:'Othello', author:'William Shakespeare', year:1604, module:3, arquivo:true, caps:8},
-  {id:'dracula-b1', title:'Dracula', author:'Bram Stoker', year:1897, module:3, arquivo:true, caps:28},
+  {id:'dracula-b1', title:'Dracula (completo)', author:'Bram Stoker', year:1897, module:3, arquivo:true, rico:true, caps:28},
+  {id:'moby-dick-b1', title:'Moby Dick (completo)', author:'Herman Melville', year:1851, module:3, arquivo:true, rico:true, caps:34},
+  {id:'red-and-black-b1', title:'The Red and the Black (completo)', author:'Stendhal', year:1830, module:3, arquivo:true, rico:true, caps:21},
   /* Módulo 4 (B2): romances com mais camadas, Shakespeare e Platão */
   {id:'sign-of-four', title:'The Sign of Four', author:'Arthur Conan Doyle', year:1890, module:4, arquivo:true, caps:12},
   {id:'red-and-black', title:'The Red and the Black', author:'Stendhal', year:1830, module:4, arquivo:true, caps:12},
@@ -628,7 +648,8 @@ function normalizarRico(o, id){
   const m = NIVEL_MODULO[String(o.level || '').toUpperCase()] || 3;
   const b = {id, title:o.title, author:o.author || '', year:o.year, module:m, level:o.level || MODULOS[m - 1].nivel, summary:o.description || '', rico:true,
     lex:o.lexicon || {forms:{}, entries:{}}, expr:o.expressions || [], gram:(o.grammar || []).slice().sort((x, y) => (x.order || 0) - (y.order || 0)), marcas:{},
-    chapters:o.chapters.map(c => ({title:c.title, paragraphs:c.paragraphs.map(p => p.t), estilos:c.paragraphs.map(p => p.s || 'p')}))};
+    chapters:o.chapters.map(c => ({title:c.title, paragraphs:c.paragraphs.map(p => p.t), estilos:c.paragraphs.map(p => p.s || 'p'),
+      trs:c.paragraphs.map(p => Array.isArray(p.tr) && p.tr.length ? p.tr : null)}))};
   /* Índice das marcas por capítulo e parágrafo: x = expressão, g = gramática */
   const marcar = (tipo, ref, occ) => {
     const [ci, pi, a, z, fa, fz] = occ;
@@ -650,15 +671,28 @@ function frasesComPosicao(t){
   else { const re = /[^.!?]+[.!?]+[”’"']?\s*|[^.!?]+$/g; let m; while ((m = re.exec(t))) add(m[0], m.index); }
   return out;
 }
+/* Frases de um parágrafo do livro rico, com a tradução (pt) quando o livro traz "tr" */
+function frasesRicas(b, ci, pi){
+  const c = b.chapters[ci], t = c.paragraphs[pi], tr = c.trs && c.trs[pi];
+  if (tr) return tr.map(([a, z, pt]) => ({a, z, txt:t.slice(a, z).trim(), pt})).filter(f => f.txt);
+  return frasesComPosicao(t);
+}
+/* Índice da primeira frase de cada parágrafo no capítulo (para saber o que já foi lido) */
+function inicioFrases(b, ci){
+  b._ini = b._ini || {};
+  if (!b._ini[ci]){ let k = 0; b._ini[ci] = b.chapters[ci].paragraphs.map((_, pi) => { const i = k; k += frasesRicas(b, ci, pi).length; return i; }); }
+  return b._ini[ci];
+}
 function htmlParagrafosRicos(b, ci){
   const c = b.chapters[ci];
   const forms = b.lex.forms || {};
   const verGram = store.get('leitor:gramatica', false);
   return c.paragraphs.map((t, pi) => {
     const marcas = (b.marcas[ci + ':' + pi] || []).filter(m => m.tipo === 'x' || verGram);
-    const html = frasesComPosicao(t).map(f => {
+    const html = frasesRicas(b, ci, pi).map(f => {
       const i = leitor.frases.length;
       leitor.frases.push(f.txt);
+      leitor.trad[i] = f.pt || '';
       let out = '', pos = f.a;
       const trecho = t.slice(f.a, f.z);
       for (const m of trecho.matchAll(/[A-Za-zÀ-ÿ’']+(?:-[A-Za-zÀ-ÿ’']+)*/g)){
@@ -681,7 +715,33 @@ function htmlParagrafosRicos(b, ci){
     return `<p>${html}</p>`;
   }).join('');
 }
-/* Folha com o significado da palavra tocada, as expressões e as notas de gramática daquele ponto */
+/* Folha da palavra (como no Leitor Inglês): expressões, palavra, frase com tradução, imagem e gramática */
+const GRAM_COMUNS = ['be_present', 'present_simple', 'be_past'];
+let folha = {itens:[]};
+const vocabLivros = () => store.get('vocab:livros', []);
+const vocabSalvo = (key, bookId) => vocabLivros().some(v => v.key === key && v.bookId === bookId);
+function alternarVocab(item){
+  const lista = vocabLivros();
+  const i = lista.findIndex(v => v.key === item.key && v.bookId === item.bookId);
+  if (i >= 0){
+    lista.splice(i, 1);
+    const cs = cartoes();
+    ['r:', 'p:'].forEach(pre => { const c = cs[pre + normalizar(item.word)]; if (c && String(c.aula).startsWith('Livro')) delete cs[pre + normalizar(item.word)]; });
+    store.set('cartoes', cs);
+    aviso('Removido do vocabulário.');
+  } else {
+    lista.push({...item, added:Date.now()});
+    guardarVocabulario([{termo:item.word, traducao:item.pt, exemplo:item.example, producao:true}], 'Livro: ' + item.bookTitle);
+    registrarAtividade('leitura');
+    aviso('Enviado para o vocabulário e para os flashcards.');
+  }
+  store.set('vocab:livros', lista);
+}
+function botaoVocab(k){
+  const it = folha.itens[k];
+  const salvo = vocabSalvo(it.key, it.bookId);
+  return `<button class="btn sm${salvo ? '' : ' primary'}" data-act="vocab-toggle" data-k="${k}">${salvo ? '✓ No vocabulário (remover)' : 'Enviar para Vocabulário'}</button>`;
+}
 function abrirPalavra(el){
   const b = leitor.livro;
   const pi = +el.dataset.pi, a = +el.dataset.a;
@@ -689,24 +749,96 @@ function abrirPalavra(el){
   const chave = acharForma(b.lex.forms || {}, palavra);
   const e = chave ? (b.lex.entries || {})[chave] : null;
   const aqui = (b.marcas[leitor.cap + ':' + pi] || []).filter(m => m.a <= a && m.z > a);
-  const xs = aqui.filter(m => m.tipo === 'x').map(m => b.expr.find(x => x.id === m.ref)).filter(Boolean);
-  const gs = aqui.filter(m => m.tipo === 'g').map(m => b.gram.find(g => g.id === m.ref)).filter(Boolean);
-  const lema = e && e.w && e.w.toLowerCase() !== palavra.toLowerCase() ? ` <span class="muted">(${esc(e.w)})</span>` : '';
-  const termoCartao = xs.length ? xs[0].text : (e ? e.w : palavra);
-  const tradCartao = xs.length ? xs[0].pt : (e ? e.pt : '');
+  const xs = [...new Set(aqui.filter(m => m.tipo === 'x').map(m => m.ref))].map(id => b.expr.find(x => x.id === id)).filter(Boolean);
+  const gs = [...new Set(aqui.filter(m => m.tipo === 'g').map(m => m.ref))].map(id => b.gram.find(g => g.id === id)).filter(g => g && !GRAM_COMUNS.includes(g.id));
+  const frase = frasesRicas(b, leitor.cap, pi).find(f => f.a <= a && f.z > a);
+  const exemplo = frase ? frase.txt : '';
+  const base = {bookId:b.id, bookTitle:b.title, example:exemplo, examplePt:frase && frase.pt || '', cap:leitor.cap};
+  folha = {itens:[], img:null};
+  xs.forEach(x => folha.itens.push({...base, key:x.id, word:x.text, pt:x.pt, def:x.def || '', cat:'expression'}));
+  if (e) folha.itens.push({...base, key:chave, word:e.w, pt:e.pt, def:e.def || '', cat:(e.cat === 'verb' || e.pos === 'verb') ? 'verb' : 'word'});
+  const kPalavra = e ? folha.itens.length - 1 : -1;
+  folha.img = {q:(e && e.img) || (xs[0] && xs[0].text) || (e && e.w) || palavra, nome:!!(e && (e.pos === 'name' || e.img))};
+  const forma = e && e.w && e.w.toLowerCase() !== palavra.toLowerCase() && e.pos !== 'name' ? `forma de: ${esc(e.w)}` : '';
+  const sub = [e && CLASSES[e.pos], forma].filter(Boolean).join(' · ');
   $('#sheet').innerHTML = `<div class="sheet-body">
-      <div class="term">${esc(palavra)}${lema}</div>
-      <div class="meaning">${e ? esc(e.pt) : 'Sem tradução neste livro.'}${e && CLASSES[e.pos] ? ` · ${CLASSES[e.pos]}` : ''}</div>
-      ${e && e.def ? `<div class="def">${esc(e.def)}</div>` : ''}
-      ${e && e.img ? `<img class="wiki" id="wikiImg" alt="" hidden><a class="link-btn" href="https://en.wikipedia.org/wiki/${encodeURIComponent(e.img.replace(/ /g, '_'))}" target="_blank" rel="noopener">Ver na Wikipédia</a>` : ''}
-      ${xs.map(x => `<div class="sheet-sec"><strong>${esc(x.text)}</strong> ${x.type === 'phrasal' ? '(phrasal verb)' : '(expressão)'}: ${esc(x.pt)}${x.def ? `<div class="def">${esc(x.def)}</div>` : ''}</div>`).join('')}
-      ${gs.map(g => `<div class="sheet-sec"><strong>${esc(g.titlePt || g.title)}</strong> <span class="muted">(${esc(g.level || '')})</span><div>${esc(g.form || '')}</div><div class="muted">${esc(g.explanation || '')}</div></div>`).join('')}
-      <div class="row mt"><button class="btn sm" data-act="falar" data-texto="${esc(termoCartao)}">${ICON.som} Ouvir</button>
-        ${tradCartao ? `<button class="btn sm" data-act="flash-add" data-termo="${esc(termoCartao)}" data-trad="${esc(tradCartao)}">Guardar nos flashcards</button>` : ''}</div>
+      ${xs.map((x, k) => `<div class="sheet-sec first"><div class="muted small">${x.type === 'phrasal' ? 'Phrasal verb' : 'Expressão'}</div>
+        <div class="term">${esc(x.text)}</div><div class="meaning">${esc(x.pt)}</div>${x.def ? `<div class="def">${esc(x.def)}</div>` : ''}
+        <div class="row mt">${botaoVocab(k)}<button class="btn sm" data-act="falar" data-texto="${esc(x.text)}">${ICON.som} Ouvir</button></div></div>`).join('')}
+      <div class="sheet-sec first"><div class="term">${esc(palavra)}</div>
+        ${sub ? `<div class="muted small">${sub}</div>` : ''}
+        <div class="meaning">${e ? esc(e.pt || '(sem tradução)') : 'Palavra não encontrada no dicionário deste livro.'}</div>
+        ${e && e.def ? `<div class="def">${esc(e.def)}</div>` : ''}
+        ${exemplo ? `<div class="frase">“${esc(exemplo)}”</div>${frase.pt ? `<div class="muted">${esc(frase.pt)}</div>` : ''}` : ''}
+        <div class="row mt">${kPalavra >= 0 ? botaoVocab(kPalavra) : ''}<button class="btn sm" data-act="falar" data-texto="${esc(e ? e.w : palavra)}">${ICON.som} Ouvir</button><button class="btn sm" data-act="ver-imagem">Ver imagem</button></div>
+        <div id="imgArea"></div></div>
+      ${gs.map(g => `<div class="sheet-sec"><div class="muted small">Gramática · ${esc(g.level || '')}</div><strong>${esc(g.titlePt || g.title)}</strong>
+        <div>${esc(g.form || '')}</div><div class="muted">${esc(g.explanation || '')}</div>
+        <div class="row mt"><button class="btn sm" data-go="#biblioteca/gramatica/${esc(g.id)}">Ver em Gramática</button></div></div>`).join('')}
     </div><button class="close" aria-label="Fechar">×</button>`;
   $('#sheet').hidden = false;
-  if (e && e.img) fetch('https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(e.img.replace(/ /g, '_')))
-    .then(r => r.json()).then(j => { const im = $('#wikiImg'); if (im && j.thumbnail){ im.src = j.thumbnail.source; im.hidden = false; } }).catch(() => {});
+  /* Tocar numa palavra conta como leitura até aquele ponto */
+  const ini = inicioFrases(b, leitor.cap)[pi] || 0;
+  if (frase) marcarLeitura(b.id, leitor.cap, ini + Math.max(0, frasesRicas(b, leitor.cap, pi).indexOf(frase)));
+  if (e && e.img) verImagem();
+}
+/* Trecho selecionado: tradução das frases e envio para o vocabulário */
+function abrirSelecao(sel){
+  const b = leitor.livro;
+  const passagem = sel.toString().replace(/\s+/g, ' ').trim();
+  if (!passagem) return;
+  const rng = sel.getRangeAt(0);
+  const idx = [...document.querySelectorAll('.chapter .s')].filter(sp => rng.intersectsNode(sp)).map(sp => +sp.dataset.i);
+  const trads = idx.map(i => leitor.trad[i]).filter(Boolean);
+  const palavras = passagem.split(' ').length;
+  folha = {itens:[{key:'S:' + normalizar(passagem), word:passagem, pt:trads.join(' '), def:'', cat:'expression', bookId:b.id, bookTitle:b.title,
+    example:idx.length ? leitor.frases[idx[0]] : passagem, examplePt:idx.length ? leitor.trad[idx[0]] || '' : '', cap:leitor.cap}]};
+  $('#sheet').innerHTML = `<div class="sheet-body"><div class="muted small">Trecho selecionado</div>
+      <div class="frase strong">${esc(passagem.length > 700 ? passagem.slice(0, 700) + '…' : passagem)}</div>
+      ${trads.length ? `<div class="sheet-sec"><div class="muted small">${idx.length > 1 ? 'Tradução das frases' : 'Tradução da frase'}</div>${trads.map(x => `<p class="tr-linha">${esc(x)}</p>`).join('')}
+        ${idx.length && palavras < idx.reduce((n, i) => n + leitor.frases[i].split(' ').length, 0) ? '<div class="muted small">A tradução mostra a frase inteira em que o trecho aparece.</div>' : ''}</div>`
+        : '<p class="muted">Este livro ainda não tem a tradução das frases.</p>'}
+      <div class="row mt">${palavras <= 12 && trads.length ? botaoVocab(0) : ''}<button class="btn sm" data-act="falar" data-texto="${esc(passagem)}">${ICON.som} Ouvir</button></div>
+    </div><button class="close" aria-label="Fechar">×</button>`;
+  $('#sheet').hidden = false;
+}
+/* Busca de imagem: Wikipédia (página exata e busca) e Wikimedia Commons, como no Leitor Inglês */
+async function buscarImagem(q, ehNome){
+  const json = url => fetch(url).then(r => r.ok ? r.json() : null).catch(() => null);
+  const enc = encodeURIComponent;
+  const exata = async () => { const j = await json('https://en.wikipedia.org/api/rest_v1/page/summary/' + enc(q.replace(/ /g, '_')));
+    return j && j.type !== 'disambiguation' && j.thumbnail ? {src:j.thumbnail.source, fonte:'Wikipédia'} : null; };
+  const busca = async () => { const j = await json('https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&generator=search&gsrlimit=6&prop=pageimages&piprop=thumbnail&pithumbsize=640&gsrsearch=' + enc(q));
+    const pg = j && j.query ? Object.values(j.query.pages).sort((x, y) => x.index - y.index).find(x => x.thumbnail) : null;
+    return pg ? {src:pg.thumbnail.source, fonte:'Wikipédia'} : null; };
+  const commons = async () => { const j = await json('https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&generator=search&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url|mime&iiurlwidth=640&gsrsearch=' + enc(q + ' filetype:bitmap'));
+    const pg = j && j.query ? Object.values(j.query.pages).sort((x, y) => x.index - y.index).find(x => x.imageinfo && /^image\//.test(x.imageinfo[0].mime) && !/svg/.test(x.imageinfo[0].mime)) : null;
+    return pg ? {src:pg.imageinfo[0].thumburl || pg.imageinfo[0].url, fonte:'Wikimedia Commons'} : null; };
+  for (const f of ehNome ? [exata, busca, commons] : [exata, commons, busca]){ const r = await f(); if (r) return r; }
+  return null;
+}
+function verImagem(){
+  const area = $('#imgArea');
+  if (!area || !folha.img) return;
+  area.innerHTML = '<p class="muted small">Procurando imagem…</p>';
+  buscarImagem(folha.img.q, folha.img.nome).then(r => {
+    const ar = $('#imgArea');
+    if (!ar) return;
+    ar.innerHTML = r ? `<img class="wiki" src="${esc(r.src)}" alt="${esc(folha.img.q)}" data-act="imagem-cheia" data-src="${esc(r.src)}" data-fonte="${esc(r.fonte)}"><div class="muted small">Toque na imagem para ver em tela cheia · Fonte: ${esc(r.fonte)}</div>`
+      : '<p class="muted small">Nenhuma imagem encontrada. Verifique a internet ou tente outra palavra.</p>';
+  });
+}
+/* Progresso máximo de leitura: libera os tópicos de gramática e as expressões já lidas */
+function marcarLeitura(id, cap, frase){
+  const m = store.get('progmax:' + id, null);
+  if (!m || cap > m.cap || (cap === m.cap && frase > m.frase)) store.set('progmax:' + id, {cap, frase});
+}
+function jaLido(b, ci, pi){
+  const p = progresso(b.id);
+  if (p && p.lido) return true;
+  const m = store.get('progmax:' + b.id, null);
+  if (!m) return false;
+  return ci < m.cap || (ci === m.cap && inicioFrases(b, ci)[pi] <= m.frase);
 }
 /* Expressões e gramática do livro, na página do livro */
 function htmlExtrasRico(b){
@@ -776,7 +908,7 @@ const anoTexto = y => y < 0 ? `${-y} a.C.` : String(y);
 function todosLivros(){
   const importados = store.get('livros:importados', {});
   const mapa = new Map();
-  CATALOGO.forEach(c => mapa.set(c.id, {...c, ...(livrosCarregados[c.id] || {}), disponivel:!!c.arquivo}));
+  CATALOGO.forEach(c => mapa.set(c.id, {...c, ...(livrosCarregados[c.id] || {}), title:c.title, disponivel:!!c.arquivo}));
   LIVROS.forEach(b => mapa.set(b.id, {...(mapa.get(b.id) || {}), ...b, disponivel:true}));
   Object.values(importados).forEach(b => mapa.set(b.id, {...(mapa.get(b.id) || {}), ...b, disponivel:true, importado:true}));
   Object.values(livrosRicos).forEach(b => mapa.set(b.id, {...(mapa.get(b.id) || {}), ...b, disponivel:true, importado:true}));
@@ -785,6 +917,7 @@ function todosLivros(){
 function livroPorId(id){ return todosLivros().find(b => b.id === id && b.disponivel); }
 function progresso(id){ return store.get('progresso:' + id, null); }
 function salvarProgresso(id, cap, frase, lido){
+  marcarLeitura(id, cap, frase);
   const atual = progresso(id) || {};
   store.set('progresso:' + id, {cap, frase, lido: lido || atual.lido || false});
 }
@@ -806,6 +939,93 @@ function statusLivro(b){
 /* ============================================================
    TELAS
    ============================================================ */
+/* ============================================================
+   BIBLIOTECA: ABAS GRAMÁTICA E VOCABULÁRIO (como no Leitor Inglês)
+   ============================================================ */
+const ORDEM_GRAMATICA = ['be_present', 'present_simple', 'there_is', 'present_continuous', 'imperative', 'can_could',
+  'be_past', 'past_simple_regular', 'past_simple_irregular', 'past_continuous', 'going_to', 'will_future',
+  'comparatives', 'present_perfect', 'must_have_to', 'should', 'first_conditional', 'verb_patterns',
+  'passive', 'past_perfect', 'relative_clauses', 'reported_speech', 'second_conditional', 'used_to',
+  'present_perfect_continuous', 'past_perfect_continuous', 'modals_deduction', 'third_conditional',
+  'wish', 'modal_perfect', 'phrasal_verbs'];
+function abasBiblioteca(sec){
+  return `<div class="seg" role="tablist">${[['', 'Livros'], ['gramatica', 'Gramática'], ['vocabulario', 'Vocabulário']].map(([k, nome]) =>
+    `<button class="btn sm${k === sec ? ' primary' : ''}" data-go="#biblioteca${k ? '/' + k : ''}"${k === sec ? ' aria-current="page"' : ''}>${nome}</button>`).join('')}</div>`;
+}
+/* Livros ricos já começados (catálogo e importados), carregados */
+function livrosRicosLidos(){
+  const ids = [...CATALOGO.filter(c => c.rico).map(c => c.id), ...Object.keys(livrosRicos)].filter(id => progresso(id) || store.get('progmax:' + id, null));
+  return Promise.all(ids.map(id => {
+    const b = livroPorId(id);
+    if (b && b.chapters) return b;
+    return carregarLivro(id).then(() => livroPorId(id)).catch(() => null);
+  })).then(l => l.filter(b => b && b.rico));
+}
+function trechoOcc(b, o){
+  const [ci, pi, a, z, fa, fz] = o;
+  const t = (b.chapters[ci] || {paragraphs:[]}).paragraphs[pi] || '';
+  const ini = fa !== undefined && fa >= 0 ? fa : 0, fim = fz !== undefined && fz > 0 ? Math.min(fz, t.length) : t.length;
+  return `${esc(t.slice(ini, a))}<strong>${esc(t.slice(a, z))}</strong>${esc(t.slice(z, fim))}`;
+}
+function telaGramaticaLivros(foco){
+  return livrosRicosLidos().then(livros => {
+    const temas = {};
+    const vistos = new Set();
+    livros.forEach(b => b.gram.forEach(g => {
+      vistos.add(g.id);
+      const lidos = (g.occ || []).filter(o => jaLido(b, o[0], o[1]));
+      if (!lidos.length) return;
+      const t = temas[g.id] = temas[g.id] || {g, ex:[]};
+      lidos.forEach(o => t.ex.push({b, o}));
+    }));
+    const lista = Object.values(temas).sort((x, y) => {
+      const ix = ORDEM_GRAMATICA.indexOf(x.g.id), iy = ORDEM_GRAMATICA.indexOf(y.g.id);
+      return (ix < 0 ? 1000 + (x.g.order || 0) : ix) - (iy < 0 ? 1000 + (y.g.order || 0) : iy);
+    });
+    const bloqueados = new Set([...ORDEM_GRAMATICA, ...vistos]).size - lista.length;
+    const topo = `<header class="page-head"><h1>Biblioteca</h1><p>Os pontos de gramática aparecem aqui conforme você lê os livros completos, em ordem de aprendizagem, do mais simples ao mais avançado.</p></header>${abasBiblioteca('gramatica')}`;
+    if (!lista.length) return topo + '<p class="empty">Ainda não há tópicos. Abra um livro marcado como “(completo)” na estante do B1 e comece a leitura: cada ponto de gramática que você ler aparece aqui.</p>';
+    return topo + lista.map(({g, ex}) => `<details class="act"${g.id === foco ? ' open id="foco"' : ''}><summary><span class="num">${esc(g.level || '')}</span><span class="name">${esc(g.titlePt || g.title)}<span class="sub">${esc(g.title || '')}</span></span><span class="res">${ex.length}</span></summary><div class="body">
+        <p class="hint">Forma</p><p>${esc(g.form || '')}</p>
+        <p class="hint">Uso</p><p>${esc(g.explanation || '')}</p>
+        <p class="hint">Exemplos que você já leu</p>
+        ${ex.slice(-10).reverse().map(({b, o}) => `<button class="exemplo" data-go="#ler/${esc(b.id)}/${o[0] + 1}"><span class="frase">${trechoOcc(b, o)}</span><span class="muted small">${esc(b.title)} · ${esc(b.chapters[o[0]].title)}</span></button>`).join('')}
+      </div></details>`).join('') + (bloqueados > 0 ? `<p class="hint mt"><em>Mais ${bloqueados} tópicos serão desbloqueados com a leitura.</em></p>` : '');
+  });
+}
+const ABAS_VOCAB = [['verb', 'Verbos'], ['expression', 'Expressões'], ['word', 'Palavras']];
+function telaVocabularioLivros(){
+  const aba = store.get('vocab:aba', 'verb');
+  const alfa = store.get('vocab:alfa', true);
+  return livrosRicosLidos().then(livros => {
+    const salvos = vocabLivros();
+    /* Expressões dos livros já lidas, ainda não salvas */
+    const achadas = [];
+    if (aba === 'expression') livros.forEach(b => b.expr.forEach(x => {
+      const o = (x.occ || []).find(o2 => jaLido(b, o2[0], o2[1]));
+      if (o && !salvos.some(v => v.key === x.id && v.bookId === b.id) && !achadas.some(v => v.key === x.id && v.bookId === b.id)){
+        const f = frasesRicas(b, o[0], o[1]).find(f2 => f2.a <= o[2] && f2.z > o[2]);
+        achadas.push({key:x.id, word:x.text, pt:x.pt, def:x.def || '', cat:'expression', bookId:b.id, bookTitle:b.title, example:f ? f.txt : '', examplePt:f && f.pt || '', cap:o[0]});
+      }
+    }));
+    const ordenar = l => alfa ? l.sort((x, y) => x.word.toLowerCase().localeCompare(y.word.toLowerCase())) : l.sort((x, y) => (y.added || 0) - (x.added || 0));
+    const minha = ordenar(salvos.filter(v => v.cat === aba));
+    achadas.sort((x, y) => x.word.toLowerCase().localeCompare(y.word.toLowerCase()));
+    folha = {itens:[...minha, ...achadas]};
+    const cartao = (v, k, salvo) => `<div class="vocab-item"><div class="t">${esc(v.word)}</div><div>${esc(v.pt)}</div>${v.def ? `<div class="def">${esc(v.def)}</div>` : ''}
+      ${v.example ? `<div class="frase">“${esc(v.example)}”</div>${v.examplePt ? `<div class="muted small">${esc(v.examplePt)}</div>` : ''}` : ''}
+      <div class="row mt"><span class="muted small">${esc(v.bookTitle)}</span>
+        <button class="icon-btn" data-act="falar" data-texto="${esc(v.word)}" aria-label="Ouvir">${ICON.som}</button>
+        <button class="btn sm${salvo ? '' : ' primary'}" data-act="vocab-lista" data-k="${k}">${salvo ? 'Remover' : 'Salvar'}</button>
+        ${v.cap !== undefined ? `<button class="btn sm" data-go="#ler/${esc(v.bookId)}/${v.cap + 1}">Ver no livro</button>` : ''}</div></div>`;
+    return `<header class="page-head"><h1>Biblioteca</h1><p>Palavras e expressões que você enviou dos livros. Tudo o que você salva também vai para os flashcards.</p></header>${abasBiblioteca('vocabulario')}
+      <div class="seg">${ABAS_VOCAB.map(([k, nome]) => `<button class="btn sm${k === aba ? ' primary' : ''}" data-act="vocab-aba" data-k="${k}">${nome} (${salvos.filter(v => v.cat === k).length})</button>`).join('')}
+        <button class="btn sm" data-act="vocab-ordem">${alfa ? 'A–Z' : 'Recentes'}</button></div>
+      ${minha.length ? minha.map((v, k) => cartao(v, k, true)).join('') : '<p class="empty">Nada salvo nesta aba ainda. No leitor de um livro “(completo)”, toque numa palavra e em Enviar para Vocabulário.</p>'}
+      ${achadas.length ? `<h2 class="section-title">Expressões que você já leu</h2>${achadas.map((v, k) => cartao(v, minha.length + k, false)).join('')}` : ''}`;
+  });
+}
+
 function telaBiblioteca(){
   const livros = todosLivros();
   const modulos = MODULOS.map(m => {
@@ -830,9 +1050,15 @@ function telaBiblioteca(){
       <p>Clássicos em domínio público, adaptados para cada nível. As prateleiras seguem os módulos do curso, mas você pode ler em qualquer ordem. Leia ou ouça.</p>
       <div class="head-actions"><button class="btn" data-act="importar-livro">${ICON.importar}Importar livro</button><button class="btn" data-act="baixar-livros">Baixar todos para ler sem internet</button></div>
     </header>
+    ${abasBiblioteca('')}
     <details class="act create-book"><summary><span class="num"></span><span class="name">Criar um livro com o Claude</span><span class="res"></span></summary><div class="body">
       <p class="hint">Para um texto em português ou inglês que você queira ler adaptado: um conto, um capítulo, um texto seu. Use com textos em domínio público ou escritos por você. Escolha o nível, copie o prompt, cole numa conversa nova com o Claude junto com o texto e importe o JSON que ele gerar.</p>
-      <div class="row"><label class="hint" for="criarNivel">Nível</label>
+      <p class="hint"><strong>Livro completo</strong> segue o formato do Leitor Inglês: tradução de cada frase, dicionário de todas as palavras, expressões e gramática. Basta o título de um clássico em domínio público. O Claude cria um arquivo .lib.json, que entra pelo botão Importar livro.</p>
+      <div class="row"><label class="hint" for="criarTipo">Tipo</label>
+        <select class="field level-select" id="criarTipo"><option value="texto">A partir de um texto que vou colar</option><option value="completo">Livro completo (dicionário, tradução e gramática)</option></select></div>
+      <div class="row mt"><input class="field" id="criarTitulo" autocomplete="off" placeholder="Título do livro (para o livro completo)"></div>
+      <div class="row mt"><input class="field" id="criarAutor" autocomplete="off" placeholder="Autor (opcional)"></div>
+      <div class="row mt"><label class="hint" for="criarNivel">Nível</label>
         <select class="field level-select" id="criarNivel">${MODULOS.map(m => `<option value="${m.nivel}"${m.nivel === nivelSel ? ' selected' : ''}>${m.nivel} (módulo ${m.n})</option>`).join('')}</select>
         <button class="btn primary sm" data-act="criar-livro-prompt">Copiar prompt</button></div>
       <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt para criar livro"></textarea>
@@ -877,6 +1103,7 @@ function telaLeitor(b, ci){
   const re = termos.length ? new RegExp('(^|[^A-Za-z’\'])(' + termos.map(escRe).join('|') + ')(?=$|[^A-Za-z’\'])', 'gi') : null;
   leitor.significado = significado;
   leitor.frases = [];
+  leitor.trad = [];
   let k = 0;
   const paragrafos = b.rico ? htmlParagrafosRicos(b, ci) : c.paragraphs.map(par => {
     const frases = dividirFrases(par).map(f => {
@@ -2932,6 +3159,40 @@ const REGRAS_NIVEL = {
   B2:{m:4, palavras:'de 7.200 a 10.000', caps:'10 a 12', lingua:'past perfect, voz passiva, discurso indireto, modais de dedução, vocabulário mais amplo e algumas expressões idiomáticas; umas 3.000 palavras'},
   C1:{m:5, palavras:'de 10.000 a 13.000', caps:'12 a 15', lingua:'prosa rica e natural, frases complexas e expressões idiomáticas, mas mais clara e mais curta que o original'}
 };
+function gerarPromptLivroRico(titulo, autor, nivel){
+  const de = autor ? ` de ${autor}` : '';
+  const modelo = {format:'leitoringles-book', version:1, id:'identificador-curto-sem-espacos', title:titulo, author:autor || 'Autor', year:1900, level:nivel, language:'en', glossLanguage:'pt-BR',
+    description:'Uma ou duas frases em inglês sobre o livro.',
+    chapters:[{title:'Part 1 — ...', paragraphs:[{t:'First sentence. Second one.', s:'p', tr:[[0, 15, 'Primeira frase.'], [16, 27, 'Segunda.']]}]}],
+    lexicon:{forms:{wolves:'W:wolf', Ahab:'N:Ahab'}, entries:{'W:wolf':{w:'wolf', pt:'lobo', def:'a wild animal like a large dog', pos:'noun', cat:'word'},
+      'W:give':{w:'give', pt:'dar', pos:'verb', cat:'verb'}, 'N:Ahab':{w:'Ahab', pt:'Ahab — capitão do navio', pos:'name', cat:'word', img:'termo de busca na Wikipédia'}}},
+    expressions:[{id:'E:at once', text:'at once', pt:'imediatamente', def:'immediately', type:'expression', occ:[[0, 3, 15, 22]]}],
+    grammar:[{id:'past_simple_regular', order:8, level:'A2', title:'Past simple (regular verbs)', titlePt:'Passado simples (verbos regulares)', form:'verbo + -ed ...', explanation:'Explicação em português, clara e curta.', occ:[[0, 2, 10, 17, 0, 45]]}]};
+  return `Crie uma versão graded reader, em inglês nível ${nivel}, do livro "${titulo}"${de}, para a biblioteca do meu app de inglês (formato do Leitor Inglês, repositório GitHub tiagomouraufv-rgb/Leitoringles).
+
+REGRAS DO TEXTO
+- Se o livro ainda estiver protegido por direitos autorais, me avise e não escreva a adaptação.
+- Conte a história completa, com todos os acontecimentos importantes, em inglês nível ${nivel} (frases curtas, vocabulário do nível, sem copiar o texto original).
+- Divida em partes de 900 a 1.400 palavras, cada uma com um título. A primeira parte é "About this edition", com uma apresentação curta e a lista dos personagens principais.
+
+SE VOCÊ TIVER ACESSO AO REPOSITÓRIO tiagomouraufv-rgb/Leitoringles (Claude Code ou conversa com o GitHub conectado)
+Use as ferramentas do repositório (books-src, tools/analyze.py, tools/lexicon e tools/build_book.py, como explica docs/BOOK_FORMAT.md) e me entregue o arquivo build/books/<id>.lib.json.
+
+SE VOCÊ NÃO TIVER ACESSO AO REPOSITÓRIO
+Gere um único arquivo JSON chamado <id>.lib.json, em UTF-8, exatamente neste formato (versão 1):
+
+${JSON.stringify(modelo, null, 2)}
+
+Detalhes obrigatórios:
+- "s" do parágrafo: "p" (normal), "h" (subtítulo), "q" (citação/carta) ou "li" (item de lista).
+- "tr" do parágrafo (obrigatório): a tradução para português do Brasil de CADA frase do parágrafo, na ordem, como [início, fim, "tradução"]; início/fim são posições de caracteres da frase dentro de "t" (fim exclusivo). As frases cobrem o parágrafo inteiro, sem sobreposição. Títulos e itens de lista também levam "tr". A tradução é natural e fiel, não palavra por palavra.
+- "forms": TODAS as palavras que aparecem no texto, como estão escritas (plurais, verbos conjugados e palavras com maiúscula no início de frase), apontando para uma entrada de "entries". Chaves: "W:" + lema em minúsculas, ou "N:" + nome próprio.
+- "entries": uma por lema, com "pt" (tradução com os sentidos usados no livro), "def" (definição simples em inglês, opcional para palavras muito básicas), "pos" (noun, verb, adj, adv, name, pron, prep, conj, det, interj) e "cat" ("verb" para verbos, "word" para o resto). Use "img" em pessoas reais, lugares, navios e objetos concretos, com o termo exato de busca na Wikipédia em inglês.
+- "occ" das expressões: [capítulo, parágrafo, início, fim], posições em caracteres dentro do texto do parágrafo (a partir de 0; o fim não é incluído). Inclua phrasal verbs ("type": "phrasal") e expressões fixas ("type": "expression").
+- "grammar": use estes ids, nesta ordem de aprendizagem: ${ORDEM_GRAMATICA.join(', ')}. "occ" = [capítulo, parágrafo, início, fim, início da frase, fim da frase]. Marque até 4 exemplos por tópico em cada capítulo, apenas exemplos corretos. Inclua somente os tópicos que aparecem no livro.
+- Confira as posições: o trecho texto[início:fim] precisa ser exatamente a palavra ou expressão marcada.
+- O arquivo fica grande: crie-o com as suas ferramentas de arquivo e me entregue para download. Eu importo no app pelo botão Importar livro, na Biblioteca.`;
+}
 function gerarPromptCriarLivro(nivel){
   const r = REGRAS_NIVEL[nivel] || REGRAS_NIVEL.A2;
   const modelo = {id:'titulo-em-minusculas', title:'Title in English', author:'Nome do autor', year:1900, module:r.m, level:nivel,
@@ -3425,7 +3686,11 @@ function acao(nome, el){
     case 'criar-livro-prompt': {
       const nivel = $('#criarNivel').value;
       store.set('criar:nivel', nivel);
-      copiarTexto(gerarPromptCriarLivro(nivel));
+      if ($('#criarTipo').value === 'completo'){
+        const titulo = $('#criarTitulo').value.trim();
+        if (!titulo){ aviso('Escreva o título do livro.'); break; }
+        copiarTexto(gerarPromptLivroRico(titulo, $('#criarAutor').value.trim(), nivel));
+      } else copiarTexto(gerarPromptCriarLivro(nivel));
       break;
     }
     case 'baixar-livros': {
@@ -3441,10 +3706,31 @@ function acao(nome, el){
       proximo();
       break;
     }
-    case 'flash-add':
-      guardarVocabulario([{termo:d.termo, traducao:d.trad, producao:true}], leitor.livro ? 'Livro: ' + leitor.livro.title : 'Livro');
-      aviso('Guardado nos flashcards.');
+    case 'vocab-toggle': {
+      const it = folha.itens[+d.k];
+      if (!it) break;
+      alternarVocab(it);
+      el.outerHTML = botaoVocab(+d.k);
       break;
+    }
+    case 'vocab-lista': {
+      const it = folha.itens[+d.k];
+      if (!it) break;
+      alternarVocab(it);
+      telaAtual = '';
+      rota();
+      break;
+    }
+    case 'vocab-aba': store.set('vocab:aba', d.k); telaAtual = ''; rota(); break;
+    case 'vocab-ordem': store.set('vocab:alfa', !store.get('vocab:alfa', true)); telaAtual = ''; rota(); break;
+    case 'ver-imagem': verImagem(); break;
+    case 'imagem-cheia': {
+      const ov = $('#imgCheia');
+      ov.innerHTML = `<div class="img-cheia-top"><span class="muted small">Dois dedos para ampliar · Fonte: ${esc(d.fonte)}</span><button class="btn sm primary" data-act="fechar-imagem">Fechar</button></div><img src="${esc(d.src)}" alt="">`;
+      ov.hidden = false;
+      break;
+    }
+    case 'fechar-imagem': $('#imgCheia').hidden = true; break;
     case 'livro-expr-flash': {
       const b = livroPorId(location.hash.split('/')[1]);
       if (b && b.rico){ guardarVocabulario(b.expr.map(x => ({termo:x.text, traducao:x.pt, exemplo:x.def || '', producao:true})), 'Livro: ' + b.title); aviso(`${b.expr.length} expressões guardadas nos flashcards.`); }
@@ -3616,6 +3902,14 @@ function rota(){
     else if (partes[1] === 'erros') view.innerHTML = telaCaderno();
     else view.innerHTML = telaRevisao();
     aba = 'revisao';
+  } else if (partes[0] === 'biblioteca' && (partes[1] === 'gramatica' || partes[1] === 'vocabulario')){
+    view.innerHTML = `<header class="page-head"><h1>Biblioteca</h1></header>${abasBiblioteca(partes[1])}<p class="empty">Carregando…</p>`;
+    (partes[1] === 'gramatica' ? telaGramaticaLivros(partes[2]) : telaVocabularioLivros()).then(html => {
+      if (telaAtual !== h) return;
+      view.innerHTML = html;
+      const f = document.getElementById('foco');
+      if (f) f.scrollIntoView({block:'start'});
+    });
   } else if (partes[0] === 'biblioteca'){
     view.innerHTML = telaBiblioteca();
   } else {
@@ -3773,6 +4067,22 @@ function validarLivro(b){
   }
   return null;
 }
+
+/* Leitor de livro rico: selecionar um trecho mostra a tradução das frases */
+let selTimer = null, ultimaSel = '';
+document.addEventListener('selectionchange', () => {
+  clearTimeout(selTimer);
+  selTimer = setTimeout(() => {
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed || !leitor.livro || !leitor.livro.rico || !telaAtual.startsWith('ler/')) { ultimaSel = ''; return; }
+    const no = sel.anchorNode && (sel.anchorNode.nodeType === 1 ? sel.anchorNode : sel.anchorNode.parentElement);
+    if (!no || !no.closest('.chapter') || no.closest('#sheet')) return;
+    const txt = sel.toString().trim();
+    if (!txt || txt === ultimaSel || txt.split(/\s+/).length < 2) return;
+    ultimaSel = txt;
+    abrirSelecao(sel);
+  }, 700);
+});
 
 window.addEventListener('hashchange', rota);
 rota();

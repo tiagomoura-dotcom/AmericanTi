@@ -92,7 +92,15 @@ A biblioteca tem adaptações (graded readers) de clássicos em domínio públic
 
 Cada livro é um arquivo em `livros/<id>.json`, e a constante `CATALOGO` do `index.html` lista os livros (o campo `arquivo: true` indica que o texto está nessa pasta). O app só baixa um livro quando você o abre, e depois ele fica salvo para ler sem internet. O botão **Baixar todos para ler sem internet** baixa a biblioteca inteira de uma vez. O conto The Gift of the Magi fica embutido na constante `LIVROS`.
 
-**Livros no formato rico** (`"format": "leitoringles-book"`): o app também lê livros com dicionário palavra por palavra (`lexicon`), expressões e phrasal verbs (`expressions`) e notas de gramática (`grammar`) com a posição de cada ocorrência no texto. No leitor, toque em qualquer palavra para ver tradução, classe, definição e, nos nomes, a imagem da Wikipédia; as expressões ficam sublinhadas, e o botão Marcar a gramática destaca os pontos de gramática. Dá para guardar palavras e expressões nos flashcards. A página do livro lista todas as expressões e os tópicos de gramática com exemplos. Esses livros entram pelo botão **Importar livro** e ficam guardados no aparelho (IndexedDB). O Dracula da estante B1 (`livros/dracula-b1.json`) está nesse formato.
+**Livros completos no formato do Leitor Inglês** (`"format": "leitoringles-book"`, do repositório [Leitoringles](https://github.com/tiagomouraufv-rgb/Leitoringles); formato em `docs/BOOK_FORMAT.md` de lá): a estante do B1 traz Dracula, Moby Dick e The Red and the Black nesse formato, marcados como “(completo)”. Neles:
+
+- Toque numa palavra: tradução, classe, “forma de” (o lema), definição, a frase em que ela aparece com a tradução, Ver imagem (Wikipédia e Wikimedia Commons, com tela cheia) e Enviar para Vocabulário. Expressões e phrasal verbs aparecem primeiro, e a gramática daquele ponto tem o botão Ver em Gramática.
+- Selecione um trecho para ver a tradução das frases e, em trechos curtos, enviá-lo para o vocabulário.
+- Expressões ficam sublinhadas; o botão Marcar a gramática destaca os pontos de gramática.
+- Aba **Gramática** (na Biblioteca): os tópicos aparecem conforme você lê, na ordem de aprendizagem do Leitor Inglês, com os exemplos que você já leu; cada exemplo abre o capítulo.
+- Aba **Vocabulário** (na Biblioteca): Verbos, Expressões e Palavras enviados dos livros, com a frase de exemplo e a tradução, em ordem alfabética ou por data, mais as expressões que você já leu. Tudo o que você envia também vira flashcard.
+
+Outros livros nesse formato entram pelo botão **Importar livro** e ficam guardados no aparelho (IndexedDB). Em **Criar um livro com o Claude**, o tipo **Livro completo** gera o prompt do Leitor Inglês a partir do título.
 
 No topo da Biblioteca, **Criar um livro com o Claude** gera um prompt para transformar um texto seu, em português ou inglês, num livro do nível escolhido. Use com textos em domínio público ou escritos por você. O resultado entra pelo botão **Importar livro**, no formato abaixo:
 
