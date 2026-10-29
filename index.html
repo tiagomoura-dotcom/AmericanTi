@@ -256,6 +256,8 @@ dialog.importer textarea{width:100%;min-height:180px;margin:12px 0;font-family:u
 .line{margin:0 0 6px}
 .link-plain{background:none;border:0;padding:0;font:inherit;color:inherit;text-align:left}
 .who{display:inline-block;min-width:1.4em;font-family:var(--sans);font-size:.8rem;font-weight:700;color:var(--accent)}
+.create-book{margin-top:20px}
+.level-select{width:auto;padding:7px 10px}
 .plan{list-style:none;margin:10px 0 0;padding:0;border-top:1px solid var(--line)}
 .plan li{border-bottom:1px solid var(--line)}
 .plan button{width:100%;background:none;border:0;padding:12px 2px;display:grid;grid-template-columns:28px 1fr 18px;gap:12px;align-items:center;text-align:left;color:var(--ink)}
@@ -562,10 +564,20 @@ const ICON = {
 /* ============================================================
    DADOS DA BIBLIOTECA
    ============================================================ */
+/* Livros do catálogo com arquivo próprio (livros/<id>.json): o app baixa na primeira leitura
+   e o service worker guarda para ler sem internet. */
+const livrosCarregados = {};
+function carregarLivro(id){
+  return fetch('livros/' + encodeURIComponent(id) + '.json')
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(b => { livrosCarregados[id] = b; return b; });
+}
+const nCaps = b => b.chapters ? b.chapters.length : (b.caps || 0);
+const anoTexto = y => y < 0 ? `${-y} a.C.` : String(y);
 function todosLivros(){
   const importados = store.get('livros:importados', {});
   const mapa = new Map();
-  CATALOGO.forEach(c => mapa.set(c.id, {...c, disponivel:false}));
+  CATALOGO.forEach(c => mapa.set(c.id, {...c, ...(livrosCarregados[c.id] || {}), disponivel:!!c.arquivo}));
   LIVROS.forEach(b => mapa.set(b.id, {...(mapa.get(b.id) || {}), ...b, disponivel:true}));
   Object.values(importados).forEach(b => mapa.set(b.id, {...(mapa.get(b.id) || {}), ...b, disponivel:true, importado:true}));
   return [...mapa.values()];
@@ -588,7 +600,7 @@ function statusLivro(b){
   const p = progresso(b.id);
   if (!p) return '<span class="bs">Novo</span>';
   if (p.lido) return '<span class="bs">Lido</span>';
-  return `<span class="bs reading">Capítulo ${p.cap + 1} de ${b.chapters.length}</span>`;
+  return `<span class="bs reading">Capítulo ${p.cap + 1} de ${nCaps(b)}</span>`;
 }
 
 /* ============================================================
@@ -612,11 +624,19 @@ function telaBiblioteca(){
       </div>
     </section>`;
   }).join('');
+  const nivelSel = store.get('criar:nivel', MODULOS[nivelAtual() - 1].nivel);
   return `<header class="page-head">
       <h1>Biblioteca</h1>
-      <p>Clássicos em domínio público, adaptados para cada módulo do curso. Leia ou ouça.</p>
-      <div class="head-actions"><button class="btn" data-act="importar-livro">${ICON.importar}Importar livro</button></div>
+      <p>Clássicos em domínio público, adaptados para cada nível. As prateleiras seguem os módulos do curso, mas você pode ler em qualquer ordem. Leia ou ouça.</p>
+      <div class="head-actions"><button class="btn" data-act="importar-livro">${ICON.importar}Importar livro</button><button class="btn" data-act="baixar-livros">Baixar todos para ler sem internet</button></div>
     </header>
+    <details class="act create-book"><summary><span class="num"></span><span class="name">Criar um livro com o Claude</span><span class="res"></span></summary><div class="body">
+      <p class="hint">Para um texto em português ou inglês que você queira ler adaptado: um conto, um capítulo, um texto seu. Use com textos em domínio público ou escritos por você. Escolha o nível, copie o prompt, cole numa conversa nova com o Claude junto com o texto e importe o JSON que ele gerar.</p>
+      <div class="row"><label class="hint" for="criarNivel">Nível</label>
+        <select class="field level-select" id="criarNivel">${MODULOS.map(m => `<option value="${m.nivel}"${m.nivel === nivelSel ? ' selected' : ''}>${m.nivel} (módulo ${m.n})</option>`).join('')}</select>
+        <button class="btn primary sm" data-act="criar-livro-prompt">Copiar prompt</button></div>
+      <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt para criar livro"></textarea>
+    </div></details>
     ${modulos}`;
 }
 
@@ -630,7 +650,7 @@ function telaLivro(b){
       <div>
         <h1>${esc(b.title)}</h1>
         <p class="by">${esc(b.author)}</p>
-        <p class="facts">Original de ${esc(b.year)}. Adaptação nível ${esc(b.level || MODULOS[b.module - 1].nivel)}, módulo ${esc(b.module)}, com ${fmt(palavras)} palavras.</p>
+        <p class="facts">Original de ${esc(anoTexto(b.year))}. Adaptação nível ${esc(b.level || MODULOS[b.module - 1].nivel)}, módulo ${esc(b.module)}, com ${fmt(palavras)} palavras.</p>
       </div>
     </div>
     ${b.summary ? `<p class="summary">${esc(b.summary)}</p>` : ''}
@@ -1231,7 +1251,7 @@ function gerarPrompt(n){
   L.push('- Erros que ainda se repetem: ' + (pend.length ? pend.map(x => x.disse ? `"${x.disse}" → "${x.certo}"` : `"${x.certo}"`).join('; ') : 'nenhum registrado ainda'));
   L.push('- Palavras que mais erro nos flashcards: ' + (fracas.length ? fracas.map(c => c.termo).join(', ') : 'nenhuma registrada ainda'));
   L.push('- Últimos ditados: ' + (dit.length ? dit.map(d => `aula ${d.aula}: ${d.pct}%`).join('; ') : 'nenhum ainda'));
-  if (livro) L.push(`- Livro que estou lendo: ${livro.title}, de ${livro.author} (capítulo ${(pl ? pl.cap : 0) + 1} de ${livro.chapters.length})`);
+  if (livro) L.push(`- Livro que estou lendo: ${livro.title}, de ${livro.author} (capítulo ${(pl ? pl.cap : 0) + 1} de ${nCaps(livro)})`);
   if (notas) L.push(`- Notas da aula anterior: ${notas}`);
   L.push('');
   L.push('COMO CONDUZIR');
@@ -2687,7 +2707,7 @@ function gerarPromptClube(b, ci){
   const ultimo = ci === b.chapters.length - 1;
   const L = [cabecalhoPrompt(b.module), '',
     'HOJE: CLUBE DO LIVRO',
-    `- Livro: ${b.title}, de ${b.author}${b.year ? ` (${b.year})` : ''}, numa adaptação para o nível ${MODULOS[b.module - 1].nivel}.`,
+    `- Livro: ${b.title}, de ${b.author}${b.year ? ` (${anoTexto(b.year)})` : ''}, numa adaptação para o nível ${MODULOS[b.module - 1].nivel}.`,
     `- Capítulo ${ci + 1} de ${b.chapters.length}: ${c.title}`,
     '', 'TEXTO DO CAPÍTULO (versão adaptada que eu li)', c.paragraphs.join('\n\n')];
   if ((c.glossary || []).length) L.push('', 'GLOSSÁRIO DO APP', c.glossary.map(g => `${g.term}: ${g.meaning}`).join('; '));
@@ -2700,6 +2720,42 @@ function gerarPromptClube(b, ci){
     ultimo ? '6. Opinião: o que achei do final e do livro, e se recomendaria.' : '6. Previsão: o que eu acho que vai acontecer no próximo capítulo, e por quê.',
     'Faça uma etapa por vez e espere minha resposta.');
   return L.join('\n') + '\n' + finalPrompt({tipo:'extra', versao:1, chave:`livro:${b.id}:${ci + 1}`, origem:`Clube do livro: ${b.title}, capítulo ${ci + 1}`, vocabulario:vocabModelo, erros:errosModelo, notas:'O que retomar'}, []);
+}
+const REGRAS_NIVEL = {
+  A1:{m:1, palavras:'de 1.100 a 1.500', caps:'4 a 5', lingua:'frases muito curtas (até umas 12 palavras), presente simples e contínuo, was/were e passados muito comuns; umas 800 palavras básicas'},
+  A2:{m:2, palavras:'de 2.200 a 3.000', caps:'6 a 8', lingua:'narração no passado simples, going to, can, will e conectores simples; frases de até umas 15 palavras; umas 1.200 palavras básicas'},
+  B1:{m:3, palavras:'de 4.300 a 6.000', caps:'8 a 10', lingua:'todos os tempos básicos, present perfect, past continuous, condicionais 1 e 2, orações relativas e phrasal verbs comuns; umas 2.000 palavras'},
+  B2:{m:4, palavras:'de 7.200 a 10.000', caps:'10 a 12', lingua:'past perfect, voz passiva, discurso indireto, modais de dedução, vocabulário mais amplo e algumas expressões idiomáticas; umas 3.000 palavras'},
+  C1:{m:5, palavras:'de 10.000 a 13.000', caps:'12 a 15', lingua:'prosa rica e natural, frases complexas e expressões idiomáticas, mas mais clara e mais curta que o original'}
+};
+function gerarPromptCriarLivro(nivel){
+  const r = REGRAS_NIVEL[nivel] || REGRAS_NIVEL.A2;
+  const modelo = {id:'titulo-em-minusculas', title:'Title in English', author:'Nome do autor', year:1900, module:r.m, level:nivel,
+    summary:'Resumo em português, de 2 a 4 frases, sem contar o final.',
+    chapters:[{title:'Chapter title', paragraphs:['Parágrafo 1.', 'Parágrafo 2.'], glossary:[{term:'trembled', meaning:'tremeu'}]}]};
+  return [
+    'Você vai criar um livro para a biblioteca do meu app de inglês. Sou brasileiro e quero ler este texto adaptado (graded reader) em inglês, no nível ' + nivel + '.',
+    '',
+    'O TEXTO',
+    'Vou colar o texto a seguir, em português ou em inglês. Se for longo, mando em partes. Só comece quando eu escrever “fim do texto”. Antes de escrever o livro, diga em 2 ou 3 frases como pretende dividir os capítulos e espere meu ok.',
+    '',
+    'COMO ADAPTAR',
+    `- Escreva em inglês, mesmo que o original esteja em português: é uma recontagem simplificada, com suas próprias palavras.`,
+    `- Tamanho do livro inteiro: ${r.palavras} palavras, em ${r.caps} capítulos.`,
+    `- Língua do nível ${nivel}: ${r.lingua}.`,
+    '- Mantenha a história completa: personagens, cenas principais e final. Use bastante diálogo, porque o app lê o texto em voz alta.',
+    '- Parágrafos de 2 a 6 frases. Diálogos com aspas curvas “ ”.',
+    '- Glossário de 4 a 8 itens por capítulo, com as palavras e expressões mais difíceis para o nível, inclusive falsos cognatos para quem fala português. Cada termo precisa aparecer exatamente igual no texto daquele capítulo (por exemplo, trembled, e não tremble). Significado curto, em português do Brasil.',
+    '- summary: de 2 a 4 frases em português, apresentando a premissa sem contar o final.',
+    '- id: o título em minúsculas, sem acentos, com hífens. module e level: ' + r.m + ' e ' + nivel + '. year: o ano do original (antes de Cristo, número negativo).',
+    '- Se o texto for grande demais para uma resposta, divida em partes: um JSON por parte, com o id terminando em -1, -2, e o título com Part 1, Part 2. Gere uma parte por mensagem e espere eu pedir a próxima.',
+    '',
+    'FORMATO',
+    'Responda só com o JSON, num único bloco de código, neste formato:',
+    JSON.stringify(modelo, null, 2),
+    '',
+    'Depois eu importo no app pelo botão Importar livro, na Biblioteca.'
+  ].join('\n');
 }
 function importarExtra(p){
   if (typeof p.chave !== 'string' || !/^(video|musica|livro):/.test(p.chave)){ aviso('Arquivo inválido: o campo chave não foi reconhecido.'); return false; }
@@ -3162,6 +3218,25 @@ function acao(nome, el){
       window.scrollTo(0, 0);
       break;
     }
+    case 'criar-livro-prompt': {
+      const nivel = $('#criarNivel').value;
+      store.set('criar:nivel', nivel);
+      copiarTexto(gerarPromptCriarLivro(nivel));
+      break;
+    }
+    case 'baixar-livros': {
+      const ids = CATALOGO.filter(c => c.arquivo && !livrosCarregados[c.id]).map(c => c.id);
+      if (!ids.length){ aviso('Todos os livros já estão baixados.'); break; }
+      el.disabled = true;
+      let feitos = 0, falhas = 0;
+      const proximo = () => {
+        if (!ids.length){ el.disabled = false; el.textContent = 'Baixar todos para ler sem internet'; aviso(falhas ? `${feitos} livros baixados; ${falhas} falharam. Tente de novo com internet.` : `${feitos} livros baixados. Agora dá para ler sem internet.`); return; }
+        el.textContent = `Baixando… ${feitos + falhas + 1} de ${feitos + falhas + ids.length}`;
+        carregarLivro(ids.shift()).then(() => feitos++, () => falhas++).then(proximo);
+      };
+      proximo();
+      break;
+    }
     case 'clube-prompt': {
       const b = leitor.livro;
       if (b) copiarTexto(gerarPromptClube(b, leitor.cap));
@@ -3254,13 +3329,20 @@ function rota(){
   let aba = partes[0];
   let noLeitor = false;
 
-  if (partes[0] === 'livro'){
-    const b = livroPorId(partes[1]);
+  const bLivro = (partes[0] === 'livro' || partes[0] === 'ler') ? livroPorId(partes[1]) : null;
+  if (bLivro && !bLivro.chapters){
+    /* Livro com arquivo próprio ainda não carregado: baixa e volta para esta mesma tela */
+    view.innerHTML = `<button class="back" data-go="#biblioteca">${ICON.back}Biblioteca</button><p class="empty">Abrindo ${esc(bLivro.title)}…</p>`;
+    aba = 'biblioteca';
+    carregarLivro(bLivro.id).then(() => { telaAtual = ''; rota(); })
+      .catch(() => { if (telaAtual === h) view.innerHTML = `<button class="back" data-go="#biblioteca">${ICON.back}Biblioteca</button><p class="empty">Não consegui abrir este livro. Abra com internet uma vez; depois ele fica salvo para ler sem internet.</p>`; });
+  } else if (partes[0] === 'livro'){
+    const b = bLivro;
     if (!b){ location.hash = '#biblioteca'; return; }
     view.innerHTML = telaLivro(b);
     aba = 'biblioteca';
   } else if (partes[0] === 'ler'){
-    const b = livroPorId(partes[1]);
+    const b = bLivro;
     const ci = Math.max(0, (parseInt(partes[2], 10) || 1) - 1);
     if (!b || ci >= b.chapters.length){ location.hash = '#biblioteca'; return; }
     leitor.livro = b; leitor.cap = ci;
