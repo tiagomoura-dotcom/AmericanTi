@@ -1,0 +1,549 @@
+{
+ "id": "monte-cristo",
+ "title": "The Count of Monte Cristo, Part 1",
+ "author": "Alexandre Dumas",
+ "year": 1844,
+ "module": 3,
+ "level": "B1",
+ "summary": "Em 1815, o jovem marinheiro Edmond Dantès volta a Marselha cheio de sonhos: vai ser capitão de navio e casar-se com a bela Mercedes. Mas a sua felicidade desperta inveja, e três homens se unem para destruí-lo com uma simples carta. Uma história de traição, injustiça, amizade e esperança, que começa nas ruas de Marselha e continua nas celas escuras de uma fortaleza no mar.",
+ "chapters": [
+  {
+   "title": "The Return of the Pharaon",
+   "paragraphs": [
+    "On the 24th of February 1815, a ship called the Pharaon sailed slowly into the port of Marseille. A crowd was waiting on the quay, because everyone in the town knew the ship. It belonged to Monsieur Morrel, a good and honest shipowner, and it was returning from a long voyage to Smyrna, Trieste and Naples.",
+    "Monsieur Morrel was too impatient to wait. He jumped into a small boat and rowed out to meet the ship. A young man was standing on deck and giving orders to the sailors. He was about nineteen years old, tall and slim, with fine black eyes and dark hair.",
+    "“Ah, it is you, Dantès!” called Morrel. “What has happened? Why do you all look so sad?”",
+    "“A great misfortune, Monsieur Morrel,” answered Edmond Dantès. “We have lost our good Captain Leclère. He died of a fever near Naples. But the cargo is safe, sir.”",
+    "Morrel climbed onto the ship. “We are all mortal,” he said sadly. “And who took command after his death?”",
+    "“I did, sir.”",
+    "Behind them, another man was listening. This was Danglars, the ship’s accountant. He was about twenty-five, with a dark, unpleasant face. He was polite to his superiors and hard with the sailors, and nobody on board liked him. He hated Dantès because the young man was popular and successful.",
+    "“Monsieur Morrel,” Danglars said quietly, “Dantès stopped for a day and a half at the island of Elba. It was a waste of time.”",
+    "Morrel turned to Dantès. “Is that true? Why did you stop at Elba?”",
+    "“It was the captain’s last wish, sir. Before he died, he gave me a packet for the Grand Marshal Bertrand, who lives on Elba with the Emperor Napoleon. I delivered it, and I was given a letter to take to a gentleman in Paris.”",
+    "“Did you see the Emperor?” Morrel asked in a low voice.",
+    "“Yes. He spoke to me. He asked about the ship and said he remembered your family.”",
+    "Morrel smiled. “You did right to obey the captain. But be careful. If people learn that you carried a letter from Elba, it could cause problems.” Then he put his hand on the young man’s shoulder. “Dantès, you are young, but you are a good sailor. How would you like to be the captain of the Pharaon?”",
+    "Dantès’s eyes filled with tears. “Captain? Oh, sir, I would be so grateful! But first I must go and see my father, and then… there is someone else I must see.”",
+    "“The beautiful Mercédès?” said Morrel, laughing. “Go, go. I understand.”",
+    "Danglars had heard everything, and his face became even darker. “Captain at nineteen!” he thought. “Not if I can stop it.”",
+    "Dantès ran through the narrow streets to a small, poor house. His old father was sitting alone in a tiny room on the fourth floor. When he saw his son, he almost fainted with joy.",
+    "“Edmond! My boy! You are back!”",
+    "Dantès held him in his arms. Then he noticed how thin the old man was. The cupboards were empty. “Father, didn’t you have enough money while I was away? I left you two hundred francs.”",
+    "“Our neighbour Caderousse told me that you owed him money,” said the old man. “So I paid him back. I have lived on very little since then.”",
+    "At that moment, Caderousse himself appeared at the door. He was a tailor, a fat man with a false smile. “Edmond! Welcome home! I hear you are going to be a captain. Congratulations!” But his eyes were full of envy."
+   ],
+   "glossary": [
+    {
+     "term": "quay",
+     "meaning": "cais"
+    },
+    {
+     "term": "voyage",
+     "meaning": "viagem (por mar)"
+    },
+    {
+     "term": "misfortune",
+     "meaning": "desgraça, infortúnio"
+    },
+    {
+     "term": "cargo",
+     "meaning": "carga"
+    },
+    {
+     "term": "accountant",
+     "meaning": "contador"
+    },
+    {
+     "term": "fainted",
+     "meaning": "desmaiou"
+    },
+    {
+     "term": "cupboards",
+     "meaning": "armários"
+    },
+    {
+     "term": "envy",
+     "meaning": "inveja"
+    }
+   ]
+  },
+  {
+   "title": "A Letter in the Dark",
+   "paragraphs": [
+    "Outside Marseille, on the way to the village of the Catalans, there was a small house with a garden. A beautiful young woman with black hair and dark eyes lived there. Her name was Mercédès. A tall young man was standing in front of her, nervously moving his hands. This was her cousin, Fernand Mondego, a fisherman.",
+    "“Mercédès,” said Fernand, “I have asked you so many times. Will you marry me?”",
+    "“Fernand, I have always told you the truth,” she answered gently. “I love you like a brother, but I love Edmond Dantès. If he dies at sea, I will never marry anyone.”",
+    "“And if he has forgotten you?”",
+    "Before she could reply, a happy voice called from the road. “Mercédès!” She ran out of the house and into Edmond’s arms. Fernand stood in the shadows and watched them with hatred.",
+    "“Who is this?” Edmond asked with a smile.",
+    "“My cousin Fernand. He is the best friend I have after you.”",
+    "Edmond held out his hand, but Fernand turned and walked out of the house without a word.",
+    "Fernand went to a small tavern on the road. Danglars and Caderousse were sitting at a table under the trees, drinking wine.",
+    "“Ah, Fernand!” said Caderousse, who was already a little drunk. “You look like an unhappy lover. Is it because Dantès is back?”",
+    "Danglars watched the young fisherman carefully. “So you love Mercédès too,” he said. “And she will marry Dantès. That is very sad for you. Is there nothing you can do?”",
+    "“I could kill him,” said Fernand. “But if he dies, she will kill herself.”",
+    "“Who talks about killing?” said Danglars. “There are other ways. What if Dantès went to prison for a few years?”",
+    "“Why would he go to prison? He has done nothing wrong.”",
+    "Danglars smiled. He asked the waiter for a pen, ink and paper. Then he took the pen in his left hand, so that nobody would recognise his writing, and he wrote:",
+    "“The King’s Prosecutor is informed by a friend of the throne that Edmond Dantès, an officer of the ship Pharaon, stopped at Elba and received a letter from Napoleon for the Bonapartists in Paris. The letter will be found on him, at his father’s house or in his cabin on the Pharaon.”",
+    "“This would be a terrible thing to do,” said Danglars, with a little laugh. “Of course, it is only a joke.” He crumpled the paper and threw it into a corner. But he was sure that Fernand had seen where it fell.",
+    "“Dantès is my friend,” said Caderousse loudly. “I don’t want anyone to hurt him.”",
+    "“Nobody will hurt him,” said Danglars. “Come, Caderousse, let’s go home. You have had too much wine.”",
+    "As the two men walked away, Danglars looked back. Fernand had picked up the paper and was running toward Marseille.",
+    "The next day was the happiest day of Edmond’s life. He and Mercédès were having their betrothal feast at the tavern. Monsieur Morrel was there, and old Dantès, and many friends. Even Danglars, Fernand and Caderousse came, with smiling faces.",
+    "“In an hour and a half,” said Edmond, “Mercédès will be my wife.”",
+    "Suddenly there were three loud knocks at the door. A police officer came in with four soldiers. “In the name of the law! Which of you is Edmond Dantès?”",
+    "Everyone went silent. “I am,” said Edmond calmly. “What do you want?”",
+    "“I arrest you.”",
+    "“Arrest me? Why?”",
+    "“I don’t know. You will find out at your first examination.”",
+    "Old Dantès cried out and fell into a chair. Mercédès ran to Edmond. “Don’t worry,” he said, kissing her. “It is a mistake. I will be back soon.”",
+    "As the soldiers took him away, Caderousse looked at Danglars. “This is your joke, Danglars. It is wicked.”",
+    "“I had nothing to do with it,” said Danglars. “You saw me throw the paper away.”"
+   ],
+   "glossary": [
+    {
+     "term": "tavern",
+     "meaning": "taverna, bar"
+    },
+    {
+     "term": "hatred",
+     "meaning": "ódio"
+    },
+    {
+     "term": "recognise",
+     "meaning": "reconhecesse"
+    },
+    {
+     "term": "prosecutor",
+     "meaning": "promotor"
+    },
+    {
+     "term": "crumpled",
+     "meaning": "amassou"
+    },
+    {
+     "term": "betrothal",
+     "meaning": "noivado"
+    },
+    {
+     "term": "feast",
+     "meaning": "festa, banquete"
+    },
+    {
+     "term": "wicked",
+     "meaning": "cruel, perverso"
+    }
+   ]
+  },
+  {
+   "title": "The Prosecutor",
+   "paragraphs": [
+    "On the same day, in another part of Marseille, another betrothal feast was taking place. Gérard de Villefort, the young deputy prosecutor, was going to marry Renée de Saint-Méran, the daughter of a rich and noble family. Villefort was ambitious. He wanted to become an important man in Paris. But he had one big problem: his father, Monsieur Noirtier, was a famous Bonapartist, an enemy of the King.",
+    "A servant interrupted the party. “Sir, a man has been arrested. They say he is part of a Bonapartist plot.”",
+    "Villefort went to his office. When he saw Dantès, he was surprised. He had expected a dangerous criminal, but here was an honest young sailor with a frank, open face.",
+    "Villefort asked him many questions, and Dantès answered all of them truthfully. “I am nineteen. I am not interested in politics. I love my father, I respect Monsieur Morrel, and I adore Mercédès. That is all my life.”",
+    "“Do you have any enemies?”",
+    "“Enemies? I am too unimportant to have enemies.”",
+    "Villefort showed him the anonymous letter. Dantès read it and shook his head. “I don’t know who wrote this. But it is true that I stopped at Elba. The captain asked me to do it before he died. I took a packet there, and they gave me a letter for a gentleman in Paris.”",
+    "“Where is this letter?”",
+    "“The police took it from me. It is there, on your desk.”",
+    "Villefort picked it up and read the name on the envelope: Monsieur Noirtier, Rue Coq-Héron, Paris. He went pale and fell back into his chair.",
+    "“Have you shown this letter to anyone?” he asked in a shaking voice.",
+    "“To nobody, sir, I swear it.”",
+    "Villefort read the letter. It was a message about Napoleon’s plans to return to France. If anyone discovered that his own father was involved, Villefort’s career would be finished. Perhaps he would be finished too.",
+    "He stood up, walked to the fire and threw the letter into the flames. He watched until it was only ash.",
+    "“You see,” he said, turning back to Dantès with a forced smile, “I have destroyed the only proof against you. I am being kind to you. But I must keep you here until this evening. If anyone else asks you about this letter, say nothing. Do you promise?”",
+    "“I promise, sir. Thank you!” Dantès felt sure that he would soon be free.",
+    "That night, however, soldiers came for him. They put him in a carriage and drove him to the port, and then into a boat. The sailors began to row out to sea.",
+    "“Where are we going?” Dantès asked. Nobody answered. Then, in the moonlight, he saw a black rock in the sea, and on it a dark, grim fortress.",
+    "“The Château d’If!” he cried. “But that is a prison for dangerous political prisoners! I have done nothing! The prosecutor promised me…”",
+    "He tried to jump into the water, but four strong hands held him down. When the boat arrived, the guards pushed him through dark corridors and into a cold, wet cell underground.",
+    "“Here is your room for tonight,” said the jailer. “Tomorrow you may be moved.”",
+    "But Dantès was not moved. Days passed, then weeks. He asked to see the governor, to have a trial, to write a letter. Nobody listened. He begged, he shouted, he cried. At last he stopped speaking at all. He did not know that Villefort had written his name in the register with the words: “Dangerous Bonapartist. To be kept in the deepest secrecy.”",
+    "Meanwhile, in Marseille, Monsieur Morrel went many times to Villefort to ask for Dantès’s freedom. Mercédès waited and cried. Old Dantès stopped eating. And a few months later, Napoleon really did return to France. For a hundred days, Villefort pretended to be a Bonapartist. Then Napoleon was defeated, the King came back, and Villefort became more important than ever."
+   ],
+   "glossary": [
+    {
+     "term": "deputy",
+     "meaning": "substituto, adjunto"
+    },
+    {
+     "term": "plot",
+     "meaning": "conspiração"
+    },
+    {
+     "term": "frank",
+     "meaning": "sincero, franco"
+    },
+    {
+     "term": "went pale",
+     "meaning": "ficou pálido"
+    },
+    {
+     "term": "ash",
+     "meaning": "cinza"
+    },
+    {
+     "term": "grim",
+     "meaning": "sombrio"
+    },
+    {
+     "term": "jailer",
+     "meaning": "carcereiro"
+    },
+    {
+     "term": "trial",
+     "meaning": "julgamento"
+    }
+   ]
+  },
+  {
+   "title": "The Sound in the Wall",
+   "paragraphs": [
+    "Four years passed. Dantès was still in his cell. At first he had prayed. Then he had become angry, and then he had fallen into despair. At last he decided to die. He stopped eating and threw his food out of the small window when the jailer was not looking.",
+    "One night, as he lay weak on his bed, he heard a sound. It came from the wall. Scratch, scratch, scratch. Someone was digging.",
+    "Dantès’s heart began to beat fast. “Another prisoner,” he thought. “Someone is trying to escape!” Suddenly he wanted to live again. When the jailer brought his soup the next morning, he ate it all.",
+    "For three days he listened. The sound always stopped when the jailer came. Dantès decided to help. He broke his clay jug on purpose and kept a sharp piece of it. With this, he began to dig at the wall near the place where the sound came from. The work was slow and hard. Behind the stones he found a thick beam of wood, and he could not continue.",
+    "“Oh, God!” he cried in despair. “Must I die here?”",
+    "“Who speaks of God and despair at the same time?” said a voice from under the ground.",
+    "Dantès trembled. “Who are you? Speak again!”",
+    "“Who are you?” asked the voice.",
+    "“An unhappy prisoner. Edmond Dantès, a French sailor. I have been here since 1815.”",
+    "“What is your crime?”",
+    "“I am innocent.”",
+    "“Don’t dig any more,” said the voice. “Wait for me.”",
+    "The next day, the floor of the cell moved. A stone fell away, and a small, thin old man climbed out of a hole. He had a long white beard and very bright, intelligent eyes.",
+    "“I am the Abbé Faria,” he said. “I have been a prisoner in this castle since 1811. People here think I am mad, because I always tell them I know where a great treasure is hidden. I have been digging a tunnel for years. I wanted to reach the outer wall and the sea. But I made a mistake in my calculations. Instead of the sea, I have arrived in your cell.”",
+    "Dantès was amazed. “But how did you dig without tools?”",
+    "“I made them myself.” The old man showed him a chisel made from the iron of his bed, and a knife made from a candlestick. “Come and see my cell.”",
+    "They crawled through the narrow tunnel. Faria’s cell was full of surprises. He had made pens from fish bones, ink from soot and wine, and paper from his old shirts. He had written a whole book on these strips of linen. He had a lamp that burned fat from his meat, and a rope ladder that was hidden inside the wall.",
+    "“You are a genius,” said Dantès.",
+    "Faria smiled sadly. “I have had a lot of time. Now, tell me your story.”",
+    "Dantès told him everything: the ship, the stop at Elba, the letter, the betrothal feast and the arrest.",
+    "Faria listened carefully. Then he asked, “Who would profit from your disappearance? You were going to be captain. Who wanted that job?”",
+    "“Danglars, the accountant. He was jealous.”",
+    "“And who wanted to marry Mercédès?”",
+    "“Fernand, her cousin.”",
+    "“Danglars wrote with his left hand, I think, and Fernand posted the letter. And Caderousse knew, but did nothing. Now, the prosecutor. He burned the letter. To whom was it addressed?”",
+    "“A Monsieur Noirtier.”",
+    "Faria laughed bitterly. “Noirtier! I knew him. He is the father of Gérard de Villefort. Your prosecutor burned the letter to protect his father and his career, and then he buried you here so that you could never tell anyone.”",
+    "Dantès stood up, his face white. He walked back through the tunnel to his own cell without a word. When the jailer came that evening, he found the young man sitting on his bed with a strange, hard look in his eyes. For the first time in his life, Edmond Dantès was thinking about revenge."
+   ],
+   "glossary": [
+    {
+     "term": "despair",
+     "meaning": "desespero"
+    },
+    {
+     "term": "digging",
+     "meaning": "cavando"
+    },
+    {
+     "term": "on purpose",
+     "meaning": "de propósito"
+    },
+    {
+     "term": "beam",
+     "meaning": "viga"
+    },
+    {
+     "term": "chisel",
+     "meaning": "cinzel, formão"
+    },
+    {
+     "term": "crawled",
+     "meaning": "rastejaram"
+    },
+    {
+     "term": "soot",
+     "meaning": "fuligem"
+    },
+    {
+     "term": "bitterly",
+     "meaning": "com amargura"
+    }
+   ]
+  },
+  {
+   "title": "The Teacher and the Secret",
+   "paragraphs": [
+    "From that day, the two prisoners met every day in secret. Faria became Dantès’s teacher, his friend and almost his father.",
+    "“You know nothing about the world,” said the old man. “But you are intelligent, and your memory is excellent. I will teach you everything I know.”",
+    "And he did. He taught Dantès history, mathematics, physics and chemistry. He taught him Italian, Spanish, English and German. He taught him how rich and noble people speak and behave. Dantès learned fast. After a year, he was a different man. His mind was sharp, his manners were elegant, and there was a new seriousness in his face.",
+    "They also continued digging. Faria had a new plan: they would make a tunnel under the gallery where the guard walked, and escape at night. They worked for fifteen months, and the tunnel was almost finished.",
+    "One evening, Dantès heard Faria cry out in pain. He ran through the tunnel and found the old man on the floor. His face was white, his hands were cold, and his body was shaking.",
+    "“It is my illness,” Faria whispered. “I have had one attack before. Quickly, in the foot of my bed there is a little bottle with a red liquid. When I become stiff and cold, open my mouth and pour ten drops into it. Perhaps I will wake up.”",
+    "Dantès did exactly what he said. After a long time, the old man opened his eyes.",
+    "“I am saved, for now,” said Faria weakly. But when he tried to move, he discovered that his right arm and leg were paralysed. “Edmond, I cannot escape with you. You must go alone.”",
+    "“No,” said Dantès. “I will stay with you until you die.”",
+    "Faria looked at him for a long time with tears in his eyes. “Then I will give you something. Edmond, listen to me, and don’t think I am mad. The treasure exists.”",
+    "He took out a piece of old paper. Half of it was burned. “Years ago I was secretary to Cardinal Spada, the last of a rich old family in Rome. Centuries ago, one of the Spada family hid a great fortune before he was poisoned by the Pope’s son. Nobody ever found it. After my master died, I was looking through his old books when I found this paper. It was half burned, but I have rebuilt the missing words.”",
+    "He read the message aloud. It said that the treasure was buried on the small island of Monte Cristo, in a cave under the twentieth rock from a little bay to the east. It contained gold, money and jewels worth two million Roman crowns.",
+    "“Monte Cristo!” said Dantès. “I know that island. It is a lonely rock, with only goats and smugglers.”",
+    "“The treasure is yours, my son. I have no family. If you ever escape, it will make you the richest man in the world.”",
+    "“Our real treasure is our friendship,” said Dantès. But he repeated the message again and again until he knew it by heart."
+   ],
+   "glossary": [
+    {
+     "term": "behave",
+     "meaning": "comportar-se"
+    },
+    {
+     "term": "sharp",
+     "meaning": "afiado, aguçado"
+    },
+    {
+     "term": "stiff",
+     "meaning": "rígido, duro"
+    },
+    {
+     "term": "drops",
+     "meaning": "gotas"
+    },
+    {
+     "term": "paralysed",
+     "meaning": "paralisados"
+    },
+    {
+     "term": "worth",
+     "meaning": "no valor de"
+    },
+    {
+     "term": "smugglers",
+     "meaning": "contrabandistas"
+    },
+    {
+     "term": "by heart",
+     "meaning": "de cor"
+    }
+   ]
+  },
+  {
+   "title": "The Sack",
+   "paragraphs": [
+    "One night, more than a year later, Dantès heard the Abbé’s weak voice calling his name through the tunnel. He hurried to Faria’s cell. The old man was lying on his bed, and his face was grey.",
+    "“The third attack,” he whispered. “There is no hope this time. Edmond, my son, be happy and be good. Don’t forget the treasure. Monte Cristo…”",
+    "Dantès gave him the red drops, all of them, but this time nothing happened. In the morning, the old man’s body was cold. Dantès heard the jailer coming and ran back through the tunnel to his own cell.",
+    "Through the wall, he listened. The governor came, and a doctor. “The old madman is dead,” said one of the guards. “He has gone to find his treasure.”",
+    "“We will bury him tonight,” said another. They sewed the body into a big sack and left it on the bed.",
+    "When they had gone, Dantès crawled back into Faria’s cell. He looked at the long grey shape on the bed and began to cry. “I am alone again,” he thought. “Perhaps it would be better to die, like him.”",
+    "Then a sudden idea came to him. “Only the dead leave this place. Then I will take the place of the dead!”",
+    "Quickly, he opened the sack with Faria’s knife. He carried the old man’s body through the tunnel to his own cell, laid it on his own bed and covered it, so that the jailer would think it was Dantès asleep. He kissed the cold forehead one last time. Then he went back, got into the sack with the knife in his hand and sewed it closed from the inside.",
+    "He lay there for hours, his heart beating wildly. He thought, “If they bury me in the ground, I will dig my way out with the knife. If they discover me, I will fight.”",
+    "At about eleven o’clock, he heard footsteps. Two men came in and lifted the sack.",
+    "“He is heavy for such a thin old man,” said one.",
+    "“They say the bones get heavier every year,” laughed the other.",
+    "They carried him out into the night air. Dantès felt the cold wind through the cloth. They tied something heavy to his feet. Then they walked a little further, and he heard the sound of waves breaking against rocks.",
+    "“One, two, three, and away!”",
+    "Dantès felt himself flying through the air. Then he fell, down and down, and hit the freezing water. The heavy cannonball at his feet pulled him to the bottom of the sea. The cemetery of the Château d’If was the sea itself.",
+    "He had almost no air, but he did not panic. With the knife he cut open the sack, then he cut the rope around his feet. He pushed himself up toward the surface and took a deep breath. Behind him, the black fortress stood against a stormy sky.",
+    "He swam away from the castle, and the storm began. Rain fell, lightning lit up the sky, and huge waves threw him up and down. He swam for hours toward a small island he remembered from his years as a sailor. When he finally reached it, he climbed onto the rocks and fell asleep at once, completely exhausted.",
+    "When the sun came up, Dantès woke and looked back toward the Château d’If. He heard the sound of a cannon. “They have discovered my escape,” he thought. Then he saw a small sailing boat in the distance, and he swam out to meet it."
+   ],
+   "glossary": [
+    {
+     "term": "hurried",
+     "meaning": "correu, apressou-se"
+    },
+    {
+     "term": "sewed",
+     "meaning": "costuraram"
+    },
+    {
+     "term": "sack",
+     "meaning": "saco"
+    },
+    {
+     "term": "footsteps",
+     "meaning": "passos"
+    },
+    {
+     "term": "cannonball",
+     "meaning": "bala de canhão"
+    },
+    {
+     "term": "surface",
+     "meaning": "superfície"
+    },
+    {
+     "term": "lightning",
+     "meaning": "relâmpago"
+    },
+    {
+     "term": "exhausted",
+     "meaning": "exausto"
+    }
+   ]
+  },
+  {
+   "title": "The Island of Monte Cristo",
+   "paragraphs": [
+    "The sailors on the boat pulled Dantès out of the water. “I am a Maltese sailor,” he told them. “Our ship broke on the rocks last night in the storm. I am the only survivor.”",
+    "The captain looked at his long hair and beard. Dantès had not cut them for fourteen years. Yes, fourteen years! He was now thirty-three. He had gone into the Château d’If as a boy, and he had come out as a man.",
+    "The boat was called the Young Amelia, and its crew were smugglers. Dantès did not mind. He was a good sailor, and soon the captain and the men respected him. A young sailor named Jacopo became his friend.",
+    "Months later, the smugglers decided to meet some other boats on the island of Monte Cristo. Dantès could hardly hide his excitement. When they landed, he went off to “hunt goats,” as he said. A few minutes later, he pretended to fall from a rock and cried out in pain.",
+    "“My leg! I cannot walk,” he said when his companions found him. “Go without me. Leave me some food, a gun and a pickaxe, so I can build a shelter. Come back for me in a few days.”",
+    "The captain did not want to leave him, but Dantès insisted. When the boat had gone, he stood up, perfectly healthy, and began to search.",
+    "He followed the instructions in the old letter. He found the little bay and counted the rocks. At first he found nothing. Then he noticed that one large rock had been placed there by men. He used gunpowder to move it, and beneath it he discovered a heavy stone with an iron ring. He lifted it, and there were steps going down into the darkness.",
+    "Dantès lit a torch and went down. He found himself in a cave. He knocked on the walls with his pickaxe until one place sounded hollow. He broke through it and entered a second, smaller cave. In the corner, he dug into the ground. His pickaxe hit something hard: an old wooden chest with iron bands.",
+    "With trembling hands, he opened it. The chest had three parts. In the first, there were gold coins, shining in the light of the torch. In the second, there were bars of gold. In the third, there were diamonds, pearls and rubies, so many that they fell through his fingers like water.",
+    "Dantès fell to his knees. He could not speak. He thought of Faria, and of the long years in the dark. “Thank you, my friend,” he whispered at last.",
+    "When the smugglers returned, Dantès was waiting on the shore with a few jewels hidden in his pockets. In the next port he sold four small diamonds and bought a boat for Jacopo. “I have received money from an uncle,” he explained. Then he gave his friend a mission. “Go to Marseille and find out about an old man called Dantès and a young woman called Mercédès.”",
+    "Later, Dantès bought a beautiful yacht and returned to Monte Cristo alone. He took the whole treasure from the cave and hid it safely on board. He was now one of the richest men in the world.",
+    "When Jacopo came back, his news was sad. Old Dantès was dead. He had died of hunger and grief a year after his son disappeared. And Mercédès had left Marseille. Nobody knew where she was.",
+    "Dantès said nothing. He stood on the deck of his yacht for a long time and looked at the sea. Then he gave the order to sail to Marseille."
+   ],
+   "glossary": [
+    {
+     "term": "survivor",
+     "meaning": "sobrevivente"
+    },
+    {
+     "term": "crew",
+     "meaning": "tripulação"
+    },
+    {
+     "term": "pickaxe",
+     "meaning": "picareta"
+    },
+    {
+     "term": "shelter",
+     "meaning": "abrigo"
+    },
+    {
+     "term": "hollow",
+     "meaning": "oco"
+    },
+    {
+     "term": "chest",
+     "meaning": "baú"
+    },
+    {
+     "term": "bars",
+     "meaning": "barras"
+    },
+    {
+     "term": "grief",
+     "meaning": "tristeza profunda, luto"
+    }
+   ]
+  },
+  {
+   "title": "The Priest and the Diamond",
+   "paragraphs": [
+    "A few weeks later, a priest in a long black robe arrived on horseback at a small, poor inn on the road between Arles and Beaucaire. He was an Italian, and he called himself the Abbé Busoni. The innkeeper came out to meet him. It was Caderousse, older, fatter and poorer than before.",
+    "“I am looking for a man called Caderousse,” said the priest, “who once lived in Marseille.”",
+    "“That’s me, Father. Come in, please.”",
+    "The priest sat down and looked at him with serious eyes. “I come from the bedside of a dying man. He was a prisoner in the Château d’If. His name was Edmond Dantès. Did you know him?”",
+    "Caderousse’s face changed. “Poor Edmond! Yes, I knew him very well. Is he dead?”",
+    "“He died in prison. But before he died, a rich prisoner gave him a diamond. Edmond asked me to sell it and divide the money among the people who loved him: his father, Mercédès, and his good friends Danglars, Fernand and you.”",
+    "The priest took a diamond from his pocket. It shone like a star in the dark room. Caderousse stared at it. “It must be worth fifty thousand francs!”",
+    "“That is correct. But first, tell me about these friends. Were they really his friends?”",
+    "Caderousse’s wife, La Carconte, a pale and sick woman, said from the corner, “Be careful what you say.” But Caderousse could not take his eyes off the diamond, and he wanted it all for himself. So he told the whole truth.",
+    "“Friends? No, Father. Danglars and Fernand destroyed him because they were jealous. Danglars wrote a letter to the prosecutor, and Fernand posted it. I was there. I was drunk, and I said nothing. I have always been sorry for it.”",
+    "The priest’s hands were trembling, but his voice was calm. “And what happened to them?”",
+    "“They have been lucky. Danglars became a banker in Spain and then in Paris. He is now a baron and a millionaire. Fernand went into the army. He fought in Spain and in Greece, where he became rich. Now he is a general and a count, the Count de Morcerf, and a peer of France.”",
+    "“And Mercédès?”",
+    "Caderousse sighed. “She waited a long time for Edmond. She cried every day. Old Dantès died, and she was alone. Then Fernand came back from the army, and he was kind to her. After a year and a half, she married him. They have a son, Albert. She is a countess now, in Paris. But I don’t think she is happy.”",
+    "“And old Dantès? How did he die?”",
+    "“He died of hunger, Father. He would not take food from anyone. Only Monsieur Morrel and Mercédès helped him. Monsieur Morrel paid for his funeral. He is a good man, Morrel. But now he is almost ruined. He has lost ship after ship, and soon he will lose everything.”",
+    "The priest stood up. He put the diamond in Caderousse’s hand. “It is yours. You have told me the truth, and you were the only one who did not completely betray him. Use it well.”",
+    "Caderousse could not believe his luck. He thanked the priest again and again. But as the Abbé Busoni rode away into the evening, his face was hard and pale. Now he knew everything."
+   ],
+   "glossary": [
+    {
+     "term": "robe",
+     "meaning": "batina, túnica"
+    },
+    {
+     "term": "inn",
+     "meaning": "estalagem, pousada"
+    },
+    {
+     "term": "innkeeper",
+     "meaning": "dono da estalagem"
+    },
+    {
+     "term": "stared",
+     "meaning": "ficou olhando fixamente"
+    },
+    {
+     "term": "peer",
+     "meaning": "par (membro da nobreza)"
+    },
+    {
+     "term": "funeral",
+     "meaning": "enterro, funeral"
+    },
+    {
+     "term": "ruined",
+     "meaning": "arruinado"
+    },
+    {
+     "term": "betray",
+     "meaning": "trair"
+    }
+   ]
+  },
+  {
+   "title": "Sinbad the Sailor",
+   "paragraphs": [
+    "Monsieur Morrel was sitting in his office with his head in his hands. His hair had turned white. In two years he had lost five ships, and he owed a lot of money. His last hope was the Pharaon, which was coming back from India. If it did not return, he would be ruined, and his name would be dishonoured.",
+    "His family did not know how bad things were. His daughter Julie was engaged to Emmanuel, a young clerk in the office. His son Maximilien was an officer in the army, a brave and honest young man.",
+    "One morning, a visitor arrived. He was a tall Englishman who spoke with a strong accent. “I come from the bank of Thomson and French, in Rome,” he said. “We have bought many of your debts. You must pay us almost three hundred thousand francs this month. Can you pay?”",
+    "Morrel looked at the floor. “If the Pharaon arrives, yes. If not… no.”",
+    "At that moment, Julie came in, crying. “Father, a sailor is here. The Pharaon has sunk! The crew are saved, but the ship is lost.”",
+    "Morrel closed his eyes. The Englishman watched him in silence. Then he said, “Sir, I will give you three more months. You may pay me on the fifth of September.”",
+    "Morrel was astonished. “Three months! Oh, sir, how can I thank you?”",
+    "As the Englishman left, he met Julie on the stairs. “Mademoiselle,” he said quietly, “one day you will receive a letter signed ‘Sinbad the Sailor.’ Do exactly what it says, even if it seems strange.”",
+    "The three months passed, and Morrel could not find any money. On the morning of the fifth of September, he wrote letters to his family, cleaned his pistols and locked himself in his office. At eleven o’clock, when the money was due, he planned to kill himself.",
+    "That same morning, Julie received a letter. “Go immediately to number 15, Allées de Meilhan,” it said. “Ask the porter for the key to the room on the fifth floor. On the corner of the fireplace you will find a red silk purse. Give it to your father. Sinbad the Sailor.”",
+    "Julie ran there with Emmanuel. In the room she found an old red purse. She remembered it well: it had once belonged to her father. Inside there was a paper which showed that the debt of two hundred and eighty-seven thousand francs had been paid. There was also a diamond as big as a nut, with a little note: “Julie’s dowry.”",
+    "Julie ran home and up the stairs. At the same time, Maximilien broke down the door of the office. Morrel was sitting at his desk with a pistol in his hand. The clock was about to strike eleven.",
+    "“Father! You are saved!” cried Julie, and she put the purse on the desk.",
+    "Morrel stared at it. “This purse… I gave it years ago to old Dantès, when he was poor.”",
+    "Then a shout came from the street. “The Pharaon! The Pharaon is entering the port!”",
+    "Everyone ran to the harbour. And it was true. A ship exactly like the Pharaon, with the same name and the name Morrel and Son painted on the back, was coming into the port. Old Captain Gaumard was standing on the deck, waving his hat. The ship was full of cargo from India. The whole town was cheering.",
+    "Morrel cried with joy and held his children in his arms.",
+    "Not far away, a man with a dark beard was watching from behind a small sentry box on the quay. “Be happy, noble heart,” he said softly. “Be blessed for all the good you have done and will do.” Then he walked down to the water, where a small boat was waiting to take him to a beautiful yacht.",
+    "He looked back at the happy crowd one last time. “Now,” he said, “farewell to kindness, humanity and gratitude. I have rewarded the good. Now the God of vengeance must let me punish the wicked.”",
+    "The yacht opened its sails and disappeared into the evening. The man who had been Edmond Dantès was gone. In his place was the Count of Monte Cristo."
+   ],
+   "glossary": [
+    {
+     "term": "engaged",
+     "meaning": "noiva, comprometida"
+    },
+    {
+     "term": "clerk",
+     "meaning": "funcionário de escritório"
+    },
+    {
+     "term": "debts",
+     "meaning": "dívidas"
+    },
+    {
+     "term": "astonished",
+     "meaning": "espantado"
+    },
+    {
+     "term": "due",
+     "meaning": "vencido, devido"
+    },
+    {
+     "term": "dowry",
+     "meaning": "dote"
+    },
+    {
+     "term": "cheering",
+     "meaning": "aplaudindo, comemorando"
+    },
+    {
+     "term": "vengeance",
+     "meaning": "vingança"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,703 @@
+{
+ "id": "moonstone",
+ "title": "The Moonstone",
+ "author": "Wilkie Collins",
+ "year": 1868,
+ "module": 5,
+ "level": "C1",
+ "summary": "Um enorme diamante amarelo, roubado de um templo indiano durante uma guerra, chega à Inglaterra como presente de aniversário para a jovem Rachel Verinder e desaparece de seu quarto na mesma noite. Três misteriosos indianos rondam a casa, uma criada guarda um segredo e um famoso detetive de Londres começa a investigar. A história é contada por várias testemunhas, cada uma com sua própria voz, seus preconceitos e sua parte da verdade.",
+ "chapters": [
+  {
+   "title": "Prologue: The Storming of Seringapatam (1799)",
+   "paragraphs": [
+    "I address these lines, written in India, to my relatives in England. My object is to explain why I have refused my right hand of friendship to my cousin, John Herncastle. The reserve which I have hitherto maintained has been misinterpreted by members of my family whose good opinion I cannot consent to forfeit. I request them to suspend their decision until they have read my story. And I declare, on my word of honour, that what I am now about to write is, strictly and literally, the truth.",
+    "The private difference between my cousin and me took its rise in a great public event in which we were both concerned: the storming of Seringapatam, under General Baird, on the 4th of May, 1799. In the camp before the attack, there were many wild stories about the treasure in the palace of the Sultan, Tippoo. One of these stories concerned a famous Yellow Diamond, a gem as large as a plover’s egg, which the Indians called the Moonstone. It had once been set in the forehead of a four-handed Indian god who typifies the Moon, and its light was said to rise and fall with the waxing and waning of the moon itself.",
+    "According to the legend, the stone had been stolen from the god centuries before by Muslim conquerors, and ever since, three Brahmins, priests of the god, had watched over it night and day, generation after generation, waiting for the moment when it might be returned to its shrine. The god himself, the story said, had laid a curse on any mortal who should touch the sacred gem, and on all his house and name who received it after him.",
+    "My cousin laughed at the story when I told it to him. “I am not afraid of curses,” he said. “And if the Moonstone is in that palace, I mean to have it.” I thought he was joking. I knew him to be a brave soldier, but I also knew him to have a hot and violent temper, and I was soon to learn how far that temper could carry him.",
+    "When the city was stormed, our soldiers ran wild in the palace, and the officers had orders to stop the plundering. I was sent with a party of men to keep order in one part of the building. At the door of a room off the courtyard, I heard cries of agony. I rushed in and found two Indians lying dead on the floor, killed, as I supposed, by our men. A third Indian, mortally wounded, was sinking at the feet of a man whose back was towards me.",
+    "The man turned at the instant when I entered, and I saw John Herncastle, with a torch in one hand and a dagger dripping with blood in the other. A stone, set like a pommel at the end of the dagger’s handle, flashed in the torchlight like a gleam of fire. The dying Indian sank to his knees, pointed to the dagger in Herncastle’s hand, and said in his native language, “The Moonstone will have its vengeance yet on you and yours!” He spoke those words and fell dead on the floor.",
+    "Before I could stir in the matter, the men who had followed me across the courtyard crowded in. My cousin rushed at them like a madman. “Clear the room!” he shouted to me, “and set a guard on the door!” The men fell back as he threw himself on them with his torch and his dagger. I put two sentinels of my own company on whom I could rely to keep the door. Through the remainder of the night I saw no more of my cousin.",
+    "Early the next morning, the plunder still going on, I asked him about what I had seen. “How did the Indians in the armoury meet their death?” I said. “And what was the meaning of the last words I heard spoken in that room?”",
+    "Herncastle looked at me with a face that told me nothing. “The Indians died, I suppose, of their wounds,” he answered coldly. “And I know no more of the last words than you do.” He turned his back on me. From that day to this we have never spoken.",
+    "I wish it to be clearly understood that what I write here is meant for my family only. I cannot prove that my cousin killed the three men, and I do not say that he did, for the third may have been wounded before he entered. But I do say that he took the jewel, and that, in my opinion, it will bring misfortune to anyone who receives it from him. I believe, too, that the three Brahmins, or men like them, will never give up the search, and that in some strange way the Moonstone will find its way back to the god."
+   ],
+   "glossary": [
+    {
+     "term": "hitherto",
+     "meaning": "até agora"
+    },
+    {
+     "term": "forfeit",
+     "meaning": "perder (como castigo)"
+    },
+    {
+     "term": "plover’s egg",
+     "meaning": "ovo de tarambola (ave)"
+    },
+    {
+     "term": "waxing and waning",
+     "meaning": "crescente e minguante"
+    },
+    {
+     "term": "shrine",
+     "meaning": "santuário"
+    },
+    {
+     "term": "plundering",
+     "meaning": "saque, pilhagem"
+    },
+    {
+     "term": "pommel",
+     "meaning": "pomo (ponta do cabo da espada)"
+    },
+    {
+     "term": "sentinels",
+     "meaning": "sentinelas"
+    }
+   ]
+  },
+  {
+   "title": "Gabriel Betteredge's Narrative: The Jugglers at the Gate",
+   "paragraphs": [
+    "In the first part of Robinson Crusoe, at page one hundred and twenty-nine, you will find it thus written: “Now I saw, though too late, the folly of beginning a work before we count the cost.” Only yesterday I opened my Robinson Crusoe at that place, and only this morning, Mr Franklin Blake came to me and asked me to write down my share of the story of the Diamond. I have been house-steward to Lady Verinder for fifty years, man and boy, and if you can find a better book than Robinson Crusoe for a man in trouble, I should like to see it.",
+    "“Betteredge,” Mr Franklin said, “I have been to the lawyer’s, and we have agreed that the whole of the strange business of the Moonstone ought to be written down, by the people who saw it, each in turn. You were there from the beginning. Write what you saw, and no more.” So here I am, at my desk in the steward’s room, with an old man’s pen, beginning a work before I have counted the cost.",
+    "Let me explain who we were in the year 1848. My lady lived in a large house in Yorkshire, near the sea, with her only daughter, Miss Rachel, who was then a young lady of eighteen. My lady’s brother was that same Colonel John Herncastle of whom you have read. He came home from India with a bad name and a great diamond, and no respectable person would receive him. When he called at my lady’s house on her birthday, she sent him away at the door, and he went off laughing, saying that she would remember it. He lived alone afterwards, and died alone, and none of us thought of him again until the summer of which I write.",
+    "On the 24th of May, my lady sent for me and told me that Mr Franklin Blake, her nephew, whom we had not seen since he was a boy, was coming to stay with us on the 25th. He had been brought up abroad, in Germany, France and Italy, and I wondered what sort of man he had become. That same afternoon, my daughter Penelope came to me in a great state of excitement.",
+    "Three Indians had come to the house. They were mahogany-coloured men in white linen frocks and trousers, and they had a little English boy with them, carrying a bag. They called themselves jugglers and asked to show their tricks to the lady of the house. I sent them away, as I would any strangers.",
+    "But Penelope was not satisfied. She had followed them down the road, out of curiosity, and had seen something very strange. The Indians stood in a group, looking at our house, and the chief of them poured some black ink, like tar, into the palm of the English boy’s hand. Then he touched the boy’s head and said, “Look.”",
+    "The boy became stiff and stared into the ink like a person in a dream. “Is it on the road to this house, and on no other, that the English gentleman will travel today?” asked the Indian. “It is,” said the boy. “Has the English gentleman got It about him?” And the boy answered, “Yes.”",
+    "I was inclined to laugh, but the next day Mr Franklin arrived, early and unexpected, and his first words to me after we had shaken hands were these: “Betteredge, do you remember my uncle, Colonel Herncastle? He has left his cousin Rachel a birthday present, and I have it here in my pocket.” Then he told me about the strange Colonel’s will. The Colonel had left the Moonstone to Miss Rachel, to be given to her on her next birthday, the 21st of June, if her mother was still living. Mr Franklin’s father, a clever lawyer, had been made executor.",
+    "“But why should a wicked old man leave such a jewel to the niece of a sister who shut the door in his face?” I asked. Mr Franklin looked thoughtful. “That is exactly what puzzles me,” he said.",
+    "“Either he repented and wished to make amends, or he meant the gift to bring the curse on her. My father believes he was being followed by the Indians for years, and that he kept himself alive by a clever arrangement: if he were murdered, the Diamond would be cut into pieces and sold, and the Indians would lose it forever. Now that he is dead, they are free to try again. And I think I was followed from London.” I told him what Penelope had seen. He went pale, then laughed and said, “We must put the thing in the bank at Frizinghall at once.” And he rode off that very afternoon to do it."
+   ],
+   "glossary": [
+    {
+     "term": "house-steward",
+     "meaning": "mordomo"
+    },
+    {
+     "term": "man and boy",
+     "meaning": "desde menino"
+    },
+    {
+     "term": "mahogany-coloured",
+     "meaning": "cor de mogno"
+    },
+    {
+     "term": "jugglers",
+     "meaning": "malabaristas"
+    },
+    {
+     "term": "inclined",
+     "meaning": "inclinado, propenso"
+    },
+    {
+     "term": "executor",
+     "meaning": "testamenteiro"
+    },
+    {
+     "term": "repented",
+     "meaning": "se arrependeu"
+    },
+    {
+     "term": "make amends",
+     "meaning": "reparar o erro"
+    }
+   ]
+  },
+  {
+   "title": "Betteredge: The Shivering Sand",
+   "paragraphs": [
+    "Before I go on with the Diamond, I must tell you about one of our housemaids, Rosanna Spearman, for she has a part to play in this story. Rosanna had been a thief. My lady had found her in a reformatory in London and given her a place in our house, so that she might have a second chance. Nobody but my lady and I knew of her past. She was a quiet, plain girl, with one shoulder bigger than the other, and she did her work well, but she kept apart from the other servants and was given to strange solitary walks.",
+    "Her favourite walk was to a place on our coast called the Shivering Sand. It is the most horrible quicksand on the shores of Yorkshire. At the turn of the tide, something goes on in the unknown deeps below, which sets the whole face of the quicksand shivering and trembling in a manner most remarkable to see. Nobody goes there willingly, and no boat lies up in that bay. Yet Rosanna would sit for hours on the rocks, looking at the sand.",
+    "I found her there one afternoon when I went to call her in to tea. “Do you know what I think, Mr Betteredge?” she said. “I think the sand has got hundreds of suffocating people under it, all struggling to get to the surface, and all sinking lower and lower in the dreadful deeps! Throw a stone in, Mr Betteredge! Let’s see the sand suck it down!” I told her she was talking nonsense, but there was a look in her face that I did not like.",
+    "Just then Mr Franklin came walking along the shore towards us. The moment he came in sight, Rosanna turned red, which I had never seen her do before. She stared at him as though she had seen a vision. He bowed to her politely and said good afternoon, and she ran off towards the house without a word.",
+    "Mr Franklin looked puzzled. “What is the matter with the girl?” he said. “Have I offended her?” I could not tell him. It was only later that I understood. The poor creature had fallen in love with him at first sight, a gentleman far above her, who never noticed her at all.",
+    "The weeks between Mr Franklin’s arrival and the birthday passed pleasantly enough, for us. He and Miss Rachel became great friends. She was a girl who never told her secrets and never asked advice, and who would keep a promise or a silence through anything. Mr Franklin, for his part, had picked up a little of everything in the foreign countries: a French side, a German side and an Italian side, with the original English foundation showing through every now and then. He decided to help Miss Rachel decorate the door of her little sitting room with painted birds, flowers and cupids, and they spent hours together over it with brushes and a special varnish which he mixed himself.",
+    "I noticed that he was sleeping badly. He had given up smoking, because Miss Rachel did not like the smell of tobacco, and the loss of his cigars kept him awake at night. I noticed something else too. There was a rival. Miss Rachel’s cousin, Mr Godfrey Ablewhite, a barrister and a great speaker at charitable meetings, was invited to the birthday.",
+    "He was tall and handsome, with a rosy face and a beautiful smile, and the ladies of every charity in London adored him. My daughter Penelope, who knew everything that happened in the house, was certain that Miss Rachel liked Mr Franklin best. I was not so sure.",
+    "On the evening before the birthday, the painted door was finished at last, all but the final touches. Mr Franklin was in high spirits, and Miss Rachel was quiet and happy. That night I went round the house to lock up, as usual, and looked out over the lawn towards the shrubbery. All was still. But I could not get rid of the thought of the three Indians, who had not gone back to London as I had hoped. They were still somewhere in the neighbourhood, travelling about the countryside with their tricks, and waiting."
+   ],
+   "glossary": [
+    {
+     "term": "reformatory",
+     "meaning": "reformatório"
+    },
+    {
+     "term": "solitary",
+     "meaning": "solitárias"
+    },
+    {
+     "term": "quicksand",
+     "meaning": "areia movediça"
+    },
+    {
+     "term": "shivering",
+     "meaning": "tremendo, estremecendo"
+    },
+    {
+     "term": "suffocating",
+     "meaning": "sufocando"
+    },
+    {
+     "term": "varnish",
+     "meaning": "verniz"
+    },
+    {
+     "term": "rival",
+     "meaning": "rival, concorrente"
+    },
+    {
+     "term": "barrister",
+     "meaning": "advogado (que atua nos tribunais)"
+    }
+   ]
+  },
+  {
+   "title": "Betteredge: The Birthday Dinner",
+   "paragraphs": [
+    "On the morning of the 21st of June, Mr Franklin rode over to Frizinghall and brought the Diamond back from the bank. In the afternoon, he gave it to Miss Rachel in front of us all. Lord bless us, it was a Diamond! It was as large, or nearly, as a plover’s egg.",
+    "The light that streamed from it was like the light of the harvest moon. When you looked down into the stone, you looked into a yellow deep that drew your eyes into it so that they saw nothing else. It seemed unfathomable; this jewel, that you could hold between your finger and thumb, seemed as deep as the heavens themselves.",
+    "Miss Rachel was so delighted that she cried out, “Oh, how beautiful!” and danced round the room with it. But my lady’s face, I noticed, was grave. She had read her brother’s will, and she did not understand why he had made it. She said nothing, but I believe she suspected that the gift was a piece of revenge rather than of kindness.",
+    "The dinner that evening was the most uncomfortable I ever served. Miss Rachel wore the Diamond in the bosom of her white dress, fixed with a brooch. Among the guests were Mr Godfrey Ablewhite and his sisters, Mr Candy, the doctor from Frizinghall, and a famous traveller, Mr Murthwaite, who had spent years in India, disguised as a native.",
+    "Every guest stared at the Diamond and talked of nothing else. Mr Candy, who was a cheerful little man, began to argue with Mr Franklin about medicine. Mr Franklin, who was cross from want of sleep, said that doctors were all fools, and that their medicines did more harm than good. Mr Candy turned red and said nothing more, but I saw him smile to himself in a mischievous way.",
+    "In the middle of the dinner, we heard the sound of a drum on the terrace. The three Indians had come to the house again, with their boy, to perform their tricks. Miss Rachel ran out to see them, the Diamond flashing on her breast. The moment the Indians saw it, their faces changed. Mr Murthwaite, who had followed her out, spoke a few words to them in their own language. They bowed and went away without another word.",
+    "Afterwards, on the terrace, Mr Murthwaite took Mr Franklin and me aside. “Those men are not jugglers,” he said quietly. “They are Brahmins of high caste, in disguise. I have no doubt that they have come for the Diamond, and I would not give much for your aunt’s life, or her daughter’s, if she wore that stone in India. If they need to take a life to get it, they will not hesitate. Keep it safe, and send it out of the house as soon as you can.” Then he took his leave.",
+    "Later that evening, I heard that Mr Godfrey had spoken to Miss Rachel in the rose garden and asked her to marry him, and that she had refused him. He looked more serious than usual for the rest of the evening, but he was too much of a gentleman to show his feelings. When the guests had gone, Miss Rachel put the Diamond in an Indian cabinet in her sitting room, which had no lock. My lady wanted to keep it in her own room, but Miss Rachel said, “No, Mamma, I want to look at it when I wake up.”",
+    "Before going to bed, Mr Franklin, Mr Godfrey and I took a glass of brandy and soda together. Mr Godfrey went up to bed early. Mr Franklin, who was still sleepless and restless, went up last. At the foot of the stairs, he said to me, “Betteredge, I have a strange feeling tonight. I wish the Diamond were back in the bank.” I locked all the doors, and the dogs were let loose in the grounds. In the night, I heard nothing."
+   ],
+   "glossary": [
+    {
+     "term": "unfathomable",
+     "meaning": "insondável"
+    },
+    {
+     "term": "grave",
+     "meaning": "sério, preocupado"
+    },
+    {
+     "term": "brooch",
+     "meaning": "broche"
+    },
+    {
+     "term": "cross",
+     "meaning": "irritado, mal-humorado"
+    },
+    {
+     "term": "mischievous",
+     "meaning": "malicioso, travesso"
+    },
+    {
+     "term": "high caste",
+     "meaning": "casta alta"
+    },
+    {
+     "term": "hesitate",
+     "meaning": "hesitar"
+    },
+    {
+     "term": "sleepless",
+     "meaning": "sem sono, insone"
+    }
+   ]
+  },
+  {
+   "title": "Betteredge: The Morning After",
+   "paragraphs": [
+    "On the morning of the 22nd of June, at seven o’clock, my daughter Penelope burst into my room. “Father!” she cried. “The Diamond is gone!” I hurried upstairs.",
+    "Miss Rachel’s maid had found the cabinet open and empty, and my lady and Miss Rachel were standing in the sitting room in their dressing gowns. Miss Rachel was as white as her gown, and she looked like a person who had been struck. She said not a word to any of us.",
+    "Then Mr Franklin came running in, and I shall never forget what followed. “What has happened?” he cried. “Rachel, is it true? The Diamond is gone?” She looked at him. I never saw such a look in a young lady’s face. There was anger in it, and contempt, and something like pity.",
+    "She turned her back on him without a word and went into her bedroom, and we heard the key turn in the lock. Mr Franklin stood there as if he had been turned to stone. “What have I done?” he said to me. “Why does she look at me like that?”",
+    "Mr Franklin was all energy from that moment. He searched the house himself, and when that brought nothing, he rode off to Frizinghall to fetch the police. Superintendent Seegrave arrived within the hour, a big, loud, military-looking man who was sure of everything. He decided at once that the Indians were the thieves, and that the servants had helped them. He had the three Indians arrested in Frizinghall, and he tramped up and down the house questioning everybody. The women servants were all in tears and fury, for he had treated them like criminals.",
+    "When Superintendent Seegrave went into Miss Rachel’s sitting room to examine the cabinet, he told the maids to keep their petticoats away from the painted door. One of the women had already brushed against it. “Why, you have smeared the paint!” he said. There was a small mark on the edge of one of the painted wings, just under the lock. He thought nothing of it, but I remembered it afterwards.",
+    "By the evening, the Indians had been released, for they could prove that they had spent the night in Frizinghall, and the Superintendent had made no progress at all. Mr Franklin was furious with him. “That man is a fool,” he said to me. “He will never find the Diamond. I have telegraphed to London for the best man in England: Sergeant Cuff.” He did not know then that, of all the people in the house, he was the one whom the truth would hurt the most.",
+    "Meanwhile, Miss Rachel did a thing that astonished us all. She refused to see Mr Franklin, refused to speak to the police, and refused to answer any questions about the Diamond.",
+    "When the Superintendent wished to search her room, she said through the door, “I will not be questioned. Nothing I could say would help you.” My lady was wretched about it. She had never known her daughter behave so. “There is something she will not tell me, Betteredge,” she said. “And I am afraid to ask her.”",
+    "Mr Franklin was wretched too, for he was by now very much in love with Miss Rachel, and she treated him as though he were her worst enemy. He walked about the grounds like a lost man, and once, when I found him on the terrace, he said, “Betteredge, I would give everything I possess to know what is in her mind.” I could not help him. I could only think of the old proverb: when a woman has made up her mind, you may as well try to empty the sea with a teacup.",
+    "There was one other person in the house who behaved strangely that day, and that was Rosanna Spearman. Penelope told me that she had heard Rosanna say in the morning that she was ill and could not work. Later, one of the other maids saw her slip out of the house towards the village of Cobb’s Hole, where her only friends lived, a fisherman named Yolland and his family. And in the evening, when Mr Franklin passed through the hall, Rosanna came up to him with a face as red as fire and said, “Do you know, sir, that they won’t find the Diamond? No, nor the person who took it, I’ll answer for that.” Then she nodded at him and smiled, as if they shared a secret. Mr Franklin, who had no idea what she meant, looked at her in amazement and walked on.",
+    "“What on earth is the matter with that girl?” he asked me. “She speaks to me as though I knew something.” I had my own ideas, but I kept them to myself. I knew Rosanna’s history, and I feared that, if the police found out that she had once been a thief, she would be the first person they suspected. And I was beginning to fear that, this time, they might be right."
+   ],
+   "glossary": [
+    {
+     "term": "struck",
+     "meaning": "atingida, golpeada"
+    },
+    {
+     "term": "contempt",
+     "meaning": "desprezo"
+    },
+    {
+     "term": "tramped",
+     "meaning": "andou pesadamente"
+    },
+    {
+     "term": "petticoats",
+     "meaning": "anáguas"
+    },
+    {
+     "term": "smeared",
+     "meaning": "borrou, manchou"
+    },
+    {
+     "term": "wretched",
+     "meaning": "infeliz, aflito"
+    },
+    {
+     "term": "proverb",
+     "meaning": "provérbio"
+    },
+    {
+     "term": "I’ll answer for that",
+     "meaning": "eu garanto"
+    }
+   ]
+  },
+  {
+   "title": "Betteredge: Sergeant Cuff",
+   "paragraphs": [
+    "Sergeant Cuff arrived the next day. I had expected a remarkable man, and I was disappointed. He was a grizzled, elderly man, so miserably lean that he looked as if he had not got an ounce of flesh on his bones. He was dressed all in decent black, with a white cravat round his neck, and his face was as sharp as a hatchet. He might have been a parson or an undertaker, or anything else you like, except what he really was. His eyes, of a steely light grey, had a very disconcerting trick, when they encountered your eyes, of looking as if they expected something more from you than you were aware of yourself.",
+    "The first thing he did was to walk in the garden and talk to the gardener about roses, for it turned out that roses were the great passion of his life. “If you will look about you,” he said to me, “you will see that the nature of a man’s hobby is often the very opposite of his work. I have spent my life among the worst people in England, and in my spare time I grow roses.” Then he went upstairs to examine the sitting room, and as soon as he saw the painted door, he asked who had made the smear.",
+    "“That smear,” said Sergeant Cuff, when he had heard the whole story, “is the most important thing in the house. Mr Franklin, you tell me that the varnish takes twelve hours to dry. You finished painting at three o’clock in the morning, before the young lady went to bed. The maid saw the door perfect at three. At eight it was smeared. Therefore the smear was made between three and eight, by someone who went into that room in the night. Whoever made it carried away paint on his clothes. Find that piece of clothing, and you will find the thief. Superintendent Seegrave, you may go home.”",
+    "He then asked my lady for permission to examine the linen and clothes of everyone in the house. All the servants agreed, and so did Mr Franklin and Mr Godfrey, who was still staying with us. But Miss Rachel refused absolutely. “I will not have my wardrobe searched,” she said, and nothing her mother could say would change her mind. The Sergeant listened to her refusal without the slightest change of expression. He said only, “Very well,” and went away to the washing book, where he spent an hour reading the list of every piece of linen sent to the laundry.",
+    "When he had finished, he called me into a quiet corner. “Mr Betteredge,” he said, “one of your housemaids has a past. I know her face. Rosanna Spearman was in prison for theft. Now, what was she doing yesterday when she said she was ill?” I had to tell him. I had seen her light in her room late at night, and the maids said she had locked herself in. Then a woman from the village had seen her buy a large piece of long cloth, enough for a nightgown, and that night the smell of a fire came from her room, though it was midsummer.",
+    "“So,” said the Sergeant. “She is making a new nightgown to replace one that she has hidden or destroyed. I think she found a nightgown with paint on it, and she is protecting someone.” He would say no more, but I saw that he had already formed a theory, and that it was a theory which he did not mean to share with me.",
+    "The next afternoon, I followed him down to the Shivering Sand, where he had discovered from Rosanna’s footprints that she had gone that morning. He studied the rocks for a long time, measuring with a stick, and at last he said, “She has hidden something here, in or near the quicksand. And she has been to Cobb’s Hole to get something to hide it in. She is a clever girl, Mr Betteredge, and the sea keeps her secrets very well.” He went to the Yollands’ cottage that evening and learned that Rosanna had bought a japanned tin case and two dog chains from them.",
+    "“Now I know nearly everything,” he said, when he came back. “I know how she hid it; I don’t yet know what she hid. But I can tell you, and I am sorry to say it, that the person she is protecting is a person of great importance in this house.” I looked at him with a sinking heart, for I thought he meant Mr Franklin, whom Rosanna loved. But I was wrong. He meant somebody else, and when I learned whom, I could hardly believe my ears."
+   ],
+   "glossary": [
+    {
+     "term": "grizzled",
+     "meaning": "grisalho"
+    },
+    {
+     "term": "lean",
+     "meaning": "magro"
+    },
+    {
+     "term": "hatchet",
+     "meaning": "machadinha"
+    },
+    {
+     "term": "undertaker",
+     "meaning": "agente funerário"
+    },
+    {
+     "term": "disconcerting",
+     "meaning": "desconcertante"
+    },
+    {
+     "term": "wardrobe",
+     "meaning": "guarda-roupa"
+    },
+    {
+     "term": "laundry",
+     "meaning": "lavanderia"
+    },
+    {
+     "term": "japanned",
+     "meaning": "envernizado (laca preta)"
+    }
+   ]
+  },
+  {
+   "title": "Betteredge: The Quicksand Keeps Its Secret",
+   "paragraphs": [
+    "The next morning, Rosanna came to me with her eyes red from crying and asked if she might speak to Mr Franklin in the library. I had my doubts, but I could not refuse her. When she went in, he was standing by the window, and the Sergeant had warned him to say as little as possible to the servants.",
+    "So he spoke to her coldly and quickly. “Well, Rosanna, what is it?” She began, “Sir, I wanted to ask you—” and then she stopped, for she saw that he was not looking at her but out of the window, as if he wished she would go. “Never mind, sir,” she said, and went out.",
+    "That afternoon, by bad luck, she was dusting in the passage outside the library when Mr Franklin and I were talking about the Sergeant’s suspicions of her. “I take no interest in Rosanna Spearman,” said Mr Franklin, quite innocently, meaning only that he did not care what the police thought of her.",
+    "“The less I see of her, the better.” I heard a step in the passage. When I looked out, Rosanna was standing there, with her face as white as a ghost’s. She looked at me without a word and walked away. I have never forgiven myself for that afternoon.",
+    "The following morning, Rosanna was missing. Her bed had not been slept in. The Sergeant and I followed her footprints down to the shore, and they led straight to the Shivering Sand. They went out to the edge of the rocks and stopped there. There were no footprints coming back. The sand was quiet and smooth, and the tide was coming in.",
+    "“She has gone,” said the Sergeant, and for the first time I saw something like pity in his hard grey eyes. Then came a cry from behind us. It was the fisherman’s daughter, Limping Lucy, who had been Rosanna’s only real friend.",
+    "She had followed us and heard. “Where is she?” she cried, and when we told her, she shook her crutch at the house. “I wish I could kill the gentleman who did this!” she screamed. “He broke her heart!”",
+    "That evening, Sergeant Cuff asked to see my lady in private, and I was present. He spoke very carefully. “My lady,” he said, “I believe that the Diamond has not been stolen at all, in the usual sense. I believe that Miss Verinder has had it in her possession from the first. She has debts, perhaps, which she does not wish you to know of, and she took Rosanna Spearman, an experienced thief, into her confidence to help her. Rosanna made the smear when she went into the room in the morning, and destroyed the stained nightgown. I believe that Miss Verinder intends to pawn the Diamond, or sell it, to a moneylender in London.”",
+    "My lady stood up, trembling with anger. “Sergeant Cuff,” she said, “you have been asked here to find a thief, not to insult my daughter. I will hear no more.” Just then, as if to confirm his worst ideas, a message came that Miss Rachel was leaving the house that very afternoon to stay with her aunt, Mrs Ablewhite, in Frizinghall. She had told her mother that she could not stay under the same roof as Mr Franklin and the police for a single day more. She drove away without saying goodbye to anyone, and without looking back.",
+    "My lady paid the Sergeant his fee and dismissed him. He took it quietly. “I am going back to my roses,” he said. “But before I go, my lady, let me make three predictions. First, you will hear from the Yollands, after the post comes on Monday, that Rosanna left a letter for Mr Franklin. Second, you will hear more of the three Indians, in London, before long. Third, you will hear of a moneylender in London named Mr Septimus Luker.” He bowed and went away to catch his train.",
+    "Mr Franklin was in despair. Rachel would not see him, would not write to him, and would not even read his letters. “I cannot bear it, Betteredge,” he said. “I am going abroad, and I will not come back until she is ready to forgive me, though God knows what for.”",
+    "He left for the Continent a few days later. Before he went, a letter did indeed come for him from Rosanna, through the Yollands, as the Sergeant had foretold. But Limping Lucy refused to give it to anyone but Mr Franklin himself, in her own hands, and he had already gone.",
+    "Here my part of the story ends. I was sure that the Sergeant was wrong about Miss Rachel, and I was sure that, one day, the truth would come out. As Robinson Crusoe says, we must be patient and trust in Providence. The next part of the story must be told by another pen than mine, and I am glad of it, for my old eyes are tired."
+   ],
+   "glossary": [
+    {
+     "term": "dusting",
+     "meaning": "tirando o pó"
+    },
+    {
+     "term": "crutch",
+     "meaning": "muleta"
+    },
+    {
+     "term": "in her possession",
+     "meaning": "em seu poder"
+    },
+    {
+     "term": "confidence",
+     "meaning": "confiança (segredo compartilhado)"
+    },
+    {
+     "term": "pawn",
+     "meaning": "penhorar"
+    },
+    {
+     "term": "moneylender",
+     "meaning": "agiota, emprestador de dinheiro"
+    },
+    {
+     "term": "dismissed",
+     "meaning": "dispensou, demitiu"
+    },
+    {
+     "term": "foretold",
+     "meaning": "previu, profetizou"
+    }
+   ]
+  },
+  {
+   "title": "Miss Clack's Narrative: A Christian Hero",
+   "paragraphs": [
+    "I am indebted to my dear parents, both now in heaven, for having had habits of order and regularity instilled into me at a very early age. I am also, I confess, a poor relation of the Verinder family, living in a modest room in London on a modest income. Mr Franklin Blake has asked me to write down what I saw of the family in the months after the loss of the Diamond, and he has offered to pay me for my trouble. I accept his payment only so that I may spend it on religious tracts for the poor, and I write with the strictest regard for truth.",
+    "In the autumn of 1848, London was full of a shocking story. My dear friend, Mr Godfrey Ablewhite, that Christian hero, the pride of every charity in the city, had been attacked. On the afternoon of the 26th of June, he received a note asking him to visit a lady in Northumberland Street on business. When he went into the empty room upstairs, he was seized from behind by three dark men, gagged, bound, and searched from head to foot. His pockets were turned out, and even his clothes were examined. Then he was left on the floor, and found there later by the landlady.",
+    "The very same afternoon, the same thing had happened to another gentleman: Mr Septimus Luker, a moneylender of Lambeth, who dealt in jewels and antiquities. He too was searched, and a paper was taken from his pocket: a receipt for a valuable object which he had deposited with his bankers. It was clear to everybody that the Indians believed one of these two men had the Moonstone. Some wicked people even whispered that Mr Godfrey had stolen it himself, and that he had pawned it with Mr Luker. The idea was too monstrous to be considered.",
+    "My aunt, Lady Verinder, had come to London with Rachel, and I visited them often. I found my aunt sadly changed. She was pale and tired, and I learned from the doctor that she was suffering from a disease of the heart that might take her at any moment. Naturally, I did what any Christian would do. I brought her a selection of my most precious books on the subject of preparing for death, and since she would not read them, I hid them all over her house: under the sofa cushions, in the drawers of her writing table, behind the curtains, and even in the pages of her novels, where they could not fail to be found.",
+    "One day Rachel and I were speaking of the attack on Mr Godfrey, and I happened to say that the wicked rumours about him might perhaps have some foundation. Rachel jumped up in a state of violent emotion. “He is innocent!” she cried.",
+    "“I know that he is innocent. I would say it in a court of law, before the whole world. I know who took the Diamond, and it was not Godfrey Ablewhite!” Then she burst into tears and ran out of the room. I was quite shaken. If she knew who had taken it, why had she not told the police? It seemed to me that there was a dreadful secret in that poor girl’s heart.",
+    "A few days later, while I was waiting in the drawing room of my aunt’s house, Mr Godfrey came in to see Rachel. I was behind a curtain at the time, quite by accident, and I could not leave without being seen. So, against my will, I heard everything. Mr Godfrey spoke to her of his devotion with an eloquence I had never heard even at our charitable meetings. And Rachel, to my astonishment, said, “Godfrey, I am not happy. I can never love any man as I loved once. But if you will take me as I am, I will marry you.” He kissed her hand and looked, I must say, extremely pleased.",
+    "The next morning, my poor aunt died, suddenly and peacefully, in her chair. When the servants found her, there were several of my little books beside her, unopened. My heart was too full to speak. I can only add that, a little later, the engagement between Rachel and Mr Godfrey was broken off, and that I was turned out of the house by Mr Ablewhite senior, Godfrey’s father, a vulgar man with no religion, who said things to me that I will not repeat. What happened, and why, I must leave to the lawyer who came between them. I forgive them all."
+   ],
+   "glossary": [
+    {
+     "term": "indebted",
+     "meaning": "em dívida, grata"
+    },
+    {
+     "term": "instilled",
+     "meaning": "incutidos"
+    },
+    {
+     "term": "tracts",
+     "meaning": "folhetos (religiosos)"
+    },
+    {
+     "term": "gagged",
+     "meaning": "amordaçado"
+    },
+    {
+     "term": "antiquities",
+     "meaning": "antiguidades"
+    },
+    {
+     "term": "receipt",
+     "meaning": "recibo"
+    },
+    {
+     "term": "devotion",
+     "meaning": "devoção, amor"
+    },
+    {
+     "term": "vulgar",
+     "meaning": "grosseiro, vulgar"
+    }
+   ]
+  },
+  {
+   "title": "Mr Bruff's Narrative: The Will and the Indian",
+   "paragraphs": [
+    "My fair friend, Miss Clack, has laid down the pen, and I take it up for two reasons. In the first place, I can throw some light on certain matters that have been left in the dark. In the second place, I was myself concerned in the breaking off of Miss Verinder’s marriage engagement, and I saw how it was done. I am a lawyer, Mr Matthew Bruff of Gray’s Inn Square, and I had been for many years the legal adviser of the late Lady Verinder.",
+    "Lady Verinder had made her will some weeks before her death. By that will, Rachel inherited only a life interest in her mother’s property. That is to say, she would have a good income as long as she lived, but she could not sell the property or give it away, and if she married, her husband could not touch the capital. A few days after the engagement was announced, I happened to learn, from a clerk at Doctors’ Commons, that someone had recently gone there to read a copy of Lady Verinder’s will. That someone was a lawyer acting for Mr Godfrey Ablewhite.",
+    "Now, why should a man who has just won the heart of a rich young lady wish to read her mother’s will, unless he wished to know exactly how much money he would get by marrying her? And why should he be in such a hurry about it, unless he was in urgent need of money? I could not prove that he was a fortune-hunter, but I thought it my duty to tell Rachel what I had found. She listened to me in silence, and then she said, “Thank you, Mr Bruff. You have done me a great service.”",
+    "That afternoon, she spoke to Mr Godfrey. I learned afterwards what passed between them. She told him frankly that she had made a mistake, that she did not love him, and that it was wrong of her to have accepted him. She expected him to protest. Instead, after a short pause, he agreed with her at once, and with a readiness that she found almost insulting.",
+    "He said that he too had been too hasty, and that he would always remain her loving cousin. His father, old Mr Ablewhite, was furious when he heard of it, and accused Rachel of trifling with his son. He spoke to her so rudely that she left his house the same day and came to live with my family, where she has been ever since.",
+    "A few days later, a strange thing happened in my office. My clerk announced a foreign gentleman who would not give his name. He was an Indian, well dressed in European clothes, with a quiet and dignified manner. He had a small box of carved ivory and said that he wished to borrow money on it.",
+    "I told him that I did not lend money, and recommended him to a respectable moneylender. He bowed and thanked me. Then, just as he reached the door, he turned and asked a question, as if it had only just occurred to him.",
+    "“Pardon me, sir,” he said, “but if a man borrows money and gives a valuable object as a pledge, how long must the lender keep the object before he may sell it?” I explained that by our English custom, the borrower had a year to repay the loan and take back his property. “A year,” he repeated slowly. “Thank you, sir.” And he was gone. It was only later that I realised that this was the chief of the three Indians, and that he had come to me because he wanted to check a fact.",
+    "That evening at dinner, I was sitting next to Mr Murthwaite, the traveller, and I told him about my visitor. He became very serious. “It is perfectly clear,” he said. “The Indians know, or believe, that the Moonstone was pawned with Mr Luker in London, on the very day of their attack on him, which was the 26th of June. They know now that the borrower has a year to take it back. At the end of June next year, the Diamond will come out of Mr Luker’s bank, and whoever pawned it will come to fetch it. That is when they will strike. Until then, they will simply wait. Remember, they have waited for centuries.”",
+    "I wrote down the date in my diary: the end of June, 1849. Then I put away my notes, for I had no more to add. I have since learned that I was right to watch that date, and that the man who came to the bank was the very last man in London whom anyone would have suspected."
+   ],
+   "glossary": [
+    {
+     "term": "legal adviser",
+     "meaning": "consultor jurídico"
+    },
+    {
+     "term": "the late",
+     "meaning": "o(a) falecido(a)"
+    },
+    {
+     "term": "life interest",
+     "meaning": "usufruto vitalício"
+    },
+    {
+     "term": "capital",
+     "meaning": "capital (dinheiro principal)"
+    },
+    {
+     "term": "fortune-hunter",
+     "meaning": "caça-dotes, interesseiro"
+    },
+    {
+     "term": "readiness",
+     "meaning": "prontidão"
+    },
+    {
+     "term": "pledge",
+     "meaning": "garantia, penhor"
+    },
+    {
+     "term": "strike",
+     "meaning": "atacar"
+    }
+   ]
+  },
+  {
+   "title": "Franklin Blake's Narrative: The Letter from the Shivering Sand",
+   "paragraphs": [
+    "In the spring of 1849, I was wandering in the East, trying to forget Rachel, when a letter reached me with the news that my father had died. I returned to London at once. Mr Bruff told me everything that had happened while I was away: the attacks on Godfrey and Luker, my aunt’s death, Rachel’s engagement and its sudden end.",
+    "When I asked to see Rachel, he shook his head. “She will not see you,” he said. “She would not even say why.” I made up my mind there and then that I would find the Diamond, and the reason for her anger, or die in the attempt.",
+    "I went down to Yorkshire, to the old house, and Betteredge received me with tears in his eyes. He told me about Rosanna’s letter, which Limping Lucy had kept for me. The next morning we went to Cobb’s Hole. Lucy was a thin, pale girl with a crutch, and she stared at me with hatred.",
+    "“So you are the man,” she said. “I wanted to see the gentleman she died for. I don’t see anything in you to love.” She gave me the letter and turned away. “I hope you will feel it,” she said, “for she loved you, and you killed her.”",
+    "The letter contained a short note and a memorandum with instructions. It told me to go to the Shivering Sand at low tide, find a certain point between the South Spit and the jetty, and feel under the rocks for a chain. Betteredge and I went there at once.",
+    "The tide was low, and the quicksand lay quiet and brown. I followed the instructions and, plunging my arm into the water and sand, found a chain. At the end of it was a japanned tin case. Inside was a nightgown, with a small smear of paint on the front, near the breast.",
+    "I looked for the mark that would tell me who owned it. There was a name, marked in the linen, as servants mark the household clothes. I looked, and read my own name. I stood there, holding it, with the cold sea air on my face, unable to speak. “Betteredge,” I said at last, “I am the thief. I took the Diamond, and I have no more knowledge of it than you have.”",
+    "When we came back to the house, I read the long letter that Rosanna had left with the case, and I will set down only part of it here. “Sir,” it began, “I have something to confess to you. When I first saw you on the beach, I loved you. I knew it was hopeless. I was an ugly girl with a crooked shoulder and a past in prison, and you were a gentleman who did not know I was alive. On the morning after the birthday, when I came to clean your room, I found your nightgown with the wet paint on it. I knew then that you had gone into Miss Rachel’s room in the night and taken the Diamond. I thought you had done it because you were in debt, and I did not blame you, sir. I only wanted to save you.”",
+    "“So I hid it. I made a new nightgown, exactly like the old one, and put it in the wash, so that no one would find one missing. I wanted to give you the old one myself, and tell you that I would keep your secret, and that you were safe with me. I tried to speak to you, and you would not look at me. Then I heard you say that you took no interest in me. I have no more strength. The sand is calling me, sir, as it has called me for a long time. If you ever read this, think of me kindly. Rosanna Spearman.”",
+    "I put the letter down and sat for a long time without moving. A woman had died for me, and I had not noticed her. And the woman I loved believed that I was a thief. There was only one explanation for Rachel’s behaviour on that dreadful morning: she must have seen me take it.",
+    "Yet I had no memory of it at all. I had slept, as I believed, the whole night through. “What am I to do, Betteredge?” I asked. The old man opened his Robinson Crusoe at random and read aloud: “To be sure, I was much better than I deserved.” It was not a great help."
+   ],
+   "glossary": [
+    {
+     "term": "in the attempt",
+     "meaning": "na tentativa"
+    },
+    {
+     "term": "spit",
+     "meaning": "faixa estreita de areia, pontal"
+    },
+    {
+     "term": "jetty",
+     "meaning": "quebra-mar, cais"
+    },
+    {
+     "term": "plunging",
+     "meaning": "mergulhando"
+    },
+    {
+     "term": "crooked",
+     "meaning": "torto"
+    },
+    {
+     "term": "in debt",
+     "meaning": "endividado"
+    },
+    {
+     "term": "at random",
+     "meaning": "ao acaso"
+    },
+    {
+     "term": "deserved",
+     "meaning": "merecia"
+    }
+   ]
+  },
+  {
+   "title": "Franklin Blake: What Rachel Saw",
+   "paragraphs": [
+    "I went back to London with the nightgown in my bag and told Mr Bruff everything. He was silent for a long while, and then he said, “There is only one person who can tell you what happened that night, and that is Rachel. She will not see you if she knows you are coming. Leave it to me.” He invited her to his house in Hampstead, and when she was sitting in his drawing room, he showed me in and left us alone together.",
+    "She rose when she saw me, and for a moment I thought she was going to faint. Then she cried, with a look of anger I shall never forget, “How dare you come here? How dare you look at me after what you have done?” I asked her, as calmly as I could, to tell me exactly what she had seen on the night of her birthday.",
+    "“Why do you ask me?” she said scornfully. “You know it better than I.” I told her about the nightgown, and the name, and that I had no memory of anything. She listened with a face of stone. She did not believe me.",
+    "At last she spoke. “Very well,” she said. “I will tell you, and then you will leave me in peace forever. I could not sleep that night. At about one o’clock, I was sitting in my bedroom in the dark, when I saw a light under the door from the sitting room. I thought it was my maid. I went to the door and opened it a little. You were standing there, with a candle in your hand. You went to the cabinet, and you opened the drawer and took out the Diamond. You looked at it, and then you turned and walked out of the room, past me, without a word. Your face was strange, your eyes were bright, but you knew perfectly well what you were doing.”",
+    "“And what did you think?” I asked. Her voice broke. “I thought you were in debt. I had heard about your debts in Paris. I thought you needed money and were too proud to ask. And I was ready to forgive you that! But the next morning, you came to me and asked me, before everyone, whether it was true that the Diamond was gone, and you talked of sending for the police. You were so innocent, so concerned, such a perfect actor. That was what I could not forgive. That was what broke my heart. And yet I could not betray you. I told nobody. I let my own mother think that I was hiding something, and I let a policeman call me a thief.”",
+    "I was so stunned that I could hardly speak. “Rachel,” I said, “I swear to you, before God, that I have no memory of any of it. If I did it, I did it without knowing.” She looked at me for a long time, and something in my face made her hesitate.",
+    "Then she began to cry. “Why do you torture me like this?” she said. “I have tried to hate you, and I cannot. I love you still. Even now, I love you.” Then she seemed to be ashamed of having said so, and she ran from the room.",
+    "Mr Bruff came in and found me sitting with my head in my hands. “It is quite clear,” he said, after I had told him everything. “She saw you take the Diamond. You do not remember taking it. Either you are lying, which I don’t believe, or you were not in your right mind that night. Were you ill? Were you drinking?” I said that I had drunk only a single glass of brandy and soda. I had been sleepless for days, because I had given up my cigars. That was all.",
+    "“Then go back to Yorkshire,” said Mr Bruff. “Talk to everyone who was at that dinner. Something happened that night which nobody has noticed. Find out what it was.” So I went back once more. Betteredge gave me a list of the guests, and I remembered the quarrel with Mr Candy, the little doctor.",
+    "I went to see him at once in Frizinghall. He had been very ill with a fever, caught on the night of the birthday when he drove home through the rain, and his memory had been badly damaged. He tried hard to remember something, and could not.",
+    "It was in Mr Candy’s house that I met his assistant, a man whose appearance startled me. His complexion was of a gipsy darkness, and his hair, though he was not old, was a strange mixture of black and white, in streaks, as if age and youth were at war in him. His eyes were sad and gentle. He told me that his name was Ezra Jennings, and he asked me to come to his rooms that evening. “I may be able to help you, Mr Blake,” he said. “I was with Mr Candy during his fever, and I wrote down what he said in his delirium.”"
+   ],
+   "glossary": [
+    {
+     "term": "showed me in",
+     "meaning": "me conduziu para dentro"
+    },
+    {
+     "term": "scornfully",
+     "meaning": "com desdém"
+    },
+    {
+     "term": "betray",
+     "meaning": "trair"
+    },
+    {
+     "term": "stunned",
+     "meaning": "atordoado"
+    },
+    {
+     "term": "torture",
+     "meaning": "torturar"
+    },
+    {
+     "term": "in your right mind",
+     "meaning": "em seu juízo perfeito"
+    },
+    {
+     "term": "quarrel",
+     "meaning": "discussão, briga"
+    },
+    {
+     "term": "complexion",
+     "meaning": "tez, cor da pele"
+    }
+   ]
+  },
+  {
+   "title": "From the Journal of Ezra Jennings: The Experiment",
+   "paragraphs": [
+    "15 June, 1849. Mr Franklin Blake came to my rooms tonight, and I showed him my notes of Mr Candy’s delirium. During his fever, the poor man had talked constantly, but his words came out broken and without connection. I had written them down exactly, and afterwards, out of professional curiosity, I had filled in the gaps, as one fills in the missing words of a damaged letter. When I read him the result, Mr Blake turned pale. Mr Candy, angered by Mr Blake’s attack on medicine at the birthday dinner, had secretly put a dose of laudanum, tincture of opium, into his brandy and soda, to give him a good night’s sleep and teach him a lesson.",
+    "“Laudanum!” said Mr Blake. “But I never took laudanum in my life.” I explained to him that this was exactly the point. A man who is not used to opium, who is nervous and sleepless, and whose mind is full of anxiety, may be affected by it in strange ways. He may get up and walk, and act with apparent purpose, and remember nothing of it the next morning.",
+    "“You were anxious about the Diamond,” I said. “You had been told that the Indians might come for it. Under the influence of the drug, your mind took hold of the idea that the Diamond was not safe in that unlocked cabinet, and you went to remove it to a safer place.”",
+    "He asked me how we could prove such a thing. I told him that there was only one way: to repeat the experiment. We must put him in exactly the same state of mind and body as on the night of the 21st of June last year. He must give up smoking again, so that he would be sleepless.",
+    "The house in Yorkshire must be arranged exactly as it was, with the same furniture in the same rooms. Then, at the same hour, I would give him the same dose of laudanum, and we would watch what he did. He agreed at once, and wrote to Mr Bruff and to Betteredge.",
+    "I must add a word about myself, since I write this journal only for my own eyes. I am dying of an incurable disease, and I have suffered such pain that for years I have taken opium myself to make life bearable. A cruel lie about my past has followed me from place to place and ruined my reputation, and I have no friends. But if I can do this one thing, and restore the happiness of these two young people, I shall feel that I have not lived in vain.",
+    "20 June. Betteredge has done everything we asked, though he grumbled loudly that it was a piece of heathen magic. Mr Bruff has come too, as a witness, carrying a pile of legal papers and doubting everything. And Miss Verinder has arrived secretly, without Mr Blake’s knowledge.",
+    "She wrote to me as soon as she heard of the plan. “I want to see it with my own eyes,” she wrote, “and I will hide in my old bedroom so that he does not know I am there.” When she came, she asked me to tell him something on her behalf: that she believed in him now, whatever happened.",
+    "25 June, night. The experiment has been made. At eleven o’clock, I gave Mr Blake the dose in a glass of brandy and water. Betteredge, Mr Bruff and I sat in the bedroom with him, and we waited. Mr Blake was restless at first, and talked about the Diamond: “Is it safe in that cabinet? Anybody might take it. The Indians may be hiding in the house.”",
+    "Then he grew quiet. About an hour later, he sat up in bed, got out, took his candle and walked out of the room. We followed him in silence along the corridor to Miss Verinder’s sitting room. In the cabinet, we had placed a piece of glass the same size as the Moonstone.",
+    "He opened the drawer, took out the false Diamond and held it up to the candle for a moment. Then he turned, his face calm, his eyes shining strangely, and walked back towards his own room. I saw Miss Verinder in the doorway of her bedroom, watching with her hands pressed to her breast, exactly where she had stood a year before.",
+    "He passed by her without seeing her. In his own room, he stood for a moment with the glass in his hand, as though uncertain what to do next. Then the drug overpowered him. His hand opened, the glass fell to the floor, and he sank back on the bed and fell into a heavy sleep.",
+    "So the first half of the mystery is solved: Mr Blake took the Diamond, without knowing that he took it. But what did he do with it afterwards, on that night of the birthday? That the experiment could not show us. When I came out of the room, Miss Verinder was sitting by his bed, holding his hand, with tears running down her face.",
+    "“Leave me with him, Mr Jennings,” she said softly. “I shall not leave him again.” Mr Bruff took off his spectacles and wiped them. “There is only one thing left,” he said. “The Diamond is with Mr Luker, and the year is up. We must go to London at once, and watch his bank.”"
+   ],
+   "glossary": [
+    {
+     "term": "delirium",
+     "meaning": "delírio"
+    },
+    {
+     "term": "gaps",
+     "meaning": "lacunas"
+    },
+    {
+     "term": "tincture",
+     "meaning": "tintura"
+    },
+    {
+     "term": "apparent purpose",
+     "meaning": "propósito aparente"
+    },
+    {
+     "term": "bearable",
+     "meaning": "suportável"
+    },
+    {
+     "term": "grumbled",
+     "meaning": "resmungou"
+    },
+    {
+     "term": "heathen",
+     "meaning": "pagã"
+    },
+    {
+     "term": "overpowered",
+     "meaning": "dominou"
+    }
+   ]
+  },
+  {
+   "title": "Franklin Blake: The Man at the Wheel of Fortune",
+   "paragraphs": [
+    "On the morning of the 26th of June, exactly a year after the attacks on Godfrey and Luker, Mr Bruff and I sat in a cab opposite Mr Luker’s bank in Lombard Street. Mr Bruff had brought his office boy, a sharp little fellow with great goggling eyes, whom everyone called Gooseberry. Sergeant Cuff, who had come out of his retirement and his rose garden as soon as he heard of our experiment, was somewhere in the crowd. “If the Indians are right,” he had said, “the man who pawned the Diamond will come for it today. Watch whoever Mr Luker meets in the bank.”",
+    "Mr Luker came out of his carriage and went into the bank, with two men to guard him. A minute later he came out again, and as he did so, he seemed to touch the hand of someone standing near the door. There were three or four men in the crowd at that moment: a tall grey-haired gentleman, a workman, and a dark-bearded sailor in rough blue clothes. “Which of them?” said Mr Bruff. Before I could answer, Gooseberry had slipped out of the cab and vanished into the crowd. A few moments later, I saw something else: a dark face, under a workman’s cap, watching the sailor too.",
+    "We waited at Mr Bruff’s office for the rest of the day, and at last, late in the evening, Gooseberry came running in, out of breath. “It’s the sailor!” he said. “I followed him all the way to the Tower Wharf, to a public house called the Wheel of Fortune. He took a room for the night, and he paid in advance, and he asked when the Rotterdam steamer would leave in the morning. And there was a dark-faced man in a workman’s dress following him too, sir, and two others with him.” Sergeant Cuff arrived just as the boy finished, and when he heard the story, he took up his hat at once. “Come,” he said. “We may already be too late.”",
+    "We reached the Wheel of Fortune at about midnight. The landlord led us upstairs to the sailor’s room. The door was locked, and there was no answer to our knocking. We broke it open. On the bed lay the sailor, dead.",
+    "He had been smothered with a pillow. On the table was a small empty box, and the window, which looked out over the roofs, stood open. Whoever had killed him had come and gone that way, quickly and silently, and had taken with him what the box had held.",
+    "Sergeant Cuff bent over the body. “The beard is not real,” he said quietly. He pulled at it, and it came away in his hand, and the dark wig after it. Then he washed the brown paint from the face with a wet towel, and he looked up at me.",
+    "“Mr Blake,” he said, “do you know this man?” I looked down, and I saw the pale, handsome face of Godfrey Ablewhite, the Christian hero, the pride of every charity in London. I had known him all my life. For a long moment nobody in that miserable room said a word.",
+    "“The Indians have their Diamond,” said the Sergeant at last. “Before tomorrow night it will be on its way to India, and no power in England will stop it. I made a mistake a year ago, Mr Blake, a great mistake. I suspected the young lady, and I was wrong. I suspected Rosanna Spearman of protecting her, and that was wrong too. The only thing I got right was the smear of paint. Now let me find out how this man came to have the Diamond. I promise you a full report within the week.”",
+    "When I told Rachel, she sat very still for a while. Then she said, “I knew that he was innocent of the theft, because I had seen you take it. And so I defended him, before the whole world. And all the time, he had it.” She shivered, and I took her hand. Neither of us spoke of Godfrey again that night. But I thought of the curse that the dying priest had laid on the Moonstone at Seringapatam, and I wondered whether it had done its work at last."
+   ],
+   "glossary": [
+    {
+     "term": "goggling",
+     "meaning": "arregalados"
+    },
+    {
+     "term": "vanished",
+     "meaning": "sumiu"
+    },
+    {
+     "term": "wharf",
+     "meaning": "cais"
+    },
+    {
+     "term": "public house",
+     "meaning": "taverna, pub"
+    },
+    {
+     "term": "in advance",
+     "meaning": "adiantado"
+    },
+    {
+     "term": "smothered",
+     "meaning": "sufocado"
+    },
+    {
+     "term": "wig",
+     "meaning": "peruca"
+    },
+    {
+     "term": "shivered",
+     "meaning": "estremeceu"
+    }
+   ]
+  },
+  {
+   "title": "Sergeant Cuff's Report, and the Last Witnesses",
+   "paragraphs": [
+    "Sergeant Cuff to Franklin Blake, Esquire. Dorking, Surrey, 30 July, 1849. Sir, I beg to apologise for the delay in sending you this report. I have now traced Mr Godfrey Ablewhite’s movements and affairs, and I can tell you the whole truth. Mr Ablewhite led a double life. In public, he was a man of religion and charity.",
+    "In private, he kept a villa in the suburbs, beautifully furnished, and a lady who was not his wife lived in it. He had also been made trustee of a fortune of twenty thousand pounds, left to a young gentleman who would come of age in 1849. Mr Ablewhite had secretly spent most of that money. When the young gentleman came of age, the theft would be discovered, and Mr Ablewhite would be ruined and sent to prison.",
+    "On the night of the birthday, Mr Ablewhite was lying awake in the room next to yours, worrying about his debts. He heard you go out and followed you. He found you coming back from Miss Verinder’s sitting room with the Diamond in your hand.",
+    "You said to him, in the strange voice of a man under the influence of opium, “Take it back to your father’s bank in Frizinghall, Godfrey. It is not safe here.” You put the Diamond into his hand and went back to bed. He stood in the corridor with the jewel in his hand, and the temptation was too much for him. In the morning, when he saw that you remembered nothing, he kept it.",
+    "He took the Diamond to London and pawned it with Mr Luker for two thousand pounds, on the understanding that he could take it back within a year. The money saved him for a time. When the Indians attacked him and Mr Luker, they were right; their mistake was only that neither man had the Diamond on him at the time. His engagement to Miss Verinder was another attempt to save himself with her fortune, and when Mr Bruff showed her that her money was out of his reach, he was glad to escape.",
+    "At last the trust money became due. In June, he borrowed enough to take the Diamond out of pawn, and he disguised himself as a sailor, meaning to cut it in Amsterdam and sell the pieces. The Indians were waiting for him. They had been waiting a year. The rest you know. I have the honour to remain, sir, your obedient servant, Richard Cuff.",
+    "Gabriel Betteredge’s last word. I am the person, as you remember, who began this story, and I am the person who is left behind to finish it. Mr Franklin and Miss Rachel were married in the autumn of 1849, very quietly, and they went away on a long journey. When they came back, Miss Rachel, I mean Mrs Blake, told me, with a blush, that there was a little stranger on the way.",
+    "I went straight to my Robinson Crusoe, and opened it at page four hundred and thirty-five, and there it was: “With these thoughts I took up my new way of living.” I only wish Rosanna had lived to see it. Poor Mr Ezra Jennings died that winter, and at his own request, his papers were buried with him. I am told that his grave has no name on it, and that Mr Franklin pays to have it kept with flowers.",
+    "From Mr Murthwaite, in a letter to Mr Bruff. Kattiawar, India, 1850. Dear Sir, I promised to tell you anything I might learn of the Moonstone, and I have something strange to report. I have been travelling, as usual, in the dress of a native, and I came by chance to the holy city of Somnauth. Thousands of pilgrims had gathered there from every part of India for a great festival of the Moon. I joined them, and I followed the crowd to the shrine of the god, at night, under a full moon.",
+    "In the midst of the crowd I saw three men in white, standing on a platform before the people. I knew them at once: they were the three Indians who had watched your friend’s house in Yorkshire. As I watched, they embraced the priests, turned, and walked away into the crowd in three different directions. The people parted for them and closed again behind them, and I understood that they would never see one another again. They had broken their caste in crossing the sea to recover the Diamond, and now, as a price, they must spend the rest of their lives as pilgrims, alone, in penance.",
+    "Then a curtain was drawn back, and there, on a high throne, sat the god of the Moon, with his four arms and his face lifted to the sky. And there, shining in his forehead, was the Yellow Diamond. It had come home. After eight hundred years, it looked down once more over the walls of the sacred city from which it had been taken.",
+    "How it will go on, what may happen to it in the years to come, no one can say. So the years pass, and the same events come round again in the cycle of time. What will be the next adventures of the Moonstone? Who can tell?"
+   ],
+   "glossary": [
+    {
+     "term": "double life",
+     "meaning": "vida dupla"
+    },
+    {
+     "term": "trustee",
+     "meaning": "administrador de bens (de outra pessoa)"
+    },
+    {
+     "term": "come of age",
+     "meaning": "atingir a maioridade"
+    },
+    {
+     "term": "temptation",
+     "meaning": "tentação"
+    },
+    {
+     "term": "out of his reach",
+     "meaning": "fora do seu alcance"
+    },
+    {
+     "term": "blush",
+     "meaning": "rubor"
+    },
+    {
+     "term": "pilgrims",
+     "meaning": "peregrinos"
+    },
+    {
+     "term": "penance",
+     "meaning": "penitência"
+    }
+   ]
+  }
+ ]
+}

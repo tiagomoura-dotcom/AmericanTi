@@ -1,0 +1,721 @@
+{
+ "id": "dracula",
+ "title": "Dracula",
+ "author": "Bram Stoker",
+ "year": 1897,
+ "module": 5,
+ "level": "C1",
+ "summary": "Contada por meio de diários, cartas e telegramas, a história começa quando o jovem advogado Jonathan Harker viaja à Transilvânia para ajudar um misterioso conde a comprar uma casa em Londres. Logo ele percebe que o castelo é uma prisão e que seu anfitrião não é humano. Quando o Conde parte para a Inglaterra, uma série de acontecimentos estranhos ameaça Mina, a noiva de Jonathan, e sua amiga Lucy, e um pequeno grupo liderado pelo professor Van Helsing precisa enfrentar um mal antigo.",
+ "chapters": [
+  {
+   "title": "Jonathan Harker's Journal: The Road to the Borgo Pass",
+   "paragraphs": [
+    "3 May. Bistritz. I left Munich at 8:35 on the evening of the first of May and have been travelling east ever since, each day leaving a little more of the modern world behind me. I am writing this in a small hotel called the Golden Krone, where a pleasant old woman in peasant dress gave me supper. I must remember to ask Mina for the recipe of the paprika chicken; it was delicious, though it kept me thirsty all night. Tomorrow I set off for the Borgo Pass, where a carriage from Count Dracula is to meet me.",
+    "I ought to explain, for my own sake as much as anyone's, why I am here at all. Mr Hawkins, my employer, has sold a large old house near London, called Carfax, to a nobleman of Transylvania. The Count wishes to have an English lawyer explain the papers to him in person, and as I have just passed my examinations, the honour has fallen to me. I have studied every map I could find in the British Museum, but none of them shows the exact position of Castle Dracula.",
+    "4 May. When I came down this morning, the landlord handed me a letter from the Count. “My friend,” it said, “welcome to the Carpathians. I am anxiously expecting you. At the Borgo Pass my carriage will await you and will bring you to me. I trust that your journey from London has been a happy one. Your friend, Dracula.” It was a kind enough letter, yet the landlord and his wife behaved very oddly when I asked them about the Count. They crossed themselves and pretended not to understand my German, which until then they had understood perfectly well.",
+    "Just before I left, the old woman came up to my room in a state of great agitation. “Must you go?” she asked. “Oh, young Herr, must you go? Do you not know what day it is? It is the eve of St George’s Day. Tonight, when the clock strikes midnight, all the evil things in the world will have full sway.” I tried to calm her, saying that I had business to attend to and could not put it off. She fell to her knees and begged me not to go, and when I would not change my mind, she took a small crucifix from her neck and offered it to me.",
+    "I hardly knew what to do. As an English Churchman I have been taught to regard such things as somewhat superstitious, and yet it seemed so ungracious to refuse an old lady meaning so well. She saw the doubt in my face, put the rosary round my neck and said, “For your mother’s sake,” and then left the room. I am writing this while I wait for the coach, and the crucifix is still round my neck. Whether it is the old lady’s fear or the many ghostly traditions of this place, I do not feel nearly as easy in my mind as usual.",
+    "5 May. The coach left at last, crowded with peasants, and as we drove off I noticed that the people gathered at the inn door were all making the sign of the cross and pointing two fingers towards me. I asked a fellow passenger what this meant. He would not answer at first, but on learning that I was English, he explained that it was a charm or guard against the evil eye. This was not very pleasant for me, setting out for an unknown place to meet an unknown man.",
+    "The road wound upward through green hills and dark forests of oak and pine, and as evening fell the passengers grew more and more restless. They kept urging the driver to go faster, and he lashed the horses without mercy. At last we came out on the Borgo Pass. There was no carriage waiting, and the driver, looking at his watch, said to the others something I could only half hear: “An hour less than the time.” Then, turning to me, he said in German worse than my own, “There is no carriage here. The Herr is not expected after all. He will now come on to Bukovina, and return tomorrow or the next day.”",
+    "While he was speaking, the horses began to neigh and plunge, and a carriage with four black horses drove up behind us. The driver was a tall man with a long brown beard and a great black hat, which seemed to hide his face from us. I could see only the gleam of a pair of very bright eyes, which looked red in the lamplight. “You are early tonight, my friend,” he said to the coachman, and as he spoke I saw that his mouth was very red and his teeth sharp and white as ivory. One of my fellow passengers whispered a line from Bürger’s poem: “For the dead travel fast.”",
+    "The strange driver lifted my bags into the carriage with a grip of steel, and we were off into the darkness. It seemed to me that we went over the same ground again and again, as if he were wasting time on purpose. Then, far off in the mountains, a dog began to howl, and another, and another, until the whole night seemed full of a wild howling. The horses trembled and reared. I knew that it was the howling of wolves.",
+    "Twice the driver left the carriage to follow a faint blue flame that flickered in the darkness beside the road, and the second time the wolves came close and stood all round us in a ring, with white teeth and lolling red tongues. I called to the driver, and he came back and stood in the road. He swept his long arms as though brushing aside some invisible obstacle, and the wolves fell back, farther and farther, until they were gone. A cloud passed across the moon, and when I could see again, we were climbing towards a vast ruined castle, from whose tall black windows came no ray of light."
+   ],
+   "glossary": [
+    {
+     "term": "crucifix",
+     "meaning": "crucifixo"
+    },
+    {
+     "term": "superstitious",
+     "meaning": "supersticioso"
+    },
+    {
+     "term": "ungracious",
+     "meaning": "indelicado, mal-educado"
+    },
+    {
+     "term": "full sway",
+     "meaning": "pleno domínio"
+    },
+    {
+     "term": "lashed",
+     "meaning": "chicoteou"
+    },
+    {
+     "term": "neigh",
+     "meaning": "relinchar"
+    },
+    {
+     "term": "gleam",
+     "meaning": "brilho"
+    },
+    {
+     "term": "howling",
+     "meaning": "uivo, uivos"
+    }
+   ]
+  },
+  {
+   "title": "Jonathan Harker's Journal: A Guest in the Castle",
+   "paragraphs": [
+    "5 May, later. The carriage stopped in the courtyard of the castle, and the driver helped me down with a hand that felt like a vice of steel. Then, before I could speak, he jumped back onto his seat and the carriage disappeared through one of the dark openings in the wall. I stood alone before a great door, old and studded with large iron nails. There was no bell and no knocker, and for a moment I wondered whether this was some horrible nightmare and I should soon wake up in my own bed.",
+    "At last I heard a heavy step approaching, and the sound of chains and bolts being drawn back. Inside stood a tall old man, clean-shaven except for a long white moustache, and clothed in black from head to foot, without a single speck of colour about him anywhere. He held an antique silver lamp in his hand.",
+    "“Welcome to my house!” he said in excellent English, but with a strange accent. “Enter freely and of your own will!” He made no movement to step forward, but the instant I crossed the threshold he seized my hand with a strength that made me wince. It was as cold as ice, more like the hand of a dead than a living man.",
+    "“Count Dracula?” I asked. He bowed in a courtly way and replied, “I am Dracula, and I bid you welcome, Mr Harker, to my house. Come in; the night air is chill, and you must need to eat and rest.” He insisted on carrying my bags himself, and led me up a winding stair to a room where a fire of logs was blazing and a table was set for supper. “You will forgive me if I do not join you,” he said, “but I have dined already, and I do not sup.”",
+    "While I ate, I had a chance to observe him closely. His face was strong, with a high thin nose and a lofty domed forehead. His eyebrows were very massive, almost meeting over the nose, and his mouth, so far as I could see it under the heavy moustache, was cruel-looking, with peculiarly sharp white teeth that came out over the lips. His ears were pale and pointed at the tops, and his hands, which I had thought rather fine in the firelight, were coarse and broad, with hairs in the centre of the palm. When he leaned over me, his breath was rank, and a horrible feeling of nausea came over me, which I could not conceal.",
+    "Then, from far down in the valley, came the howling of many wolves. The Count’s eyes gleamed, and he said, “Listen to them, the children of the night. What music they make!” Seeing, I suppose, some expression in my face strange to him, he added, “Ah, sir, you dwellers in the city cannot enter into the feelings of the hunter.” Then he rose and bid me good night, and I went to bed and slept, I confess, without dreams.",
+    "7 May. I have spent two pleasant days here. I see the Count only in the evenings, for he says he is busy during the day. He has a large library full of English books, magazines and newspapers, and he talks of London with real hunger. “I long to go through the crowded streets of your mighty London,” he told me, “to be in the midst of the whirl and rush of humanity, to share its life, its change, its death.”",
+    "He asked me endless questions about Carfax, and when I described the old house, with its high wall, its dark pond and its ancient chapel, he seemed delighted. “I am glad that it is old and big,” he said. “I myself am of an old family, and to live in a new house would kill me.”",
+    "He also told me much about the history of his people, speaking always as if he had been present at every battle. “We Szekelys have a right to be proud,” he said, “for in our veins flows the blood of many brave races who fought as the lion fights, for lordship.” He grew so excited as he talked that I could almost believe he had ridden with those ancient warriors himself. We talked until the dawn came, and then he suddenly jumped up, saying, “Why, there is the morning again! How remiss I am to let you stay up so long.”",
+    "8 May. This morning something happened that has shaken me badly. I had hung my little shaving mirror by the window and was just beginning to shave, when I felt a hand on my shoulder and heard the Count’s voice saying, “Good morning.” I started, for it amazed me that I had not seen him, since the mirror covered the whole room behind me. I looked again, and there was no reflection of him in the glass. The whole room behind me was displayed, but there was no sign of a man in it except myself.",
+    "In starting, I had cut myself slightly, and a little drop of blood was trickling down my chin. When the Count saw my face, his eyes blazed with a sort of demoniac fury, and he suddenly made a grab at my throat. I drew away, and his hand touched the string of beads which held the crucifix. It made an instant change in him; the fury passed so quickly that I could hardly believe it was ever there. “Take care,” he said, “take care how you cut yourself. It is more dangerous than you think in this country.” Then, seizing the shaving glass, he flung it out of the window, where it shattered on the stones of the courtyard far below.",
+    "When I went to breakfast, I found the table laid but the Count nowhere to be seen. It is strange, now that I think of it, that I have never yet seen him eat or drink. After breakfast I explored the castle a little. It stands on the very edge of a terrible precipice, and a stone falling from the window would fall a thousand feet without touching anything.",
+    "I tried the doors around me. They were locked and bolted, all of them. There is no way out except through the windows, and the windows look down on nothing but empty air. The castle is a veritable prison, and I am a prisoner."
+   ],
+   "glossary": [
+    {
+     "term": "studded",
+     "meaning": "cravejado"
+    },
+    {
+     "term": "threshold",
+     "meaning": "soleira, entrada"
+    },
+    {
+     "term": "wince",
+     "meaning": "fazer uma careta de dor"
+    },
+    {
+     "term": "rank",
+     "meaning": "fétido, malcheiroso"
+    },
+    {
+     "term": "remiss",
+     "meaning": "descuidado, negligente"
+    },
+    {
+     "term": "trickling",
+     "meaning": "escorrendo"
+    },
+    {
+     "term": "precipice",
+     "meaning": "precipício, abismo"
+    },
+    {
+     "term": "veritable",
+     "meaning": "verdadeiro"
+    }
+   ]
+  },
+  {
+   "title": "Jonathan Harker's Journal: The Women in the Moonlight",
+   "paragraphs": [
+    "12 May. Last night the Count asked me many questions about English law, and then, quite casually, he asked whether I had written to Mr Hawkins or to anyone else since my arrival. When I said I had not, he laid a heavy hand on my shoulder. “Then write now, my young friend,” he said, “and say, if it will please you, that you shall stay with me until a month from now.” I could not refuse. I was acting on Mr Hawkins’s behalf, and besides, there was something in his eyes that reminded me I was a prisoner, whether I chose to admit it or not.",
+    "He watched me as I wrote three letters, and advised me to say nothing but business and that I was well. When I had finished, he took them and put them with his own letters on the table. As soon as the door closed behind him, I leaned over and looked at the addresses. One was to a Mr Billington in Whitby, another to a firm of agents in Varna, and two more to bankers in London and Budapest. Before I could look more closely, he came back. “I trust you will forgive me,” he said, “but I have much work to do in private this evening. Let me advise you, my dear young friend, never to fall asleep in any other part of the castle. It is old, and has many memories, and there are bad dreams for those who sleep unwisely.”",
+    "15 May. I have seen something tonight that I hardly dare write down. I was standing at a window on the south side of the castle, looking at the moonlit valley, when I noticed something moving a storey below me. It was the Count’s head coming out of a window.",
+    "At first I thought it a trick of the moonlight, but then I saw the whole man slowly emerge and begin to crawl down the castle wall over that dreadful abyss, face down, with his cloak spreading out around him like great wings. His fingers and toes grasped the corners of the stones, worn clear of mortar by the stress of years. He moved downwards with considerable speed, just as a lizard moves along a wall.",
+    "What manner of man is this, or what manner of creature in the semblance of a man? I feel the dread of this horrible place overpowering me. I am in fear, in awful fear, and there is no escape for me. I am encompassed about with terrors that I dare not think of.",
+    "16 May. While the Count was away, I explored the castle with fresh energy, and at last I found a door that yielded to my pressure. It led into a wing of the castle that had once been occupied by the ladies of the house. The furniture had an air of comfort, and the moonlight flooded in through the diamond panes. Here, in spite of the Count’s warning, I lay down on an old couch and, I suppose, I fell asleep. I hope so, but I fear, for all that followed was so startlingly real.",
+    "I was not alone. In the moonlight opposite me were three young women, ladies by their dress and manner. Though the moon was behind them, they threw no shadow on the floor. Two of them were dark, with high noses like the Count’s and great dark eyes that seemed almost red.",
+    "The third was fair, with masses of golden hair and eyes like pale sapphires. All three had brilliant white teeth that shone like pearls against the ruby of their voluptuous lips. They whispered together, and then they all three laughed, a silvery, musical laugh, but as hard as the tinkling of glasses.",
+    "“Go on!” said one of the dark ones to the fair one. “You are first, and we shall follow; yours is the right to begin.” The fair girl came closer and bent over me until I could feel her breath. I could see the moisture shining on her scarlet lips and on her red tongue as it lapped her white sharp teeth. I closed my eyes in a languorous ecstasy and waited, waited with beating heart, for the touch of those teeth upon my throat.",
+    "At that moment the Count burst in. I had never imagined such wrath and fury, even in the demons of the pit. His eyes were positively blazing, and with a fierce sweep of his arm he hurled the woman away from me. “How dare you touch him, any of you?” he cried in a low voice that seemed to cut through the air.",
+    "“This man belongs to me! Beware how you meddle with him, or you will have to deal with me.” The fair girl, with a laugh of ribald coquetry, turned to answer him: “You yourself never loved; you never love!” He looked at my face attentively and said in a soft whisper, “Yes, I too can love. Well, now I promise you that when I am done with him, you shall kiss him at your will.”",
+    "“Are we to have nothing tonight?” asked one of them, pointing to a bag which he had thrown upon the floor, and which moved as though there were some living thing within it. He nodded. One of the women jumped forward and opened it.",
+    "If my ears did not deceive me, there was a gasp and a low wail, as of a half-smothered child. Then the women closed round, and I was aghast with horror. As I looked, they disappeared, and seemed to fade into the moonlight and pass out through the window. Then the horror overcame me, and I sank down unconscious.",
+    "18 May. I awoke in my own bed. If it be that I had not dreamt, the Count must have carried me here. I have gone back to the room in daylight. The door to the women’s wing is now locked from the other side. It was no dream, and I must act on this belief."
+   ],
+   "glossary": [
+    {
+     "term": "behalf",
+     "meaning": "em nome de"
+    },
+    {
+     "term": "emerge",
+     "meaning": "sair, surgir"
+    },
+    {
+     "term": "mortar",
+     "meaning": "argamassa"
+    },
+    {
+     "term": "semblance",
+     "meaning": "aparência"
+    },
+    {
+     "term": "encompassed",
+     "meaning": "cercado"
+    },
+    {
+     "term": "voluptuous",
+     "meaning": "sensuais"
+    },
+    {
+     "term": "wrath",
+     "meaning": "ira, fúria"
+    },
+    {
+     "term": "aghast",
+     "meaning": "horrorizado"
+    }
+   ]
+  },
+  {
+   "title": "Jonathan Harker's Journal: The Boxes of Earth",
+   "paragraphs": [
+    "19 May. I am surely in the toils. Last night the Count asked me in his smoothest voice to write three more letters: one saying that my work here was nearly done and that I should start for home within a few days, another that I was leaving the next morning, and the third that I had left the castle and arrived at Bistritz.",
+    "He explained that the posts were few and uncertain, and that my friends would be reassured. I understood at once. The letters were dated, and the dates showed me the length of my life. The last one was dated 29 June.",
+    "28 May. A band of Szgany, a kind of gypsy people who live on the Count’s lands, has camped in the courtyard. I wrote two letters, one to Mr Hawkins and one in shorthand to Mina, and threw them through the bars of my window with a gold coin, making signs that they should be posted. The man who picked them up bowed and put them in his cap.",
+    "That night the Count came into my room with my letters in his hand. “The Szgany have given me these,” he said, and tore the shorthand letter into pieces and burned it in the lamp. “It is a vile thing, an outrage upon friendship and hospitality!” When I went to my room later, my papers, my coat and my travelling rug were gone.",
+    "17 June. This morning I heard the crack of whips and saw two great wagons enter the courtyard, each drawn by eight sturdy horses. The Slovaks who drove them carried great square boxes into the castle, and from the sound they made as they were set down, I knew they were empty. Over the following days I heard the sound of digging far below, and the boxes were carried out again, heavy now, and loaded onto the wagons.",
+    "24 June. Tonight I saw the Count leave the castle by his usual route down the wall, and he was wearing my clothes and carrying the terrible bag I had seen the women take. So that is his plan! Anyone who sees him in the villages will believe it is I, posting my own letters and doing his evil work. Soon afterwards a woman came to the courtyard, her hair dishevelled, crying, “Monster, give me my child!”",
+    "She threw herself on the gate. Then I heard the Count’s voice from somewhere high above, calling in a harsh metallic whisper, and the howling of wolves answered from far and wide. A pack of them poured into the courtyard, and in a few moments the woman was gone. I could not pity her, for I knew now what had become of her child, and she was better dead.",
+    "25 June. In the full light of morning I resolved to do something desperate. I would climb along the outside of the castle, as I had seen the Count do, and enter his room by the window. I took off my boots and went out on the narrow ledge of stone. I did not look down. In a short time I found myself standing on his window sill.",
+    "The room was empty and full of dust, and in a corner lay a great heap of gold, coins of every land, some of them three hundred years old. A heavy door led to a stone staircase, and at the bottom, in a ruined chapel that had evidently been used as a graveyard, I found fifty great wooden boxes, filled with newly dug earth.",
+    "In one of them, on a pile of freshly dug earth, lay the Count. He was either dead or asleep; I could not tell which, for the eyes were open and stony, but without the glassiness of death. There was no sign of movement, no pulse, no breath, no beating of the heart. Yet the cheeks had a warmth of life, and the lips were as red as ever. As I bent over him, I saw in those dead eyes such a look of hate that I fled from the place and climbed back to my room, where I threw myself panting upon the bed.",
+    "29 June. Today is the date of my last letter. The Count told me tonight, in his politest voice, that I should leave tomorrow, and that his carriage would take me to the Borgo Pass. I demanded to go at once. He smiled and opened the great front door for me, and the moment it opened I heard the howling of wolves outside, and saw their red jaws and blunt claws in the gap.",
+    "I realised that he meant to give me to them, and I cried, “Shut the door! I shall wait till morning.” As the door closed, I heard a whisper in the passage outside my room: “Back! Back to your own place! Your time is not yet come. Wait! Have patience! Tonight is mine. Tomorrow night is yours!” Then came a low, sweet ripple of laughter, and I saw the three terrible women licking their lips.",
+    "30 June. At dawn I went down to the chapel once more, determined to find the key on the Count’s body. He lay in the box as before, but he looked as if his youth had been half restored. The white hair and moustache were changed to dark iron-grey, and fresh blood trickled from the corners of his mouth.",
+    "He lay like a filthy leech, exhausted with his repletion. A terrible desire came over me to rid the world of such a monster. I seized a shovel and struck at his hateful face, but just as I did so, the head turned and the eyes fell full upon me with all their blaze of basilisk horror. The shovel glanced aside and only made a deep gash above the forehead.",
+    "Now I hear the wagons in the courtyard and the hammering of the lids on the boxes. The Count is leaving for England, and I am to be left with those awful women. I shall not remain alone with them. I shall try to scale the castle wall farther than I have yet attempted, and take some of the gold with me, in case I need it later. At least God’s mercy is better than that of these monsters. Goodbye, Mina!"
+   ],
+   "glossary": [
+    {
+     "term": "in the toils",
+     "meaning": "preso na armadilha"
+    },
+    {
+     "term": "reassured",
+     "meaning": "tranquilizados"
+    },
+    {
+     "term": "sturdy",
+     "meaning": "robustos"
+    },
+    {
+     "term": "dishevelled",
+     "meaning": "despenteado, desgrenhado"
+    },
+    {
+     "term": "ledge",
+     "meaning": "saliência, beiral"
+    },
+    {
+     "term": "panting",
+     "meaning": "ofegante"
+    },
+    {
+     "term": "leech",
+     "meaning": "sanguessuga"
+    },
+    {
+     "term": "gash",
+     "meaning": "corte profundo"
+    }
+   ]
+  },
+  {
+   "title": "Letters from Two Friends, and a Ship in the Storm",
+   "paragraphs": [
+    "Letter from Miss Mina Murray to Miss Lucy Westenra. 9 May. My dearest Lucy, forgive my long delay in writing, but I have been simply overwhelmed with work. The life of an assistant schoolmistress is sometimes trying.",
+    "I have been practising shorthand very hard, because when Jonathan and I are married I want to be useful to him. I have had a few hurried lines from him in Transylvania. He is well and will be returning in about a week. Tell me all the news. Your loving Mina.",
+    "Letter from Lucy Westenra to Mina Murray. 24 May. My dearest Mina, thanks, and thanks, and thanks again for your sweet letter. Oh, Mina, it never rains but it pours! Here am I, who shall be twenty in September, and yet I never had a proposal till today, and today I had three.",
+    "Isn’t it awful? The first was Dr John Seward, the clever young doctor who runs the lunatic asylum near Carfax. He was very cool outwardly, but he kept playing with a lancet in a way that made me nearly scream.",
+    "The second was Quincey Morris, the American from Texas, who talked to me in such delicious slang and was so brave and kind when I said no that I cried. And the third, Mina, was Arthur Holmwood, and I said yes. I am so happy that I don’t know what to do with myself. Why can’t they let a girl marry three men, or as many as want her, and save all this trouble? But this is heresy, and I must not say it. Ever your loving Lucy.",
+    "Dr Seward’s Diary, kept in phonograph. 25 May. Ebb tide in appetite today. Cannot eat, cannot rest, so diary instead. Since my rebuff of yesterday I have a sort of empty feeling.",
+    "As I knew that the only cure for this sort of thing was work, I went down amongst the patients. I picked out one who interests me very much, R.",
+    "M. Renfield, aged fifty-nine. He has a sanguine temperament and great physical strength, and he is morbidly excitable. He has taken to catching flies, and he feeds them to spiders, and he keeps a little notebook in which he does sums, as though he were adding up some account.",
+    "Mina Murray’s Journal. 24 July. Whitby. Lucy met me at the station, looking sweeter and lovelier than ever, and we drove up to the house at the Crescent where she and her mother are staying. This is a lovely place. The little river runs through a deep valley, and on the East Cliff above the harbour stand the ruins of Whitby Abbey and the old church, with a big graveyard full of tombstones.",
+    "It is the nicest spot in Whitby, and I shall come and sit here very often myself and work. We have made friends with an old sailor, Mr Swales, who tells us that the tombstones are all lies, because half the men named on them were lost at sea and their bodies never found.",
+    "But I am anxious. I have heard nothing from Jonathan for a whole month. His last letter was only a line, dated from Castle Dracula, saying he was just starting for home. It is not like him. And Lucy, though she is in splendid health, has lately taken to walking in her sleep, as she used to do when she was a child. Her mother has spoken to me about it, and I lock the door of our room every night.",
+    "Cutting from The Dailygraph, 8 August, pasted in Mina’s journal. One of the greatest and most sudden storms on record has just been experienced here. In the midst of it, a strange schooner was seen rushing towards the harbour with all sails set. The searchlight followed her, and a shudder ran through all who saw it, for lashed to the helm was a dead man, whose drooping head swung horribly to and fro with each motion of the ship.",
+    "No other form could be seen on deck at all. The ship rushed into the harbour and struck the sand heap at the foot of the East Cliff. The very instant she touched the shore, an immense dog sprang up on deck from below, ran forward, jumped from the bow onto the sand, and made straight for the steep cliff where the churchyard hangs over the harbour. It disappeared in the darkness.",
+    "The ship was the Demeter, from Varna, and her only cargo was a number of great wooden boxes filled with earth, consigned to a Whitby solicitor, Mr S. F. Billington. The dead captain’s hands were tied to the wheel, and between them was a crucifix. In his pocket was the ship’s log, which told a terrible story. Soon after leaving the Black Sea, the crew began to disappear, one by one, during the night.",
+    "The men spoke of a tall, thin man who was not like any of the crew, and who was seen on deck and then vanished. At last only the captain and the mate were left, and the mate, half mad, threw himself into the sea, crying that he had seen “It” in the hold. The captain’s last entry read: “I shall baffle this fiend or monster by tying my hands to the wheel, and along with them I shall tie that which He, It, dare not touch.”",
+    "10 August. The funeral of the poor captain was most touching today. Poor Lucy seemed much upset. She was restless all the time, and I cannot help thinking that her dreams at night are telling on her. Strangest of all, old Mr Swales was found this morning on our favourite seat in the churchyard with his neck broken, and with a look of fear and horror on his face that the men said made them shudder. Poor dear old man!"
+   ],
+   "glossary": [
+    {
+     "term": "trying",
+     "meaning": "cansativo, difícil"
+    },
+    {
+     "term": "it never rains but it pours",
+     "meaning": "desgraça pouca é bobagem (aqui: tudo acontece de uma vez)"
+    },
+    {
+     "term": "lunatic asylum",
+     "meaning": "hospício, manicômio"
+    },
+    {
+     "term": "rebuff",
+     "meaning": "recusa, rejeição"
+    },
+    {
+     "term": "schooner",
+     "meaning": "escuna (tipo de navio)"
+    },
+    {
+     "term": "helm",
+     "meaning": "leme"
+    },
+    {
+     "term": "hold",
+     "meaning": "porão (de navio)"
+    },
+    {
+     "term": "baffle",
+     "meaning": "frustrar, confundir"
+    }
+   ]
+  },
+  {
+   "title": "Mina Murray's Journal: The Sleepwalker",
+   "paragraphs": [
+    "11 August, 3 a.m. No sleep now, so I may as well write. I woke suddenly in the night and sat up with a horrible sense of fear. The room was dark, and I could not see Lucy’s bed, so I stole across and felt for her. The bed was empty.",
+    "The door was shut, but not locked as I had left it. I threw a big shawl round me and ran out of the house, and as I ran I thought, with a dreadful feeling, that she might have gone to our favourite seat on the East Cliff.",
+    "There was a bright full moon, with heavy black clouds driving across it. As I came to the bridge, I could see the ruins of the Abbey and the churchyard above, and there, on our seat, half-reclining, was a snowy white figure. Then a cloud came over the moon, and when the light returned I fancied I saw something dark standing behind the seat and bending over the white figure.",
+    "Whether it was man or beast I could not tell. I flew up the hundred and ninety-nine steps to the church as fast as I could. When I got near enough to call, the dark thing raised its head, and I could see a white face and red, gleaming eyes. Then it was gone.",
+    "Lucy was still asleep. Her lips were parted, and she was breathing, not softly as usual, but in long heavy gasps, as though striving to get her lungs full at every breath. As I came close, she put up her hand in her sleep and pulled the collar of her nightdress close round her throat. I wrapped my shawl about her and fastened it at her throat with a big safety pin, and I suppose that in my haste I pricked her with it, for later I saw two little red points like pinpricks on her neck, and a drop of blood on the band of her nightdress. I woke her gently and led her home, and nobody saw us, thank God.",
+    "14 August. On the East Cliff, reading and writing all day. Lucy seems to have become as much in love with the spot as I am. This evening, at sunset, we sat together, and the setting sun was just dropping behind Kettleness, and its red light was thrown over on the East Cliff and the old Abbey.",
+    "Lucy murmured as if to herself, “His red eyes again! They are just the same.” It was such an odd expression, coming apropos of nothing, that it quite startled me. When I followed her gaze, I saw only the red sunlight shining on the windows of St Mary’s Church.",
+    "17 August. Lucy grows weaker. She sleeps badly, and in the night I find her at the open window. She is pale and worn, and the tiny wounds on her throat do not heal; they seem larger than before, with faint white edges. I cannot understand it. I have written to Arthur, who is detained in London by his father’s illness.",
+    "19 August. Joy, joy, joy! At last a letter, though not from Jonathan himself. It is from Sister Agatha, a nun at the Hospital of St Joseph and Ste Mary in Budapest. Jonathan has been there for six weeks, suffering from a violent brain fever.",
+    "He is getting better, the letter says, but he has had some fearful shock, and in his delirium he has raved of wolves and poison and blood, of ghosts and demons. I am to go to him at once, and we are to be married there. Lucy’s mother has given me leave, and I leave in the morning.",
+    "From Mina Harker to Lucy Westenra. Budapest, 24 August. My dearest Lucy, I found my dear one, oh, so thin and pale and weak-looking. All the resolution has gone out of his dear eyes. He remembers nothing of his time at the castle, or he will not speak of it.",
+    "He gave me his journal, and said, “Mina, I have had a great shock. I do not want to know what is written there. Take it and keep it, and never let me know, unless some solemn duty should come upon me.” I sealed it with wax, and we were married that afternoon, with the journal under my hand. Lucy, I am his wife now.",
+    "Dr Seward’s Diary. 19 August. Strange and sudden change in Renfield last night. He became very excited and kept sniffing about like a dog. “I don’t want to talk to you,” he said to the attendant.",
+    "“The Master is at hand.” Later in the night he escaped from his room and ran across to the grounds of the deserted house next door, which I believe is called Carfax.",
+    "We found him pressed close against the old iron-bound oak door of the chapel, talking to someone. “I am here to do your bidding, Master,” he was saying. “I am your slave, and you will reward me, for I shall be faithful.” It took four of us to bring him back, and he fought like a wild beast."
+   ],
+   "glossary": [
+    {
+     "term": "stole across",
+     "meaning": "atravessou de mansinho"
+    },
+    {
+     "term": "half-reclining",
+     "meaning": "meio recostada"
+    },
+    {
+     "term": "striving",
+     "meaning": "esforçando-se"
+    },
+    {
+     "term": "pinpricks",
+     "meaning": "picadas de alfinete"
+    },
+    {
+     "term": "apropos of nothing",
+     "meaning": "sem mais nem menos"
+    },
+    {
+     "term": "raved",
+     "meaning": "delirou, falou em delírio"
+    },
+    {
+     "term": "bidding",
+     "meaning": "ordens, vontade"
+    }
+   ]
+  },
+  {
+   "title": "Dr Seward's Diary: Professor Van Helsing",
+   "paragraphs": [
+    "2 September. Letter from Dr Seward to Arthur Holmwood: My dear Art, with regard to Miss Westenra’s health, I hasten to let you know that I can find no functional disturbance or any malady that I know of. At the same time, I am by no means satisfied with her appearance. She is woefully different from what she was when I saw her last. She complains of difficulty in breathing, and of lethargic sleep, with dreams that frighten her. I have written to my old friend and master, Professor Van Helsing of Amsterdam, who knows as much about obscure diseases as anyone in the world.",
+    "6 September. Van Helsing came at once. He is a seemingly arbitrary man, but this is because he knows what he is talking about better than anyone else. When he saw Lucy, his face grew very grave. He examined her carefully, and then, out of her hearing, he said to me, “It is a grave case. There is no time to be lost. She will die for sheer want of blood to keep the heart’s action as it should be. There must be a transfusion of blood at once.”",
+    "Just then Arthur arrived, and when he heard what was needed, he cried, “What can I do? Take every drop of my blood!” The Professor looked at him approvingly. “Young miss is bad, very bad. She wants blood, and blood she must have.”",
+    "So it was done. Arthur gave his blood, and slowly a little colour came back into Lucy’s cheeks. While we were packing up, the Professor raised the narrow black velvet band which Lucy always wears round her throat, and I heard him draw in his breath sharply.",
+    "There, on the throat, were two small punctures, not large, but not wholesome-looking. “Well?” said Van Helsing. “Well,” said I, “I can make nothing of it.” He rose up. “I must go back to Amsterdam tonight,” he said. “There are books and things there which I want. You must remain here all night, and you must not let your sight pass from her.”",
+    "13 September. Despite all our care, Lucy was attacked again on a night when I fell asleep in my chair, and again on a night when her mother, out of kindness, removed what the Professor had left in her room. Twice more we gave her blood: once from my own veins, and once, after he had come back, from Van Helsing himself.",
+    "The second time, Van Helsing came back carrying a large parcel of white flowers. “These are for you, Miss Lucy,” he said. Lucy laughed. “Oh, Professor, I believe you are only putting up a joke on me. Why, these flowers are only common garlic.”",
+    "To my surprise, Van Helsing rose up and said with all his sternness, “No trifling with me! I never jest! There is grim purpose in all I do.” Then, seeing her fright, he went on more gently, “Oh, little miss, my dear, do not fear me. I only do for your good.” He closed and fastened the windows himself, rubbed the flowers all over the frames and round the door and the fireplace, and then made a wreath of them to go round her neck. “Take care you do not disturb it,” he said, “and do not open the window or the door tonight.”",
+    "I asked him what it all meant. “You are a clever man, friend John,” he answered. “You reason well, and your wit is bold, but you are too prejudiced. You do not let your eyes see nor your ears hear. Do you not think that there are things which you cannot understand, and yet which are? That some people see things that others cannot?” He would say no more. “Not yet,” he said. “Wait and see.”",
+    "17 September. Renfield escaped again today and burst into my study with a dinner knife in his hand. He cut my wrist rather badly, and before I could stop him he was lying on his belly on the floor, licking up the blood which had fallen from my wound, like a dog. He kept repeating, “The blood is the life! The blood is the life!” I cannot afford to lose blood just at present, having given so much for Lucy."
+   ],
+   "glossary": [
+    {
+     "term": "with regard to",
+     "meaning": "com relação a"
+    },
+    {
+     "term": "malady",
+     "meaning": "doença, enfermidade"
+    },
+    {
+     "term": "woefully",
+     "meaning": "lamentavelmente"
+    },
+    {
+     "term": "sheer want",
+     "meaning": "pura falta"
+    },
+    {
+     "term": "punctures",
+     "meaning": "perfurações"
+    },
+    {
+     "term": "wholesome-looking",
+     "meaning": "de aparência saudável"
+    },
+    {
+     "term": "trifling",
+     "meaning": "brincadeira, leviandade"
+    },
+    {
+     "term": "prejudiced",
+     "meaning": "preconceituoso, de mente fechada"
+    }
+   ]
+  },
+  {
+   "title": "Lucy Westenra's Memorandum: The Night of the Wolf",
+   "paragraphs": [
+    "17 September, night. I write this and leave it to be seen, so that no one may by any chance get into trouble through me. This is an exact record of what took place tonight. I feel I am dying of weakness, and have barely strength to write, but it must be done if I die in the doing.",
+    "I went to bed as usual, taking care that the flowers were placed as Dr Van Helsing directed, and I soon fell asleep. I was woken by a flapping at the window, like the one which had come after that sleepwalking on the cliff at Whitby. I was not afraid, but I wished that Dr Seward was in the next room, as Dr Van Helsing said he would be. Then outside in the shrubbery I heard a sort of howl, like a dog’s, but more fierce and deeper.",
+    "Mother came in, frightened by the noise, and lay down beside me. Presently the flapping came to the window again. She was startled and cried out, “What is that?” I tried to pacify her, and at last she lay quiet, but I could hear her poor dear heart still beating terribly. Then there was a crash at the window, and a lot of broken glass was hurled on the floor. The blind blew back with the wind, and in the aperture of the broken panes there was the head of a great, gaunt grey wolf.",
+    "Mother cried out in a fright and clutched wildly at anything that would help her. Among other things, she clutched the wreath of flowers that Dr Van Helsing insisted on my wearing round my neck, and tore it away from me. For a second or two she sat up, pointing at the wolf, and there was a strange and horrible gurgling in her throat. Then she fell over, as if struck with lightning, and her head hit my forehead and made me dizzy for a moment.",
+    "The room and all round seemed to spin. I kept my eyes fixed on the window, but the wolf drew his head back, and a whole myriad of little specks seemed to come blowing in through the broken window, wheeling and circling round like the pillar of dust that travellers describe in the desert. I tried to stir, but there was some spell upon me, and dear Mother’s poor body, which seemed to grow cold already, weighed me down. I remembered no more for a while.",
+    "When I came to, the maids had heard the noise and came running in. They lifted Mother’s body and laid it on the bed, covered with a sheet. I put the flowers back on her breast. They went to the dining room to drink a glass of wine to steady themselves, and they did not come back.",
+    "I went down and found them all lying helpless on the floor, breathing heavily. The decanter of sherry was on the table, and there was a queer, acrid smell. The wine had been drugged with the laudanum that the doctor uses for Mother. Oh! oh! what am I to do?",
+    "I am alone in the room with Mother. I cannot leave her, and I am alone, save for the sleeping servants, whom someone has drugged. The air seems full of specks, floating and circling in the draught from the window, and the lights burn blue and dim. What am I to do?",
+    "God shield me from harm this night! I shall hide this paper in my breast, where they shall find it when they come to lay me out. My dear mother gone! It is time that I go too. Goodbye, dear Arthur, if I should not survive this night. God keep you, dear, and God help me!",
+    "Dr Seward’s Diary. 18 September. Van Helsing and I arrived early in the morning and found the house shut up. We broke in through a kitchen window and found Lucy lying on the bed beside her dead mother, more horribly white and wan-looking than ever.",
+    "The flowers which had covered her mother’s breast were scattered, and her throat was bare, showing the two little wounds, now looking horribly white and mangled. Once more Quincey Morris, who had followed us to the house, gave his blood. Lucy lived, but we knew that we were only putting off the end.",
+    "20 September. Arthur came, and the end came quickly. In her sleep, Lucy’s breathing grew stertorous, her mouth opened, and the pale, retracted gums made the teeth look positively longer and sharper than usual. In a sort of sleep-waking, vague, unconscious way she opened her eyes, which were now dull and hard at once, and said in a soft, voluptuous voice such as I had never heard from her lips, “Arthur! Oh, my love, I am so glad you have come! Kiss me!”",
+    "Arthur bent eagerly over to kiss her, but at that instant Van Helsing caught him by the neck with both hands and hurled him almost across the room. “Not for your life!” he said. “Not for your living soul and hers!” A spasm of rage flitted like a shadow over Lucy’s face, and the sharp teeth clamped together.",
+    "Then her eyes closed, and she breathed heavily. Very shortly afterwards, she opened her eyes in all their softness, and putting out her poor, pale, thin hand, took Van Helsing’s great brown one. “My true friend,” she said faintly. “My true friend, and his! Oh, guard him, and give me peace!”",
+    "“I swear it!” he said solemnly. Then he turned to Arthur. “Come, my child, take her hand in yours, and kiss her on the forehead, and only once.” Their eyes met instead of their lips, and so they parted. Lucy’s eyes closed.",
+    "Her breathing became stertorous again, and all at once it ceased. “It is all over,” said I. “She is dead!” Van Helsing turned to me, with grave solemnity. “Not so,” he said. “Alas, not so. It is only the beginning!”"
+   ],
+   "glossary": [
+    {
+     "term": "flapping",
+     "meaning": "bater de asas"
+    },
+    {
+     "term": "pacify",
+     "meaning": "acalmar"
+    },
+    {
+     "term": "aperture",
+     "meaning": "abertura"
+    },
+    {
+     "term": "gaunt",
+     "meaning": "magro, esquelético"
+    },
+    {
+     "term": "myriad",
+     "meaning": "miríade, inúmeros"
+    },
+    {
+     "term": "decanter",
+     "meaning": "garrafa de cristal (para vinho)"
+    },
+    {
+     "term": "wan-looking",
+     "meaning": "de aspecto pálido"
+    },
+    {
+     "term": "stertorous",
+     "meaning": "ruidosa, roncada"
+    }
+   ]
+  },
+  {
+   "title": "Dr Seward's Diary: The Bloofer Lady",
+   "paragraphs": [
+    "Cutting from The Westminster Gazette, 25 September. A Hampstead Mystery. The neighbourhood of Hampstead is just at present exercised with a series of events which seem to run on lines parallel to those known to writers of headlines as “The Kensington Horror”. During the past few days several cases have occurred of young children straying from home or failing to return from their playing on the Heath. In all these cases the children were too young to give any proper account of themselves, but the consensus of their excuses is that they had been with a “bloofer lady”, which is their childish way of saying “beautiful lady”. Some of the children who were found the next morning had been slightly torn or wounded in the throat.",
+    "Dr Seward’s Diary. 26 September. Van Helsing came into my room with the newspaper in his hand. “What do you think of that?” he asked, pointing to the story of the children. “It is like poor Lucy’s case,” I said.",
+    "“The wounds on the children’s throats were made by the same thing as hers.” He shook his head. “You are wrong. Would it were so! But alas, no. It is worse, far, far worse. They were made by Miss Lucy!”",
+    "For a moment I sat stunned with anger. I told him he must be mad. He did not argue. “It is hard to accept so sad a truth,” he said, “but tonight I shall prove it. Come with me to the churchyard where she lies.” That night we went to the Westenra tomb, and Van Helsing opened the coffin with a turnscrew and a small fret-saw.",
+    "The coffin was empty. I said that a body-snatcher must have stolen it. Then we waited outside among the yew trees, and in the grey light before dawn I saw a white figure flit between the dark trees towards the tomb, and vanish.",
+    "27 September. The next day, at noon, we went back. This time Lucy lay in her coffin, but she was more radiantly beautiful than ever. The lips were red, nay redder than before, and on the cheeks was a delicate bloom. “Are you convinced now?” said the Professor.",
+    "“She has been bitten by the vampire when she was in a trance, sleep-walking. In trance she died, and in trance she is Un-Dead too.” He showed me the teeth, which were sharper even than before. “See,” he went on, “with these the little children can be bitten. She must be released.”",
+    "29 September. Van Helsing asked Arthur and Quincey to come with us that night, and he told them everything. Arthur was furious. “Have a care, sir,” he said. “I have borne much. Would you desecrate her grave, who died so horribly?”",
+    "But at last he agreed to come and see for himself. We went to the churchyard at midnight. The coffin was empty again. Then we hid among the trees and waited, and presently we saw a dim white figure coming towards us, holding something dark at its breast. It was a little child.",
+    "When she saw us, she drew back with an angry snarl, such as a cat gives when taken unawares. It was Lucy, and yet how changed. The sweetness was turned to adamantine, heartless cruelty, and the purity to voluptuous wantonness. Her lips were crimson with fresh blood, which had trickled over her chin and stained the purity of her lawn death robe.",
+    "With a careless motion, she flung the child to the ground, callous as a devil, and advanced to Arthur with outstretched arms. “Come to me, Arthur,” she said in a tone of diabolical sweetness. “Leave these others and come to me. My arms are hungry for you. Come, and we can rest together. Come, my husband, come!”",
+    "Arthur seemed under a spell, and he opened his arms wide. But Van Helsing sprang forward and held up his little golden crucifix. She recoiled from it, and with a suddenly distorted face, full of rage, she dashed past him as if to enter the tomb. Then she stopped, for the Professor had sealed the door with a putty made of the Sacred Wafer, and she could not pass. Never did I see such baffled malice on a face. Then Van Helsing removed some of the putty, and she slipped through the narrow crack, where a knife blade could hardly have gone.",
+    "The next afternoon we came again, when the sun was high and she lay in her coffin. Van Helsing took from his bag a round wooden stake, some two and a half or three inches thick and about three feet long, and a heavy hammer. “My friend Arthur,” he said, “this stake must be driven through her. It will be a fearful ordeal, but it will be only a short time, and then you will rejoice more than your pain was great.” Arthur took the stake and the hammer with trembling hands. Van Helsing began to read a prayer for the dead, and Arthur placed the point over the heart and struck with all his might.",
+    "The thing in the coffin writhed, and a hideous, blood-curdling screech came from the opened red lips. But Arthur never faltered. He looked like a figure of Thor as his untrembling arm rose and fell, driving deeper and deeper the mercy-bearing stake. At last the writhing grew less, and the terrible task was over.",
+    "There, in the coffin, lay no longer the foul thing that we had so dreaded, but Lucy as we had seen her in her life, with her face of unequalled sweetness and purity. “Now, my child,” said Van Helsing, “you may kiss her. She is not a grinning devil now, but God’s true dead, whose soul is with Him.” Then he turned to us all. “But there remains a greater task: to find out the author of all this our sorrow, and to stamp him out.”"
+   ],
+   "glossary": [
+    {
+     "term": "straying",
+     "meaning": "se perdendo, desgarrando"
+    },
+    {
+     "term": "consensus",
+     "meaning": "consenso"
+    },
+    {
+     "term": "body-snatcher",
+     "meaning": "ladrão de cadáveres"
+    },
+    {
+     "term": "desecrate",
+     "meaning": "profanar"
+    },
+    {
+     "term": "snarl",
+     "meaning": "rosnado"
+    },
+    {
+     "term": "callous",
+     "meaning": "insensível, cruel"
+    },
+    {
+     "term": "recoiled",
+     "meaning": "recuou"
+    },
+    {
+     "term": "writhed",
+     "meaning": "se contorceu"
+    }
+   ]
+  },
+  {
+   "title": "Mina Harker's Journal: The Hunters Join Hands",
+   "paragraphs": [
+    "22 September. It seems only yesterday that I was at Whitby, and all the world before me, with Jonathan away and no news of him. Now I am married, Jonathan is a solicitor and a partner, and kind Mr Hawkins is dead and has left us all his fortune. Today, as we walked down Piccadilly, Jonathan suddenly gripped my arm so tightly that he hurt me, and said under his breath, “My God!”",
+    "He was staring at a tall, thin man with a beaky nose, black moustache and pointed beard, who was looking hard at a pretty girl in a carriage. “It is the man himself!” Jonathan whispered. “But he has grown young!” He was so pale and frightened that I took him home, and he fell asleep, and when he woke he did not seem to remember it at all.",
+    "I must read his journal now. It is my solemn duty. And there was a telegram waiting for us: our dear Lucy is dead.",
+    "25 September. Professor Van Helsing called on me today. He had found my letters among Lucy’s papers and wanted to know everything about her sleepwalking at Whitby. I gave him my journal, typed out from shorthand, and then, after a moment’s hesitation, I gave him Jonathan’s Transylvanian journal too.",
+    "The next morning he wrote to me: “Dear Madam Mina, I have read your husband’s so wonderful diary. You may sleep without doubt. Strange and terrible as it is, it is true! I will pledge my life on it.” When Jonathan heard that it was all true, that he had not been mad, it was as if a great weight were lifted. He was a different man, strong and full of purpose again.",
+    "30 September. We have all come to stay at Dr Seward’s asylum, which is next door to Carfax. Dr Seward keeps his diary on a phonograph, and I have typed all his cylinders, so that now we have every letter, diary and newspaper cutting in order, and the whole terrible story can be read from beginning to end. When Dr Seward heard my typing of his diary, which told of Lucy’s death, he said, “Forgive me. I did not know you had heard it all.” I answered that we all needed to know the whole truth if we were to fight together.",
+    "Dr Seward’s Diary. 30 September. Tonight, after dinner, we sat round the table in my study like a sort of board or committee: Van Helsing in the chair, then Arthur, now Lord Godalming since his father’s death, Quincey Morris, Jonathan and Mrs Harker, and myself. The Professor spoke first. “There are such beings as vampires,” he said. “The nosferatu do not die like the bee when he sting once. He is only stronger, and being stronger, has yet more power to work evil. This vampire is strong as twenty men, he can direct the elements, the storm, the fog, the thunder. He can command the rat, the owl, the bat, the moth, the fox and the wolf. He can grow and become small, and he can at times vanish and come unknown.”",
+    "“But he has his limits,” he went on. “He cannot go where he lists. He may not enter anywhere at the first, unless there be someone of the household who bid him to come. His power ceases, as does that of all evil things, at the coming of the day. He throws no shadow and makes no reflection in the mirror. Garlic he cannot bear, and the crucifix and the Sacred Wafer drive him back. And he must rest in his own earth, the holy soil of his homeland. Those boxes he brought with him to Carfax are his refuges. If we can sterilise them, so that he can no longer rest there, we shall have him.”",
+    "That same night, the men went into Carfax with crucifixes, garlic and knives, leaving Mrs Harker safely asleep in the asylum. The house was full of dust and a horrible smell, the odour of old blood and decay. In the chapel we counted the great boxes. Only twenty-nine of the fifty remained.",
+    "Then, suddenly, the place was alive with rats, thousands of them, their eyes gleaming in the lamplight. Lord Godalming opened the door and blew a whistle, and his three terriers rushed in and scattered them. We sealed the remaining boxes with pieces of the Wafer. The other twenty-one, we knew, had been carried away to other hiding places in London."
+   ],
+   "glossary": [
+    {
+     "term": "beaky",
+     "meaning": "adunco, em forma de bico"
+    },
+    {
+     "term": "pledge",
+     "meaning": "empenhar, apostar"
+    },
+    {
+     "term": "cylinders",
+     "meaning": "cilindros (de fonógrafo)"
+    },
+    {
+     "term": "lists",
+     "meaning": "quiser, desejar (forma antiga)"
+    },
+    {
+     "term": "refuges",
+     "meaning": "refúgios"
+    },
+    {
+     "term": "sterilise",
+     "meaning": "esterilizar, purificar"
+    },
+    {
+     "term": "odour",
+     "meaning": "odor"
+    },
+    {
+     "term": "scattered",
+     "meaning": "dispersou, espalhou"
+    }
+   ]
+  },
+  {
+   "title": "Dr Seward's Diary: Renfield's Story",
+   "paragraphs": [
+    "1 October. Mrs Harker looks pale and tired, and we have agreed to keep her out of our plans from now on, for her own safety. I fear that it was a mistake. Meanwhile Renfield has been behaving strangely.",
+    "Yesterday he begged me with real dignity and eloquence to let him go away at once. “I am speaking from my heart,” he said. “I beg you, let me out of this house tonight, or you will be sorry for it.” I refused, of course, and later I wondered whether he had been trying to warn us.",
+    "3 October. Tonight the attendant called me in alarm. Renfield had been found on the floor of his room, lying in a pool of blood. His back was broken and his face was terribly bruised.",
+    "Van Helsing performed a trephine on his skull to relieve the pressure, and for a few minutes the poor man was able to speak. “I must not deceive myself,” he said. “It was no dream, but all a grim reality.” Then he told us his story.",
+    "“He came up to the window in the mist, as I had seen him often before. He promised me lives, red lives, rats and dogs and cats by the hundred, if I would fall down and worship him. And I said, ‘Come in, Lord and Master!’ So I let him in. Tonight, when Mrs Harker came to see me this afternoon, she was not the same; she was like tea after the teapot had been watered. I knew then that he had been taking the life out of her. When he slid in tonight, I was ready for him. I grabbed him and held him, and I thought I was going to win, for I didn’t mean him to take any more of her life. Then his eyes burned into me, and he raised me and flung me down.” His breathing grew worse. “He is here,” he gasped. “Go to her!”",
+    "We seized our weapons and ran to the Harkers’ room. The door was locked, and we flung ourselves against it until it burst open. The moonlight was so bright that we could see everything. On the bed lay Jonathan Harker, his face flushed and breathing heavily as though in a stupor.",
+    "Kneeling on the near edge of the bed, facing outwards, was the white-clad figure of his wife. By her side stood a tall, thin man, clad in black. His right hand gripped her by the back of the neck, forcing her face down on his bosom. Her white nightdress was smeared with blood, and a thin stream trickled down the man’s bare breast, which was shown by his torn-open dress.",
+    "As we burst in, the Count turned his face, and the hellish look that I had heard described seemed to leap into it. His eyes flamed red with devilish passion, and the white sharp teeth behind the full lips champed together like those of a wild beast. He threw his victim back upon the bed and sprang at us. But by this time the Professor had gained his feet and was holding towards him the envelope which contained the Sacred Wafer. The Count suddenly stopped and cowered back. Then a great black cloud sailed across the moon, and when Quincey lit the gas, there was nothing but a faint vapour, which trailed under the door.",
+    "Mrs Harker gave a scream so wild, so ear-piercing, so despairing, that it will ring in my ears till my dying day. “Unclean, unclean!” she cried, covering her face. “I must touch him or kiss him no more.” Then, between sobs, she told us how the Count had come in a white mist, how he had threatened to dash out Jonathan’s brains, and how he had opened a vein in his breast with his long sharp nails and forced her to drink.",
+    "“And you, their best beloved one, are now to me flesh of my flesh, blood of my blood,” he had said to her. “You shall be later on my companion and my helper.” When we went back to Renfield’s room, the poor madman was dead."
+   ],
+   "glossary": [
+    {
+     "term": "eloquence",
+     "meaning": "eloquência"
+    },
+    {
+     "term": "trephine",
+     "meaning": "trepanação (cirurgia no crânio)"
+    },
+    {
+     "term": "grim",
+     "meaning": "sombria, terrível"
+    },
+    {
+     "term": "stupor",
+     "meaning": "estupor, torpor"
+    },
+    {
+     "term": "smeared",
+     "meaning": "manchado, sujo"
+    },
+    {
+     "term": "champed",
+     "meaning": "rangeram, morderam"
+    },
+    {
+     "term": "cowered",
+     "meaning": "encolheu-se de medo"
+    },
+    {
+     "term": "unclean",
+     "meaning": "impura"
+    }
+   ]
+  },
+  {
+   "title": "Jonathan Harker's Journal: The Hunt in London",
+   "paragraphs": [
+    "3 October. I must do something or go mad, so I write this diary. Before we set out this morning, Van Helsing wanted to protect Mina against the Count’s return, and he placed a piece of the Sacred Wafer on her forehead. As it touched her skin, it seared it as though it had been a piece of white-hot metal. She gave a scream of agony and sank to her knees, crying, “Unclean! Unclean! Even the Almighty shuns my polluted flesh! I must bear this mark of shame upon my forehead until the Judgement Day.” We all knelt together and swore to be true to each other, and to find and destroy the monster, whatever the cost.",
+    "Through Mr Billington’s papers and some careful questioning of carriers, we learned where the other boxes had been taken: six to a house in Mile End, six to Bermondsey, and the rest to an old house in Piccadilly, which the Count had bought under another name. We divided our forces. Lord Godalming and Quincey went to destroy the boxes in the east and south, and Van Helsing, Seward and I went to Piccadilly. A locksmith opened the door for us in broad daylight, as though we were the owners who had lost our keys, and no one in that busy street suspected anything.",
+    "In the dining room we found eight boxes, and we sealed every one with the Wafer. We found the Count’s title deeds, his writing materials, and a bundle of keys. One box was missing. When the others joined us, we waited for the Count to come home, sitting in the dark with our weapons ready. At last we heard a key in the lock. He came in with a single bound, like a panther, and seemed to take us all in at a glance.",
+    "I rushed at him with my great Kukri knife and made a fierce and sudden cut at him. Only the diabolical quickness of his spring back saved him. The point just cut the cloth of his coat, and from the gash fell a bundle of banknotes and a stream of gold. The expression of the Count’s face was so hellish that for a moment I feared for Mina. But we advanced on him, each holding up his crucifix and Wafer, and he gave way before us. Then, with a quick movement, he dived under my arm, grasped a handful of the money from the floor, dashed across the room, and threw himself through the window.",
+    "Amid the crash of the shivering glass, he tumbled into the flagged area below. He sprang up unhurt, turned, and spoke to us: “You think to baffle me, you with your pale faces all in a row, like sheep in a butcher’s. You shall be sorry yet, each one of you! You think you have left me without a place to rest, but I have more. My revenge is just begun! I spread it over centuries, and time is on my side. Your girls that you all love are mine already, and through them you and others shall yet be mine, my creatures, to do my bidding.” With a contemptuous sneer, he passed quickly through the stable door and was gone.",
+    "“We have learned something,” said Van Helsing, “much! Why take that money? He fears us; he fears time; he fears want! He has only one box left, and he means to go home.” That night Mina asked the Professor to hypnotise her before dawn. “I think,” she said, “that I can tell you where the Count is, for he has some hold on me, and perhaps I have some on him.” In her trance she answered in a dreamy voice: “I hear the lapping of water. It is gurgling by, and little waves leap. I can hear them on the outside. Men are stamping overhead, and there is the creaking of a chain.” He was at sea, on a ship sailing for home."
+   ],
+   "glossary": [
+    {
+     "term": "seared",
+     "meaning": "queimou"
+    },
+    {
+     "term": "shuns",
+     "meaning": "rejeita, evita"
+    },
+    {
+     "term": "carriers",
+     "meaning": "transportadores"
+    },
+    {
+     "term": "title deeds",
+     "meaning": "escrituras"
+    },
+    {
+     "term": "bound",
+     "meaning": "salto"
+    },
+    {
+     "term": "flagged",
+     "meaning": "pavimentado com lajes"
+    },
+    {
+     "term": "sneer",
+     "meaning": "sorriso de desprezo"
+    },
+    {
+     "term": "trance",
+     "meaning": "transe"
+    }
+   ]
+  },
+  {
+   "title": "Mina Harker's Journal: The Race to the East",
+   "paragraphs": [
+    "5 October. We have found the ship. Lloyd’s lists showed only one vessel that sailed for the Black Sea on the morning tide: the Czarina Catherine, bound for Varna. A box had been brought to her at the last minute by a tall man with a red-eyed stare, who paid well and in gold. “He is going home,” said Van Helsing. “And we must follow him. But we shall be there before him, for the train is faster than the ship.”",
+    "Then I had to say something that I dreaded. I made them promise that, if the time ever came when I was changing into one of those creatures, they would kill me as they had killed poor Lucy. Jonathan turned as white as death, but they all promised, and I was at peace. I also told them that, since the Count might be able to read my mind as I could read his, they must tell me nothing of their plans.",
+    "28 October. We waited at Varna for days, but the ship did not come. Every morning at sunrise I was hypnotised, and every morning I said the same things: water, waves, darkness. Then came a telegram: the Czarina Catherine had entered Galatz, a port farther north. The Count had felt our presence and changed his course.",
+    "Galatz, Van Helsing explained, is close to the river that leads up into the mountains near his castle. By the time we reached Galatz, the box had already been taken off the ship by a man called Petrof Skinsky, who was found dead the next day with his throat torn open, as if by some wild animal.",
+    "30 October. We have made our plan. Arthur and Jonathan will follow the river in a steam launch. Dr Seward and Mr Morris will ride along the bank with horses. Van Helsing and I will go by train and carriage to the Borgo Pass, and from there to the castle itself, to cut the Count off from his home.",
+    "I am glad to be travelling with the Professor, for I feel that I am becoming less and less useful and more and more dangerous to the others. I am beginning to sleep in the daytime, and I feel no hunger for ordinary food.",
+    "Memorandum by Abraham Van Helsing. 5 November. We have come near to the castle, and I have drawn a circle round Madam Mina in the snow and placed in it crumbs of the Wafer. She cannot go out of it.",
+    "In the night the horses screamed and died, and three women came out of the snowy mist and called to her: “Come, sister. Come to us. Come!” She did not move, but she watched them with a look of terror, and I knew that she was still one of us. When the dawn came, the women melted into the swirling mist and were gone.",
+    "This morning I left Madam Mina sleeping within the holy circle and went alone into the castle with my tools. I found the tombs of the three women, beautiful and dreadful in their sleep. One by one I did my butcher work. As I drove the stake into each, there came a horrid screeching, and then the body crumbled into its native dust, as though the death that should have come centuries ago had at last asserted itself. Before I left, I found a great tomb with the single word DRACULA upon it. This was the Un-Dead home of the King-Vampire, and I laid in it some of the Wafer, so that he could never enter it again."
+   ],
+   "glossary": [
+    {
+     "term": "vessel",
+     "meaning": "embarcação"
+    },
+    {
+     "term": "bound for",
+     "meaning": "com destino a"
+    },
+    {
+     "term": "dreaded",
+     "meaning": "temia"
+    },
+    {
+     "term": "steam launch",
+     "meaning": "lancha a vapor"
+    },
+    {
+     "term": "crumbs",
+     "meaning": "migalhas"
+    },
+    {
+     "term": "swirling",
+     "meaning": "rodopiante"
+    },
+    {
+     "term": "crumbled",
+     "meaning": "desfez-se, esfarelou"
+    },
+    {
+     "term": "asserted itself",
+     "meaning": "se impôs"
+    }
+   ]
+  },
+  {
+   "title": "Mina Harker's Journal: Sunset on the Snow",
+   "paragraphs": [
+    "6 November. It was late in the afternoon when the Professor and I took our way towards the east, from where I knew Jonathan was coming. We had climbed among the rocks above the road when the Professor, looking through his field glasses, called out, “Look! Madam Mina, look!” Far below, a group of horsemen was hurrying along the road. In their midst was a long cart, and on it a great square chest. Behind them, from two directions, came riders galloping hard: from the north, Jonathan and Lord Godalming, and from the south, Dr Seward and Mr Morris.",
+    "The sun was dropping lower and lower on the mountain tops. When it set, the Count would wake, free to take any form he pleased. Our men closed in on the gypsies. “Halt!” cried Jonathan, and the leader of the gypsies shouted to his people to go on. But the four men raised their Winchester rifles, and with a fierce rush, Jonathan and Quincey forced their way through the ring of gypsies, who drew their knives.",
+    "Jonathan sprang onto the cart, and with a strength that seemed incredible, he raised the great box and flung it to the ground. Quincey, in the meantime, was cutting his way through the other side, and I saw with horror that he was pressing his left hand to his side, and that blood was spurting through his fingers.",
+    "Jonathan attacked the lid with his great Kukri knife, and Quincey with his bowie knife, and the lid began to yield. The nails drew with a screeching sound, and the top of the box was thrown back. There lay the Count in the box upon the earth, deathly pale, just like a waxen image, and his red eyes glared with the horrible vindictive look which I knew too well. As I looked, the eyes saw the sinking sun, and the look of hate in them turned to triumph.",
+    "But at that very instant came the sweep and flash of Jonathan’s great knife. I shrieked as I saw it shear through the throat, while at the same moment Mr Morris’s bowie knife plunged into the heart. It was like a miracle, but before our very eyes, and almost in the drawing of a breath, the whole body crumbled into dust and passed from our sight. I shall be glad as long as I live that, even in that moment of final dissolution, there was in the face a look of peace, such as I never could have imagined might have rested there.",
+    "The gypsies, taking us as in some way the cause of the extraordinary disappearance of the dead man, turned without a word and rode away as if for their lives. Mr Morris had sunk to the ground, leaning on his elbow and holding his hand pressed to his side. I flew to him, and the two doctors knelt beside him. With a sigh he took my hand. He must have seen the anguish of my heart in my face, for he smiled at me and said, “I am only too happy to have been of any service! Oh, God!” he cried suddenly, struggling up to a sitting posture and pointing to me. “It was worth this to die! Look! Look!”",
+    "The sun was now right down upon the mountain top, and the red gleams fell upon my face, so that it was bathed in rosy light. With one impulse the men sank on their knees, and a deep and earnest “Amen” broke from all as their eyes followed the pointing of his finger. “Now God be thanked that all has not been in vain! See! The snow is not more stainless than her forehead! The curse has passed away!” And, to our bitter grief, with a smile and in silence, he died, a gallant gentleman.",
+    "Note, by Jonathan Harker. Seven years ago we all went through the flames, and the happiness of some of us since then is, we think, well worth the pain we endured. It is an added joy to Mina and to me that our boy’s birthday is the same day as that on which Quincey Morris died. His mother holds, I know, the secret belief that some of our brave friend’s spirit has passed into him. His bundle of names links all our little band of men together, but we call him Quincey.",
+    "When we looked through our papers, we were struck by the fact that, in all the mass of material of which the record is composed, there is hardly one authentic document; nothing but a mass of typewriting. We could hardly ask anyone to accept these as proofs of so wild a story. Van Helsing summed it all up as he said, with our boy on his knee: “We want no proofs; we ask none to believe us! This boy will some day know what a brave and gallant woman his mother is.”"
+   ],
+   "glossary": [
+    {
+     "term": "field glasses",
+     "meaning": "binóculo"
+    },
+    {
+     "term": "spurting",
+     "meaning": "jorrando"
+    },
+    {
+     "term": "yield",
+     "meaning": "ceder"
+    },
+    {
+     "term": "vindictive",
+     "meaning": "vingativo"
+    },
+    {
+     "term": "shear",
+     "meaning": "cortar, rasgar"
+    },
+    {
+     "term": "dissolution",
+     "meaning": "dissolução"
+    },
+    {
+     "term": "stainless",
+     "meaning": "imaculada, sem mancha"
+    },
+    {
+     "term": "gallant",
+     "meaning": "valente, nobre"
+    }
+   ]
+  }
+ ]
+}

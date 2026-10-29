@@ -1,3 +1,5 @@
-# Arquivos de aula, livros importados e backups ficam fora do repositório, que é público
+# Arquivos de aula e backups ficam fora do repositório, que é público
 *.json
 *.zip
+# Exceção: os livros da biblioteca
+!livros/*.json

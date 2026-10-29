@@ -1,0 +1,596 @@
+{
+ "id": "socrates-trial",
+ "title": "The Trial and Death of Socrates",
+ "author": "Plato",
+ "year": -399,
+ "module": 4,
+ "level": "B2",
+ "summary": "Atenas, 399 a.C.: o filósofo Sócrates, já com setenta anos, é levado a julgamento acusado de não acreditar nos deuses da cidade e de corromper os jovens. Diante de quinhentos jurados, ele faz sua própria defesa, fala do oráculo de Delfos e da sua missão de questionar todos que se dizem sábios. Depois, na prisão, seu velho amigo Críton aparece ao amanhecer com um plano, e os dois discutem o que é justo fazer quando a própria cidade parece injusta.",
+ "chapters": [
+  {
+   "title": "The Accusers",
+   "paragraphs": [
+    "In the spring of the year 399 before Christ, a crowd gathered in the great court of Athens. Five hundred and one citizens sat on the wooden benches as jurors. In front of them stood an old man of seventy, short and broad, with a snub nose, big staring eyes and bare feet. Everyone in Athens knew him. His name was Socrates, and for years he had spent his days in the marketplace, asking people questions.",
+    "Three men had brought charges against him. The first was Meletus, a young poet with long hair and a thin beard. The second was Anytus, a rich and powerful politician. The third was Lycon, a public speaker. Meletus had read the charges aloud: “Socrates is guilty of not believing in the gods of the city and of introducing new gods. He is also guilty of corrupting the young. The penalty we demand is death.”",
+    "The accusers had made long and clever speeches. Now it was Socrates's turn. He stood up slowly and looked around at the jurors.",
+    "“Men of Athens,” he began, “I do not know how my accusers have affected you. As for me, they almost made me forget who I was, they spoke so persuasively. And yet hardly a word of what they said was true. One thing surprised me most of all. They warned you to be careful, because I am a clever speaker who will deceive you. That was shameless of them, because in a moment I will prove that I am not a clever speaker at all. Unless, of course, by a clever speaker they mean one who tells the truth.”",
+    "Some of the jurors laughed. Socrates went on. “You will not hear beautiful phrases from me, arranged like a performance. You will hear things said at random, in the words that come to me, the same words I use in the marketplace, at the bankers' tables, where many of you have heard me. I am seventy years old, and this is the first time I have ever stood in a law court. So I am a stranger to the language of this place. Forgive me, then, and pay attention only to one thing: whether what I say is just or not. That is the virtue of a judge. The virtue of a speaker is to tell the truth.”",
+    "“First,” he continued, “I must answer my older accusers, and then the newer ones. The older ones are more dangerous. They began talking to you when you were children. They told you that there is a man called Socrates, a wise man, who studies the things in the sky and below the earth, and who makes the weaker argument defeat the stronger. People who believe this think that such a man cannot believe in the gods. And I cannot even tell you their names, except for one writer of comedies.”",
+    "He meant the poet Aristophanes. Many years before, in his comedy The Clouds, Aristophanes had shown Socrates hanging in a basket in the air, talking nonsense about the sky and teaching young men to cheat. The whole city had laughed.",
+    "“You saw it yourselves,” said Socrates. “A Socrates swinging about in a basket, saying that he walked on the air. But I know nothing about these things. Many of you have heard me talking. Tell each other now: has any of you ever heard me say a single word about such matters? You see, you cannot. And it is not true either that I teach people and charge money for it. If someone can truly teach young men to be good citizens and charges a fee, I think that is a fine thing. But I have no such knowledge.”",
+    "“Well then, Socrates,” he imagined someone in the crowd asking, “what is your business? Where do these accusations come from? You must have done something unusual, or people would not talk about you like this.”",
+    "“That is a fair question,” said Socrates. “And I will try to explain. Some of you may think I am joking. But I assure you, I will tell you the whole truth. My reputation comes from a certain kind of wisdom. What kind? Human wisdom, perhaps. And for a witness to it, I will call the god at Delphi.”"
+   ],
+   "glossary": [
+    {
+     "term": "jurors",
+     "meaning": "jurados"
+    },
+    {
+     "term": "snub nose",
+     "meaning": "nariz arrebitado"
+    },
+    {
+     "term": "charges",
+     "meaning": "acusações"
+    },
+    {
+     "term": "persuasively",
+     "meaning": "de forma convincente"
+    },
+    {
+     "term": "deceive",
+     "meaning": "enganar"
+    },
+    {
+     "term": "at random",
+     "meaning": "ao acaso"
+    },
+    {
+     "term": "charge money",
+     "meaning": "cobrar dinheiro"
+    },
+    {
+     "term": "fee",
+     "meaning": "taxa, pagamento"
+    }
+   ]
+  },
+  {
+   "title": "The Oracle at Delphi",
+   "paragraphs": [
+    "“Do not shout, men of Athens,” said Socrates, as some jurors began to murmur. “Hear me out. You know Chaerephon. He was my friend from youth, and a friend of many of you. You know how passionate he was about everything he did. Well, he once went to Delphi and dared to ask the oracle a question. He asked whether anyone was wiser than Socrates. And the priestess answered that no one was wiser. Chaerephon is dead now, but his brother is here, and he can confirm it.”",
+    "“When I heard this answer,” Socrates continued, “I asked myself: what can the god mean? I know very well that I am not wise, in anything great or small. And yet a god cannot lie. For a long time I was puzzled. Then, very reluctantly, I decided to test the oracle. I went to a man who had a great reputation for wisdom, a politician. I thought: here I will prove the oracle wrong. I will be able to say to the god, ‘This man is wiser than I am, but you said I was the wisest.’”",
+    "“So I questioned him. I will not tell you his name. And as I talked with him, I came to the conclusion that, although many people thought him wise, and he thought so himself even more, he was not wise at all. I tried to show him this, and as a result he began to hate me, and so did many of the people around him. As I walked away, I said to myself: well, I am wiser than this man. Neither of us knows anything really fine and good. But he thinks he knows something when he does not, while I, since I do not know, do not think I know. So I seem to be wiser than him in this small way: I do not think I know what I do not know.”",
+    "“After that I went to another man, with an even greater reputation, and the result was exactly the same. And I made enemies of him too, and of many others. Then I went to the poets, the writers of tragedies and songs. I took the poems they had worked on most carefully and asked them what they meant. I am almost ashamed to tell you the truth, gentlemen. Almost anyone standing nearby could have explained those poems better than their authors. I soon realized that poets do not write their poems through wisdom, but through a kind of natural gift and inspiration, like prophets who say many fine things without understanding them. And because of their poetry, they believed that they were the wisest of men in other matters too, which they were not.”",
+    "“Finally I went to the craftsmen. I knew that I knew practically nothing, and I was sure I would find that they knew many fine things. And in this I was not mistaken. They knew things I did not, and in that way they were wiser than me. But they had the same fault as the poets. Because each of them was good at his craft, he thought he was also very wise in the most important matters, and this mistake hid the wisdom they really had.”",
+    "“So I asked myself, on behalf of the oracle, whether I would prefer to be as I am, without their wisdom and without their ignorance, or to have both, as they do. And I answered myself and the oracle that it was better for me to be as I am.”",
+    "“This investigation, men of Athens, has made me many enemies, enemies of the worst and most dangerous kind. They have spread many lies about me, and they call me a wise man. Because whenever I prove that someone else is not wise, the people watching think that I myself must be wise in that very subject. But in fact, gentlemen, it is probably the god who is truly wise. And by this oracle he means that human wisdom is worth little or nothing. He seems to use my name only as an example, as if to say: ‘The wisest of you, men, is the one who, like Socrates, understands that his wisdom is really worth nothing.’”",
+    "“That is why I still go around, even today, questioning anyone, citizen or stranger, whom I think wise. And when I find that he is not, I help the god by showing him that he is not. Because of this work I have no time for public affairs or for my own business. I live in great poverty because of my service to the god.”",
+    "“And there is something more. Young men of the richest families, who have plenty of free time, follow me around of their own accord. They enjoy hearing people being questioned. They often imitate me and try to question others themselves. And they find plenty of people who think they know something but know little or nothing. Then those who have been questioned are angry, not with themselves, but with me. ‘This Socrates is a terrible man,’ they say, ‘and he corrupts the young.’ And if you ask them what I do or teach, they have nothing to say. So they repeat the usual accusations against all philosophers. That, gentlemen, is the source of the prejudice against me.”"
+   ],
+   "glossary": [
+    {
+     "term": "murmur",
+     "meaning": "murmurar"
+    },
+    {
+     "term": "puzzled",
+     "meaning": "intrigado, confuso"
+    },
+    {
+     "term": "craftsmen",
+     "meaning": "artesãos"
+    },
+    {
+     "term": "craft",
+     "meaning": "ofício"
+    },
+    {
+     "term": "on behalf of",
+     "meaning": "em nome de"
+    },
+    {
+     "term": "ignorance",
+     "meaning": "ignorância"
+    },
+    {
+     "term": "of their own accord",
+     "meaning": "por vontade própria"
+    },
+    {
+     "term": "prejudice",
+     "meaning": "preconceito"
+    }
+   ]
+  },
+  {
+   "title": "Questioning Meletus",
+   "paragraphs": [
+    "“Now,” said Socrates, “I will answer Meletus, who calls himself a good man and a lover of the city. Come here, Meletus, and answer me. You consider it very important that our young men should be as good as possible, do you not?”",
+    "Meletus stepped forward, unwillingly. “I do,” he said.",
+    "“Then tell the jury who makes them better. You must know, since you care so much. You have found the man who corrupts them, as you say, and you have brought him here. So tell us who improves them. You see, Meletus, you are silent. Is that not shameful? Does it not prove that you have never cared about this at all? Come, my friend, tell us who makes them better.”",
+    "“The laws,” said Meletus.",
+    "“That is not what I am asking, my good man. I am asking which person, who first of all knows the laws.”",
+    "“These gentlemen, Socrates, the jurors.”",
+    "“All of them? Or some of them?”",
+    "“All of them.”",
+    "“Excellent! By Hera, what a large number of helpers! And what about the audience here? Do they make the young better or not?”",
+    "“They do too.”",
+    "“And the members of the Council?”",
+    "“Yes, the Council too.”",
+    "“And the members of the Assembly? Do they corrupt the young, or do they all improve them?”",
+    "“They improve them too.”",
+    "“So it seems,” said Socrates, “that all the Athenians make the young good, except me. I alone corrupt them. Is that what you mean?”",
+    "“That is exactly what I mean,” said Meletus firmly.",
+    "“Then I am very unlucky. But tell me, is it the same with horses? Do all men make horses better, and only one man spoil them? Or is it the opposite: only one man, or a few, the horse trainers, can make them better, while most people, if they handle horses, spoil them? Is that not true of horses and of all other animals, Meletus? Of course it is, whether you and Anytus agree or not. It would be a great happiness for the young if only one person corrupted them and everyone else did them good. But you show clearly, Meletus, that you have never given a thought to the young.”",
+    "The jurors were listening closely now. Socrates went on.",
+    "“Tell me another thing, Meletus. Is it better to live among good citizens or bad ones? Answer, my friend, it is not a difficult question. Do bad people not harm those who live near them, and good people do them good?”",
+    "“Certainly.”",
+    "“Is there anyone who would prefer to be harmed by his neighbours rather than helped?”",
+    "“Of course not.”",
+    "“And when you accuse me of corrupting the young, do you say I do it on purpose, or without wanting to?”",
+    "“On purpose, I say.”",
+    "“What, Meletus? Are you, at your age, so much wiser than I am at mine? You know that bad people harm those around them. And am I so ignorant that I do not realize that if I make my companions bad, I risk being harmed by them? So either I do not corrupt them, or I do it without meaning to. And in both cases you are lying. If I do it without meaning to, the law does not bring a man to court for that. It tells you to take him aside privately and teach him. Clearly, if I learned better, I would stop. But you avoided me and did not want to teach me. Instead you have brought me here, where the law sends people who need punishment, not teaching.”",
+    "“And now tell us, Meletus, how do I corrupt the young? According to your charge, I teach them not to believe in the gods of the city, but in new spiritual things. Is that it? Or do you say that I do not believe in any gods at all?”",
+    "“That is what I say,” shouted Meletus. “You do not believe in any gods at all!”",
+    "“You astonish me, Meletus. Your accusation says that I believe in spiritual things, in divine signs. Now, can anyone believe in spiritual things and not believe in spirits? Can anyone believe in horses' activities but not in horses? Or in flute music but not in flute players? No, my friend. And spirits, we all agree, are either gods or the children of gods. So you are saying that I do not believe in gods, and at the same time that I believe in gods, because I believe in spirits. It seems to me, Meletus, that you have written this accusation as a riddle, to test whether I would notice that you contradict yourself.”",
+    "The jurors murmured, and some of them smiled. Meletus had nothing to say."
+   ],
+   "glossary": [
+    {
+     "term": "unwillingly",
+     "meaning": "de má vontade"
+    },
+    {
+     "term": "improves",
+     "meaning": "melhora"
+    },
+    {
+     "term": "spoil",
+     "meaning": "estragar"
+    },
+    {
+     "term": "handle",
+     "meaning": "lidar com"
+    },
+    {
+     "term": "neighbours",
+     "meaning": "vizinhos"
+    },
+    {
+     "term": "astonish",
+     "meaning": "espanta"
+    },
+    {
+     "term": "riddle",
+     "meaning": "charada, enigma"
+    },
+    {
+     "term": "contradict",
+     "meaning": "contradiz"
+    }
+   ]
+  },
+  {
+   "title": "The Gadfly",
+   "paragraphs": [
+    "“I do not think I need to say much more against Meletus,” Socrates told the jury. “It is not Meletus or Anytus who will condemn me, if I am condemned. It is the prejudice and envy of many people. That has destroyed many good men before me, and it will destroy many more. There is no danger that it will stop with me.”",
+    "“Perhaps someone will say: ‘Are you not ashamed, Socrates, of a way of life that has put you in danger of death?’ I would answer him: you are wrong, my friend, if you think that a man of any worth should consider the risk of life or death. He should consider only one thing: whether he is acting justly or unjustly, like a good man or a bad one. Remember Achilles. His mother, a goddess, warned him that if he killed Hector to avenge his friend, he himself would die soon afterwards. But he feared living as a coward much more than dying. ‘Let me die at once,’ he said, ‘rather than stay here, a laughing-stock, a burden on the earth.’”",
+    "“When you, men of Athens, chose generals to command me at Potidaea, at Amphipolis and at Delium, I stayed where they had placed me and faced death like any other soldier. It would be strange indeed if now, when the god has ordered me, as I believe, to live as a philosopher, examining myself and others, I should abandon my post out of fear of death. That would be a terrible thing. Then you could really bring me to court for not believing in the gods, because I would be disobeying the oracle, fearing death, and thinking I was wise when I am not.”",
+    "“For to fear death, gentlemen, is nothing else than to think you are wise when you are not. It is to think you know what you do not know. Nobody knows whether death is not the greatest of all blessings for a man. Yet people fear it as if they knew that it is the greatest of evils. Is that not the most shameful kind of ignorance, to think you know what you do not know? Here, perhaps, I am different from most men. I do not know much about the world below, and I do not think I know. But I do know that it is evil and shameful to do wrong and to disobey someone better than oneself, whether god or man.”",
+    "“So suppose you said to me: ‘Socrates, we will let you go, but on one condition. You must stop spending your time in this investigation, and stop practising philosophy. If you are caught doing it again, you will die.’ If you let me go on these terms, I would answer: ‘Men of Athens, I respect you and I love you, but I will obey the god rather than you. As long as I have breath and strength, I will never stop practising philosophy, and I will keep saying to anyone I meet: My good friend, you are an Athenian, a citizen of the greatest city in the world, famous for wisdom and power. Are you not ashamed to care so much about money, reputation and honour, and to care so little about wisdom and truth and the improvement of your soul?’”",
+    "At this, there was a loud noise in the court. Some jurors were shouting angrily.",
+    "“Do not interrupt me, gentlemen,” Socrates said calmly. “Listen. Be sure that if you kill me, the man I say I am, you will not harm me more than yourselves. Meletus and Anytus cannot harm me. I do not believe that a better man can be harmed by a worse one. They may kill me, or send me into exile, or take away my rights as a citizen. They may think that these are great evils. But I think it is a much greater evil to do what Meletus is doing now: trying to put a man to death unjustly.”",
+    "“So I am not defending myself for my own sake, as you might think, but for yours. I do not want you to make a mistake about the gift the god has given you. If you kill me, you will not easily find another like me. The god has attached me to this city as a gadfly is attached to a large, noble horse. The horse is a little slow because of its size, and it needs to be woken up by the sting of a fly. I think the god has given me to the city as such a fly. All day long, everywhere, I never stop waking you up, persuading you, criticizing each one of you. You may be annoyed, like people woken from a nap, and you may slap me, as Anytus suggests, and easily kill me. Then you could sleep peacefully for the rest of your lives, unless the god cares for you and sends you another gadfly.”",
+    "“Some of you may also wonder why I have never given advice in the Assembly. The reason is something you have often heard me speak of. Since I was a child, a kind of voice has come to me, a divine sign. It always holds me back from what I am about to do, but it never urges me forward. It is this voice that has kept me out of politics, and rightly, I think. Because if I had entered politics, men of Athens, I would have been killed long ago, and I would have done no good either to you or to myself. A man who really fights for justice must live as a private citizen, if he wants to survive even for a short time.”",
+    "“Finally,” said Socrates, “some of you may be offended because I do not do what others do. I have not brought my three sons here, two of them still little children, to weep in front of you and beg for mercy. I have not brought my friends and relatives. This is not out of pride or contempt for you. It is because I think such scenes are shameful, both for me and for the city. A juror is not here to grant favours, but to judge according to the law. I leave my case to you and to the god.”"
+   ],
+   "glossary": [
+    {
+     "term": "condemn",
+     "meaning": "condenar"
+    },
+    {
+     "term": "laughing-stock",
+     "meaning": "motivo de chacota"
+    },
+    {
+     "term": "abandon my post",
+     "meaning": "abandonar meu posto"
+    },
+    {
+     "term": "blessings",
+     "meaning": "bênçãos"
+    },
+    {
+     "term": "for my own sake",
+     "meaning": "por minha causa, em meu benefício"
+    },
+    {
+     "term": "gadfly",
+     "meaning": "mutuca, moscardo"
+    },
+    {
+     "term": "sting",
+     "meaning": "ferroada"
+    },
+    {
+     "term": "urges",
+     "meaning": "incentiva, impele"
+    }
+   ]
+  },
+  {
+   "title": "The Verdict",
+   "paragraphs": [
+    "When Socrates had finished speaking, the jurors voted. Each of them dropped a small bronze disc into one of two jars, one for guilty and one for not guilty. Then the officials counted the votes and announced the result. Two hundred and eighty jurors had voted guilty, and two hundred and twenty-one not guilty. Socrates had been found guilty.",
+    "His friends in the crowd were pale. Crito, an old, rich friend from the same district as Socrates, held his head in his hands. Young Plato, who was standing near the front, did not move. But Socrates himself seemed perfectly calm.",
+    "According to Athenian law, after a guilty verdict the accuser proposed a penalty, and then the accused proposed another one. The jurors would then vote again and choose one of the two. Meletus had already proposed death. Now Socrates had to propose a penalty for himself. Everyone expected him to suggest exile, a long journey away from Athens. The jurors would probably have accepted it.",
+    "Socrates stood up again. “I am not upset by this verdict, men of Athens,” he said. “There are many reasons for this. The main one is that I expected it. What surprises me is the number of votes on each side. I thought the majority against me would be much larger. As it is, if only thirty votes had gone the other way, I would have been acquitted.”",
+    "“Now Meletus proposes death. Very well. And what penalty shall I propose? What do I deserve? What does a man deserve who has never had a quiet life, who has neglected what most people care about, such as making money, managing a household, holding positions of command and making political speeches? I did not go where I could not be useful to you or to myself. Instead, I went to each of you privately, to do you the greatest service I could. I tried to persuade each of you to care for himself, for his soul and his goodness, before he cared for his possessions. What does such a man deserve? Something good, men of Athens, if I must tell the truth.”",
+    "“And what good thing is suitable for a poor man who has served you and who needs free time to continue advising you? There is nothing more suitable than free meals in the Prytaneum, the town hall, the honour we give to the winners of the Olympic Games. In fact, I deserve it far more than any winner of a horse race. He makes you seem happy. I make you be happy. And he does not need the food, but I do. So, if I must propose a fair penalty, I propose this: free meals in the Prytaneum.”",
+    "There was a great uproar in the court. Some people laughed. Others shouted with anger. They thought that the old man was making fun of them.",
+    "Socrates raised his hand. “Perhaps you think I am speaking out of pride, as I did when I refused to bring my children here. That is not so. I am convinced that I have never intentionally wronged anyone, but I cannot convince you, because we have talked together for so short a time. If you had a law, as other cities do, that a trial for a capital crime must last several days, I think I would have convinced you. But it is not easy to destroy great prejudices in a short time.”",
+    "“Why should I propose a punishment for myself? Out of fear of what Meletus proposes, which I do not know to be good or bad? Should I choose prison, and live as a slave? Or a fine, and stay in prison until I pay it? But I have no money to pay with. Or exile? Perhaps you would accept that. But I would have to be very much in love with life, men of Athens, if I were so unreasonable as to think that strangers would put up with my conversations, when you, my own fellow citizens, could not bear them. What a fine life that would be, at my age, to be driven from city to city!”",
+    "“Someone will say: ‘But Socrates, can you not go away and live quietly, and keep silent?’ This is the most difficult thing to explain to some of you. If I say that this would be disobeying the god, you will think I am being ironic. And if I say that it is the greatest good for a man to talk every day about goodness and the other things you hear me discussing, examining myself and others, and that the unexamined life is not worth living for a man, you will believe me even less. Yet that is how things are.”",
+    "“Still,” he said finally, “perhaps I could pay a small fine. I could pay one mina of silver. But Plato here, and Crito, Critobulus and Apollodorus, are telling me to propose thirty minae, and they will guarantee it. So I propose thirty minae, and they will be responsible for the money.”",
+    "The jurors voted again. This time even more of them were against him. Socrates was sentenced to death."
+   ],
+   "glossary": [
+    {
+     "term": "acquitted",
+     "meaning": "absolvido"
+    },
+    {
+     "term": "neglected",
+     "meaning": "negligenciou, deixou de lado"
+    },
+    {
+     "term": "household",
+     "meaning": "casa, família"
+    },
+    {
+     "term": "uproar",
+     "meaning": "alvoroço, tumulto"
+    },
+    {
+     "term": "intentionally",
+     "meaning": "intencionalmente"
+    },
+    {
+     "term": "put up with",
+     "meaning": "tolerar, aguentar"
+    },
+    {
+     "term": "unexamined",
+     "meaning": "não examinada"
+    },
+    {
+     "term": "sentenced",
+     "meaning": "condenado (a uma pena)"
+    }
+   ]
+  },
+  {
+   "title": "Last Words to the Jury",
+   "paragraphs": [
+    "When the sentence had been announced, Socrates did not sit down. The officials were busy with their work, and there was a little time before he would be taken away to prison. So he spoke once more.",
+    "“For the sake of a little time, men of Athens,” he said, “you will get a bad name among those who want to criticize the city. They will say that you killed Socrates, a wise man. They will call me wise, even if I am not, just to blame you. If you had waited a short while, it would have happened naturally. You see how old I am, and how near to death.”",
+    "“Perhaps you think I was condemned because I did not have the right words to persuade you. That is not true. I was condemned because I did not have the shamelessness to say to you what you would have liked to hear: to weep and wail and do many other things unworthy of me. I would rather die after making my kind of defence than live after making yours. Neither in war nor in a court of law should a man use every means to escape death. In battle it is often clear that a man could escape by throwing away his weapons and begging his pursuers for mercy. The difficulty, gentlemen, is not to escape death. It is much harder to escape wickedness, because it runs faster than death.”",
+    "“I am old and slow, and I have been caught by the slower runner, death. My accusers are clever and quick, and they have been caught by the faster one, wickedness. I go away now, condemned by you to death. They go away condemned by truth to injustice. I accept my penalty, and they must accept theirs.”",
+    "“And now I want to make a prophecy to those of you who voted against me. I tell you that as soon as I am dead, a punishment much heavier than the one you have given me will come upon you. You did this believing that you would be free from having to give an account of your lives. But the opposite will happen. There will be more people to question you, young people whom I have held back until now. They will be harsher with you because they are younger. If you think that by killing people you can stop anyone from criticizing your wrong way of life, you are mistaken. That way of escape is neither possible nor honourable. The best and easiest way is not to silence others, but to make yourselves as good as possible.”",
+    "Then he turned to the jurors who had voted for him. “With you, my friends, I would like to talk a little about what has happened, while the officials are busy. Something wonderful has happened to me. My divine voice, which has always warned me, even in small matters, when I was about to make a mistake, has not opposed me once today. Not when I left home this morning, not when I came into court, not at any point in my speech. What does this mean? I think that what has happened to me is a good thing, and that those of us who think death is an evil are wrong.”",
+    "“Let us look at it in another way. Death is one of two things. Either it is like being nothing, so that the dead feel nothing at all, or, as people say, it is a change, a journey of the soul from this place to another. If it is a complete lack of feeling, like a sleep without dreams, then death would be a wonderful gain. If you compared such a night with all the other nights and days of your life, how many would be better? Not even the Great King of Persia would find many. So, if death is like that, all eternity seems no more than a single night.”",
+    "“But if death is a journey to another place, and if what people say is true, that all the dead are there, what greater blessing could there be, my judges? There I would meet true judges, not those who only call themselves judges. I could talk with Orpheus and Homer. I could meet Palamedes and Ajax, who died because of unjust judgements, and compare my experiences with theirs. And best of all, I could spend my time questioning people there, as I do here, to find out who is wise and who only thinks he is. And there, surely, they do not put people to death for asking questions.”",
+    "“So you too, my judges, must be hopeful about death, and believe this one truth: that no evil can come to a good man, either in life or after death. As for my sons, when they grow up, I ask you to trouble them as I have troubled you, if they seem to care more about money than about goodness. If you do this, both I and my sons will have received justice from you.”",
+    "“But now the time has come to go away. I go to die, and you to live. Which of us goes to the better fate is unknown to everyone, except the god.”"
+   ],
+   "glossary": [
+    {
+     "term": "wail",
+     "meaning": "lamentar-se aos gritos"
+    },
+    {
+     "term": "pursuers",
+     "meaning": "perseguidores"
+    },
+    {
+     "term": "wickedness",
+     "meaning": "maldade"
+    },
+    {
+     "term": "prophecy",
+     "meaning": "profecia"
+    },
+    {
+     "term": "harsher",
+     "meaning": "mais duros"
+    },
+    {
+     "term": "opposed",
+     "meaning": "se opôs a"
+    },
+    {
+     "term": "gain",
+     "meaning": "ganho, vantagem"
+    },
+    {
+     "term": "fate",
+     "meaning": "destino"
+    }
+   ]
+  },
+  {
+   "title": "Crito at Dawn",
+   "paragraphs": [
+    "Normally a prisoner condemned to death in Athens was executed the next day. But Socrates had to wait for a whole month. Every year the Athenians sent a sacred ship to the island of Delos, in honour of the god Apollo, and while the ship was away, the city had to stay pure. No one could be put to death until it returned. The ship had left the day before the trial, so Socrates lived in prison, chained, while his friends visited him every day.",
+    "One morning, very early, before dawn, Socrates woke up in his cell. Crito was sitting beside his bed, in silence.",
+    "“Why have you come at this hour, Crito?” Socrates asked. “Is it not still very early?”",
+    "“Yes, it is. Just before dawn.”",
+    "“I am surprised that the prison guard let you in.”",
+    "“He knows me well by now, Socrates. I come here so often. And I have done him a few favours.”",
+    "“Did you just arrive, or have you been here long?”",
+    "“Quite a long time.”",
+    "“Then why did you not wake me at once, instead of sitting there quietly?”",
+    "“By Zeus, Socrates, I would not want to be awake and in such grief myself. I have been watching you, amazed at how peacefully you were sleeping. I did not wake you on purpose, so that you could spend the time as pleasantly as possible. I have always thought you had a happy character, but never more than now, seeing how easily and calmly you bear this misfortune.”",
+    "“Well, Crito, it would be wrong for a man of my age to complain because he must die. But why have you come so early?”",
+    "“I bring bad news, Socrates. Not bad for you, perhaps, but painful for me and all your friends. The ship from Delos has been seen at Sounion. It will arrive today, and so tomorrow you must die.”",
+    "“Then let it be, Crito, if that is the will of the gods. But I do not think it will arrive today. I had a dream a little while ago, during the night. Perhaps it was a good thing that you did not wake me. A beautiful woman dressed in white came to me. She called me and said: ‘Socrates, on the third day you will come to fertile Phthia.’ It is a line from Homer. So I think I will die the day after tomorrow.”",
+    "“What a strange dream, Socrates!” said Crito. “But listen to me, my dear friend, even now. Please let yourself be saved. If you die, I will lose a friend whom I can never replace. And there is something else. Many people who do not know us well will think that I could have saved you if I had been willing to spend money, but that I did not care. What could be more shameful than to have a reputation for valuing money more than friends? Most people will never believe that you yourself refused to escape, while we wanted to help you.”",
+    "“But why should we care so much about what most people think, my dear Crito? The most reasonable people, whose opinion matters, will believe that things happened as they really did.”",
+    "“But you can see, Socrates, that we must care about the opinion of the many. This very situation shows that they can do the greatest harm to a man if his name has been blackened.”",
+    "“I wish they could do the greatest harm, Crito, because then they could also do the greatest good. That would be fine. But in fact they can do neither. They cannot make a man wise or foolish. They act at random.”",
+    "“Well, let that be,” said Crito impatiently. “But tell me this. Are you worried that if you escape, the informers will cause trouble for me and your other friends, that we will lose our property or be punished? Do not worry about that. It is right for us to take that risk, and even greater ones. Everything is ready. The guards do not want much money. My money is yours. And Simmias and Cebes, the young men from Thebes, have brought money too. You said at the trial that you would not know what to do with yourself in exile. But I have friends in Thessaly who will welcome you, and protect you, and no one there will trouble you.”",
+    "“And there is more, Socrates. I do not think you are doing the right thing. You are betraying yourself, when you could be saved. You are doing exactly what your enemies want. And you are abandoning your sons. You could bring them up and educate them, but you are leaving them to whatever chance brings them. Either a man should not have children, or he should share their difficulties. You seem to be choosing the easiest path, when you should choose what a good and brave man would choose, especially a man who has talked all his life about goodness. I am ashamed, for you and for us, your friends. Come, there is no more time for thinking. Everything must be done tonight. Please, Socrates, listen to me, and do not refuse.”"
+   ],
+   "glossary": [
+    {
+     "term": "executed",
+     "meaning": "executado"
+    },
+    {
+     "term": "sacred",
+     "meaning": "sagrado"
+    },
+    {
+     "term": "chained",
+     "meaning": "acorrentado"
+    },
+    {
+     "term": "cell",
+     "meaning": "cela"
+    },
+    {
+     "term": "grief",
+     "meaning": "tristeza profunda, luto"
+    },
+    {
+     "term": "blackened",
+     "meaning": "manchado, difamado"
+    },
+    {
+     "term": "informers",
+     "meaning": "delatores"
+    },
+    {
+     "term": "betraying",
+     "meaning": "traindo"
+    }
+   ]
+  },
+  {
+   "title": "Never Return Wrong for Wrong",
+   "paragraphs": [
+    "“My dear Crito,” said Socrates, “your eagerness is very valuable, if it is right. If it is not, the greater it is, the worse. So we must examine whether we should do what you say or not. I have always been the kind of man who listens to nothing except the argument that seems best when I think about it. I cannot throw away the arguments I used to make just because this misfortune has happened to me. They seem the same to me as before, and I respect them as much as ever. Unless we can find better ones, I will not agree with you, not even if the people of Athens frightened us like children with more prisons, chains and deaths.”",
+    "“So let us look at the question you raised, about the opinion of the many. We used to say that some opinions should be respected and others should not. Were we right before I was condemned, and now we see that we were only talking for the sake of talking? Tell me, Crito. You are not going to die tomorrow, so your judgement is not affected by fear. Is it right to respect only some opinions, the good ones, and not others, the bad ones?”",
+    "“It is right.”",
+    "“And the good ones are those of wise people, and the bad ones those of foolish people?”",
+    "“Of course.”",
+    "“Then consider this. When a man is training seriously as an athlete, does he pay attention to the praise and blame of every person, or only of one person, his doctor or his trainer?”",
+    "“Only of that one.”",
+    "“So he should fear the criticism and welcome the praise of that one man, and not of the many. He should exercise, eat and drink as that one expert thinks best, not as all the others think.”",
+    "“That is clear.”",
+    "“And if he disobeys that expert, and listens to the many who know nothing, will he not suffer harm?”",
+    "“Certainly. He will harm his body.”",
+    "“And is it not the same, Crito, with what is just and unjust, shameful and good? Should we follow the opinion of the many, or of the one man who knows, if there is one? If we do not follow him, we will damage that part of us which is made better by justice and destroyed by injustice. Is life worth living with a ruined body?”",
+    "“No, not at all.”",
+    "“And is life worth living when that other part of us is ruined, the part that injustice harms and justice helps? Or do we think that part, whatever it is, the part concerned with justice, is less important than the body?”",
+    "“By no means. It is much more important.”",
+    "“Then, my good friend, we should not care so much about what the many will say about us, but about what the one who understands justice will say, and the truth itself. So you were wrong to begin by saying that we must consider the opinion of the many. And here is another principle, which still stands: that the most important thing is not to live, but to live well. And to live well means to live honourably and justly. Do you agree?”",
+    "“I agree.”",
+    "“Then this is what we must examine: whether it is just for me to try to escape without the permission of the Athenians, or not. If it is just, let us try. If it is not, let us give up the idea. Your other arguments, about money, reputation and the children, are really the thoughts of people who would put a man to death without reason, and bring him back to life if they could, without reason either. For us, the only question is whether we would be acting justly.”",
+    "“Now, Crito, do we say that one must never do wrong willingly? Or that one must do wrong in some ways and not in others? Have we not often agreed that doing wrong is never good or honourable? Or have all our old agreements disappeared in these last few days? Whatever the majority says, is it not true that to do wrong is always evil and shameful for the one who does it?”",
+    "“Yes, it is true.”",
+    "“Then we must never do wrong.”",
+    "“Never.”",
+    "“Then we must not even do wrong in return when we have been wronged, as most people think, since we must never do wrong at all.”",
+    "“So it seems.”",
+    "“And what about doing harm, Crito? Should we do harm to anyone or not?”",
+    "“Surely not, Socrates.”",
+    "“And is it just to do harm in return for harm, as the majority says?”",
+    "“No, it is not.”",
+    "“Because doing harm to people is no different from doing wrong.”",
+    "“That is true.”",
+    "“So we must not return wrong for wrong, or do harm to anyone, whatever we have suffered from them. But be careful, Crito, that you do not agree with this against your real opinion. I know that only a few people believe it, or ever will. And those who believe it and those who do not have no common ground. They can only despise each other when they see each other's views. So think carefully. Do you share this view with me? Shall we begin from here: that it is never right to do wrong, or to return wrong for wrong, or to defend ourselves by doing harm?”",
+    "“I still agree with it, Socrates. Go on.”",
+    "“Then the next point. If a man has made a just agreement with someone, should he keep it, or break it?”",
+    "“He should keep it.”",
+    "“Then look at what follows. If we leave this place without the city's permission, are we doing harm to anyone, and to those we should harm least? Are we keeping our just agreements, or not?”",
+    "“I cannot answer your question, Socrates. I do not understand it.”",
+    "“Then look at it this way,” said Socrates."
+   ],
+   "glossary": [
+    {
+     "term": "eagerness",
+     "meaning": "entusiasmo, ânsia"
+    },
+    {
+     "term": "praise",
+     "meaning": "elogio"
+    },
+    {
+     "term": "blame",
+     "meaning": "crítica, culpa"
+    },
+    {
+     "term": "ruined",
+     "meaning": "arruinado"
+    },
+    {
+     "term": "by no means",
+     "meaning": "de modo algum"
+    },
+    {
+     "term": "willingly",
+     "meaning": "de propósito, voluntariamente"
+    },
+    {
+     "term": "common ground",
+     "meaning": "ponto em comum"
+    },
+    {
+     "term": "keep it",
+     "meaning": "cumpri-lo"
+    }
+   ]
+  },
+  {
+   "title": "The Laws Speak",
+   "paragraphs": [
+    "“Imagine,” said Socrates, “that as I am about to run away from here, the Laws and the city itself come and stand in front of me, and ask: ‘Tell us, Socrates, what are you planning to do? Are you not, by this act, trying to destroy us, the Laws, and the whole city, as far as you can? Do you think a city can survive and not be overturned, if the judgements of its courts have no force, and can be ignored by private individuals?’ What shall we answer to that, Crito? Shall we say: ‘The city wronged me. It judged my case unjustly’?”",
+    "“Yes, by Zeus, Socrates, that is what we should say!”",
+    "“Then what if the Laws answered: ‘Was that our agreement, Socrates? Or did you agree to respect the judgements of the city, whatever they were?’ And if I were surprised at their words, they might go on: ‘Do not be surprised, Socrates, but answer us, since you are so fond of questions and answers. What complaint do you have against us, that you are trying to destroy us? Was it not through us that you were born? Through us your father married your mother and brought you into the world. Do you have any complaint against the laws of marriage?’ ‘None,’ I would say.”",
+    "“‘Or against the laws about bringing up and educating children, under which you yourself were educated? Were we not right to order your father to educate you in music and gymnastics?’ ‘You were right,’ I would answer. ‘Well then, since you were born, brought up and educated through us, can you deny that you are our child and our servant, like your fathers before you? And if that is so, do you think you have the same rights as we do, so that whatever we do to you, you may do to us in return? You did not have equal rights with your father. If he hit you, you could not hit him back. If he insulted you, you could not insult him. And do you think you have such a right against your country and its laws? If we try to destroy you, because we think it just, will you try in return to destroy us, as far as you can, and say that you are acting justly, you who truly care about goodness?’”",
+    "“‘Are you so wise that you have forgotten that your country is more precious, more sacred and more worthy of respect than your mother, your father and all your ancestors? You must respect it, obey it and calm its anger, more than a father's. You must either persuade it, or do what it orders. If it orders you to suffer something, you must suffer it quietly, whether it is to be beaten or put in prison. If it leads you into war, to be wounded or killed, you must go. That is just. You must not retreat or abandon your post. In war, in the law court and everywhere else, you must do what your city and your country order, or else persuade them about what is truly just.’”",
+    "“What shall we answer, Crito? Do the Laws speak the truth or not?”",
+    "“I think they do,” said Crito quietly."
+   ],
+   "glossary": [
+    {
+     "term": "overturned",
+     "meaning": "derrubada, destruída"
+    },
+    {
+     "term": "fond of",
+     "meaning": "gosta de"
+    },
+    {
+     "term": "ancestors",
+     "meaning": "antepassados"
+    },
+    {
+     "term": "precious",
+     "meaning": "precioso, valioso"
+    },
+    {
+     "term": "wounded",
+     "meaning": "ferido"
+    },
+    {
+     "term": "retreat",
+     "meaning": "recuar"
+    }
+   ]
+  },
+  {
+   "title": "The Agreement with the Laws",
+   "paragraphs": [
+    "“‘Then consider this, Socrates,’ the Laws would perhaps continue. ‘We gave every Athenian the freedom to leave. When a young man comes of age and sees how the city is run, and sees us, the Laws, he may take his property and go wherever he likes, if he is not satisfied with us. None of us stands in his way. But whoever stays, seeing how we judge cases and govern the city, has by that very act made an agreement with us to obey our orders. And if he disobeys, we say that he does wrong in three ways. He disobeys his parents, he disobeys those who brought him up, and he breaks his agreement. He neither obeys us nor persuades us that we are wrong, although we give him the choice.’”",
+    "“‘And you, Socrates, more than any other Athenian, made this agreement. You hardly ever left the city, except as a soldier. You never travelled abroad, as other people do. You were not curious about other cities or other laws. You were satisfied with us and our city. You even had your children here. And at your trial you could have proposed exile as your penalty, and done then, with the city's consent, what you now want to do against its will. But you boasted that you were not upset at the thought of death. You said that you preferred death to exile. And now you are not ashamed of those words, and you do not respect us, the Laws. You are trying to destroy us, and running away like the lowest slave.’”",
+    "“‘Think, too, what good it will do you or your friends. Your friends will be in danger of exile or of losing their property. And you yourself, if you go to a well-governed city like Thebes or Megara, will arrive as an enemy of their laws. Good citizens will look at you with suspicion, as a destroyer of laws. And you will confirm the jurors' opinion, that they judged you correctly. Because a destroyer of laws may well be thought to be a corrupter of the young. Or will you go to Thessaly, to Crito's friends, where there is great disorder? They will enjoy hearing the funny story of how you escaped from prison in disguise, dressed in a peasant's leather coat, with your appearance changed. Will no one say that an old man, with so little time left to live, clung so greedily to life that he broke the most important laws? And what will you talk about there? About justice and goodness, and how laws are the most valuable things for men? Do you not think that would look shameful?’”",
+    "“‘And your children? Will you take them to Thessaly and make foreigners of them? Or, if they stay here, will they be better brought up because you are alive but far away? Your friends will look after them, whether you are in Thessaly or in the world below, if they are truly your friends. No, Socrates, listen to us, who brought you up. Do not put your children, or your life, or anything else before justice. Then, when you come to the world below, you will be able to defend yourself before its rulers. As things are, if you die, you will die wronged not by us, the Laws, but by men. But if you escape, returning wrong for wrong and breaking your agreements with us, we will be angry with you while you live. And our brothers, the laws of the world below, will not receive you kindly, knowing that you tried to destroy us.’”",
+    "“That, my dear friend Crito,” said Socrates, “is what I seem to hear, as the worshippers of Cybele seem to hear the music of flutes. The sound of these words is ringing in my ears, and it prevents me from hearing anything else. But if you think you can do any good by speaking, speak.”",
+    "Crito was silent for a long time. “No, Socrates,” he said at last. “I have nothing to say.”",
+    "“Then let it be, Crito, and let us act in this way, since this is the way the god is leading us.”"
+   ],
+   "glossary": [
+    {
+     "term": "comes of age",
+     "meaning": "atinge a maioridade"
+    },
+    {
+     "term": "consent",
+     "meaning": "consentimento"
+    },
+    {
+     "term": "suspicion",
+     "meaning": "desconfiança"
+    },
+    {
+     "term": "in disguise",
+     "meaning": "disfarçado"
+    },
+    {
+     "term": "clung",
+     "meaning": "se agarrou"
+    },
+    {
+     "term": "greedily",
+     "meaning": "avidamente, com ganância"
+    },
+    {
+     "term": "worshippers",
+     "meaning": "devotos, adoradores"
+    }
+   ]
+  },
+  {
+   "title": "The Cup of Hemlock",
+   "paragraphs": [
+    "Socrates's dream came true. The sacred ship arrived the next day, and on the following morning, the third day, his friends gathered at the prison for the last time. Many years later, one of them, Phaedo, told the story of that day. Plato was not there. He was ill.",
+    "When the friends came in, the Eleven, the officials in charge of the prison, had just taken off Socrates's chains. His wife, Xanthippe, was sitting beside him, holding their youngest son. When she saw the friends, she cried out, “Oh, Socrates, this is the last time your friends will speak with you, and you with them!” Socrates asked Crito to have someone take her home, and she was led away, weeping and beating her breast.",
+    "Socrates sat up on the bed and rubbed his leg where the chain had been. “How strange, my friends, is this thing that people call pleasure,” he said, “and how curiously it is related to pain, which seems to be its opposite. A man cannot have both at once, and yet, if he pursues one and catches it, he is almost forced to take the other too, as if they were joined at the head. Here my leg was hurting because of the chain, and now pleasure seems to be following the pain.”",
+    "Then, for the whole day, he talked with his friends, especially with the two young men from Thebes, Simmias and Cebes, about the soul. “Those who practise philosophy in the right way,” he told them, “are really practising for dying. All their lives they try to free the soul from the body, from its desires, its fears and its confusion, so that the soul can see the truth by itself. Death is exactly that: the separation of the soul from the body. So it would be absurd for a philosopher to be troubled when death comes.” He gave them many arguments that the soul is immortal, and that it does not die with the body. Some of the young men raised difficult objections, and he answered each one patiently, as if it were an ordinary day in the marketplace.",
+    "When the sun was setting, he went into another room to bathe, so that the women would not have the trouble of washing his body after his death. Afterwards, his three sons were brought to him, two small and one older, and the women of his family came. He spoke with them in front of Crito and gave them his last instructions. Then he sent them away and came back to his friends.",
+    "Soon the servant of the Eleven came in and stood beside him. “Socrates,” he said, “I know that you will not be angry with me, as other prisoners are, when I tell them to drink the poison. I have come to know you in this time as the noblest, gentlest and best man who has ever come here. You know what I have come to tell you. Goodbye, and try to bear what must be borne as easily as you can.” He burst into tears, turned and went out.",
+    "“Goodbye to you too,” said Socrates. “We will do as you say.” Then he turned to his friends. “What a charming man! All this time he has visited me and talked with me, and now see how generously he weeps for me. Come, Crito, let us obey him. Let someone bring the poison, if it is ready.”",
+    "“But Socrates,” said Crito, “the sun is still on the mountains. It has not set yet. I know that others drink the poison very late, after eating and drinking and enjoying themselves. Do not hurry. There is still time.”",
+    "“Those men are right to do so, Crito,” said Socrates, “because they think they gain something by it. But I would gain nothing by drinking a little later, except to look ridiculous in my own eyes, clinging to life when there is nothing left of it. Come, do as I say.”",
+    "The man came in with the cup of hemlock. “You know about these things, my good friend,” said Socrates. “What must I do?”",
+    "“Just drink it,” said the man, “and walk around until your legs feel heavy. Then lie down, and it will act by itself.”",
+    "Socrates took the cup calmly, without trembling, without any change of colour or expression. He said a short prayer to the gods that his journey from this world to the next would be a happy one. Then he raised the cup to his lips and drank it all, cheerfully and easily.",
+    "Until then most of his friends had been able to hold back their tears. But when they saw him drinking, they could not stop. Phaedo covered his face and wept, not for Socrates, but for himself, for losing such a friend. Crito stood up and went outside. Apollodorus cried out loudly, and everyone broke down.",
+    "“What are you doing, my strange friends?” said Socrates. “I sent the women away so that they would not behave like this. I have heard that a man should die in peace. Be quiet, and be brave.” They were ashamed, and stopped crying.",
+    "He walked about, and when his legs began to feel heavy, he lay down on his back. The man pressed his foot hard and asked if he could feel it. Socrates said no. The cold was rising up towards his heart. Then Socrates uncovered his face, which he had covered, and spoke his last words.",
+    "“Crito,” he said, “we owe a cock to Asclepius. Pay the debt, and do not forget.”",
+    "“It will be done,” said Crito. “Is there anything else?”",
+    "There was no answer. A little later he moved, and when the man uncovered him, his eyes were fixed. Crito closed his mouth and his eyes. Such was the end of our friend, said Phaedo, a man who was, of all those we have known, the best, the wisest and the most just."
+   ],
+   "glossary": [
+    {
+     "term": "in charge of",
+     "meaning": "responsável por"
+    },
+    {
+     "term": "pursues",
+     "meaning": "persegue, busca"
+    },
+    {
+     "term": "objections",
+     "meaning": "objeções"
+    },
+    {
+     "term": "bathe",
+     "meaning": "tomar banho"
+    },
+    {
+     "term": "borne",
+     "meaning": "suportado"
+    },
+    {
+     "term": "clinging",
+     "meaning": "agarrando-se"
+    },
+    {
+     "term": "hemlock",
+     "meaning": "cicuta"
+    },
+    {
+     "term": "debt",
+     "meaning": "dívida"
+    }
+   ]
+  }
+ ]
+}

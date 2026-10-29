@@ -1,0 +1,872 @@
+{
+ "id": "crime-punishment",
+ "title": "Crime and Punishment",
+ "author": "Fyodor Dostoevsky",
+ "year": 1866,
+ "module": 5,
+ "level": "C1",
+ "summary": "Em São Petersburgo, num verão sufocante, Raskólnikov, um ex-estudante pobre e orgulhoso, vive trancado num quarto minúsculo, alimentando uma teoria perigosa: a de que certos homens extraordinários teriam o direito de cometer um crime em nome de um bem maior. Quando decide pôr a ideia em prática, começa uma luta terrível com a própria consciência, observada de perto por um investigador astuto, por sua família e por Sônia, uma jovem humilde cheia de fé.",
+ "chapters": [
+  {
+   "title": "A Rehearsal",
+   "paragraphs": [
+    "On an exceptionally hot evening at the beginning of July, a young man came out of the tiny room he rented under the roof of a five-storey building in St. Petersburg and walked slowly towards the Kokushkin Bridge. He had managed to avoid his landlady on the stairs, as he always did. He owed her a great deal of money, and the thought of meeting her, of listening to her complaints and her threats, filled him with a kind of sick terror.",
+    "His name was Rodion Romanovich Raskolnikov. He was remarkably handsome, with fine dark eyes and brown hair, but he was so badly dressed that another man might have been ashamed to go out in such rags. He had been a student at the university until poverty forced him to give up his studies. For weeks now he had hardly eaten, hardly spoken to anyone, and spent his days lying on his sofa, thinking.",
+    "“I want to attempt a thing like that, and I am frightened by such trifles,” he said to himself with a strange smile. “Am I really capable of it? Is it serious? No, it is not serious at all. I am only amusing myself with fantasies. Toys! Yes, toys.”",
+    "The streets were full of dust and stinking with the heat. He walked through the crowds of drunken workmen and poor people around the Haymarket without seeing them, until he came to an enormous building full of small flats. He climbed a dark, narrow staircase to the fourth floor and rang a bell. The door opened a crack, and a pair of sharp, suspicious eyes looked out at him.",
+    "The woman who let him in was a tiny, dried-up old creature of about sixty, with a thin neck like a chicken's leg. This was Alyona Ivanovna, the pawnbroker. Students and poor clerks brought her their watches and rings, and she lent them small sums of money at a monstrous rate of interest. Everyone knew that she was rich and that she was cruel.",
+    "“I've brought something to pawn,” said Raskolnikov, and he took out an old silver watch. “It was my father's.”",
+    "She examined it with contempt. “I'll give you a rouble and a half for it, and I'll take the interest in advance.”",
+    "“A rouble and a half! That's nothing!”",
+    "“Take it or leave it.”",
+    "He took it. But while she was looking for the money in another room, he listened carefully, and he noticed that she kept her keys in her right pocket and opened a chest of drawers in the bedroom. He studied the room, the yellow wallpaper, the geraniums in the window, the cheap furniture, the tiny lamp before the holy picture in the corner. He was memorising everything. When he left, he went down the stairs in a state of agitation so intense that he had to stop and lean against the wall.",
+    "“Oh God, how disgusting it all is!” he thought. “And can I really, can I possibly… No, it is nonsense. And yet for a whole month…”",
+    "Without knowing why, he went into a cheap tavern in the basement of a house. It was dark and dirty, and it smelled of spilt beer. He drank a glass of beer, and immediately he felt a little better. In the corner sat a man of about fifty who had been watching him. He was a retired government clerk, with a swollen yellow face and small red eyes, and he was very drunk. At last he came over and sat down beside Raskolnikov.",
+    "“Allow me, honoured sir, to speak with you,” he said grandly. “My name is Marmeladov. I see that you are an educated man. Poverty is not a vice, sir. That is true. But beggary, sir, beggary is a vice. In poverty you may still keep your pride, but in beggary nobody keeps it.”",
+    "And he told his story, while the other drinkers laughed at him. He had lost his job because of drink. His wife, Katerina Ivanovna, was a proud, sick woman with three little children from her first marriage, and they were starving. And so his own daughter, Sonya, a gentle girl of eighteen, had gone out onto the streets to earn money with her body, so that the family could eat.",
+    "“And I drink it, sir!” he cried. “She brought me thirty kopecks today, her last money, and I am drinking it. Who will pity a man like me? But God will pity us. On the Last Day, He will say: ‘Come forth, ye drunkards! Come forth, ye weak ones!’ And He will receive us.”",
+    "Raskolnikov took him home. In a poor, smoky room, a thin woman with red patches on her cheeks seized her husband by the hair and dragged him across the floor while the children cried. As Raskolnikov left, he quietly put some coins on the window sill. Then, on the stairs, he regretted it. “What a fool I am! They have Sonya, after all. Well, a man gets used to anything. What a scoundrel man is!”"
+   ],
+   "glossary": [
+    {
+     "term": "landlady",
+     "meaning": "senhoria, dona da pensão"
+    },
+    {
+     "term": "rags",
+     "meaning": "trapos"
+    },
+    {
+     "term": "trifles",
+     "meaning": "ninharias, coisas sem importância"
+    },
+    {
+     "term": "pawnbroker",
+     "meaning": "agiota de penhores"
+    },
+    {
+     "term": "contempt",
+     "meaning": "desprezo"
+    },
+    {
+     "term": "tavern",
+     "meaning": "taverna"
+    },
+    {
+     "term": "beggary",
+     "meaning": "mendicância, miséria total"
+    },
+    {
+     "term": "scoundrel",
+     "meaning": "canalha"
+    }
+   ]
+  },
+  {
+   "title": "The Letter from Home",
+   "paragraphs": [
+    "The next morning Nastasya, the landlady's servant, woke him late. She brought him some tea and a letter. “From your mother,” she said. “It came yesterday.” He waited until she had gone, then kissed the envelope and opened it with trembling hands.",
+    "His mother, Pulkheria Alexandrovna, wrote from their little town in the provinces. She wrote that she loved him, that she prayed for him every day, and that she was sending him thirty-five roubles, though she could hardly afford it. Then she came to the real news.",
+    "His sister, Dunya, had been working as a governess in the house of a rich landowner called Svidrigailov. This Svidrigailov, a man of bad character, had fallen in love with her and made her shameful offers. His wife, Marfa Petrovna, had overheard part of it and believed that Dunya was to blame. She had thrown the girl out of the house and told the whole town that she was a wicked creature. For weeks Dunya and her mother had been unable to show their faces in church. Then Marfa Petrovna had found a letter in which Dunya had refused Svidrigailov with noble indignation, and she had gone from house to house reading it aloud and praising Dunya's virtue.",
+    "And now a suitor had appeared. He was Pyotr Petrovich Luzhin, a lawyer of forty-five, a businessman with a good position, who was about to open an office in St. Petersburg. He seemed a little proud, his mother admitted, and rather dry, but he was respectable. He had said that he wished to marry a poor, honest girl who had known hardship, because a wife should feel grateful to her husband for everything. Dunya had accepted him. And best of all, Luzhin might be able to help Rodya with his career. They were coming to St. Petersburg very soon.",
+    "Raskolnikov's face was wet with tears when he finished reading, but then it twisted into a bitter smile. He put on his hat and went out, and he walked through the streets talking to himself like a madman.",
+    "“It shall not be! I will not allow it, as long as I live! Dunya is not marrying this Luzhin for herself. She is selling herself for me, for her brother, so that I can finish my studies and become somebody. It is just like Sonya Marmeladov! Sonya sells her body, and my sister sells her soul. And Mother knows it, and she pretends not to. Well, I refuse to accept this sacrifice!”",
+    "But then a cold voice inside him asked: “And how will you stop it? What can you offer them instead? You are a beggar yourself. In ten years, perhaps, if you work, you may be able to help them. And by then your mother will be dead, and your sister will be ruined. You must do something now, at once.”",
+    "He felt that the thought which had tormented him for a month had come back to him, and that it was no longer a dream but something real and terrible.",
+    "That afternoon, exhausted, he lay down on the grass on one of the islands outside the city and fell asleep. He dreamed that he was a little boy again, walking with his father past a tavern in his home town. A crowd of drunken peasants came out, and one of them, Mikolka, climbed into a cart pulled by a poor, thin old mare. “Get in, all of you! I'll make her gallop!” But the mare was too weak to pull them, and Mikolka began to beat her with a whip, then with a stick, then with an iron bar, while the crowd laughed and shouted. The little boy ran to the dying horse, threw his arms round her bleeding head and kissed her eyes, crying with horror.",
+    "Raskolnikov woke up covered in sweat. “Good God!” he cried. “Can it be, can it really be, that I shall take an axe and strike her on the head and split her skull? That I shall slip in the warm, sticky blood? No, I cannot do it. I knew it all along. Lord, show me my path, and I will give up this cursed dream of mine!”",
+    "He felt free, as if he had been released from a terrible spell. He walked back towards the city in peace. But instead of going home by the shortest way, for some reason he could never explain, he took a long road through the Haymarket.",
+    "There, beside a stall, he saw Lizaveta, the pawnbroker's younger sister. She was a tall, timid, simple woman who did all the work in her sister's house and was treated by her like a slave. A man and his wife were talking to her.",
+    "“Come to us tomorrow at about seven, Lizaveta,” they said. “We have some goods to sell, and you will get a good price.”",
+    "“Tomorrow?” said Lizaveta slowly. “At seven? Very well, I will come.”",
+    "Raskolnikov walked on, and he felt as if he had been sentenced to death. Tomorrow at seven o'clock the old woman would be alone in the flat. He had not planned it. It had simply been given to him. He went home and lay down, and he felt that he no longer had any freedom of reason or of will, and that everything had been suddenly and finally decided."
+   ],
+   "glossary": [
+    {
+     "term": "governess",
+     "meaning": "governanta, preceptora"
+    },
+    {
+     "term": "indignation",
+     "meaning": "indignação"
+    },
+    {
+     "term": "suitor",
+     "meaning": "pretendente"
+    },
+    {
+     "term": "hardship",
+     "meaning": "dificuldade, privação"
+    },
+    {
+     "term": "mare",
+     "meaning": "égua"
+    },
+    {
+     "term": "skull",
+     "meaning": "crânio"
+    },
+    {
+     "term": "spell",
+     "meaning": "feitiço, encanto"
+    },
+    {
+     "term": "timid",
+     "meaning": "tímida"
+    }
+   ]
+  },
+  {
+   "title": "The Axe",
+   "paragraphs": [
+    "He slept heavily all the next day, and when he woke it was already past six. He jumped up in a panic and began his preparations. He tore a strip from an old shirt and sewed it inside his coat, under the left arm, to make a loop for the axe. Then he took out the false pledge he had prepared some days before: a flat piece of wood with a strip of iron, wrapped carefully in white paper and tied with a ribbon in a complicated knot. It was meant to look like a silver cigarette case, and it would keep the old woman busy for a few seconds while she untied it.",
+    "He had meant to take the axe from the kitchen, but when he went down, Nastasya was there, hanging up washing. Everything was lost, he thought, and he walked out into the yard in a fury. But as he passed the porter's little room, he saw that the door was open and the room was empty. Under a bench, something was shining. It was an axe. He took it, slipped it into the loop under his coat, and walked out into the street. “When reason fails, the devil helps,” he thought with a strange smile.",
+    "He walked slowly, so as not to attract attention. As he came near the house, he heard a clock strike seven. He went in through the gate, just behind a cart full of hay that hid him from the porter, and climbed the stairs. On the second floor the door of an empty flat was open, and two painters were working inside. On the fourth floor he stopped in front of the old woman's door and listened. Then he rang.",
+    "There was no answer. He rang again, and then he heard, through the door, the careful movement of someone standing on the other side, listening as he was listening. At last the bolt was drawn back, and the door opened a crack.",
+    "“Good evening, Alyona Ivanovna,” he said, pushing the door wide and stepping in. “I've brought you something. A cigarette case, silver.”",
+    "She looked at him with suspicion, but she took the packet and went to the window to untie it. “What is this? How tightly he has tied it!”",
+    "He did not lose a second. He pulled out the axe, raised it with both hands, and, hardly knowing what he was doing, brought the blunt side of it down on her head. She cried out very faintly and fell to the floor. He struck her again and again with all his strength. Then he stepped back. She was dead.",
+    "His hands were shaking terribly. He took the keys from her pocket and went into the bedroom, and he wasted precious minutes trying the wrong keys in the chest of drawers. Under the bed he found a trunk full of clothes, and among them gold bracelets, chains and earrings. He began to fill his pockets with them, without even looking.",
+    "Suddenly he heard footsteps in the next room. He seized the axe and ran out. Lizaveta was standing in the middle of the room, with a large bundle in her arms, staring at the body of her sister. She was as white as a sheet. When she saw him, she did not even scream. She only raised her hand, slowly, like a child who is frightened, as if to push him away. He rushed at her with the axe, and she fell.",
+    "Now terror took hold of him completely. He found a bucket of water in the kitchen and washed his hands and the axe, and he wiped the blood from his clothes as well as he could. Then he saw with horror that the front door was standing open. Lizaveta had come in that way. He ran to it and bolted it, and at that very moment he heard steps on the stairs.",
+    "Two men stopped outside and rang the bell. Then they pulled at the door handle, and he saw the bolt move. He stood a foot away, holding the axe, unable to breathe.",
+    "“What's happened to them? The old woman never goes out,” said one. “And look, the door is bolted from inside! They're there, and they're not opening. Something is wrong. Let's fetch the porter.”",
+    "One of them ran down the stairs, and after a minute the other followed. Raskolnikov opened the door and went down after them. On the second floor he heard them coming back up with the porter. He was trapped. But the flat where the painters had been working was now empty and open. He slipped inside and stood behind the door while the men passed on their way up. Then he ran down the stairs and out through the gate into the street.",
+    "He did not remember how he got home. He put the axe back under the bench in the porter's room, which was empty again, and climbed the stairs to his room. Then he threw himself on the sofa in his clothes, and lay there, half conscious, until morning."
+   ],
+   "glossary": [
+    {
+     "term": "loop",
+     "meaning": "alça, laço"
+    },
+    {
+     "term": "pledge",
+     "meaning": "penhor, objeto penhorado"
+    },
+    {
+     "term": "porter's",
+     "meaning": "do porteiro"
+    },
+    {
+     "term": "bolt",
+     "meaning": "ferrolho, trinco"
+    },
+    {
+     "term": "blunt",
+     "meaning": "cego, não afiado"
+    },
+    {
+     "term": "trunk",
+     "meaning": "baú"
+    },
+    {
+     "term": "bucket",
+     "meaning": "balde"
+    },
+    {
+     "term": "fetch",
+     "meaning": "buscar"
+    }
+   ]
+  },
+  {
+   "title": "The Summons",
+   "paragraphs": [
+    "He woke at two in the morning, shaking with cold, and suddenly he remembered everything. He jumped up and examined his clothes in the grey light from the window. There were spots of blood on the edge of his trousers, and the inside of one pocket was stained. He cut away the fringe of his trousers and tore out the pocket. The jewels were still in his pockets; he pushed them into a hole behind the wallpaper. Then he lay down again, and fever and sleep came over him in waves.",
+    "At ten o'clock there was a loud knock. It was Nastasya, with the porter behind her. “A paper from the police,” said the porter. “You are summoned to the office.”",
+    "Raskolnikov went cold. “It's the end,” he thought. “They know.” But there was nothing to do except go. He walked through the burning streets, half delirious, thinking: “If they ask me, perhaps I shall tell them everything. I'll go in, fall on my knees and confess.”",
+    "The police office was crowded, hot and noisy. A clerk looked at his paper and told him it was about a debt. His landlady had demanded the money he owed her, a hundred and fifteen roubles, and had given the bill to the police. It was nothing more than that. Raskolnikov felt such relief that he almost laughed aloud.",
+    "But the assistant superintendent, Ilya Petrovich, a fiery officer whom everybody called the Explosive Lieutenant, began to shout at him for being rude. Raskolnikov, in a strange, excited state, started to explain at length about his poverty, his studies, and his landlady's dead daughter, to whom he had once been engaged. The clerk calmly made him sign a paper promising to pay.",
+    "He was about to leave when he heard the officers talking at the next table.",
+    "“…the old woman and her sister, both killed with an axe, in broad daylight. And the two men who found the door bolted swear it was locked from inside when they first came. Then, when they came back with the porter, it was open! The murderer must have been inside, and slipped out while they were going down.”",
+    "Raskolnikov stood up, took a step towards the door, and fell to the floor in a faint. When he opened his eyes, the officers were standing round him, and someone was holding a glass of water to his lips.",
+    "“What is the matter with you? Are you ill?” asked the chief, Nikodim Fomich, kindly.",
+    "“Yes, I have been ill for some days.”",
+    "“Did you go out yesterday?” asked Ilya Petrovich, looking at him closely.",
+    "“Yes.”",
+    "“Even though you were ill? At what time?”",
+    "“About seven in the evening.”",
+    "“And where did you go?”",
+    "“Along the street.”",
+    "They let him go. But as he went down the stairs, he felt certain that they suspected him, and that they would search his room at once. He hurried home, took the jewels and the purse from behind the wallpaper, stuffed them into his pockets, and went out again.",
+    "At first he thought of throwing them into the canal, but there were people everywhere. At last he came to a quiet courtyard with high blank walls, where a large stone lay against a fence. He lifted the stone, pushed everything underneath it, and put the stone back. He had not even looked inside the purse. He had not counted the money. He did not know what he had stolen.",
+    "“Why did I do it, then?” he asked himself, standing in the street. “If I really did this for money, why have I not even looked at it? Why do I not care?” And suddenly he felt a hatred so violent for everything around him, for the people in the street, for the houses, for the very sky, that it frightened him.",
+    "He found himself at the door of his old university friend, Dmitri Prokofyich Razumikhin, a big, noisy, kind-hearted young man who earned his living by translating and teaching. Razumikhin was delighted to see him, but shocked at his appearance.",
+    "“Rodya! You look terrible. You're ill. Listen, I have some translation work, German. Take half of it, and half the money. You need it.”",
+    "Raskolnikov took the papers, stood for a moment, then laid them on the table and walked out without a word.",
+    "“Have you gone mad?” shouted Razumikhin after him.",
+    "He came home in the evening and fell on his sofa. That night he heard terrible screams on the stairs, and he dreamed that Ilya Petrovich was beating his landlady. Then he heard nothing more. He lay in fever, for how long he did not know."
+   ],
+   "glossary": [
+    {
+     "term": "stained",
+     "meaning": "manchado"
+    },
+    {
+     "term": "summoned",
+     "meaning": "intimado, convocado"
+    },
+    {
+     "term": "confess",
+     "meaning": "confessar"
+    },
+    {
+     "term": "relief",
+     "meaning": "alívio"
+    },
+    {
+     "term": "fiery",
+     "meaning": "explosivo, esquentado"
+    },
+    {
+     "term": "faint",
+     "meaning": "desmaio"
+    },
+    {
+     "term": "courtyard",
+     "meaning": "pátio"
+    },
+    {
+     "term": "earned his living",
+     "meaning": "ganhava a vida"
+    }
+   ]
+  },
+  {
+   "title": "Fever",
+   "paragraphs": [
+    "When he came to his senses, it was morning, and Razumikhin was sitting beside him. Nastasya stood at the door with a bowl of soup.",
+    "“At last!” cried Razumikhin. “You have been lying here for four days, brother, talking nonsense. I found your address and came every day. I've paid some of your debt to the landlady, and I've bought you some clothes with the money your mother sent. Zossimov, the doctor, has been here too.”",
+    "“What did I say when I was delirious?” asked Raskolnikov quickly.",
+    "“Oh, all sorts of things. You talked about earrings and chains, and about some porter, and you kept asking for the fringe of your trousers. Zametov from the police office came with me once and was very interested in your sock, which you held on to as if it were treasure. Don't worry, brother. Nobody thinks anything of it.”",
+    "Raskolnikov turned his face to the wall.",
+    "That afternoon Zossimov came, a fat, comfortable young doctor, and with him Zametov. They began to talk about the murder of the pawnbroker. A painter called Nikolai, one of the two men who had been working in the empty flat, had been arrested. He had tried to sell a pair of gold earrings from the old woman's box to a tavern keeper, and when he heard he was suspected, he had tried to hang himself.",
+    "“But he didn't do it!” cried Razumikhin hotly. “He's just a simple peasant boy. He says he found the earrings on the floor of the empty flat behind the door. The murderer must have dropped them there while he was hiding, when the others went up the stairs. It's as clear as day. And the police are fools.”",
+    "Raskolnikov lay without moving, but his heart was pounding.",
+    "Then the door opened, and a stranger came in: a stout, middle-aged gentleman, very carefully dressed, with an air of injured dignity. He looked around the dirty little room with obvious disgust.",
+    "“I am Pyotr Petrovich Luzhin,” he announced. “I imagine you have heard of me from your mother.”",
+    "Raskolnikov looked at him with burning eyes and said nothing. Luzhin, a little uncomfortable, began to talk about progress, about modern ideas, about the new economic science. “In the past we were told to love our neighbour, and to share our coat with him. But if I tear my coat in two, we are both left half naked. Science tells us: love yourself first, because everything in the world rests on self-interest. If I make myself rich, society becomes richer too.”",
+    "“Carry that idea to its logical end,” said Raskolnikov suddenly, “and it means that people may be killed.”",
+    "Luzhin flushed. “Every idea can be taken too far.”",
+    "“And is it true,” Raskolnikov went on, raising himself on his elbow, “that you told my sister you were glad she was poor, because a wife should owe everything to her husband?”",
+    "“That is a lie! Your mother must have misunderstood—”",
+    "“If you ever dare to speak another word about my mother, I will throw you down the stairs! Get out!”",
+    "Luzhin left, pale with fury. Raskolnikov, as soon as he was alone, got up, dressed in his new clothes and slipped out of the house. He wandered through the streets until he found himself in a café called the Crystal Palace. There he asked for the newspapers, and he was reading about the murder when Zametov sat down beside him.",
+    "“Reading about the old woman?” said Zametov with a smile.",
+    "Raskolnikov leaned towards him and whispered, with a strange look on his face: “And what if it was I who killed the old woman and Lizaveta?” He watched Zametov's face turn pale, and then he burst out laughing. “You believed me for a second, didn't you? Ha! I can see it in your eyes. Now tell me, if you were the murderer, what would you have done with the things? I know what I would have done. I would have found a stone in some lonely courtyard, and hidden them underneath, and left them there for a year or two.”",
+    "“You are mad,” said Zametov, but he was looking at Raskolnikov very strangely.",
+    "Raskolnikov left the café trembling. Without knowing why, he walked to the house of the murder, climbed the stairs, and found the workmen repainting the flat. He rang the bell, once, twice, and listened to it with a strange, sick pleasure. “Who are you? What do you want?” asked the workmen. “I've come to see the flat,” he said. “Where is the blood?” They threw him out, and he walked away laughing."
+   ],
+   "glossary": [
+    {
+     "term": "came to his senses",
+     "meaning": "recobrou os sentidos"
+    },
+    {
+     "term": "pounding",
+     "meaning": "batendo forte"
+    },
+    {
+     "term": "injured dignity",
+     "meaning": "dignidade ferida"
+    },
+    {
+     "term": "disgust",
+     "meaning": "nojo, repulsa"
+    },
+    {
+     "term": "self-interest",
+     "meaning": "interesse próprio"
+    },
+    {
+     "term": "flushed",
+     "meaning": "ficou vermelho, corou"
+    },
+    {
+     "term": "wandered",
+     "meaning": "vagou, perambulou"
+    }
+   ]
+  },
+  {
+   "title": "Marmeladov's Death",
+   "paragraphs": [
+    "It was already dark when he came to a crowd in the middle of a street. A fine carriage had stopped, and the coachman was shouting that it was not his fault. On the ground, in the mud, lay a man in torn, dirty clothes, covered with blood. Raskolnikov pushed his way through and recognised him. It was Marmeladov, the drunken clerk from the tavern.",
+    "“I know him!” he cried. “He lives near here. Bring him home, quickly, and fetch a doctor. I'll pay!”",
+    "They carried the dying man to his family's room. Katerina Ivanovna was walking up and down, coughing, while the youngest children slept and the eldest girl, Polenka, a thin child of ten, was washing clothes. When she saw her husband, Katerina Ivanovna gave a cry, but she did not lose her head. She laid him on the bed, sent Polenka running for Sonya, and began to wash the blood from his face.",
+    "The doctor came, examined Marmeladov, and shook his head. There was nothing to be done. A priest was sent for. As the priest finished his prayers, a girl came in through the crowd of neighbours at the door. She was dressed in cheap, bright clothes, with a ridiculous hat with a flaming feather, and she stood in the doorway, ashamed, not daring to come in. It was Sonya.",
+    "Marmeladov saw her. He tried to sit up, stretching his hand towards her. “Sonya! Daughter! Forgive me!” He fell from the bed, and she ran and caught him in her arms. He died there, with his head on her shoulder.",
+    "“What shall I do now?” said Katerina Ivanovna, looking around wildly. “How shall I bury him? How shall I feed them?”",
+    "Raskolnikov went up to her. “Katerina Ivanovna, I was a friend of your husband's. Allow me to help you.” He put twenty roubles into her hand, all the money he had left from his mother's gift, and went out quickly.",
+    "On the stairs he heard running footsteps behind him. It was Polenka. “Wait! Please! What is your name? Where do you live?”",
+    "He put his hands on her thin shoulders and looked at her with a kind of happiness. “Do you love your sister Sonya, Polenka?”",
+    "“I love her more than anyone!”",
+    "“And will you pray for me? Say: and Thy servant Rodion. That is all.”",
+    "She threw her arms round his neck and kissed him, and he went down into the street with a light heart. “Enough!” he said to himself solemnly. “Away with phantoms, away with imaginary fears! Life is real! Have I not lived just now? My life has not died with that old woman. Now we shall see!” He felt as if he were a man who had been condemned to death and had suddenly been pardoned.",
+    "He went to Razumikhin's lodgings, where a party was going on, and Razumikhin walked home with him. As they came up the stairs, they saw a light in his room. They opened the door. His mother and his sister were sitting on the sofa, waiting for him. They had arrived in St. Petersburg that afternoon and had been sitting there for an hour and a half.",
+    "They rushed towards him with cries of joy. But he stood as if he had been turned to stone. He could not bear their embraces. He could not even raise his arms. A sudden, unbearable feeling struck him like a blow, and he fell to the floor in a faint.",
+    "When he recovered, Razumikhin was already calming the two women, explaining that he had been ill but was getting better.",
+    "“Mother, Dunya,” said Raskolnikov weakly, “I have one thing to say. Dunya, I don't want you to marry Luzhin. He came here today, and I threw him out. Tomorrow you will refuse him. I will not accept this sacrifice. Either I or Luzhin. Choose.”",
+    "“Rodya,” said Dunya, “you are ill. We will talk tomorrow.”",
+    "“No! Promise me now!”",
+    "She looked at him steadily. She was very like him, tall and proud, with the same dark eyes. “I am not marrying him for you,” she said. “I am marrying him for myself.”",
+    "Razumikhin took the ladies back to their lodgings. He had drunk too much at his party, and he walked beside Dunya talking without stopping, praising her brother, kissing her mother's hands, and swearing that he would protect them all. By the time he said goodnight at their door, he was hopelessly in love with Dunya."
+   ],
+   "glossary": [
+    {
+     "term": "coachman",
+     "meaning": "cocheiro"
+    },
+    {
+     "term": "lose her head",
+     "meaning": "perder a cabeça"
+    },
+    {
+     "term": "flaming",
+     "meaning": "chamativo, flamejante"
+    },
+    {
+     "term": "bury",
+     "meaning": "enterrar"
+    },
+    {
+     "term": "solemnly",
+     "meaning": "solenemente"
+    },
+    {
+     "term": "pardoned",
+     "meaning": "perdoado, indultado"
+    },
+    {
+     "term": "unbearable",
+     "meaning": "insuportável"
+    },
+    {
+     "term": "hopelessly",
+     "meaning": "perdidamente"
+    }
+   ]
+  },
+  {
+   "title": "Porfiry Petrovich",
+   "paragraphs": [
+    "The next morning, while his mother and sister were visiting him, there was a timid knock at the door, and Sonya Marmeladov came in. She was wearing a plain, modest dress now, and she looked like a frightened young girl. She had come to invite him to her father's funeral and to the meal that Katerina Ivanovna was giving afterwards.",
+    "Raskolnikov introduced her to his mother and sister, and made her sit down beside them. His mother was embarrassed, because she knew what Sonya was. But when Sonya left, Dunya bowed to her politely and seriously, and Sonya went away in confusion, as if no one had ever bowed to her before.",
+    "Raskolnikov had other worries. His mother had mentioned that he had pawned some things with the old woman: his father's watch, and a ring that Dunya had given him. “All the people who left things with her are being questioned,” he thought. “If I don't go to the police myself, it will look strange.” Razumikhin told him that the examining magistrate in charge of the case was a relative of his, Porfiry Petrovich, and offered to take him there.",
+    "Porfiry Petrovich was a man of thirty-five, short and fat, with a round, clean-shaven face, a large head, and a pair of watery eyes that blinked constantly, as if he were winking. He received them in his own apartment, laughing, offering cigarettes, and talking about everything and nothing. But Raskolnikov felt that those blinking eyes were watching every movement he made.",
+    "“Your things are quite safe,” said Porfiry. “I remember them. A watch and a ring, wrapped in paper with your name on it in pencil. In fact, I was expecting you. All the others have already come.”",
+    "The conversation turned to crime. Razumikhin argued loudly that crime was only a result of poverty and bad social conditions. Then Porfiry smiled.",
+    "“By the way, Rodion Romanovich, I read an article of yours. ‘On Crime.’ It appeared two months ago in a journal called ‘Periodical Speech.’”",
+    "Raskolnikov was astonished. He had written it six months before, and he had never known it had been published.",
+    "“A very original article,” Porfiry went on. “If I understand it correctly, you divide people into two classes, the ordinary and the extraordinary. The ordinary must live in obedience and have no right to break the law, because they are ordinary. But the extraordinary have the right to commit any crime, because they are extraordinary. Is that it?”",
+    "“Not quite,” said Raskolnikov. “I only suggested that an extraordinary man has an inner right to step over certain obstacles, if his idea demands it, if his idea is good for all humanity. If Newton's discoveries could only have been given to the world by killing a dozen people who stood in the way, Newton would have had the right, even the duty, to remove those twelve people. All the great men, the lawgivers, Lycurgus, Mahomet, Napoleon, were criminals, because they broke the old laws and shed blood to make new ones.”",
+    "“And how do we tell the extraordinary man from the ordinary one? Do they have special marks on their bodies? Because if an ordinary man imagines that he is extraordinary, and begins to remove obstacles…”",
+    "“That happens very often,” said Raskolnikov coldly. “But it is not dangerous. Such men always punish themselves, because they are basically obedient.”",
+    "“One more question. Do you believe in God?”",
+    "“I do.”",
+    "“And in the raising of Lazarus?”",
+    "“I do. Why do you ask?”",
+    "“Oh, just curiosity. And tell me, when you wrote your article, did you not consider yourself, just a little, one of the extraordinary ones? A new Napoleon?”",
+    "“Perhaps I did.”",
+    "“Then who killed the old woman, eh? Some future Napoleon, perhaps?” Porfiry laughed and blinked. Then, as they were leaving, he added: “Oh, one little thing. When you visited the old woman's flat, on your last visit, did you happen to see two painters working on the second floor?”",
+    "Raskolnikov understood the trap. The painters had been working only on the day of the murder. “No,” he said slowly. “I did not see any painters.”",
+    "“Ah, yes, of course, how stupid of me. I am mixing up the days.”",
+    "When Raskolnikov reached home, an old tradesman in a long coat was standing by the gate, asking the porter about him. Raskolnikov went up to him. “Were you looking for me?”",
+    "The man looked at him with heavy, gloomy eyes. Then he said one word, quietly but very clearly: “Murderer.” And he turned and walked away."
+   ],
+   "glossary": [
+    {
+     "term": "examining magistrate",
+     "meaning": "juiz de instrução"
+    },
+    {
+     "term": "blinked",
+     "meaning": "piscava"
+    },
+    {
+     "term": "obedience",
+     "meaning": "obediência"
+    },
+    {
+     "term": "step over",
+     "meaning": "passar por cima de"
+    },
+    {
+     "term": "lawgivers",
+     "meaning": "legisladores"
+    },
+    {
+     "term": "shed",
+     "meaning": "derramaram"
+    },
+    {
+     "term": "tradesman",
+     "meaning": "comerciante, artesão"
+    },
+    {
+     "term": "gloomy",
+     "meaning": "sombrios"
+    }
+   ]
+  },
+  {
+   "title": "Luzhin Dismissed",
+   "paragraphs": [
+    "That night Raskolnikov dreamed that he went back to the old woman's flat. She was sitting in a chair in the corner, with her head bowed. He took the axe and struck her again and again, but she did not fall. She was laughing, silently, shaking with laughter, and all around him in the doorway and on the stairs, people were watching, silent and waiting. He tried to scream, and woke up.",
+    "A stranger was sitting by his bed. He was a man of about fifty, broad-shouldered and well dressed, with a thick fair beard and a face that seemed almost like a mask, it was so calm and so youthful. His eyes were blue, and cold.",
+    "“Arkady Ivanovich Svidrigailov, at your service,” said the stranger with a polite smile.",
+    "Raskolnikov sat up. This was the man who had insulted his sister. “What do you want?”",
+    "“I wanted to make your acquaintance, and to ask a small favour. I know what you think of me. But consider: I was in love with your sister. Is that a crime? If I had been a handsome young man instead of an old married one, you would call it romance. My wife, Marfa Petrovna, died a few weeks ago, by the way, very suddenly. Some people say I had something to do with it. That is nonsense, of course. I struck her twice with a riding whip, nothing more.” He smiled. “She comes to visit me sometimes, you know. Her ghost. She came three times. Once she asked me what time it was. Do you believe in ghosts?”",
+    "“No,” said Raskolnikov, though he felt a chill.",
+    "“Perhaps ghosts are fragments of other worlds, which we can only see when we are ill. Never mind. I have come for this reason. Your sister must not marry Luzhin. He is a stingy, vulgar man, and she is making a terrible mistake. I want to give her ten thousand roubles, so that she can break with him. I ask nothing in return. I am going away soon, perhaps on a long journey. Also, Marfa Petrovna left her three thousand roubles in her will. You may tell her that.”",
+    "“I will tell her nothing from you. And you will not see her.”",
+    "“As you wish,” said Svidrigailov, standing up. “We shall meet again, I think. We are birds of a feather, you and I. There is something in common between us.” And he went out.",
+    "That evening the family met Luzhin at the rooms where Dunya and her mother were staying. Luzhin had written to say that he did not wish to see Rodion there, because he had been insulted. But Dunya had insisted that her brother should come, and Razumikhin came too.",
+    "Luzhin arrived late, offended and stiff. He began by complaining that Raskolnikov had given twenty-five roubles to a girl of notorious behaviour, the daughter of a drunkard, money that his poor mother had sent him with such difficulty.",
+    "“I gave it to her mother, a widow, for the funeral,” said Raskolnikov. “And the girl you speak of is worth ten of you.”",
+    "Luzhin turned to Dunya. “You see, Avdotya Romanovna? If your brother enters this room, I leave it. You must choose between us.”",
+    "Dunya's eyes flashed. “Pyotr Petrovich, I asked you to make peace with my brother. Instead, you attack him. You speak to me as if I were already your property. If you love me, you cannot ask me to choose between you and my family.”",
+    "“And you speak to me as if I were nothing,” said Luzhin, losing his temper completely. “I took you without a dowry, after all the scandal with Svidrigailov. I was ready to forget it, to raise you up. And this is my reward!”",
+    "There was a terrible silence.",
+    "“Pyotr Petrovich,” said Dunya, white with anger, “leave this room, and never come back.”",
+    "“You will regret this,” he said. “I will not ask a second time.”",
+    "“Get out!” roared Razumikhin, and Luzhin went down the stairs, trembling with rage. All the way home he could not believe it. He had been so sure of her. A poor, beautiful, educated girl who would owe him everything, and would worship him for it. He blamed Raskolnikov for everything, and he began to think of revenge.",
+    "Upstairs, the family was full of joy. Razumikhin was in heaven. He began to make plans for a publishing business with Dunya's money and his own work. Pulkheria Alexandrovna was crying with happiness. But in the middle of it all, Raskolnikov stood up.",
+    "“Mother, Dunya,” he said quietly, “I must leave you for a while. Don't come to me. Don't ask why. If I can, I will come to you. Razumikhin, take care of them.” And he went out, leaving them speechless.",
+    "Razumikhin ran after him and caught him on the stairs. The two young men stood in the half darkness and looked at each other for a long moment. Something passed between them, an idea, a hint, something terrible. Razumikhin went white. “Now do you understand?” said Raskolnikov, and he went down the stairs."
+   ],
+   "glossary": [
+    {
+     "term": "acquaintance",
+     "meaning": "conhecimento, amizade"
+    },
+    {
+     "term": "chill",
+     "meaning": "calafrio"
+    },
+    {
+     "term": "stingy",
+     "meaning": "sovina, mesquinho"
+    },
+    {
+     "term": "birds of a feather",
+     "meaning": "farinha do mesmo saco"
+    },
+    {
+     "term": "notorious",
+     "meaning": "de má fama"
+    },
+    {
+     "term": "dowry",
+     "meaning": "dote"
+    },
+    {
+     "term": "worship",
+     "meaning": "adorar, venerar"
+    },
+    {
+     "term": "speechless",
+     "meaning": "sem palavras"
+    }
+   ]
+  },
+  {
+   "title": "Sonya and Lazarus",
+   "paragraphs": [
+    "It was eleven o'clock at night when he climbed the stairs of the house by the canal where Sonya rented a room from a tailor called Kapernaumov. Her room was large but very low, with a strange shape, like a barn, and three windows looking onto the dark water. There was almost no furniture: a bed, a table, two chairs, a chest of drawers. The yellow wallpaper was dirty and torn.",
+    "Sonya was surprised and frightened to see him, but she lit a candle and asked him to sit down.",
+    "“I have come to you for the last time,” he said. “Perhaps I shall never see you again.” He looked around the miserable room. “Tell me, Sonya, what will happen to you? Katerina Ivanovna is dying. She coughs blood. What will happen to the children when she dies? And you, if you fall ill? Polenka will go the same way as you. She will go out on the streets too.”",
+    "“No! No! God will not allow it!” Sonya cried, as if he had stabbed her.",
+    "“But perhaps there is no God,” he said with a cruel pleasure.",
+    "Sonya looked at him in horror, and then she covered her face with her hands and wept bitterly. He watched her, and suddenly he bent down to the floor and kissed her foot.",
+    "“What are you doing? Why to me?” she whispered, turning pale.",
+    "“I did not bow down to you. I bowed down to all the suffering of humanity,” he said wildly, and he walked to the window. “Listen, Sonya. You are a great sinner, it's true. But your greatest sin is that you have destroyed yourself for nothing. Isn't that horrible? You live in this filth, which you hate, and at the same time you know that it is useless, that you are not saving anyone. Tell me, how can such shame and such holiness live together in one person? Why don't you just throw yourself into the canal and end it all?”",
+    "“And what would happen to them?” she said simply.",
+    "He understood then that she had thought of it many times, and that only the children held her back. “So you pray to God a great deal, Sonya?”",
+    "“What would I be without God?” she whispered, her eyes shining.",
+    "“And what does God do for you in return?”",
+    "“He does everything!”",
+    "On the chest of drawers lay a book. It was the New Testament in Russian, old and worn. “Where is the story of Lazarus?” he asked suddenly. “Read it to me.”",
+    "She hesitated. Then she took the book and found the place, and began to read in a trembling voice. It was the story of the man who had been dead for four days, and whom Jesus raised from the grave. As she read, her voice grew stronger. She was trembling with emotion, as if she herself were in the crowd, seeing the miracle with her own eyes. “Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live. Believest thou this?” Her voice rang out like a bell, and she looked at him as if she wanted him to believe it too.",
+    "When she came to the words “And he that was dead came forth,” she stopped, and closed the book.",
+    "The candle was burning low in the twisted candlestick, lighting dimly in that poor room the murderer and the harlot who had come together so strangely to read the eternal book. For five minutes neither of them spoke.",
+    "“I have left my family today,” he said at last. “My mother and sister. I shall not go to them again. I have only you now. Let us go together. We are both cursed, and we must go the same way.”",
+    "“Go where?” she asked, frightened.",
+    "“How do I know? I only know that it is the same road. You also have stepped over a line. You have destroyed a life. Your own. Tomorrow, if I come, I shall tell you who killed Lizaveta.”",
+    "She stared at him. “Do you know who killed her?”",
+    "“I know, and I will tell you. You alone.” He went out.",
+    "Sonya spent the whole night in fever and delirium. But there was something else she did not know. On the other side of the thin wall, in the empty room next to hers, a man had been sitting on a chair all evening, listening to every word. It was Svidrigailov, who had taken a room in the same house. When Raskolnikov left, he stayed there a while longer, and smiled thoughtfully. Then he quietly carried his chair to the door, so that tomorrow he would be more comfortable."
+   ],
+   "glossary": [
+    {
+     "term": "barn",
+     "meaning": "celeiro"
+    },
+    {
+     "term": "stabbed",
+     "meaning": "apunhalado, esfaqueado"
+    },
+    {
+     "term": "sinner",
+     "meaning": "pecador(a)"
+    },
+    {
+     "term": "filth",
+     "meaning": "imundície, sujeira"
+    },
+    {
+     "term": "holiness",
+     "meaning": "santidade"
+    },
+    {
+     "term": "worn",
+     "meaning": "gasto, surrado"
+    },
+    {
+     "term": "dimly",
+     "meaning": "fracamente, com pouca luz"
+    },
+    {
+     "term": "harlot",
+     "meaning": "prostituta (termo antigo)"
+    }
+   ]
+  },
+  {
+   "title": "Cat and Mouse",
+   "paragraphs": [
+    "The next morning Raskolnikov went to the police office and asked for Porfiry Petrovich. He had decided to attack first. He would demand his watch and ring formally, and see what the magistrate would do.",
+    "Porfiry received him in his office, all smiles and friendliness. He shook his hand warmly, offered him a chair, and then began to walk up and down the room, talking without stopping, about the weather, about his health, about the government. Raskolnikov waited, and his anger grew.",
+    "“You know, Rodion Romanovich,” said Porfiry at last, “I have a theory about criminals. Suppose I know that a certain gentleman is guilty. Why should I arrest him at once? If I put him in prison, I give him peace. He knows where he stands. He can think and defend himself. But if I leave him free, if I let him walk about, knowing that I know, that I am watching him day and night… then he begins to circle around me, like a moth around a candle. He cannot escape. Where would he go? He is not a peasant who can run into the forest. He will go round and round, closer and closer, until he flies straight into my mouth, and I swallow him. Very agreeable!”",
+    "Raskolnikov's lips were white. “Psychology,” he said. “But psychology is a knife that cuts both ways.”",
+    "“Exactly! And the cleverest criminals make the most mistakes. A man faints in a police office, for instance. Or he goes back to the scene of the crime and rings the bell, to hear it again.” Porfiry laughed and blinked. “Nature, my dear friend, nature always comes to help us poor detectives.”",
+    "Raskolnikov jumped up. “Porfiry Petrovich, I see clearly that you suspect me of the murder of that old woman and her sister. If you think you have the right to prosecute me, then arrest me. But I will not let you laugh in my face and torment me any longer!”",
+    "“Hush, hush, they will hear you!” Porfiry whispered, looking towards the door. “Calm yourself. Sit down, drink a little water. Why should I arrest you? You yourself say you are innocent.” Then he added with a strange smile: “I have a little surprise for you, behind that door. Would you like to see it?”",
+    "“You are lying! Show me your surprise! Call your witnesses!”",
+    "At that moment there was a noise outside. The door burst open, and a young man in workman's clothes rushed into the room, with a guard trying to hold him back. It was Nikolai, the painter, pale and wild-eyed. He fell on his knees in the middle of the floor.",
+    "“I am guilty!” he cried. “It was I who killed the old woman and her sister Lizaveta. With an axe. I did it alone!”",
+    "Porfiry stood frozen. For a second his face showed pure astonishment. Then he recovered, and he began to question the young man rapidly. But Nikolai's answers were confused. He could not say clearly where the axe had come from, or how the door had been locked. Porfiry turned to Raskolnikov.",
+    "“You may go,” he said quickly. “We shall see each other again, of course.”",
+    "“Will you show me your little surprise now?” asked Raskolnikov mockingly at the door.",
+    "“You are a fine one to talk! Your lips are trembling. Goodbye, Rodion Romanovich, until we meet again!”",
+    "Raskolnikov went home in a whirl of thoughts. Why had Nikolai confessed? He did not understand it at all. When he reached his room, the door opened and the old tradesman who had called him a murderer came in. He bowed deeply.",
+    "“Forgive me, sir,” he said, “for my evil thoughts. I was at the house that evening, when you came to ring the bell. I heard you asking about the blood, and I thought it was you. I went to Porfiry Petrovich and told him. I was the surprise. I was sitting behind the door all that time. But now the painter has confessed, and I see that I was wrong. Forgive me.”",
+    "When the man had gone, Raskolnikov stood for a long time without moving. So that was the surprise: one witness, a man who had seen nothing except a madman ringing a bell. Porfiry had no real proof at all.",
+    "“Now we shall fight again,” he thought, and for the first time in many days he felt almost cheerful."
+   ],
+   "glossary": [
+    {
+     "term": "guilty",
+     "meaning": "culpado"
+    },
+    {
+     "term": "moth",
+     "meaning": "mariposa"
+    },
+    {
+     "term": "swallow",
+     "meaning": "engolir"
+    },
+    {
+     "term": "agreeable",
+     "meaning": "agradável"
+    },
+    {
+     "term": "prosecute",
+     "meaning": "processar"
+    },
+    {
+     "term": "hush",
+     "meaning": "silêncio, quieto"
+    },
+    {
+     "term": "mockingly",
+     "meaning": "zombeteiramente"
+    },
+    {
+     "term": "whirl",
+     "meaning": "turbilhão"
+    }
+   ]
+  },
+  {
+   "title": "Luzhin's Revenge",
+   "paragraphs": [
+    "Katerina Ivanovna had spent almost all of Raskolnikov's money on the funeral meal. She was a proud woman, and she wanted to show everyone, especially her German landlady, Amalia Ivanovna, that her family had once been respectable. But few of the guests she had invited came. Those who did were poor, shabby people from the building, who ate and drank and laughed at her. Raskolnikov came, and Katerina Ivanovna received him like a prince. Sonya sat beside her, nervous and silent, afraid of what her stepmother might say.",
+    "Luzhin was staying in the same building, in the room of a young man called Lebezyatnikov, who loved to talk about modern ideas, free love and the future of society. Luzhin had been invited to the meal, but he did not come. Instead, earlier that day, he had asked Sonya to come to his room. He spoke to her kindly about her poor family and gave her a ten-rouble note as a gift for the children. Sonya thanked him, blushing, and went away. Lebezyatnikov, who was in the room, thought this was very generous of him.",
+    "The meal was becoming a disaster. Katerina Ivanovna was flushed and coughing, and she was quarrelling with Amalia Ivanovna in front of all the guests, when the door opened and Luzhin appeared, very serious and dignified.",
+    "“Excuse me for interrupting,” he said. “I have come on an unpleasant matter. Sofya Semyonovna, a hundred-rouble note disappeared from my table this morning, immediately after you left my room. I am willing to forget the matter if you return it now. If you do not, I shall be forced to call the police.”",
+    "Sonya stared at him. “I took nothing from you,” she said. “You gave me ten roubles. Here it is. Take it back.”",
+    "“So you admit you were in my room. And the hundred roubles?”",
+    "Katerina Ivanovna jumped up like a tigress. “Sonya, a thief? She would give her last dress to anyone! Look, look, all of you!” And she began to turn out Sonya's pockets to show everyone that they were empty. From the second pocket a folded piece of paper fell to the floor. Luzhin picked it up and opened it. It was a hundred-rouble note.",
+    "There was a cry from the guests. Sonya stood as if she had been struck, unable to speak. Then Katerina Ivanovna threw her arms around her and screamed, “I don't believe it! I don't believe it!”",
+    "Then a voice spoke from the door. “What a low trick!” It was Lebezyatnikov, pale with indignation. “Mr. Luzhin, I saw you with my own eyes. When Sofya Semyonovna was leaving your room, you slipped something folded into her pocket. I thought at the time that you were being generous secretly, so as not to embarrass her. I was even moved by it. Now I see what you meant!”",
+    "Luzhin turned pale. “He is lying. Why should I do such a thing?”",
+    "“I can tell you why,” said Raskolnikov, stepping forward. He spoke calmly and clearly. “Yesterday this gentleman was engaged to my sister. He quarrelled with my family and was dismissed. He was angry because I had given money to Katerina Ivanovna, and because I had introduced Sofya Semyonovna to my mother and sister. If he could prove that she was a thief, he would prove that I had insulted my family by bringing such a girl to them. Then perhaps they would quarrel with me, and he could win my sister back. That is his whole plan.”",
+    "Everybody turned on Luzhin. Even the drunken guests shouted at him, and someone threw a glass. He took up his hat and left, muttering that he would go to law.",
+    "But the scandal was too much. Amalia Ivanovna, furious, ordered Katerina Ivanovna and her children to leave her house at once. Sonya, who had borne everything without a word, now broke down and ran out of the room, sobbing. Katerina Ivanovna, half mad with grief and fever, wrapped a shawl round her head, took the children and rushed into the street, crying that she would find justice somewhere in this world.",
+    "Raskolnikov stood in the empty, ruined room for a moment. Then he went out to find Sonya. He knew that the hour had come."
+   ],
+   "glossary": [
+    {
+     "term": "shabby",
+     "meaning": "maltrapilho, surrado"
+    },
+    {
+     "term": "stepmother",
+     "meaning": "madrasta"
+    },
+    {
+     "term": "blushing",
+     "meaning": "corando"
+    },
+    {
+     "term": "quarrelling",
+     "meaning": "brigando, discutindo"
+    },
+    {
+     "term": "tigress",
+     "meaning": "tigresa"
+    },
+    {
+     "term": "low trick",
+     "meaning": "truque baixo, golpe sujo"
+    },
+    {
+     "term": "muttering",
+     "meaning": "murmurando, resmungando"
+    },
+    {
+     "term": "borne",
+     "meaning": "suportado"
+    }
+   ]
+  },
+  {
+   "title": "The Confession",
+   "paragraphs": [
+    "Sonya was sitting at her table in the dark when he came in. She looked up at him with tired, frightened eyes.",
+    "“Thank you for defending me,” she said. “If you had not been there…”",
+    "“Sonya,” he interrupted, “suppose you had known beforehand what Luzhin intended to do. Suppose it had been in your power to decide whether he should live and go on doing his evil deeds, or whether Katerina Ivanovna should die. Which would you choose? Who should live, Luzhin or Katerina Ivanovna?”",
+    "“Why do you ask such a question? It is not for me to decide. How can I judge who shall live and who shall not? It is God's will, not mine.”",
+    "He was silent for a long time. Then he looked at her with a face she had never seen before, a face full of pain and despair.",
+    "“I told you yesterday that I would tell you who killed Lizaveta,” he said. “Look at me. Can you not guess?”",
+    "She stared at his face. And suddenly, in his face, she seemed to see Lizaveta's face. She remembered how Lizaveta must have looked when the murderer came towards her with the axe: like a frightened child, putting out her hand to push him away. And now Sonya slowly raised her own hand, as Lizaveta had done, and moved away from him, with the same childish terror in her eyes.",
+    "“Have you guessed?” he whispered.",
+    "“Good God!” A terrible cry broke from her. She fell on the bed with her face in the pillow. But then she sprang up again, threw herself on her knees before him, and put her arms around him.",
+    "“What have you done? What have you done to yourself?” she cried in despair. “There is no one, no one in the whole world so unhappy as you!” And she wept as if her heart would break.",
+    "He had not expected this. He had expected horror, disgust, curses. But a feeling he had not known for a long time flooded his soul and softened it. Two tears rolled down his cheeks.",
+    "“So you won't leave me, Sonya?”",
+    "“No, never! I will follow you everywhere! Even to Siberia!” Then she drew back a little. “But why? Were you hungry? Was it to help your mother?”",
+    "“No, Sonya. It was not for money. I wanted to be a Napoleon. That is why I killed her. I wanted to know if I was a louse like everybody else, or a man. Whether I could step over the line or not. Whether I dared. I did not kill to help my mother, or to become a benefactor of humanity. I killed for myself, for myself alone. And then I realised that I was not a Napoleon. Napoleon would never have fainted in a police office. I am a louse, just like the rest. Did I kill the old woman? No. I killed myself, not her. I destroyed myself forever.”",
+    "“What must you do now? Tell me!”",
+    "“Do? Yes, you tell me, Sonya.”",
+    "Her eyes were suddenly shining. “Stand up. Go at once, this very minute, to the crossroads. Bow down, and first kiss the earth that you have defiled. Then bow down to all the world, to the four corners, and say aloud to everyone: ‘I am a murderer!’ Then God will send you life again. Will you go?”",
+    "“You mean penal servitude? Give myself up?”",
+    "“You must accept suffering, and redeem yourself by it. That is what you must do.”",
+    "“No, Sonya. I will not go to them. What have I done wrong in their eyes? They themselves destroy men by millions. I will not give myself up. Perhaps I am still a man and not a louse. I will fight a little longer.”",
+    "“But how can you live with this? How will you live?” she cried. And he had no answer.",
+    "Just then Lebezyatnikov knocked at the door with terrible news. Katerina Ivanovna had gone completely mad. She was in the street with the children, making them sing and dance for money, like street performers, while she banged on a frying pan. Sonya ran out, and Raskolnikov followed.",
+    "They found her by the canal, surrounded by a crowd. She was coughing blood, and she was screaming at the frightened children to dance. Suddenly she fell, and blood poured from her mouth. They carried her to Sonya's room, and there, after a few minutes, she died, crying, “Enough! It's time! They've worn out the poor horse!”",
+    "Then a calm voice spoke behind Raskolnikov. It was Svidrigailov. “I will pay for the funeral,” he said, “and I will put the three children into a good orphanage, with fifteen hundred roubles each in the bank. And Sofya Semyonovna will not need to go back to the streets.” He leaned towards Raskolnikov and smiled. “Why am I so generous? Because I am your neighbour, Rodion Romanovich. I live on the other side of that wall. And the wall is very thin. I heard everything.”"
+   ],
+   "glossary": [
+    {
+     "term": "beforehand",
+     "meaning": "de antemão"
+    },
+    {
+     "term": "deeds",
+     "meaning": "atos, ações"
+    },
+    {
+     "term": "despair",
+     "meaning": "desespero"
+    },
+    {
+     "term": "louse",
+     "meaning": "piolho (pessoa desprezível)"
+    },
+    {
+     "term": "defiled",
+     "meaning": "profanou, maculou"
+    },
+    {
+     "term": "penal servitude",
+     "meaning": "trabalhos forçados"
+    },
+    {
+     "term": "redeem",
+     "meaning": "redimir"
+    },
+    {
+     "term": "orphanage",
+     "meaning": "orfanato"
+    }
+   ]
+  },
+  {
+   "title": "The Last Visit of Porfiry",
+   "paragraphs": [
+    "For two days after Katerina Ivanovna's death, Raskolnikov lived as if in a fog. He went to the funeral services, he wandered the streets, he sat for hours on benches without knowing where he was. On the third morning, as he was about to go out, the door opened and Porfiry Petrovich came in.",
+    "“I have come to explain myself, Rodion Romanovich,” he said, sitting down and lighting a cigarette. “I owe you that. I tortured you the other day, and I am sorry for it. I am not a monster, you know.”",
+    "Raskolnikov said nothing. His heart was beating violently.",
+    "“You must have thought,” Porfiry went on, “that I suspected you from the beginning. It is true. I read your article, and I said to myself: this young man is capable of anything. Then you fainted at the police office. Then you went back to the flat and rang the bell and asked about the blood. That was not the act of an innocent man, my friend. It was the act of a sick conscience.”",
+    "“And Nikolai?” said Raskolnikov in a low voice. “He has confessed.”",
+    "“Nikolai!” Porfiry smiled sadly. “Nikolai is a child. He belongs to a strict old religious sect, and he believes that a man must accept suffering for the sake of his soul. When he was arrested, he decided that it was God's will that he should suffer, and so he confessed. But he cannot tell me how the door was locked, or where the money is. No, Rodion Romanovich, Nikolai did not do it.”",
+    "“Then who did?”",
+    "Porfiry leaned back and looked at him with a kind of pity. “Who killed them? You did, Rodion Romanovich. You killed them.”",
+    "Raskolnikov jumped up, then sat down again. His lips were trembling. “It was not I,” he whispered, like a frightened child caught in the act.",
+    "“It was you, and no one else. I have not come to arrest you. I have not enough proof yet, though I shall have it soon. I have come to give you advice. Go and confess. Give yourself up. If you confess before I arrest you, the court will treat it as a voluntary confession, and your sentence will be much shorter. Perhaps eight years instead of twenty. And you are young. You have your whole life in front of you.”",
+    "“Life!” said Raskolnikov bitterly. “What kind of life?”",
+    "“Don't despise life! You made up a theory, and you were ashamed when it broke down. But you are not a hopeless scoundrel. You did not kill for profit. You killed because of an idea, and you suffered for it. Now you must find another idea, or rather, you must stop living by ideas and simply live. Become a sun, and everyone will see you. Suffering is a great thing, Rodion Romanovich. Do not laugh at me. Nikolai is right in that, at least: there is an idea in suffering.”",
+    "“And if I run away?”",
+    "“You will not run away. A peasant runs away, but a man like you cannot live without your theories and your pride. Where would you go? You would come back. I give you a day or two. If you decide, by any chance, to put an end to yourself, please leave a short note saying where the money is hidden. It would be a kindness.” He stood up and took his cap. “Goodbye, Rodion Romanovich. And think about what I have said.”",
+    "When he had gone, Raskolnikov hurried out to find Svidrigailov. He did not know why. He felt that this man had some power over him, and that he must know what Svidrigailov intended to do with the secret he had overheard. He found him at last in a tavern by the river.",
+    "“Don't worry,” said Svidrigailov lazily, drinking his tea. “I am not going to the police. Why should I? I am not a moralist. I have my own interests. You think I am thinking about your sister, don't you? Well, perhaps I am. But I shall leave her alone, if she wishes it.”",
+    "“If you touch her, I will kill you.”",
+    "Svidrigailov smiled. “You have already killed one person, Rodion Romanovich. You know it is not so easy. Go home. I have business this evening.” And he paid for his tea and walked away along the embankment. Raskolnikov watched him go, and for some reason he did not follow."
+   ],
+   "glossary": [
+    {
+     "term": "fog",
+     "meaning": "névoa, neblina"
+    },
+    {
+     "term": "sect",
+     "meaning": "seita"
+    },
+    {
+     "term": "caught in the act",
+     "meaning": "pego em flagrante"
+    },
+    {
+     "term": "voluntary",
+     "meaning": "voluntária"
+    },
+    {
+     "term": "despise",
+     "meaning": "desprezar"
+    },
+    {
+     "term": "by any chance",
+     "meaning": "por acaso"
+    },
+    {
+     "term": "embankment",
+     "meaning": "cais, margem do rio"
+    }
+   ]
+  },
+  {
+   "title": "Svidrigailov's Last Night",
+   "paragraphs": [
+    "That same evening Dunya received a letter from Svidrigailov. He wrote that he knew a terrible secret about her brother, and that if she wished to save him, she must come to his rooms alone. Dunya was proud and brave, and she went.",
+    "Svidrigailov led her into a room and locked the door behind her. Then he told her everything he had heard through the wall: how her brother had killed the old pawnbroker and her sister with an axe, and how he had confessed it to Sonya. Dunya listened, white as death, and she did not cry out.",
+    "“It is not true,” she said at last. “It cannot be.”",
+    "“It is true. But do not despair. I can save him. I have money. I can get him a passport and send him abroad, to America. You and your mother can go with him. Everything depends on you, Avdotya Romanovna. One word from you, and he is saved.” He came closer, and his eyes were burning. “I love you. Say that you will be mine, and I will do anything.”",
+    "Dunya ran to the door. It was locked. “Open it at once!”",
+    "“I have lost the key,” he said softly. “There is no one in the house. You may scream, if you like. Nobody will hear you.”",
+    "Dunya took a small revolver from her pocket and pointed it at him. It was his own revolver; she had taken it from Marfa Petrovna's house long before, to defend herself from him. “Don't come near me, or I will shoot!”",
+    "He laughed and took a step towards her. She fired. The bullet grazed his head, and a thin line of blood ran down his temple. He wiped it with his handkerchief and took another step. “A wasp has stung me,” he said quietly. “Fire again. I will wait.” She fired again, but the revolver did not go off. He was very close now. She threw the revolver away.",
+    "“So you have thrown it away?” he said, and his voice had changed. He put his arm round her waist. She did not struggle. She only looked at him with her great dark eyes, pleading.",
+    "“Let me go,” she whispered.",
+    "“So you do not love me?” he asked very quietly. “And you could never love me? Never?”",
+    "“Never,” she said.",
+    "For a moment there was a terrible struggle in his soul. Then he let her go, took the key from his pocket and laid it on the table. “Take it,” he said, without looking at her. “Go. Quickly!”",
+    "She seized the key, opened the door and ran out. Svidrigailov stood by the window for a long time. Then he picked up the revolver, which still had one bullet, and put it in his pocket.",
+    "He spent the rest of the evening strangely. He went to Sonya and gave her three thousand roubles. “Raskolnikov has two roads,” he told her. “A bullet in the head, or Siberia. If he goes to Siberia, you will follow him. You will need money.” Then he went to the family of a young girl he was to marry, a child of sixteen, and gave them fifteen thousand roubles as a present for her, and left without explanation.",
+    "It was raining heavily. He took a room in a cheap, dirty hotel and lay down without undressing, but he could not sleep. He heard mice running over the floor. He had terrible dreams: of a girl who had drowned herself because of him, of a little child who smiled at him with a wicked, shameless smile. He woke in a cold sweat, again and again, until the grey dawn came.",
+    "He went out into the misty, empty streets. At the gate of a large house, a small Jewish watchman in a soldier's helmet was standing on duty. Svidrigailov stopped in front of him and took out the revolver.",
+    "“What are you doing here?” asked the watchman.",
+    "“I am going to America, brother,” said Svidrigailov. “If they ask you, tell them that Svidrigailov has gone to America.” And he put the revolver to his right temple and pulled the trigger."
+   ],
+   "glossary": [
+    {
+     "term": "abroad",
+     "meaning": "no exterior"
+    },
+    {
+     "term": "grazed",
+     "meaning": "raspou, feriu de raspão"
+    },
+    {
+     "term": "temple",
+     "meaning": "têmpora"
+    },
+    {
+     "term": "wasp",
+     "meaning": "vespa"
+    },
+    {
+     "term": "stung",
+     "meaning": "picou, ferroou"
+    },
+    {
+     "term": "pleading",
+     "meaning": "suplicando"
+    },
+    {
+     "term": "shameless",
+     "meaning": "desavergonhado"
+    },
+    {
+     "term": "watchman",
+     "meaning": "vigia"
+    }
+   ]
+  },
+  {
+   "title": "The Crossroads and Siberia",
+   "paragraphs": [
+    "That same morning Raskolnikov went to see his mother. She did not know anything, but she seemed to feel it. She held him in her arms and cried. “Whatever happens to you, Rodya, I shall always love you,” she said. “I have read your article three times. I knew you would be famous.” He kissed her hands and her feet, and asked her to pray for him. Then he went to Dunya, who knew everything now. She did not reproach him. She only said, “You are going to confess? Thank God.”",
+    "“I am going,” he said. “But do not think it is because I repent. I still do not understand why it was wrong. They kill thousands in wars and call it glory. I only failed. That is my crime. I was not strong enough.”",
+    "“But you shed blood!” cried Dunya.",
+    "“Which everyone sheds,” he answered. But his voice was weak, and he did not believe his own words.",
+    "In the evening he went to Sonya. She had been waiting for him all day, in terror. She put a cypress cross around his neck. She herself wore a copper one that Lizaveta had given her. “Wear it,” she said. “We shall carry our crosses together.” He let her do it, and then he went out. She followed him at a distance.",
+    "He came to the Haymarket. It was crowded with people, and he remembered Sonya's words: “Go to the crossroads, bow down, and kiss the earth.” Suddenly he was trembling all over. He knelt down in the middle of the square, bowed to the earth, and kissed the dirty ground with joy and happiness. People laughed. “He's drunk!” someone shouted. “He's going to Jerusalem, brothers!” The words “I am a murderer” died on his lips. He stood up, and saw Sonya watching him from behind a wooden shed. Then he knew that she would be with him for ever.",
+    "He went to the police office and climbed the stairs. The Explosive Lieutenant, Ilya Petrovich, greeted him cheerfully, and talked to him about everything, and then mentioned, by chance, that a certain Svidrigailov had shot himself that morning. Raskolnikov went cold. His last hope, or his last threat, was gone. He went out, down the stairs, into the yard. There stood Sonya, with a face full of despair. He looked at her, smiled a strange smile, and went back up the stairs.",
+    "He sat down, pale, in front of Ilya Petrovich. “Water,” someone said. He pushed it away and said quietly, but clearly: “It was I who killed the old pawnbroker and her sister Lizaveta with an axe, and robbed them.” Ilya Petrovich's mouth fell open. People came running from all sides. Raskolnikov repeated his statement.",
+    "The trial took place eight months later. The judges were puzzled. He had not used the money, he had confessed of his own will, and witnesses described how he had once saved two children from a fire and supported a dying student. The doctors spoke of temporary madness. In the end he was sentenced to eight years of penal servitude in Siberia. His mother fell ill and died, never fully knowing the truth. Dunya married Razumikhin, who swore that in a few years they would go to Siberia to be near him.",
+    "Sonya followed him. She lived in the little town near the prison, and she visited him whenever she was allowed. She sewed for the ladies of the town, and soon the prisoners, those rough, violent men who hated Raskolnikov for his pride, came to love her. They took off their caps when she passed, and called her “little mother.”",
+    "For a long time Raskolnikov remained cold. He was ashamed, not of his crime but of his failure. He was gloomy and silent, and often unkind to Sonya. Then he fell ill and lay in the prison hospital, and he dreamed that a strange disease spread across the world, making every person certain that he alone possessed the truth, until all humanity destroyed itself in endless war.",
+    "When he recovered, it was spring. One warm morning he was working by the river, and Sonya came and sat beside him. He did not know how it happened, but suddenly something seemed to seize him and throw him at her feet. He wept and held her knees. She understood at once that he loved her, that he loved her endlessly, and that the moment had come at last. They wanted to speak, but could not. Their faces were pale and thin, but in those sick, pale faces the dawn of a new future was already shining. They were renewed by love.",
+    "Seven more years to wait. But he was not afraid. That night, under his pillow, lay Sonya's New Testament, the same book from which she had read to him about the raising of Lazarus. He did not open it yet. But one thought came to him: “Can her convictions not be mine now?” Instead of a theory, life had come. And here begins a new story, the story of a man's gradual renewal, of his slow passing from one world into another. But that story is not part of this one."
+   ],
+   "glossary": [
+    {
+     "term": "reproach",
+     "meaning": "recriminar, censurar"
+    },
+    {
+     "term": "repent",
+     "meaning": "me arrependo"
+    },
+    {
+     "term": "cypress",
+     "meaning": "cipreste"
+    },
+    {
+     "term": "knelt",
+     "meaning": "ajoelhou-se"
+    },
+    {
+     "term": "puzzled",
+     "meaning": "intrigados, confusos"
+    },
+    {
+     "term": "sentenced",
+     "meaning": "condenado"
+    },
+    {
+     "term": "renewed",
+     "meaning": "renovados"
+    },
+    {
+     "term": "gradual",
+     "meaning": "gradual"
+    }
+   ]
+  }
+ ]
+}

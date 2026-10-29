@@ -1,0 +1,486 @@
+{
+ "id": "baskervilles",
+ "title": "The Hound of the Baskervilles",
+ "author": "Arthur Conan Doyle",
+ "year": 1902,
+ "module": 3,
+ "level": "B1",
+ "summary": "Um médico do interior procura Sherlock Holmes com uma história assustadora: há séculos, um cão monstruoso persegue a família Baskerville, e agora o velho Sir Charles foi encontrado morto, com pegadas gigantes ao lado do corpo. O novo herdeiro, Sir Henry, está chegando à mansão isolada no meio dos pântanos de Dartmoor. Holmes envia o fiel Dr Watson para protegê-lo, num lugar cheio de neblina, segredos e uivos na noite.",
+ "chapters": [
+  {
+   "title": "A Visitor from Devonshire",
+   "paragraphs": [
+    "One morning in the autumn of 1889, I was sitting with my friend Sherlock Holmes in our rooms at 221B Baker Street. A visitor had come the day before while we were out, and he had left his walking stick behind. It was a fine, thick stick with a silver band, and on the band someone had written: “To James Mortimer, from his friends of the C.C.H.”",
+    "“Well, Watson,” said Holmes, without turning round. “What do you think of our visitor’s stick?”",
+    "“How did you know what I was doing?” I asked. “You have no eyes in the back of your head.”",
+    "“No, but I have a shiny coffee pot in front of me,” he said with a smile. “Tell me what you see.”",
+    "I examined the stick carefully. “I think Dr Mortimer is an older doctor, well respected, who works in the country and walks a lot. C.C.H. is probably a hunting club.”",
+    "“Very good, Watson, but you are wrong about almost everything,” said Holmes kindly. “C.C.H. means Charing Cross Hospital. He is a young man, under thirty, friendly, careless, and he has a dog. A dog that is bigger than a terrier and smaller than a mastiff. You can see the marks of its teeth on the stick.”",
+    "At that moment the doorbell rang, and a tall, thin young man came in, followed by a curly-haired spaniel. “Ah, my stick!” he cried happily. “I was afraid I had lost it at the shipping office.”",
+    "Dr James Mortimer sat down and took an old paper out of his pocket. “Mr Holmes, I have come because I need your help. This is a family document. It tells the legend of the Baskerville family, and it was written in 1742.”",
+    "He began to read aloud. A long time ago, in the 1600s, there was a cruel and wild man called Hugo Baskerville. He fell in love with the daughter of a farmer, but she was afraid of him and kept away. One night Hugo and his friends kidnapped the girl and locked her in a room at Baskerville Hall while they drank downstairs. The poor girl climbed down the wall and ran away across the moor towards her home.",
+    "When Hugo discovered that she had escaped, he became mad with anger. He jumped on his horse and rode after her with his dogs. His drunk friends followed him. On the moor, in the moonlight, they found the girl lying dead from fear and tiredness. Near her was the body of Hugo Baskerville. And standing over him, tearing at his throat, was a huge black creature. It looked like a hound, but it was larger than any hound a man had ever seen.",
+    "“Since that night,” Dr Mortimer read, “the hound has troubled our family, and many Baskervilles have died suddenly and terribly. So I advise my sons never to cross the moor in those dark hours when the powers of evil are strong.”",
+    "Holmes yawned. “A fairy tale,” he said. “Very interesting for collectors of fairy tales.”",
+    "“Then here is something more modern,” replied Dr Mortimer, and he took out a newspaper."
+   ],
+   "glossary": [
+    {
+     "term": "walking stick",
+     "meaning": "bengala"
+    },
+    {
+     "term": "examined",
+     "meaning": "examinou"
+    },
+    {
+     "term": "hound",
+     "meaning": "cão de caça"
+    },
+    {
+     "term": "kidnapped",
+     "meaning": "sequestraram"
+    },
+    {
+     "term": "moor",
+     "meaning": "charneca, pântano aberto"
+    },
+    {
+     "term": "tearing",
+     "meaning": "dilacerando"
+    },
+    {
+     "term": "yawned",
+     "meaning": "bocejou"
+    }
+   ]
+  },
+  {
+   "title": "The Footprints of a Gigantic Hound",
+   "paragraphs": [
+    "The newspaper told the story of the death of Sir Charles Baskerville, three months earlier. Sir Charles was a rich and kind old man who lived at Baskerville Hall, in Devonshire. He had a weak heart. Every night, before he went to bed, he took a walk along the long path of yew trees behind the house.",
+    "One night in June he went out for his walk as usual, but he never came back. His butler, Barrymore, went to look for him at midnight. He found Sir Charles lying dead at the end of the path. There was no sign of violence on the body, but his face was terribly twisted. The doctors said he had died of a heart attack.",
+    "“Those are the public facts,” said Dr Mortimer quietly. “But I have not told everyone what I saw. I was Sir Charles’s friend and his doctor. In the last months he was very nervous. He believed in the legend, and he never went out on the moor at night. Once, when I arrived at his house, he looked over my shoulder with terror in his eyes. I turned round, and I saw something black and large moving away in the dark, like a calf.”",
+    "“And on the night of his death?” asked Holmes, leaning forward. His eyes had begun to shine with interest.",
+    "“I examined the path that night. There was a small gate that opened onto the moor. Sir Charles had stood there for some minutes, because there was ash from his cigar on the ground. After that, his footprints changed. He was walking on his toes.”",
+    "“On his toes? Or was he running?” asked Holmes.",
+    "“I think he was running, Mr Holmes. Running for his life. And there was something else. A few yards from the body, I saw footprints on the ground. Nobody else noticed them.”",
+    "“A man’s or a woman’s?” asked Holmes.",
+    "Dr Mortimer looked at us for a moment, and his voice sank almost to a whisper as he answered.",
+    "“Mr Holmes, they were the footprints of a gigantic hound!”",
+    "For a moment none of us spoke. I felt a cold feeling go down my back.",
+    "“Why have you come to me?” asked Holmes at last.",
+    "“Because Sir Charles’s heir is arriving in London today. His name is Sir Henry Baskerville. He has been living in Canada, where he was a farmer. He is the last of the family. I am meeting him at Waterloo Station in one hour. Should I take him to Baskerville Hall, Mr Holmes? Is it safe?”",
+    "“Bring him here tomorrow morning at ten o’clock,” said Holmes. “And don’t say anything to him about this before then.”",
+    "When Dr Mortimer had gone, Holmes spent the whole day sitting in his chair, smoking his pipe. When I came home in the evening, the room was so full of smoke that I could hardly see him.",
+    "“I have been to Devonshire,” he said.",
+    "“In your mind?”",
+    "“Exactly. My body has stayed in this chair, but my mind has travelled all over the moor. I asked for a map. Look, here is Baskerville Hall. Here is the little village of Grimpen. And all around, for miles and miles, there is only the wild moor, with a few farms and the great Grimpen Mire. It is the perfect place for the devil, if the devil wants to play a part in the affairs of men.”"
+   ],
+   "glossary": [
+    {
+     "term": "footprints",
+     "meaning": "pegadas"
+    },
+    {
+     "term": "butler",
+     "meaning": "mordomo"
+    },
+    {
+     "term": "yew trees",
+     "meaning": "teixos (árvores)"
+    },
+    {
+     "term": "twisted",
+     "meaning": "contorcido"
+    },
+    {
+     "term": "calf",
+     "meaning": "bezerro"
+    },
+    {
+     "term": "heir",
+     "meaning": "herdeiro"
+    },
+    {
+     "term": "mire",
+     "meaning": "atoleiro, lamaçal"
+    }
+   ]
+  },
+  {
+   "title": "Sir Henry Baskerville",
+   "paragraphs": [
+    "At exactly ten o’clock the next morning, Dr Mortimer arrived with a young man of about thirty. He was not very tall, but he was strong, with dark eyes and a brown, healthy face from his years outdoors.",
+    "“This is Sir Henry Baskerville,” said Dr Mortimer.",
+    "“Pleased to meet you, Mr Holmes,” said Sir Henry. “Something strange has already happened to me. This morning I got this letter at my hotel. Nobody knew I was staying there.”",
+    "He put an envelope on the table. Inside there was a piece of paper with words cut out of a newspaper and stuck on it. Only the word “moor” was written by hand. The message said: “As you value your life or your reason keep away from the moor.”",
+    "Holmes examined it closely. “These words were cut from yesterday’s Times,” he said. “Someone used small nail scissors. And the person wrote the address in a hurry, at a hotel, with a bad pen.”",
+    "“But who sent it?” asked Sir Henry. “And why does anyone care about me?”",
+    "“Has anything else unusual happened to you in London?” Holmes asked.",
+    "Sir Henry laughed. “Well, I have lost a boot. I put a pair of new brown boots outside my door last night so they could be cleaned. This morning there was only one. I have never even worn them!”",
+    "Then Dr Mortimer told Sir Henry the legend and the story of his uncle’s death. The young man listened with a serious face.",
+    "“I have heard about the hound since I was a child,” he said at last, “but I never took it seriously. Now I don’t know what to think. But I can tell you one thing, Mr Holmes. No devil and no man is going to stop me from going to the home of my family.”",
+    "“Come back for lunch at two,” said Holmes. “Then we can talk more.”",
+    "As soon as our visitors had left, Holmes jumped up. “Quick, Watson! Your hat and coat!” We ran down into the street and followed the two men at a distance. Suddenly Holmes stopped. A cab had stopped on the other side of the street, and I saw a man with a thick black beard inside it, watching Sir Henry through the window.",
+    "Holmes ran towards it, but the man shouted to the driver, and the cab drove off quickly down Regent Street.",
+    "“That was bad luck, and bad work from me,” said Holmes angrily. “Someone is following Sir Henry. But at least I saw the number of the cab: 2704.”",
+    "Later Holmes found the driver, John Clayton. The driver said the man with the beard had paid him well to follow Sir Henry. At the end of the trip, the man had told him his name.",
+    "“And what was it?” asked Holmes.",
+    "“His name,” said the driver, “was Mr Sherlock Holmes.”",
+    "I have never seen my friend so surprised. Then he laughed loudly. “Watson, we have a clever enemy! He knew who I was, and he played a joke on me.”",
+    "At the hotel, Sir Henry was very angry. Now his other boot had disappeared, an old black one. But the new brown boot had come back, under his bed. Holmes thought about this for a long time.",
+    "“This is a dangerous business,” he said finally. “Sir Henry, you cannot go to Devonshire alone. I have important work in London, so I cannot go with you now. But my friend Watson will go. There is no man better to have at your side when you are in trouble.”",
+    "“Will you come, Dr Watson?” asked Sir Henry.",
+    "“With pleasure,” I said."
+   ],
+   "glossary": [
+    {
+     "term": "stuck",
+     "meaning": "colado"
+    },
+    {
+     "term": "in a hurry",
+     "meaning": "com pressa"
+    },
+    {
+     "term": "boot",
+     "meaning": "bota"
+    },
+    {
+     "term": "worn",
+     "meaning": "usado (roupa, sapato)"
+    },
+    {
+     "term": "cab",
+     "meaning": "carruagem de aluguel, táxi"
+    },
+    {
+     "term": "beard",
+     "meaning": "barba"
+    },
+    {
+     "term": "At least",
+     "meaning": "pelo menos"
+    }
+   ]
+  },
+  {
+   "title": "Baskerville Hall",
+   "paragraphs": [
+    "On Saturday, Sir Henry, Dr Mortimer and I took the train to Devonshire. Holmes came to the station to say goodbye.",
+    "“Send me all the facts, Watson, as clearly as you can,” he said. “Do not try to explain them. And never let Sir Henry go out on the moor alone. Keep your gun near you day and night.”",
+    "The journey was long but pleasant. In the afternoon we left the train at a small station and continued in a carriage. At first the country was green and beautiful, with small farms and old trees. Then the road climbed, and suddenly the wild moor was all around us. It was brown and grey, with great rocks on the tops of the hills.",
+    "At the side of the road we saw a soldier on a horse, holding a rifle. “What is happening?” Dr Mortimer asked our driver.",
+    "“A prisoner has escaped from Princetown prison, sir,” said the driver. “He has been out on the moor for three days now. His name is Selden. He is the man who murdered a family in London.”",
+    "I looked at the cold, empty land, and I felt afraid. Somewhere out there, a dangerous man was hiding like an animal.",
+    "It was almost dark when we came to Baskerville Hall. It was a large, heavy house, with two old towers, and the walls were covered in ivy. Sir Henry looked at it in silence. Then he said, “It is a little sad, but I am going to put electric lights here. You won’t recognise it in a year.”",
+    "The butler, Barrymore, and his wife came to the door to welcome us. Barrymore was a tall, handsome man with a square black beard and a pale face. My heart jumped. Was this the man with the black beard in the London cab?",
+    "The dining room was dark and gloomy. Old portraits of the Baskerville family looked down at us from the walls. We were not very cheerful at dinner, and we went to bed early.",
+    "I could not sleep. In the middle of the night, I heard a sound in the silent house. It was a woman crying, the terrible, unhappy crying of a person with a great sorrow. It came from somewhere inside the house. I listened for half an hour, but then everything was quiet again.",
+    "The next morning at breakfast, Sir Henry said, “Did you hear a woman crying last night, Watson?”",
+    "“Yes, I did.”",
+    "Sir Henry called the butler and asked him. Barrymore became even paler. “There are only two women in the house, Sir Henry,” he said. “One is the kitchen maid, who sleeps in the other building. The other is my wife, and I can tell you that the sound did not come from her.”",
+    "But he was lying. After breakfast I met Mrs Barrymore in the long corridor. Her eyes were red and swollen. She had been crying, and it was her I had heard.",
+    "I decided to find out if Barrymore had really been at the Hall on the day we saw the man in the cab. I walked to the post office in Grimpen. Holmes had sent a telegram to Barrymore that day, and the postmaster said he had given it to Mrs Barrymore, not to her husband. So nobody could be sure that Barrymore had been at home."
+   ],
+   "glossary": [
+    {
+     "term": "carriage",
+     "meaning": "carruagem"
+    },
+    {
+     "term": "rifle",
+     "meaning": "espingarda, fuzil"
+    },
+    {
+     "term": "ivy",
+     "meaning": "hera"
+    },
+    {
+     "term": "pale",
+     "meaning": "pálido"
+    },
+    {
+     "term": "gloomy",
+     "meaning": "sombrio"
+    },
+    {
+     "term": "sorrow",
+     "meaning": "tristeza profunda"
+    },
+    {
+     "term": "swollen",
+     "meaning": "inchados"
+    }
+   ]
+  },
+  {
+   "title": "The Stapletons of Merripit House",
+   "paragraphs": [
+    "On my way back from the village, I heard someone running behind me. A small, thin man with fair hair and a clean-shaven face caught up with me. He was about forty, and he was carrying a butterfly net.",
+    "“Excuse me, Dr Watson,” he said, a little out of breath. “People here are very friendly, so I hope you don’t mind. My name is Stapleton. I live at Merripit House, not far from here. I study the plants and insects of the moor.”",
+    "We walked together along a narrow path. “Has Mr Sherlock Holmes come down too?” he asked. “We all know about him. Does he have any ideas about the death of poor Sir Charles?”",
+    "“I cannot answer that,” I said carefully.",
+    "“Of course, of course,” he said quickly. Then he pointed at a large green area in the middle of the moor. “Do you see that green place? That is the great Grimpen Mire. It looks like a nice field, but if you walk on it, it pulls you down. Yesterday I saw a moor pony go into it. It never came out. I could hear its cries for a long time. But I know a few safe paths through it. In the middle there are some little islands with rare plants.”",
+    "At that moment a long, low cry came across the moor. It was a terrible, sad sound, and it filled the air. Then it slowly died away.",
+    "“What is that?” I asked. I felt cold all over.",
+    "Stapleton looked at me with a strange expression. “The farmers say it is the Hound of the Baskervilles calling for its prey. But it is probably a bird, or the mud moving in the mire.”",
+    "Then he saw a butterfly and ran after it with his net, jumping from one rock to another. While I was watching him, a woman came down the path. She was very beautiful, tall and dark, quite different from her brother.",
+    "She walked quickly up to me. “Go back!” she whispered. “Go straight back to London, now! Don’t ask me why. But for God’s sake, do what I tell you. Never set foot on the moor again.”",
+    "“But I have only just come,” I said, confused.",
+    "Stapleton came back with his net, and her face changed at once. “Hello, Beryl,” he said, and I noticed that his voice was not very friendly. He introduced us, and she understood that I was not Sir Henry. Later, before I went home, she ran after me again.",
+    "“I am sorry, Dr Watson,” she said. “I made a mistake. I thought you were Sir Henry. Please forget what I said.”",
+    "“But why do you want Sir Henry to go away?” I asked.",
+    "“I knew Sir Charles very well, and his death was a great shock to me,” she said. “I believe the family is in danger. Please, don’t tell my brother what I said. He would be very angry.”",
+    "In the next days, Sir Henry met the Stapletons too, and he fell in love with Miss Stapleton almost at once. Her brother seemed to be against it. One day I followed Sir Henry onto the moor, because Holmes had told me never to let him go alone. From a hill I saw him walking with Miss Stapleton, holding her hand. Suddenly Stapleton ran up to them, waving his arms and shouting angrily. He took his sister away.",
+    "“I have never been so insulted in my life!” said Sir Henry later. “What is wrong with me? Am I not good enough to be his sister’s husband?”",
+    "But that afternoon Stapleton came to the Hall to say sorry. He explained that his sister was everything to him and he was afraid of being alone. He invited us to dinner the next Friday."
+   ],
+   "glossary": [
+    {
+     "term": "fair hair",
+     "meaning": "cabelo loiro"
+    },
+    {
+     "term": "butterfly net",
+     "meaning": "rede de pegar borboletas"
+    },
+    {
+     "term": "out of breath",
+     "meaning": "sem fôlego"
+    },
+    {
+     "term": "prey",
+     "meaning": "presa"
+    },
+    {
+     "term": "for God’s sake",
+     "meaning": "pelo amor de Deus"
+    },
+    {
+     "term": "set foot",
+     "meaning": "pisar"
+    },
+    {
+     "term": "insulted",
+     "meaning": "insultado, ofendido"
+    }
+   ]
+  },
+  {
+   "title": "A Light in the Window",
+   "paragraphs": [
+    "My next report to Holmes was about a strange adventure at night. Two nights after the dinner was arranged, I woke at two o’clock in the morning. I heard soft footsteps passing my door. I looked out and saw Barrymore walking down the corridor with a candle in his hand.",
+    "I followed him quietly. He went into an empty room, stood at the window, and held the candle against the glass. He stared out into the darkness of the moor. After a few minutes he made a sad noise and put out the light.",
+    "The next night Sir Henry and I waited for him. When he came, we went into the room after him. Barrymore jumped back in fear.",
+    "“What are you doing here, Barrymore?” asked Sir Henry. “Tell me the truth!”",
+    "“Please, sir, I cannot tell you,” he said. “It is not my secret.”",
+    "I took the candle and held it at the window. Far away on the moor, a little yellow light appeared in the darkness.",
+    "“It is a signal!” I said.",
+    "Then Mrs Barrymore came in. “It is my fault, sir, not his,” she cried. “He did it for me. The escaped prisoner, Selden, is my younger brother. When he was a boy, he was spoiled, and he fell into bad company. But to me he is still my little brother. He came here hungry and cold, and we give him food. The light tells him where to come for it.”",
+    "Sir Henry was a kind man, and he could not be angry with her. But the prisoner was dangerous, so Sir Henry and I went out onto the moor to catch him. It was a wild night, with a cold wind. Suddenly, out of the darkness, came the terrible cry again, long and deep. Sir Henry took my arm.",
+    "“Watson,” he said, “that is the cry of a hound.”",
+    "We found the light, a candle among the rocks. A wild face with a dirty beard looked up at us and then ran away. Selden was much faster than us, and he disappeared into the night.",
+    "Then I saw something strange. On the top of a hill, against the moon, stood the figure of a tall, thin man. He was looking down at the moor like a statue. When I turned to show Sir Henry, the man had gone.",
+    "The next day Barrymore came to Sir Henry. He was upset that we had hunted Selden. “He will leave the country soon, sir,” he said. “Please let him go. And I will tell you something in return. I know why Sir Charles was at the gate that night. He was waiting to meet a woman. I found a burned letter in his fireplace. Only the end could be read. It said: ‘Please, please, as you are a gentleman, burn this letter, and be at the gate by ten o’clock.’ It was signed with the letters L. L.”",
+    "“And who is L. L.?” I asked.",
+    "“I don’t know, sir. But there is another man hiding on the moor. Selden told me about him. He is not a prisoner. He is a gentleman, and a boy brings him food from the village.”"
+   ],
+   "glossary": [
+    {
+     "term": "footsteps",
+     "meaning": "passos"
+    },
+    {
+     "term": "candle",
+     "meaning": "vela"
+    },
+    {
+     "term": "stared",
+     "meaning": "olhou fixamente"
+    },
+    {
+     "term": "signal",
+     "meaning": "sinal"
+    },
+    {
+     "term": "spoiled",
+     "meaning": "mimado"
+    },
+    {
+     "term": "upset",
+     "meaning": "chateado"
+    },
+    {
+     "term": "fireplace",
+     "meaning": "lareira"
+    }
+   ]
+  },
+  {
+   "title": "The Man on the Tor",
+   "paragraphs": [
+    "Dr Mortimer told me that there was a woman called Laura Lyons in the town of Coombe Tracey. She had married an artist who left her, and now she lived alone and worked as a typist. Sir Charles had given her money in the past. I went to see her.",
+    "At first she said she had never written to Sir Charles. Then I told her about the burned letter, and her face went white.",
+    "“Yes, I wrote to him,” she admitted. “I wanted money for a divorce. I asked him to meet me at the gate at ten. But I did not go. Someone else gave me the money, so I didn’t need it.”",
+    "She was not telling me everything, but I could not learn more. So I turned to the other mystery: the man on the moor. On the hills there were many old stone huts, built by people thousands of years ago. I decided to search them.",
+    "I saw the boy who carried the food, and I followed him with my eyes to a group of huts. I walked there with my gun in my hand. One hut had a roof, and inside there was a bed of blankets, some tins of food and a cup of water. On the floor there was a piece of paper. On it was written: “Dr Watson has gone to Coombe Tracey.”",
+    "My heart beat fast. The man was following me, not Sir Henry! I sat down in the dark hut and waited. At last I heard footsteps outside. They stopped near the door.",
+    "Then a well-known voice said, “It is a lovely evening, my dear Watson. I really think you will be more comfortable outside than in there.”",
+    "I was so surprised that I could hardly breathe. I ran outside, and there, sitting on a stone, was Sherlock Holmes.",
+    "“Holmes!” I cried. “I have never been so glad to see anyone. But how? I thought you were in London!”",
+    "“That was what I wanted everyone to think,” he said. “If I came openly, our enemy would be careful. So I have been living here, watching. I am sorry that I deceived you, my friend. But your reports have been excellent and very useful.”",
+    "We exchanged our news. “Did you know,” said Holmes, “that Mrs Lyons and Stapleton are close friends? And here is something more important. The woman who calls herself Miss Stapleton is not his sister. She is his wife.”",
+    "“His wife! But why…?”",
+    "“Because he wanted Sir Henry to fall in love with her. As a single woman, she was more useful to his plan. Stapleton is our man, Watson. But I cannot prove it yet.”",
+    "At that moment, a terrible scream came across the moor. It was a long cry of fear, and then we heard the deep sound of a hound.",
+    "“The hound!” cried Holmes. “Come, Watson! We may be too late!”",
+    "We ran over the rocks in the dark. Then we heard a heavy fall. At the bottom of a rocky hill lay a man, face down, with his head broken. He was wearing Sir Henry’s brown suit.",
+    "“We have failed!” said Holmes. “Sir Henry is dead, and it is my fault!”",
+    "But when we turned the body over, I saw a dirty face with a wild beard. It was not Sir Henry. It was Selden, the prisoner.",
+    "“Sir Henry gave his old clothes to Barrymore,” I said, “and Barrymore gave them to Selden.”",
+    "“Then the clothes killed him,” said Holmes. “The hound was trained to follow the smell of Sir Henry. That is why the boot was stolen in London. The first boot was new, so it had no smell. That is why it came back.”",
+    "Just then, a figure came towards us in the darkness. It was Stapleton. He stopped when he saw the body. For a moment I saw disappointment on his face.",
+    "“Who… who is this?” he asked.",
+    "“It is Selden, the escaped prisoner,” said Holmes calmly."
+   ],
+   "glossary": [
+    {
+     "term": "typist",
+     "meaning": "datilógrafa"
+    },
+    {
+     "term": "admitted",
+     "meaning": "admitiu"
+    },
+    {
+     "term": "huts",
+     "meaning": "cabanas"
+    },
+    {
+     "term": "blankets",
+     "meaning": "cobertores"
+    },
+    {
+     "term": "deceived",
+     "meaning": "enganei"
+    },
+    {
+     "term": "scream",
+     "meaning": "grito"
+    },
+    {
+     "term": "disappointment",
+     "meaning": "decepção"
+    }
+   ]
+  },
+  {
+   "title": "A Portrait on the Wall",
+   "paragraphs": [
+    "That night, Holmes came back with me to Baskerville Hall. At dinner he looked for a long time at the family portraits. He stopped in front of one picture of a man in a black hat, with a cold, hard face.",
+    "“That is Hugo Baskerville,” said Sir Henry. “The man who started all the trouble.”",
+    "After Sir Henry had gone to bed, Holmes stood on a chair with a candle. He covered the hat and the long hair in the picture with his arm. “Now look, Watson. Whose face is it?”",
+    "I gave a cry of surprise. It was the face of Stapleton.",
+    "“Exactly,” said Holmes. “Stapleton is a Baskerville. I think he is the son of Sir Charles’s younger brother, who went to South America years ago. If Sir Henry dies, he will become the owner of Baskerville Hall and all the money.”",
+    "The next morning, Holmes told Sir Henry that we were going to London. Sir Henry was hurt and surprised. “And I must go to dinner at the Stapletons’ house tonight alone?” he asked.",
+    "“Yes,” said Holmes. “And afterwards you must walk home across the moor. Do you trust me?”",
+    "“I do.”",
+    "“Then do exactly what I say.”",
+    "But we did not go to London. We left the train at the next station and went to see Mrs Lyons again. This time Holmes told her the truth: Stapleton was married. She was shocked and angry.",
+    "“He promised to marry me!” she cried. “He told me to write the letter to Sir Charles. Then, at the last moment, he told me not to go. He said he would give me the money. Oh, what a fool I have been!”",
+    "In the evening, Inspector Lestrade arrived from London on the train. Holmes had sent him a telegram. The three of us drove across the moor to Merripit House and hid among the rocks near the house. Through the window we could see Sir Henry and Stapleton smoking cigars after dinner. Miss Stapleton was not with them.",
+    "Stapleton went out to a small building in the garden. I heard a strange noise from inside, like an animal moving. Then he came back.",
+    "“There is something worse,” whispered Holmes. “Look at the fog.”",
+    "A thick white fog was coming slowly across the moor towards the house. Soon it was all around us, like a white sea.",
+    "“If Sir Henry does not leave in a quarter of an hour, we will not be able to see our own hands,” said Holmes.",
+    "At last the door opened and Sir Henry came out. He began to walk home along the path, looking nervously round him. He passed close to us and walked into the fog.",
+    "“Listen!” whispered Holmes. “It is coming!”"
+   ],
+   "glossary": [
+    {
+     "term": "portraits",
+     "meaning": "retratos"
+    },
+    {
+     "term": "trust",
+     "meaning": "confia"
+    },
+    {
+     "term": "hurt",
+     "meaning": "magoado"
+    },
+    {
+     "term": "shocked",
+     "meaning": "chocada"
+    },
+    {
+     "term": "fool",
+     "meaning": "tola, boba"
+    },
+    {
+     "term": "fog",
+     "meaning": "neblina, nevoeiro"
+    },
+    {
+     "term": "hid",
+     "meaning": "nos escondemos"
+    }
+   ]
+  },
+  {
+   "title": "The Hound of the Baskervilles",
+   "paragraphs": [
+    "We heard quick, light steps coming out of the fog. Then, from the white wall in front of us, a terrible creature appeared. It was a huge black hound, as big as a small horse. Fire seemed to come out of its open mouth, and its eyes burned. Its head and body shone with a strange cold light. It was the most frightening thing I have ever seen.",
+    "The creature ran past us after Sir Henry. For a moment we were too shocked to move. Then Holmes and I fired our guns at the same time. The animal gave a horrible cry, so we knew it could be hurt. But it did not stop.",
+    "Far away on the path, Sir Henry turned and saw it. He lifted his hands in horror. The hound jumped on him and threw him to the ground. Holmes ran faster than I have ever seen a man run. He shot five times into the side of the creature. With a last cry, it fell over and lay still.",
+    "Sir Henry was lying on the ground. He was unconscious, but he was alive. We opened his collar, and slowly he opened his eyes.",
+    "“My God!” he whispered. “What was it?”",
+    "“It is dead, whatever it was,” said Holmes. “We have killed the family ghost.”",
+    "I put my hand on the animal’s head. It was a mix of bloodhound and mastiff, huge and strong. My hand began to shine in the dark. “Phosphorus,” said Holmes. “Stapleton painted the creature so it would look like a hound from hell.”",
+    "We ran to Merripit House, but Stapleton was not there. In a bedroom upstairs we found Mrs Stapleton tied to a post. She had cloths over her mouth, and there were marks on her arms where he had hit her.",
+    "“Is he safe?” she asked first. “Has the hound got Sir Henry?”",
+    "“Sir Henry is safe, and the hound is dead,” said Holmes.",
+    "“Thank God!” she cried. “That man has made me suffer so much. I was his wife, but he only used me. Tonight, when I refused to help him, he locked me up here. He has run away to the mire. There is an old tin mine on an island in the middle. That is where he kept the dog.”",
+    "The next morning the fog had gone. Mrs Stapleton showed us the secret path through the Grimpen Mire. Little sticks showed the way. On the path we found an old black boot. It was the one that had been stolen from Sir Henry in London.",
+    "But there was no sign of Stapleton. The fog had covered the moor, and he had never found his way to the island. Somewhere in the deep mud of the great Grimpen Mire, this cold and cruel man is buried forever.",
+    "Some weeks later, back in Baker Street, Holmes explained everything to me. “Stapleton’s real name was Rodger Baskerville. He came to Devonshire under a false name. He heard the old legend and saw how he could use it. He bought the dog in London and hid it on the moor. When Sir Charles went to the gate to meet Mrs Lyons, Stapleton let the hound out. The old man’s weak heart did the rest.”",
+    "“And who was the man with the beard in London?”",
+    "“Stapleton, with a false beard. His wife was with him in London. She did not dare to speak openly, so she sent the warning letter.”",
+    "Sir Henry and Dr Mortimer went on a long journey around the world, so that Sir Henry’s nerves could recover. When he comes back, I hope he will find Baskerville Hall a happier place.",
+    "“And now, my dear Watson,” said Holmes, “I have a box at the opera tonight. Will you join me?”"
+   ],
+   "glossary": [
+    {
+     "term": "frightening",
+     "meaning": "assustador"
+    },
+    {
+     "term": "fired",
+     "meaning": "atiramos, disparamos"
+    },
+    {
+     "term": "unconscious",
+     "meaning": "inconsciente"
+    },
+    {
+     "term": "tied",
+     "meaning": "amarrada"
+    },
+    {
+     "term": "buried",
+     "meaning": "enterrado"
+    },
+    {
+     "term": "did not dare",
+     "meaning": "não tinha coragem"
+    },
+    {
+     "term": "nerves",
+     "meaning": "nervos"
+    }
+   ]
+  }
+ ]
+}

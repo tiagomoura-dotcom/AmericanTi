@@ -1,0 +1,312 @@
+{
+ "id": "rue-morgue",
+ "title": "The Murders in the Rue Morgue",
+ "author": "Edgar Allan Poe",
+ "year": 1841,
+ "module": 2,
+ "level": "A2",
+ "summary": "Em Paris, um jovem americano divide uma casa velha e escura com C. Auguste Dupin, um homem pobre de mente brilhante, capaz de ler os pensamentos das pessoas. Um dia os jornais contam um crime horrível: uma mãe e uma filha foram mortas num quarto trancado por dentro, e as testemunhas ouviram uma voz que ninguém consegue reconhecer. A polícia não entende nada, mas Dupin decide investigar com sua lógica fria.",
+ "chapters": [
+  {
+   "title": "A Strange Friend",
+   "paragraphs": [
+    "I lived in Paris in the spring and summer of 18—, and there I met Monsieur C. Auguste Dupin. He was a young man from a good family, but his family had lost all its money. Now he lived simply, and his only pleasure was books.",
+    "We met in a small library in the Rue Montmartre. We were both looking for the same rare book. We started talking, and soon we became friends. I had more money than him, so I rented an old house for us both. It was in a quiet part of the city, and people said it was haunted.",
+    "We lived a strange life there. In the daytime we closed all the shutters and lit candles. We read, wrote and talked. When night came, we went out into the streets and walked for hours.",
+    "Dupin had a wonderful mind. He could see into people's thoughts. One night we were walking in silence along a long street. Suddenly he said, “Yes, he is a very small man. He would be better in a comedy.”",
+    "“Certainly,” I answered. Then I stopped, amazed. “Dupin, how did you know I was thinking of Chantilly, the little shoemaker who wants to be a great actor?”",
+    "“It's simple,” he said. “Fifteen minutes ago a man with a basket of fruit pushed you. You fell on some loose stones and hurt your foot. You looked down at the stones and said a word quietly: stereotomy, the cutting of stones. That made you think of atoms and the old Greek writer Epicurus. Then you looked up at the stars, at Orion. Yesterday a newspaper made fun of Chantilly with a line about Orion. I saw a small smile on your lips. Then you stood up straight, as if to say, ‘He is too short.’ So I spoke.”",
+    "I could not answer. My friend's mind was like a machine, but a beautiful one."
+   ],
+   "glossary": [
+    {
+     "term": "rare",
+     "meaning": "raro"
+    },
+    {
+     "term": "rented",
+     "meaning": "aluguei"
+    },
+    {
+     "term": "haunted",
+     "meaning": "assombrada"
+    },
+    {
+     "term": "shutters",
+     "meaning": "venezianas, persianas"
+    },
+    {
+     "term": "amazed",
+     "meaning": "espantado"
+    },
+    {
+     "term": "shoemaker",
+     "meaning": "sapateiro"
+    },
+    {
+     "term": "made fun of",
+     "meaning": "zombou de"
+    }
+   ]
+  },
+  {
+   "title": "Murder in the Rue Morgue",
+   "paragraphs": [
+    "One evening we were reading the newspaper when we saw these words: EXTRAORDINARY MURDERS.",
+    "At three o'clock that morning, terrible screams woke the people of the Rue Morgue. They came from the fourth floor of a house where Madame L'Espanaye lived with her daughter, Mademoiselle Camille. Neighbours and two policemen broke down the front door. As they ran up the stairs, they heard two angry voices. Then everything was silent.",
+    "The door of the room on the fourth floor was locked from the inside. The men broke it open. The room was in a terrible state. Furniture was broken and thrown everywhere. On a chair lay a razor covered with blood. There were long grey hairs on the floor, pulled out by the roots. Four thousand francs in gold lay in two bags on the floor. Nobody took them.",
+    "At first they did not see the daughter. Then they looked up the chimney. They found her body there, head down. Someone had pushed it up with great force. There were dark marks of fingers on her neck.",
+    "They searched the whole house. In the small yard behind it they found the mother. Her throat was cut so deeply that her head almost fell off when they lifted her.",
+    "“This is horrible,” I said. “Who could do such a thing?”",
+    "Dupin did not answer. He was reading the newspaper again, very slowly and carefully.",
+    "“The two women lived very quietly,” he said at last. “They had no servants and few friends. The mother told fortunes for money, and she had some money in the bank. Nobody ever came to see them. So why did somebody kill them like this?”",
+    "“For the gold?” I said.",
+    "“But the gold was still on the floor,” he answered. “No, my friend. This was not a robbery. Let's wait for tomorrow's newspaper. The police will talk to everyone, and the witnesses will tell us more.”",
+    "That night I could not sleep. I thought of the dark chimney and the little yard behind the house. Dupin sat in his chair until morning, smoking his pipe and looking at the fire."
+   ],
+   "glossary": [
+    {
+     "term": "screams",
+     "meaning": "gritos"
+    },
+    {
+     "term": "neighbours",
+     "meaning": "vizinhos"
+    },
+    {
+     "term": "locked",
+     "meaning": "trancada"
+    },
+    {
+     "term": "razor",
+     "meaning": "navalha"
+    },
+    {
+     "term": "roots",
+     "meaning": "raízes"
+    },
+    {
+     "term": "chimney",
+     "meaning": "chaminé"
+    },
+    {
+     "term": "yard",
+     "meaning": "quintal"
+    }
+   ]
+  },
+  {
+   "title": "The Strange Voice",
+   "paragraphs": [
+    "The next day the newspaper printed what the witnesses said. Dupin read it to me aloud.",
+    "“Pauline Dubourg, a washerwoman, says the two women were quiet and kind. They had no visitors. Isidore Musèt, a policeman, says he heard two voices on the stairs. One was the deep voice of a Frenchman. He heard the words ‘mon Dieu’. The other voice was high and shrill. He thinks it was Spanish.",
+    "“Henri Duval, a neighbour, agrees about the Frenchman. But he thinks the shrill voice was Italian. He does not speak Italian. A Dutch man thinks it was French. An Englishman thinks it was German, but he doesn't speak German. A Spanish man thinks it was English. An Italian thinks it was Russian.",
+    "“Adolphe Le Bon, a bank clerk, says that three days before the murders, Madame L'Espanaye took four thousand francs from the bank. He carried the money to her house in two bags.”",
+    "Dupin put down the paper. “And this morning,” he said, “the police arrested Adolphe Le Bon.”",
+    "“So they think he's the murderer?” I asked.",
+    "“The police are clever,” said Dupin, “but they look too closely at one thing and don't see the whole picture. Truth is not always at the bottom of a well. Sometimes it's on the surface. Le Bon once helped me, and I want to help him. Also, this case interests me. Let's go and look at the house. I know the Prefect of Police. He'll give us permission.”",
+    "“But what's so interesting?” I asked.",
+    "“The voice,” said Dupin, smiling. “Think about it. Every witness heard it. And every witness thought it was a language that he did not know.”"
+   ],
+   "glossary": [
+    {
+     "term": "witnesses",
+     "meaning": "testemunhas"
+    },
+    {
+     "term": "washerwoman",
+     "meaning": "lavadeira"
+    },
+    {
+     "term": "shrill",
+     "meaning": "estridente, agudo"
+    },
+    {
+     "term": "clerk",
+     "meaning": "funcionário, escriturário"
+    },
+    {
+     "term": "arrested",
+     "meaning": "prenderam"
+    },
+    {
+     "term": "well",
+     "meaning": "poço"
+    },
+    {
+     "term": "surface",
+     "meaning": "superfície"
+    }
+   ]
+  },
+  {
+   "title": "The Window and the Nail",
+   "paragraphs": [
+    "It was late in the afternoon when we arrived at the Rue Morgue. Dupin looked at everything: the street, the house and the yard behind it. Then a policeman took us up to the room on the fourth floor. The bodies were still there.",
+    "Dupin examined the room for a long time. He said very little. Then he went to the windows.",
+    "“How did the murderer leave?” he said. “Not by the door, because it was locked from the inside. Not by the chimney, because it is too narrow. So it must be the windows. The police say this is impossible, because both windows are nailed shut. But the impossible can't be true. So the nails must be wrong.”",
+    "He pressed the first window. It did not open. Then he found a hidden spring in the frame. When he pressed it, the window could go up. “So the window can close itself,” he said, “but the nail is still there. Now let's look at the other window.”",
+    "The second window looked the same. There was a nail in it, and it was very firm. But when Dupin touched the head of the nail, it came off in his fingers. The nail was broken. The window had a spring too, so it could close by itself.",
+    "“Now look outside,” he said. Near the window, there was a lightning rod going down to the ground. There was also a large shutter, like a door.",
+    "“The police looked at this rod,” said Dupin. “They decided that no man could climb it and then get into the room. The shutter is too far away. But they made a mistake. When the shutter is open, it comes very close to the rod.”",
+    "I looked down at the yard far below, and I felt sick. “It's a long way down,” I said.",
+    "“A very strong and very quick person,” said Dupin, “could climb the lightning rod, jump to the shutter, and swing into the room through the window. It's not easy. In fact, it's very hard. But it's possible.”"
+   ],
+   "glossary": [
+    {
+     "term": "examined",
+     "meaning": "examinou"
+    },
+    {
+     "term": "narrow",
+     "meaning": "estreita"
+    },
+    {
+     "term": "nailed shut",
+     "meaning": "pregada, fechada com pregos"
+    },
+    {
+     "term": "spring",
+     "meaning": "mola"
+    },
+    {
+     "term": "frame",
+     "meaning": "moldura, caixilho"
+    },
+    {
+     "term": "lightning rod",
+     "meaning": "para-raios"
+    },
+    {
+     "term": "swing",
+     "meaning": "balançar"
+    }
+   ]
+  },
+  {
+   "title": "Not a Human Hand",
+   "paragraphs": [
+    "That night at home, Dupin spoke to me for a long time. “Let us think about everything together,” he said. “First, the strength. Who could push a body up a chimney? Who could pull out handfuls of hair? Who could almost cut off a head with a razor? Not a normal man.",
+    "“Second, the speed and the climbing. The way in and out was very difficult. Third, the voice. Nobody could understand a single word of it. And fourth, the money. A thief always takes the gold, but this murderer left it on the floor. So there was no reason for these murders. They are wild and cruel, like the work of a madman.”",
+    "“A madman!” I said. “Yes, perhaps a madman escaped from a hospital.”",
+    "“Perhaps,” said Dupin. “But look at this.” He opened his hand. There was a small piece of hair in it. “I took this from the dead woman's fingers. Is this a man's hair?”",
+    "“No,” I said slowly. “It isn't human hair.”",
+    "Then he showed me a drawing on paper. “This is a picture of the finger marks on the daughter's neck. Put your hand on it.” I tried, but my fingers were too small. They could not cover the marks.",
+    "Dupin gave me a book by Cuvier, the famous scientist. It described the great orangutan of the East Indian islands. I read about its huge size, its enormous strength, and its love of copying people. When I finished, I felt cold.",
+    "“An orangutan!” I cried. “But what about the deep voice of the Frenchman?”",
+    "“The Frenchman said ‘mon Dieu’,” answered Dupin. “He was not angry. He was afraid. I think he was the owner of the animal. He followed it, but he did not kill anyone. And I think he will come to us.”"
+   ],
+   "glossary": [
+    {
+     "term": "strength",
+     "meaning": "força"
+    },
+    {
+     "term": "handfuls",
+     "meaning": "punhados"
+    },
+    {
+     "term": "madman",
+     "meaning": "louco"
+    },
+    {
+     "term": "huge",
+     "meaning": "enorme"
+    },
+    {
+     "term": "copying",
+     "meaning": "imitar"
+    },
+    {
+     "term": "owner",
+     "meaning": "dono"
+    }
+   ]
+  },
+  {
+   "title": "The Sailor",
+   "paragraphs": [
+    "Dupin put a small advertisement in a newspaper for sailors. It said: Caught in the Bois de Boulogne, a very large brown orangutan. The owner, a sailor from a Maltese ship, can have it back if he pays a small price. Ask at this address.",
+    "“How do you know he's a sailor?” I asked.",
+    "“I found a ribbon at the bottom of the lightning rod,” said Dupin. “It's tied in a special knot. Only sailors tie knots like that, and Maltese sailors use this kind of ribbon. If I'm wrong, it doesn't matter. If I'm right, he'll come. He'll think: ‘I'm innocent, and the animal is worth a lot of money. Why lose it?’ Now get your pistol ready.”",
+    "That evening we heard steps on the stairs. A big, strong sailor came in with a heavy stick. His face was brown from the sun. “I've come for my orangutan,” he said.",
+    "“Of course,” said Dupin kindly. Then he locked the door and put the key in his pocket. He took out a pistol and put it calmly on the table. The sailor's face went red, then white. He took his stick, then sat down and shook.",
+    "“My friend,” said Dupin, “don't be afraid. We know you didn't kill those women. But an innocent man is in prison. You must tell us the truth.”",
+    "“How do you know so much?” asked the sailor in a low voice.",
+    "“That doesn't matter,” said Dupin. “I know that you are not a bad man. You didn't rob those women, but you know who killed them. If you are silent, Le Bon may die for a crime he didn't do. Is that what you want?”",
+    "The sailor was quiet for a long time. He looked at the pistol, then at the locked door, then at the floor. At last he said, “I'll tell you everything. God help me. You won't believe half of it, but every word is true.”"
+   ],
+   "glossary": [
+    {
+     "term": "sailor",
+     "meaning": "marinheiro"
+    },
+    {
+     "term": "ribbon",
+     "meaning": "fita"
+    },
+    {
+     "term": "knot",
+     "meaning": "nó"
+    },
+    {
+     "term": "worth",
+     "meaning": "vale"
+    },
+    {
+     "term": "steps",
+     "meaning": "passos"
+    },
+    {
+     "term": "shook",
+     "meaning": "tremeu"
+    }
+   ]
+  },
+  {
+   "title": "The Truth",
+   "paragraphs": [
+    "“I caught the animal on the island of Borneo,” said the sailor. “I brought it to Paris because I wanted to sell it. I kept it in my rooms.",
+    "“That night I came home late. The orangutan was out of its cage. It was standing in front of the mirror with my razor in its hand. It was trying to shave, like it saw me do every morning. I took my whip, and the animal ran out of the door and down into the street.",
+    "“I followed it through the dark streets. It came to the Rue Morgue and saw a light in a window on the fourth floor. It climbed up the lightning rod in a moment and swung into the room. I climbed up after it, but I could only see through the window.",
+    "“The two women were sitting there with some papers. The orangutan took the old lady by the hair and moved the razor near her face, like a barber. She screamed, and the animal became angry. With one movement, it almost cut off her head. Then it took the girl by the neck. Then it saw me at the window and became afraid. It pushed the girl up the chimney and threw the mother out of the window. I was so frightened that I shouted, ‘Mon Dieu!’ and ran home.”",
+    "The sailor stopped and covered his face with his hands. “I didn't tell the police,” he said. “I was afraid. Who would believe a poor sailor with a story like that?”",
+    "“I believe you,” said Dupin. “And the facts tell the same story. The window closed with its spring after the animal jumped out. That's why the police thought nobody could leave the room. The voice was not a man's voice at all. It was the voice of an animal. And the gold stayed on the floor because an orangutan doesn't want money.”",
+    "That was the whole mystery. It was simple when you knew the answer, but only Dupin could find it.",
+    "The next day Dupin told the Prefect everything, and Adolphe Le Bon was free. The sailor caught the orangutan later and sold it to the Jardin des Plantes for a lot of money.",
+    "The Prefect was not very happy. “Everybody should mind their own business,” he said.",
+    "Dupin only laughed. “Let him talk,” he said to me. “He is a good man, but he is too clever to be wise.”"
+   ],
+   "glossary": [
+    {
+     "term": "cage",
+     "meaning": "jaula"
+    },
+    {
+     "term": "shave",
+     "meaning": "fazer a barba"
+    },
+    {
+     "term": "whip",
+     "meaning": "chicote"
+    },
+    {
+     "term": "barber",
+     "meaning": "barbeiro"
+    },
+    {
+     "term": "frightened",
+     "meaning": "assustado"
+    },
+    {
+     "term": "mind their own business",
+     "meaning": "cuidar da própria vida"
+    },
+    {
+     "term": "wise",
+     "meaning": "sábio"
+    }
+   ]
+  }
+ ]
+}

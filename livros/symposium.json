@@ -1,0 +1,726 @@
+{
+ "id": "symposium",
+ "title": "The Symposium",
+ "author": "Plato",
+ "year": -385,
+ "module": 5,
+ "level": "C1",
+ "summary": "Em Atenas, o poeta Agatão comemora sua vitória no teatro com um jantar entre amigos, e os convidados decidem passar a noite fazendo discursos em louvor ao Amor. Um médico, um poeta cômico, um orador e o próprio Sócrates apresentam ideias muito diferentes: o amor como coragem, como harmonia do universo, como a busca pela metade perdida de nós mesmos. Entre vinho, risadas e argumentos brilhantes, o diálogo sobe até uma das visões mais famosas da filosofia, até que um convidado inesperado bate à porta.",
+ "chapters": [
+  {
+   "title": "A Story Told Many Times",
+   "paragraphs": [
+    "“As it happens, I'm well prepared to tell you what you're asking about,” said Apollodorus to his friend, as they walked together. “Only the day before yesterday I was going up to the city from my home in Phalerum, when a man I know saw me from behind and called out to me from a distance. ‘Apollodorus! Wait for me!’ So I stopped and waited. ‘I've been looking for you,’ he said. ‘I want to hear all about the party at Agathon's, when Socrates and Alcibiades and the others were there for dinner, and about the speeches they made on love.’”",
+    "“I told him that the party had taken place many years ago, when we were still boys, and that Agathon had not lived in Athens for a long time. I had heard the whole story from Aristodemus, a little barefoot man who was one of Socrates's most devoted followers in those days, and who was present at the dinner. I even checked parts of it with Socrates himself, and he agreed with the account. So if you want to hear it too, I will tell it to you exactly as Aristodemus told it to me. I'll start from the beginning.”",
+    "Aristodemus said that he met Socrates one day freshly bathed and wearing sandals, which Socrates rarely did. He asked him where he was going looking so handsome. “To dinner at Agathon's,” Socrates replied. “Yesterday I avoided his victory celebration because I was afraid of the crowd, but I promised to come today. That's why I've made myself beautiful, so that I can go to a beautiful man's house. But what about you? How would you feel about coming to dinner without an invitation?”",
+    "“I'll do whatever you say,” said Aristodemus.",
+    "“Then follow me,” said Socrates, “and we'll change the proverb. We'll show that good men go uninvited to the feasts of good men.” But Aristodemus was worried. “I'm afraid I'll seem like a worthless man arriving uninvited at the feast of a wise one,” he said. “So if you take me, you'll have to make my excuses, because I won't admit that I came uninvited. I'll say that you invited me.”",
+    "“Two going together will think of something to say,” said Socrates. “Let's go.”",
+    "As they walked along, however, Socrates turned his mind to some idea and fell behind. When Aristodemus waited for him, he told him to go on ahead. So Aristodemus arrived at Agathon's house alone and found the door open, which put him in an awkward situation. A slave immediately led him into the dining room, where the guests were lying on their couches, just about to begin dinner. Agathon saw him at once. “Aristodemus!” he cried. “You've come at exactly the right time to dine with us. Yesterday I looked everywhere for you to invite you, but I couldn't find you. But where is Socrates? Didn't you bring him?”",
+    "Aristodemus turned around and saw that Socrates was not behind him after all. He explained that he had come with Socrates and at his invitation. “And where can he be?” asked Agathon. Then a slave came in and said, “Socrates has gone into the porch of the house next door. He's standing there, and when I called him, he wouldn't come.”",
+    "“How strange,” said Agathon. “Go and call him again, and don't let him go.” But Aristodemus stopped him. “No, leave him alone. It's a habit of his. Sometimes he goes off and stands still wherever he happens to be. He'll come soon, I think. Don't disturb him.”",
+    "So they began to eat without him. Agathon kept wanting to send for Socrates, but Aristodemus wouldn't let him. At last, when they were about halfway through dinner, Socrates arrived, not having spent as long as usual in his thoughts. Agathon, who was lying alone on the last couch, called out to him. “Come and lie next to me, Socrates, so that by touching you I may enjoy the piece of wisdom that came to you in that porch. Clearly you found it and have it, or you wouldn't have stopped.”",
+    "Socrates sat down beside him. “It would be wonderful, Agathon,” he said, “if wisdom were the kind of thing that could flow from the fuller of us into the emptier, just by touching, like water flowing through a thread of wool from a fuller cup into an emptier one. If wisdom is like that, I value my place beside you very highly, because I think I'll be filled with plenty of fine wisdom from you. Mine is a poor sort, as doubtful as a dream. But yours is brilliant and full of promise. It shone out so powerfully from you, while you were still young, the day before yesterday, in front of more than thirty thousand Greek witnesses.”",
+    "“You're being insolent, Socrates,” said Agathon, laughing. “We'll settle this claim about wisdom a little later, and Dionysus will be our judge. But for now, eat your dinner first.”"
+   ],
+   "glossary": [
+    {
+     "term": "barefoot",
+     "meaning": "descalço"
+    },
+    {
+     "term": "devoted",
+     "meaning": "dedicados, fiéis"
+    },
+    {
+     "term": "freshly bathed",
+     "meaning": "recém-banhado"
+    },
+    {
+     "term": "proverb",
+     "meaning": "provérbio"
+    },
+    {
+     "term": "awkward",
+     "meaning": "constrangedora, embaraçosa"
+    },
+    {
+     "term": "dine",
+     "meaning": "jantar"
+    },
+    {
+     "term": "thread",
+     "meaning": "fio"
+    },
+    {
+     "term": "insolent",
+     "meaning": "insolente, atrevido"
+    }
+   ]
+  },
+  {
+   "title": "A Sober Evening",
+   "paragraphs": [
+    "When Socrates had taken his place and eaten with the others, they poured out drink offerings, sang a hymn to the god, and did all the other things that are customary. Then they turned to the wine. Pausanias was the first to speak. “Well, gentlemen,” he said, “how can we make our drinking as easy as possible tonight? To tell you the truth, I'm in a very bad way after yesterday's party, and I need a rest. I suspect most of you are in the same condition, since you were there too. So let's think about how we can drink as gently as possible.”",
+    "“That's a good idea, Pausanias,” said Aristophanes, the comic poet. “We must find some way to go easy on ourselves. I'm one of the people who were soaked yesterday.” Then Eryximachus, the doctor, joined in. He asked Agathon how he felt, and Agathon admitted that he was not strong enough for heavy drinking either.",
+    "“That's a stroke of luck for us,” said Eryximachus, “for me, Aristodemus, Phaedrus and the others, if you champions of drinking have given up. We have never been able to keep up with you. I don't count Socrates, because he can do either, and he'll be happy whichever we choose. Since none of you seem eager to drink a lot, perhaps I can tell you the truth about drunkenness without being too unpleasant. My experience as a doctor has made it very clear to me that heavy drinking is bad for people. I would never willingly drink too much myself, and I wouldn't advise anyone else to do it, especially when he still has a headache from the day before.”",
+    "Phaedrus interrupted him. “I always follow your advice, especially in medical matters,” he said, “and so will the others, if they're sensible.” Everyone agreed, and they decided not to make the party a drunken one, but to drink only as much as each of them wanted.",
+    "“Then since that is settled,” Eryximachus went on, “I also propose that we send away the flute girl who has just come in. Let her play for herself, or for the women inside the house, if she likes. Today we will spend our time together in conversation. And if you agree, I would like to suggest a subject.” They all said that they agreed, and asked him to make his proposal.",
+    "“I'll begin,” said Eryximachus, “with a line from Euripides: ‘The tale is not mine, but Phaedrus's.’ Phaedrus is always complaining to me. ‘Isn't it terrible, Eryximachus,’ he says, ‘that the poets have written hymns and songs to so many other gods, but not one of them has ever composed a single song of praise to Love, who is so ancient and so great a god? And the clever professors of speaking write praises of Heracles and others in prose, which is perhaps not so surprising. But I once came across a book by a wise man that contained a wonderful speech in praise of salt, because of its usefulness! People have taken all that trouble over such trivial things, and yet to this day no one has dared to praise Love as he deserves.’”",
+    "“I think Phaedrus is right,” said Eryximachus. “So I would like to make my contribution to him and do him a favour, and I think this is a fitting occasion for us to honour the god. If you agree, we could spend our time very well in speeches. I propose that each of us, going from left to right, should make a speech in praise of Love, the most beautiful he can. Phaedrus should begin, since he is lying in the first place and he is the father of the idea.”",
+    "“No one will vote against you, Eryximachus,” said Socrates. “I certainly couldn't refuse, since I claim that love is the only thing I understand. Neither could Agathon and Pausanias, nor Aristophanes, whose whole life is devoted to Dionysus and Aphrodite, nor anyone else I see here. It's true that it's not fair to us who are lying in the last places. But if the speakers before us speak well enough, we shall be satisfied. So let Phaedrus begin, with good luck, and let him praise Love.”",
+    "All the others agreed and told Phaedrus to begin. “Aristodemus did not remember everything that each of them said,” Apollodorus explained to his friend, “and I don't remember everything that he told me. But I will tell you the speeches that he remembered best, and the ones I thought most worth remembering.”"
+   ],
+   "glossary": [
+    {
+     "term": "in a very bad way",
+     "meaning": "muito mal"
+    },
+    {
+     "term": "soaked",
+     "meaning": "encharcados, bêbados"
+    },
+    {
+     "term": "stroke of luck",
+     "meaning": "golpe de sorte"
+    },
+    {
+     "term": "keep up with",
+     "meaning": "acompanhar"
+    },
+    {
+     "term": "sensible",
+     "meaning": "sensatos"
+    },
+    {
+     "term": "flute girl",
+     "meaning": "flautista"
+    },
+    {
+     "term": "trivial",
+     "meaning": "banais, sem importância"
+    },
+    {
+     "term": "fitting",
+     "meaning": "adequada"
+    }
+   ]
+  },
+  {
+   "title": "The Speech of Phaedrus",
+   "paragraphs": [
+    "Phaedrus began, Aristodemus said, by saying that Love is a great god, and wonderful among both gods and men in many ways, but above all because of his birth. “To be the oldest of the gods is an honour,” he said, “and here is the proof. Love has no parents, and no poet or prose writer has ever mentioned any. Hesiod says that first Chaos came into being, and then broad-breasted Earth, the safe seat of everything, and Love. So many authorities agree that Love is among the very oldest of the gods. And being the oldest, he is the cause of the greatest goods for us.”",
+    "“I cannot say what greater good there is for a young man than a worthy lover, or for a lover than a worthy beloved. There is a principle that ought to guide people all their lives, if they are to live well, and neither family, nor public honours, nor wealth can plant it in us as well as love can. What is it? It is shame at doing shameful things, and ambition to do fine things. Without these, neither a city nor a person can do any great or beautiful work.”",
+    "“Suppose a man in love were caught doing something shameful, or failing to defend himself out of cowardice when someone insulted him. He would be less ashamed to be seen by his father or his friends than by the one he loves. And we see the same thing in the beloved: he is especially ashamed in front of his lover when he is caught behaving badly. So if there were some way to make a city or an army entirely out of lovers and those they love, it could not be governed better. They would hold back from everything shameful and compete with each other in honour. Fighting side by side, even a small army of them could conquer the whole world, so to speak.”",
+    "“A lover would rather die many times than let his beloved see him leave his post or throw away his weapons. And no one is such a coward that Love himself cannot inspire him with courage, so that he becomes like a man who is brave by nature. When Homer says that a god breathed courage into some of the heroes, that is exactly what Love gives to lovers.”",
+    "“What is more, only lovers are willing to die for others, and not only men but women too. Alcestis, the daughter of Pelias, is proof of this for all the Greeks. She alone was willing to die for her husband, although his father and mother were alive. Her love was so much greater than theirs that she made them look like strangers to their own son, related to him only in name. Her deed seemed so noble, not only to men but to the gods, that they granted her a gift they have given to very few: they allowed her soul to return from the world of the dead, out of admiration for what she had done.”",
+    "“But the gods sent Orpheus back from Hades without what he came for. They showed him only a ghost of the wife he came to fetch, and they did not give him the woman herself. They thought he was soft, as you might expect from a musician. He didn't have the courage to die for love, as Alcestis did, but schemed to enter Hades alive. That is why the gods punished him and made him die at the hands of women.”",
+    "“Achilles, on the other hand, they honoured and sent to the Islands of the Blessed. His mother told him that if he killed Hector he would die himself, but that if he did not, he would go home and live to old age. Yet he bravely chose to go to the help of his lover Patroclus and avenge him, and so he chose not only to die for him but to die after him. The gods admired this greatly and gave him special honour, because he valued his lover so highly.”",
+    "“So I say that Love is the oldest and most honoured of the gods,” Phaedrus concluded, “and the most powerful to give virtue and happiness to human beings, both in life and after death.” That, said Aristodemus, was more or less the speech of Phaedrus. After it there were some others that he could not remember well, so he passed over them and went on to the speech of Pausanias."
+   ],
+   "glossary": [
+    {
+     "term": "worthy",
+     "meaning": "digno"
+    },
+    {
+     "term": "beloved",
+     "meaning": "amado, pessoa amada"
+    },
+    {
+     "term": "cowardice",
+     "meaning": "covardia"
+    },
+    {
+     "term": "post",
+     "meaning": "posto"
+    },
+    {
+     "term": "deed",
+     "meaning": "ato, feito"
+    },
+    {
+     "term": "fetch",
+     "meaning": "buscar"
+    },
+    {
+     "term": "schemed",
+     "meaning": "tramou, deu um jeito"
+    },
+    {
+     "term": "avenge",
+     "meaning": "vingar"
+    }
+   ]
+  },
+  {
+   "title": "Two Kinds of Love",
+   "paragraphs": [
+    "“Phaedrus,” Pausanias began, “I don't think the subject has been properly set out for us, if we are simply told to praise Love. If there were only one Love, that would be fine. But there isn't only one. And since there isn't, it is better to say first which Love we should praise. We all know that there is no Aphrodite without Love. If there were one Aphrodite, there would be one Love. But since there are two Aphrodites, there must also be two Loves.”",
+    "“How can anyone deny that there are two goddesses? One is older, the daughter of the Sky, with no mother, and we call her Heavenly Aphrodite. The other is younger, the daughter of Zeus and Dione, and we call her Common Aphrodite. So the Love who works with one must be called Heavenly Love, and the Love who works with the other Common Love. All the gods must be praised, of course, but I must try to say what belongs to each of these two.”",
+    "“Every action, in itself, is neither noble nor shameful. What we are doing now, drinking, singing, talking, none of these is noble in itself. It becomes noble or shameful according to how it is done. Done well and rightly, it is noble; done wrongly, it is shameful. It is the same with loving. Not every Love is noble and worthy of praise, only the one that makes us love in a noble way.”",
+    "“The Love of the Common Aphrodite is truly common, and acts at random. This is the love of ordinary, worthless people. They love bodies more than souls, and they choose the most foolish partners they can find, because they care only about getting what they want, not about whether it is done nobly. So they do whatever comes their way, good or bad. But Heavenly Love is older and has no violence in it. Those who are inspired by this love are attracted to what is stronger by nature and has more intelligence. They don't love the very young, but those who are beginning to show some intelligence, and they are prepared to spend their whole lives with the one they love.”",
+    "Pausanias then spoke at length about the different customs of the Greek cities concerning love. In some places, he said, it was simply allowed for a beloved to grant his favours to a lover, because the people there were not good at speaking and could not persuade anyone. In other places, under tyrants and foreign rulers, love was considered shameful, because the rulers did not want their subjects to have great thoughts, or strong friendships and loyalties, which love tends to create. In Athens, however, the custom was more complicated, and much finer, and it was not easy to understand.",
+    "“With us,” he said, “it is considered more honourable to love openly than secretly, and a lover is allowed to do strange things, making promises, begging, sleeping on doorsteps, that would be shameful if he did them for any other purpose. But fathers also set tutors to protect their sons from lovers. What is the meaning of this? I think it means that our custom wants to test lovers well and truly, to see which are good and which are bad. The bad lover is the common one, who loves the body more than the soul. He is not constant, because what he loves is not constant. As soon as the bloom of the body fades, he flies away, breaking all his promises. But the lover of a good character stays faithful all his life, because what he loves is lasting.”",
+    "“So according to our custom, there is only one honourable way for a beloved to accept a lover: for the sake of virtue. If someone serves another person because he believes that he will become better through him, in wisdom or in any other part of virtue, that voluntary service is neither shameful nor flattering. This is the Love of the Heavenly goddess, and it is heavenly itself, and very valuable to cities and to individuals, because it forces both lover and beloved to take great care over their own virtue. All the other loves belong to the other goddess, the Common one. That, Phaedrus, is my contribution on the subject of Love, offered on the spur of the moment.”"
+   ],
+   "glossary": [
+    {
+     "term": "set out",
+     "meaning": "apresentado, exposto"
+    },
+    {
+     "term": "at random",
+     "meaning": "ao acaso"
+    },
+    {
+     "term": "worthless",
+     "meaning": "sem valor, inúteis"
+    },
+    {
+     "term": "at length",
+     "meaning": "longamente"
+    },
+    {
+     "term": "doorsteps",
+     "meaning": "soleiras das portas"
+    },
+    {
+     "term": "bloom",
+     "meaning": "viço, frescor"
+    },
+    {
+     "term": "flattering",
+     "meaning": "bajulador"
+    },
+    {
+     "term": "on the spur of the moment",
+     "meaning": "de improviso"
+    }
+   ]
+  },
+  {
+   "title": "The Doctor and the Hiccups",
+   "paragraphs": [
+    "When Pausanias paused, it was Aristophanes's turn to speak. But as it happened, he had got the hiccups, either from eating too much or from some other cause, and he couldn't speak. So he turned to the doctor, Eryximachus, who was lying on the couch below him. “Eryximachus,” he said, “it's only fair that you either stop my hiccups or speak in my place until they stop.”",
+    "“I'll do both,” said Eryximachus. “I'll speak in your turn, and you can speak in mine when your hiccups have stopped. While I'm speaking, hold your breath for a long time, and they may stop. If not, gargle with some water. And if they are very stubborn, take something to tickle your nose with and sneeze. If you do that once or twice, they will stop, even if they are very stubborn.”",
+    "“Start speaking, then,” said Aristophanes, “and I'll do what you say.”",
+    "“Pausanias began his speech well but didn't finish it properly,” said Eryximachus. “So I must try to complete it. I think he was right to say that Love is double. But my own art, medicine, has taught me that Love is not only found in human souls, attracted to beautiful people. It is found in many other things too: in the bodies of all animals, in plants growing in the earth, and in practically everything that exists. Love is a great and wonderful god, and his power extends over all things, human and divine.”",
+    "“Let me begin with medicine, to honour my own art. The nature of the body contains this double Love. Health and sickness in the body are different and unlike each other, and unlike things desire and love unlike things. So the love in a healthy body is one thing, and the love in a sick body is another. Just as Pausanias said that it is noble to grant favours to good people and shameful to grant them to bad people, so in the body it is noble and necessary to satisfy the good and healthy elements, and shameful to satisfy the bad and diseased ones. That is the art of medicine. In short, medicine is the knowledge of the loves of the body, with respect to filling and emptying. The best doctor is the one who can tell good love from bad, and who can create love where it is needed and remove it where it does harm.”",
+    "“He must be able to make the most hostile elements in the body friends and lovers of each other. The most hostile are the most opposite: cold and hot, bitter and sweet, dry and wet. Our ancestor Asclepius knew how to create love and harmony among these, as the poets here say, and I believe them, and that is how he founded our art.”",
+    "“Music too is entirely governed by this god, and so is physical training and farming. Heraclitus says that the One, being at variance with itself, is in agreement with itself, like the harmony of the bow and the lyre. Of course, it is absurd to say that harmony is at variance, or made of things still at variance. Perhaps he meant that harmony is made from high and low notes that were at variance before, but have been brought into agreement by the art of music. In the same way, rhythm comes from fast and slow, which were at variance but later agree.”",
+    "“Even the seasons of the year are full of these two loves. When the hot and the cold, the dry and the wet, are joined by orderly love and mixed in harmony and moderation, they bring good harvests and health to human beings, animals and plants, and do no harm. But when the violent kind of love takes control of the seasons, it destroys and injures many things. Plagues and many other diseases attack animals and plants, and frosts and hail and blights come from greed and disorder in these matters of love. The knowledge of these things, in the movements of the stars and the seasons, is called astronomy.”",
+    "“So Love as a whole has great and mighty power, indeed all power. But the Love that achieves good things with moderation and justice, both among us and among the gods, has the greatest power of all. He gives us complete happiness, and allows us to be friends with each other and with the gods, who are greater than us. Perhaps I too have left out many things in praising Love, but not intentionally. If I have left anything out, Aristophanes, it's your job to fill the gap. Or, if you have some other way of praising the god, do it, since your hiccups have stopped.”",
+    "Then Aristophanes answered. “Yes, they have stopped, but not before I applied the sneeze to them. So I wonder whether the orderly part of the body desires the kind of noises and tickling that a sneeze involves. The hiccups stopped as soon as I sneezed.”",
+    "“Be careful, my good Aristophanes,” said Eryximachus. “You're making jokes before you've even started. You're forcing me to watch for anything ridiculous in your speech, when you could speak in peace.”",
+    "Aristophanes laughed. “You're right, Eryximachus. Let what I've said be unsaid. But don't watch me too closely. I'm not afraid of saying something funny, because that would be a gain, and natural to my Muse. I'm afraid of saying something ridiculous.”"
+   ],
+   "glossary": [
+    {
+     "term": "hiccups",
+     "meaning": "soluços"
+    },
+    {
+     "term": "gargle",
+     "meaning": "gargarejar"
+    },
+    {
+     "term": "stubborn",
+     "meaning": "teimosos, persistentes"
+    },
+    {
+     "term": "tickle",
+     "meaning": "fazer cócegas"
+    },
+    {
+     "term": "sneeze",
+     "meaning": "espirrar"
+    },
+    {
+     "term": "at variance",
+     "meaning": "em desacordo"
+    },
+    {
+     "term": "blights",
+     "meaning": "pragas (das plantas)"
+    },
+    {
+     "term": "gap",
+     "meaning": "lacuna"
+    }
+   ]
+  },
+  {
+   "title": "The Other Half",
+   "paragraphs": [
+    "“I intend to speak in a different way from you and Pausanias, Eryximachus,” Aristophanes began. “It seems to me that human beings have completely failed to understand the power of Love. If they did understand it, they would have built him the greatest temples and altars and made him the greatest sacrifices. Instead, nothing of the kind is done, though he is the most friendly to humanity of all the gods. He is our helper and the doctor of the illness whose cure would be the greatest happiness for the human race. So I will try to explain his power to you. But first you must learn about human nature and what has happened to it.”",
+    "“Long ago our nature was not the same as it is now. To begin with, there were three kinds of human beings, not two as there are now, male and female. There was also a third kind, which had both male and female in it. Its name survives today, but the thing itself has disappeared. Secondly, each human being was completely round, with back and sides forming a circle. Each had four hands and as many legs, and two faces, exactly alike, on a round neck, looking in opposite directions. There were four ears, two sets of sexual organs, and everything else as you can imagine from this.”",
+    "“They walked upright, as we do now, in whichever direction they wanted. But when they wanted to run fast, they rolled over and over on their eight limbs, like acrobats doing cartwheels, and went very quickly. The males came from the sun, the females from the earth, and the mixed ones from the moon, which shares in both. That is why they were round, and moved in circles, like their parents. Their strength and power were terrible, and their ambitions were great. They attacked the gods, and tried to climb up to heaven to fight them.”",
+    "“Zeus and the other gods discussed what to do, and they were puzzled. They didn't want to kill them with thunderbolts and destroy the whole race, as they had done with the giants, because then they would lose the honours and sacrifices that human beings gave them. But they couldn't allow such insolence either. At last, after much thought, Zeus said, ‘I think I have a way. Human beings can continue to exist, but they will stop their wickedness by becoming weaker. I will cut each of them in two. Then they will be weaker, and also more useful to us, because there will be more of them. And if they still behave badly, I will cut them in two again, so that they hop about on one leg!’”",
+    "“So he cut them in two, like people who cut eggs in half with a hair. As he cut each one, he told Apollo to turn its face and half its neck around towards the cut, so that seeing the wound would make it more modest. Apollo also healed the rest of the wound. He pulled the skin together from all sides over what is now called the belly, like a purse with strings, and tied it in the middle. That knot is what we call the navel. He smoothed out most of the wrinkles, but he left a few around the belly and navel, to remind us of what we suffered long ago.”",
+    "“Now, since their nature had been cut in two, each half longed for its other half. They threw their arms around each other, wanting to grow together again, and they died of hunger and general idleness, because they refused to do anything apart. Zeus took pity on them and invented another plan. He moved their sexual organs round to the front, so that they could have children with each other, and so that even when man met man, they would at least have the satisfaction of being together, and would stop and turn to their work and the rest of life.”",
+    "“So ever since that distant time, love for one another has been inborn in human beings. Love brings us back to our original nature, trying to make one out of two and heal the wound of human nature. Each of us, then, is a matching half of a human being, sliced like a flatfish, two out of one. And each of us is always looking for the half that matches him. Some men are halves of the old mixed beings, and they love women. Some women are halves of the old female beings, and they are drawn to women. And those who are halves of the males pursue males.”",
+    "“And when one of them meets his own other half, the very one, they are struck in a wonderful way with friendship and intimacy and love, and they hardly want to be separated, even for a moment. These are the people who spend their whole lives together, though they couldn't even say what they want from each other. No one would think it was only sex that made them so happy to be together. It is clear that each of their souls wants something else, which it cannot put into words. It can only guess at it and hint at it, like a riddle.”",
+    "“Suppose Hephaestus came to them with his tools as they lay together, and asked, ‘What is it you want from each other? Do you want to be joined together as closely as possible, so that you are never apart, night or day? If that is what you desire, I am ready to melt you and weld you together into a single being, so that you live as one person while you live, and when you die, you die together, one instead of two, even in Hades.’ We know that not one of them would refuse. Each would believe that he had heard exactly what he had wanted all along. And the reason is that this was our original nature, and we were whole. The desire and pursuit of the whole is called love.”",
+    "“So, Eryximachus, that is my speech about Love. It is different from yours. As I asked you, don't make fun of it, because we still have to hear what each of the others will say, or rather what the last two will say, since only Agathon and Socrates are left.”"
+   ],
+   "glossary": [
+    {
+     "term": "cartwheels",
+     "meaning": "estrelas (acrobacia)"
+    },
+    {
+     "term": "insolence",
+     "meaning": "insolência"
+    },
+    {
+     "term": "hop",
+     "meaning": "pular num pé só"
+    },
+    {
+     "term": "navel",
+     "meaning": "umbigo"
+    },
+    {
+     "term": "wrinkles",
+     "meaning": "rugas"
+    },
+    {
+     "term": "idleness",
+     "meaning": "ociosidade"
+    },
+    {
+     "term": "inborn",
+     "meaning": "inato"
+    },
+    {
+     "term": "weld",
+     "meaning": "soldar"
+    }
+   ]
+  },
+  {
+   "title": "The Youngest and Most Beautiful God",
+   "paragraphs": [
+    "“I enjoyed your speech, Aristophanes,” said Eryximachus. “If I didn't know that Socrates and Agathon were experts in love, I would be afraid that they would have nothing left to say, because so many different things have already been said. But as it is, I'm confident.”",
+    "“That's because you yourself have competed well, Eryximachus,” said Socrates. “But if you were where I am, or rather where I'll be when Agathon has spoken, you would be very afraid, as I am now.”",
+    "“You're trying to bewitch me, Socrates,” said Agathon, “by making me think that the audience expects great things from me, so that I'll be nervous.”",
+    "“I'd be very forgetful, Agathon,” said Socrates, “if I thought you would be nervous in front of a few people like us, after I saw your courage and confidence when you stepped onto the stage with your actors, and looked out at that enormous audience without the slightest fear.” Agathon answered that an intelligent man is more afraid of a few wise people than of many foolish ones, and Socrates began to question him about this. But Phaedrus interrupted. “My dear Agathon, if you answer Socrates, he won't care at all what happens to our speeches, as long as he has someone to talk to, especially someone handsome. Pay the god his due first, and then you can talk to each other.”",
+    "“You're right, Phaedrus,” said Agathon. “Nothing prevents me from speaking.” And he began. “All the speakers before me, I think, have not praised the god but congratulated human beings on the good things he gives them. No one has said what he himself is like. So I will first say what kind of god Love is, and then what gifts he gives.”",
+    "“I say that, of all the happy gods, Love is the happiest, because he is the most beautiful and the best. He is the most beautiful because, first of all, he is the youngest of the gods, Phaedrus. He himself gives a great proof of this, because he runs away from old age, which is clearly swift, since it comes to us faster than it should. Love hates old age by nature and won't come anywhere near it. He is always with young people, and he is young himself. I disagree with Phaedrus on many points, but especially on this one: Love is not older than Cronus and Iapetus. He is the youngest of the gods and always young. The ancient quarrels among the gods that Hesiod and Parmenides tell of were caused by Necessity, not by Love. If Love had been among them, there would have been no castrations and chains, but friendship and peace, as there is now, since Love has been king of the gods.”",
+    "“He is also delicate, and he needs a poet like Homer to show how delicate he is. He walks on and lives in the softest things there are, for he makes his home in the characters and souls of gods and human beings. But not in every soul. If he finds a soul with a hard character, he goes away, and if he finds a soft one, he settles there. He is also supple in shape, or he could not wrap himself around everything, and enter and leave every soul without being noticed. And the beauty of his complexion is shown by the fact that he lives among flowers. Where there is no flower, or where the flower has faded, in a body or in a soul, Love will not settle. But where there are flowers and sweet scents, there he settles and stays.”",
+    "“As for his virtue, the most important thing is that Love never does wrong, nor suffers wrong, from any god or any human being. If anything happens to him, it is never by force, because force never touches Love; everyone serves Love willingly in everything. He is also extremely moderate, for moderation is control over pleasures and desires, and no pleasure is stronger than Love. And as for courage, not even Ares can stand up to Love. It is not Ares who holds Love, but Love who holds Ares, love of Aphrodite, as the story says. And the one who holds is stronger than the one who is held, so Love is the bravest of all.”",
+    "“He is also so wise a poet that he makes others poets. Everyone becomes a poet, however unmusical he was before, when Love touches him. And who would deny that all the creatures were born and grew through the wisdom of Love? Even the arts of the gods, Apollo's archery and medicine, the Muses' music, Hephaestus's metalwork, Athena's weaving and Zeus's government of gods and men, were all discovered under Love's guidance. He empties us of hostility and fills us with friendship. He gives gentleness and banishes savagery. He is generous with kindness and stingy with unkindness. Every god and every human being should follow him, singing beautiful hymns in his honour. Let this speech, Phaedrus, be my offering to the god, partly playful and partly serious, as well as I can make it.”",
+    "When Agathon had finished, Aristodemus said, everyone present applauded loudly, because the young man had spoken in a way worthy of himself and of the god. Socrates looked at Eryximachus. “Well, son of Acumenus, do you still think my fear was groundless? Didn't I say, like a prophet, that Agathon would speak wonderfully and that I would be left with nothing to say?”"
+   ],
+   "glossary": [
+    {
+     "term": "bewitch",
+     "meaning": "enfeitiçar"
+    },
+    {
+     "term": "pay the god his due",
+     "meaning": "dar ao deus o que lhe é devido"
+    },
+    {
+     "term": "swift",
+     "meaning": "rápida, veloz"
+    },
+    {
+     "term": "supple",
+     "meaning": "flexível, maleável"
+    },
+    {
+     "term": "complexion",
+     "meaning": "pele, tez"
+    },
+    {
+     "term": "banishes",
+     "meaning": "expulsa, bane"
+    },
+    {
+     "term": "stingy",
+     "meaning": "avarento, mesquinho"
+    },
+    {
+     "term": "groundless",
+     "meaning": "infundado, sem motivo"
+    }
+   ]
+  },
+  {
+   "title": "Love Desires What It Lacks",
+   "paragraphs": [
+    "“Only partly, Socrates,” said Eryximachus. “You were right that Agathon would speak well. But I don't believe that you will have nothing to say.”",
+    "“How could I not be at a loss, my friend,” said Socrates, “I or anyone else, who has to speak after such a beautiful and varied speech? The end especially, with the beauty of its words and phrases, would amaze anyone who heard it. I was so ashamed that I nearly ran away, if I'd had anywhere to go. In my foolishness I thought that we should tell the truth about whatever we were praising. But it seems that this was not the right way to praise anything. Instead, you should attribute the greatest and most beautiful qualities to it, whether it has them or not, and it doesn't matter if they're false. So I won't make that kind of speech; I couldn't. But if you like, I'm willing to tell the truth in my own way. Before I begin, though, Phaedrus, let me ask Agathon a few small questions, so that we can agree on some points before I speak.”",
+    "Phaedrus and the others told him to go ahead. “Well, my dear Agathon,” said Socrates, “I think you began your speech beautifully when you said that we must first show what Love is like, and then his works. Now tell me this. Is Love the kind of thing that is love of something, or of nothing? I don't mean whether he is the son of some mother or father; that would be a ridiculous question. I mean it as if I asked about a father: is a father the father of someone, or not?”",
+    "“He is the father of a son or daughter, of course,” said Agathon.",
+    "“And a brother is the brother of someone?”",
+    "“Yes.”",
+    "“Then answer in the same way about Love. Is Love the love of something or of nothing?”",
+    "“Certainly of something.”",
+    "“Keep that in mind, then, and remember what it is love of. But tell me this much: does Love desire the thing that it is love of, or not?”",
+    "“Certainly it does.”",
+    "“And does he desire and love it when he has it, or when he doesn't have it?”",
+    "“Probably when he doesn't have it,” said Agathon.",
+    "“Not probably, but necessarily,” said Socrates. “Consider whether it is necessary that anything that desires, desires what it lacks, and that it doesn't desire what it doesn't lack. It seems wonderfully necessary to me, Agathon. Would anyone who is tall want to be tall, or anyone who is strong want to be strong?”",
+    "“That's impossible, from what we've agreed.”",
+    "“Because nobody lacks the qualities he already has. But suppose a strong man said, ‘I'm healthy and I want to be healthy, I'm rich and I want to be rich.’ We would say to him, ‘You already have wealth and health and strength, but what you want is to have them in the future too, because at the moment, whether you want to or not, you have them.’ So when he says he desires what he has, he really means that he wants to keep it in the future. So anyone who desires, desires what is not available and not present, what he does not have and is not, and what he lacks. Those are the things that desire and love are directed towards.”",
+    "“Certainly,” said Agathon.",
+    "“Now let us review what we have agreed. Isn't Love, first, love of something, and second, of things that he lacks?”",
+    "“Yes.”",
+    "“Then remember what you said in your speech were the objects of Love. I'll remind you, if you like. I think you said that the affairs of the gods were arranged through love of beautiful things, since there could be no love of ugly things. Didn't you say something like that?”",
+    "“I did.”",
+    "“And that is a reasonable thing to say, my friend. So Love is love of beauty, and not of ugliness?”",
+    "“Yes.”",
+    "“But we have agreed that he loves what he lacks and does not have. So Love lacks beauty and does not have it.”",
+    "“Necessarily.”",
+    "“Well then, do you call something beautiful which lacks beauty and does not have it at all?”",
+    "“Certainly not.”",
+    "“Then do you still believe that Love is beautiful, if this is true?”",
+    "Agathon smiled. “It seems, Socrates, that I didn't know what I was talking about.”",
+    "“And yet you spoke beautifully, Agathon,” said Socrates. “But tell me one more small thing. Do you think that good things are also beautiful?”",
+    "“I do.”",
+    "“Then if Love lacks beautiful things, and good things are beautiful, he must also lack good things.”",
+    "“I can't argue against you, Socrates,” said Agathon. “Let it be as you say.”",
+    "“No, my dear Agathon, it is the truth that you cannot argue against,” said Socrates. “It is not at all difficult to argue against Socrates. Now I will let you go, and I will tell you the speech about Love that I once heard from a woman of Mantinea, Diotima. She was wise in this and in many other things. Once, before the plague, she told the Athenians to make certain sacrifices, and she delayed the disease for ten years. She was the one who taught me about love. I'll try to repeat to you what she said to me, starting from the points that Agathon and I have agreed on, as well as I can on my own.”"
+   ],
+   "glossary": [
+    {
+     "term": "at a loss",
+     "meaning": "sem saber o que dizer"
+    },
+    {
+     "term": "varied",
+     "meaning": "variado"
+    },
+    {
+     "term": "attribute",
+     "meaning": "atribuir"
+    },
+    {
+     "term": "lacks",
+     "meaning": "falta, carece de"
+    },
+    {
+     "term": "directed towards",
+     "meaning": "dirigidos a"
+    },
+    {
+     "term": "review",
+     "meaning": "rever, recapitular"
+    },
+    {
+     "term": "argue against",
+     "meaning": "contestar"
+    },
+    {
+     "term": "delayed",
+     "meaning": "adiou, retardou"
+    }
+   ]
+  },
+  {
+   "title": "The Lessons of Diotima",
+   "paragraphs": [
+    "“I said to her almost exactly what Agathon said to me just now,” Socrates went on, “that Love was a great god, and that he was beautiful. And she refuted me with the same arguments I used against him: that according to my own words he was neither beautiful nor good. ‘What do you mean, Diotima?’ I said. ‘Is Love ugly and bad, then?’”",
+    "“‘Hush,’ she said. ‘Do you think that whatever is not beautiful must be ugly? Or that whatever is not wise must be ignorant? Haven't you noticed that there is something between wisdom and ignorance? Having correct opinions without being able to give a reason for them is neither knowledge, since how could something without reasons be knowledge, nor ignorance, since how could something that hits the truth be ignorance? Correct opinion is something in between. So don't insist that what is not beautiful is ugly, or that what is not good is bad. It is the same with Love. Since you yourself agree that he is not good or beautiful, don't think that he must be ugly and bad. He is something between them.’”",
+    "“‘But everyone agrees that he is a great god,’ I said.",
+    "‘Everyone who doesn't know, or everyone who does know?’ she asked. ‘Tell me, don't you say that all the gods are happy and beautiful? And don't you call happy those who possess good and beautiful things? But you have agreed that Love, because he lacks good and beautiful things, desires the very things he lacks. How could someone who has no share of good and beautiful things be a god?’",
+    "‘It seems he couldn't,’ I said. ‘Then what is Love? A mortal?’",
+    "‘Not at all. As in the earlier examples, he is between mortal and immortal. He is a great spirit, Socrates. Everything spiritual is between god and mortal.’”",
+    "“‘And what is its power?’ I asked.",
+    "‘It carries messages and translates between gods and human beings. It carries prayers and sacrifices from men up to the gods, and commands and rewards from the gods down to men. Being in the middle, it fills the space between them, so that the whole universe is bound together. God does not mix with man, but through spirits all communication and conversation between gods and men takes place, whether they are awake or asleep. There are many such spirits, and one of them is Love.’”",
+    "“‘Who are his father and mother?’ I asked.",
+    "‘That is a rather long story,’ she said, ‘but I'll tell you. When Aphrodite was born, the gods held a feast, and among them was Resource, the son of Cunning. When they had finished eating, Poverty came to beg, as she always does at a celebration, and she stood by the door. Resource, drunk on nectar, for there was no wine yet, went into the garden of Zeus and fell asleep, heavy with drink. Then Poverty, because of her own lack of resources, made a plan to have a child by Resource. She lay down beside him and conceived Love. That is why Love is the follower and servant of Aphrodite: he was conceived on her birthday, and he is by nature a lover of beauty, because Aphrodite is beautiful.’”",
+    "“‘Because he is the son of Resource and Poverty, his fate is this. First, he is always poor, and far from being delicate and beautiful, as most people think, he is tough and dirty, barefoot and homeless. He always lies on the ground without a bed, sleeping in doorways and by the roadside under the open sky. Having his mother's nature, he always lives with need. But like his father, he schemes to get beautiful and good things. He is brave, eager and intense, a clever hunter, always weaving some trick, desiring wisdom and full of resources, a lover of wisdom all through his life, a skilled magician and sophist. He is neither immortal nor mortal. On the same day he flourishes and lives, when things go well, and then he dies, and comes back to life again through his father's nature. What he gains always slips away, so that Love is never completely without resources, nor rich.’”",
+    "“‘He is also between wisdom and ignorance. No god loves wisdom or desires to become wise, because they are wise already. Nor do the ignorant love wisdom, because the trouble with ignorance is precisely this: a person who is neither beautiful nor good nor wise is perfectly satisfied with himself. He doesn't desire what he doesn't think he lacks.’",
+    "‘Then who are the lovers of wisdom, Diotima,’ I asked, ‘if they are neither the wise nor the ignorant?’",
+    "‘By now even a child could see,’ she said. ‘They are those in between, and Love is one of them. Wisdom is one of the most beautiful things, and Love is love of beauty, so Love must be a lover of wisdom, a philosopher, and as a philosopher he is between wise and ignorant. You thought Love was the beloved, Socrates, not the lover. That's why he seemed so beautiful to you. What is lovable is truly beautiful, delicate, perfect and blessed. But the lover has a quite different nature, the one I have described.’”"
+   ],
+   "glossary": [
+    {
+     "term": "refuted",
+     "meaning": "refutou"
+    },
+    {
+     "term": "hush",
+     "meaning": "silêncio, quieto"
+    },
+    {
+     "term": "bound together",
+     "meaning": "unido, ligado"
+    },
+    {
+     "term": "conceived",
+     "meaning": "concebeu"
+    },
+    {
+     "term": "homeless",
+     "meaning": "sem casa, sem-teto"
+    },
+    {
+     "term": "weaving",
+     "meaning": "tecendo, tramando"
+    },
+    {
+     "term": "flourishes",
+     "meaning": "floresce, prospera"
+    },
+    {
+     "term": "lovable",
+     "meaning": "amável, digno de amor"
+    }
+   ]
+  },
+  {
+   "title": "Giving Birth in Beauty",
+   "paragraphs": [
+    "“‘Very well, then,’ I said. ‘You speak beautifully. But if Love is like that, what use is he to human beings?’",
+    "‘That is what I will try to teach you next,’ she said. ‘Suppose someone asked us: what does the lover of beautiful things love? What does he want?’",
+    "‘That they should become his,’ I said.",
+    "‘But that answer leads to another question. What will he have when beautiful things become his? Let's change the word and use “good” instead. What does the lover of good things want?’",
+    "‘That they should become his.’",
+    "‘And what will he have when good things become his?’",
+    "‘That's easier to answer,’ I said. ‘He will be happy.’",
+    "‘Yes, because happy people are happy by possessing good things, and there is no need to ask further why someone wants to be happy. The answer seems final. And do you think this desire is common to all human beings, and that everyone always wants good things to be his?’",
+    "‘Yes, it is common to all.’”",
+    "“‘Then why don't we say that everyone loves, Socrates, if everyone always loves the same things? Why do we say that some people love and others don't?’ She explained that we take one kind of love, love between people, and give it the name of the whole, just as the word ‘poetry’ really means any kind of making, but we use it only for music and verse. ‘In fact, every desire for good things and for happiness is “the supreme and treacherous love” in everyone. Those who pursue it through making money, or through athletics, or through philosophy, are not called lovers. Only those who pursue one particular kind get the name of the whole. There is a story that lovers are those who look for their other half. But I say that love is not of a half, nor of a whole, unless that happens to be good. People are even willing to have their own feet and hands cut off, if they think they are diseased. What everyone loves is nothing other than the good. So love is wanting the good to be one's own forever.’”",
+    "“‘Then what is the way and what is the activity,’ she asked, ‘of those who pursue the good, in which their eagerness and effort is called love? What is its function? Can you tell me?’",
+    "‘If I could, Diotima,’ I said, ‘I wouldn't be admiring you for your wisdom and coming to you to learn about these things.’",
+    "‘Then I'll tell you. Its function is giving birth in beauty, both in body and in soul.’",
+    "‘It needs a prophet to understand what you mean,’ I said. ‘I don't understand.’",
+    "‘I'll put it more clearly. All human beings are pregnant, Socrates, both in body and in soul. When we reach a certain age, our nature desires to give birth. But it cannot give birth in ugliness, only in beauty. This is something divine: pregnancy and birth are the immortal element in a mortal living creature. So love is not of beauty, as you think. It is of reproduction and birth in beauty, because reproduction is the nearest thing to immortality that a mortal can have. And if love is wanting the good to be one's own forever, then love must also be love of immortality.’”",
+    "“She taught me all this on the various occasions when she spoke to me about love. Once she asked me, ‘What do you think is the cause of this love and desire, Socrates? Haven't you noticed how strangely animals behave when they desire to reproduce? They all become sick with love, first to mate with each other, and then to feed their young. They are ready to fight the strongest enemies to protect them, and even to die for them. They starve themselves to feed them. Why? Because mortal nature seeks as far as it can to live forever and be immortal. And it can do this only in one way, by generation, always leaving behind something new in place of the old.’”",
+    "“‘Even within one life, a person is said to be the same from childhood to old age, but he never has the same hair, flesh, bones or blood. He is always being renewed and losing something. And it's not only the body. His habits, character, opinions, desires, pleasures and fears never stay the same. Even our knowledge comes and goes. What we call studying exists because knowledge leaves us. Forgetting is the departure of knowledge, and studying puts a new memory in place of the one that left, so that knowledge seems to stay the same. That is how everything mortal is preserved.’”",
+    "“‘Look at people's love of honour, too. You would be amazed at its irrationality, unless you think about how terribly they are affected by the desire to become famous and win immortal glory for all time. For this they are ready to run every risk, even more than for their children, to spend money, to endure any hardship, and even to die. Do you think Alcestis would have died for her husband, or Achilles for Patroclus, if they hadn't believed that their virtue would be remembered forever, as it is by us?’”",
+    "“‘Some people are pregnant in body, and they turn to women and have children, hoping in that way to win immortality and remembrance. But others are pregnant in soul, even more than in body, and they are pregnant with wisdom and the rest of virtue. All the poets and the inventive craftsmen are of this kind. The greatest and most beautiful part of wisdom is the ordering of cities and households, which is called moderation and justice. Who would not prefer to have such children rather than human ones? Look at Homer and Hesiod, and envy them for the offspring they left behind, which bring them immortal fame. Or look at Lycurgus, whose laws saved Sparta, or Solon, whose laws are honoured among us. Temples have been built for such people because of their children of the soul, but never yet for anyone because of human children.’”"
+   ],
+   "glossary": [
+    {
+     "term": "treacherous",
+     "meaning": "traiçoeiro"
+    },
+    {
+     "term": "eagerness",
+     "meaning": "avidez, entusiasmo"
+    },
+    {
+     "term": "pregnant",
+     "meaning": "grávidos"
+    },
+    {
+     "term": "mate",
+     "meaning": "acasalar"
+    },
+    {
+     "term": "generation",
+     "meaning": "geração, reprodução"
+    },
+    {
+     "term": "renewed",
+     "meaning": "renovado"
+    },
+    {
+     "term": "hardship",
+     "meaning": "sofrimento, privação"
+    },
+    {
+     "term": "remembrance",
+     "meaning": "lembrança, memória"
+    }
+   ]
+  },
+  {
+   "title": "The Ladder of Love",
+   "paragraphs": [
+    "“‘Even you, Socrates, could perhaps be initiated into these mysteries of love,’ Diotima said. ‘But I don't know whether you could reach the final and highest mysteries, for which all of these are only preparation, if a person pursues them correctly. Still, I will tell you, and I won't hold anything back. Try to follow me, if you can.’”",
+    "“‘Whoever wants to go about this matter correctly must begin, when he is young, by turning towards beautiful bodies. First, if his guide leads him correctly, he should love one body and give birth there to beautiful words. Then he should realise that the beauty of one body is closely related to the beauty of another. And if he must pursue beauty of form, it would be foolish not to see that the beauty in all bodies is one and the same. When he understands this, he must become a lover of all beautiful bodies, and relax his intense passion for just one, looking down on it as a small thing.’”",
+    "“‘After this, he must believe that the beauty of souls is more valuable than the beauty of bodies. So if someone has a good soul, even if he has little bloom of youth, it is enough for the lover. He will love and care for him, and look for the kind of words that make young men better. In this way he will be forced to see the beauty in activities and laws, and to see that all of this is related, so that he will think that the beauty of the body is a trivial thing.’”",
+    "“‘After activities, the guide must lead him to different kinds of knowledge, so that he sees their beauty too. Looking now at the great extent of beauty, he will no longer be like a servant, devoted to the beauty of one boy or one man or one activity, mean and small-minded. Instead, he will turn towards the great open sea of beauty, and by contemplating it he will give birth to many beautiful and magnificent words and thoughts, in a boundless love of wisdom. Until, strengthened and growing there, he catches sight of one particular knowledge, which is the knowledge of a beauty I will now describe. Try to pay attention as closely as you can.’”",
+    "“‘Whoever has been guided this far in the mysteries of love, and has looked at beautiful things one after another in the correct order, will come now to the end of his journey. Suddenly he will see something wonderfully beautiful in its nature, Socrates. This is the reason for all his earlier efforts. First, it always is. It neither comes into being nor passes away, neither grows nor shrinks. Second, it is not beautiful in one way and ugly in another, or beautiful at one time and not at another, or beautiful in relation to one thing and ugly in relation to another, or beautiful here and ugly there, as if it were beautiful to some people and ugly to others.’”",
+    "“‘Nor will this beauty appear to him in the form of a face or hands or anything else that belongs to the body. It will not appear as a speech or a piece of knowledge, or as being in something else, such as an animal, or the earth, or the sky. It will appear as itself, by itself, with itself, always one in form. And all the other beautiful things share in it in such a way that, when they come into being and pass away, it does not become larger or smaller, and nothing at all happens to it.’”",
+    "“‘So when someone rises by these steps, through loving boys correctly, and begins to see this beauty, he has almost reached the end. This is the right way to approach the things of love, or to be led to them by another. Starting from these beautiful things here, one must always climb upwards for the sake of that other beauty, using these things like the steps of a ladder: from one body to two, and from two to all beautiful bodies, and from beautiful bodies to beautiful activities, and from activities to beautiful kinds of learning. And from these one comes at last to that learning which is the learning of nothing else but of beauty itself, so that in the end he knows what beauty itself is.’”",
+    "“‘There, if anywhere, my dear Socrates,’ said the woman from Mantinea, ‘life is worth living for a human being: in contemplating beauty itself. If you ever see it, you will not think it is like gold or clothes or beautiful boys and young men, which now amaze you so much when you see them. You and many others are ready to stop eating and drinking, if it were possible, just to look at your beloved and be with him. What do we think it would be like if someone could see beauty itself, pure, clean and unmixed, not filled with human flesh and colours and all that mortal nonsense, but the divine beauty itself in its single form?’”",
+    "“‘Do you think it would be a poor life for a human being to look there and contemplate it, and be with it? Don't you realise that only there, when he sees beauty with the faculty by which it can be seen, will he be able to give birth not to images of virtue, because he is not in touch with an image, but to true virtue, because he is in touch with the truth? And when he has given birth to true virtue and nourished it, he can become dear to the gods, and immortal, if any human being can.’”",
+    "“This, Phaedrus and the rest of you, is what Diotima told me,” Socrates concluded, “and I am persuaded. And being persuaded, I try to persuade others that, to acquire this possession, human nature could not easily find a better helper than Love. That is why I say that every man should honour Love, as I myself honour the things of love and practise them above all, and encourage others to do so. Now and always I praise the power and courage of Love as far as I am able. So, Phaedrus, consider this speech, if you like, as a speech in praise of Love. Or call it whatever you please.”"
+   ],
+   "glossary": [
+    {
+     "term": "initiated",
+     "meaning": "iniciado"
+    },
+    {
+     "term": "hold anything back",
+     "meaning": "esconder nada"
+    },
+    {
+     "term": "looking down on",
+     "meaning": "desprezando, considerando inferior"
+    },
+    {
+     "term": "small-minded",
+     "meaning": "mesquinho, de mente estreita"
+    },
+    {
+     "term": "boundless",
+     "meaning": "ilimitado, sem fronteiras"
+    },
+    {
+     "term": "shrinks",
+     "meaning": "encolhe, diminui"
+    },
+    {
+     "term": "ladder",
+     "meaning": "escada (de mão)"
+    },
+    {
+     "term": "faculty",
+     "meaning": "faculdade, capacidade"
+    }
+   ]
+  },
+  {
+   "title": "A Knock at the Door",
+   "paragraphs": [
+    "When Socrates had finished, the others praised his speech, and Aristophanes was trying to say something, because Socrates had mentioned his story about the other half. Suddenly there was loud knocking at the courtyard door, and the noise of drunken revellers, and they heard the voice of a flute girl. “Go and see who it is, boys,” said Agathon to his slaves. “If it's one of our friends, invite him in. If not, say that we have stopped drinking and are going to sleep.”",
+    "Not long afterwards they heard the voice of Alcibiades in the courtyard, very drunk and shouting loudly, asking where Agathon was and demanding to be taken to him. The flute girl and some of his companions helped him in and brought him to the door of the room. There he stood, crowned with a thick wreath of ivy and violets, with a great many ribbons on his head. “Good evening, gentlemen,” he said. “Will you accept a man who is extremely drunk as a fellow drinker? Or shall we just crown Agathon, which is what we came for, and go away? I couldn't come yesterday, but now I've come with these ribbons on my head, so that I can take them from my own head and crown the head of the wisest and most beautiful man. Are you laughing at me because I'm drunk? Well, laugh if you like, but I know I'm telling the truth. Tell me right away: shall I come in or not? Will you drink with me?”",
+    "Everyone shouted and told him to come in and take a couch, and Agathon invited him. So he came in, led by his companions, and as he walked he was taking off the ribbons to crown Agathon. Because the ribbons were in front of his eyes, he didn't see Socrates, and he sat down between Socrates and Agathon. Socrates moved over to make room for him. Alcibiades embraced Agathon and crowned him.",
+    "“Take off Alcibiades's shoes, boys,” said Agathon, “so that he can lie here as the third.”",
+    "“Gladly,” said Alcibiades, “but who is this third drinker with us?” He turned around, saw Socrates, and jumped up. “Good Heracles, what's this? Socrates here! You were lying in wait for me again, as you always do, appearing suddenly where I least expect you to be. Why are you here? And why are you lying here, and not next to Aristophanes or some other joker? Instead you've arranged to lie beside the most beautiful person in the room!”",
+    "“Agathon, please protect me,” said Socrates. “My love for this man has become a great deal of trouble for me. Since I fell in love with him, I'm not allowed even to look at a beautiful person or talk to one, or he becomes jealous and envious, and does extraordinary things. He abuses me and can hardly keep his hands off me. So make sure he doesn't do anything now. Reconcile us, or, if he tries to use violence, defend me, because I'm really frightened by his madness and his passion.”",
+    "“There can be no reconciliation between you and me,” said Alcibiades. “But I'll punish you for this another time. For now, Agathon, give me back some of those ribbons, so that I can crown his wonderful head too. Otherwise he'll blame me for crowning you and not crowning him, though he defeats everyone in words, not only the day before yesterday, like you, but always.” So he took some of the ribbons, crowned Socrates, and lay down.",
+    "“Well, gentlemen,” he said, “you seem sober to me. That can't be allowed. You must drink; that was our agreement. So I'll choose myself as master of the drinking, until you've had enough. Bring me a big cup, Agathon, if you have one. No, wait, there's no need. Boy, bring me that wine cooler.” It held more than two litres. He filled it, drank it all first himself, and then ordered it to be filled for Socrates. “Watch this, gentlemen,” he said. “My trick won't work on Socrates. However much you tell him to drink, he'll drink it all and never get drunk.” The slave filled it, and Socrates drank.",
+    "Then Eryximachus protested. “What are we doing, Alcibiades? Are we going to say nothing and sing nothing over the cup, but simply drink like thirsty men?” He explained that before Alcibiades arrived they had agreed that each person should make a speech in praise of Love, as beautiful as he could, going from left to right. “All of us have spoken,” he said. “You haven't spoken, but you have drunk. So it's only right that you should speak. Then you can give Socrates whatever task you like, and he can do the same to the person on his right, and so on.”",
+    "“That's a fine idea, Eryximachus,” said Alcibiades. “But it isn't fair to compare a drunk man's speech with the speeches of sober men. And besides, my dear friend, do you believe anything Socrates just said? Don't you know that the truth is the exact opposite? If I praise anyone in his presence, god or man, other than him, he won't keep his hands off me.”",
+    "“Be quiet,” said Socrates.",
+    "“By Poseidon, don't say a word,” said Alcibiades. “I won't praise anyone else while you're here.”",
+    "“Then do that,” said Eryximachus, “if you like. Praise Socrates.”"
+   ],
+   "glossary": [
+    {
+     "term": "revellers",
+     "meaning": "farristas, foliões"
+    },
+    {
+     "term": "wreath",
+     "meaning": "coroa, grinalda"
+    },
+    {
+     "term": "ivy",
+     "meaning": "hera"
+    },
+    {
+     "term": "embraced",
+     "meaning": "abraçou"
+    },
+    {
+     "term": "lying in wait",
+     "meaning": "de tocaia, à espreita"
+    },
+    {
+     "term": "abuses",
+     "meaning": "insulta, maltrata"
+    },
+    {
+     "term": "reconcile",
+     "meaning": "reconciliar"
+    },
+    {
+     "term": "wine cooler",
+     "meaning": "vaso de resfriar vinho"
+    }
+   ]
+  },
+  {
+   "title": "In Praise of Socrates",
+   "paragraphs": [
+    "“I will try to praise Socrates, gentlemen, by using images,” said Alcibiades. “He may think I'm doing it to make fun of him, but the image will be for the sake of the truth, not for a joke. I say that he is exactly like those statues of Silenus that sit in the sculptors' shops, holding flutes or pipes. When you open them in two, you find little statues of gods inside. And I say he also looks like the satyr Marsyas. You can't deny your appearance, Socrates. But you are like him in other ways too. You're insolent, aren't you? And aren't you a flute player? A much more wonderful one than Marsyas. He charmed people with instruments, but you do the same with words alone. When we hear anyone else speaking, even a very good speaker, nobody cares. But when we hear you, or your words repeated by someone else, we are amazed and possessed.”",
+    "“When I listen to him, my heart jumps more than the heart of a wild dancer, and tears pour from my eyes. I've heard Pericles and other good speakers, but nothing like this ever happened to me. This Marsyas has often put me in such a state that I felt my life was not worth living as it is. He forces me to admit that, while I lack so many things myself, I neglect my own soul and spend my time on Athenian politics. So I block my ears and run away from him, as if from the Sirens, so that I won't sit beside him until I'm old. He is the only person in the world who makes me feel ashamed. I know I can't argue that I shouldn't do what he tells me, but when I leave him, I give in to the honours the crowd offers me. So I run away and avoid him, and when I see him, I am ashamed of what I've admitted. Often I'd be glad if he didn't exist, and yet if that happened, I know I'd be even more miserable.”",
+    "“You see that Socrates seems to be attracted to beautiful young men, and he's always around them and amazed by them. He also seems to know nothing at all. Isn't that just like Silenus? That's his outer shell, like the carved Silenus. But when he is opened up, my fellow drinkers, you can't imagine how full of self-control he is inside. Believe me, he doesn't care at all whether someone is beautiful, or rich, or has any other honour that the crowd admires. He thinks all these possessions are worthless, and that we are nothing. He spends his whole life being ironic and playing with people. But I once saw the statues inside him when he was serious and opened up, and they seemed to me so divine and golden, so beautiful and wonderful, that I simply had to do whatever Socrates told me.”",
+    "Then Alcibiades told them, with a mixture of shame and laughter, how as a young man he had believed that Socrates was interested in his beauty. He had tried every way to win him: he had sent away his servant so that they were alone, invited him to wrestle, and invited him to dinner like a lover, keeping him talking late into the night. At last he told Socrates openly that he would give him anything, if Socrates would make him as good as possible. “And he listened,” said Alcibiades, “and then said, in his usual ironic way, ‘My dear Alcibiades, you want to exchange gold for bronze. You want true beauty in exchange for the appearance of beauty. But be careful. The sight of the mind begins to see clearly when the sight of the eyes begins to fade, and you are still far from that.’ And when I lay down beside him all night under his cloak, believe me, nothing more happened than if I had been sleeping beside my father or an older brother.”",
+    "“After that, I felt humiliated, but I admired his character, his self-control and his courage. Then we served together in the army at Potidaea, and I saw that he endured hardships better than anyone. When our supplies were cut off, no one could endure hunger like him. In the terrible winter, when everyone else stayed inside or went out wrapped in felt and fleeces, he went out in his usual cloak and walked barefoot on the ice more easily than the others did in shoes. And once, he started thinking about something early in the morning and stood in the same spot, considering it. When it wouldn't come, he didn't give up, but stood there searching. By midday people noticed, and in the evening some soldiers brought out their mattresses to sleep outside and see whether he would stand there all night. He stood until dawn and the sun rose. Then he said a prayer to the sun and went away.”",
+    "“And in battle, too. When I was wounded, he would not leave me behind, but saved both me and my weapons. The generals wanted to give me the prize for courage, because of my rank, but he was more eager than they were that I should have it, and not himself. And during the retreat from Delium, I watched him walking calmly through the chaos, looking around at friends and enemies, so that it was obvious, even from far away, that if anyone attacked this man, he would defend himself fiercely. That is why he and his companion got away safely.”",
+    "“You could find others like Achilles or Pericles in history,” Alcibiades concluded. “But this man is so strange, both in himself and in his words, that you could never find anyone like him, past or present, unless you compare him, as I do, not with any human being but with Silenus and the satyrs. His words are like that too. At first they seem ridiculous, all about donkeys and blacksmiths and shoemakers. But if you open them up and look inside, you will find that they are the only words with intelligence in them, and the most divine, full of images of virtue. So I warn you, Agathon: don't be deceived by him. Learn from our sufferings and be careful, and don't be like the fool in the proverb, who learns only by experience.”"
+   ],
+   "glossary": [
+    {
+     "term": "satyr",
+     "meaning": "sátiro"
+    },
+    {
+     "term": "possessed",
+     "meaning": "possuídos, tomados"
+    },
+    {
+     "term": "block my ears",
+     "meaning": "tapo os ouvidos"
+    },
+    {
+     "term": "outer shell",
+     "meaning": "casca externa"
+    },
+    {
+     "term": "wrestle",
+     "meaning": "lutar (luta livre)"
+    },
+    {
+     "term": "humiliated",
+     "meaning": "humilhado"
+    },
+    {
+     "term": "fleeces",
+     "meaning": "peles de carneiro"
+    },
+    {
+     "term": "blacksmiths",
+     "meaning": "ferreiros"
+    }
+   ]
+  },
+  {
+   "title": "Morning",
+   "paragraphs": [
+    "When Alcibiades had finished, everyone laughed at his frankness, because he seemed to be still in love with Socrates. “You seem sober to me, Alcibiades,” said Socrates. “Otherwise you would never have wrapped things up so cleverly, trying to hide the real reason why you said all this. You put it at the end, as if it were an afterthought. The truth is that you want to make trouble between Agathon and me. You think that I ought to love you and nobody else, and that Agathon ought to be loved by you and nobody else. But your satyr play has been exposed, Agathon. Don't let him succeed. Make sure that no one comes between you and me.”",
+    "Agathon laughed. “I think you're right, Socrates. The proof is that he lay down between us to separate us. But he won't gain anything by it. I'll come and lie down next to you.” And he got up to move beside Socrates, so that Socrates could praise him in turn, as the rules required.",
+    "But at that moment a great crowd of revellers arrived at the door. Finding it open, because someone was just going out, they marched straight into the room and lay down among the guests. The whole place was filled with noise, and all order was lost, and everyone was forced to drink enormous quantities of wine. Eryximachus, Phaedrus and some of the others went home, Aristodemus said, and he himself fell asleep and slept for a long time, because the nights were long at that time of year.",
+    "He woke up near dawn, when the cocks were already crowing. He saw that the others were either asleep or had gone away. Only Agathon, Aristophanes and Socrates were still awake, drinking from a large bowl that they passed from left to right. Socrates was talking to them. Aristodemus did not remember most of the conversation, because he had missed the beginning and was still sleepy. But the main point was that Socrates was forcing them to admit that the same man should be able to write both comedy and tragedy, and that a skilled writer of tragedy should also be a writer of comedy.",
+    "They were being compelled to agree, though they were not following very well, and they kept nodding off. Aristophanes fell asleep first, and then, when it was already full daylight, Agathon. When Socrates had put them both to sleep, he got up and left, and Aristodemus followed him, as usual. Socrates went to the Lyceum, washed, and spent the rest of the day as he did any other. Then, in the evening, he went home to rest."
+   ],
+   "glossary": [
+    {
+     "term": "frankness",
+     "meaning": "franqueza"
+    },
+    {
+     "term": "wrapped things up",
+     "meaning": "encerrou a conversa"
+    },
+    {
+     "term": "afterthought",
+     "meaning": "algo pensado depois, reflexão tardia"
+    },
+    {
+     "term": "exposed",
+     "meaning": "desmascarado"
+    },
+    {
+     "term": "crowing",
+     "meaning": "cantando (galo)"
+    },
+    {
+     "term": "skilled",
+     "meaning": "habilidoso"
+    },
+    {
+     "term": "nodding off",
+     "meaning": "cochilando"
+    },
+    {
+     "term": "compelled",
+     "meaning": "obrigados"
+    }
+   ]
+  }
+ ]
+}

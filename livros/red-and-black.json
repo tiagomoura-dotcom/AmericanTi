@@ -1,0 +1,711 @@
+{
+ "id": "red-and-black",
+ "title": "The Red and the Black",
+ "author": "Stendhal",
+ "year": 1830,
+ "module": 4,
+ "level": "B2",
+ "summary": "Julien Sorel, filho de um carpinteiro numa pequena cidade da França, é inteligente, orgulhoso e sonha subir na vida como o seu herói, Napoleão. Como a carreira militar já não oferece glória, ele escolhe a Igreja e entra na casa do prefeito como preceptor, onde se envolve com a delicada Madame de Rênal. Da província até os salões aristocráticos de Paris, Julien usa a ambição como arma, mas a paixão e o orgulho podem levá-lo longe demais.",
+ "chapters": [
+  {
+   "title": "The Carpenter's Son",
+   "paragraphs": [
+    "The little town of Verrières is one of the prettiest in the region of Franche-Comté. Its white houses with red roofs climb up the side of a hill, and the river Doubs runs below, past old walls and green forests. The town is rich, because of its noisy factories, but the people care about only one thing: money. Everything there is judged by a single question: “What does it bring in?”",
+    "The mayor of Verrières was Monsieur de Rênal. He was a tall, serious man of about fifty, with grey hair and an air of great self-importance. He owned a nail factory and the finest house in town, with a beautiful garden surrounded by walls. He was proud of his noble name, and he was even prouder of his money.",
+    "One morning in 1829, he was walking with his wife along the terrace above the river.",
+    "“I have decided,” he said, “to take young Sorel, the carpenter's son, into our house as a tutor for the children. He knows Latin very well. Besides, Valenod has just bought two fine horses for his carriage. He is becoming too rich and too proud. But he does not have a tutor for his children. That will put him in his place.”",
+    "Madame de Rênal said nothing. She was a tall, graceful woman of about thirty, still beautiful, with a simple, natural manner. She was shy and good, and she had never read a novel in her life. She loved her three little boys more than anything in the world, and the idea of a stranger in the house frightened her a little.",
+    "Monsieur de Rênal went to see old Sorel at his sawmill by the river. The carpenter was a clever, greedy peasant, and he immediately suspected that he could make some money out of the mayor's offer. He asked for time to think, and then he went into the mill to look for his youngest son.",
+    "Julien was not where he should have been, watching the great saw. He was sitting high up on a beam of the roof, reading a book. Nothing could have made his father angrier. Old Sorel could not read, and he hated books. With a single blow he knocked the book into the river, and with a second blow to the head he almost knocked his son off the beam.",
+    "“You lazy dog!” he shouted. “Always reading your cursed books, instead of watching the saw! Come down. I want to talk to you.”",
+    "Julien came down, his eyes full of tears, not because of the pain, but because he had lost his book. It was his favourite, the memoirs of Napoleon written on the island of Saint Helena. Julien was eighteen or nineteen years old, small and slim, with delicate features, black hair and large dark eyes. In moments of anger, those eyes shone with a fierce light. His brothers were big, strong men, and they despised him because he was weak and preferred reading to work. Everyone in the family beat him.",
+    "In his secret heart, Julien had only one hero: Napoleon. He dreamed of leaving Verrières, of going to Paris, of meeting beautiful women and becoming famous. Twenty years earlier, a poor young man like him could become a general in Napoleon's army. But now Napoleon was dead, and the army offered no glory. The power was in the hands of the Church. A priest, Julien had noticed, could earn three times as much as one of Napoleon's generals.",
+    "So Julien had chosen the Church. With the help of the old parish priest, Father Chélan, he had studied theology and learned the whole New Testament in Latin by heart. He did not believe a word of it, but he knew that it was the black robe, not the red uniform, that would open the doors of the world to him.",
+    "“Do you know Madame de Rênal?” asked his father suspiciously. “Why does the mayor want you?”",
+    "“I have never spoken to her,” said Julien. “I have only seen her at church.”",
+    "“You'll be a tutor in the mayor's house. You'll get three hundred francs a year, and your food. But if I hear that you have done anything wrong, I'll break your bones.”",
+    "Julien's first question was a proud one. “Will I eat with the servants?”",
+    "When he learned that he would eat with the family, he agreed. He had read in Rousseau that it was shameful to eat with servants, and he would rather have died than accept it."
+   ],
+   "glossary": [
+    {
+     "term": "what does it bring in",
+     "meaning": "quanto isso rende"
+    },
+    {
+     "term": "self-importance",
+     "meaning": "arrogância, ar de importância"
+    },
+    {
+     "term": "tutor",
+     "meaning": "professor particular, preceptor"
+    },
+    {
+     "term": "sawmill",
+     "meaning": "serraria"
+    },
+    {
+     "term": "greedy",
+     "meaning": "ganancioso"
+    },
+    {
+     "term": "despised",
+     "meaning": "desprezavam"
+    },
+    {
+     "term": "by heart",
+     "meaning": "de cor"
+    },
+    {
+     "term": "robe",
+     "meaning": "batina, veste"
+    },
+    {
+     "term": "shameful",
+     "meaning": "vergonhoso"
+    }
+   ]
+  },
+  {
+   "title": "The New Tutor",
+   "paragraphs": [
+    "The next morning Julien put on his best clothes, a clean white shirt and a black suit, and walked slowly towards the mayor's house. His heart was beating fast. At the gate he hesitated. He was terribly shy, and he was afraid of the rich and powerful people who lived inside.",
+    "Madame de Rênal was coming out of the drawing room into the garden when she saw a young peasant standing at the gate. He was very pale and seemed to have been crying. He looked so young and so frightened that she thought at first he was a girl in disguise.",
+    "“What do you want here, my child?” she asked gently.",
+    "Julien turned quickly and was struck by the kindness in her eyes. He forgot his shyness. “I have come to be the tutor, madame,” he said, and blushed deeply.",
+    "Madame de Rênal could not believe it. She had imagined a dirty, rough priest who would shout at her children and perhaps beat them. Instead, here was this pale, gentle boy. She laughed with happiness, like a young girl.",
+    "“Is it really true, sir, that you know Latin?” she said.",
+    "The word “sir” surprised Julien so much that he thought for a moment. “Yes, madame,” he said shyly.",
+    "“And you won't be too strict with my poor boys? You won't whip them, even if they do not know their lessons?”",
+    "“Never, madame,” said Julien. “I swear it.”",
+    "At that moment Julien had an extraordinary thought. Following an impulse, he took her hand and raised it to his lips. She was shocked, and after a moment she pulled her hand away. Then Monsieur de Rênal came out of his study and took Julien inside.",
+    "“I must tell you, Sorel,” said the mayor, “that I do not want my children to see you with your family. Your father is a peasant. And you must not wear that jacket. My tailor will make you a new black suit.”",
+    "That evening the mayor called the three boys to meet their new teacher. Julien wore his new black suit, and he looked very serious. He held a Bible in his hand.",
+    "“I am here, gentlemen,” he said to the children, “to teach you Latin. You know what a recitation is. Here is the Holy Bible. Open it anywhere, and read me the first line of a verse. I shall say the rest by heart.”",
+    "The eldest boy, Adolphe, opened the book and read half a line. Julien continued with the whole page, as easily as if he were speaking French. The children stared with open mouths. Then the servants came to the door to listen. Then a few visitors arrived, among them Monsieur Valenod, the director of the poorhouse, a big, loud man with a red face and thick black whiskers. Julien recited Latin for them all, and they were amazed. From that evening, his reputation was made. The whole town spoke of the mayor's wonderful young tutor.",
+    "Within a month, the children adored Julien, and the servants respected him. Julien, however, felt nothing but hatred and disgust for the rich society in which he now lived. He was polite, cold and silent. He hid his real feelings behind a calm face, and he dreamed of the day when he would be powerful too.",
+    "Madame de Rênal was at first a little afraid of him. But she soon discovered that this proud young man was very poor. She offered him money to buy some shirts, and Julien turned red with anger.",
+    "“I am poor, madame,” he said, “but I am not a servant. Please do not offer me money again.”",
+    "She was hurt, but she also admired his pride. No man had ever spoken to her like that. Her husband talked only of money, and the men of Verrières talked only of politics and prices. Julien was different. He was sensitive, intelligent and proud. Without realising it, she began to think about him all the time.",
+    "The maid, Elisa, fell in love with Julien too. She had inherited some money and wanted to marry him. She asked Father Chélan to speak to him. To everyone's surprise, Julien refused. He did not want to be tied to Verrières for the rest of his life. When Madame de Rênal heard that he had refused Elisa, she felt a wild happiness that she did not understand."
+   ],
+   "glossary": [
+    {
+     "term": "blushed",
+     "meaning": "ficou vermelho, corou"
+    },
+    {
+     "term": "strict",
+     "meaning": "rígido, severo"
+    },
+    {
+     "term": "whip",
+     "meaning": "chicotear, bater"
+    },
+    {
+     "term": "impulse",
+     "meaning": "impulso"
+    },
+    {
+     "term": "tailor",
+     "meaning": "alfaiate"
+    },
+    {
+     "term": "verse",
+     "meaning": "versículo"
+    },
+    {
+     "term": "poorhouse",
+     "meaning": "asilo de pobres"
+    },
+    {
+     "term": "turned red",
+     "meaning": "ficou vermelho"
+    }
+   ]
+  },
+  {
+   "title": "A Battle in the Garden",
+   "paragraphs": [
+    "When summer came, the family moved to their country house at Vergy, a village in the hills. There was a great orchard there, and an old castle, and beautiful walks among the walnut trees. Madame de Rênal felt happy and free. She ran through the fields with the children like a little girl. Her cousin, Madame Derville, came to stay with her, and the two women spent long evenings in the garden with Julien.",
+    "Julien, too, was happier at Vergy. Far from the eyes of the town, he could breathe. Every morning he climbed alone to the rocks at the top of the mountain and looked down on the valley. Up there, like an eagle, he felt free and strong, and he thought about his great future.",
+    "In the evenings, they all sat together under a large lime tree, in the warm darkness. One night, while he was talking and waving his hands, Julien touched the hand of Madame de Rênal, which was resting on the back of a chair. She pulled it away quickly. Julien thought about it all night. It seemed to him that she had insulted him. He decided that it was his duty to make her leave her hand in his.",
+    "“If I do not succeed,” he said to himself, “I am a coward. I shall go up to my room and shoot myself.”",
+    "The next evening, under the lime tree, Julien's heart was beating so hard that he could hardly speak. He watched the clock of the castle tower. It was a quarter to ten.",
+    "“When the clock strikes ten,” he promised himself, “I shall do what I have promised myself all day, or I shall go up to my room and blow my brains out.”",
+    "The minutes passed slowly. At last the clock struck ten, and each stroke seemed to echo in his chest. He stretched out his hand and took the hand of Madame de Rênal. She tried to pull it away again, but he held it firmly. After a moment, she let it stay in his. Julien's soul was filled with joy. It was not love. It was the joy of victory. He had won a battle.",
+    "Madame Derville noticed nothing. Madame de Rênal sat silent, her heart full of a sweet terror. She had married at sixteen and had never known love. Now she was discovering a feeling that she had only heard about. That night she did not sleep. In the morning, she suddenly realised the truth. “I am in love,” she thought, “I, a married woman!” She was horrified, but she was also happy.",
+    "A few days later Monsieur de Rênal decided to change the mattresses in the house. Julien went pale. Hidden inside the mattress in his room was a small portrait of Napoleon. If anyone found it, he was lost. In a town like Verrières, a portrait of the old Emperor was enough to destroy a young man who wanted to be a priest.",
+    "He ran to Madame de Rênal. “Madame,” he whispered, “in my mattress there is a small box of black cardboard. Please, take it before your husband finds it. Do not open it. It is my secret.”",
+    "She went at once, found the box and gave it to him. She was sure that it contained the portrait of a woman he loved, and she suffered terribly from jealousy. But she did not say a word. Julien burned the portrait at once.",
+    "“She has saved me,” he thought. “And she did not even look inside. She is a good woman.”",
+    "From that day, he began to see Madame de Rênal differently. But he still treated their relationship as a war, and he believed it was his duty to conquer her completely. One evening, in a moment of daring, he told her that he would come to her room at two o'clock in the morning.",
+    "“If you come,” she said, terrified and angry, “I shall never forgive you.”",
+    "At two o'clock, trembling with fear, Julien walked down the dark corridor and opened her door. He had prepared beautiful speeches, but when he saw her, he forgot them all. He fell at her feet and began to cry. She was angry, then moved, and then she forgave him. When Julien returned to his room some hours later, he asked himself only one question: “Did I play my part well?”"
+   ],
+   "glossary": [
+    {
+     "term": "orchard",
+     "meaning": "pomar"
+    },
+    {
+     "term": "walnut trees",
+     "meaning": "nogueiras"
+    },
+    {
+     "term": "lime tree",
+     "meaning": "tília"
+    },
+    {
+     "term": "coward",
+     "meaning": "covarde"
+    },
+    {
+     "term": "strikes",
+     "meaning": "bate (as horas)"
+    },
+    {
+     "term": "mattresses",
+     "meaning": "colchões"
+    },
+    {
+     "term": "jealousy",
+     "meaning": "ciúme"
+    },
+    {
+     "term": "daring",
+     "meaning": "ousadia"
+    },
+    {
+     "term": "play my part",
+     "meaning": "desempenhar meu papel"
+    }
+   ]
+  },
+  {
+   "title": "Love and Danger",
+   "paragraphs": [
+    "In the weeks that followed, something changed in Julien. At first he went to Madame de Rênal's room out of pride, to prove to himself that he was a conqueror. But little by little, her sweetness and her sincerity touched his heart. She laughed at his fears, she taught him about the world of the rich, she corrected his mistakes gently. He discovered that she did not despise him for being poor. In her arms he forgot his ambition, and for the first time in his life he was simply happy.",
+    "Madame de Rênal loved him with all her soul. She was ten years older than he was, and sometimes she thought sadly, “If only I had met him ten years ago!” But mostly she did not think at all. She lived only for the moments she could spend with him.",
+    "Then, in autumn, her youngest son, Stanislas, fell seriously ill with a fever. For days he could not eat or sleep, and the doctors were very worried. Madame de Rênal was in despair. She believed that God was punishing her for her sin.",
+    "“It is my fault,” she cried to Julien. “God is killing my son because I love you. I must confess everything to my husband. I must give you up.”",
+    "“If you tell him,” said Julien, “you will destroy yourself and your children. Let me go away instead.”",
+    "But she could not bear to lose him either. She stayed beside her son day and night, praying. At last the fever passed, and the boy recovered. Madame de Rênal believed that heaven had forgiven her, and her love for Julien became stronger than ever.",
+    "But there were eyes everywhere. Elisa, the maid, had not forgotten that Julien refused to marry her. She noticed everything: the looks, the whispers, the doors that opened at night. She was jealous and angry, and she told Monsieur Valenod everything. Valenod had once tried to court Madame de Rênal himself, without success, and he hated both her and her husband.",
+    "One morning, Monsieur de Rênal received an anonymous letter. It was written in an ugly hand and was full of insults. It told him that his wife was the lover of the young tutor.",
+    "The mayor was furious, but he was also very worried. He did not really love his wife, but he loved his reputation. If there was a scandal, everyone in Verrières would laugh at him. And if he threw his wife out, he would lose the large fortune she was going to inherit from an old aunt. He walked up and down in his study for hours, unable to decide what to do.",
+    "Madame de Rênal understood the danger at once. She was a simple woman, but love made her clever. With Julien's help, she prepared a second anonymous letter, made of words cut out from a book and stuck onto a sheet of paper. Then she brought it to her husband with an innocent air.",
+    "“Look,” she said, “I have just received this horrible letter. Someone wants to destroy our happiness. I am sure it is Monsieur Valenod. He has always been jealous of you. You must send the tutor away for a while, to stop people talking.”",
+    "Monsieur de Rênal was relieved. It was much easier to believe that Valenod was guilty than to believe that his wife was. He agreed that Julien should spend a few days in town, away from the house.",
+    "But the gossip did not stop. Soon the whole of Verrières was talking about the mayor's wife and the young tutor. Old Father Chélan heard the rumours, and he was deeply worried. He loved Julien, and he did not want to see him destroyed.",
+    "“My son,” he said, “you must leave Verrières immediately. I have arranged a place for you at the seminary in Besançon. You will study there to become a priest. You must not come back.”",
+    "The parting was terrible. Madame de Rênal was pale and silent, and her eyes were dry, which was worse than tears. Julien held her in his arms for the last time.",
+    "“Promise me,” she said, “that you will never forget me.”",
+    "“Never,” said Julien. And at that moment he meant it."
+   ],
+   "glossary": [
+    {
+     "term": "sincerity",
+     "meaning": "sinceridade"
+    },
+    {
+     "term": "fever",
+     "meaning": "febre"
+    },
+    {
+     "term": "in despair",
+     "meaning": "desesperada"
+    },
+    {
+     "term": "give you up",
+     "meaning": "desistir de você"
+    },
+    {
+     "term": "court",
+     "meaning": "cortejar"
+    },
+    {
+     "term": "anonymous",
+     "meaning": "anônima"
+    },
+    {
+     "term": "relieved",
+     "meaning": "aliviado"
+    },
+    {
+     "term": "gossip",
+     "meaning": "fofoca"
+    },
+    {
+     "term": "seminary",
+     "meaning": "seminário"
+    }
+   ]
+  },
+  {
+   "title": "The Seminary",
+   "paragraphs": [
+    "Besançon was a large city with strong walls and a great fortress. Julien had never seen anything like it. But he had little time to admire it. As soon as he arrived, he walked to the seminary, a grim stone building with a heavy iron door and a gilded cross above it. When the door closed behind him, he felt as if he were entering a prison.",
+    "He was taken to see the director, Father Pirard. The priest was a tall man in an old black robe, with a face so pale and severe that Julien almost fainted. He sat at a table covered with papers and did not look up for several minutes. Then he read Father Chélan's letter of recommendation and began to question Julien in Latin about theology. Julien answered so well that the priest was surprised.",
+    "“You are well prepared,” said Father Pirard at last. “But be careful. Here, intelligence is a dangerous thing. I shall give you a small room of your own. You will need it.”",
+    "The seminary was a world of hypocrisy. There were about three hundred young men there, most of them the sons of poor peasants. They had come not because they loved God but because they wanted to eat well and have an easy life. They were stupid and jealous, and they hated anyone who was different. They watched each other constantly and reported every small mistake to the teachers.",
+    "Julien made every mistake possible. He thought, and he showed that he thought. He was the best student in the class, and that was a crime. He read books, he answered questions intelligently, and he did not hide his superiority. Soon the other students hated him. They called him “Martin Luther”, because they said he was too proud and too fond of reasoning.",
+    "Julien learned slowly. He studied the faces of the most successful students, and he saw that the best way to succeed was to seem stupid and humble. He practised walking with his eyes down, eating his food as if it were a holy duty, and praying with great show. It was a hard lesson for him, but he learned it. He became a master of hypocrisy.",
+    "Father Pirard, however, saw through Julien's mask, and he liked him. He was an honest man himself, and he had many enemies in the Church, because he belonged to a strict group, the Jansenists. One day he called Julien to his room.",
+    "“I have made you a tutor for the Old and New Testament,” he said. “It is a mark of my confidence. But it will make your enemies hate you even more.”",
+    "Some months later, Father Pirard's enemies finally forced him to leave the seminary. But he had a powerful friend in Paris, the Marquis de la Mole, one of the richest noblemen in France. The Marquis found him a good position near Paris, and he also asked him to recommend an intelligent young secretary. Father Pirard immediately thought of Julien.",
+    "“You will go to Paris,” he told him. “The Marquis de la Mole will pay you one hundred louis a year. You will live in his palace and write his letters. It is a great chance. Do not waste it.”",
+    "Julien could hardly believe his luck. Paris! At last he would see the world of his dreams. But before he left, there was one thing he had to do. He had not seen Madame de Rênal for fourteen months.",
+    "He travelled secretly to Verrières and arrived late at night. He took a ladder from a garden and placed it against the window of her room, as he had once dreamed of doing. When he knocked on the glass, she was terrified. She had been suffering from guilt and had spent months praying and confessing. At first she told him to go away.",
+    "“I have repented,” she said in a trembling voice. “I belong to God now. You must leave.”",
+    "But Julien spoke to her about his loneliness and his sadness, and slowly she gave way. She hid him in her room all the next day, bringing him food secretly. They were as happy as they had been at Vergy. But in the evening Monsieur de Rênal knocked at the door, suspecting thieves. Julien jumped out of the window and ran through the garden, while bullets whistled over his head. He escaped, and he took the road to Paris."
+   ],
+   "glossary": [
+    {
+     "term": "grim",
+     "meaning": "sombrio, carrancudo"
+    },
+    {
+     "term": "gilded",
+     "meaning": "dourado"
+    },
+    {
+     "term": "hypocrisy",
+     "meaning": "hipocrisia"
+    },
+    {
+     "term": "fond of",
+     "meaning": "apegado a, que gosta de"
+    },
+    {
+     "term": "humble",
+     "meaning": "humilde"
+    },
+    {
+     "term": "saw through",
+     "meaning": "percebeu, não se deixou enganar por"
+    },
+    {
+     "term": "noblemen",
+     "meaning": "nobres"
+    },
+    {
+     "term": "repented",
+     "meaning": "me arrependi"
+    },
+    {
+     "term": "gave way",
+     "meaning": "cedeu"
+    }
+   ]
+  },
+  {
+   "title": "The Palace in Paris",
+   "paragraphs": [
+    "The Hôtel de la Mole was a magnificent palace in the most elegant part of Paris. As Julien walked through the great courtyard, he was so impressed that he could not speak. Father Pirard, who had come with him, smiled.",
+    "“Do not be afraid of this house,” he said. “It is a world of politeness and boredom. Everyone here is polite, and nobody is sincere. Remember that, and you will survive.”",
+    "The Marquis de la Mole was a small, thin man of about sixty, with very lively eyes. He was clever, rich and very powerful, with friends among the ministers and at the royal court. He received Julien kindly and looked at him with curiosity.",
+    "“Father Pirard tells me that you write well,” he said. “Let us see.”",
+    "He gave Julien a letter to copy. When he read the result, he smiled. Julien had written the word “cela” with two l's. It was a terrible mistake, the mistake of a peasant.",
+    "“Never mind,” said the Marquis kindly. “You will learn. But you must also learn to dress properly. My tailor will make you some clothes. And you must take lessons in dancing and riding.”",
+    "The first weeks were very hard for Julien. He did not know the rules of polite society, and he made a thousand small mistakes. Once, riding in the street, he fell off his horse in the mud. He was so honest about it at dinner that everyone laughed, and the Marquis liked him even more for it. He worked hard in the library, writing letters and managing the Marquis's lawsuits, and soon his master could not do without him.",
+    "But in the salon, in the evenings, Julien felt like a stranger. The guests were dukes, bishops and diplomats. They spoke about nothing, cleverly, for hours. They looked at the young secretary in his black suit as if he were a piece of furniture.",
+    "The Marquis had a son, Count Norbert, a handsome and polite young man, and a daughter, Mademoiselle Mathilde de la Mole. She was nineteen years old, tall and slender, with fair hair and cold, intelligent blue eyes. She was the most admired young woman in Paris. All the young aristocrats wanted to marry her, and she was bored by every one of them.",
+    "At first Julien disliked her. “She is proud, cold and unpleasant,” he thought. “She looks at me as if I were a servant.”",
+    "Mathilde, however, had noticed Julien. He was different from all the other young men. He did not try to please her. He looked at the aristocrats around him with a dark and disdainful expression. One day she heard him speaking with passion about Napoleon and the Revolution, and she was fascinated.",
+    "Julien soon discovered a strange fact about her. On the thirtieth of April every year, Mathilde wore black. When he asked why, a friend explained.",
+    "“It is because of her ancestor, Boniface de la Mole,” he said. “He was the lover of Queen Marguerite of Navarre. In 1574 he tried to rescue his friends from prison, and he was beheaded on the thirtieth of April. They say that Queen Marguerite asked the executioner for his head. That night she drove in her carriage to a chapel, and she buried the head with her own hands.”",
+    "Julien was amazed. Mathilde despised her own century, which she found small and dull. She lived in her imagination with the heroes of the past, men who had risked their lives for love and glory.",
+    "“What a strange girl!” thought Julien. “She dreams of heroes, but she is surrounded by fools.”",
+    "One evening, at a grand ball, Mathilde came and stood near him. He was talking with a Count Altamira, a young Italian who had been condemned to death in his own country for organising a revolution.",
+    "“Only a death sentence makes a man different from the others,” said Mathilde quietly. “It is the only thing that cannot be bought.”",
+    "Julien looked at her in surprise. For the first time, he saw that she was beautiful."
+   ],
+   "glossary": [
+    {
+     "term": "courtyard",
+     "meaning": "pátio"
+    },
+    {
+     "term": "boredom",
+     "meaning": "tédio"
+    },
+    {
+     "term": "lawsuits",
+     "meaning": "processos judiciais"
+    },
+    {
+     "term": "slender",
+     "meaning": "esbelta"
+    },
+    {
+     "term": "disdainful",
+     "meaning": "desdenhosa"
+    },
+    {
+     "term": "ancestor",
+     "meaning": "antepassado"
+    },
+    {
+     "term": "beheaded",
+     "meaning": "decapitado"
+    },
+    {
+     "term": "executioner",
+     "meaning": "carrasco"
+    },
+    {
+     "term": "death sentence",
+     "meaning": "condenação à morte"
+    }
+   ]
+  },
+  {
+   "title": "The Ladder",
+   "paragraphs": [
+    "From that evening, Mathilde began to seek Julien's company. She came to the library while he was working and talked to him about history, books and politics. She asked his opinion, and she listened with real interest. Julien was flattered, but he was also suspicious.",
+    "“She is laughing at me,” he thought. “She and her brother and their noble friends want to make a fool of the peasant. I must be careful.”",
+    "Mathilde, on her side, was fighting a strange battle in her own heart. She was proud of her family and her rank. How could she, Mathilde de la Mole, think about her father's secretary, the son of a carpenter? And yet he was the only man in Paris who did not bore her.",
+    "“He is a man of energy,” she said to herself. “He would be capable of anything. If there were a revolution, he would be like Danton. He is worth more than all these little marquises put together. To love such a man would be a great and dangerous adventure, worthy of Boniface and Queen Marguerite.”",
+    "At last she made up her mind. She wrote Julien a letter. It was a declaration of love.",
+    "When Julien read it, his first feeling was a wild sense of triumph. “So I, a poor peasant, have received a declaration of love from a great lady!” he cried. Then he became calm and suspicious again. He made a copy of the letter and hid it in a Bible, which he sent to a friend for safekeeping. If it was a trap, he would have proof.",
+    "Two more letters followed. The third one was short and astonishing. “I need to see you,” wrote Mathilde. “Tonight, at one o'clock, come into the garden. Take the gardener's ladder and climb up to my window. There will be moonlight, but it does not matter.”",
+    "Julien read the letter again and again. Now he was sure that it was a trap. “They want me to climb up to her window,” he thought, “so that her brother's servants can catch me like a thief, or shoot me. And then the whole of Paris will laugh at the ambitious secretary.”",
+    "He was afraid, but he was even more afraid of being a coward. “If I do not go,” he said to himself, “she will despise me, and I shall despise myself.” He loaded his pistols, wrote a letter to his friend explaining everything in case he was killed, and waited for night.",
+    "At one o'clock he went into the garden. The moon was shining brightly. He found the ladder and placed it against the wall under Mathilde's window. He climbed slowly, pistol in hand, expecting at every moment to be attacked. But nobody came. When he reached the window, it opened softly.",
+    "“Here you are, sir,” said Mathilde in a trembling voice. She was very pale and seemed embarrassed. They talked for a long time, awkwardly, like two enemies. Julien kept looking at the door and the cupboard, expecting to find someone hiding there. But they were alone.",
+    "At last Mathilde gave herself to him. She did it bravely, as if it were a duty. She had decided that she must love him, and she kept her word. But there was no tenderness between them, only pride and a kind of fear. When Julien climbed down the ladder at dawn, he felt more surprised than happy.",
+    "The next morning Mathilde did not come down to breakfast. When Julien saw her later in the library, she looked at him with cold, angry eyes.",
+    "“I have given myself a master,” she thought bitterly. “I, Mathilde de la Mole! How could I have been so weak?”",
+    "For several days she was hard and cruel to him. She spoke to him as if he were a servant. Julien was hurt and furious. And then something unexpected happened. Now that she rejected him, he fell passionately in love with her.",
+    "At night he thought of her, and in the day he could not work. When he saw her laughing with the young Marquis de Croisenois, her future husband, he wanted to die. He even took down an old sword from the wall of the library and almost killed her in a moment of madness. Mathilde was not frightened. On the contrary, she was delighted.",
+    "“He almost killed me!” she thought. “That is worthy of the sixteenth century.” And for a moment she loved him again."
+   ],
+   "glossary": [
+    {
+     "term": "flattered",
+     "meaning": "lisonjeado"
+    },
+    {
+     "term": "rank",
+     "meaning": "posição social"
+    },
+    {
+     "term": "made up her mind",
+     "meaning": "decidiu-se"
+    },
+    {
+     "term": "for safekeeping",
+     "meaning": "para guardar em segurança"
+    },
+    {
+     "term": "trap",
+     "meaning": "armadilha"
+    },
+    {
+     "term": "awkwardly",
+     "meaning": "de modo desajeitado"
+    },
+    {
+     "term": "tenderness",
+     "meaning": "ternura"
+    },
+    {
+     "term": "bitterly",
+     "meaning": "amargamente"
+    },
+    {
+     "term": "on the contrary",
+     "meaning": "pelo contrário"
+    }
+   ]
+  },
+  {
+   "title": "The Art of War",
+   "paragraphs": [
+    "But Mathilde's love lasted only one night. The next day she was proud and cold again. Julien was in despair. He could not eat or sleep. He felt that he was going mad.",
+    "The Marquis de la Mole, who knew nothing about all this, sent Julien on a secret political mission to Strasbourg. In that city Julien met an old friend, the Russian Prince Korasoff, a young man of the world who understood women very well. Korasoff noticed at once that Julien was unhappy, and Julien told him everything, without saying any names.",
+    "“My dear friend,” said the Prince, laughing, “your situation is very common. You have shown her that you love her. That was a terrible mistake. A proud woman despises a man who adores her. You must make her jealous.”",
+    "“How?”",
+    "“Choose another lady in her circle, a respectable lady, and court her. Pay her every attention. Never look at your proud beauty. I shall give you a collection of fifty-three love letters which I wrote to a lady in London. They are excellent. Copy one every day and send it to your new lady.”",
+    "Back in Paris, Julien followed this advice. He chose the Maréchale de Fervaques, a rich and very religious widow who often visited the de la Mole house. She was beautiful, but she was so serious and so proper that she was considered impossible to win. Julien sat beside her every evening and talked with her about religion and virtue. He sent her a long letter every day, copied word for word from the Prince's collection. Sometimes he did not even read them before he sent them. Once he forgot to change the name of London to Paris.",
+    "The Maréchale was surprised, then curious, then interested. She began to answer his letters, and she even invited him to dinner.",
+    "All this time, Julien never looked at Mathilde. He spoke to her politely when it was necessary, but coldly, as if she were nobody. It was the hardest thing he had ever done. Every evening, as he passed near her chair, he wanted to fall at her feet. But he remembered the Prince's words and held himself back.",
+    "Mathilde watched this comedy with growing anger. At first she laughed at the idea of Julien and the old Maréchale. Then she became worried. Then she became jealous. She could not bear to see him give his attention to another woman. And the colder he was, the more she wanted him.",
+    "One evening she followed him into the garden. “You don't love me any more,” she said, and her voice broke. “You love Madame de Fervaques.”",
+    "Julien's heart jumped, but he controlled his face. “It is true, mademoiselle,” he said coldly. “I have tried to forget you.”",
+    "At these words, the proud Mathilde burst into tears. She took his hand. “Forgive me,” she cried. “I love you. I shall love you always. Be my master. Punish me if you want. I am your slave.”",
+    "Julien felt a moment of fierce joy, but he was careful. He knew that if he showed his love too openly, she would become proud and cold again. So he kept her a little afraid of him, and their love grew stronger.",
+    "A few weeks later, Mathilde told him something that changed everything.",
+    "“I am going to have a child,” she said calmly. “I am your wife now, in the eyes of God. I shall write to my father and tell him the truth.”",
+    "Julien turned pale. “Your father will kill me,” he said. “Or he will throw me out into the street.”",
+    "“Then I shall go with you,” said Mathilde proudly. She was not afraid. In fact, she was delighted. At last her life was as dangerous and romantic as the life of Queen Marguerite."
+   ],
+   "glossary": [
+    {
+     "term": "in despair",
+     "meaning": "em desespero"
+    },
+    {
+     "term": "circle",
+     "meaning": "círculo social"
+    },
+    {
+     "term": "widow",
+     "meaning": "viúva"
+    },
+    {
+     "term": "proper",
+     "meaning": "correta, formal"
+    },
+    {
+     "term": "word for word",
+     "meaning": "palavra por palavra"
+    },
+    {
+     "term": "held himself back",
+     "meaning": "se conteve"
+    },
+    {
+     "term": "burst into tears",
+     "meaning": "caiu em prantos"
+    },
+    {
+     "term": "slave",
+     "meaning": "escrava"
+    },
+    {
+     "term": "turned pale",
+     "meaning": "empalideceu"
+    }
+   ]
+  },
+  {
+   "title": "The Lieutenant",
+   "paragraphs": [
+    "Mathilde wrote a long letter to her father, explaining everything. She told him that she loved Julien, that she was expecting his child, and that she would marry nobody else. Then she left the letter on his desk and waited.",
+    "The Marquis de la Mole read it, and his anger was terrible. For one whole day he shouted, walked up and down his room, and called Julien every insulting name he could think of. His daughter, the richest young woman in Paris, who was supposed to become a duchess, wanted to marry his secretary, the son of a peasant!",
+    "“I shall have you thrown out of the window!” he shouted at Julien. “I took you into my house. I gave you my trust. And this is how you repay me!”",
+    "Julien stood in front of him, pale but calm. “I know I have done wrong, sir,” he said. “I am ready to die. You may kill me if you wish. I shall leave a letter saying that it was suicide.”",
+    "The Marquis looked at him in astonishment and walked out of the room.",
+    "For weeks the Marquis could not decide what to do. He thought of sending Julien to America. He thought of sending Mathilde to a convent. But Mathilde was as stubborn as her father, and stronger. She wrote to him every day.",
+    "“I love Julien,” she wrote. “If you separate us, I shall follow him anywhere, and I shall tell the whole of Paris that he is my husband. Then the scandal will be complete. You can choose between a son-in-law with no fortune and a daughter with no honour.”",
+    "At last the Marquis gave way. He was a practical man, and he loved his daughter. “If I cannot prevent this marriage,” he thought, “I must make this young man worthy of it.”",
+    "He gave Julien a large property in Languedoc and an income of twenty thousand francs a year. He arranged for him to have a new name: Monsieur le Chevalier Julien Sorel de la Vernaye. A powerful friend, a duke, even let it be known that Julien was perhaps the secret son of a noble family. Finally, the Marquis obtained for him the rank of lieutenant in a regiment of hussars, in the city of Strasbourg.",
+    "Julien was mad with joy. He put on his splendid new uniform, red and blue, with a sword at his side, and he rode through the streets of Strasbourg on a fine horse. The black robe of the priest had been only a road. Now, at last, he wore the uniform of his dreams.",
+    "“After all,” he thought, “my novel is finished. I have succeeded. I have done it all myself. I, the son of a carpenter, am going to marry the daughter of a marquis.” And he thought of his son. “My son will be a nobleman.”",
+    "But one condition remained. Before giving his final agreement to the marriage, the Marquis had written to Madame de Rênal, asking for information about the young man who had been tutor in her house. He wanted to know more about his future son-in-law.",
+    "A few days later Mathilde arrived suddenly in Strasbourg. Her face was white, and she was holding a letter.",
+    "“Everything is lost,” she said. “Read this.”",
+    "It was Madame de Rênal's answer to the Marquis. The handwriting was hers, but the words seemed to come from someone else.",
+    "“Poor and greedy,” the letter said, “this young man has used the most perfect hypocrisy to seduce a weak and unhappy woman, so that he could gain a position and become someone. His only aim is to become the master of the house and of its fortune. He has no religion and no honour. It is my painful duty to warn you.”",
+    "The Marquis was furious. He refused to hear Julien's name again, and he declared that the marriage would never take place.",
+    "Julien read the letter in silence. Then he gave it back to Mathilde without a word. His face was strange and terrible.",
+    "“I cannot blame Monsieur de la Mole,” he said quietly. “He is a just and prudent man. What father would give his daughter to such a man? Goodbye.”",
+    "He left the room before she could stop him. He did not say where he was going. Mathilde ran after him, but he had already jumped into a carriage and taken the road to Verrières."
+   ],
+   "glossary": [
+    {
+     "term": "repay",
+     "meaning": "retribuir, pagar"
+    },
+    {
+     "term": "convent",
+     "meaning": "convento"
+    },
+    {
+     "term": "stubborn",
+     "meaning": "teimosa"
+    },
+    {
+     "term": "son-in-law",
+     "meaning": "genro"
+    },
+    {
+     "term": "income",
+     "meaning": "renda"
+    },
+    {
+     "term": "let it be known",
+     "meaning": "deixou que se soubesse"
+    },
+    {
+     "term": "seduce",
+     "meaning": "seduzir"
+    },
+    {
+     "term": "aim",
+     "meaning": "objetivo"
+    },
+    {
+     "term": "prudent",
+     "meaning": "prudente"
+    }
+   ]
+  },
+  {
+   "title": "The Shot in the Church",
+   "paragraphs": [
+    "Julien travelled day and night without stopping. He did not eat, and he did not sleep. He did not think. Something cold and hard had taken the place of his heart.",
+    "He arrived in Verrières on a Sunday morning. The town looked exactly as it had looked when he left: the white houses, the red roofs, the sound of the factories. He went straight to a gunsmith's shop.",
+    "“I want a pair of pistols,” he said. “Load them for me.”",
+    "The gunsmith, surprised, did as he was asked. Julien paid and walked out. The church bells were ringing for mass. He went towards the church.",
+    "The church of Verrières was the church of his childhood. Inside, it was dark and quiet, and the tall windows were covered with red curtains, so that the light inside was the colour of blood. The people of the town were kneeling and praying. Julien stood behind the bench where Madame de Rênal was kneeling. He knew her at once, from her neck and her shoulders, and his arm trembled.",
+    "“I cannot,” he thought. “I cannot do it.”",
+    "Then the little bell rang, and the priest raised the holy bread. Madame de Rênal bowed her head. She was almost hidden by the folds of her shawl. At that moment Julien no longer recognised her. He raised his pistol and fired. She fell. He fired again, and the second shot missed. Then everything was noise and confusion. People screamed and ran. Julien stood without moving, like a man in a dream. A policeman seized him and took away his pistols. He did not resist.",
+    "He was taken to the prison of Verrières and put in chains. The door closed behind him, and he threw himself on the bed and slept heavily for many hours.",
+    "When he woke up, a jailer was standing beside him.",
+    "“Is she dead?” Julien asked.",
+    "“No, sir,” said the jailer. “Madame de Rênal is badly wounded, but the doctor says she will live. The bullet went through her shoulder.”",
+    "Julien was silent for a moment. Then he burst into tears. “She is not dead!” he cried. “Thank God! She will live to forgive me and to love me.”",
+    "For the first time in many days, he felt human again. The terrible ambition that had pushed him all his life had disappeared. He no longer cared about his career, his uniform, his title or his fortune. He was going to die, and he knew it. He had committed a crime, and the punishment for murder was death, even if the victim survived. Strangely, the thought did not frighten him.",
+    "“I have lived,” he said to himself. “I have had my moments of glory. Now I am paying for it, and that is just.”",
+    "A few days later he was moved to the prison of Besançon, a high, old tower above the city. From his little window he could see a vast view of the countryside and the mountains. He felt calm and almost happy.",
+    "Madame de Rênal, meanwhile, was recovering slowly. She was not angry with Julien. In fact, she wanted to die. When she understood that she would live, she cried bitterly. The letter to the Marquis had been written under the orders of her confessor, a priest who had forced her to do it as a religious duty. Now she understood how much she had hurt Julien. She secretly sent money to the jailers and begged them to treat him well.",
+    "Then Mathilde arrived in Besançon. She was more passionate than ever. The tragedy had made Julien a hero in her eyes. A man who had dared to kill for honour! She spent her days running from one important person to another, spending enormous sums of money and using every influence to save him.",
+    "But Julien was tired of her energy and her schemes. He spent his days dreaming of the summer at Vergy, of the lime tree, and of Madame de Rênal's gentle hands."
+   ],
+   "glossary": [
+    {
+     "term": "gunsmith",
+     "meaning": "armeiro"
+    },
+    {
+     "term": "mass",
+     "meaning": "missa"
+    },
+    {
+     "term": "kneeling",
+     "meaning": "ajoelhados"
+    },
+    {
+     "term": "shawl",
+     "meaning": "xale"
+    },
+    {
+     "term": "seized",
+     "meaning": "agarrou, prendeu"
+    },
+    {
+     "term": "jailer",
+     "meaning": "carcereiro"
+    },
+    {
+     "term": "confessor",
+     "meaning": "confessor (padre)"
+    },
+    {
+     "term": "schemes",
+     "meaning": "planos, esquemas"
+    }
+   ]
+  },
+  {
+   "title": "The Visit",
+   "paragraphs": [
+    "One morning the door of Julien's cell opened, and a woman came in, dressed as a peasant, with a thick veil over her face. When she lifted the veil, Julien cried out. It was Madame de Rênal.",
+    "He fell at her feet and took her hands. For a long time neither of them could speak. They were both crying.",
+    "“Forgive me,” said Julien at last. “I have never loved anyone but you. In Paris, I thought I was happy, but I was only ambitious. My real happiness was at Vergy, under the lime tree, and I did not know it.”",
+    "“It is I who must ask you to forgive me,” she said. “That letter... My confessor made me write it. He told me it was my duty to God. I have regretted it every day since. When you shot me, I was almost glad. I thought that I would die by your hand, and that was all I deserved.”",
+    "“Then you do not hate me?”",
+    "“Hate you? I came here against the orders of my husband, against the orders of the Church. I have run away from home to see you. I shall come every day, whatever people say.”",
+    "From that day, she came to the prison almost every afternoon. Monsieur de Rênal wrote her furious letters, ordering her to return home, but she did not obey. For the first time in her life she did not care about her reputation. Julien had never been so happy. He talked with her for hours about their memories, about the children, about the mountains around Vergy. In these last weeks, he discovered what love really was.",
+    "Mathilde knew about these visits, and she suffered terribly from jealousy. But she did not give up. She continued to work for Julien's freedom with all her energy and all her money. She visited the judges and the priests. She even bribed people, and she persuaded Madame de Fervaques, who had great influence, to help. Julien was grateful, but he felt nothing for her except a tired admiration.",
+    "“She is a heroine,” he thought. “But she is always playing a part, even now. She wants to astonish the world. Madame de Rênal wants only to love me.”",
+    "The day of the trial arrived. The courtroom was full. Everyone in the region wanted to see the handsome young man who had shot the mayor's wife in church. Many of the ladies in the room were on Julien's side, and some were even crying.",
+    "When the lawyers had finished speaking, Julien stood up. He had not prepared a speech, but his words came clearly and calmly.",
+    "“Gentlemen of the jury,” he said, “I do not ask for mercy. I have tried to kill the woman most worthy of respect and love that I have ever known. My crime was terrible, and I deserve death. But I see clearly what you are going to punish. You will punish me not for my crime, but for my birth. I am a peasant who has dared to rise above his class. I have had a good education, and I have dared to enter the society of the rich. That is my real crime, and it is for that crime that you will condemn me. Look around you. I do not see a single peasant on this jury. I see only rich men of the middle class, who are angry with me.”",
+    "There was a great silence in the room. The foreman of the jury was Monsieur Valenod, his old enemy, now a rich and powerful man.",
+    "The jury went out. They were away for an hour. When they returned, Valenod stood up and read the verdict in a loud, self-important voice. Julien was guilty of attempted murder, with premeditation.",
+    "The judge sentenced him to death."
+   ],
+   "glossary": [
+    {
+     "term": "veil",
+     "meaning": "véu"
+    },
+    {
+     "term": "regretted",
+     "meaning": "me arrependi de"
+    },
+    {
+     "term": "bribed",
+     "meaning": "subornou"
+    },
+    {
+     "term": "courtroom",
+     "meaning": "sala do tribunal"
+    },
+    {
+     "term": "mercy",
+     "meaning": "misericórdia, clemência"
+    },
+    {
+     "term": "jury",
+     "meaning": "júri"
+    },
+    {
+     "term": "foreman",
+     "meaning": "presidente (do júri)"
+    },
+    {
+     "term": "premeditation",
+     "meaning": "premeditação"
+    }
+   ]
+  },
+  {
+   "title": "The Last Days",
+   "paragraphs": [
+    "After the sentence, Julien was taken back to his cell. He was calm. He had almost expected it, and in a strange way he was relieved. He had played his part to the end.",
+    "Mathilde and his friends begged him to appeal against the sentence. A lawyer explained that there was still a chance. Valenod's role in the jury could be used to cancel the verdict, and powerful friends in Paris could ask the King for a pardon.",
+    "“No,” said Julien. “I do not want to appeal. I am tired of life. I have nothing more to hope for in this world. Why should I fight to live a little longer in a prison, among people I despise?”",
+    "Only Madame de Rênal could make him hesitate. She came to see him every day, and she begged him on her knees to appeal. “For my sake,” she said, “live. Even in prison, even far away, live.” He loved her too much to refuse her completely, but in his heart he had decided. He made her promise one thing.",
+    "“Swear to me,” he said, “that you will not try to kill yourself after I am gone. You must live for your children. Swear it.”",
+    "She swore, weeping.",
+    "Then Monsieur de Rênal ordered his wife to come home immediately, and she was forced to obey. Julien was alone with his thoughts. His old father came to visit him once, and Julien saw that the old man cared only about money. Julien promised him some francs from his savings, and the carpenter went away satisfied.",
+    "In these last days Julien thought a great deal about his life. He thought about the hypocrisy of the world, about the Church and the rich, about the sad comedy of ambition. “I have loved the truth,” he said to himself. “Where is it? Everywhere hypocrisy, or at least lies. Even in the most virtuous people.” Only one thing seemed true to him: the memory of the days at Vergy, and the love of Madame de Rênal.",
+    "On a bright morning, full of sunshine, Julien was taken out to die. He felt strong and courageous. The air was fresh, and the sun was warm on his face. He walked to the scaffold with a firm step. Everything happened simply and quickly, without any affectation on his part.",
+    "Two days before, he had told his friend Fouqué that he wished to be buried in a small cave on the mountain above Verrières, where he had once spent a night alone, dreaming of glory. Fouqué bought the body from the authorities. That night, as he sat alone in his room with the body, the door opened and Mathilde came in. She was dressed in black, and her eyes were wild.",
+    "“I want to see him,” she said.",
+    "Fouqué tried to stop her, but she would not listen. She asked for Julien's head, and when she had it, she placed it on a little marble table in front of her and kissed it on the forehead. Like Queen Marguerite with Boniface de la Mole, three centuries before, she held the head of the man she loved.",
+    "The next day she followed the funeral procession up the mountain in her carriage. At midnight, in the little cave, lit by many candles, twenty priests said mass for Julien. Mathilde buried the head with her own hands. Later she had the cave decorated with Italian marble, at enormous cost.",
+    "Madame de Rênal kept her promise. She did not try to take her own life. But three days after Julien's death, she died, holding her children in her arms."
+   ],
+   "glossary": [
+    {
+     "term": "appeal",
+     "meaning": "recorrer (de uma sentença)"
+    },
+    {
+     "term": "pardon",
+     "meaning": "perdão, indulto"
+    },
+    {
+     "term": "for my sake",
+     "meaning": "por mim"
+    },
+    {
+     "term": "weeping",
+     "meaning": "chorando"
+    },
+    {
+     "term": "savings",
+     "meaning": "economias"
+    },
+    {
+     "term": "scaffold",
+     "meaning": "cadafalso"
+    },
+    {
+     "term": "affectation",
+     "meaning": "afetação, fingimento"
+    },
+    {
+     "term": "marble",
+     "meaning": "mármore"
+    }
+   ]
+  }
+ ]
+}

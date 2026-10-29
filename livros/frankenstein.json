@@ -1,0 +1,619 @@
+{
+ "id": "frankenstein",
+ "title": "Frankenstein",
+ "author": "Mary Shelley",
+ "year": 1818,
+ "module": 4,
+ "level": "B2",
+ "summary": "Preso no gelo do Ártico, o capitão Robert Walton resgata um viajante exausto, Victor Frankenstein, que lhe conta uma história extraordinária. Jovem cientista apaixonado, Victor descobriu o segredo da vida e deu existência a uma criatura feita por suas próprias mãos. Assustado com o que criou, ele foge, mas descobre que não é possível escapar das consequências da sua ambição.",
+ "chapters": [
+  {
+   "title": "The Ship in the Ice",
+   "paragraphs": [
+    "The letters of Robert Walton to his sister in England began full of hope. He was the captain of a ship sailing towards the North Pole, and he dreamed of discovering a passage through the ice that no man had ever seen. “I shall satisfy my burning curiosity,” he wrote. “I shall tread a land never before touched by the foot of man.” But Walton was lonely. He had no friend on board, nobody who could share his dreams.",
+    "In July, the ship was trapped. Ice surrounded it on every side, and a thick fog lay over the sea. When the fog cleared, the sailors saw a strange sight. About half a mile away, a low sledge pulled by dogs was crossing the ice towards the north. In it sat a figure that had the shape of a man, but seemed to be of gigantic size. They watched it through their telescopes until it disappeared among the distant hills of ice.",
+    "The next morning, the ice broke up, and the sailors found another sledge floating on a large piece of ice. All the dogs but one were dead, and in it was a man, almost frozen and terribly thin. Unlike the figure they had seen, he was clearly a European. Before he agreed to come on board, he asked a strange question. “Where is your ship going?”",
+    "“Towards the north,” Walton answered.",
+    "Only then did the stranger allow himself to be carried onto the ship. For two days he could hardly speak. When he recovered a little, he asked whether the sailors had seen anyone else on the ice. Walton told him about the giant on the sledge. The stranger's eyes burned. “I am following him,” he said. “He is a demon who fled from me.”",
+    "As the days passed, Walton came to love this stranger. He was gentle and wise, and he spoke beautifully, but he was eaten up by some terrible sorrow. One evening Walton told him about his own great ambition, and how he would give his life, his fortune and every hope he had for the success of his voyage.",
+    "“Do you have no friends at home?” the stranger asked him one evening.",
+    "“A sister, whom I love dearly,” Walton replied. “But on this voyage I have nobody. I have always longed for a friend who could understand me, who would be wise enough to correct my mistakes and brave enough to share my dangers.”",
+    "“I agree with you,” said the stranger quietly. “I once had such a friend, the noblest of human creatures. I have lost everything, and I cannot begin life again.”",
+    "The stranger covered his face with his hands, and tears ran between his fingers. “Unhappy man!” he cried. “Do you share my madness? Have you drunk also of the intoxicating draught? Hear me. Let me tell you my story, and you will understand.”",
+    "He looked at Walton for a long moment. “You seek knowledge and wisdom, as I once did. I hope that the gratification of your wishes will not be a serpent to sting you, as mine has been. My name is Victor Frankenstein. Tomorrow I will begin. Listen to my tale, and perhaps you will learn from it.”",
+    "And so, night after night, while the ship lay trapped in the ice and the wind howled, Victor Frankenstein told his story, and Walton wrote it down."
+   ],
+   "glossary": [
+    {
+     "term": "tread",
+     "meaning": "pisar"
+    },
+    {
+     "term": "sledge",
+     "meaning": "trenó"
+    },
+    {
+     "term": "gigantic",
+     "meaning": "gigantesco"
+    },
+    {
+     "term": "fled",
+     "meaning": "fugiu"
+    },
+    {
+     "term": "intoxicating",
+     "meaning": "inebriante"
+    },
+    {
+     "term": "draught",
+     "meaning": "bebida, gole"
+    },
+    {
+     "term": "gratification",
+     "meaning": "satisfação, realização"
+    },
+    {
+     "term": "howled",
+     "meaning": "uivava"
+    }
+   ]
+  },
+  {
+   "title": "A Young Scientist",
+   "paragraphs": [
+    "“I was born in Geneva,” Victor began, “into one of the most respected families of that city. My father was a good and honourable man, and my mother was gentle and kind. I was their eldest son, and I had the happiest childhood that any boy could have.",
+    "“When I was about five years old, my mother visited a poor family by a lake in Italy. Among their dark-haired children she found a little girl with golden hair and blue eyes, who seemed to belong to a different race. She was an orphan, the daughter of a nobleman, and the poor family had taken her in. My mother brought her home to us. Her name was Elizabeth Lavenza. ‘I have a pretty present for my Victor,’ my mother said, and from that day I looked upon Elizabeth as mine, to protect and love.”",
+    "Victor smiled sadly as he remembered. Elizabeth had grown up beside him like a sister. She loved poetry and the beauty of nature, while he loved to discover the secrets of the world. His closest friend was Henry Clerval, a brave and imaginative boy who loved stories of knights and adventures.",
+    "“When I was thirteen,” Victor went on, “I found by chance a book by Cornelius Agrippa, an old writer on magic and alchemy. I read it with delight. My father glanced at it and said, ‘Ah! Cornelius Agrippa! My dear Victor, do not waste your time upon this. It is sad trash.’ If only he had explained why! Instead, I went on reading. I studied the old alchemists who searched for the elixir of life. I dreamed of banishing disease from the human body and making man invulnerable to any but a violent death.",
+    "“When I was fifteen, I saw a terrible storm. A bolt of lightning struck an old oak tree near our house, and when the light vanished, the tree had disappeared. Nothing remained but a blasted stump. A scientist who was staying with us explained the power of electricity, and I became fascinated by it.”",
+    "At seventeen, Victor was sent to the University of Ingolstadt in Germany. But before he left, the first misfortune of his life took place. Elizabeth caught scarlet fever. His mother nursed her day and night, and Elizabeth recovered, but his mother caught the illness and died. On her deathbed she joined the hands of Victor and Elizabeth. “My children,” she said, “my firmest hopes of future happiness were placed on the prospect of your union. Elizabeth, my love, you must take my place with my younger children.”",
+    "“I need not describe our sorrow,” said Victor. “Henry wanted to come with me to university, but his father, a merchant, would not allow it. So I left alone.”",
+    "On the morning he left, Elizabeth walked with him to the carriage. Her eyes were red, but she tried to smile. “You must write to us often, Victor,” she said. “Do not work so hard that you forget us. Promise me.”",
+    "“I could never forget you, Elizabeth,” he answered, holding her hands. “In a few years I shall come back, and then we shall never be separated again.” He did not know, as the carriage rolled away, how bitterly those words would be remembered.",
+    "At Ingolstadt, Victor met two professors. The first, Krempe, laughed at him. “Have you really spent your time studying such nonsense? Every minute you have wasted on those books is utterly lost.” But the second, Professor Waldman, was kind. In his first lecture he spoke of the wonders of modern chemistry. “The modern masters promise very little,” he said, “but they have indeed performed miracles. They penetrate into the hiding places of nature.”",
+    "“As he spoke,” said Victor, “I felt as if my soul were struggling with a real enemy. One by one, the keys were touched which formed the mechanism of my being. I decided that I would do more, far more. I would explore unknown powers and unfold to the world the deepest mysteries of creation.”"
+   ],
+   "glossary": [
+    {
+     "term": "orphan",
+     "meaning": "órfã"
+    },
+    {
+     "term": "trash",
+     "meaning": "lixo, bobagem"
+    },
+    {
+     "term": "banishing",
+     "meaning": "banir, eliminar"
+    },
+    {
+     "term": "invulnerable",
+     "meaning": "invulnerável"
+    },
+    {
+     "term": "blasted stump",
+     "meaning": "toco destruído"
+    },
+    {
+     "term": "deathbed",
+     "meaning": "leito de morte"
+    },
+    {
+     "term": "utterly",
+     "meaning": "completamente"
+    },
+    {
+     "term": "unfold",
+     "meaning": "revelar"
+    }
+   ]
+  },
+  {
+   "title": "The Secret of Life",
+   "paragraphs": [
+    "“For two years I worked without rest,” Victor continued. “I made such progress that I amazed the professors. But one question interested me above all others: where does the principle of life come from? To examine the causes of life, we must first understand death. So I studied the human body, and how it decays after death. I spent days and nights in graveyards and in the rooms where bodies were cut open. I saw how the fine form of man was ruined and wasted. I saw how the worm inherited the wonders of the eye and brain.",
+    "“Then, from the midst of this darkness, a sudden light broke upon me. After days and nights of incredible labour, I succeeded in discovering the cause of generation and life. More than that, I became capable of bestowing animation upon lifeless matter.”",
+    "Walton leaned forward eagerly, but Victor raised his hand. “I see by your eagerness that you expect to be told the secret. That cannot be. Listen to my story, and you will see why I will not lead you to your destruction. Learn from me, if not by my precepts, at least by my example, how dangerous is the acquirement of knowledge.",
+    "“When I found this astonishing power in my hands, I hesitated a long time about how to use it. At last I decided to create a human being. Because small parts would slow my work, I decided to make the creature of gigantic size, about eight feet tall. A new species would bless me as its creator. No father could claim the gratitude of his child as completely as I should deserve theirs.",
+    "“I collected bones from charnel houses. I disturbed, with profane fingers, the tremendous secrets of the human frame. In a solitary room at the top of the house, I kept my workshop of filthy creation. My eyes were starting from their sockets as I worked. The summer passed, and I did not notice its beauty. I forgot my friends, my family, even Elizabeth. I grew pale and thin. I trembled at every noise, as if I were guilty of a crime.”",
+    "He was silent for a moment, and Walton saw that his hands were shaking.",
+    "“It was on a dreary night of November that I saw the end of my labours. With an anxiety that almost amounted to agony, I collected the instruments of life around me, so that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning. The rain beat against the windows, and my candle was nearly burnt out. Then, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open. It breathed hard, and a convulsive motion moved its limbs.",
+    "“How can I describe my emotions at this catastrophe? I had chosen its features as beautiful. Beautiful! Great God! Its yellow skin scarcely covered the work of muscles and arteries beneath. Its hair was black and flowing, and its teeth were white as pearls. But these luxuries only formed a more horrid contrast with its watery eyes, its shrivelled face and its straight black lips.",
+    "“I had worked for nearly two years for this one purpose, and now that I had finished, the beauty of the dream vanished, and breathless horror and disgust filled my heart. Unable to endure the sight of the being I had created, I rushed out of the room.”"
+   ],
+   "glossary": [
+    {
+     "term": "decays",
+     "meaning": "se decompõe"
+    },
+    {
+     "term": "graveyards",
+     "meaning": "cemitérios"
+    },
+    {
+     "term": "bestowing",
+     "meaning": "conceder, dar"
+    },
+    {
+     "term": "precepts",
+     "meaning": "conselhos, preceitos"
+    },
+    {
+     "term": "charnel houses",
+     "meaning": "ossários"
+    },
+    {
+     "term": "filthy",
+     "meaning": "imunda"
+    },
+    {
+     "term": "dreary",
+     "meaning": "sombria, deprimente"
+    },
+    {
+     "term": "shrivelled",
+     "meaning": "enrugado, murcho"
+    }
+   ]
+  },
+  {
+   "title": "The Creature Awakes",
+   "paragraphs": [
+    "“I threw myself on my bed and tried to sleep,” said Victor. “I had terrible dreams. I thought I saw Elizabeth, healthy and beautiful, walking in the streets of Ingolstadt. I embraced her, but as I kissed her lips, they became pale with death, and I held in my arms the body of my dead mother. I woke in horror. A cold sweat covered my forehead.",
+    "“And then, by the yellow light of the moon, I saw the monster, the miserable creature I had made. He held up the curtain of the bed, and his eyes, if eyes they could be called, were fixed on me. His jaws opened, and he made some sounds, while a grin wrinkled his cheeks. He may have spoken, but I did not hear. One hand was stretched out, seemingly to keep me, but I escaped and rushed downstairs.",
+    "“I spent the rest of the night walking up and down in the courtyard, listening for every sound, fearing that it announced the approach of the demoniacal corpse to which I had so miserably given life. Oh! No mortal could support the horror of that face. A mummy brought back to life could not be so hideous as that wretch.”",
+    "In the morning, Victor walked the streets of the town in the rain, not daring to go home. At the inn where the coaches arrived, a coach stopped, and out of it stepped Henry Clerval. “My dear Frankenstein!” he cried. “How glad I am to see you! My father has at last allowed me to come and study here.”",
+    "Victor's joy at seeing his friend was mixed with terror. He brought Clerval to his rooms, but he was afraid to go in first. He threw the door open. The room was empty. The monster had gone. Victor was so relieved that he began to laugh wildly and clap his hands, and Clerval looked at him in alarm.",
+    "“My dear Victor,” he said, “what, for God's sake, is the matter? Don't laugh in that manner. How ill you are! What is the cause of all this?”",
+    "“Do not ask me,” cried Victor, putting his hands before his eyes, for he thought he saw the dreaded spectre glide into the room. “He can tell. Oh, save me! Save me!” And he fell down in a fit.",
+    "For several months Victor was dangerously ill with a nervous fever. Henry nursed him with endless patience and kept his illness a secret from his family, so that they would not worry. In his fever, Victor talked constantly about a monster, and Henry believed that his friend's mind was disturbed by illness.",
+    "One day, when Victor was strong enough to sit up, Henry gave him a letter. “It is from your cousin,” he said. “She has written to you many times, and she is very anxious about you.”",
+    "Victor read Elizabeth's letter with tears in his eyes. She told him the little news of home: his younger brother William was growing tall and clever, and a gentle girl called Justine Moritz had come back to live with the family as a servant. “Get well, my dear cousin,” she wrote. “Write a few words, only a few, so that we know you are safe.”",
+    "“Dear, dear Elizabeth,” said Victor. “I will write to her at once.”",
+    "When at last he was well again, it was spring. Victor could not bear to enter his laboratory, and the sight of any scientific instrument made him tremble. Henry took him on long walks in the countryside, and slowly his spirits returned. For a time it seemed that the creature had disappeared forever, and Victor allowed himself to hope that he would never see it again.",
+    "Then a letter arrived from his father."
+   ],
+   "glossary": [
+    {
+     "term": "embraced",
+     "meaning": "abracei"
+    },
+    {
+     "term": "jaws",
+     "meaning": "mandíbulas"
+    },
+    {
+     "term": "grin",
+     "meaning": "sorriso largo"
+    },
+    {
+     "term": "corpse",
+     "meaning": "cadáver"
+    },
+    {
+     "term": "wretch",
+     "meaning": "desgraçado, miserável"
+    },
+    {
+     "term": "relieved",
+     "meaning": "aliviado"
+    },
+    {
+     "term": "spectre",
+     "meaning": "espectro, fantasma"
+    },
+    {
+     "term": "fit",
+     "meaning": "ataque, crise"
+    }
+   ]
+  },
+  {
+   "title": "Murder in Geneva",
+   "paragraphs": [
+    "Victor opened the letter and read it. Then he threw it on the table and covered his face with his hands. Clerval picked it up and read it too. It said:",
+    "“My dear Victor, I can hardly find the words to tell you. William is dead! That sweet child, whose smiles delighted and warmed my heart, who was so gentle and yet so happy! Victor, he is murdered! Last Thursday we went for a walk outside the town. William and his brother Ernest ran ahead to hide, but William did not come back. We searched all night, and at five in the morning I found my lovely boy lying on the grass, cold and still. The print of the murderer's finger was on his neck. Elizabeth is heartbroken. She had let him wear a valuable little picture of your mother around his neck, and it is gone. That, no doubt, was the reason for the murder. Come home, dearest Victor. You alone can comfort Elizabeth.”",
+    "Victor left at once for Geneva. It was late at night when he arrived near the city, and the gates were already shut. He decided to visit the place where William had been killed. As he walked, a violent storm broke over the mountains. The lightning lit up the lake and the Alps, and Victor cried out, “William, dear angel! This is your funeral, this is your dirge!”",
+    "Then, in a flash of lightning, he saw a figure come out from behind a group of trees. He stood still and stared. He could not be mistaken. Its gigantic size and the deformity of its face, more hideous than anything human, told him at once that it was the wretch, the filthy demon to whom he had given life.",
+    "“What was he doing there?” Victor asked Walton. “Could he be the murderer of my brother? No sooner did that idea cross my mind than I became convinced of its truth. My teeth chattered, and I was forced to lean against a tree for support. The figure passed me quickly and climbed the steep side of the mountain with incredible speed. In a moment he had disappeared.”",
+    "Victor thought of following him, but it was hopeless. And how could he tell anyone? Who would believe a story of a creature made in a laboratory? They would think he was mad.",
+    "When he reached his father's house in the morning, his brother Ernest met him with news. “The murderer has been discovered,” he said. “Who could have believed it? It is Justine Moritz.”",
+    "Justine was a young servant who had lived with the family for years. She was like a sister to Elizabeth, and she had loved William dearly. “Justine!” cried Victor. “That is impossible. Poor, good Justine is innocent.”",
+    "“Then she is unlucky,” said Ernest sadly. “On the morning after the murder, the picture of our mother was found in the pocket of her dress. She had been out all that night, and when she came back she seemed confused. She will be tried today.”",
+    "Elizabeth came into the room, pale and sad. “Victor, your arrival gives me hope,” she said. “You will perhaps find some means to prove Justine innocent. I know she is innocent. If she is condemned, I shall never know joy again.”",
+    "“She is innocent, my Elizabeth,” said Victor firmly. “And that shall be proved. Fear nothing.” But in his heart he was full of dread. He knew who the real murderer was, and he knew that he could say nothing."
+   ],
+   "glossary": [
+    {
+     "term": "heartbroken",
+     "meaning": "de coração partido"
+    },
+    {
+     "term": "dirge",
+     "meaning": "canto fúnebre"
+    },
+    {
+     "term": "deformity",
+     "meaning": "deformidade"
+    },
+    {
+     "term": "chattered",
+     "meaning": "batiam (os dentes)"
+    },
+    {
+     "term": "steep",
+     "meaning": "íngreme"
+    },
+    {
+     "term": "tried",
+     "meaning": "julgada"
+    },
+    {
+     "term": "condemned",
+     "meaning": "condenada"
+    },
+    {
+     "term": "dread",
+     "meaning": "pavor, temor"
+    }
+   ]
+  },
+  {
+   "title": "The Trial of Justine",
+   "paragraphs": [
+    "The trial began at eleven o'clock. Victor sat in the court in torture. Two people were going to die because of him: a child already in his grave, and an innocent girl who would soon be in hers. He would have confessed a hundred times that he was guilty of the crime, but he had been absent when it was committed. Such a declaration would have been considered the ravings of a madman.",
+    "Justine stood calmly before the judges. She was dressed in mourning, and her face was pale but steady. She explained that on the night of the murder she had been visiting an aunt in a nearby village. When she came back, she heard that William was lost, and she searched for him for hours. The gates of the city were closed, so she spent the night in a barn. In the morning she was confused and exhausted. “As for the picture,” she said, “I have no explanation. I can only guess that the murderer placed it in my pocket. But why he did it, I do not know. I had no enemy on earth.”",
+    "Elizabeth stood up and spoke for her bravely. “I have lived in the same house with her for many years,” she said. “She was always the most kind and loving of creatures. She nursed my aunt in her last illness with the greatest affection. She loved William like a mother. I believe and rely on her perfect innocence.”",
+    "The people in the court admired Elizabeth's courage, but her words did not save Justine. The judges voted, and every vote was against her. She was condemned to death.",
+    "The next day, Elizabeth and Victor visited her in prison. To their horror, they learned that she had confessed. “Why did you confess, Justine?” cried Elizabeth. “You know you are innocent!”",
+    "Justine wept. “I did confess, but I confessed a lie. A priest came to me every day and threatened me with hell and damnation if I did not confess. I had no friend. Everyone looked at me as a monster. I lied, and now I am truly miserable. Dear lady, I am not afraid to die, now that you believe me. God will give me courage.”",
+    "Victor stood in a corner of the cell. The despair in his heart was far greater than Justine's. “She at least was innocent,” he told Walton. “But I carried a hell within me which nothing could extinguish.”",
+    "The next morning, Justine was hanged.",
+    "After her death, a terrible despair came over Victor. He could not sleep. He wandered like an evil spirit, for he had committed deeds of mischief beyond description. Sometimes he thought of throwing himself into the lake. Only the thought of Elizabeth and his old father stopped him.",
+    "His father tried to comfort him. “Do you think, Victor, that I do not suffer also? No one ever loved a child more than I loved your brother. But is it not a duty to the living that we should not increase their unhappiness by excessive grief?”",
+    "Victor could not explain. Every time he looked at Elizabeth's sad face, he burned with hatred for the creature he had made. “I wished to see him again,” he said, “so that I might avenge the deaths of William and Justine.”",
+    "To escape his sorrow, he set off alone towards the mountains of Chamonix. The great glaciers and the silent peaks gave him some comfort. Their grandeur made his own troubles seem small, and for a few days he felt almost calm."
+   ],
+   "glossary": [
+    {
+     "term": "ravings",
+     "meaning": "delírios"
+    },
+    {
+     "term": "mourning",
+     "meaning": "luto"
+    },
+    {
+     "term": "barn",
+     "meaning": "celeiro"
+    },
+    {
+     "term": "rely on",
+     "meaning": "confiar em"
+    },
+    {
+     "term": "damnation",
+     "meaning": "condenação eterna"
+    },
+    {
+     "term": "extinguish",
+     "meaning": "apagar, extinguir"
+    },
+    {
+     "term": "mischief",
+     "meaning": "maldade, dano"
+    },
+    {
+     "term": "grief",
+     "meaning": "pesar, luto"
+    }
+   ]
+  },
+  {
+   "title": "Meeting on the Mountain",
+   "paragraphs": [
+    "One morning, Victor climbed alone to the top of Montanvert, above the great glacier called the Sea of Ice. The mist was rising from the valley, and the rain was falling. When he reached the top, he sat on a rock and looked across the wonderful white sea of ice towards Mont Blanc. His heart was full of something like joy. “Wandering spirits,” he cried, “if indeed you wander, and do not rest in your narrow beds, allow me this faint happiness.”",
+    "As he said this, he suddenly saw the figure of a man, at some distance, coming towards him with superhuman speed. He jumped over the cracks in the ice, among which Victor had walked with caution. As he came nearer, Victor saw that it was the creature. He trembled with rage and horror, and decided to wait for him and fight him to the death.",
+    "“Devil!” Victor cried. “Do you dare to approach me? Begone, vile insect! Or rather, stay, so that I may trample you to dust! Oh, if I could, with the extinction of your miserable existence, restore those victims whom you have so diabolically murdered!”",
+    "“I expected this reception,” said the creature calmly. His voice was deep and strangely educated. “All men hate the wretched. How, then, must I be hated, who am miserable beyond all living things! Yet you, my creator, detest and spurn me, your creature, to whom you are bound by ties only dissoluble by the death of one of us. You intend to kill me. How dare you sport thus with life? Do your duty towards me, and I will do mine towards you and the rest of mankind.”",
+    "Victor sprang at him in fury, but the creature easily escaped him. “Be calm!” he said. “I ask you to hear me before you give vent to your hatred. Have I not suffered enough? Remember, you have made me more powerful than yourself. My height is superior to yours, my joints more supple. But I will not fight you. I am your creature. I ought to be your Adam, but I am rather the fallen angel, whom you drive from joy for no misdeed.”",
+    "He paused, and his voice became softer. “Everywhere I see happiness, from which I alone am excluded. I was benevolent and good. Misery made me a fiend. Make me happy, and I shall again be virtuous.”",
+    "“Begone!” Victor said. “I will not hear you. There can be no community between you and me. We are enemies.”",
+    "“How can I move you?” the creature replied. “Believe me, Frankenstein, I was benevolent. My soul glowed with love and humanity. But am I not alone, miserably alone? You, my creator, hate me. What hope can I gather from your fellow creatures, who owe me nothing? They spurn and hate me. The desert mountains and dreary glaciers are my refuge. Listen to my tale. Then, if you can, destroy the work of your hands.”",
+    "He pointed to a small hut nearby. “The air is cold here. Come to the hut upon the mountain. The sun is still high in the heavens. Before it descends to hide itself behind those snowy cliffs, you will have heard my story and can decide. On you it rests whether I quit forever the neighbourhood of man and lead a harmless life, or become the scourge of your fellow creatures.”",
+    "Victor hesitated. For the first time, he felt what the duties of a creator towards his creature were. He agreed to listen. They crossed the ice together and entered the hut. The creature lit a fire, and Victor sat down beside it. Then the creature began."
+   ],
+   "glossary": [
+    {
+     "term": "caution",
+     "meaning": "cuidado, cautela"
+    },
+    {
+     "term": "begone",
+     "meaning": "vá embora, suma"
+    },
+    {
+     "term": "trample",
+     "meaning": "pisotear"
+    },
+    {
+     "term": "spurn",
+     "meaning": "rejeitar, desprezar"
+    },
+    {
+     "term": "give vent to",
+     "meaning": "dar vazão a"
+    },
+    {
+     "term": "supple",
+     "meaning": "flexíveis, ágeis"
+    },
+    {
+     "term": "fiend",
+     "meaning": "demônio"
+    },
+    {
+     "term": "scourge",
+     "meaning": "flagelo"
+    }
+   ]
+  },
+  {
+   "title": "The Creature's Story",
+   "paragraphs": [
+    "“It is with considerable difficulty that I remember the first days of my life,” the creature said. “All the events of that period appear confused. I remember that a great many sensations seized me at the same time. I saw, felt, heard and smelt all at once. When I left your rooms, I wandered into the forest near Ingolstadt. I was cold, and I sat down and wept. I did not know what I was.",
+    "“I lived for some days in the forest, eating berries and drinking from streams. One day I found a fire that some beggars had left, and I put my hand into the hot ashes. I quickly drew it out again with a cry of pain. How strange, I thought, that the same cause should produce such opposite effects!",
+    "“When I entered a village for the first time, the children shrieked and one of the women fainted. The whole village came out. Some fled, some attacked me, until, bruised by stones and many other kinds of weapons, I escaped to the open country. I hid in a low hovel next to a small cottage. There, through a crack in the wall, I could see into the cottage without being seen.",
+    "“In the cottage lived an old blind man, his son Felix and his daughter Agatha. They were poor, but they were gentle and loving with each other. The old man played the guitar, and the music made me weep with a feeling I could not understand. I watched them for months. I saw that they were often hungry, and so I stopped stealing their food. At night, I collected wood for their fire and left it at their door. In the morning, they were amazed, and they spoke of a ‘good spirit’. That made me happy.",
+    "“Little by little I learned their story. They had once been rich and respected in Paris. A Turkish merchant had been unjustly thrown into prison there, and Felix had helped him to escape, because he had fallen in love with the merchant's daughter. When the government discovered what he had done, the whole family lost their fortune and were sent away from France. That was why they lived in poverty, far from their country. The merchant had promised Felix his daughter, but he had broken his word.",
+    "“I discovered that these people had a way of communicating their thoughts by sounds. I learned their words: ‘fire’, ‘milk’, ‘bread’, ‘wood’. Then a beautiful young woman arrived from Turkey, an Arabian called Safie, whom Felix loved. She did not know their language, so Felix taught her, and I learned too, hidden in my hovel. I learned to speak and later to read. I found three books in the woods, and I read them again and again: Paradise Lost, Plutarch's Lives and The Sorrows of Werter. They taught me about the history of men, about love and virtue and crime.",
+    "“But I also learned what I was. One day I saw my reflection in a pool. At first I started back, unable to believe that it was indeed I who was reflected in the mirror. When I became fully convinced that I was in reality the monster that I am, I was filled with the bitterest sensations of despondence and mortification.",
+    "“In the pocket of the coat I had taken from your laboratory, I found some papers. They were your journal of the four months before my creation. I read them. Everything is written there: every step of my making, and the disgust you felt. ‘Hateful day when I received life!’ I cried. ‘Accursed creator! Why did you form a monster so hideous that even you turned from me in disgust? God, in pity, made man beautiful, after his own image. But my form is a filthy type of yours. Satan had his companions, fellow devils, to admire him. But I am solitary and abhorred.’",
+    "“Still I hoped. The cottagers were kind and good. Surely, I thought, if they only knew my heart, they would pity me. I decided to speak to the old blind man first, when he was alone. He could not see my ugliness. If he accepted me, perhaps the others would accept me too. For many months I prepared myself for this moment, as a man prepares for the most important day of his life.”"
+   ],
+   "glossary": [
+    {
+     "term": "berries",
+     "meaning": "frutinhas silvestres"
+    },
+    {
+     "term": "shrieked",
+     "meaning": "gritaram"
+    },
+    {
+     "term": "bruised",
+     "meaning": "machucado, cheio de hematomas"
+    },
+    {
+     "term": "hovel",
+     "meaning": "choupana, barraco"
+    },
+    {
+     "term": "despondence",
+     "meaning": "desânimo"
+    },
+    {
+     "term": "mortification",
+     "meaning": "humilhação"
+    },
+    {
+     "term": "accursed",
+     "meaning": "maldito"
+    },
+    {
+     "term": "abhorred",
+     "meaning": "odiado, detestado"
+    }
+   ]
+  },
+  {
+   "title": "Fire and Revenge",
+   "paragraphs": [
+    "“At last the day came,” the creature continued. “Felix, Agatha and Safie went out for a long walk, and the old man stayed at home alone. My heart beat fast. I knocked at the door.",
+    "“‘Who is there?’ said the old man. ‘Come in.’",
+    "“I entered. ‘Pardon this intrusion,’ I said. ‘I am a traveller in want of a little rest. I would be grateful if you allowed me to sit by your fire for a few minutes.’",
+    "“He was kind. We talked, and I told him that I was going to some friends whom I loved, but who had never seen me. ‘I am afraid,’ I said, ‘that they will see a detestable monster where they should see a feeling and kind friend.’ He said that he would speak for me. ‘I am blind,’ he said, ‘and cannot judge of your face, but there is something in your words which persuades me that you are sincere.’",
+    "“At that moment I heard the steps of the young people. I seized the hand of the old man and cried, ‘Now is the time! Save and protect me! You and your family are the friends whom I seek. Do not desert me in the hour of trial!’",
+    "“‘Great God!’ exclaimed the old man. ‘Who are you?’",
+    "“The door opened, and Felix, Safie and Agatha entered. Who can describe their horror on seeing me? Agatha fainted, and Safie ran out of the cottage. Felix darted forward and, with supernatural force, tore me from his father. He struck me violently with a stick. I could have torn him limb from limb, but my heart sank within me, and I did not. I escaped to my hovel.",
+    "“A few days later, the family left the cottage forever. They were too afraid to stay. That night I burned the cottage to the ground, and I danced with fury around the flames. I declared everlasting war against the human species, and more than all, against him who had formed me and sent me forth to this insupportable misery.",
+    "“I knew from your papers that you lived in Geneva, and I travelled there. On the way, I saw a young girl fall into a river, and I saved her from drowning. But a man who was with her took her from me and shot me in the shoulder. This was the reward of my benevolence!",
+    "“When I reached the woods near Geneva, a beautiful child came running towards me. I thought that he was too young to have learned the horror of deformity. If I could seize him and educate him as my companion, I would not be so lonely. But when he saw me, he screamed. ‘Monster! Ugly wretch! You want to eat me! Let me go, or I will tell my papa. My papa is Monsieur Frankenstein.’",
+    "“‘Frankenstein!’ I said. ‘You belong then to my enemy. You shall be my first victim.’ The child struggled, and I grasped his throat to silence him, and in a moment he lay dead at my feet. I looked at my victim, and my heart swelled with exultation and hellish triumph. Then I saw the picture on his breast and took it. Later I found a young woman sleeping in a barn, and I placed the picture in the folds of her dress. Not I, but she, shall suffer, I thought.”",
+    "The creature stopped and looked at Victor. “You know the rest. I am alone and miserable. Man will not associate with me. But one as deformed and horrible as myself would not deny herself to me. You must create a female for me, with whom I can live. This you alone can do, and I demand it of you as a right which you must not refuse. If you agree, we will go to the wild places of South America. No man will ever see us again.”"
+   ],
+   "glossary": [
+    {
+     "term": "intrusion",
+     "meaning": "intromissão"
+    },
+    {
+     "term": "in want of",
+     "meaning": "precisando de"
+    },
+    {
+     "term": "darted",
+     "meaning": "lançou-se"
+    },
+    {
+     "term": "limb from limb",
+     "meaning": "membro por membro, em pedaços"
+    },
+    {
+     "term": "everlasting",
+     "meaning": "eterna"
+    },
+    {
+     "term": "insupportable",
+     "meaning": "insuportável"
+    },
+    {
+     "term": "grasped",
+     "meaning": "agarrei"
+    },
+    {
+     "term": "exultation",
+     "meaning": "júbilo, exaltação"
+    }
+   ]
+  },
+  {
+   "title": "The Second Creature",
+   "paragraphs": [
+    "Victor at first refused with anger. But the creature argued with him, and slowly Victor felt that there was some justice in his words. “If you consent,” the creature said, “neither you nor any other human being shall ever see us again. My evil passions will have fled, for I shall meet with sympathy.” At last, with a heavy heart, Victor agreed. “I consent to your demand,” he said, “on your solemn oath to leave Europe forever, and every other place near man.”",
+    "“I swear,” cried the creature. “I shall watch your progress with unutterable anxiety. When you are ready, I shall appear.” And he ran down the mountain and disappeared.",
+    "When Victor returned home, he could not begin. Weeks and months passed. His father noticed his sadness and asked him whether he still wanted to marry Elizabeth. “I love her tenderly,” said Victor, “but I must first take a journey to England.” He could not tell the truth: he needed to learn certain new discoveries from English scientists. It was agreed that he would marry Elizabeth when he returned. Henry Clerval came with him.",
+    "In England, Clerval was delighted with everything he saw. He talked to everyone and wanted to learn everything. “I could spend my whole life in this country,” he said as they travelled along the river towards Oxford. “Look at those old towers, Victor! Doesn't your heart beat faster at the sight of them?”",
+    "Victor tried to share his friend's joy, but he could not. He felt like a blasted tree, whose branches could never be green again. “I am a miserable spectacle of wrecked humanity,” he thought, “pitiable to others and intolerable to myself.” Yet he loved Clerval more than ever, and he was grateful for every hour they spent together. He did not know that these were the last.",
+    "After some months in London and Scotland, Victor left Henry with friends and went alone to one of the remotest of the Orkney Islands, a rock in the cold northern sea where only five people lived. There, in a poor hut, he began his second creation. It was a filthy process, and every day he felt more sick at heart.",
+    "One evening, sitting in his laboratory, Victor began to reflect. Three years before, he had created a fiend whose barbarity had desolated his heart. Now he was about to form another being, whose dispositions he did not know. She might become ten thousand times more evil than her mate. She might refuse to go to South America. They might hate each other. And even if they went, they might have children, a race of devils who would make the very existence of the human species precarious and full of terror.",
+    "He looked up. By the light of the moon, he saw the creature at the window. A ghastly grin wrinkled his lips as he watched Victor at his work. Victor trembled with passion, and he tore to pieces the thing on which he was working.",
+    "The creature saw what he had done and gave a howl of devilish despair and revenge. A few hours later, he came into the hut. “You have destroyed the work which you began,” he said. “What is it that you intend? Do you dare to break your promise? I have endured toil and misery. I followed you across Europe. And now you destroy my hopes?”",
+    "“Begone! I do break my promise. Never will I create another like yourself, equal in deformity and wickedness.”",
+    "“Slave, I before reasoned with you, but you have proved yourself unworthy of my condescension. Remember that I have power. You are my creator, but I am your master. Obey!”",
+    "“The hour of my weakness is past,” said Victor. “Your threats cannot move me.”",
+    "The creature looked at him with fury. “Shall each man find a wife for his bosom, and each beast have his mate, and I be alone? Beware, for I am fearless and therefore powerful. I will watch with the wiliness of a snake. Man, you shall repent of the injuries you inflict. It is well. I go. But remember, I shall be with you on your wedding night.”",
+    "Victor started forward, but the creature was gone. A few days later, when Victor landed in Ireland, he was arrested and accused of murder. The body of a young man had been found on the beach, with the black marks of fingers on his neck. They took Victor to see it, and when he saw it, he fell to the ground. It was Henry Clerval."
+   ],
+   "glossary": [
+    {
+     "term": "consent",
+     "meaning": "consentir, concordar"
+    },
+    {
+     "term": "solemn oath",
+     "meaning": "juramento solene"
+    },
+    {
+     "term": "unutterable",
+     "meaning": "indescritível"
+    },
+    {
+     "term": "remotest",
+     "meaning": "mais remotas"
+    },
+    {
+     "term": "precarious",
+     "meaning": "precária, instável"
+    },
+    {
+     "term": "toil",
+     "meaning": "trabalho duro, labuta"
+    },
+    {
+     "term": "condescension",
+     "meaning": "condescendência"
+    },
+    {
+     "term": "wiliness",
+     "meaning": "astúcia"
+    }
+   ]
+  },
+  {
+   "title": "The Wedding Night",
+   "paragraphs": [
+    "For two months Victor lay in an Irish prison, close to death with fever. At last it was proved that he had been on the Orkney Islands when Clerval was murdered, and he was set free. His father came to take him home. “Do not mourn, my dear father,” Victor said in despair. “I am the assassin of those most innocent victims. They died by my machinations.” His father thought that his mind was still disturbed by illness.",
+    "Before his release, the magistrate, an old and kind man called Mr. Kirwin, came to his cell. “I fear that this place is very shocking to you,” he said gently. “Can I do anything to make you more comfortable?”",
+    "“I thank you,” said Victor, “but all that you mention is nothing to me. There is no comfort on the whole earth which I am capable of receiving.”",
+    "“Immediately upon your being taken ill,” said Mr. Kirwin, “all the papers that were on your person were brought to me, and I wrote to your family. Someone has come to see you.” For a terrible moment Victor thought that the murderer had come to mock him. But it was his father, and Victor wept in his arms.",
+    "Back in Geneva, Elizabeth welcomed him with tender affection. She wrote to him that if he loved another woman, he was free. But Victor loved only her. He remembered the creature's threat: “I shall be with you on your wedding night.” He believed that the monster meant to kill him on that night. Well, then, he would fight him. If he won, he would be free. If he died, his suffering would end. So he agreed to marry Elizabeth at once. “I have one secret, Elizabeth,” he told her, “a dreadful one. I will tell you the day after our marriage.”",
+    "The wedding took place, and the young couple set off by boat across the lake to spend their first night at an inn at Evian. The day was fine, the wind was favourable, and Elizabeth was happy. But as night fell, a storm arose. Victor carried a pistol and a dagger hidden in his clothes, and he walked anxiously through the passages of the inn, watching every shadow.",
+    "“What is it that agitates you, my dear Victor?” Elizabeth asked timidly. “What is it you fear?”",
+    "“Oh, peace, peace, my love,” he replied. “This night, and all will be safe. But this night is dreadful, very dreadful.”",
+    "He begged her to go to bed, while he searched the house for his enemy. He searched every corner, but he found nothing. He was beginning to hope that some lucky chance had prevented the monster from carrying out his threats, when suddenly he heard a shrill and dreadful scream. It came from the room into which Elizabeth had gone.",
+    "As he heard it, the whole truth rushed into his mind. His arms dropped, and every muscle was suspended. Then he ran into the room.",
+    "She was there, lifeless and inanimate, thrown across the bed, her head hanging down and her pale features half covered by her hair. The murderous mark of the fiend's grasp was on her neck.",
+    "Through the open window, Victor saw, in the pale yellow light of the moon, the creature. A grin was on his face. He seemed to jeer, as with his fiendish finger he pointed towards the corpse of Elizabeth. Victor rushed to the window, drew his pistol and fired, but the creature escaped, ran with the swiftness of lightning, and plunged into the lake.",
+    "The people of the inn searched for hours, but they found nothing. Victor returned to Geneva, where his old father could not survive the news. A few days later he died in Victor's arms.",
+    "Victor went to a magistrate and told him the whole story. The magistrate listened politely, but it was clear that he did not believe it. “I would willingly help you,” he said, “but the creature you describe appears to have powers which would make all my efforts useless.”",
+    "“Then I must do it myself,” said Victor. “I will pursue him until he or I shall perish. I have but one resource. I devote myself, either in my life or death, to his destruction.”",
+    "He knelt in the cemetery where William, Elizabeth and his father lay. He swore by the night and by the spirits of the dead to follow the demon until one of them died. Out of the darkness, he heard a loud and fiendish laugh. Then a voice whispered close to his ear, “I am satisfied, miserable wretch! You have determined to live, and I am satisfied.”"
+   ],
+   "glossary": [
+    {
+     "term": "machinations",
+     "meaning": "maquinações, tramas"
+    },
+    {
+     "term": "favourable",
+     "meaning": "favorável"
+    },
+    {
+     "term": "agitates",
+     "meaning": "perturba, agita"
+    },
+    {
+     "term": "shrill",
+     "meaning": "estridente"
+    },
+    {
+     "term": "inanimate",
+     "meaning": "sem vida"
+    },
+    {
+     "term": "jeer",
+     "meaning": "zombar"
+    },
+    {
+     "term": "swiftness",
+     "meaning": "rapidez"
+    },
+    {
+     "term": "perish",
+     "meaning": "morrer, perecer"
+    }
+   ]
+  },
+  {
+   "title": "The End of the Chase",
+   "paragraphs": [
+    "“And so began my pursuit,” Victor told Walton. “I have followed him across Europe, along the Rhône, over the Mediterranean and through the wilds of Tartary and Russia. Sometimes the peasants, scared by the horrid apparition, told me of his path. Sometimes he himself left marks on the trees or cut in stone to guide me. ‘My reign is not yet over,’ he wrote once. ‘Follow me. I seek the everlasting ices of the north, where you will feel the misery of cold and frost, to which I am impassive.’ He left food for me, so that I would not die and end the chase.",
+    "“At last I bought a sledge and dogs and followed him across the frozen sea. I had almost reached him, when the ice broke and I was carried away on a floating piece. That is how you found me.” Victor caught Walton's hand. “Swear to me, Walton, that he shall not escape. If I die, you must kill him. Do not trust his words. His soul is as hellish as his form.”",
+    "Meanwhile, Walton's crew had grown frightened. The ship was still trapped, and they feared they would all die in the ice. The sailors came to Walton and demanded that, if the ship was freed, they would return south. Victor, though weak, raised himself and spoke to them with fire. “Are you then so easily turned from your design? You were hailed as the benefactors of your species. And now you turn back at the first danger! Be men, or be more than men!” But the sailors were not persuaded, and when the ice broke up, Walton sadly agreed to go home.",
+    "Victor's strength failed quickly. A few days later he called Walton to his side. “I have myself been blasted in these hopes,” he said faintly, “yet another may succeed. Seek happiness in tranquillity and avoid ambition.” His voice became fainter, and after half an hour he closed his eyes forever.",
+    "At midnight, Walton heard a sound from the cabin where the body lay. He went in, and there, bending over the coffin, was a gigantic figure, its face hidden by long, ragged hair. One vast hand was stretched out, in colour and texture like that of a mummy. When it heard Walton, it turned towards the window. Never had Walton seen a vision so horrible.",
+    "“That is also my victim!” the creature cried. “In his murder my crimes are complete! Oh, Frankenstein! Generous and self-devoted being! What does it matter now that I ask you to pardon me? I, who destroyed you by destroying all you loved.”",
+    "Walton remembered his promise, but he could not move. “Your repentance is now useless,” he said at last. “If you had listened to the voice of conscience, Frankenstein would yet have lived.”",
+    "“Do you think I felt no agony?” said the creature. “My heart was made to be open to love and sympathy. When it was twisted by misery to vice and hatred, it did not endure the violence of the change without torture. After the murder of Clerval, I returned to Switzerland, heartbroken. I pitied Frankenstein. My pity amounted to horror. I abhorred myself. But when I learned that he hoped for happiness with Elizabeth, while I was alone, envy and bitter indignation filled me. Evil became my good.”",
+    "He looked down at the body. “But now it is ended. There is my last victim. Fear not that I shall be the instrument of future mischief. I shall leave your ship on the ice raft which brought me here, and seek the most northern extremity of the globe. I shall build my funeral pile and burn to ashes this miserable frame. I shall die, and what I now feel will be no longer felt. Farewell!”",
+    "He sprang from the cabin window onto the ice raft that lay close to the ship. He was soon carried away by the waves and lost in darkness and distance.",
+    "Walton stood alone at the window for a long time, looking at the dark sea. Then he went back to his desk and wrote the last pages of his letter to his sister. “I am returning to England,” he wrote. “I have lost my hopes of glory, and I have lost a friend. But perhaps I have gained something more valuable. I have learned what a man's ambition can cost him, and the people he loves.”"
+   ],
+   "glossary": [
+    {
+     "term": "apparition",
+     "meaning": "aparição"
+    },
+    {
+     "term": "impassive",
+     "meaning": "insensível, indiferente"
+    },
+    {
+     "term": "hailed",
+     "meaning": "aclamados"
+    },
+    {
+     "term": "benefactors",
+     "meaning": "benfeitores"
+    },
+    {
+     "term": "faintly",
+     "meaning": "debilmente"
+    },
+    {
+     "term": "ragged",
+     "meaning": "desgrenhado"
+    },
+    {
+     "term": "envy",
+     "meaning": "inveja"
+    },
+    {
+     "term": "funeral pile",
+     "meaning": "pira funerária"
+    }
+   ]
+  }
+ ]
+}

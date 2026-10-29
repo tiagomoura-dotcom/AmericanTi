@@ -1,0 +1,517 @@
+{
+ "id": "othello",
+ "title": "Othello",
+ "author": "William Shakespeare",
+ "year": 1604,
+ "module": 3,
+ "level": "B1",
+ "summary": "Em Veneza, o general mouro Otelo, um soldado corajoso e respeitado, casa-se em segredo com a jovem Desdêmona, filha de um senador. Mas Iago, o seu alferes, guarda um ódio escondido e começa a tecer uma rede de mentiras e suspeitas. Uma história intensa sobre amor, confiança, ciúme e manipulação.",
+ "chapters": [
+  {
+   "title": "A Secret Marriage",
+   "paragraphs": [
+    "It was late at night in Venice, and the streets near the canals were dark and quiet. Two men were standing under the window of a large house. One of them was Roderigo, a rich and rather foolish young man. The other was Iago, a soldier with a friendly face and a cold heart.",
+    "“You told me you hated him,” said Roderigo angrily. “But you knew about this marriage, and you said nothing!”",
+    "“I do hate him,” said Iago. “Listen to me. Othello is the general of the Venetian army. He is a Moor, a great soldier from Africa, and everyone in Venice admires him. I have fought beside him for years. But when he needed a new lieutenant, did he choose me? No. He chose Michael Cassio, a young man who has never commanded soldiers in a real battle. Cassio knows numbers and books, not war. And I am still only Othello’s ensign.”",
+    "“Then why do you still follow him?”",
+    "Iago smiled. “I follow him so that I can turn against him one day. I am not what I seem, Roderigo. Now, shout! Wake up the old man.”",
+    "The house belonged to Brabantio, an important senator. His daughter Desdemona was young, beautiful and kind, and Roderigo had wanted to marry her for a long time. That evening, however, she had left her father’s house in secret and married Othello.",
+    "Roderigo and Iago began to shout. “Brabantio! Wake up! Thieves! Look at your house, look at your daughter!”",
+    "The old senator appeared at the window. “What is this noise? Who are you?”",
+    "“Sir, your daughter has run away with the Moor,” called Roderigo. Iago, who stayed in the shadows, added some ugly words to make the old man even angrier. Then he slipped away, because he did not want Othello to know that he was involved.",
+    "Brabantio ran down the stairs in his nightclothes. He searched the house, but Desdemona’s room was empty. “It is true!” he cried. “Call my servants! Bring weapons! We will find them.”",
+    "A few streets away, Iago was already standing beside Othello, as if he were the general’s most loyal friend. “Sir, be careful,” he said. “Brabantio is very powerful, and he is furious. He will try to destroy your marriage.”",
+    "Othello was calm. He was a tall, strong man, and his voice was deep and steady. “Let him do what he wants,” he said. “I have served this city well, and I love Desdemona. I have nothing to hide.”",
+    "At that moment, Cassio arrived with some officers. “General, the Duke needs you immediately,” he said. “Messengers have arrived from Cyprus. The Turkish fleet is sailing toward the island.”",
+    "Before Othello could leave, Brabantio and his men came round the corner with torches and swords. “There he is!” shouted the old man. “Thief! What have you done with my daughter? You must have used magic on her. She would never choose a man like you without some evil spell!”",
+    "Othello raised his hand. “Put away your swords,” he said quietly. “Good sir, you will get more from me with your age than with your weapons. The Duke has called me. Come with me, and we will speak in front of the Senate.”"
+   ],
+   "glossary": [
+    {
+     "term": "foolish",
+     "meaning": "tolo, bobo"
+    },
+    {
+     "term": "lieutenant",
+     "meaning": "tenente (o segundo no comando)"
+    },
+    {
+     "term": "ensign",
+     "meaning": "alferes (oficial de baixa patente)"
+    },
+    {
+     "term": "slipped away",
+     "meaning": "escapuliu"
+    },
+    {
+     "term": "loyal",
+     "meaning": "leal"
+    },
+    {
+     "term": "fleet",
+     "meaning": "frota"
+    },
+    {
+     "term": "spell",
+     "meaning": "feitiço"
+    }
+   ]
+  },
+  {
+   "title": "Before the Senate",
+   "paragraphs": [
+    "The Duke of Venice and the senators were sitting around a long table, reading letters by candlelight. The news was bad. A large Turkish fleet was going to attack Cyprus, and Venice needed its best general.",
+    "When Othello came in, the Duke stood up. “Valiant Othello, we must send you against the Turks at once.” Then he saw Brabantio. “And welcome, good sir. We need your advice tonight too.”",
+    "“My lord, I cannot think about the war,” said Brabantio. “My daughter has been stolen from me. This Moor has used drugs or magic on her. A shy, gentle girl like her would never fall in love with a man she was afraid to look at.”",
+    "The Duke turned to Othello. “What do you say to this?”",
+    "Othello spoke slowly and clearly. “It is true that I have married this lady. That is my only crime. I am not good with words, because I have spent my life in battle, not in elegant rooms. But if you let me, I will tell you the simple story of how I won her love.”",
+    "“Speak,” said the Duke.",
+    "“Her father liked me,” Othello began. “He often invited me to his house and asked me about my life. I told him about the battles I had fought, about the dangers I had faced on land and sea. I told him how I was captured and sold as a slave, and how I escaped. I described strange countries, huge deserts and mountains that touched the sky. Desdemona was always listening. She would finish her work in the house quickly and come back to hear more. One day she asked me to tell her my whole story. When I finished, she cried. She said it was strange, it was sad, and she wished heaven had made her such a man. She loved me for the dangers I had passed, and I loved her because she pitied them. That was the only magic I used.”",
+    "The Duke smiled. “I think a story like that would win my daughter too. Brabantio, accept what has happened.”",
+    "“Let her speak,” said the old man. “If she says she wanted this, I will say no more.”",
+    "Desdemona was brought in. She was pale but she did not look afraid. She looked at her father with love and at her husband with even more love. “My noble father,” she said, “I owe you my life and my education. You are my father, and I respect you. But here is my husband. My mother left her father to follow you, and now I must follow the Moor, my lord.”",
+    "Brabantio’s face became hard. “Then I have finished,” he said. Before he left, he turned to Othello. “Look after her, Moor, if you have eyes to see. She has deceived her father, and she may deceive you.”",
+    "“My life upon her faith,” answered Othello.",
+    "Iago heard those words, and he kept them carefully in his mind.",
+    "The Duke ordered Othello to sail for Cyprus that same night. Desdemona begged to go with him, and the Duke agreed. Othello asked Iago to bring her on another ship, together with his wife, Emilia, who would be Desdemona’s companion.",
+    "When everyone had left, Roderigo sat down sadly. “I am going to drown myself,” he said.",
+    "“Don’t be silly,” said Iago. “She will soon get tired of the Moor. Sell your land, put money in your purse and come to Cyprus. I will help you win her.” When Roderigo had gone, Iago laughed to himself. “That fool gives me his money, and I use him for my plans. Now, how can I destroy Othello? He trusts people easily. He thinks men are honest when they only seem honest. Cassio is handsome and charming. I will make Othello believe that Cassio is too friendly with his wife.”"
+   ],
+   "glossary": [
+    {
+     "term": "valiant",
+     "meaning": "valente"
+    },
+    {
+     "term": "shy",
+     "meaning": "tímida"
+    },
+    {
+     "term": "slave",
+     "meaning": "escravo"
+    },
+    {
+     "term": "pitied",
+     "meaning": "teve pena de"
+    },
+    {
+     "term": "owe",
+     "meaning": "devo"
+    },
+    {
+     "term": "deceived",
+     "meaning": "enganou"
+    },
+    {
+     "term": "begged",
+     "meaning": "implorou"
+    },
+    {
+     "term": "drown",
+     "meaning": "afogar"
+    }
+   ]
+  },
+  {
+   "title": "A Storm and a Celebration",
+   "paragraphs": [
+    "A terrible storm hit the sea near Cyprus. The waves were as high as mountains, and the wind broke ships into pieces. The people of the island stood on the shore and watched anxiously.",
+    "Then good news arrived. The storm had destroyed the Turkish fleet, so the war was over before it had started. Cassio’s ship reached the harbour safely, and soon Iago’s ship arrived too, with Desdemona, Emilia and Roderigo on board. But Othello’s ship was still out on the dark water.",
+    "Cassio welcomed Desdemona warmly. He took her hand and kissed it, as polite gentlemen did. Iago watched them. “He takes her by the hand,” he whispered to himself. “Good. With a small web like this, I will catch a fly as big as Cassio.”",
+    "At last a shout came from the shore. “A sail! It is the general!” Othello came off his ship and ran to his wife. He held her in his arms.",
+    "“O my fair warrior!” he said. “If I died now, I would die happy. I am afraid my soul has so much joy that no future moment can be as good as this one.”",
+    "“Heaven will make our love and comfort grow every day,” said Desdemona.",
+    "That evening Othello announced a celebration for the victory and for his marriage. There would be music, dancing and wine for all the soldiers. He gave Cassio the job of keeping order. “Michael, watch the guard tonight. Make sure nobody drinks too much.”",
+    "As soon as Othello had gone to bed, Iago went to find Cassio. “Come, lieutenant, have a glass of wine with the men of Cyprus. They want to drink to the health of our general.”",
+    "“Not tonight, good Iago,” said Cassio. “I have a very poor head for drinking. One glass is enough to make me feel strange.”",
+    "“Just one glass. They are our friends.”",
+    "Cassio did not want to look rude, so he agreed. Iago filled his glass again and again, and he sang loud soldiers’ songs. Soon Cassio was laughing, then shouting, then hardly able to stand.",
+    "Meanwhile, Iago had given instructions to Roderigo. “Tonight Cassio will be on guard. Find a reason to make him angry. He has a hot temper when he is drunk.”",
+    "Roderigo did as he was told. He insulted Cassio, and Cassio chased him with his sword. Montano, the old governor of Cyprus, tried to stop the fight, and Cassio wounded him. Iago sent Roderigo running through the town, shouting and ringing the bell, so that the whole island woke up in fear.",
+    "Othello came out with his sword in his hand. “What is happening here? Are we turning into Turks? Stop this fighting at once! Honest Iago, you look sad. Tell me, who started this?”",
+    "Iago pretended that he did not want to say anything bad about his friend. “I would rather cut out my tongue than hurt Michael Cassio,” he said. But then, slowly, he told the whole story, and every word made Cassio look worse.",
+    "Othello listened, and his face grew dark. “Iago, I know you love Cassio and want to make the story softer,” he said. “Cassio, I love you, but you will never be an officer of mine again.”",
+    "When everyone had gone, Cassio sat on the ground with his head in his hands. “Reputation, reputation, reputation! I have lost my reputation. I have lost the immortal part of myself, and what remains is like an animal.”",
+    "“Don’t worry so much,” said Iago kindly. “I have an idea. Our general’s wife is now the real general. Ask Desdemona for help. She is so generous that she will speak to Othello for you. This broken friendship will become stronger than before.”",
+    "“You give me good advice,” said Cassio gratefully. “I will go to her in the morning.”",
+    "When he was alone, Iago smiled. “And who says I am a villain? The advice is good and honest. But while Desdemona begs for Cassio, I will pour poison into Othello’s ear. I will tell him she wants Cassio back because she loves him. And so I will turn her goodness into a net that will catch them all.”"
+   ],
+   "glossary": [
+    {
+     "term": "shore",
+     "meaning": "costa, praia"
+    },
+    {
+     "term": "harbour",
+     "meaning": "porto"
+    },
+    {
+     "term": "web",
+     "meaning": "teia"
+    },
+    {
+     "term": "rude",
+     "meaning": "mal-educado"
+    },
+    {
+     "term": "temper",
+     "meaning": "temperamento, gênio"
+    },
+    {
+     "term": "pretended",
+     "meaning": "fingiu"
+    },
+    {
+     "term": "villain",
+     "meaning": "vilão"
+    },
+    {
+     "term": "pour",
+     "meaning": "derramar"
+    }
+   ]
+  },
+  {
+   "title": "The Poison Begins",
+   "paragraphs": [
+    "The next morning, Cassio went to see Desdemona in the garden of the castle. Emilia was with her.",
+    "“Good Cassio, don’t be sad,” said Desdemona. “I will do everything I can for you. My husband will have no rest until he forgives you. I will talk about you at dinner, at bedtime, all day long.”",
+    "At that moment, Othello and Iago appeared at the other end of the garden. Cassio felt ashamed and did not want to meet the general, so he said goodbye quickly and walked away.",
+    "“Ha! I don’t like that,” said Iago in a low voice.",
+    "“What did you say?” asked Othello.",
+    "“Nothing, my lord. Or if… I don’t know.”",
+    "“Wasn’t that Cassio who left my wife just now?”",
+    "“Cassio, my lord? No, I can’t believe he would run away like a guilty man when he saw you coming.”",
+    "Desdemona came to meet her husband with a happy smile. “My lord, I have been talking with a man who is suffering because you are angry with him. It is Cassio. Please call him back. He loves you, and he made a mistake, not a crime.”",
+    "“Not now, sweet Desdemona. Some other time.”",
+    "“Tonight at dinner, then? Or tomorrow morning? Tomorrow afternoon? Don’t make him wait more than three days.”",
+    "Othello laughed. “I will deny you nothing. Let him come when he wants.” Desdemona left with Emilia, and Othello watched her go with love. “Excellent girl! I love you, and when I stop loving you, the world will return to chaos.”",
+    "Now Iago began his work. “My lord, when you were courting the lady, did Michael Cassio know about your love?”",
+    "“Yes, from the first day to the last. He often carried messages between us. Why do you ask?”",
+    "“Just to satisfy my thoughts. Is he honest?”",
+    "“Honest? Yes, I believe so.”",
+    "“Men should be what they seem,” said Iago slowly. “I think Cassio is an honest man.”",
+    "“There is something in your mind,” said Othello. “You repeat my words as if there is a monster in your thoughts that you don’t want to show me. Tell me what you are thinking.”",
+    "“My lord, please don’t ask me. My thoughts may be wrong. I am a suspicious man, and I often imagine problems that don’t exist. Good name in man and woman, dear my lord, is the most precious jewel of their souls. A man who steals my purse steals trash. But a man who steals my good name takes something that does not make him rich, and makes me poor indeed.”",
+    "“I will know your thoughts!”",
+    "“Oh, beware, my lord, of jealousy. It is the green-eyed monster that laughs at the heart it feeds on.”",
+    "“Do you think I would live a life of jealousy?” said Othello. “No. To be in doubt is to decide. My wife is beautiful, she loves company, she sings and dances. Where there is virtue, these things are more virtuous. I will see before I doubt. When I doubt, I will look for proof. And if I find proof, love and jealousy will both disappear.”",
+    "“I am glad to hear it,” said Iago. “Then, as your friend, I will tell you this: watch your wife when she is with Cassio. I know the ladies of Venice. They show heaven things that they don’t dare to show their husbands. Remember, she deceived her father to marry you. When she seemed to be afraid of your looks, she loved them most.”",
+    "“That is true,” said Othello quietly.",
+    "“I see this has upset you a little.”",
+    "“Not at all, not at all.” But Othello’s voice was no longer steady.",
+    "When Iago had left, Othello stood alone, his mind full of dark questions. “Why did I marry? This honest man surely sees and knows much more than he says. Perhaps because I am black, and I don’t have the soft manners of young men from Venice, or because I am older… she has left me. I am abused, and my only comfort must be to hate her.”",
+    "Then Desdemona came back to call him to dinner. “Are you unwell, my lord?”",
+    "“I have a pain here, on my forehead.”",
+    "“Let me tie my handkerchief around your head. The pain will go away.” She took out a small white handkerchief with strawberries embroidered on it. Othello pushed her hand away. “Your handkerchief is too small.” The handkerchief fell to the floor, and neither of them noticed it as they walked inside together."
+   ],
+   "glossary": [
+    {
+     "term": "ashamed",
+     "meaning": "envergonhado"
+    },
+    {
+     "term": "guilty",
+     "meaning": "culpado"
+    },
+    {
+     "term": "courting",
+     "meaning": "cortejando, namorando"
+    },
+    {
+     "term": "suspicious",
+     "meaning": "desconfiado"
+    },
+    {
+     "term": "beware",
+     "meaning": "cuidado com"
+    },
+    {
+     "term": "jealousy",
+     "meaning": "ciúme"
+    },
+    {
+     "term": "proof",
+     "meaning": "prova"
+    },
+    {
+     "term": "embroidered",
+     "meaning": "bordados"
+    }
+   ]
+  },
+  {
+   "title": "The Handkerchief",
+   "paragraphs": [
+    "Emilia was the last to leave the room, and she saw the handkerchief on the floor. She picked it up. “I am glad I have found this,” she said to herself. “It was the Moor’s first gift to her. My strange husband has asked me a hundred times to steal it. I don’t know why he wants it, but I will give it to him.”",
+    "Iago came in. Emilia held up the handkerchief. “What will you give me for this?”",
+    "“A good wife,” said Iago. He took it from her quickly. “Did you steal it?”",
+    "“No. She dropped it by accident. What will you do with it?”",
+    "“That is not your business. Go now.” When she had gone, Iago looked at the handkerchief and smiled. “I will leave this in Cassio’s room. Small things, as light as air, are as strong as holy proof for a jealous man.”",
+    "Just then Othello came back, and Iago saw at once that the poison was working. The general’s eyes were red, and his face was wild. “Go away!” cried Othello. “You have put me on the rack. It is better to be cheated a lot and know nothing than to know a little.”",
+    "“What do you mean, my lord?”",
+    "“I was happy when I knew nothing. Now goodbye to my peace of mind! Goodbye to the proud army, to the great wars, to the music of trumpets and drums! Othello’s work is gone.” Then he took Iago by the throat. “Villain, be sure you can prove that my love is false! Give me ocular proof, or it would be better for you to be born a dog!”",
+    "“Oh, heaven help me!” said Iago, looking hurt. “Is this how honesty is rewarded? I will never be honest again.”",
+    "Othello let him go. “No, stay. You should be honest.”",
+    "“What proof would you like? Would you like to watch them together? That is impossible. But I can tell you something. A few nights ago I slept in the same room as Cassio. In his sleep he spoke. He said, ‘Sweet Desdemona, let us be careful, let us hide our love.’ Then he took my hand and cried, ‘Cursed fate, that gave you to the Moor!’”",
+    "“Monstrous! Monstrous!”",
+    "“It was only a dream,” said Iago. “But tell me, have you ever seen a handkerchief with strawberries in your wife’s hand?”",
+    "“I gave her one like that. It was my first gift.”",
+    "“I didn’t know that. But today I saw Cassio wipe his beard with a handkerchief exactly like it.”",
+    "Othello fell to his knees. “Oh, I wish he had forty thousand lives! One is too poor for my revenge. Now I see it is true. All my love I blow away to heaven. Arise, black vengeance!”",
+    "Iago knelt beside him. “I give myself to your service, my lord.”",
+    "“Within three days,” said Othello, “let me hear you say that Cassio is dead.”",
+    "“My friend is dead. It is done, as you ask. But let her live.”",
+    "“Damn her! Come, I will find a quick way to kill that beautiful devil. Now you are my lieutenant.”",
+    "“I am yours forever,” said Iago.",
+    "Later, Othello went to find his wife. “Give me your hand, Desdemona. This hand is warm and moist. It is a hand that needs a lot of prayer.” Then he said, “I have a cold. Lend me your handkerchief.”",
+    "She gave him a simple one. “Not that one. The one I gave you.”",
+    "“I don’t have it with me.”",
+    "“That is bad. An Egyptian woman gave that handkerchief to my mother. There is magic in it. If my mother lost it, my father’s love would turn to hate. Losing it would be a terrible thing.”",
+    "Desdemona was frightened. “Is it true? Then I wish I had never seen it! But it is not lost. And you are trying to change the subject. Please, call Cassio back.”",
+    "“Fetch the handkerchief!”",
+    "“You will never find a more capable man than Cassio.”",
+    "“The handkerchief!” shouted Othello, and he left the room.",
+    "“Is this man jealous?” Emilia asked.",
+    "“I have never seen him like this,” said Desdemona sadly. “There must be some magic in that handkerchief. I am very unhappy that I have lost it.”"
+   ],
+   "glossary": [
+    {
+     "term": "by accident",
+     "meaning": "sem querer, por acidente"
+    },
+    {
+     "term": "rack",
+     "meaning": "instrumento de tortura"
+    },
+    {
+     "term": "cheated",
+     "meaning": "traído, enganado"
+    },
+    {
+     "term": "throat",
+     "meaning": "garganta"
+    },
+    {
+     "term": "revenge",
+     "meaning": "vingança"
+    },
+    {
+     "term": "knelt",
+     "meaning": "ajoelhou-se"
+    },
+    {
+     "term": "moist",
+     "meaning": "úmida"
+    },
+    {
+     "term": "fetch",
+     "meaning": "vá buscar"
+    }
+   ]
+  },
+  {
+   "title": "What Othello Saw",
+   "paragraphs": [
+    "Iago continued to torture Othello with words. He described pictures that did not exist, and Othello’s imagination did the rest. At last the general fell to the ground, shaking, in a kind of fit. Iago looked down at him. “Work on, my medicine, work! This is how foolish men are caught.”",
+    "When Othello woke up, Iago had a new plan. “Hide over there, my lord. Cassio is coming. I will make him tell me about his love affair, and you can watch his face.”",
+    "Othello hid behind a wall. But Iago did not ask Cassio about Desdemona. He asked him about Bianca, a young woman in the town who was madly in love with Cassio. Cassio laughed and shook his head. “Bianca? Poor girl! She thinks I am going to marry her. She follows me everywhere!”",
+    "Othello could not hear the words clearly. He only saw Cassio laughing and making gestures. “Look how he laughs!” he whispered to himself. “He is laughing at me, and at my wife!”",
+    "Then, by chance, Bianca herself arrived. She was holding the strawberry handkerchief. “Take your handkerchief back!” she said angrily to Cassio. “You found it in your room, you said, and you don’t know who left it there? It is a present from some other woman, and you want me to copy the embroidery! I won’t do it.” She threw it at him and walked away, and Cassio ran after her.",
+    "Othello came out of his hiding place. His face was terrible. “How shall I murder him, Iago?”",
+    "“Did you see how he laughed? And did you see the handkerchief?”",
+    "“Was that mine?”",
+    "“Yours, I swear. And he gave it to that woman as if it were nothing.”",
+    "“I want to cut him into pieces. And her, let her rot and die tonight! But the world has no sweeter creature. Oh, the pity of it, Iago! The pity of it!”",
+    "“Don’t kill her with poison,” said Iago. “Strangle her in her bed, the bed she has dishonoured.”",
+    "“Good, good. The justice of it pleases me. And Cassio?”",
+    "“Leave Cassio to me. You will hear more by midnight.”",
+    "At that moment, trumpets announced a visitor. It was Lodovico, a relative of Desdemona, who had come from Venice with a letter from the Duke. Desdemona came to greet him. While Othello read the letter, she said to Lodovico, “There has been a problem between my lord and Cassio. I hope you can help make them friends again, because I love Cassio.”",
+    "“Fire and brimstone!” shouted Othello.",
+    "“My lord?” said Desdemona.",
+    "Lodovico explained the letter. “The Duke is calling him back to Venice. Cassio will govern Cyprus in his place.”",
+    "“I am glad of it,” said Desdemona innocently.",
+    "“Indeed?” cried Othello, and he hit her across the face.",
+    "Everyone was shocked. Desdemona began to cry. “I have not deserved this,” she said, and she left the room. Othello followed her with wild eyes, then he left too, saying strange and broken words.",
+    "Lodovico turned to Iago. “Is this the noble Moor that the whole Senate admired? The man nothing could disturb? Is he mad?”",
+    "Iago sighed. “He is what he is. I may not say what I think. I wish he were what he should be.”",
+    "That evening, Othello questioned Emilia. “Have you ever seen Cassio and my wife together?”",
+    "“Yes, but I never saw anything wrong. I would bet my soul she is honest. If anyone has put other ideas in your head, may heaven punish him!”",
+    "Othello did not believe her. He sent for Desdemona and spoke to her with cruel words. He called her false, and worse. Desdemona knelt in front of him. “What have I done? I don’t understand your words. I understand the fury in them, but not the words.”",
+    "“Heaven truly knows that you are as false as hell!” He left her there on the floor.",
+    "Emilia and Iago came in. “Some evil villain has invented this story,” said Emilia, “some liar who wants a better job. I would bet my life on it.”",
+    "“There is no such man,” said Iago. “It is impossible.”",
+    "“Good Iago,” said Desdemona through her tears, “what can I do to win my lord again? Go to him, my friend. I swear I have never loved anyone else.”",
+    "“Don’t worry,” said Iago gently. “It is only the business of the state that upsets him.”"
+   ],
+   "glossary": [
+    {
+     "term": "fit",
+     "meaning": "ataque, convulsão"
+    },
+    {
+     "term": "by chance",
+     "meaning": "por acaso"
+    },
+    {
+     "term": "swear",
+     "meaning": "juro"
+    },
+    {
+     "term": "rot",
+     "meaning": "apodrecer"
+    },
+    {
+     "term": "strangle",
+     "meaning": "estrangule"
+    },
+    {
+     "term": "greet",
+     "meaning": "cumprimentar"
+    },
+    {
+     "term": "deserved",
+     "meaning": "merecido"
+    },
+    {
+     "term": "bet",
+     "meaning": "apostaria"
+    }
+   ]
+  },
+  {
+   "title": "The Willow Song",
+   "paragraphs": [
+    "Roderigo was waiting for Iago in the street, and he was angry. “You have taken all my money and my jewels. You said you would give them to Desdemona, but I have seen nothing from her. I am going to speak to her myself.”",
+    "“Now I see that you are a man of courage,” said Iago. “Listen. Othello is going away to Africa, and Cassio will take his place, unless something stops him. If Cassio dies, Othello and Desdemona must stay here. Tonight Cassio has dinner with Bianca. I will help you. Wait for him in the dark and kill him.”",
+    "Roderigo was not sure, but in the end he agreed. Iago smiled. “Whether Roderigo kills Cassio, or Cassio kills him, or each kills the other, every way I win.”",
+    "In the castle, Desdemona was getting ready for bed. Othello had told her to send Emilia away and wait for him. “He looks gentler now,” said Desdemona. “Help me take off these clothes, Emilia, and then go.”",
+    "“I wish you had never seen him,” said Emilia.",
+    "“I don’t wish that. My love for him is so strong that even his anger and his hard looks are beautiful to me.” Then she said quietly, “If I die before you, please wrap me in one of these sheets.”",
+    "“Come, come, don’t talk like that.”",
+    "“My mother had a maid called Barbara,” said Desdemona. “She was in love, and the man she loved went mad and left her. She had a song about a willow tree, an old song, but it suited her sad situation. She died singing it. Tonight that song won’t leave my mind.” And she began to sing softly.",
+    "“The poor soul sat sighing by a sycamore tree, Sing all a green willow…”",
+    "She stopped. “Tell me, Emilia, do you think there are women who are false to their husbands?”",
+    "“There are some, no doubt.”",
+    "“Would you do such a thing for all the world?”",
+    "“The world is a big thing,” said Emilia with a smile. “For a small price, no. But for the whole world? Who would not make her husband a king?”",
+    "“I don’t believe there is any such woman.”",
+    "“Yes, a dozen. But I think it is the husbands’ fault if wives fall. Husbands should know that their wives have feelings too. They see, they smell, they have tastes for sweet and sour, just like their husbands. If men treat us badly, they should remember that we learn our bad habits from them.”",
+    "“Good night, good night,” said Desdemona. “Heaven help me to learn from bad things, and not to copy them.”",
+    "Outside, in the dark street, Roderigo was waiting with his sword. When Cassio came out of Bianca’s house, Roderigo attacked him. But Cassio wore a strong coat under his clothes, and the sword did not go through. Cassio turned and wounded Roderigo. Then Iago came out of the shadows and stabbed Cassio in the leg from behind, and ran away.",
+    "“Help! Murder!” shouted Cassio.",
+    "From a distance, Othello heard the cry. “It is Cassio’s voice. Iago keeps his word. Oh, brave Iago, honest and just! You teach me what to do.” And he walked toward the castle.",
+    "Soon Lodovico and other men arrived with lights. Iago came back too, carrying a torch, as if he had just woken up. “Who is there? What is this noise?”",
+    "“Iago? I am wounded by villains!” said Cassio. “One of them is over there.”",
+    "Iago went to Roderigo, who was lying on the ground. “Oh, murderous dog!” he cried, and he stabbed him.",
+    "“Oh, damned Iago! Inhuman dog!” said Roderigo, and he did not speak again.",
+    "Iago turned to the others. “This is the man who attacked Cassio. And look, here is Bianca. She must be involved too.” He sent Emilia to tell Othello what had happened. Then he looked into the night. “This is the night that either makes me or destroys me completely.”"
+   ],
+   "glossary": [
+    {
+     "term": "courage",
+     "meaning": "coragem"
+    },
+    {
+     "term": "wrap",
+     "meaning": "embrulhar, envolver"
+    },
+    {
+     "term": "sheets",
+     "meaning": "lençóis"
+    },
+    {
+     "term": "willow",
+     "meaning": "salgueiro"
+    },
+    {
+     "term": "sighing",
+     "meaning": "suspirando"
+    },
+    {
+     "term": "dozen",
+     "meaning": "dúzia"
+    },
+    {
+     "term": "stabbed",
+     "meaning": "esfaqueou"
+    },
+    {
+     "term": "either",
+     "meaning": "ou (um ou outro)"
+    }
+   ]
+  },
+  {
+   "title": "Put Out the Light",
+   "paragraphs": [
+    "Othello entered the bedroom with a candle in his hand. Desdemona was asleep. Her face looked calm and innocent in the soft light.",
+    "“It is the cause, it is the cause, my soul,” he said quietly. “I will not shed her blood, or scar her skin, whiter than snow. Yet she must die, or she will betray more men. Put out the light, and then put out the light. If I put out this candle, I can light it again. But once I put out your light, I don’t know where to find the fire that can bring it back.” He bent over her and kissed her. “So sweet was never so fatal. I must weep, but they are cruel tears.”",
+    "Desdemona woke up. “Who is there? Othello?”",
+    "“Yes, Desdemona. Have you prayed tonight? If there is any crime you have not confessed to heaven, pray for forgiveness now.”",
+    "“What do you mean, my lord?”",
+    "“I would not kill your soul.”",
+    "“You talk of killing? Then heaven have mercy on me! Why are you so angry? I don’t know what I have done.”",
+    "“That handkerchief which I loved and gave to you, you gave to Cassio.”",
+    "“No, by my life and soul! Send for him and ask him.”",
+    "“He has confessed. His mouth is stopped. Honest Iago has taken care of that.”",
+    "Desdemona understood that Cassio was dead, and she began to cry. “Alas, he has been betrayed, and I am lost!”",
+    "“Do you cry for him in front of my face?”",
+    "“Oh, send me away, my lord, but don’t kill me! Kill me tomorrow, let me live tonight! Only half an hour! Only while I say one prayer!”",
+    "“It is too late,” said Othello, and he pressed the pillow over her face.",
+    "A moment later, Emilia knocked at the door and called loudly. “My lord! Murder has been done in the town! Cassio has killed young Roderigo.”",
+    "“And Cassio is killed?”",
+    "“No, Cassio is not killed.”",
+    "Then a weak voice came from the bed. “Oh, falsely, falsely murdered!” Emilia ran to the bed. “Help! Help! Oh, lady, speak again! Who has done this?”",
+    "“Nobody. I myself. Farewell. Speak well of me to my kind lord,” said Desdemona, and she died.",
+    "“She is a liar, going to burning hell,” said Othello. “It was I who killed her. She was false. Your husband knew it all. Ask honest Iago.”",
+    "“My husband?” Emilia looked at him with horror. “My husband said she was false? If he said so, may his evil soul rot! He lies to the heart. Oh, you fool! You dirty fool! Help! Help! The Moor has killed my mistress! Murder!”",
+    "Montano, Lodovico, Iago and others came running in. Emilia turned to her husband. “Did you tell him she was false?”",
+    "“I told him what I thought.”",
+    "“You told a lie, an evil, damned lie!”",
+    "“Be quiet, woman. Go home.”",
+    "“I will not go home! Oh, I see it now. The handkerchief! I found it and gave it to my husband, because he begged me to steal it.”",
+    "Iago drew his sword and stabbed his wife, and then ran out of the room. Emilia fell beside the bed. “Moor, she was chaste. She loved you, cruel Moor,” she said, and she sang a line of the willow song before she died.",
+    "The officers soon brought Iago back as a prisoner, and Cassio was carried in, pale and wounded. Letters had been found in Roderigo’s pocket that explained the whole plan. Othello understood at last.",
+    "“Why did he do it?” Othello asked, looking at Iago. “Ask that devil why he has trapped my soul and body.”",
+    "“Demand me nothing,” said Iago coldly. “What you know, you know. From this moment I will never speak a word.”",
+    "Othello turned to the others. “Soft you, a word or two before you go. When you write to Venice about these unlucky events, speak of me as I am. Don’t make it softer, and don’t add anything evil. Say that I loved not wisely but too well. Say that I was not easily jealous, but when I was worked on, I was confused to the extreme. Say that I threw away a pearl richer than all my people, like a foolish man who doesn’t know its value.” Then, before anyone could stop him, he pulled out a hidden knife and stabbed himself. “I kissed you before I killed you,” he said, falling onto the bed beside Desdemona. “There is no other way than this: killing myself, to die upon a kiss.”",
+    "Lodovico looked at the terrible scene and then at Iago. “Look at the tragic load on this bed. This is your work.” He turned to Cassio. “You are now the governor of Cyprus. The punishment of this hellish villain is in your hands. I will sail to Venice at once and tell the Senate this heavy story with a heavy heart.”"
+   ],
+   "glossary": [
+    {
+     "term": "shed",
+     "meaning": "derramar"
+    },
+    {
+     "term": "weep",
+     "meaning": "chorar"
+    },
+    {
+     "term": "mercy",
+     "meaning": "misericórdia"
+    },
+    {
+     "term": "pillow",
+     "meaning": "travesseiro"
+    },
+    {
+     "term": "farewell",
+     "meaning": "adeus"
+    },
+    {
+     "term": "mistress",
+     "meaning": "senhora, patroa"
+    },
+    {
+     "term": "chaste",
+     "meaning": "pura, fiel"
+    },
+    {
+     "term": "pearl",
+     "meaning": "pérola"
+    }
+   ]
+  }
+ ]
+}

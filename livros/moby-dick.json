@@ -1,0 +1,545 @@
+{
+ "id": "moby-dick",
+ "title": "Moby-Dick",
+ "author": "Herman Melville",
+ "year": 1851,
+ "module": 3,
+ "level": "B1",
+ "summary": "Ishmael, um jovem sem dinheiro e cansado da vida em terra, decide embarcar num navio baleeiro e faz amizade com Queequeg, um arpoador dos Mares do Sul. O navio Pequod é comandado pelo misterioso capitão Ahab, que perdeu uma perna para uma enorme baleia branca chamada Moby Dick. Logo a tripulação descobre que a viagem não é só para caçar baleias, mas para satisfazer a sede de vingança de um homem obcecado, através dos oceanos do mundo.",
+ "chapters": [
+  {
+   "title": "Call Me Ishmael",
+   "paragraphs": [
+    "Call me Ishmael. Some years ago, when I had little or no money in my pocket and nothing interesting to do on land, I decided to go to sea again. That is what I always do when I feel grey and sad inside, when I find myself walking slowly behind funerals in the street. Other men take a gun and end their lives. I quietly take a ship.",
+    "I had been to sea before as a sailor on merchant ships, but this time I wanted to go on a whaling voyage. Why? I am not completely sure. Perhaps it was the great, mysterious whale itself that called me. I imagined the wild and distant seas where it swam, and I could not stay away.",
+    "So one cold Saturday night in December, I arrived in the town of New Bedford, in Massachusetts, with an old bag under my arm. The boat to the island of Nantucket, the real home of American whaling, did not leave until Monday. I needed a cheap place to sleep.",
+    "I walked through the dark, icy streets until I found an old inn called the Spouter Inn. The owner was a fat man named Peter Coffin. “The house is full,” he said. “But you can share a bed with a harpooner, if you don’t mind.”",
+    "I did not like the idea of sharing a bed with a stranger, but it was very cold outside. “Who is this harpooner?” I asked. “Where is he?”",
+    "“Oh, he’s out selling his head,” said the landlord with a strange smile.",
+    "“Selling his head? What do you mean?”",
+    "“He has been to the South Seas, and he bought some dried heads there. Now he is selling them in the town. He has sold all of them except one.”",
+    "I went up to the room and got into bed, but I could not sleep. Late at night, the door opened and the harpooner came in with a candle. He was a huge man, and his face and body were covered in dark square tattoos. His head was completely bald except for a small knot of hair on the top. I was so frightened that I could not move.",
+    "He took a small black wooden figure out of his bag, put it on the fireplace, and prayed to it. Then he lit a pipe that was also a tomahawk, a kind of axe, and jumped into bed. When he touched me, he cried out in surprise. I shouted too.",
+    "“Who are you? Speak, or I kill you!” he said, waving his tomahawk.",
+    "“Landlord! Help! Peter Coffin!” I shouted.",
+    "The landlord came in, laughing. “Don’t be afraid,” he said. “Queequeg here won’t hurt a hair of your head. Queequeg, this man is sleeping here with you. You understand?”",
+    "“Me understand,” said Queequeg. He looked at me calmly and put out his pipe. Then he moved over to give me space. “You get in,” he said.",
+    "I looked at him again. For all his tattoos, he was clean and seemed kind. “Better to sleep with a sober cannibal than a drunk Christian,” I thought. I got into bed, and I have never slept better in my life."
+   ],
+   "glossary": [
+    {
+     "term": "funerals",
+     "meaning": "enterros"
+    },
+    {
+     "term": "whaling voyage",
+     "meaning": "viagem de caça à baleia"
+    },
+    {
+     "term": "inn",
+     "meaning": "estalagem, pousada"
+    },
+    {
+     "term": "harpooner",
+     "meaning": "arpoador"
+    },
+    {
+     "term": "landlord",
+     "meaning": "dono da pousada"
+    },
+    {
+     "term": "bald",
+     "meaning": "careca"
+    },
+    {
+     "term": "prayed",
+     "meaning": "rezou"
+    },
+    {
+     "term": "sober",
+     "meaning": "sóbrio"
+    }
+   ]
+  },
+  {
+   "title": "The Pequod",
+   "paragraphs": [
+    "When I woke up the next morning, Queequeg’s arm was lying over me, as if I were his wife. It was a strange start, but soon we became the best of friends.",
+    "Queequeg was the son of a king on an island in the South Seas, far away to the west. As a young man, he had wanted to see the Christian world, so he had joined a whaling ship. But he found that Christians could be just as bad as his own people, and sometimes worse. Now he did not want to go home until he had learned more.",
+    "“We are friends now,” he told me that evening. “If necessary, I die for you.” He gave me half of his money and shared his pipe with me. In his country, he explained, this meant we were bosom friends.",
+    "On Monday we took the little boat to Nantucket together. During the trip, a young man laughed at Queequeg. Queequeg picked him up and threw him into the air. The captain was furious. But a minute later, a big wave knocked the same young man into the icy sea. While everyone else was shouting, Queequeg dived in and saved his life. After that, nobody laughed at him.",
+    "In Nantucket, Queequeg told me that his little god had chosen me to pick our ship. I walked along the harbour and looked at three ships. Finally I chose the Pequod. She was an old ship, dark from many years in the sun and the wind. Her decks were decorated with the teeth and bones of whales, like a strange temple.",
+    "On board I found two of her owners, Captain Peleg and Captain Bildad. They were old Quakers, religious men who said “thee” and “thou” and never used bad words, but who were very interested in money.",
+    "“So you want to go whaling?” said Peleg. “Have you ever seen a whale?”",
+    "“No, sir, but I want to see the world.”",
+    "“Then look over the side of the ship,” he said. “What do you see?”",
+    "“Only water, sir.”",
+    "“That is the world you will see,” he laughed.",
+    "They gave me the job. My share of the profits would be very small, but I didn’t care. Then I asked about the captain.",
+    "“Captain Ahab,” said Peleg. “He is a grand, ungodly, godlike man. He doesn’t speak much, but when he speaks, you must listen. On his last voyage, a whale bit off his leg. He has been sick and moody since then. But don’t worry. He is a good man.”",
+    "The next day Queequeg also joined the crew. When Peleg saw him throw his harpoon at a small spot of oil on the water, he paid him more than any harpooner in Nantucket.",
+    "As we were leaving the ship, a ragged old man stopped us in the street. His name was Elijah. “Have you signed the papers?” he asked. “Have you heard about Old Thunder, about his leg? And about what happened to him in Peru? No? Well, well. What is signed is signed. Good morning to you, shipmates. Good morning. God help you.”"
+   ],
+   "glossary": [
+    {
+     "term": "bosom friends",
+     "meaning": "amigos do peito"
+    },
+    {
+     "term": "dived",
+     "meaning": "mergulhou"
+    },
+    {
+     "term": "harbour",
+     "meaning": "porto"
+    },
+    {
+     "term": "decks",
+     "meaning": "conveses"
+    },
+    {
+     "term": "share",
+     "meaning": "parte, cota"
+    },
+    {
+     "term": "ungodly",
+     "meaning": "ímpio, sem Deus"
+    },
+    {
+     "term": "moody",
+     "meaning": "mal-humorado"
+    },
+    {
+     "term": "ragged",
+     "meaning": "maltrapilho"
+    }
+   ]
+  },
+  {
+   "title": "Captain Ahab",
+   "paragraphs": [
+    "The Pequod sailed on a cold Christmas Day. Bildad and Peleg came with us out of the harbour, and then they went back to land in a small boat. We were alone on the great Atlantic Ocean.",
+    "For many days, Captain Ahab did not come out of his cabin. The ship was run by the three mates. The first mate was Starbuck, a tall, serious man from Nantucket. He was brave, but careful. “I will have no man in my boat who is not afraid of a whale,” he used to say. The second mate was Stubb, who was always calm and cheerful and never took his pipe out of his mouth. The third mate, Flask, was short and strong, and he thought whales were just big mice to be killed.",
+    "Each mate had his own harpooner. Queequeg worked with Starbuck. Tashtego, a Native American from Martha’s Vineyard, worked with Stubb. Daggoo, a huge African man, worked with Flask. The crew came from every corner of the world.",
+    "One grey morning, as I went up on deck, I felt a cold shiver. Captain Ahab was standing there. He was tall and broad, and he looked like a man made of bronze. A long white scar ran from his grey hair down the side of his face and into his collar. His leg had been replaced with a leg of white ivory, made from the jaw of a sperm whale. In the deck there was a small hole, and he stood with his ivory leg in it, looking straight ahead at the sea.",
+    "He did not speak to anyone. But in his eyes there was something terrible, a fixed and unbreakable purpose.",
+    "As the days went by and we sailed south into warmer weather, Ahab came on deck more often. At night the men below could hear the sound of his ivory leg walking up and down above their heads: tap, tap, tap. Once Stubb asked him politely to walk more softly, so the men could sleep.",
+    "Ahab turned on him with a terrible look. “Down, dog, and go to your kennel!” he said.",
+    "Stubb was so shocked that he went away without a word. “I don’t know if I should hit him or pray for him,” he said later.",
+    "One evening Ahab sat on deck with his pipe. But he could not enjoy it. “What business have I with this pipe?” he said. “It is meant for calm men, to send up mild white smoke among mild white hairs, not among torn iron-grey hair like mine.” And he threw the burning pipe into the sea.",
+    "I often watched him from a distance. He seemed like a man with a great wound inside him. Not only the wound of his leg, but a deeper one, in his heart and mind. What was it that burned in him? I would soon find out."
+   ],
+   "glossary": [
+    {
+     "term": "mates",
+     "meaning": "imediatos (oficiais do navio)"
+    },
+    {
+     "term": "cheerful",
+     "meaning": "alegre"
+    },
+    {
+     "term": "shiver",
+     "meaning": "arrepio"
+    },
+    {
+     "term": "scar",
+     "meaning": "cicatriz"
+    },
+    {
+     "term": "ivory",
+     "meaning": "marfim"
+    },
+    {
+     "term": "jaw",
+     "meaning": "mandíbula"
+    },
+    {
+     "term": "kennel",
+     "meaning": "casinha de cachorro"
+    },
+    {
+     "term": "wound",
+     "meaning": "ferida"
+    }
+   ]
+  },
+  {
+   "title": "The White Whale",
+   "paragraphs": [
+    "One morning Ahab called the whole crew to the quarter-deck. This had never happened before. We all stood there, curious and a little nervous.",
+    "Ahab walked up and down for a while. Then he stopped suddenly. “What do you do when you see a whale, men?” he shouted.",
+    "“Sing out for him!” answered twenty voices.",
+    "“Good! And what do you do next?”",
+    "“Lower the boats and go after him!”",
+    "“And what song do you pull to, men?”",
+    "“A dead whale or a broken boat!”",
+    "With every answer, Ahab looked happier and more excited. Then he held up a large gold coin. It shone in the sun. “Do you see this Spanish gold coin, men? It is worth sixteen dollars. Whoever sees a white-headed whale with a wrinkled forehead and a crooked jaw, whoever sees him first, will have this gold!”",
+    "He took a hammer and nailed the coin to the mainmast. The men cheered.",
+    "“Captain Ahab,” said Tashtego, “that white whale must be the one some people call Moby Dick.”",
+    "“Moby Dick?” cried Ahab. “Do you know the white whale then, Tash?”",
+    "“Does he have a strange way of moving his tail, sir?” asked Daggoo.",
+    "“And does he have many harpoons in his body, all twisted?” asked Queequeg.",
+    "“Yes, yes!” shouted Ahab. “Twisted like a corkscrew! It is Moby Dick you have seen, men!”",
+    "Then Starbuck spoke. “Captain Ahab, was it not Moby Dick that took off your leg?”",
+    "“Who told you that?” cried Ahab. Then his voice became wild. “Aye, Starbuck, aye, my hearties all round. It was Moby Dick that took off my leg and made me a poor cripple forever! And I will chase him round the Cape of Good Hope, and round Cape Horn, and through the fires of hell before I give him up. That is why you have shipped, men! To chase that white whale over all sides of the earth, until he spouts black blood! What do you say? Are you with me?”",
+    "“Aye, aye!” shouted the harpooners and the sailors. “A sharp eye for the white whale! Death to Moby Dick!”",
+    "But Starbuck did not shout. “I came here to hunt whales, Captain, not my commander’s revenge,” he said quietly. “How many barrels will your revenge give us? It will not bring much money in Nantucket. To be angry with a dumb animal is madness. It is blasphemy.”",
+    "Ahab looked at him. “All visible objects, man, are only like masks. If man will strike, strike through the mask! That white whale is the wall that has been pushed near to me. He is my mask. I will strike him! Talk not to me of blasphemy, man. I would strike the sun if it insulted me.”",
+    "Then Ahab made the harpooners drink from their harpoons, filled with strong drink, and they swore death to Moby Dick. I shouted with them. I felt the same wild excitement as everybody else. Starbuck was the only one who stood alone, sad and silent.",
+    "“God keep me! Keep us all!” he whispered."
+   ],
+   "glossary": [
+    {
+     "term": "quarter-deck",
+     "meaning": "tombadilho"
+    },
+    {
+     "term": "lower",
+     "meaning": "baixar"
+    },
+    {
+     "term": "wrinkled",
+     "meaning": "enrugada"
+    },
+    {
+     "term": "crooked",
+     "meaning": "torta"
+    },
+    {
+     "term": "nailed",
+     "meaning": "pregou"
+    },
+    {
+     "term": "cripple",
+     "meaning": "aleijado"
+    },
+    {
+     "term": "revenge",
+     "meaning": "vingança"
+    },
+    {
+     "term": "swore",
+     "meaning": "juraram"
+    }
+   ]
+  },
+  {
+   "title": "The First Hunt",
+   "paragraphs": [
+    "One hot, quiet afternoon, Queequeg and I were making a mat on deck. Suddenly Tashtego, high up on the mast, gave a long, wild cry.",
+    "“There she blows! There! There! There she blows!”",
+    "“Where away?” shouted the mates.",
+    "“On the left, about two miles away! A whole group of them!”",
+    "Everybody ran. The men got the boats ready to lower into the sea. But then we saw something very strange. Five dark men appeared suddenly from below deck, where they had been hiding since Nantucket. Their leader was a tall man with a white turban and a terrible, evil face. His name was Fedallah. They were Ahab’s own secret boat crew.",
+    "“Lower away!” shouted Ahab. He climbed into his boat with Fedallah, and the five boats hit the water.",
+    "I was in Starbuck’s boat with Queequeg. We rowed as hard as we could. “Pull, my boys!” whispered Starbuck. “Pull, pull! There is a whale just ahead!”",
+    "The wind became stronger, and soon there was a storm all around us. Waves rose like mountains. Queequeg stood up in the front of the boat with his harpoon. “Stand up!” cried Starbuck, and Queequeg threw it. At the same moment, a great black back rose next to us. The whale hit our boat with its tail. In an instant we were all in the water.",
+    "We held onto the broken boat all night in the rain and wind. In the morning, the Pequod almost ran us over in the fog, but at the last moment the men saw us and pulled us aboard.",
+    "“Does this happen often?” I asked Queequeg, wet and shivering.",
+    "“Yes,” he said, “very often.”",
+    "That night I made my will. If death was so close, I wanted to be ready. Then I felt calm, almost happy.",
+    "After that, we killed many whales. The first one I helped to kill was taken by Stubb. We chased it for hours. At last Stubb drove his long lance into its side again and again. The whale rolled in the water, which turned red with blood. Then it lay still, a huge dead mountain on the sea.",
+    "We tied it to the side of the ship. That night Stubb ate a whale steak by lantern light, while thousands of sharks fought and ate at the body in the dark water below.",
+    "The next day the work began. Men cut off the thick fat, called blubber, in long pieces, while the ship leaned over under the weight. Then we boiled the blubber in huge pots on deck to make oil. Black smoke filled the air, and the fires burned red all night. In the light of the flames, the sailors looked like devils. It was hard and dirty work, but the oil was what made the voyage valuable.",
+    "Sometimes, during the long, quiet nights, I thought about the whale. It is the biggest creature on earth. It lives in a world of water that we cannot understand. And somewhere in that great world was the white whale, swimming alone."
+   ],
+   "glossary": [
+    {
+     "term": "mat",
+     "meaning": "esteira, tapete"
+    },
+    {
+     "term": "There she blows",
+     "meaning": "Lá ela sopra (aviso de baleia à vista)"
+    },
+    {
+     "term": "rowed",
+     "meaning": "remamos"
+    },
+    {
+     "term": "shivering",
+     "meaning": "tremendo de frio"
+    },
+    {
+     "term": "will",
+     "meaning": "testamento"
+    },
+    {
+     "term": "lance",
+     "meaning": "lança"
+    },
+    {
+     "term": "blubber",
+     "meaning": "gordura de baleia"
+    },
+    {
+     "term": "boiled",
+     "meaning": "fervemos"
+    }
+   ]
+  },
+  {
+   "title": "Ships at Sea",
+   "paragraphs": [
+    "As the months passed, we sailed around the Cape of Good Hope and into the Indian Ocean. Sometimes we met other whaling ships. When two whaling ships meet, the sailors visit each other and exchange news and letters. But Ahab only had one question for every ship we met.",
+    "“Have you seen the white whale?”",
+    "Most of them had not. But one day we met an English ship, the Samuel Enderby. Ahab went over to her in a boat. Her captain, a cheerful man called Boomer, had lost his arm. In its place there was an arm of white whalebone.",
+    "“Have you seen the white whale?” cried Ahab.",
+    "“See this?” said the English captain, holding up his whalebone arm. “He took it! I had a harpoon in him, and he came up and broke my boat in pieces. The harpoon cut my arm open, and the doctor had to take it off.”",
+    "“Where did he go? Which way was he heading?” asked Ahab urgently.",
+    "“East, I think. But I never want to see him again. He is best left alone. There would be great glory in killing him, I know, but there is more danger. Don’t you agree?”",
+    "But Ahab was already climbing back into his boat. “Which way did he go?” he repeated, and rushed back to the Pequod. The English captain looked after him with a worried face. “Is your captain crazy?” he asked our men.",
+    "Not long after, my friend Queequeg became very ill with a fever. He grew thinner every day, and his eyes looked far away, as if he were already looking at another world. He knew he was dying. He asked the carpenter to make him a coffin, like the canoes of his island. When it was ready, he lay in it with his harpoon and his little wooden god, to see if it was comfortable.",
+    "“It is good,” he said.",
+    "But then, suddenly, he remembered that he had something important to do on land. So he decided not to die! In a few days he was strong again. He sat on the coffin and carved strange designs on its lid, copying the tattoos on his body. Later, the carpenter made the coffin into a life buoy for the ship, filled with air so it would float.",
+    "Meanwhile, Ahab grew darker and stranger. He asked the blacksmith to make a special harpoon for Moby Dick. He used nails from the shoes of racing horses to make it strong. Then he asked the three harpooners for their blood.",
+    "“I baptise you not in the name of the father, but in the name of the devil!” he shouted, as he cooled the hot metal in their blood.",
+    "Fedallah often stood next to him. One night Fedallah spoke of a prophecy. “Before you die, you will see two hearses on the sea. The first will not be made by human hands. The second will be made of wood grown in America. And only rope can kill you.”",
+    "Ahab laughed. “Hearses on the sea? Rope? Then I am immortal on land and on sea!”"
+   ],
+   "glossary": [
+    {
+     "term": "exchange",
+     "meaning": "trocam"
+    },
+    {
+     "term": "heading",
+     "meaning": "indo em direção a"
+    },
+    {
+     "term": "glory",
+     "meaning": "glória"
+    },
+    {
+     "term": "fever",
+     "meaning": "febre"
+    },
+    {
+     "term": "coffin",
+     "meaning": "caixão"
+    },
+    {
+     "term": "carved",
+     "meaning": "entalhou, esculpiu"
+    },
+    {
+     "term": "life buoy",
+     "meaning": "boia salva-vidas"
+    },
+    {
+     "term": "hearses",
+     "meaning": "carros fúnebres"
+    }
+   ]
+  },
+  {
+   "title": "Little Pip",
+   "paragraphs": [
+    "There was a young boy on the Pequod called Pip. He was from Connecticut, and his job was to look after the ship and play his little tambourine when the sailors danced. He was bright and happy, but he was not brave, and he had never wanted to go out in the boats.",
+    "One day one of Stubb’s rowers hurt his hand, so Pip had to take his place. When the harpoon hit a whale, the whale pulled hard, and Pip was so frightened that he jumped out of the boat. The rope got caught around his chest and his neck. To save him, Tashtego had to cut the line, and they lost the whale.",
+    "Stubb was angry. “Stick to the boat, Pip,” he said. “If you jump again, I won’t pick you up. A whale would sell for thirty times what you would, Pip, in Alabama. Remember that.”",
+    "But the next time, Pip jumped again. This time Stubb kept his promise. The boats went on after the whale, and Pip was left alone in the middle of the endless sea. The sun was shining, and the water was calm and blue. The boats became smaller and smaller, and then they disappeared. Pip’s little black head floated alone on the water, like a single seed in a great field.",
+    "By chance, the Pequod found him a few hours later and pulled him on board. But from that moment, Pip walked around the deck like an idiot. The sailors said he had gone mad. His body had come back, but his soul had gone down deep into the sea, where he had seen strange and wonderful things.",
+    "“Pip! Where is Pip?” he used to say, as if he were looking for another person. “Pip jumped from a whale boat. Pip is missing. Have you seen him?”",
+    "The strangest thing was that Ahab, who cared for nobody, became very gentle with the poor boy. He took Pip’s hand and let him sleep in his own cabin.",
+    "“Here, boy,” said Ahab. “You touch my heart, the way nothing else does. Ahab’s cabin shall be Pip’s home from now on, while Ahab lives.”",
+    "“Then hold my hand tight, sir,” said Pip. “I am afraid of the sea.”",
+    "For a little while, Starbuck hoped that the boy could make the captain human again. But it did not last. When the time came to hunt the white whale, Ahab left Pip behind in the cabin. “There is something in you, boy, that may cure my madness,” he said. “And I do not want to be cured.”"
+   ],
+   "glossary": [
+    {
+     "term": "tambourine",
+     "meaning": "pandeiro"
+    },
+    {
+     "term": "rowers",
+     "meaning": "remadores"
+    },
+    {
+     "term": "Stick to",
+     "meaning": "fique grudado em, não saia de"
+    },
+    {
+     "term": "endless",
+     "meaning": "sem fim"
+    },
+    {
+     "term": "seed",
+     "meaning": "semente"
+    },
+    {
+     "term": "By chance",
+     "meaning": "por acaso"
+    },
+    {
+     "term": "gentle",
+     "meaning": "gentil, delicado"
+    },
+    {
+     "term": "cure",
+     "meaning": "curar"
+    }
+   ]
+  },
+  {
+   "title": "The Typhoon",
+   "paragraphs": [
+    "We sailed on into the Pacific, the great ocean where Moby Dick was often seen. Near Japan, a terrible typhoon hit us. The sky turned black, the wind screamed, and huge waves broke over the deck. Lightning struck the masts, and suddenly the tops of all three masts were burning with pale fire, like three giant candles in the sky.",
+    "The sailors stared up in terror. Ahab stood under the burning masts with his hand on the chain. “I know you, clear spirit!” he cried to the fire. “And I know that your right worship is defiance! I am not afraid of you!”",
+    "Even his special harpoon, standing in his boat, had a flame of fire on its point. The men thought it was a sign from God that the voyage was cursed. Some of them wanted to turn the ship and go home. But Ahab took the burning harpoon and held it up like a torch.",
+    "“All your oaths to hunt the white whale are as binding as mine!” he shouted. “And look, I blow out the last fear!” With one breath he put out the flame, and the men ran from him in fear.",
+    "That night Starbuck went down to tell Ahab that the storm was getting better. Outside Ahab’s door, on the wall, he saw the captain’s guns. Ahab was asleep inside. Starbuck took down a loaded gun, and his hand shook.",
+    "“He would kill us all,” he thought. “He wants to drag thirty men down to the bottom of the sea with him. If I kill him now, I can take the ship home. I can see my wife and my child again. Is it a crime? Is it murder?”",
+    "He lifted the gun towards the door. Inside, Ahab cried out in his sleep. “Stern all! Oh, Moby Dick, I hold your heart at last!”",
+    "Starbuck could not do it. He put the gun back on the wall and walked away into the storm.",
+    "After the typhoon, the compasses were wrong because of the lightning. Ahab made new ones from needles. The men were amazed. “He is like a god,” they whispered.",
+    "A few days later, we met a ship called the Rachel. Her captain, Captain Gardiner, came on board. He knew Ahab from Nantucket.",
+    "“Have you seen the white whale?” asked Ahab.",
+    "“Yes, yesterday,” said Gardiner. “And I must ask you for help. Yesterday our boats went after him. One boat did not come back, and my son, my twelve-year-old boy, was in it. Please, Captain Ahab, help me search for him for forty-eight hours. I will pay you anything. You have a son too. Do to me as you would want me to do to you.”",
+    "Ahab stood like a stone. “Captain Gardiner, I will not do it. Even now I lose time. Goodbye, goodbye. God bless you, man, and may I forgive myself, but I must go.”",
+    "So the Rachel went on alone, searching for her lost children, and we sailed on after the white whale."
+   ],
+   "glossary": [
+    {
+     "term": "typhoon",
+     "meaning": "tufão"
+    },
+    {
+     "term": "lightning",
+     "meaning": "relâmpago, raio"
+    },
+    {
+     "term": "defiance",
+     "meaning": "desafio, rebeldia"
+    },
+    {
+     "term": "cursed",
+     "meaning": "amaldiçoada"
+    },
+    {
+     "term": "oaths",
+     "meaning": "juramentos"
+    },
+    {
+     "term": "binding",
+     "meaning": "obrigatórios"
+    },
+    {
+     "term": "drag",
+     "meaning": "arrastar"
+    },
+    {
+     "term": "forgive",
+     "meaning": "perdoar"
+    }
+   ]
+  },
+  {
+   "title": "The Chase Begins",
+   "paragraphs": [
+    "Ahab could not sleep. He stayed on deck day and night, watching the sea. One morning, he climbed to the top of the mainmast in a basket, pulled up by ropes. Suddenly he gave a great cry.",
+    "“There she blows! A hump like a snow hill! It is Moby Dick!”",
+    "The three men at the other mastheads cried out at the same moment. But Ahab had seen him first. “The gold is mine!” he shouted. “Fate saved it for me!”",
+    "There, a mile ahead, was the white whale. He was swimming slowly and calmly, and his great white head and hump shone in the sun. Birds flew over him. Broken harpoons stuck out of his back. It was a beautiful and terrible sight.",
+    "The boats were lowered. Ahab’s boat, with Fedallah, went first. Suddenly the whale went down under the water and disappeared. We waited in silence. Then Ahab saw a white shape coming up from below, getting bigger and bigger. It was Moby Dick, with his mouth open, coming straight up under Ahab’s boat.",
+    "The whale took the boat in his huge jaws and shook it like a cat with a mouse. The boat broke in two, and Ahab fell into the sea. The whale swam round and round him, while the other boats could not get close. At last the Pequod sailed between them and drove the whale away. Ahab was pulled into Stubb’s boat, exhausted, but he did not give up.",
+    "“Is the harpoon safe?” he asked.",
+    "“Yes, sir, it was not thrown.”",
+    "“Good. Back to the ship! We will follow him!”",
+    "We followed the whale all night. The next morning the boats were lowered again. This time Moby Dick seemed to attack us on purpose. He swam into the boats and tangled them in the harpoon lines. Two boats were smashed. He came up under Ahab’s new boat and threw it into the air. Ahab’s ivory leg was broken off.",
+    "When we got back to the ship, Ahab leaned on Starbuck’s shoulder. “Aye, aye, Starbuck, it is sweet to lean sometimes, be the leaner who he will. But where is Fedallah?”",
+    "No one had seen him. He had disappeared, pulled down into the sea by the harpoon lines.",
+    "“Oh, Captain Ahab!” cried Starbuck. “Never, never will you capture him. In Jesus’ name, no more of this! It is worse than the devil’s madness. Two days we have chased him, and twice we have been smashed. Shall we hunt this deadly fish until he drowns the last man?”",
+    "“Starbuck,” said Ahab, “this whole act was decided a billion years before this ocean rolled. I am the Fates’ lieutenant. I act under orders. Tomorrow we chase him again.”",
+    "The carpenter worked all night to make him a new leg."
+   ],
+   "glossary": [
+    {
+     "term": "hump",
+     "meaning": "corcova"
+    },
+    {
+     "term": "Fate",
+     "meaning": "destino"
+    },
+    {
+     "term": "exhausted",
+     "meaning": "exausto"
+    },
+    {
+     "term": "on purpose",
+     "meaning": "de propósito"
+    },
+    {
+     "term": "tangled",
+     "meaning": "embaraçou, enroscou"
+    },
+    {
+     "term": "smashed",
+     "meaning": "esmagados, despedaçados"
+    },
+    {
+     "term": "lean",
+     "meaning": "apoiar-se"
+    },
+    {
+     "term": "drowns",
+     "meaning": "afoga"
+    }
+   ]
+  },
+  {
+   "title": "The Last Day",
+   "paragraphs": [
+    "On the third morning, the weather was fine and clear. Ahab climbed to the masthead again, and soon he saw the white whale.",
+    "Before he got into his boat, Ahab took Starbuck’s hand. “Some ships sail from their ports and are never seen again, Starbuck.”",
+    "“Oh, my captain! My captain! Do not go!” cried Starbuck. There were tears in his eyes. Ahab said nothing. He pushed his hand away and lowered his boat.",
+    "As the boats came close, Moby Dick rose up out of the sea. And there, tied to his back by the twisted harpoon lines, was the body of Fedallah. His dead eyes were open and looking at Ahab.",
+    "“The first hearse!” whispered Ahab. The prophecy was coming true.",
+    "The whale turned and swam away. But then he saw the Pequod. In a moment, he turned and rushed towards her. His great white head hit the side of the ship. The wood broke, and water poured in. The Pequod began to sink.",
+    "“The ship!” cried Ahab. “The second hearse! Its wood could only be American!”",
+    "Ahab understood that he was going to die. But he did not stop. He threw his harpoon with all his strength. “Towards thee I roll, thou all-destroying but unconquering whale!” he shouted. “To the last I grapple with thee! From hell’s heart I stab at thee! For hate’s sake, I spit my last breath at thee!”",
+    "The harpoon went deep into the whale. The whale dived, and the rope flew out quickly from the boat. It caught Ahab around the neck. In silence, he was pulled out of the boat and down into the sea. He was gone.",
+    "At that moment the Pequod went down. The masts went under one by one. The great ocean closed over everything, and the waves rolled on as they had rolled five thousand years before.",
+    "But one man survived. It was me, Ishmael. Earlier that day I had been thrown from Ahab’s boat, and I was floating at the edge of the scene. As the ship went down, the water pulled me towards the centre of a great circle. Then, suddenly, something black shot up out of the sea next to me. It was Queequeg’s coffin, the life buoy.",
+    "I held on to it. For a whole day and a night I floated on that soft and gentle sea. The sharks swam past me as if their mouths were locked. The sea birds flew over me without touching me.",
+    "On the second day, a ship came near. It was the Rachel, still searching for her missing children. She did not find them. She only found another orphan."
+   ],
+   "glossary": [
+    {
+     "term": "masthead",
+     "meaning": "topo do mastro"
+    },
+    {
+     "term": "poured in",
+     "meaning": "entrou aos borbotões"
+    },
+    {
+     "term": "sink",
+     "meaning": "afundar"
+    },
+    {
+     "term": "grapple",
+     "meaning": "luto corpo a corpo"
+    },
+    {
+     "term": "stab",
+     "meaning": "apunhalo, golpeio"
+    },
+    {
+     "term": "survived",
+     "meaning": "sobreviveu"
+    },
+    {
+     "term": "floating",
+     "meaning": "boiando"
+    },
+    {
+     "term": "orphan",
+     "meaning": "órfão"
+    }
+   ]
+  }
+ ]
+}

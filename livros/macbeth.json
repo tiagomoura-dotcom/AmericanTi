@@ -1,0 +1,536 @@
+{
+ "id": "macbeth",
+ "title": "Macbeth",
+ "author": "William Shakespeare",
+ "year": 1606,
+ "module": 3,
+ "level": "B1",
+ "summary": "Na Escócia medieval, o corajoso general Macbeth volta de uma batalha vitoriosa e encontra três bruxas que lhe fazem uma profecia: um dia ele será rei. Incentivado pela ambição da esposa, ele começa a pensar no impensável. Uma história sombria sobre poder, culpa e medo, contada em prosa simples a partir da famosa peça de Shakespeare.",
+ "chapters": [
+  {
+   "title": "The Three Witches",
+   "paragraphs": [
+    "It was a wild, dark day in Scotland. Thunder rolled across the sky, and rain fell on an empty piece of land called the heath. Three strange old women stood there in the storm. They had long grey beards and thin, dry fingers, and they did not look like women of this earth. They were witches.",
+    "“When shall we three meet again?” asked the first witch. “In thunder, lightning, or in rain?”",
+    "“When the battle’s lost and won,” said the second.",
+    "“There to meet with Macbeth,” said the third. And then they all said together, “Fair is foul, and foul is fair,” and they disappeared into the mist.",
+    "Not far away, a great battle had just finished. King Duncan of Scotland had won a war against a rebel army and an army from Norway. In his camp, a wounded soldier told the king how the battle was won. “It was Macbeth, Your Majesty,” he said. “Brave Macbeth! He fought his way through the enemy and killed the rebel leader with his own sword. And then, with his friend Banquo, he fought the Norwegians too.”",
+    "The king was delighted. “Oh, brave cousin! Noble Macbeth!” he said. He was also angry, because one of his own lords, the Thane of Cawdor, had helped the enemy. “The Thane of Cawdor is a traitor,” said Duncan. “He will die, and Macbeth will have his title. From today, Macbeth is the Thane of Cawdor.”",
+    "Macbeth knew nothing about this yet. He and Banquo were riding home across the heath, tired after the fighting. “So foul and fair a day I have not seen,” said Macbeth, looking at the black sky.",
+    "Suddenly the three witches stood in front of them. Banquo was frightened. “What are these?” he said. “They look like women, but they have beards!”",
+    "“Speak, if you can,” said Macbeth. “What are you?”",
+    "“All hail, Macbeth!” said the first witch. “Hail to you, Thane of Glamis!”",
+    "“All hail, Macbeth!” said the second. “Hail to you, Thane of Cawdor!”",
+    "“All hail, Macbeth,” said the third, “that shall be king hereafter!”",
+    "Macbeth went pale. He was already the Thane of Glamis, but the Thane of Cawdor was alive, and Duncan was the king. Banquo saw his friend’s face and turned to the witches. “And what about me?” he asked.",
+    "“You will be less than Macbeth, and greater,” said the witches. “Not so happy, yet much happier. You will not be king, but your children will be kings.” Then, before Macbeth could ask anything more, they vanished into the air like bubbles.",
+    "“Your children will be kings,” said Macbeth slowly.",
+    "“And you will be king,” said Banquo, with a laugh.",
+    "At that moment, two lords arrived on horseback. They were Ross and Angus, messengers from King Duncan. “The king sends you his thanks, Macbeth,” said Ross. “And he has given you a new title. You are now the Thane of Cawdor.”",
+    "Banquo stared. “What? Can the devil speak true?”",
+    "Macbeth said nothing for a long moment. Two of the witches’ words had come true. Why not the third? A terrible idea came into his mind, an idea so horrible that his heart beat fast and his hair stood up. To become king, he would have to kill the king. “If chance will have me king,” he said to himself, “why, chance may crown me, without my doing anything.” But the idea did not go away."
+   ],
+   "glossary": [
+    {
+     "term": "heath",
+     "meaning": "charneca"
+    },
+    {
+     "term": "witches",
+     "meaning": "bruxas"
+    },
+    {
+     "term": "foul",
+     "meaning": "feio, sujo, mau"
+    },
+    {
+     "term": "wounded",
+     "meaning": "ferido"
+    },
+    {
+     "term": "traitor",
+     "meaning": "traidor"
+    },
+    {
+     "term": "hail",
+     "meaning": "salve"
+    },
+    {
+     "term": "hereafter",
+     "meaning": "no futuro, daqui em diante"
+    },
+    {
+     "term": "vanished",
+     "meaning": "desapareceram"
+    }
+   ]
+  },
+  {
+   "title": "Lady Macbeth",
+   "paragraphs": [
+    "King Duncan welcomed Macbeth and Banquo warmly in his palace. “Noble Macbeth,” he said, “I can never thank you enough.” Then he made an announcement. “I name my eldest son, Malcolm, as the Prince of Cumberland. He will be king after me.” He also said that he wanted to visit Macbeth’s castle at Inverness that same night, to honour him.",
+    "Macbeth bowed and smiled, but inside he was dark. “The Prince of Cumberland,” he thought. “That is a step in my way. I must jump over it, or fall down. Stars, hide your fires! Do not let light see my black and deep desires.”",
+    "He sent a letter to his wife at Inverness. Lady Macbeth was reading it when we first meet her. “They met me on the day of victory,” Macbeth wrote, “and they knew more than mortal people know. They called me Thane of Cawdor, and then they said, ‘Hail, king that shall be!’ I am telling you this, my dearest partner in greatness, because I want you to be happy too.”",
+    "Lady Macbeth put down the letter. Her eyes were shining. “Glamis you are, and Cawdor,” she said, “and you shall be what you were promised. But I am afraid of your nature. It is too full of the milk of human kindness. You want to be great, but you do not want to do wrong to get there.”",
+    "A servant came in. “The king is coming here tonight,” he said. Lady Macbeth could hardly believe it. When the servant left, she spoke to the dark. “Come, spirits of murder. Take away my softness as a woman, and fill me from head to toe with cruelty. Come, thick night, so that my knife cannot see the wound it makes, and heaven cannot look through the dark and cry, ‘Stop!’”",
+    "Macbeth arrived a little before the king. His wife ran to him. “Great Glamis! Worthy Cawdor!” she said. “Your letter has carried me beyond this ignorant present. I feel the future now.”",
+    "“My dearest love,” said Macbeth, “Duncan comes here tonight.”",
+    "“And when does he leave?”",
+    "“Tomorrow, he says.”",
+    "“Oh, never shall sun that tomorrow see!” said Lady Macbeth. “Your face, my thane, is like a book where men can read strange things. Look like the innocent flower, but be the snake under it. Leave everything to me.”",
+    "That evening, Duncan arrived with his sons and his lords. “This castle is in a pleasant place,” he said, “and the air is sweet.” Lady Macbeth welcomed him with a smile and a low bow.",
+    "During the dinner, Macbeth left the room. He walked alone in a dark corridor, thinking. “If it were done when ’tis done, then ’twere well it were done quickly,” he said to himself. But he was full of doubts. “Duncan is my king and my cousin, and he is my guest. I should shut the door against his murderer, not carry the knife myself. And he is a good king. Everybody loves him. I have no reason to do it, only ambition.”",
+    "His wife found him there. “Why have you left the room?” she asked. “The king has almost finished dinner.”",
+    "“We will go no further in this business,” said Macbeth. “He has given me honours. People think well of me now.”",
+    "Lady Macbeth looked at him with contempt. “Are you afraid?” she said. “Will you live like a coward? I have fed a baby at my breast, and I know how sweet it is to love the child that is feeding. But if I had promised, as you have promised, I would have pulled it from my breast and killed it.”",
+    "“If we should fail?” said Macbeth.",
+    "“We fail!” she said. “But screw your courage to the sticking place, and we will not fail. When Duncan is asleep, I will give his two servants so much wine that they will sleep like pigs. Then we will kill him with their daggers, and everybody will think the servants did it.”",
+    "Macbeth was silent for a moment. Then he said, “I am settled. Go, and welcome our guests with a smile. False face must hide what the false heart does know.”"
+   ],
+   "glossary": [
+    {
+     "term": "kindness",
+     "meaning": "bondade"
+    },
+    {
+     "term": "cruelty",
+     "meaning": "crueldade"
+    },
+    {
+     "term": "worthy",
+     "meaning": "digno"
+    },
+    {
+     "term": "doubts",
+     "meaning": "dúvidas"
+    },
+    {
+     "term": "contempt",
+     "meaning": "desprezo"
+    },
+    {
+     "term": "coward",
+     "meaning": "covarde"
+    },
+    {
+     "term": "daggers",
+     "meaning": "punhais"
+    },
+    {
+     "term": "settled",
+     "meaning": "decidido"
+    }
+   ]
+  },
+  {
+   "title": "The Dagger and the Knocking",
+   "paragraphs": [
+    "It was past midnight. The castle was silent, and the moon had gone down. Banquo and his son Fleance were walking across the courtyard to bed. Banquo could not sleep. “I dreamed last night of the three witches,” he told Macbeth when they met in the dark. “To you they have shown some truth.”",
+    "“I don’t think about them,” lied Macbeth. “But one day, when we have an hour, we could talk about that business.” They said goodnight, and Banquo went to bed.",
+    "Macbeth was alone. He waited for his wife to ring the bell, the signal that the servants were asleep. Then, in the air in front of him, he saw something strange. “Is this a dagger which I see before me,” he whispered, “the handle toward my hand? Come, let me hold you.” He reached out, but his hand closed on nothing. “I have you not, and yet I see you still.” Now there was blood on the blade. “There’s no such thing,” he said. “It is the bloody business which shows itself to my eyes.”",
+    "The bell rang softly. “I go, and it is done,” said Macbeth. “Hear it not, Duncan, for it is a bell that calls you to heaven or to hell.” He went quietly up the stairs to the king’s room.",
+    "Lady Macbeth waited below. She had drunk some wine to make herself brave. “That which has made them drunk has made me bold,” she said. Then she heard a noise. “I laid their daggers ready. He could not miss them. If the king had not looked like my father as he slept, I would have done it myself.”",
+    "Macbeth came down the stairs with his hands red with blood. He was holding the two daggers. “I have done the deed,” he said. “Did you not hear a noise?”",
+    "“I heard the owl scream,” she said. “Did you not speak?”",
+    "Macbeth looked at his hands. “This is a sorry sight.” He was shaking. “There were two men sleeping in the next room. One of them laughed in his sleep, and one cried ‘Murder!’ They woke each other, and they said their prayers. One said ‘God bless us,’ and the other said ‘Amen.’ But I could not say ‘Amen.’ Why not? I needed God’s blessing more than anyone.”",
+    "“Don’t think about it so deeply,” said Lady Macbeth. “It will make us mad.”",
+    "“I thought I heard a voice cry, ‘Sleep no more! Macbeth does murder sleep,’” he went on. “Macbeth shall sleep no more!”",
+    "“Go and get some water and wash this filthy witness from your hand,” she said. Then she saw the daggers. “Why did you bring the daggers from the room? They must stay there! Go, carry them back, and put blood on the sleeping servants.”",
+    "“I’ll go no more,” said Macbeth. “I am afraid to think what I have done. I dare not look at it again.”",
+    "“Weak man!” she said. “Give me the daggers.” She took them and went up the stairs herself.",
+    "Suddenly there was a loud knocking at the castle gate. Macbeth jumped. “Where is that knocking?” He looked at his hands again. “Will all great Neptune’s ocean wash this blood clean from my hand? No. This hand will rather turn the green sea red.”",
+    "Lady Macbeth came back. Her hands were red too now. “My hands are the colour of yours,” she said, “but I would be ashamed to have a heart so white. A little water clears us of this deed. How easy it is then!” The knocking came again. “Quick! Put on your night clothes, so that people think we were asleep. Don’t look so lost in your thoughts.”",
+    "“To know my deed, it would be better not to know myself,” said Macbeth. As they hurried away, the knocking went on and on. “Wake Duncan with your knocking,” he said sadly. “I wish you could.”"
+   ],
+   "glossary": [
+    {
+     "term": "courtyard",
+     "meaning": "pátio"
+    },
+    {
+     "term": "blade",
+     "meaning": "lâmina"
+    },
+    {
+     "term": "bold",
+     "meaning": "ousado, corajoso"
+    },
+    {
+     "term": "deed",
+     "meaning": "ato, ação"
+    },
+    {
+     "term": "owl",
+     "meaning": "coruja"
+    },
+    {
+     "term": "blessing",
+     "meaning": "bênção"
+    },
+    {
+     "term": "filthy",
+     "meaning": "imundo"
+    },
+    {
+     "term": "knocking",
+     "meaning": "batidas (na porta)"
+    }
+   ]
+  },
+  {
+   "title": "Murder Is Discovered",
+   "paragraphs": [
+    "The porter of the castle was still half drunk from the party. He walked slowly to the gate, talking to himself. “Knock, knock, knock! Who’s there? If I were the porter at the gate of hell, I would be very busy.” At last he opened the gate. Two lords came in from the cold morning. They were Macduff, the Thane of Fife, and an old lord called Lennox.",
+    "“Is the king awake?” asked Macduff. “He told me to come early.”",
+    "Macbeth appeared in his night clothes, looking calm. “Good morning, both of you,” he said. “The king is not awake yet. I’ll take you to him.” He showed Macduff the door of the king’s room, and Macduff went in.",
+    "While they waited, Lennox talked about the night. “It was a wild night,” he said. “Our chimneys were blown down. People say they heard strange screams in the air, and the earth shook.”",
+    "“It was a rough night,” said Macbeth quietly.",
+    "Then Macduff ran out of the room, his face white. “O horror, horror, horror!” he cried. “Murder has broken open the Lord’s holy temple! Go in and see for yourselves. Wake up! Ring the bell! Murder and treason! Banquo! Malcolm! Donalbain! Wake up!”",
+    "The bell rang, and everybody came running. Lady Macbeth came down looking innocent. “What is the matter?” she asked. Banquo arrived, and the king’s two sons, Malcolm and Donalbain.",
+    "“Your royal father is murdered,” Macduff told the young men.",
+    "“By whom?” asked Malcolm.",
+    "Lennox answered. “It seems his servants did it. Their hands and faces were covered with blood, and so were their daggers. We found the daggers on their pillows.”",
+    "Then Macbeth spoke. “I am sorry for what I did in my anger. I killed them both.”",
+    "Macduff turned to him. “Why did you do that?”",
+    "“Who can be wise and calm and angry all at the same moment?” said Macbeth. “Here lay Duncan, his silver skin covered in his golden blood. And there were the murderers, with their daggers red. Who could stop himself, if he loved the king?”",
+    "At that moment, Lady Macbeth cried out, “Help me!” and fell to the floor, as if she had fainted. Everybody turned to help her. While they were busy, Malcolm and Donalbain whispered to each other.",
+    "“Why are we silent?” said Donalbain. “We are in danger here.”",
+    "“Let’s not stay,” said Malcolm. “Here, there are daggers in men’s smiles. The man who killed our father may want to kill us too. I will go to England.”",
+    "“And I will go to Ireland,” said Donalbain. “We will be safer apart.” And they left the castle secretly before anyone could stop them.",
+    "When the lords discovered that the two princes had run away, they began to suspect them. “Perhaps they paid the servants to kill their father,” people said. With Duncan dead and his sons gone, the lords chose a new king. They chose Duncan’s brave cousin, Macbeth. He rode to Scone, the old place where Scottish kings were crowned.",
+    "Macduff did not go to the coronation. He went home to Fife. He had doubts, and he did not want to see Macbeth wear the crown. Banquo also had doubts. Standing alone in the palace, he thought, “You have it all now, Macbeth: king, Cawdor, Glamis, everything the witches promised. And I fear you played most foully for it. But they also said that my children would be kings.”"
+   ],
+   "glossary": [
+    {
+     "term": "porter",
+     "meaning": "porteiro"
+    },
+    {
+     "term": "chimneys",
+     "meaning": "chaminés"
+    },
+    {
+     "term": "rough",
+     "meaning": "difícil, tempestuosa"
+    },
+    {
+     "term": "treason",
+     "meaning": "traição"
+    },
+    {
+     "term": "pillows",
+     "meaning": "travesseiros"
+    },
+    {
+     "term": "fainted",
+     "meaning": "desmaiado, desmaiada"
+    },
+    {
+     "term": "crowned",
+     "meaning": "coroados"
+    },
+    {
+     "term": "coronation",
+     "meaning": "coroação"
+    }
+   ]
+  },
+  {
+   "title": "Banquo",
+   "paragraphs": [
+    "King Macbeth now lived in the royal palace at Forres. He wore the crown and sat on the throne, but he was not happy. He could not forget the witches’ words to Banquo: “Your children will be kings.” He thought about it day and night.",
+    "One afternoon, he spoke to Banquo with a friendly smile. “Tonight we have a great feast,” he said, “and you will be our most important guest. Are you riding this afternoon?”",
+    "“Yes, my good lord,” said Banquo.",
+    "“Is it far you ride?”",
+    "“Quite far. I will be back after dark.”",
+    "“Does Fleance go with you?” asked Macbeth, as if it did not matter.",
+    "“Yes, my lord.”",
+    "“Don’t miss our feast,” said Macbeth. When Banquo had gone, he stood alone and his face changed. “To be king is nothing,” he said, “unless I am safe as king. My fears of Banquo go deep. He is brave and wise, and he was there when the witches spoke. They put a crown on my head, but they put an empty sceptre in my hand. No son of mine will be king after me. So I have killed the gracious Duncan for Banquo’s children! I have given my soul to the devil to make the sons of Banquo kings! No. That will not happen.”",
+    "Two rough men were waiting at the door. They were poor, angry men, and Macbeth had already spoken to them. He had told them that Banquo was the cause of all their troubles.",
+    "“Do you hate Banquo?” Macbeth asked them.",
+    "“We are men, my lord,” said the first murderer. “And we are tired of bad luck. I would do anything to change my life.”",
+    "“Banquo is your enemy, and he is mine too,” said Macbeth. “I could kill him openly, but I have friends who are also his friends. So I need you. Tonight he will ride back to the palace with his son Fleance. Fleance must die too. Wait for them near the palace gate.”",
+    "“We will do it, my lord,” they said.",
+    "Lady Macbeth noticed that her husband was always thinking. “Why do you stay alone, my lord, with only your sad thoughts for company?” she said. “Things without all remedy should be without regard. What’s done is done.”",
+    "“We have cut the snake, not killed it,” said Macbeth. “I would rather be dead than live with these terrible dreams. Duncan is in his grave. After life’s fitful fever he sleeps well. Nothing can hurt him now.” Then he said, “Oh, full of scorpions is my mind, dear wife! You know that Banquo and his Fleance are still alive.”",
+    "“But they will not live forever,” she said.",
+    "“There is comfort in that,” said Macbeth. “Before the night is over, a dreadful deed will be done.”",
+    "“What will be done?” she asked.",
+    "“Be innocent of the knowledge, dearest chuck,” he said, “until you can praise the deed.” For the first time, he did not tell his wife about his plans.",
+    "That evening, as the sun went down, Banquo and Fleance walked their horses towards the palace. “It will rain tonight,” said Banquo, looking at the sky.",
+    "“Let it come down!” shouted a voice. Three murderers jumped out of the darkness and attacked Banquo with their knives. “Treachery!” cried Banquo. “Fly, good Fleance, fly, fly, fly! You may revenge me!” He fell dead on the road. In the confusion, somebody knocked out the light, and Fleance escaped into the night."
+   ],
+   "glossary": [
+    {
+     "term": "throne",
+     "meaning": "trono"
+    },
+    {
+     "term": "feast",
+     "meaning": "banquete"
+    },
+    {
+     "term": "sceptre",
+     "meaning": "cetro"
+    },
+    {
+     "term": "gracious",
+     "meaning": "bondoso"
+    },
+    {
+     "term": "remedy",
+     "meaning": "remédio, solução"
+    },
+    {
+     "term": "dreadful",
+     "meaning": "terrível"
+    },
+    {
+     "term": "treachery",
+     "meaning": "traição"
+    },
+    {
+     "term": "revenge",
+     "meaning": "vingar"
+    }
+   ]
+  },
+  {
+   "title": "The Ghost at the Feast",
+   "paragraphs": [
+    "That night, the great hall of the palace was bright with candles. The lords of Scotland sat at the long table, and there was plenty of food and wine. Macbeth walked among his guests, smiling. “You know your own places,” he said. “Sit down. I will sit in the middle, among you. Be happy tonight.”",
+    "At the door, he saw one of the murderers. Macbeth went to him quietly. “There’s blood on your face,” he whispered.",
+    "“It is Banquo’s, then,” said the man.",
+    "“Is he dead?”",
+    "“My lord, his throat is cut. I did that for him. He lies in a ditch with twenty deep wounds in his head.”",
+    "“Thanks for that,” said Macbeth. “And Fleance?”",
+    "The murderer looked down. “Most royal sir, Fleance has escaped.”",
+    "Macbeth’s face went dark. “Then my fears come back again,” he said. “I could have been perfect, as solid as a rock. But now I am locked in, trapped by doubts and fears. Still, Banquo is safe? Well, the grown snake lies dead. The little snake will have poison one day, but not yet.” He sent the man away and returned to the table.",
+    "“My lord,” said Lady Macbeth, “you are not being a good host. Come and give a toast.”",
+    "“Sweet reminder!” said Macbeth. He raised his cup. “I wish our dear friend Banquo were here. I hope he is late because he is rude, and not because of some accident.”",
+    "“Sit down, Your Majesty,” said Lennox. “Here is your place.” But when Macbeth turned to his chair, he stopped. The ghost of Banquo was sitting in it. Its hair was wet with blood, and it was looking at him with dead eyes.",
+    "“Which of you has done this?” cried Macbeth.",
+    "The lords looked at each other. They saw only an empty chair. “Done what, my good lord?” said Lennox.",
+    "Macbeth spoke to the ghost. “You cannot say I did it. Never shake your bloody hair at me!”",
+    "Ross stood up. “Gentlemen, rise. His Majesty is not well.”",
+    "“Sit, worthy friends,” said Lady Macbeth quickly. “My lord is often like this. He has been so since he was young. It will pass in a moment. Don’t look at him, or you will make him worse.” Then she whispered angrily to her husband. “Are you a man? This is just another picture of your fear, like the dagger in the air. Why do you make such faces? When all’s done, you look only at a stool.”",
+    "“Look there!” said Macbeth. “See! Behold! How do you say?” Then the ghost disappeared. Macbeth tried to be calm. He apologised to his guests, and he called for more wine. “I drink to the general joy of the whole table,” he said, “and to our dear friend Banquo, whom we miss.”",
+    "But as he lifted his cup, the ghost appeared again. Macbeth dropped the cup. “Go away! Leave my sight! Let the earth hide you! Your bones have no marrow, your blood is cold. Go, horrible shadow!”",
+    "The ghost vanished, and Macbeth stood shaking. The guests were now very frightened. Ross asked, “What sights, my lord?”",
+    "“Please don’t speak to him,” said Lady Macbeth. “He grows worse and worse. Questions make him angry. Good night. Don’t stand upon the order of your going, but go at once.”",
+    "The lords left quickly, whispering. When they were alone, Macbeth said, “It will have blood, they say. Blood will have blood.” He looked at his wife. “Macduff did not come to my feast. Tomorrow I will go to the witches. I must know more. I am in blood stepped in so far that going back would be as hard as going on.”"
+   ],
+   "glossary": [
+    {
+     "term": "throat",
+     "meaning": "garganta"
+    },
+    {
+     "term": "host",
+     "meaning": "anfitrião"
+    },
+    {
+     "term": "toast",
+     "meaning": "brinde"
+    },
+    {
+     "term": "rude",
+     "meaning": "mal-educado"
+    },
+    {
+     "term": "stool",
+     "meaning": "banquinho"
+    },
+    {
+     "term": "behold",
+     "meaning": "vejam, contemplem"
+    },
+    {
+     "term": "marrow",
+     "meaning": "medula, tutano"
+    },
+    {
+     "term": "stepped",
+     "meaning": "mergulhado, metido"
+    }
+   ]
+  },
+  {
+   "title": "The Witches’ Cave",
+   "paragraphs": [
+    "In a dark cave, the three witches stood around a big black pot over a fire. They were throwing horrible things into it: a frog’s toe, a bat’s wool, a dog’s tongue, the eye of a snake. They stirred the pot and sang together, “Double, double, toil and trouble; fire burn and cauldron bubble.”",
+    "Then the second witch said, “By the pricking of my thumbs, something wicked this way comes.” There was a knock, and Macbeth walked in.",
+    "“How now, you secret, black and midnight hags!” he said. “What are you doing?”",
+    "“A deed without a name,” they answered.",
+    "“I order you to answer me,” said Macbeth. “I don’t care if the whole world is destroyed. Tell me what I want to know.”",
+    "“Do you want to hear it from our mouths,” said the first witch, “or from our masters?”",
+    "“Call them,” said Macbeth. “Let me see them.”",
+    "The witches threw blood into the fire, and there was thunder. A head wearing a soldier’s helmet rose out of the pot. “Macbeth! Macbeth! Macbeth!” it said. “Beware Macduff! Beware the Thane of Fife.” Then it went down again.",
+    "There was more thunder, and a second spirit appeared. It was a child covered in blood. “Be bloody, bold and brave,” it said. “Laugh at the power of men, for none of woman born shall harm Macbeth.”",
+    "“Then live, Macduff,” said Macbeth. “Why should I fear you? But I will make my safety doubly sure. You shall not live.”",
+    "A third spirit appeared, a child wearing a crown, with a tree in its hand. “Be proud as a lion,” it said. “Macbeth shall never be defeated until Great Birnam Wood comes to high Dunsinane Hill against him.”",
+    "Macbeth laughed with relief. “That will never be. Who can order a forest to move? Trees cannot pull up their roots and walk.” Then his face became serious. “But tell me one more thing. Will Banquo’s children ever rule this kingdom?”",
+    "“Seek to know no more,” said the witches. But Macbeth insisted. Then strange music played, and a line of eight kings walked slowly past him. The last one held a mirror, which showed even more kings. Behind them came the ghost of Banquo, covered in blood. He smiled and pointed at the kings. They were all his children.",
+    "“Horrible sight!” cried Macbeth. When he looked again, the witches had gone, and the cave was empty.",
+    "Lennox came to the entrance of the cave with news. “My lord, Macduff has run away to England.”",
+    "Macbeth was furious. He felt that he was always too late. “From this moment,” he said, “I will act as soon as I think. No more waiting. I will attack Macduff’s castle at Fife. I will give his wife, his children, and every person of his family to the sword.”",
+    "At Macduff’s castle, Lady Macduff did not understand why her husband had left. “He has left his wife and his babies alone,” she told Ross. “He does not love us.”",
+    "“He is wise,” said Ross sadly. “These are cruel times.” He left her with tears in his eyes.",
+    "Lady Macduff spoke with her little son. “Your father is dead,” she said bitterly. “What will you do now?”",
+    "“Mother, he is not dead,” said the clever boy. A moment later, a messenger rushed in. “Run, lady! Danger is coming!” But it was too late. Macbeth’s murderers broke into the room. “Where is your husband?” they shouted. “He’s a traitor!”",
+    "“You’re lying!” cried the boy. One of the men struck him with his knife. “He has killed me, mother,” said the boy. “Run away, I beg you!” Lady Macduff ran out screaming, but the murderers followed her. Nobody in the castle was left alive."
+   ],
+   "glossary": [
+    {
+     "term": "stirred",
+     "meaning": "mexeram"
+    },
+    {
+     "term": "cauldron",
+     "meaning": "caldeirão"
+    },
+    {
+     "term": "hags",
+     "meaning": "bruxas velhas"
+    },
+    {
+     "term": "beware",
+     "meaning": "cuidado com"
+    },
+    {
+     "term": "harm",
+     "meaning": "fazer mal a"
+    },
+    {
+     "term": "relief",
+     "meaning": "alívio"
+    },
+    {
+     "term": "seek",
+     "meaning": "buscar, procurar"
+    },
+    {
+     "term": "bitterly",
+     "meaning": "amargamente"
+    }
+   ]
+  },
+  {
+   "title": "Grief in England, Guilt in Scotland",
+   "paragraphs": [
+    "In England, Macduff found Malcolm at the court of the good English king. “Every new morning in Scotland, new widows cry and new orphans scream,” said Macduff. “Our country is bleeding. Come back with me and fight Macbeth.”",
+    "Malcolm was careful. He did not know if Macduff was really his friend, or a spy sent by Macbeth. So he tested him. “If I became king,” he said, “I would be worse than Macbeth. I am full of greed. I would steal the lands of the lords and take their wives. I have none of the good qualities a king should have.”",
+    "Macduff turned away in despair. “O Scotland, Scotland!” he cried. “If you are like that, you are not fit to govern. You are not even fit to live. Then I have no hope. Goodbye.”",
+    "Malcolm took his hand. “Macduff, your noble anger has shown me that you are honest. I lied to test you. I am not greedy or cruel. I have never told a lie before today. And the English king has given us ten thousand soldiers to fight Macbeth.”",
+    "At that moment, Ross arrived from Scotland. His face was full of sorrow. “How is my wife?” asked Macduff. “And my children?”",
+    "Ross could not say it at first. “They were well, when I left them,” he said. Then, at last, he told the truth. “Your castle was attacked. Your wife and your babies were savagely killed.”",
+    "Macduff pulled his hat down over his eyes. “My children too?” he said.",
+    "“Wife, children, servants, all that could be found.”",
+    "“All my pretty ones?” said Macduff. “Did you say all? All my pretty chickens and their mother, at one fell swoop?”",
+    "“Fight it like a man,” said Malcolm.",
+    "“I shall do so,” said Macduff. “But I must also feel it like a man. I cannot forget that such things were, that were most precious to me.” Then he lifted his head. “Bring me face to face with this devil of Scotland. Put him within the reach of my sword. If he escapes, may heaven forgive him too.”",
+    "Meanwhile, in Macbeth’s castle at Dunsinane, a doctor and a lady-in-waiting stood in a dark corridor at night. “Since the king went to war, I have seen her do this many times,” whispered the lady. “She gets up from her bed, writes a letter, reads it, and goes back to sleep. And all the time she is fast asleep.”",
+    "Lady Macbeth came towards them, walking slowly, with a candle in her hand. Her eyes were open, but she saw nothing. She stopped and rubbed her hands together, as if she were washing them.",
+    "“Yet here’s a spot,” she said. “Out, damned spot! Out, I say! One, two. Why, then it is time to do it. Hell is murky. Fie, my lord, a soldier and afraid? But who would have thought the old man had so much blood in him?”",
+    "The doctor and the lady looked at each other in horror. Lady Macbeth went on. “The Thane of Fife had a wife. Where is she now? What, will these hands never be clean? Here’s the smell of the blood still. All the perfumes of Arabia will not sweeten this little hand. Oh, oh, oh!”",
+    "Then she whispered, “Wash your hands, put on your nightgown. Banquo is buried. He cannot come out of his grave. To bed, to bed. There’s knocking at the gate. Come, come, give me your hand. What’s done cannot be undone. To bed, to bed, to bed.” And she walked away into the dark.",
+    "“This disease is beyond my practice,” said the doctor. “She needs God more than a doctor. Watch her carefully, and take away anything she could use to hurt herself.”"
+   ],
+   "glossary": [
+    {
+     "term": "widows",
+     "meaning": "viúvas"
+    },
+    {
+     "term": "orphans",
+     "meaning": "órfãos"
+    },
+    {
+     "term": "greed",
+     "meaning": "ganância"
+    },
+    {
+     "term": "despair",
+     "meaning": "desespero"
+    },
+    {
+     "term": "sorrow",
+     "meaning": "tristeza profunda"
+    },
+    {
+     "term": "at one fell swoop",
+     "meaning": "de um só golpe"
+    },
+    {
+     "term": "rubbed",
+     "meaning": "esfregou"
+    },
+    {
+     "term": "spot",
+     "meaning": "mancha"
+    }
+   ]
+  },
+  {
+   "title": "Birnam Wood Comes to Dunsinane",
+   "paragraphs": [
+    "The English army marched into Scotland with Malcolm, Macduff and old Siward, the English general. Many Scottish lords joined them, because they hated Macbeth. His own soldiers were running away every day. “Those he commands move only because they are ordered,” said one lord, “not because they love him.”",
+    "In Dunsinane Castle, Macbeth was not afraid. “Bring me no more reports,” he shouted. “Let them all run away. I will not be afraid until Birnam Wood comes to Dunsinane. What is the boy Malcolm? Was he not born of woman? The spirits told me, ‘No man that’s born of woman shall ever have power over you.’” He put on his armour. “I’ll fight till from my bones my flesh is cut.”",
+    "The doctor came to him. “How is my wife?” asked Macbeth.",
+    "“She is not so sick, my lord, as troubled with thick-coming fancies that keep her from her rest.”",
+    "“Cure her of that,” said Macbeth. “Can you not take a sorrow out of the memory, and clean the heart of the dangerous stuff that weighs upon it?”",
+    "“In such cases,” said the doctor, “the patient must help herself.”",
+    "“Then throw medicine to the dogs. I’ll have none of it.”",
+    "Near Birnam Wood, Malcolm gave an order to his soldiers. “Let every soldier cut down a branch and carry it in front of him. Then Macbeth’s spies will not be able to count our numbers.”",
+    "In the castle, there was a cry of women. “What is that noise?” asked Macbeth. A servant came. “The queen, my lord, is dead.”",
+    "Macbeth stood still. He felt nothing. He had seen too much horror to feel anything now. “She should have died hereafter,” he said quietly. “Tomorrow, and tomorrow, and tomorrow, creeps in this petty pace from day to day. Out, out, brief candle! Life’s but a walking shadow, a poor player that struts and frets his hour upon the stage, and then is heard no more. It is a tale told by an idiot, full of sound and fury, signifying nothing.”",
+    "A messenger ran in, trembling. “My lord, I was standing on the hill, looking towards Birnam. And then I thought the wood began to move.”",
+    "“Liar and slave!” cried Macbeth.",
+    "“It’s true, my lord. Within three miles you can see it coming. A moving forest.”",
+    "Macbeth went pale. “I begin to doubt the devil, who lies like truth,” he said. Then he shouted, “Ring the alarm bell! Blow, wind! Come, destruction! At least we’ll die with armour on our backs.”",
+    "The battle began. Macbeth fought like a wild animal and killed young Siward, the son of the English general. “You were born of woman,” he laughed. Then Macduff found him.",
+    "“Turn, hell-hound, turn!” cried Macduff.",
+    "“Of all men, I have avoided you,” said Macbeth. “Go back. My soul is too heavy with the blood of your family already. I have a charmed life. It cannot be taken by one of woman born.”",
+    "“Then despair of your charm,” said Macduff. “Macduff was from his mother’s womb untimely ripped. I was not born in the normal way. They cut me from my mother’s body before my time.”",
+    "Macbeth’s courage died inside him. “Cursed be the tongue that tells me so,” he said. “Those lying spirits made me promises with double meanings. I’ll not fight with you.”",
+    "“Then surrender, coward,” said Macduff, “and live to be shown in the streets like a monster.”",
+    "“I will not surrender,” said Macbeth, lifting his sword. “Though Birnam Wood has come to Dunsinane, I will try my last. Lay on, Macduff!” They fought, and Macduff killed him.",
+    "Soon after, Macduff came before Malcolm holding Macbeth’s head. “Hail, King!” he cried. “For so you are. The time is free.” All the lords shouted, “Hail, King of Scotland!” Malcolm thanked them all and promised to bring back peace. He invited everybody to see him crowned at Scone. The long, dark night of Scotland was over at last."
+   ],
+   "glossary": [
+    {
+     "term": "armour",
+     "meaning": "armadura"
+    },
+    {
+     "term": "fancies",
+     "meaning": "fantasias, delírios"
+    },
+    {
+     "term": "weighs upon",
+     "meaning": "pesa sobre"
+    },
+    {
+     "term": "branch",
+     "meaning": "galho"
+    },
+    {
+     "term": "petty",
+     "meaning": "mesquinho, insignificante"
+    },
+    {
+     "term": "struts",
+     "meaning": "se pavoneia"
+    },
+    {
+     "term": "avoided",
+     "meaning": "evitei"
+    },
+    {
+     "term": "surrender",
+     "meaning": "render-se"
+    }
+   ]
+  }
+ ]
+}

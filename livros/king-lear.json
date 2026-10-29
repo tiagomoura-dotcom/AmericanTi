@@ -1,0 +1,677 @@
+{
+ "id": "king-lear",
+ "title": "King Lear",
+ "author": "William Shakespeare",
+ "year": 1606,
+ "module": 4,
+ "level": "B2",
+ "summary": "Na antiga Britânia, o velho rei Lear decide dividir o reino entre suas três filhas, de acordo com o amor que cada uma declarar por ele. A filha mais nova, Cordélia, se recusa a fazer discursos bajuladores, e o rei, furioso, a expulsa. Enquanto isso, na casa do conde de Gloucester, um filho ambicioso arma um plano contra o próprio irmão. Esta adaptação em prosa reconta a tragédia de Shakespeare sobre orgulho, ingratidão e loucura.",
+ "chapters": [
+  {
+   "title": "The Division of the Kingdom",
+   "paragraphs": [
+    "Long ago, when Britain was still a land of kings and ancient gods, there lived an old king called Lear. He had ruled for many years, and now he was more than eighty years old and tired of the cares of government. He had three daughters. The two eldest, Goneril and Regan, were married to the Duke of Albany and the Duke of Cornwall. The youngest, Cordelia, was not yet married, and two great princes, the King of France and the Duke of Burgundy, had come to the court to ask for her hand.",
+    "One day Lear called all his court together in the great hall. On a table lay a large map of Britain. “Know that we have divided our kingdom into three,” he announced. “It is our firm intention to shake all cares and business from our age, and give them to younger strengths, while we crawl unburdened towards death. But first, tell me, my daughters, which of you loves me most? The one who loves me most shall receive the largest share.”",
+    "Goneril stepped forward first. “Sir,” she said, “I love you more than words can express, dearer than eyesight, space and liberty. I love you as much as any child ever loved a father. My love makes breath poor and speech unable.”",
+    "Lear was pleased. He pointed to the map and gave her and Albany a third of the kingdom, with rich forests and wide rivers. Then he turned to Regan. “What says our second daughter, our dearest Regan, wife to Cornwall?”",
+    "“I am made of the same metal as my sister,” said Regan. “But she does not say enough. I declare myself an enemy to all other joys, and I find that I am happy only in your dear love.”",
+    "Lear gave her another third, no less in size and beauty than Goneril's. Then he turned with a smile to his youngest daughter, whom he loved best of all. “Now, our joy, although our last and least, what can you say to draw a third more rich than your sisters? Speak.”",
+    "Cordelia had listened to her sisters with growing disgust, for she knew that their words were empty. “Nothing, my lord,” she said quietly.",
+    "“Nothing?”",
+    "“Nothing.”",
+    "“Nothing will come of nothing,” said Lear. “Speak again.”",
+    "“Unhappy that I am, I cannot heave my heart into my mouth,” said Cordelia. “I love your Majesty according to my duty, no more nor less. You have given me life, raised me and loved me. I return those duties as is right: I obey you, love you and honour you. Why have my sisters husbands, if they say they love you all? When I marry, the man I marry will take half my love with him. Surely I shall never marry like my sisters, to love my father all.”",
+    "“So young, and so untender?” cried Lear.",
+    "“So young, my lord, and true.”",
+    "Lear's face turned dark with anger. “Let it be so! Your truth then be your dowry! From this moment I disclaim all my paternal care. You are a stranger to my heart forever.”",
+    "The Earl of Kent, the king's most loyal servant, stepped forward. “Good my liege, think again! Your youngest daughter does not love you least. Those whose empty hearts sound loud are not the most loving. Reverse your doom!”",
+    "“Kent, on your life, no more!” shouted the king. But Kent would not be silent, and in his fury Lear banished him too. “If, after ten days, you are found in our kingdom, that moment is your death. Away!”",
+    "The Duke of Burgundy, hearing that Cordelia now had no dowry, refused to marry her. But the King of France took her hand. “Fairest Cordelia, you are most rich being poor, most loved being despised. Your dowerless daughter, King, is now queen of us, of ours and our fair France.” Before she left, Cordelia spoke to her sisters. “I know what you are. Love our father well. But time will reveal what cunning hides.”"
+   ],
+   "glossary": [
+    {
+     "term": "unburdened",
+     "meaning": "livre de fardos"
+    },
+    {
+     "term": "share",
+     "meaning": "parte, porção"
+    },
+    {
+     "term": "heave",
+     "meaning": "erguer, levantar com esforço"
+    },
+    {
+     "term": "dowry",
+     "meaning": "dote"
+    },
+    {
+     "term": "disclaim",
+     "meaning": "renuncio a, rejeito"
+    },
+    {
+     "term": "liege",
+     "meaning": "senhor, soberano"
+    },
+    {
+     "term": "doom",
+     "meaning": "sentença, decisão"
+    },
+    {
+     "term": "banished",
+     "meaning": "baniu, expulsou"
+    }
+   ]
+  },
+  {
+   "title": "The Bastard's Plot",
+   "paragraphs": [
+    "That same evening, in the castle of the Earl of Gloucester, a young man stood alone, holding a letter in his hand. This was Edmund, the illegitimate son of the Earl. He was handsome, clever and full of bitterness. His older brother, Edgar, was the Earl's legitimate son, and he would inherit everything. Edmund would get nothing.",
+    "“Why bastard?” he said to himself. “Why base? My mind is as generous, my body as strong, my face as true as any honest lady's son. Well, then, legitimate Edgar, I must have your land. Now, gods, stand up for bastards!”",
+    "His father, Gloucester, came in, upset by the strange events at court. “Kent banished! France gone in anger! The king gone tonight, all done on the impulse of the moment!” Then he noticed Edmund quickly hiding the letter. “What paper were you reading?”",
+    "“Nothing, my lord.”",
+    "“Then why are you hiding it in your pocket? The quality of nothing has no such need to hide itself. Let me see.”",
+    "After pretending to refuse, Edmund handed him the letter. It was written in Edgar's hand, or so it seemed, and it said that old fathers kept power for too long, and that if their father were dead, the two brothers would share his money. In fact, Edmund had written it himself.",
+    "Gloucester was horrified. “O villain, villain! Unnatural, detested, brutish villain! Where is he? Go, find him!”",
+    "“Be calm, my lord,” said Edmund. “Perhaps he wrote it only to test my loyalty. Let me speak to him first, and you can hide and hear our conversation.”",
+    "Gloucester shook his head in sorrow. “These late eclipses of the sun and moon bring no good to us. Love cools, friendship falls off, brothers divide. In cities, riots; in palaces, treason; and the bond cracked between son and father. Find out this villain, Edmund.” And he left the room.",
+    "When he had gone, Edmund laughed. “This is the excellent foolishness of the world: when we are sick in fortune, we blame the sun, the moon and the stars, as if we were villains by necessity and fools by heavenly compulsion.”",
+    "Then Edgar came in, cheerful and innocent. Edmund put on an anxious face. “Brother, when did you last see our father? Have you offended him? He is in a terrible rage against you. Some villain has done you wrong. Keep away from him until his anger cools. Go armed.”",
+    "“Armed, brother?”",
+    "“Brother, I advise you for the best. I am no honest man if there is any good meaning towards you. Go, go!”",
+    "Edgar left, confused and frightened. That night, Edmund cut his own arm with his sword and cried for help. When his father ran in with servants and torches, Edmund showed him the blood. “Edgar was here,” he said. “He tried to persuade me to kill you. When I refused, he attacked me and fled.”",
+    "“Let him fly far!” cried Gloucester. “Not in this land shall he remain uncaught. I will send his picture to every part of the kingdom. And of my land, loyal and natural boy, I will make you my heir.”",
+    "Edgar heard the trumpets and the shouts of men searching for him. He hid in the hollow of a tree. “I heard myself proclaimed,” he said. “No port is free. While I may escape, I will preserve myself. I will take the basest and poorest shape. I will grime my face with filth, tie my hair in knots and go naked like the mad beggars who wander the roads. Poor Tom! That is something yet. Edgar I nothing am.”"
+   ],
+   "glossary": [
+    {
+     "term": "illegitimate",
+     "meaning": "ilegítimo"
+    },
+    {
+     "term": "base",
+     "meaning": "de origem baixa, vil"
+    },
+    {
+     "term": "villain",
+     "meaning": "canalha, vilão"
+    },
+    {
+     "term": "brutish",
+     "meaning": "brutal"
+    },
+    {
+     "term": "eclipses",
+     "meaning": "eclipses"
+    },
+    {
+     "term": "treason",
+     "meaning": "traição"
+    },
+    {
+     "term": "compulsion",
+     "meaning": "imposição, obrigação"
+    },
+    {
+     "term": "grime",
+     "meaning": "sujar, encardir"
+    }
+   ]
+  },
+  {
+   "title": "The Ungrateful Daughter",
+   "paragraphs": [
+    "Lear had decided to keep only the title of king and a hundred knights. He would live with his daughters in turn, one month with Goneril, then one month with Regan. He went first to Goneril's palace.",
+    "Meanwhile, the Earl of Kent had not left the country. He had disguised himself, cut his beard and changed his voice. He came to Lear and offered to serve him. “What are you?” asked the king.",
+    "“A man, sir. My name is Caius. I can keep honest secrets, ride, run, spoil a good story in telling it, and deliver a plain message bluntly. I am forty-eight years old.”",
+    "“Whom would you serve?”",
+    "“You. You have that in your face which I would gladly call master: authority.” So the faithful Kent became the servant of the master who had banished him.",
+    "Goneril, meanwhile, had grown tired of her father already. She complained to her steward, Oswald. “His knights grow riotous, and he himself upbraids us on every trifle. When he returns from hunting, I will not speak with him. Say I am sick. If you serve him less well than before, you will do well.” So when Lear called Oswald, he walked past without answering. When Lear asked him, “Who am I, sir?” he replied coldly, “My lady's father.” Lear struck him, and Kent tripped him up and pushed him out of the room.",
+    "Then the Fool came in. He was Lear's jester, a clever and loving man who spoke the truth in jokes and songs, and he had been sad ever since Cordelia had gone to France. “Nuncle,” he said, “give me an egg, and I'll give you two crowns.”",
+    "“What two crowns shall they be?”",
+    "“Why, after I have cut the egg in the middle and eaten the meat, the two crowns of the egg. When you split your crown in the middle and gave away both parts, you had little wit in your bald crown when you gave your golden one away. You have made your daughters your mothers.”",
+    "Goneril came in, frowning. She told her father that his hundred knights were disorderly and rude, that they turned her house into a tavern. “Be then desired,” she said, “by her that else will take the thing she begs, a little to disquantity your train. Keep only a few men, men of your own age, who know themselves and you.”",
+    "Lear stared at her. “Does any here know me? This is not Lear. Does Lear walk thus, speak thus? Where are his eyes? Who is it that can tell me who I am?”",
+    "“Lear's shadow,” said the Fool.",
+    "“Darkness and devils!” cried Lear. “Saddle my horses! Call my train together! Degenerate bastard, I'll not trouble you. Yet I have left a daughter.” The Duke of Albany came in, gentle and confused, and tried to calm him, but Lear would not listen.",
+    "Then the old king raised his hands to heaven and cursed his own daughter. “Hear, Nature, hear, dear goddess, hear! If you intended to make this creature fruitful, change your purpose. Into her womb convey sterility. Or if she must have a child, let it live to be a torment to her, so that she may feel how sharper than a serpent's tooth it is to have a thankless child! Away, away!”",
+    "He went out weeping, sending Kent ahead with a letter to Regan. On the road the Fool tried to make him laugh, but Lear was thinking of Cordelia. “I did her wrong,” he murmured. Then, a moment later, “O, let me not be mad, not mad, sweet heaven! Keep me in temper. I would not be mad!”"
+   ],
+   "glossary": [
+    {
+     "term": "bluntly",
+     "meaning": "sem rodeios, diretamente"
+    },
+    {
+     "term": "steward",
+     "meaning": "mordomo, administrador"
+    },
+    {
+     "term": "riotous",
+     "meaning": "baderneiros"
+    },
+    {
+     "term": "upbraids",
+     "meaning": "repreende"
+    },
+    {
+     "term": "trifle",
+     "meaning": "ninharia, bobagem"
+    },
+    {
+     "term": "jester",
+     "meaning": "bobo da corte"
+    },
+    {
+     "term": "wit",
+     "meaning": "juízo, inteligência"
+    },
+    {
+     "term": "thankless",
+     "meaning": "ingrato"
+    }
+   ]
+  },
+  {
+   "title": "The Doors Are Shut",
+   "paragraphs": [
+    "Regan had received a letter from Goneril, warning her of their father's arrival. To avoid him, she and Cornwall left their own house and went to stay at Gloucester's castle. There Kent met Oswald, Goneril's messenger, and the sight of him made Kent furious.",
+    "“What do you know me for?” asked Oswald.",
+    "“A knave, a rascal, an eater of broken meats,” said Kent. “A base, proud, shallow, beggarly, filthy, worsted-stocking knave. Draw, you rogue!” And he beat him with the flat of his sword.",
+    "Cornwall and Regan came out to see what the noise was. Kent spoke to them with his usual bluntness, and Cornwall ordered him to be put in the stocks, a wooden frame that held a prisoner's feet, as if he were a common thief. “You will put the king's messenger in the stocks?” said Gloucester. “The king must take it ill.” But they did not care.",
+    "When Lear arrived the next morning, he found his servant sitting in the stocks. “Who put you here?” he cried.",
+    "“It is both he and she, your son and daughter.”",
+    "“No. They would not. They could not. They dare not do it. It is worse than murder to do such violent outrage upon respect.” Lear felt something rising in his chest. “O, how this mother swells up toward my heart! Down, climbing sorrow! Where is this daughter?”",
+    "He demanded to see Regan and Cornwall, but they sent word that they were sick and tired from travelling. “Fetch me a better answer!” he shouted. At last they came out, and Regan was cold and polite. “I am glad to see your Highness,” she said. “I pray you, sir, return to our sister and say you have wronged her.”",
+    "“Ask her forgiveness?” said Lear. He fell on his knees, as if to show how ridiculous it was. “‘Dear daughter, I confess that I am old. Age is unnecessary. On my knees I beg that you'll grant me clothes, bed and food.’”",
+    "“Good sir, no more,” said Regan. “These are unsightly tricks.”",
+    "A trumpet sounded, and Goneril arrived. To Lear's horror, Regan took her sister's hand. Then the two daughters began to bargain with their father like merchants. Goneril said fifty knights were too many. Regan said that if he came to her, he could bring only twenty-five.",
+    "“I gave you all,” said Lear to Regan.",
+    "“And in good time you gave it.”",
+    "Lear turned to Goneril. “Your fifty yet doubles five and twenty, and you are twice her love. I'll go with you.”",
+    "“Hear me, my lord,” said Goneril. “What need you five and twenty, ten, or five, in a house where twice so many have a command to tend you?”",
+    "“What need one?” said Regan.",
+    "Lear looked from one face to the other. “O, reason not the need!” he cried. “Our basest beggars are in the poorest thing superfluous. Allow not nature more than nature needs, and man's life is cheap as beast's. You heavens, give me patience, patience I need! You see me here, you gods, a poor old man, as full of grief as age, wretched in both. You unnatural hags, I will have such revenges on you both that all the world shall... I will do such things, what they are yet I know not, but they shall be the terrors of the earth! You think I'll weep. No, I'll not weep.” In the distance there was a sound of thunder. “This heart shall break into a hundred thousand flaws before I'll weep. O Fool, I shall go mad!”",
+    "He rushed out into the night, followed by the Fool and Kent. A storm was coming. “The night comes on,” said Gloucester anxiously, “and the bleak winds sorely ruffle. For many miles about there's scarce a bush.”",
+    "“O sir,” said Regan, “to wilful men the injuries that they themselves procure must be their schoolmasters. Shut up your doors.”",
+    "“Shut up your doors, my lord,” said Cornwall. “It is a wild night. Come out of the storm.”"
+   ],
+   "glossary": [
+    {
+     "term": "knave",
+     "meaning": "patife"
+    },
+    {
+     "term": "rascal",
+     "meaning": "malandro"
+    },
+    {
+     "term": "stocks",
+     "meaning": "tronco (instrumento de punição)"
+    },
+    {
+     "term": "outrage",
+     "meaning": "ultraje, afronta"
+    },
+    {
+     "term": "unsightly",
+     "meaning": "feios, desagradáveis"
+    },
+    {
+     "term": "superfluous",
+     "meaning": "supérfluo, que sobra"
+    },
+    {
+     "term": "hags",
+     "meaning": "bruxas, megeras"
+    },
+    {
+     "term": "wilful",
+     "meaning": "teimosos, obstinados"
+    }
+   ]
+  },
+  {
+   "title": "The Storm",
+   "paragraphs": [
+    "On the open heath, the storm was terrible. The rain fell in floods, the thunder crashed and lightning split the sky. Lear stood with his white hair flying in the wind, shouting at the elements.",
+    "“Blow, winds, and crack your cheeks! Rage! Blow! You cataracts and hurricanes, spout till you have drenched our steeples! You sulphurous and thought-executing fires, singe my white head! And you, all-shaking thunder, strike flat the thick rotundity of the world!”",
+    "The Fool shivered beside him. “Good nuncle, go in and ask your daughters' blessing. Here's a night pities neither wise men nor fools.”",
+    "“Rumble your bellyful! Spit, fire! Spout, rain!” cried Lear. “I tax not you, you elements, with unkindness. I never gave you kingdom, called you children. You owe me no obedience. Then let fall your horrible pleasure. Here I stand, your slave, a poor, infirm, weak and despised old man.” Then his voice dropped. “I am a man more sinned against than sinning.”",
+    "Kent found them and begged the king to shelter in a hovel nearby. Lear looked at the shivering Fool and, for the first time, he thought of someone else's suffering. “My wits begin to turn. Come on, my boy. How are you, my boy? Are you cold? I am cold myself.” At the door of the hovel he stopped and prayed. “Poor naked wretches, wherever you are, that bide the pelting of this pitiless storm, how shall your houseless heads and unfed sides defend you from seasons such as these? O, I have taken too little care of this! Take physic, pomp. Expose yourself to feel what wretches feel.”",
+    "The Fool ran into the hovel and came out screaming. “Come not in here, nuncle! Here's a spirit!”",
+    "Out of the darkness came a young man, almost naked, with his face covered in dirt and his hair full of straw. It was Edgar, in his disguise as Poor Tom, the mad beggar. “Away! The foul fiend follows me!” he cried. “Poor Tom's a-cold.”",
+    "Lear looked at him with wonder. “Did you give all to your daughters? And are you come to this?”",
+    "“He has no daughters, sir,” said Kent.",
+    "“Death, traitor! Nothing could have brought nature to such lowness but his unkind daughters.” Lear studied the shivering beggar. “Is man no more than this? Consider him well. You owe the worm no silk, the beast no hide, the sheep no wool. Ha! Here's three of us that are sophisticated. You are the thing itself. Unaccommodated man is no more but such a poor, bare, forked animal as you are. Off, off, you lendings! Come, unbutton here.” And he began to tear off his own clothes, until Kent and the Fool stopped him.",
+    "At that moment a light appeared. It was Gloucester, carrying a torch. He did not recognise his son in the beggar. He had disobeyed Regan and Cornwall to come and find the king. “My duty cannot suffer to obey in all your daughters' hard commands,” he said. “They ordered me to shut my doors and let this tyrannous night take hold upon you. Yet I have ventured to come and seek you out.”",
+    "He led them to a farmhouse nearby. There, in a strange mad court, Lear put his daughters on trial, with a stool to represent Goneril and the Fool and Poor Tom as judges. “Then let them anatomize Regan,” he said. “See what breeds about her heart. Is there any cause in nature that makes these hard hearts?”",
+    "At last he fell asleep, exhausted. Gloucester came back in great haste. “I have overheard a plot of death upon him. There is a litter ready. Lay him in it and drive towards Dover, my friend, where you shall meet both welcome and protection.” Kent and the Fool carried the sleeping king away. After that night, the Fool was never seen again."
+   ],
+   "glossary": [
+    {
+     "term": "heath",
+     "meaning": "charneca"
+    },
+    {
+     "term": "drenched",
+     "meaning": "encharcado"
+    },
+    {
+     "term": "singe",
+     "meaning": "chamuscar"
+    },
+    {
+     "term": "rumble",
+     "meaning": "ronque, retumbe"
+    },
+    {
+     "term": "bide",
+     "meaning": "aguentam, suportam"
+    },
+    {
+     "term": "pelting",
+     "meaning": "golpes (da chuva)"
+    },
+    {
+     "term": "unaccommodated",
+     "meaning": "desprovido, sem conforto"
+    },
+    {
+     "term": "litter",
+     "meaning": "liteira, maca"
+    }
+   ]
+  },
+  {
+   "title": "The Price of Loyalty",
+   "paragraphs": [
+    "Earlier that evening, Gloucester had made a fatal mistake. He had trusted Edmund. “I have received a letter,” he told him in secret. “A French army has already landed in England to help the king. These injuries the king now bears will be revenged home. We must incline to the king. If the Duke asks for me, say I am ill and gone to bed. If I die for it, as no less is threatened me, the king my old master must be relieved.”",
+    "As soon as his father had gone, Edmund smiled. “This courtesy forbidden you, the Duke shall know at once, and of that letter too. This seems a fair deserving, and must draw me that which my father loses: no less than all. The younger rises when the old do fall.”",
+    "He went straight to Cornwall and showed him the letter. Cornwall was delighted. “True or false, it has made you Earl of Gloucester. Seek out where your father is, so that he may be ready for our arrest.” Then Cornwall sent Goneril back to her husband with news of the French army, and he sent Edmund with her. “The revenges we are bound to take upon your traitorous father are not fit for your beholding,” he said.",
+    "When Gloucester returned, servants seized him and tied him to a chair. Regan pulled the white hairs from his beard. “So white, and such a traitor!” she said.",
+    "“Wherefore to Dover?” demanded Cornwall. “Why did you send the king to Dover?”",
+    "“Because I would not see your cruel nails pluck out his poor old eyes,” said Gloucester bravely, “nor your fierce sister in his anointed flesh stick boarish fangs. But I shall see the winged vengeance overtake such children.”",
+    "“See it shall you never,” said Cornwall. “Fellows, hold the chair. Upon these eyes of yours I'll set my foot.” And he tore out one of the old man's eyes.",
+    "“One side will mock another,” said Regan. “The other too.”",
+    "Then one of Cornwall's own servants could bear it no longer. “Hold your hand, my lord! I have served you ever since I was a child, but better service have I never done you than now to bid you hold.” He drew his sword and wounded Cornwall. Regan seized a sword from another servant and stabbed him from behind, and he fell dead. But Cornwall, bleeding, turned back to his victim. “Lest it see more, prevent it. Out, vile jelly! Where is your lustre now?”",
+    "Gloucester, in total darkness, cried out, “All dark and comfortless! Where's my son Edmund? Edmund, kindle all the sparks of nature to revenge this horrid act!”",
+    "“Out, treacherous villain!” said Regan. “You call on him that hates you. It was he that told us of your treasons.”",
+    "“O my follies!” cried Gloucester. “Then Edgar was abused. Kind gods, forgive me that, and prosper him!”",
+    "“Go, thrust him out at gates,” said Regan, “and let him smell his way to Dover.” As the servants pushed the blind old man outside, Cornwall held his side. “I have received a hurt. Give me your arm, Regan.” His wound was more serious than he knew.",
+    "The other servants, left alone, looked at each other in horror. “If she live long and in the end meet the old course of death, women will all turn monsters,” said one. Then they went to fetch some flax and whites of eggs to put on Gloucester's bleeding face, and to find Poor Tom to lead him, for he was mad and would go anywhere."
+   ],
+   "glossary": [
+    {
+     "term": "incline to",
+     "meaning": "ficar do lado de"
+    },
+    {
+     "term": "beholding",
+     "meaning": "contemplação, visão"
+    },
+    {
+     "term": "pluck out",
+     "meaning": "arrancar"
+    },
+    {
+     "term": "anointed",
+     "meaning": "ungida, consagrada"
+    },
+    {
+     "term": "fangs",
+     "meaning": "presas"
+    },
+    {
+     "term": "lest",
+     "meaning": "para que não"
+    },
+    {
+     "term": "kindle",
+     "meaning": "acender"
+    },
+    {
+     "term": "follies",
+     "meaning": "loucuras, tolices"
+    }
+   ]
+  },
+  {
+   "title": "The Cliffs of Dover",
+   "paragraphs": [
+    "Edgar was walking on the heath, telling himself that the worst of his misfortunes was over. “To be worst, the lowest and most dejected thing of fortune, stands still in hope,” he thought. Then he saw an old man coming towards him, led by a servant. The old man's face was covered in blood. It was his father.",
+    "“O gods!” whispered Edgar. “Who is it can say ‘I am at the worst’? I am worse than ever I was. And worse I may be yet. The worst is not so long as we can say ‘This is the worst.’”",
+    "Gloucester sent the old servant away. “I have no way, and therefore want no eyes. I stumbled when I saw.” Then he spoke of his son. “O dear son Edgar, might I but live to see you in my touch, I'd say I had eyes again!” Edgar's heart broke, but he did not reveal himself. Then Gloucester said a terrible thing. “As flies to wanton boys are we to the gods. They kill us for their sport.”",
+    "He turned to the beggar. “Is that the naked fellow? Do you know Dover? There is a cliff whose high and bending head looks fearfully in the confined deep. Bring me but to the very brim of it, and I'll repair the misery you bear with something rich about me. From that place I shall no leading need.”",
+    "“Give me your arm,” said Edgar. “Poor Tom shall lead you.”",
+    "They walked for days. When they came near Dover, Edgar led his father to a flat field and pretended that they were climbing. “Hark, do you hear the sea?” he said. “Come on, sir, here's the place. Stand still. How fearful and dizzy it is to cast one's eyes so low! The crows and choughs that wing the midway air show scarce so big as beetles. The fishermen that walk upon the beach appear like mice.”",
+    "“Set me where you stand,” said Gloucester.",
+    "“Give me your hand. You are now within a foot of the extreme edge.” Gloucester gave him a purse with a jewel in it and told him to go away. Then he knelt and prayed. “O you mighty gods! This world I do renounce, and in your sights shake patiently my great affliction off. If Edgar live, O bless him!” He fell forward onto the grass, believing that he was falling from the cliff.",
+    "Edgar waited a moment and then ran to him, changing his voice to sound like a stranger at the foot of the cliff. “Ho, you sir! Friend! Hear you, sir! Speak! What are you, sir?”",
+    "“Away, and let me die.”",
+    "“You have fallen from that great height, and yet you live. Your life's a miracle. Look up. On the top of the cliff I saw a thing standing with you. Its eyes were like two full moons. It had a thousand noses and horns. It was some fiend. Think that the clearest gods have preserved you.”",
+    "Gloucester believed him. “I do remember now. Henceforth I'll bear affliction till it cry out itself ‘Enough, enough,’ and die.”",
+    "“Bear free and patient thoughts,” said Edgar.",
+    "At that moment, a strange figure came across the fields, singing. It was Lear, crowned with wild flowers and weeds. He had escaped from those who were caring for him. He was completely mad."
+   ],
+   "glossary": [
+    {
+     "term": "dejected",
+     "meaning": "abatido"
+    },
+    {
+     "term": "stumbled",
+     "meaning": "tropecei"
+    },
+    {
+     "term": "wanton",
+     "meaning": "travessos, cruéis"
+    },
+    {
+     "term": "brim",
+     "meaning": "borda, beira"
+    },
+    {
+     "term": "hark",
+     "meaning": "escute"
+    },
+    {
+     "term": "dizzy",
+     "meaning": "vertiginoso, tonto"
+    },
+    {
+     "term": "renounce",
+     "meaning": "renuncio"
+    },
+    {
+     "term": "henceforth",
+     "meaning": "de agora em diante"
+    }
+   ]
+  },
+  {
+   "title": "Lear and Gloucester",
+   "paragraphs": [
+    "“No, they cannot touch me for coining. I am the king himself,” said Lear, dancing among the flowers. Gloucester heard the voice and recognised it.",
+    "“The trick of that voice I do well remember. Is it not the king?”",
+    "“Ay, every inch a king! When I do stare, see how the subject quakes.” Lear looked at the blind man. “They flattered me like a dog and told me I had white hairs in my beard before the black ones were there. To say ay and no to everything I said! When the rain came to wet me once, and the wind to make me chatter, when the thunder would not peace at my bidding, there I found them. They told me I was everything. It is a lie. I am not ague-proof.”",
+    "“O, let me kiss that hand!” said Gloucester.",
+    "“Let me wipe it first. It smells of mortality.”",
+    "“Do you know me?”",
+    "“I remember your eyes well enough. Do you squint at me? No, do your worst, blind Cupid, I'll not love.” Then, for a moment, Lear saw clearly. “I know you well enough. Your name is Gloucester. You must be patient. We came crying hither. When we are born, we cry that we are come to this great stage of fools.”",
+    "Edgar watched them, his heart torn. “I would not take this from report,” he said to himself. “It is, and my heart breaks at it.”",
+    "Then Cordelia's men came to find the king, and Lear ran away from them like a child playing a game. They followed him and brought him gently to her camp.",
+    "Cordelia had come back from France with an army to save her father. Kent had sent her letters telling her of her sisters' cruelty, and she had wept as she read them. Now she stood by the bed where her father lay asleep, wearing fresh clothes, while soft music played. The doctor said that sleep might cure his madness.",
+    "She kissed him. “Was this a face to be opposed against the warring winds?” she said. “My enemy's dog, though he had bit me, should have stood that night against my fire. And were you forced, poor father, to sleep in a hovel with swine and rogues in short and musty straw? Alas, alas!”",
+    "Lear woke slowly. “You do me wrong to take me out of the grave. You are a soul in bliss, but I am bound upon a wheel of fire, so that my own tears do scald like molten lead.”",
+    "“Sir, do you know me?”",
+    "“You are a spirit, I know. When did you die?”",
+    "“Still, still, far wide,” said the doctor softly.",
+    "Lear tried to understand. “Where have I been? Where am I? Fair daylight? I am mightily abused. Pray, do not mock me. I am a very foolish fond old man, fourscore and upward, not an hour more nor less, and, to deal plainly, I fear I am not in my perfect mind. I think I should know you, and know this man. Do not laugh at me, for, as I am a man, I think this lady to be my child Cordelia.”",
+    "“And so I am, I am,” wept Cordelia.",
+    "“Are your tears wet? Yes, indeed. Pray, weep not. If you have poison for me, I will drink it. I know you do not love me, for your sisters have, as I remember, done me wrong. You have some cause; they have not.”",
+    "“No cause, no cause,” said Cordelia.",
+    "“You must bear with me,” said Lear, holding her hand. “Pray you now, forget and forgive. I am old and foolish.”"
+   ],
+   "glossary": [
+    {
+     "term": "coining",
+     "meaning": "cunhar moeda (falsa)"
+    },
+    {
+     "term": "quakes",
+     "meaning": "treme"
+    },
+    {
+     "term": "ague-proof",
+     "meaning": "imune à febre"
+    },
+    {
+     "term": "squint",
+     "meaning": "olhar de soslaio, apertar os olhos"
+    },
+    {
+     "term": "swine",
+     "meaning": "porcos"
+    },
+    {
+     "term": "musty",
+     "meaning": "mofada"
+    },
+    {
+     "term": "scald",
+     "meaning": "queimam, escaldam"
+    },
+    {
+     "term": "fourscore",
+     "meaning": "oitenta anos"
+    }
+   ]
+  },
+  {
+   "title": "Sisters and Rivals",
+   "paragraphs": [
+    "While these things were happening, the alliance of Lear's enemies was beginning to fall apart. When Goneril returned home with Edmund, her husband Albany did not come out to meet her. Oswald told her that the Duke was strangely changed. “I told him of the army that was landed. He smiled at it. I told him you were coming. His answer was, ‘The worse.’”",
+    "Goneril turned to Edmund and gave him a ring. Before he left, she kissed him. “Bend your head. If this kiss could speak, it would lift your spirits up into the air. Understand me, and fare you well.”",
+    "“Yours in the ranks of death,” said Edmund, and he rode away.",
+    "Then Albany came in, his face full of anger. “O Goneril! You are not worth the dust which the rude wind blows in your face. Tigers, not daughters, what have you done? A father, a gracious old man, whom even a wild bear would have respected, you have driven mad. If the heavens do not send down their spirits quickly to tame these vile crimes, men will soon prey on each other, like monsters of the deep.”",
+    "“Milk-livered man!” said Goneril with contempt. “You carry a cheek for blows and a head for wrongs.”",
+    "A messenger arrived. “O, my good lord, the Duke of Cornwall's dead, slain by his servant, going to put out the other eye of Gloucester.”",
+    "“Gloucester's eyes!” cried Albany, horrified. When he heard the whole story, and learned that Edmund had betrayed his own father, he swore to himself, “Gloucester, I live to thank you for the love you showed the king, and to revenge your eyes.”",
+    "Goneril, meanwhile, had other worries. Regan was now a widow. She too was in love with Edmund, and she was free to marry him. “One way I like this well,” Goneril thought. “But being a widow, and my Gloucester with her, may pluck down all the building in my fancy.”",
+    "At Regan's camp, Oswald arrived with a letter from Goneril to Edmund. Regan was suspicious. “Why should she write to Edmund? I know your lady does not love her husband. At her late being here, she gave strange looks and most speaking glances to noble Edmund. My lord is dead. Edmund and I have talked, and he is more convenient for my hand than for your lady's. If you find him, give him this. And if you happen to hear of that blind traitor, preferment falls on him that cuts him off.”",
+    "Edmund, for his part, laughed at both sisters. “To both these sisters have I sworn my love, each jealous of the other, as the stung are of the adder. Which of them shall I take? Both? One? Or neither? Neither can be enjoyed if both remain alive.” He planned to use Albany's power in the battle, and then let Goneril get rid of her husband. And as for the mercy that Albany intended for Lear and Cordelia, “the battle done, and they within our power, shall they never see his pardon. For my state stands on me to defend, not to debate.”",
+    "Not long afterwards, Oswald, searching for the reward, found Gloucester and Edgar near Dover. “A proclaimed prize! Most happy!” he cried, and drew his sword. But Edgar, speaking in the rough accent of a peasant, fought him with a stick and killed him. Dying, Oswald begged him to deliver his letters to Edmund. Edgar opened them and read Goneril's letter. “Let our reciprocal vows be remembered,” it said. “You have many opportunities to cut him off. If he return the conqueror, then am I the prisoner, and his bed my jail. Your wife, so I would say, Goneril.” Edgar hid the letter carefully. He knew that one day it would be useful."
+   ],
+   "glossary": [
+    {
+     "term": "spirits",
+     "meaning": "ânimo, espírito"
+    },
+    {
+     "term": "fare you well",
+     "meaning": "adeus, passe bem"
+    },
+    {
+     "term": "tame",
+     "meaning": "domar, conter"
+    },
+    {
+     "term": "milk-livered",
+     "meaning": "covarde"
+    },
+    {
+     "term": "slain",
+     "meaning": "morto, assassinado"
+    },
+    {
+     "term": "preferment",
+     "meaning": "promoção, recompensa"
+    },
+    {
+     "term": "adder",
+     "meaning": "víbora"
+    },
+    {
+     "term": "reciprocal",
+     "meaning": "recíprocos"
+    }
+   ]
+  },
+  {
+   "title": "The Battle",
+   "paragraphs": [
+    "On the morning of the battle, Edgar left his father under a tree. “Here, father, take the shadow of this tree for your good host. Pray that the right may thrive. If ever I return to you again, I'll bring you comfort.”",
+    "He did not go to the battle first. He went to Albany's tent in disguise and gave him Goneril's letter. “Before you fight the battle, open this letter,” he said. “If you have victory, let the trumpet sound for him that brought it. Wretched though I seem, I can produce a champion that will prove what is there written.” Then he left.",
+    "The battle was short. Cordelia's French army was defeated. Edgar ran back to his father and found him sitting in despair. “Away, old man! Give me your hand, away! King Lear has lost, he and his daughter taken.”",
+    "“No further, sir,” said Gloucester. “A man may rot even here.”",
+    "“What, in ill thoughts again? Men must endure their going hence, even as their coming hither. Ripeness is all. Come on.”",
+    "Lear and Cordelia were brought in as prisoners before Edmund. Cordelia was calm. “We are not the first who, with best meaning, have incurred the worst,” she said. “For you, oppressed king, am I cast down. Myself could else outfrown false fortune's frown. Shall we not see these daughters and these sisters?”",
+    "“No, no, no, no!” said Lear. He was happy, because he had his child again. “Come, let's away to prison. We two alone will sing like birds in the cage. When you ask me blessing, I'll kneel down and ask of you forgiveness. So we'll live, and pray, and sing, and tell old tales, and laugh at gilded butterflies, and hear poor rogues talk of court news; and we'll talk with them too, who loses and who wins, who's in, who's out, and take upon us the mystery of things, as if we were God's spies.”",
+    "“Take them away,” said Edmund.",
+    "“Upon such sacrifices, my Cordelia, the gods themselves throw incense,” said Lear. “Have I caught you? He that parts us shall bring a brand from heaven and fire us hence like foxes. Wipe your eyes. We'll see them starve first. Come.”",
+    "When they had gone, Edmund called a captain and gave him a secret note. “Take this note. Go follow them to prison. One step I have advanced you. If you do as this instructs you, you make your way to noble fortunes. Know this: men are as the time is. To be tender-minded does not become a sword. Will you do it?”",
+    "“I'll do it, my lord,” said the captain. “I cannot draw a cart, nor eat dried oats. If it be man's work, I'll do it.” And he went out.",
+    "Then Albany came in with Goneril and Regan. He praised Edmund's courage in the battle, but then he said coldly, “Sir, I demand the captives who were the opposites of this day's strife. We shall find them.”",
+    "“Sir, I thought it fit to send the old and miserable king to some retention,” said Edmund smoothly. “With him I sent the queen. Tomorrow, or later, they shall appear.”",
+    "“Sir, by your patience, I hold you but a subject of this war, not as a brother.”",
+    "“That's as we list to grace him,” said Regan. “He led our powers. He may well call himself your brother.” She was feeling ill, but she declared before them all that Edmund would be her husband and lord.",
+    "Albany then spoke with terrible calm. “Edmund, I arrest you on capital treason, and with you, this gilded serpent,” and he pointed at his wife. “For your claim, fair sister, I bar it in the interest of my wife. It is she who is sub-contracted to this lord. If you will marry, make your loves to me. My lady is bespoke.” He threw down his glove. “Let the trumpet sound. If none appear to prove upon your person your heinous, manifest and many treasons, there is my pledge. I'll prove it on your heart.”",
+    "“Sick, O sick!” said Regan.",
+    "“If not, I'll never trust medicine,” murmured Goneril to herself."
+   ],
+   "glossary": [
+    {
+     "term": "thrive",
+     "meaning": "prosperar, vencer"
+    },
+    {
+     "term": "rot",
+     "meaning": "apodrecer"
+    },
+    {
+     "term": "ripeness",
+     "meaning": "maturidade, estar pronto"
+    },
+    {
+     "term": "incurred",
+     "meaning": "sofremos, incorremos em"
+    },
+    {
+     "term": "gilded",
+     "meaning": "dourados"
+    },
+    {
+     "term": "strife",
+     "meaning": "conflito, luta"
+    },
+    {
+     "term": "bespoke",
+     "meaning": "comprometida"
+    },
+    {
+     "term": "heinous",
+     "meaning": "hediondas"
+    }
+   ]
+  },
+  {
+   "title": "The Duel",
+   "paragraphs": [
+    "The herald read the proclamation. “If any man of quality or degree within the lists of the army will maintain upon Edmund, supposed Earl of Gloucester, that he is a manifold traitor, let him appear by the third sound of the trumpet.” The trumpet sounded once. Twice. Three times. Then another trumpet answered, and a knight in armour rode into the field, his face hidden by his helmet.",
+    "“What are you? Your name? Your quality?” asked the herald.",
+    "“Know that my name is lost, eaten away by treason. Yet I am as noble as the enemy I have come to fight.” The knight pointed his sword at Edmund. “Draw your sword. In spite of your strength, your youth and your high place, in spite of your victory and your brand-new fortune, your valour and your courage, you are a traitor: false to your gods, your brother and your father, and a plotter against this noble prince. From the top of your head to the dust below your feet, you are a traitor, as spotted as a toad.”",
+    "Edmund could have refused to fight a man without a name, but he was proud. “It would be wise to ask your name,” he said, “and by the rules of knighthood I could refuse to fight you. But you look noble and warlike, and I disdain to hide behind the rules.” They fought, and Edmund fell, badly wounded.",
+    "“This is a trick, Gloucester!” cried Goneril. “By the law of arms you did not have to fight an unknown enemy. You are not vanquished, but cheated and beguiled.”",
+    "“Shut your mouth, dame,” said Albany, “or with this paper shall I stop it.” He held up her letter to Edmund. “Read your own evil. No tearing, lady. I perceive you know it.”",
+    "“Say if I do,” said Goneril. “The laws are mine, not yours. Who can arraign me for it?” And she rushed out.",
+    "“What you have charged me with, that have I done,” said Edmund on the ground, “and more, much more. The time will bring it out. It is past, and so am I. But what are you that have this fortune on me? If you are noble, I do forgive you.”",
+    "The knight took off his helmet. “Let us exchange charity. I am no less in blood than you are, Edmund. If more, the more you have wronged me. My name is Edgar, and your father's son. The gods are just, and of our pleasant vices make instruments to plague us. The dark and vicious place where you were conceived cost him his eyes.”",
+    "“You have spoken right. It is true,” said Edmund. “The wheel is come full circle. I am here.”",
+    "Albany embraced Edgar and asked him where he had been all this time. Edgar told the whole story: how he had lived as a mad beggar, how he had found his blind father and led him, saved him from despair, and never told him who he was. “I never told him who I was until half an hour ago, when I put on my armour. I was not sure that I would win, so I asked his blessing and told him our whole journey from first to last. But his old heart was too weak to bear the struggle between two extremes of passion, joy and grief. It burst smilingly.” Gloucester was dead.",
+    "Suddenly a gentleman ran in with a bloody knife. “Help, help! O, help! It came even from the heart of... O, she's dead!”",
+    "“Who dead? Speak, man.”",
+    "“Your lady, sir, your lady. And her sister by her is poisoned. She has confessed it.”",
+    "“I was contracted to them both,” said Edmund. “All three now marry in an instant.” The bodies of Goneril and Regan were carried in. Albany looked at them without pity. “This judgement of the heavens, that makes us tremble, touches us not with pity.”",
+    "At that moment Kent arrived. “I am come to bid my king and master aye good night. Is he not here?”",
+    "“Great thing of us forgot!” cried Albany. “Speak, Edmund, where's the king? And where's Cordelia?”",
+    "Edmund was dying, and now, at the end, he wished to do one good thing. “I pant for life. Some good I mean to do, despite of my own nature. Quickly send, be brief in it, to the castle, for my writ is on the life of Lear and on Cordelia. Nay, send in time!”",
+    "“Run, run, O run!” cried Albany."
+   ],
+   "glossary": [
+    {
+     "term": "herald",
+     "meaning": "arauto"
+    },
+    {
+     "term": "manifold",
+     "meaning": "múltiplo, de muitas formas"
+    },
+    {
+     "term": "valour",
+     "meaning": "bravura"
+    },
+    {
+     "term": "disdain",
+     "meaning": "desdenho, desprezo"
+    },
+    {
+     "term": "vanquished",
+     "meaning": "vencido, derrotado"
+    },
+    {
+     "term": "beguiled",
+     "meaning": "enganado"
+    },
+    {
+     "term": "arraign",
+     "meaning": "acusar, levar a julgamento"
+    },
+    {
+     "term": "pant",
+     "meaning": "ofego"
+    }
+   ]
+  },
+  {
+   "title": "Never, Never, Never",
+   "paragraphs": [
+    "They were too late.",
+    "A terrible cry was heard, and Lear came in, carrying Cordelia dead in his arms. His face was wild with grief. “Howl, howl, howl, howl! O, you are men of stones! Had I your tongues and eyes, I'd use them so that heaven's vault should crack. She's gone for ever! I know when one is dead and when one lives. She's dead as earth.” He laid her gently on the ground. “Lend me a looking-glass. If her breath will mist or stain the stone, why, then she lives.”",
+    "Kent knelt down. “Is this the promised end?”",
+    "“This feather stirs,” said Lear, holding a feather to her lips. “She lives! If it be so, it is a chance which does redeem all sorrows that ever I have felt.”",
+    "“O my good master!” said Kent.",
+    "“Prithee, away.”",
+    "“It is noble Kent, your friend,” said Edgar.",
+    "“A plague upon you, murderers, traitors all! I might have saved her. Now she's gone for ever!” Lear bent over his daughter. “Cordelia, Cordelia, stay a little. Ha! What is it you say? Her voice was ever soft, gentle and low, an excellent thing in woman. I killed the slave that was a-hanging you.”",
+    "“It is true, my lords,” said the captain who stood near. “He did.”",
+    "“Did I not, fellow? I have seen the day, with my good biting sword, I would have made them skip. I am old now, and these same crosses spoil me.” He looked up at Kent with confused eyes. “Who are you? Mine eyes are not of the best. I'll tell you straight.”",
+    "“If fortune brag of two she loved and hated, one of them we behold,” said Kent. “Are you not Lear? I am the same, your servant Kent. Where is your servant Caius? I am the very man that from your first of difference and decay have followed your sad steps.”",
+    "“You are welcome hither,” said Lear, but he did not truly understand. Kent told him that his elder daughters were dead, killed by their own hands. “Ay, so I think,” said Lear, without interest.",
+    "“He knows not what he says,” said Albany. “And vain is it that we present us to him.” A messenger came to tell them that Edmund was dead. “That's but a trifle here,” said Albany. Then he declared that, while the old king lived, the power of the kingdom would return to him, and that Edgar and Kent would have back their rights and more.",
+    "But Lear was not listening. He was looking only at Cordelia. “And my poor fool is hanged! No, no, no life! Why should a dog, a horse, a rat have life, and you no breath at all? You'll come no more. Never, never, never, never, never.” He struggled for breath. “Pray you, undo this button. Thank you, sir. Do you see this? Look on her. Look, her lips. Look there, look there!” And with those words, believing perhaps that she was breathing at last, the old king died.",
+    "“He faints!” cried Edgar. “My lord, my lord!”",
+    "“Break, heart, I prithee, break!” said Kent.",
+    "“Look up, my lord.”",
+    "“Vex not his ghost,” said Kent gently. “O, let him pass! He hates him that would upon the rack of this tough world stretch him out longer.” Then he added, “The wonder is he has endured so long. He but usurped his life.”",
+    "Albany turned to his two friends. “Friends of my soul, you twain rule in this realm, and the gored state sustain.”",
+    "“I have a journey, sir, shortly to go,” Kent answered. “My master calls me. I must not say no.”",
+    "Edgar looked at the bodies of the old king and his loving daughter, and he spoke the last words. “The weight of this sad time we must obey, speak what we feel, not what we ought to say. The oldest have borne most. We that are young shall never see so much, nor live so long.”"
+   ],
+   "glossary": [
+    {
+     "term": "vault",
+     "meaning": "abóbada"
+    },
+    {
+     "term": "looking-glass",
+     "meaning": "espelho"
+    },
+    {
+     "term": "redeem",
+     "meaning": "redimir, compensar"
+    },
+    {
+     "term": "prithee",
+     "meaning": "por favor, eu te peço"
+    },
+    {
+     "term": "brag",
+     "meaning": "se gabar"
+    },
+    {
+     "term": "vex",
+     "meaning": "atormente, perturbe"
+    },
+    {
+     "term": "usurped",
+     "meaning": "usurpou"
+    },
+    {
+     "term": "twain",
+     "meaning": "dois"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,815 @@
+{
+ "id": "valley-of-fear",
+ "title": "The Valley of Fear",
+ "author": "Arthur Conan Doyle",
+ "year": 1915,
+ "module": 5,
+ "level": "C1",
+ "summary": "Uma mensagem cifrada enviada por um informante do professor Moriarty avisa Sherlock Holmes de que um certo Douglas, de Birlstone, corre perigo, e logo chega a notícia de um crime brutal numa velha mansão cercada por um fosso. Enquanto Holmes e Watson examinam pistas estranhas, um haltere desaparecido e uma marca misteriosa no braço do morto, o caso os leva a um passado sombrio num vale de minas de carvão nos Estados Unidos, dominado por uma sociedade secreta implacável.",
+ "chapters": [
+  {
+   "title": "The Message in Cipher",
+   "paragraphs": [
+    "“I am inclined to think—” I began.",
+    "“I should do so,” Sherlock Holmes remarked impatiently, without looking up from the scrap of paper in his hand. I admit that I was a little annoyed by the interruption, but I said nothing. I had learned long ago that my friend, when his mind was hard at work on a problem, had very little patience for the slower thoughts of other people.",
+    "It was a grey morning at the end of the eighties, and we were sitting over a late breakfast in our rooms in Baker Street. The letter had arrived by the first post. It contained nothing but a long line of numbers and a few words, written in an awkward hand: “534 C2 13 127 36 31 4 17 21 41 Douglas 109 293 5 37 Birlstone 26 Birlstone 9 127 171.”",
+    "“It is from Porlock,” Holmes said at last. “That is not his real name, of course. He is only a small link in a very long chain, Watson, but at the other end of that chain sits a man who is more dangerous than any other in London.”",
+    "“You mean Professor Moriarty?”",
+    "“Exactly. The greatest schemer of all time, the organiser of every devilry, the brain that controls the underworld. And yet to the world he is a respectable gentleman, a famous mathematician, a man without a stain on his name. Porlock is one of his agents, but he has a conscience of sorts, and now and then a ten-pound note sent to him by post has persuaded him to give me a hint. I believe this message is one of them.”",
+    "I looked over his shoulder at the meaningless figures. “But how can you possibly read it?”",
+    "“It is clearly a book cipher. The numbers refer to words on a certain page of a certain book. ‘534’ must be the page, and ‘C2’ means the second column. So we are looking for a large book, printed in columns, which Porlock could expect me to own. It cannot be the Bible, because there are too many editions of it, and the pages would never agree. It must be something standard and common, something that every man has on his shelf.”",
+    "“An almanac!” I cried.",
+    "“Excellent, Watson! Whitaker's Almanac. Let us try this year's edition.” He took the heavy volume from the shelf and turned the pages quickly. Then his face fell. “Nonsense. The words are about the trade of British India. Ah, but of course! It is the seventh of January today. Porlock probably used last year's almanac, and he wrote his message before the new one came out.”",
+    "He found the old copy and began to count, while I wrote down the words he called out. Slowly, a sentence appeared on the paper: “There is danger—may—come—very soon—one—Douglas—rich—country—now—at—Birlstone—House—Birlstone—confidence—is—pressing.”",
+    "Holmes leaned back with a look of satisfaction. “There we have it. Some devilry is planned against a rich man called Douglas, who lives in the country at Birlstone House. Porlock was in a hurry, and he was afraid. A second note came with the first, you remember, saying that he dared not send the key because he believed he was suspected.”",
+    "At that moment the bell rang, and our landlady showed in Inspector MacDonald of Scotland Yard. He was a tall, bony Scotsman, still young, with a hard jaw and intelligent eyes. He had consulted Holmes several times before, and he respected my friend's abilities, although he did not always understand his methods.",
+    "“You are early, Mr. Mac,” said Holmes. “I fear this means some trouble.”",
+    "“Trouble enough, Mr. Holmes. I came straight to you, because I know you like to be in at the beginning of a case. But tell me, what is that paper you have there?” He looked at the words I had written, and his face turned pale. “Douglas! Birlstone! Good heavens, man, where did you get these names?”",
+    "“From a cipher I have just solved. Why are you so surprised?”",
+    "“Because Mr. Douglas of Birlstone Manor House was horribly murdered last night!”",
+    "For a moment none of us spoke. Holmes was the first to recover. He was not shocked, I think, but deeply interested, like a scientist who sees a chemical reaction happen exactly as he expected.",
+    "“Remarkable,” he said quietly. “So the warning came too late. You do not know Professor Moriarty, Mr. Mac?”",
+    "“I have heard you talk of him, and I have met him once. He seemed a very fine, learned gentleman to me. When he spoke of the eclipse of the sun, he put his hand on my shoulder like a father.”",
+    "Holmes laughed. “Of course he did. And did you notice the picture on his wall? A young woman with her head on her hands, by the French painter Greuze. A painting like that is worth some forty thousand pounds, Mr. Mac, and the professor's salary is seven hundred a year. Think of that. But we must not waste time. You have come to take us to Birlstone, I imagine?”",
+    "“If you will come, Mr. Holmes. There is a train at a quarter past eleven.”",
+    "“Then Watson and I shall be on it. I promise you one thing: behind this crime, however simple it may look, we shall find the shadow of the professor. Porlock was not frightened for nothing.”"
+   ],
+   "glossary": [
+    {
+     "term": "inclined",
+     "meaning": "propenso, inclinado"
+    },
+    {
+     "term": "schemer",
+     "meaning": "maquinador, conspirador"
+    },
+    {
+     "term": "devilry",
+     "meaning": "maldade, artimanha diabólica"
+    },
+    {
+     "term": "almanac",
+     "meaning": "almanaque, anuário"
+    },
+    {
+     "term": "underworld",
+     "meaning": "submundo do crime"
+    },
+    {
+     "term": "remarkable",
+     "meaning": "extraordinário, notável"
+    },
+    {
+     "term": "salary",
+     "meaning": "salário, ordenado"
+    }
+   ]
+  },
+  {
+   "title": "Murder at Birlstone",
+   "paragraphs": [
+    "On the train, MacDonald told us what he knew. The message had come from Mr. White Mason, the chief detective of Sussex, who had asked for help from London very early that morning. The facts were few but terrible.",
+    "Birlstone is a small, ancient village on the northern border of Sussex. A little outside it stands the Manor House, a great old building partly from the time of the Crusades, with a modern wing added later. Around the house there is a broad moat of still, dark water, about forty feet wide, and the only way across it is a drawbridge. Every evening the bridge is raised, and in the morning it is lowered again. While it is up, the house is like an island, cut off from the world.",
+    "The owner of this strange place was John Douglas, a man of about fifty. He had made his fortune in the gold fields of California, people said, and he had lived at Birlstone for five years with his second wife, a tall, dark, beautiful woman some twenty years younger than he was. Douglas was a cheerful, generous man, popular in the village, a good rider and a brave one. Once, when a cottage was on fire, he had gone back into the flames to save some furniture after the firemen had given up. Yet there was something reserved about him, as if he carried a secret.",
+    "His closest friend was Cecil Barker, an Englishman who had known him in America. Barker was a frequent visitor to the Manor House, and he happened to be staying there on the night of the crime.",
+    "At about half past eleven, the household was going to bed. Barker, who was in his room, heard a loud noise like a heavy blow on a door. He ran downstairs and found the door of the study open. There, in the light of a candle, lay John Douglas on his back in the middle of the room. A strange weapon lay across his body: a shotgun with the barrels cut off a foot in front of the trigger. Both barrels had been fired at close range, and the dead man's head had been almost destroyed.",
+    "Barker rang the bell to call the servants, and the butler, Ames, came running. Barker stopped Mrs. Douglas at the bottom of the stairs and persuaded her not to enter the room. Then he and Ames looked at the window. It was open, and on the wooden sill there was a bloodstain shaped like the sole of a boot. The drawbridge had been raised at about six, and the murderer, it seemed, had escaped by wading across the moat.",
+    "“It looks clear enough,” I said when MacDonald had finished. “The assassin hid in the house before the bridge went up, waited for his victim, killed him, and swam away.”",
+    "“Clear enough,” said Holmes, “except for a few small things. Go on, Mr. Mac.”",
+    "“Well, there is the card. Beside the body they found a card with the letters V.V. and the number 341 written on it in ink. Nobody knows what it means. And there is a mark on the dead man's forearm, a brand burned into the skin: a circle inside a triangle. It is an old mark, years old. Mr. Ames, the butler, says he often saw it when his master rolled up his sleeves.”",
+    "Holmes's eyes were shining. “And what else?”",
+    "“His wedding ring is gone. He always wore it on the little finger of his left hand, and above it he wore a ring with a gold nugget. The nugget ring is still there, but the wedding ring has been taken.”",
+    "“Do you mean,” said Holmes slowly, “that the murderer took off the nugget ring, removed the wedding ring underneath, and then put the nugget ring back on again?”",
+    "“That is how it must have been.”",
+    "My friend said nothing more for the rest of the journey. He sat with his eyes half closed, but I knew from the stillness of his long body that his mind was working at full speed.",
+    "At Birlstone station we were met by White Mason, a stout, cheerful man in a tweed suit, with a red face and very small, bright eyes. He looked more like a farmer than a detective, but he was sharp and sensible, and he was clearly delighted to see us.",
+    "“A real snorter of a case, Mr. Holmes!” he said, rubbing his hands. “I don't mind telling you that it beats anything I ever met. We will walk you up to the house. Our local man, Sergeant Wilson, has kept everything as it was.”",
+    "We came up the long avenue of old trees, and suddenly the Manor House rose before us, dark and grey in the winter light, with its chimneys and its narrow windows. The water of the moat lay around it like a band of black glass, and the old drawbridge, with its rusty chains, crossed it in front of the door. It was the kind of place, I thought, where a man might expect to find a ghost, and where a man with enemies might feel safe. Poor Douglas had been wrong.",
+    "“Before we go in,” said Holmes, stopping on the bridge and looking down at the water, “tell me how deep the moat is.”",
+    "“About two feet at the edges, and three in the middle.”",
+    "“So no one could drown in it, and a man could easily walk across.”",
+    "“Easily. And there was no sign of anyone on the other side. Mud on the bank, that is all.”",
+    "“Hm,” said Holmes, and we followed the detective into the house."
+   ],
+   "glossary": [
+    {
+     "term": "moat",
+     "meaning": "fosso (ao redor de um castelo)"
+    },
+    {
+     "term": "drawbridge",
+     "meaning": "ponte levadiça"
+    },
+    {
+     "term": "sill",
+     "meaning": "peitoril (da janela)"
+    },
+    {
+     "term": "wading",
+     "meaning": "atravessando a pé (na água)"
+    },
+    {
+     "term": "brand",
+     "meaning": "marca feita a ferro quente"
+    },
+    {
+     "term": "nugget",
+     "meaning": "pepita"
+    },
+    {
+     "term": "stout",
+     "meaning": "robusto, corpulento"
+    },
+    {
+     "term": "snorter",
+     "meaning": "coisa extraordinária (gíria)"
+    }
+   ]
+  },
+  {
+   "title": "The Man in the Study",
+   "paragraphs": [
+    "The study was a long, low room with dark panelled walls and a wide window at the end. The body had been laid out on the floor under a sheet, and Holmes drew it back and bent over it for a long time. I am a doctor, and I have seen many terrible sights, but I was glad when he covered it again.",
+    "“Twelve-bore, fired close,” said Holmes, examining the weapon. “The barrels are wired together, so that both fire at once. Look at the name on the stock, Mr. Mac. ‘PEN’—the rest is cut away. ‘Pennsylvania Small Arms Company,’ I imagine. An American firm, and an American weapon.”",
+    "“That matches the other things,” said MacDonald. “The dead man made his money in America.”",
+    "Holmes went to the window and studied the bloodstain on the sill through his lens. “It is the mark of a broad-toed boot,” he said, “turned outward, as if the man was climbing out. Very interesting.” Then he walked around the room, looking at the floor, the carpet and the walls. In one corner he stopped and lifted a single heavy dumbbell from the floor beneath a small table.",
+    "“Where is the other?” he asked.",
+    "The detectives looked at each other. Nobody had noticed that only one dumbbell was there. Ames was called, but he could not say. There had been two, he believed, but he had not seen them for some days.",
+    "“One dumbbell,” Holmes murmured. “It is a strange thing for a man to own only one. I would very much like to know where its partner is.”",
+    "Next we examined the candle on the table. It had been lit by Mr. Douglas when he came into the room, and it had burned only a little way down. Holmes looked at it thoughtfully.",
+    "“When Mr. Barker came in, was this the only light?”",
+    "“Yes, sir,” said Ames. “Afterwards I lit the lamp.”",
+    "“Very good. Now, Mr. Ames, did you notice anything else when you first came in?”",
+    "The butler hesitated. “Only that Mr. Barker was in his dressing gown and slippers, sir. And Mr. Douglas was in his dressing gown too. He always made a round of the house at night, to see that the lights were out. He must have been doing that when he was attacked.”",
+    "“His slippers,” said Holmes. “Show me.”",
+    "The dead man's feet were in a pair of carpet slippers. But Holmes asked for Barker's slippers, which were brought down from his room, and he held one of them against the bloody print on the window sill. The two shapes matched exactly.",
+    "“Good Lord!” cried White Mason. “Then it was Barker who made the mark?”",
+    "“Someone wearing his slipper made it,” said Holmes. “That is all we know so far. Let us not run before we can walk.”",
+    "Then the local sergeant came in with news. A bicycle had been found, hidden in the bushes about a hundred yards from the house. It was a good machine, and the label showed that it came from Rudge-Whitworth's agent in Tunbridge Wells. Further inquiries quickly showed that a stranger had come on that bicycle to the village the day before. He was a pale man with a short grey beard and a yellow coat, and he had asked several questions about the road to the Manor House. He had not slept at the inn that night.",
+    "“There you are, Mr. Holmes,” said White Mason with satisfaction. “That is our man. He came on his bicycle, hid it, slipped into the house before the bridge went up, and hid behind the curtain until Douglas came in. Look, the mud from his boots is still there on the floor behind it.”",
+    "It was true. Behind the long curtain of the window there were marks of dirty boots, as if a man had stood there for some time.",
+    "“And then,” said MacDonald, “he fired his gun, dropped his card, took the ring, and escaped through the window and across the moat. He forgot his bicycle in his hurry, or he dared not go back for it.”",
+    "“A man who has planned a murder so carefully,” said Holmes, “does not forget the only means of escape he has. And why should he leave the bicycle at all, unless he had already found a better way of leaving? No, gentlemen, there is something here we do not understand. Tell me, does anyone know the time of the shot exactly?”",
+    "“Mr. Barker says it was half past eleven, or a little after,” said White Mason. “The housekeeper, Mrs. Allen, says she heard a sound like a door banging at about a quarter to eleven, but she is rather deaf, and she paid no attention.”",
+    "Holmes's face showed a flash of interest, but he only nodded. “Half past eleven. And the alarm was rung when?”",
+    "“At once, Mr. Barker says. And the bridge was lowered a few minutes later to send for the police.”",
+    "“So that if the murderer was in the moat at half past eleven, he would have been seen almost at once?”",
+    "“He might have been, if anyone had looked. But it was dark, and everyone was in a panic.”",
+    "Holmes walked to the window and looked down at the black water. “I should like to speak to Mr. Barker and to Mrs. Douglas,” he said. “And then, gentlemen, I should like to think.”"
+   ],
+   "glossary": [
+    {
+     "term": "panelled",
+     "meaning": "revestido de painéis de madeira"
+    },
+    {
+     "term": "dumbbell",
+     "meaning": "haltere"
+    },
+    {
+     "term": "hesitated",
+     "meaning": "hesitou"
+    },
+    {
+     "term": "slippers",
+     "meaning": "chinelos, pantufas"
+    },
+    {
+     "term": "inquiries",
+     "meaning": "investigações, averiguações"
+    },
+    {
+     "term": "banging",
+     "meaning": "batendo com força"
+    },
+    {
+     "term": "deaf",
+     "meaning": "surdo"
+    }
+   ]
+  },
+  {
+   "title": "The Household Speaks",
+   "paragraphs": [
+    "Cecil Barker came into the room with a firm step. He was a tall, strong man of about forty-five, with a clean-shaven face like a prize-fighter's and a pair of fierce black eyes. He looked at us one by one, as if he were measuring his opponents.",
+    "“I'll tell you anything I can, gentlemen,” he said. “Jack Douglas was the best friend I ever had.”",
+    "“You knew him in America?” asked MacDonald.",
+    "“I met him in California. We were partners in a mining claim at a place called Benito Canyon, and we did well. Then, quite suddenly, he sold out and left for England. He was a widower then. A few years later I sold out too and came to London, and we took up our friendship again.”",
+    "“Why did he leave so suddenly?”",
+    "Barker paused. “He was afraid of something. I always believed there was some danger hanging over him, some gang of men who wanted his life. He never told me who they were. But he would never sit with his back to a door, and he chose this house, with its moat and its bridge, because he thought it was safe.”",
+    "“Do you know anything about this card? V.V. 341?”",
+    "“Nothing at all.”",
+    "“Or the brand on his arm?”",
+    "“I saw it many times. He never spoke of it, and I never asked.”",
+    "“Now, Mr. Barker,” said MacDonald, “there is one more point. The bloody mark on the window sill was made by your slipper. Can you explain that?”",
+    "Barker's face darkened, but he answered steadily. “I can't. Unless I stepped in the blood when I ran to the window. I was not thinking very clearly at that moment, Inspector.”",
+    "“And the wedding ring? Have you any idea why a murderer would take it?”",
+    "“None whatever.”",
+    "When he had gone, Mrs. Douglas came in. I had expected to see a woman crushed by grief, but she was perfectly calm. She was very pale, and her hands were trembling a little, but her voice was steady.",
+    "“Have you found anything?” she asked, and I noticed that the question came quickly, almost too quickly, as if she were afraid of the answer.",
+    "“We are making progress, madam,” said MacDonald. “Can you help us? Did your husband ever speak of any enemies?”",
+    "“He never spoke of them, but I knew they existed. I could feel it. He was always on his guard. Once, when he had a fever, he talked in his sleep about a place he called the Valley of Fear. When I asked him about it afterwards, he said, ‘I have been in the Valley of Fear. I am not out of it yet.’ And I heard another name in his delirium: ‘Bodymaster McGinty.’ When I asked who Bodymaster McGinty was, he only laughed and said, ‘Never of mine, thank God!’ That was all.”",
+    "“Thank you, madam. That is very useful. When did you last see your husband alive?”",
+    "“At about a quarter to eleven he went to make his round of the house. I went up to my room. I heard nothing until Mr. Barker came running and told me not to go down.”",
+    "Holmes, who had been silent, now spoke. “Just one question, Mrs. Douglas. Was it your husband's habit to take off his wedding ring?”",
+    "“Never. He had not taken it off since our wedding day.”",
+    "“Thank you. That is all.”",
+    "She left us, and the three detectives looked at one another. Outside the window, the afternoon light was beginning to fade.",
+    "“Well, Mr. Holmes,” said White Mason, “what do you make of it?”",
+    "“I make a great deal of it,” Holmes replied. “But I am not yet ready to speak. Let me ask you only this. You have heard the story: a stranger came to the house, hid behind the curtain, killed Douglas at half past eleven, took his ring, and escaped through the moat. Does it satisfy you?”",
+    "“It is the only story we have,” said MacDonald.",
+    "“Then let me point out a few difficulties. First, why did the murderer bring a shotgun, the noisiest weapon in the world, when he wished to escape quietly? Second, why did he take the trouble to remove a wedding ring from under another ring, while the household was rushing towards the room? Third, where is the other dumbbell? And fourth, why did Mrs. Allen hear something like a door banging at a quarter to eleven, almost half an hour before the alarm was given?”",
+    "Nobody could answer him.",
+    "Later that afternoon, I went for a walk in the old garden behind the house. It was a quiet place, surrounded by tall hedges of yew cut into strange shapes, with a sundial in the middle. I was thinking over the dark events of the day, and I came round the corner of a hedge without making a sound.",
+    "There, on a stone seat, sat Mrs. Douglas and Cecil Barker. They had not seen me. Barker was bending towards her and speaking eagerly, and she was laughing. Laughing! Her husband lay dead in the house behind her, and she was laughing with his best friend. When they saw me, the laughter stopped at once. Mrs. Douglas rose and came towards me.",
+    "“Dr. Watson,” she said, “may I ask you something? Is your friend Mr. Holmes working with the police, or is he independent?”",
+    "“He is quite independent,” I said coldly. “But he would never hide the truth from them if it was necessary to reveal it.”",
+    "“I see,” she said. “Then I must speak to him myself.” She turned back to Barker, and I walked away with a heavy heart. I told Holmes what I had seen that evening at the village inn, where we had taken a room. He listened, and smiled strangely.",
+    "“Laughing, were they? Yes, Watson, that is very suggestive. Very suggestive indeed.”"
+   ],
+   "glossary": [
+    {
+     "term": "prize-fighter's",
+     "meaning": "de um lutador de boxe profissional"
+    },
+    {
+     "term": "widower",
+     "meaning": "viúvo"
+    },
+    {
+     "term": "steadily",
+     "meaning": "com firmeza"
+    },
+    {
+     "term": "grief",
+     "meaning": "luto, dor profunda"
+    },
+    {
+     "term": "delirium",
+     "meaning": "delírio"
+    },
+    {
+     "term": "on his guard",
+     "meaning": "em alerta, de sobreaviso"
+    },
+    {
+     "term": "hedges",
+     "meaning": "cercas vivas"
+    },
+    {
+     "term": "eagerly",
+     "meaning": "ansiosamente, com entusiasmo"
+    }
+   ]
+  },
+  {
+   "title": "The Missing Dumbbell",
+   "paragraphs": [
+    "Holmes did not come back to our room at the inn until very late that night. He had asked permission to sit alone in the study, and he told me afterwards that he had spent two hours there in the dark, watching and thinking.",
+    "“And what did you find?” I asked.",
+    "“I found what I expected. Or rather, I did not find something, and that is just as important. Go to sleep, Watson. Tomorrow I may have something to show you.”",
+    "The next morning MacDonald and White Mason came to see us, full of news. They had traced the cyclist. He had stayed for two nights at the Eagle Commercial Hotel in Tunbridge Wells, under the name of J. Hargrave, and had given an American address. He had left on his bicycle on the morning of the crime, carrying a small bag, and he had never returned. The hotel had a good description of him: a man of about fifty, with a grey beard and a yellow overcoat.",
+    "“The bag would hold the sawed-off gun easily,” said MacDonald. “So the case is clear. We have only to find this Hargrave. Every police station in England is looking for him.”",
+    "Holmes was eating his breakfast with great appetite. “I have a piece of advice for you, Mr. Mac,” he said. “It may sound strange, but I give it with all seriousness. Take a long walk in the country today. Go to the hills. It is very good for the health, and very bad for your case to keep running in circles.”",
+    "MacDonald's face grew red. “Is this a joke, Mr. Holmes?”",
+    "“Not at all. You are searching the whole of England for a man with a grey beard and a yellow coat. I tell you honestly that you are wasting your energy. You will not find him in England.”",
+    "“Then where is he?”",
+    "“That I will tell you tonight, if you are willing to help me. But first, let me tell you how I reasoned. Do you remember the dumbbell?”",
+    "“The one that was missing? Yes, but what can that matter? A man may lose a dumbbell.”",
+    "“A man may. But a household does not lose a heavy piece of iron the very night of a murder. Ask yourself this: what is a dumbbell good for, besides exercise? It is good for one thing above all. It is very heavy, and it will sink anything you tie it to. Somebody, gentlemen, wanted something to sink to the bottom of the moat.”",
+    "The two detectives stared at him.",
+    "“Now consider the time,” Holmes went on. “Mrs. Allen heard a sound like a door banging at a quarter to eleven. Mr. Barker gave the alarm at half past eleven. What happened in the study during that half hour? Look at the candle, which had burned only a little. If the murder had happened as soon as Douglas came into the room, the candle would have stood there burning for some time while the murderer escaped. But it was hardly used. And yet the lamp was not lit until later. So someone was busy in that room, in the dark or in very little light, for half an hour after the shot. Someone who did not run away at all.”",
+    "“You mean Barker?” said White Mason in a low voice.",
+    "“I mean that the story we have been told is not true. The footprint on the sill was made with Barker's slipper, and it was made on purpose, to suggest that a man escaped through the window. The bicycle was left where it would be found. The muddy marks behind the curtain are real, I think, but they belong to the stranger who came to the house, not to a man who escaped from it. Barker and Mrs. Douglas know far more than they have said. That is why they could laugh in the garden. They are not sad, because they have nothing to be sad about.”",
+    "MacDonald jumped to his feet. “Then we must arrest them at once!”",
+    "“Gently, Mr. Mac. If you arrest them now, they will say nothing, and you have no proof. Let me set a little trap instead. The proof, I am quite sure, lies at the bottom of the moat, tied to a dumbbell. Tonight, I shall find it, or someone else will find it for me.”",
+    "“But we cannot drain the moat in one night.”",
+    "“We do not need to. I shall only let it be known that we intend to drain it. Watson, will you take a note to Mr. Barker for me? Say that Mr. Holmes has decided to drain the moat tomorrow morning, in the hope of finding some clue. Nothing more.”",
+    "I did as he asked. Barker received the message with a calm face, but I saw his fingers close tightly on the paper.",
+    "That afternoon, Holmes asked me to lend him my umbrella. It was a fine day, and I could not imagine why he needed it, but I gave it to him without a question. He went off towards the Manor House, and when he came back in the evening, he was in excellent spirits.",
+    "“Watson,” he said, rubbing his hands, “tonight you and I and our two friends from the police will spend some hours in the dark, in the cold, beside a very damp moat. Bring your coat and your revolver. It is possible that we shall need both.”",
+    "“But what do you expect to happen?”",
+    "“I expect,” said Holmes, “that a man who has something to hide will try to hide it better before the morning comes.”"
+   ],
+   "glossary": [
+    {
+     "term": "traced",
+     "meaning": "rastrearam, localizaram"
+    },
+    {
+     "term": "appetite",
+     "meaning": "apetite"
+    },
+    {
+     "term": "sink",
+     "meaning": "afundar"
+    },
+    {
+     "term": "on purpose",
+     "meaning": "de propósito"
+    },
+    {
+     "term": "arrest",
+     "meaning": "prender"
+    },
+    {
+     "term": "drain",
+     "meaning": "drenar, esvaziar"
+    },
+    {
+     "term": "damp",
+     "meaning": "úmido"
+    },
+    {
+     "term": "in excellent spirits",
+     "meaning": "de ótimo humor"
+    }
+   ]
+  },
+  {
+   "title": "A Night by the Moat",
+   "paragraphs": [
+    "The night was dark and cold, without a moon. We crossed the drawbridge before it was raised and took our places in the shadow of the laurel bushes that grew close to the study window. MacDonald grumbled in a whisper about wild-goose chases, and White Mason blew on his fingers, but Holmes was as still as a cat watching a mouse-hole.",
+    "Hour after hour passed. The lights of the house went out one by one, until only the study window remained lit behind its blind. The church clock in the village struck ten, then eleven. I had begun to lose all feeling in my feet when Holmes suddenly touched my arm.",
+    "The blind of the study window was pulled back, and the window was opened. A man leaned out and looked carefully around him into the darkness. It was Cecil Barker. For a full minute he stood there, listening. Then he took something long from the room behind him and pushed it down into the water. It was a pole with a hook on the end. He moved it slowly through the dark moat, like a fisherman, until at last he pulled up a heavy, dripping bundle and dragged it in over the sill.",
+    "“Now!” cried Holmes.",
+    "We ran round to the front door. Holmes knocked loudly, and when Ames, half asleep, opened it, we pushed past him and burst into the study. Barker was standing by the table with the bundle at his feet, and he turned on us like a wild animal.",
+    "“What does this mean?” he shouted. “What right have you to come here at this hour?”",
+    "“The right of the law, Mr. Barker,” said MacDonald, and he picked up the wet bundle. It was tied with a cord, and fastened to it was the missing dumbbell. When we cut the cord, we found a pair of heavy boots, a pair of socks, a grey tweed suit, a short yellow overcoat, and a long, sharp knife.",
+    "“The clothes of Mr. Hargrave, the cyclist from Tunbridge Wells,” said Holmes quietly. “You see, Mr. Mac, I told you that you would not find him in England. In a sense he has never left this house.”",
+    "“Now, Mr. Barker,” said MacDonald, “you must explain this, or I shall arrest you for murder.”",
+    "Barker folded his arms. “You can do what you like. I shall say nothing.”",
+    "“Then I must take you with me.”",
+    "At that moment the door opened, and Mrs. Douglas came into the room. She had heard the noise, and she was wearing a dressing gown, with her dark hair loose on her shoulders. She looked from Barker to the open bundle, and she went white.",
+    "“You have done what you could, Cecil,” she said. “It is no use now.”",
+    "Holmes turned to her with great gentleness. “Mrs. Douglas, I am sure that you and Mr. Barker have acted out of love and loyalty. But I must advise you very strongly to be frank with the police. The truth will come out, now or later, and it will be much better for everyone if it comes out tonight. Indeed,” he added, looking towards the wall, “I think it would be best of all if Mr. Douglas himself told us his own story.”",
+    "Mrs. Douglas gave a cry of astonishment. MacDonald and White Mason stared at Holmes as if he had gone mad. And at that moment a section of the dark panelling in the corner of the room swung open, and a man stepped out of the wall.",
+    "He was a man of medium height, about fifty years old, with a strong jaw, a short moustache and a pair of shrewd, humorous grey eyes. He was pale, as a man is who has spent two days hidden in a small dark place, but he was smiling. Mrs. Douglas ran to him and threw her arms around his neck, and Barker seized his hand.",
+    "“It's best this way, Jack,” said Barker. “I'm sure it's best.”",
+    "“Yes, it is best,” said the man. He looked around at us. “You are Mr. Sherlock Holmes, I think. I have heard of you, sir, and I must say I did not think I could keep my little secret from you for long. Well, gentlemen, here I am. I am John Douglas of Birlstone Manor, and as you can see, I am not dead.”",
+    "“Good Lord!” said MacDonald, sitting down heavily on a chair. “Then who on earth is the man under the sheet?”",
+    "“How did you know?” White Mason asked Holmes.",
+    "“The house is very old,” said Holmes, “and old houses often have hiding places, made in the days when men were hunted for their religion. With the help of Watson's umbrella I measured the walls this afternoon, inside and out, and I found a space that could not be explained. A man could live there for a day or two, if his friends brought him food. And when the dead man's face was destroyed, when his wedding ring was removed, and when the clothes of the stranger were sunk in the moat, I asked myself one simple question: who would gain if the world believed that John Douglas was dead? The answer was John Douglas himself.”",
+    "Douglas laughed. “You have it, Mr. Holmes. Every word. Sit down, gentlemen, and I'll tell you the whole story, for I am tired of hiding.”"
+   ],
+   "glossary": [
+    {
+     "term": "grumbled",
+     "meaning": "resmungou"
+    },
+    {
+     "term": "wild-goose chases",
+     "meaning": "buscas inúteis"
+    },
+    {
+     "term": "dripping",
+     "meaning": "pingando"
+    },
+    {
+     "term": "bundle",
+     "meaning": "trouxa, embrulho"
+    },
+    {
+     "term": "frank",
+     "meaning": "franco, sincero"
+    },
+    {
+     "term": "astonishment",
+     "meaning": "espanto"
+    },
+    {
+     "term": "shrewd",
+     "meaning": "perspicaz, astuto"
+    },
+    {
+     "term": "seized",
+     "meaning": "agarrou"
+    }
+   ]
+  },
+  {
+   "title": "The Dead Man Speaks",
+   "paragraphs": [
+    "“The man you found in this room,” Douglas began, “was called Ted Baldwin. He came from a part of America where I lived many years ago, a coal-mining valley in Pennsylvania that we used to call the Valley of Fear. There was a secret society there, and I did something that made every one of its members swear to kill me. They have hunted me for twenty years. They hunted me in Chicago, and they hunted me in California. That is why I left America, and that is why I came to live in a house with a moat around it.”",
+    "“And Baldwin found you here?”",
+    "“He found me. A few days ago I was in Tunbridge Wells, and I saw him in the street. Just for a second, but I knew his face, and I knew he had seen me. I came home and told Barker, and we watched for him. On the night before last I made my round of the house, as I always do. When I came into this room with my candle, I saw a pair of boots under the curtain. I had no weapon except the candle in my hand, but there was a hammer on the table, and I picked it up. At that moment Baldwin jumped out at me with a knife.”",
+    "He touched a small wound on his chin. “He caught me here. I hit him with the hammer, and he dropped the knife and ran round the table. Then he pulled out that gun from under his coat. I sprang at him before he could aim, and we fought for it. We were on the floor, both of us holding the barrels, when it went off. Both barrels, into his face. When I got up and looked at him, there was nothing left that his own mother could have known.”",
+    "His wife shuddered, and he put his hand on her shoulder.",
+    "“Barker came running, and then my wife came to the stairs, and Barker sent her back. We stood there, he and I, looking down at the body. And then I saw something on Baldwin's forearm. Look, gentlemen.” He rolled up his sleeve and showed us the same mark we had seen on the dead man: a circle inside a triangle. “He had the brand, just as I have. He was about my height and my build. His face was gone. And suddenly I thought: why should not John Douglas die tonight? If my enemies believed I was dead, they would stop hunting me. My wife and I could slip away somewhere and live in peace at last.”",
+    "“So you changed clothes with him,” said Holmes.",
+    "“In half an hour. That was the time it took. I put my dressing gown on him and laid him as you found him. I took his clothes, tied them up with the only heavy thing I could find, the dumbbell, and threw them into the moat. He had brought a card to leave on my body, so that his friends would know the work was done, and I left it there. I put my nugget ring on his finger. But my wedding ring I could not move. It has not been off my finger since my wedding day, and it would not come off then. So I left his finger bare, and I thought you would believe that the murderer had taken it. I even put a piece of plaster on his chin, because I had cut myself shaving that morning, and I knew people had seen the cut.”",
+    "“I noticed the plaster,” said Holmes, “and I noticed that there was no cut beneath it.”",
+    "Douglas laughed. “Then Barker made the mark on the window sill with his slipper, to show the way the murderer had gone, and he rang the bell. That was half an hour after the shot, but we hoped no one would notice. My wife knew everything, and she played her part well. And I went into the old hiding place behind the panel, meaning to stay there until the police had gone away, and then to escape by night.”",
+    "There was a long silence when he had finished. At last MacDonald stood up.",
+    "“Well, Mr. Douglas, I am bound to say that if your story is true, you killed this man in self-defence, and no jury in England will condemn you for it. But you must tell it to a court, and you must not run away.”",
+    "“I shall not run away. I am glad that it is over.”",
+    "“But who was this society?” asked White Mason. “And what did you do to make them hate you so much?”",
+    "Douglas went to the hiding place and came back with a thick bundle of papers in his hand. He gave it to me.",
+    "“You are a writer, Dr. Watson, I believe. I spent two days in that hole in the wall, and I had a candle and a pencil and nothing to do. So I wrote it all down, the whole story of the Valley of Fear. Read it, and you will understand. I was a different man then, and my name was not Douglas.”",
+    "I took the papers. That night I read them by the fire at the inn, while Holmes smoked his pipe in silence beside me. What follows is the story that Douglas told, as I have arranged it, beginning more than twenty years before, in a cold and dark valley on the other side of the Atlantic."
+   ],
+   "glossary": [
+    {
+     "term": "swear",
+     "meaning": "jurar"
+    },
+    {
+     "term": "sprang",
+     "meaning": "saltou, lançou-se"
+    },
+    {
+     "term": "went off",
+     "meaning": "disparou"
+    },
+    {
+     "term": "shuddered",
+     "meaning": "estremeceu"
+    },
+    {
+     "term": "build",
+     "meaning": "porte físico, compleição"
+    },
+    {
+     "term": "plaster",
+     "meaning": "curativo adesivo, esparadrapo"
+    },
+    {
+     "term": "bound to say",
+     "meaning": "obrigado a dizer"
+    },
+    {
+     "term": "self-defence",
+     "meaning": "legítima defesa"
+    }
+   ]
+  },
+  {
+   "title": "The Stranger in Vermissa",
+   "paragraphs": [
+    "It was the fourth of February in the year 1875. It had been a hard winter, and the snow lay deep in the gorges of the Gilmerton Mountains. A slow train was climbing up the valley, carrying workmen to the coal mines and the iron works of Vermissa, the chief town of a long, black, dirty valley where men worked hard and died young.",
+    "Among the passengers there was a young man of about thirty, with a fresh, open face and a pair of quick, humorous grey eyes. He had a friendly way of talking to his neighbours, and he looked like a man who could make friends anywhere, and enemies too, if he had to. His name was John McMurdo.",
+    "Opposite him sat a small, nervous miner, who had been watching him for some time. At last the miner leaned across and held up his hand in a strange way, with the little finger bent. McMurdo answered the sign at once.",
+    "“Where are you from, brother?” the miner asked quietly.",
+    "“Chicago. Lodge 29.”",
+    "“I'm Mike Scanlan, of Lodge 341, Vermissa. You'll find the Freemen strong in this valley. Have you come to work?”",
+    "“I've come to get away from Chicago,” said McMurdo with a smile. “There was a little trouble there with a man called Jonas Pinto. He's dead now, and the police are not very happy about it.”",
+    "Scanlan looked at him with new respect. “Then you'll be welcome here. Go and see Boss McGinty at the Union House. He's the Bodymaster of our lodge, and he's the biggest man in the valley. Nothing happens in Vermissa without his say-so.”",
+    "At one of the stations, two policemen got into the carriage. One of them looked hard at McMurdo and warned him to keep away from bad company. McMurdo answered him so boldly and so rudely that the other miners in the carriage laughed and slapped him on the back. When he got off the train at Vermissa, half of them already knew his name.",
+    "He had an address, a boarding house kept by an old German called Jacob Shafter. He found it at the end of a dark street, knocked, and the door was opened by a girl. She was young and fair, with dark eyes, and when she smiled at the stranger in the snow, McMurdo forgot why he had come. He had seen many pretty women, but never one like her.",
+    "“My father will be back soon,” she said in a sweet voice with a slight German accent. “I am Ettie Shafter. Come in and get warm.”",
+    "By the end of the week McMurdo was the most popular lodger in the house. He sang songs in the evenings, he told stories, and he made the other men laugh. And every evening he found reasons to talk to Ettie. She laughed at his jokes, and she began to look at him in a way that made him very happy. But one evening, old Shafter called him aside.",
+    "“Mister McMurdo,” he said, “I see what is happening, and I must speak. My girl is promised already.”",
+    "“Promised? To whom?”",
+    "“To Teddy Baldwin. A big man in the lodge. I do not like him, and Ettie does not like him either, but he is dangerous, and he says she is his. I do not want trouble in my house.”",
+    "McMurdo found Ettie alone the next day. “Is it true that you are promised to Ted Baldwin?”",
+    "She turned pale. “He has asked me, and I have not said no. I am afraid of him. Everybody in this valley is afraid of him and his friends.”",
+    "“I am not afraid of him,” said McMurdo. “Say no to him, Ettie, and say yes to me.”",
+    "She shook her head sadly. “You do not understand this place. They are Scowrers, Jack. That is what people call the men of the lodge, the Scowrers. They beat people, they burn houses, they kill. And nobody can stop them.” She looked at him with fear in her eyes. “Promise me you will not join them.”",
+    "McMurdo laughed. “I'm a Freeman already, Ettie. I've been one in Chicago for years. There's nothing wrong with the Freemen. It's a society for brothers to help each other.”",
+    "“Not here,” she whispered. “Here it is something else.”",
+    "When Ted Baldwin came to the house that night, he found McMurdo sitting with Ettie. He was a handsome young man, tall and well dressed, but his face was hard and his eyes were cruel. The two men looked at each other, and each knew that the other was an enemy.",
+    "“Who is this?” Baldwin asked.",
+    "“A friend of mine,” said Ettie.",
+    "“Then he had better find another friend,” said Baldwin. “And if he doesn't, he may find that the air in this valley is not good for his health.”",
+    "McMurdo stood up slowly. “Any time you want to discuss it, Mr. Baldwin, you will find me ready.”",
+    "The next evening McMurdo walked into the Union House, the largest saloon in Vermissa, and asked for Councillor McGinty."
+   ],
+   "glossary": [
+    {
+     "term": "gorges",
+     "meaning": "desfiladeiros"
+    },
+    {
+     "term": "say-so",
+     "meaning": "permissão, aval"
+    },
+    {
+     "term": "boldly",
+     "meaning": "com ousadia"
+    },
+    {
+     "term": "lodger",
+     "meaning": "hóspede, inquilino"
+    },
+    {
+     "term": "promised",
+     "meaning": "prometida (em casamento)"
+    },
+    {
+     "term": "handsome",
+     "meaning": "bonito (homem)"
+    },
+    {
+     "term": "saloon",
+     "meaning": "bar, taberna (no velho oeste)"
+    }
+   ]
+  },
+  {
+   "title": "Lodge 341",
+   "paragraphs": [
+    "Jack McGinty was a huge man, with a great black beard and a mass of black hair that fell over his collar. He had a jolly face and a loud laugh, and he gave free drinks to his friends. But his eyes were small, dark and cold, and those who looked into them long enough understood that this was a man who would stop at nothing. He was the head of Lodge 341 of the Ancient Order of Freemen, and he was also a member of the town council. The police feared him, the judges obeyed him, and the miners paid him a part of their wages, whether they wanted to or not.",
+    "He took McMurdo into a back room and shut the door. “Sit down, young man. They tell me you're a brother from Chicago. Prove it.”",
+    "McMurdo gave the secret signs and the passwords, and McGinty nodded. Then he said, “And why did you leave Chicago so fast?”",
+    "“I killed a man there, and I was making false money, and the police were getting too interested in me.”",
+    "“Show me some of this money.”",
+    "McMurdo took out a handful of coins. McGinty looked at them carefully. “I never saw better,” he said. “But how do I know you're not a police spy?” As he spoke, his hand moved under the table.",
+    "“I thought you might ask that,” said McMurdo calmly, “and so, Councillor, I have had my pistol pointed at your belly through my pocket since I sat down.”",
+    "For a moment McGinty stared at him. Then he burst out laughing and struck the table with his fist. “By thunder, you're the man for us! We've had nobody like you here for years. Welcome to Vermissa, brother.”",
+    "Just then the door opened and Ted Baldwin came in. When he saw McMurdo, his face became black with rage. “So you're here already,” he said. “Councillor, this man is trying to steal my girl.”",
+    "“Is he?” said McGinty. “Then let the girl choose. There will be no fighting between brothers in my lodge. Shake hands, both of you.” And the two young men shook hands, though their eyes said very clearly that the matter was not finished.",
+    "A few days later McMurdo was initiated into the Vermissa lodge. He was led blindfolded into a large room full of men. He felt the heat of a fire, and he heard a voice say, “Bare his arm.” Then a red-hot iron was pressed into the flesh of his forearm. He did not cry out, though the pain was terrible. When the cloth was taken from his eyes, he saw the mark: a circle inside a triangle. The men around him cheered.",
+    "“You are one of us now,” said McGinty. “You have sworn to obey the lodge in all things, and to keep its secrets until death. Remember that the penalty for betrayal is death, for you and for your family.”",
+    "That night McMurdo learned the true nature of the society he had joined. At the meeting, after the drinking and the singing, the business began. A mine manager named Blaney had dismissed some miners who were members. A storekeeper had refused to pay the lodge. A newspaper had printed an article against them. One by one the names were read, and one by one the punishments were decided: a beating, a burning, a killing.",
+    "“How do you do it without being caught?” McMurdo asked Scanlan quietly.",
+    "“Easy. When we have a job to do, we ask another lodge to send us two good men, men nobody here has ever seen. And when they have a job, we send them ours. Nobody can recognise a stranger. And if anyone sees anything, well, witnesses in this valley have short memories, or short lives.”",
+    "“And the police?”",
+    "“The police are paid. The judges are paid. And the juries are frightened. In ten years not one of us has been hanged.”",
+    "McMurdo listened to all of it, and his face showed nothing but interest and approval. He laughed when the others laughed. And when he went home to Shafter's house that night, he sat up late at his window, looking out at the dark street for a long time.",
+    "Within a month he was famous in the lodge. He was clever with words, he was quick with his gun, and he seemed to fear nothing. Captain Marvin of the Coal and Iron Police, who had known him slightly in Chicago, warned him on the street to be careful.",
+    "“I know your kind, McMurdo,” he said. “You'll end up on a rope.”",
+    "“Maybe,” said McMurdo. “But not your rope, Captain.”",
+    "At home, things were not so easy. Old Shafter had heard that his lodger had joined the Scowrers, and he told McMurdo to leave his house. Ettie wept when she heard it.",
+    "“I begged you not to join them,” she said. “Why, Jack? Why?”",
+    "McMurdo took her hands. “Trust me, Ettie. I can't tell you more. But one day, if you will wait for me, you will understand everything. Will you wait?”",
+    "She looked at him for a long time. “I will wait,” she said at last. “But I am frightened for you.”"
+   ],
+   "glossary": [
+    {
+     "term": "jolly",
+     "meaning": "alegre, jovial"
+    },
+    {
+     "term": "wages",
+     "meaning": "salários (por semana)"
+    },
+    {
+     "term": "belly",
+     "meaning": "barriga"
+    },
+    {
+     "term": "initiated",
+     "meaning": "iniciado (em sociedade secreta)"
+    },
+    {
+     "term": "blindfolded",
+     "meaning": "vendado"
+    },
+    {
+     "term": "betrayal",
+     "meaning": "traição"
+    },
+    {
+     "term": "dismissed",
+     "meaning": "demitiu"
+    },
+    {
+     "term": "wept",
+     "meaning": "chorou"
+    }
+   ]
+  },
+  {
+   "title": "The Reign of Terror",
+   "paragraphs": [
+    "The first task McMurdo was given was a visit to the offices of the Vermissa Herald. Its editor, an old man called James Stanger, had written a brave article about the crimes of the lodge, calling the Scowrers a gang of murderers and asking honest citizens to stand up against them.",
+    "“He needs a lesson,” said McGinty at the meeting. “Not a killing, mind. Killing an editor makes too much noise. Just a lesson he won't forget. Baldwin, you'll take some of the boys. And McMurdo, you'll go too. It's time you showed us what you're made of.”",
+    "Late that night six men with their hats pulled down over their eyes walked into the newspaper office. The old editor was working alone at his desk under a lamp. He stood up when they came in, and he looked at them without fear.",
+    "“I know what you want,” he said. “You can beat me, but you cannot stop the truth.”",
+    "They threw him to the floor and began to beat him with sticks. He did not cry out. After a few minutes Baldwin stood over him, breathing hard, with a revolver in his hand.",
+    "“I'll finish him,” he said.",
+    "McMurdo stepped forward and pushed the barrel aside. “No, you won't. The orders were a beating, not a killing. You heard the Bodymaster. If you shoot him, you'll answer to me.”",
+    "Baldwin turned on him with a curse, and for a second the two men faced each other with their guns in their hands. Then one of the others pulled at Baldwin's arm. “He's right, Ted. Come away. People are coming.” They ran out into the night and left the old man bleeding on the floor among his papers.",
+    "When the story was told at the lodge, McGinty laughed loudly. “McMurdo is right,” he said. “Orders are orders. Baldwin, you'll learn to control that temper of yours.” From that night, McMurdo's position in the lodge was higher than Baldwin's, and Baldwin hated him more than ever.",
+    "Two days later, Captain Marvin arrested McMurdo for the attack on Stanger. But when the case came before the judge, eight members of the lodge swore that McMurdo had been playing cards with them at the Union House all evening. The editor could not recognise any of his attackers. The judge, who knew very well who paid his salary, dismissed the case, and McMurdo walked out of the court to the cheers of his friends.",
+    "That spring the terror grew worse. A mine manager at Crow Hill, who had refused to give jobs to members of the lodge, was shot dead in front of his workers in broad daylight. His engineer, who tried to help him, was killed too. The murderers had come from another lodge, and they disappeared into the hills. A week later a house was blown up with gunpowder, though the family who lived there escaped by a miracle. Nobody spoke. Nobody dared.",
+    "McMurdo took part in many of the lodge's plans, and his advice was valued. But it was noticed that somehow, when he had planned an attack, the victim was often away from home, or warned, or saved by chance. Nobody suspected him; they only cursed their bad luck.",
+    "One evening a quiet, worried man named Morris, a member of the lodge, asked McMurdo to come for a walk with him. When they were alone on the empty road, Morris stopped.",
+    "“McMurdo,” he said in a low voice, “I must speak to somebody, or I shall go mad. I joined the Freemen years ago, before I knew what they were. Now I am trapped. I hate every crime they commit. Do you feel the same, or have I just signed my own death warrant by telling you?”",
+    "McMurdo looked at him for a long moment. “You have said a dangerous thing, Brother Morris,” he said slowly. “I am a loyal member of this lodge. I could report you to the Bodymaster.”",
+    "Morris's face went white.",
+    "“But I won't,” McMurdo went on. “Go home, and keep your mouth shut, and never say a word like that to anyone else. Do you understand?”",
+    "The man went away trembling, and McMurdo watched him go with a strange expression on his face.",
+    "As for Ettie, she saw him in secret whenever she could. Once she begged him to run away with her to Philadelphia or New York, where no one knew them, and to start a new, honest life.",
+    "“Not yet,” said McMurdo gently. “Give me a few more months. Then, I promise you, we shall leave this valley together, and we shall never come back.”"
+   ],
+   "glossary": [
+    {
+     "term": "mind",
+     "meaning": "veja bem, atenção (na fala)"
+    },
+    {
+     "term": "curse",
+     "meaning": "praguejo, maldição"
+    },
+    {
+     "term": "temper",
+     "meaning": "temperamento, gênio forte"
+    },
+    {
+     "term": "broad daylight",
+     "meaning": "plena luz do dia"
+    },
+    {
+     "term": "gunpowder",
+     "meaning": "pólvora"
+    },
+    {
+     "term": "dared",
+     "meaning": "ousou"
+    },
+    {
+     "term": "death warrant",
+     "meaning": "sentença de morte"
+    },
+    {
+     "term": "trapped",
+     "meaning": "preso, encurralado"
+    }
+   ]
+  },
+  {
+   "title": "The Hunt for Birdy Edwards",
+   "paragraphs": [
+    "In the summer, the lodge ordered the death of Chester Wilcox, a brave foreman at the Iron Dyke Company who had once beaten a lodge member who attacked him. McMurdo was put in charge of the job. He planned it carefully, with gunpowder under the door of Wilcox's house, and he and two others crept up to the house in the middle of the night and lit the fuse. The explosion shook the whole hillside. But in the morning it was learned that Wilcox and his family had moved to another house only the day before, and that nobody had been hurt.",
+    "“Bad luck,” said McGinty. “We'll get him next time.”",
+    "“Bad luck,” agreed McMurdo, shaking his head.",
+    "A few weeks later, McMurdo came into the Union House very early in the morning, before the saloon was open, and asked to see McGinty alone. His face was serious.",
+    "“Councillor,” he said, “I have heard something you must know at once. There's a Pinkerton man in the valley.”",
+    "McGinty stood up so suddenly that his chair fell over. The Pinkerton Agency was the most famous detective agency in America, and its men were not like the local police. They could not be bought, and they could not be frightened.",
+    "“How do you know?”",
+    "“I have a friend on the railroad who sees a lot of letters. He showed me one of them. It said that the Pinkertons have sent their best man, Birdy Edwards, to Vermissa, and that he has been working here for months, gathering evidence against us. He knows names, Councillor. He knows everything. And he is ready to bring in the police any day now.”",
+    "McGinty's face had turned a dirty yellow. “Birdy Edwards! I've heard of him. Do you know what he looks like?”",
+    "“I have never seen him. But my friend says he is living under another name, the name of Steve Wilson, at Hobson's Patch. He pretends to be an insurance agent.”",
+    "“Then we'll go to Hobson's Patch tonight and burn the house down over his head.”",
+    "“And let him escape out of the back window, and bring the whole Pinkerton Agency down on us? No, Councillor. That is not the way. We must take him alive, and find out what he knows and what he has written down. Then we can deal with him.”",
+    "“How?”",
+    "McMurdo lowered his voice. “I'll go to see him. I'll tell him I am a member of the lodge, and that I am tired of it, and that I want to sell him our secrets for money. He'll believe me, because that is just what he is hoping for. I'll ask him to come to my house tomorrow night at ten, to get the papers. And when he walks in, you and the others will be waiting for him.”",
+    "McGinty looked at him with admiration. “By God, McMurdo, you have a head on you! Do it. I'll bring the best men in the lodge. Baldwin, Cormac, Scanlan, the Willaby brothers, all of them. This will be the greatest night in the history of the lodge.”",
+    "McMurdo had taken a small house on the edge of the town, a lonely place among the trees. On the evening before the meeting, he went to see Ettie at her father's house. She saw at once that something was wrong.",
+    "“Ettie,” he said, “do you love me enough to come away with me tomorrow night? Not next month or next year, but tomorrow?”",
+    "She caught her breath. “Are you in danger, Jack?”",
+    "“Great danger. But it will be over soon. Will you trust me?”",
+    "“I will go anywhere with you,” she said, “but tell me the truth. What have you done?”",
+    "“Nothing that you need to be ashamed of, my darling. When you know everything, I think you will be proud of me. Be ready, with your father, early in the morning. A carriage will come for you. And whatever you hear about me tomorrow, do not believe it until you have heard it from me.”",
+    "He kissed her and went out into the darkness. Ettie stood at the door for a long time, listening to his footsteps fade away down the street, and she prayed for him as she had never prayed before.",
+    "Meanwhile, in the back room of the Union House, McGinty was giving his orders. The men who would come to the house were chosen. The ropes were ready. And Ted Baldwin, who would not be satisfied until Birdy Edwards was dead, sat cleaning his revolver and smiling to himself."
+   ],
+   "glossary": [
+    {
+     "term": "foreman",
+     "meaning": "capataz, encarregado"
+    },
+    {
+     "term": "crept",
+     "meaning": "rastejaram, aproximaram-se furtivamente"
+    },
+    {
+     "term": "fuse",
+     "meaning": "pavio, estopim"
+    },
+    {
+     "term": "gathering",
+     "meaning": "reunindo, coletando"
+    },
+    {
+     "term": "deal with",
+     "meaning": "lidar com, dar um jeito em"
+    },
+    {
+     "term": "admiration",
+     "meaning": "admiração"
+    },
+    {
+     "term": "caught her breath",
+     "meaning": "prendeu a respiração"
+    },
+    {
+     "term": "ashamed",
+     "meaning": "envergonhada"
+    }
+   ]
+  },
+  {
+   "title": "The Trap",
+   "paragraphs": [
+    "At nine o'clock the next evening the men began to arrive at McMurdo's lonely house, one or two at a time, so as not to attract attention. There were seven of them: McGinty himself, Baldwin, Cormac, Scanlan, the two Willaby brothers and an old killer named Harraway, the secretary of the lodge. They were the heart of the Scowrers, the men who had planned and carried out most of the murders of the past ten years. They sat round the table in the front room, drinking whisky and talking in low voices.",
+    "“How will we know him?” asked Baldwin.",
+    "“He'll knock three times,” said McMurdo. “I'll open the door and bring him into this room. You will be waiting behind the door. As soon as he is inside, take him. He mustn't have time to reach his gun.”",
+    "“Leave him to me,” said Baldwin, and he licked his lips.",
+    "“We'll take him alive first,” said McGinty. “I want to know what he's told his masters. Then you can have him, Ted, and welcome.”",
+    "The clock moved slowly towards ten. The men grew silent. Some of them checked their pistols; others stared at the door. McMurdo went to the window, and stood for a moment looking out into the darkness. Then he turned round, and his face was quite different. It was hard and calm and full of a strange satisfaction.",
+    "“Boys,” he said, “he isn't coming.”",
+    "“Not coming? How do you know?”",
+    "“Because he's here already.” McMurdo walked to the centre of the room. “I told you that I'd never seen Birdy Edwards. That wasn't quite true. I see him every day, in the looking glass. I am Birdy Edwards.”",
+    "For ten seconds nobody moved. They stared at him, white-faced and open-mouthed, like men who have been struck by lightning. Then, in the silence, there came the sound of breaking glass, and the barrels of a dozen rifles appeared at every window. At the same moment the door burst open, and Captain Marvin and his police rushed in.",
+    "McGinty gave a roar like a wounded bull and threw himself towards the door, but a revolver was pressed against his head, and he stopped. Baldwin tried to draw his pistol, and was knocked to the floor. In less than a minute every one of them was in handcuffs.",
+    "“You devil!” screamed McGinty. “You traitor!”",
+    "“Call me what you like,” said Edwards quietly. “I was sent here by men who wanted to free this valley from you and your kind. I have lived among you for months. I have heard your oaths, and I have joined in your songs, and every night I have gone home and written down your crimes. I warned Wilcox. I warned many others. And now I have enough evidence to hang every man in this room.”",
+    "“We'll get you for this,” said Baldwin, from the floor. “If it takes us twenty years, we'll get you.”",
+    "“Perhaps,” said Edwards. “But you will have to find me first.”",
+    "That night Edwards left the valley under police guard. Early the next morning a carriage came to Shafter's house, as he had promised, and took Ettie and her father to the railway. She did not know the truth until she met him in Chicago, and when she heard it she threw her arms round his neck and cried that she had always known he was good. They were married there a few weeks later.",
+    "The trials of the Scowrers were the greatest the state of Pennsylvania had ever seen. The evidence of Birdy Edwards was complete, and this time the juries were not afraid. McGinty died on the gallows, and so did eight of his chief followers. Fifty more were sent to prison. The terror was broken, and a cloud lifted from the Valley of Fear.",
+    "But Ted Baldwin and the Willaby brothers had escaped the gallows. They were sentenced to ten years in prison, and when they came out, they remembered their promise. The men of the old society still had money and friends, and they swore to find the man who had destroyed them.",
+    "They found Edwards in Chicago, and twice he escaped death by a hair. He changed his name and moved to California, where he called himself John Douglas and worked in the gold fields. There, Ettie fell ill and died, and for a long time he did not care whether he lived or not. There, too, he met Cecil Barker and made his fortune. But the hunters found him again, and he fled to England, where he married again and settled down at last in the old Manor House at Birlstone, behind its moat.",
+    "And there, after twenty years, Ted Baldwin came for him at last."
+   ],
+   "glossary": [
+    {
+     "term": "licked",
+     "meaning": "lambeu"
+    },
+    {
+     "term": "looking glass",
+     "meaning": "espelho"
+    },
+    {
+     "term": "struck by lightning",
+     "meaning": "atingidos por um raio"
+    },
+    {
+     "term": "roar",
+     "meaning": "rugido"
+    },
+    {
+     "term": "handcuffs",
+     "meaning": "algemas"
+    },
+    {
+     "term": "traitor",
+     "meaning": "traidor"
+    },
+    {
+     "term": "oaths",
+     "meaning": "juramentos"
+    },
+    {
+     "term": "gallows",
+     "meaning": "forca"
+    },
+    {
+     "term": "by a hair",
+     "meaning": "por um triz"
+    }
+   ]
+  },
+  {
+   "title": "Epilogue: The Hand of Moriarty",
+   "paragraphs": [
+    "I finished reading Douglas's papers in the early hours of the morning, and I sat for a long time looking into the dying fire. When I looked up, I saw that Holmes was awake and watching me.",
+    "“Well, Watson?” he said. “What do you think of our friend now?”",
+    "“I think he is one of the bravest men I have ever heard of.”",
+    "“So do I. But bravery is not enough. You have forgotten something.”",
+    "“What is that?”",
+    "“The cipher, Watson. The message from Porlock. How did Porlock know, a full day before the crime, that danger was coming to a man called Douglas at Birlstone? Baldwin and his friends were not clever men. They had hunted Douglas for twenty years and never found him. And yet suddenly they knew exactly where he lived. Somebody helped them. Somebody who sells his brains to any criminal who can pay.”",
+    "“Moriarty,” I said.",
+    "“Moriarty. The American society would not give up, and so they went to the greatest criminal mind in Europe and asked for his help. He found Douglas for them. He did not care whether Baldwin succeeded; he only cared that he had been paid. But now Baldwin has failed, and the professor's reputation is at stake. That is something he will never allow.”",
+    "The inquest was held a few days later, and the case was soon tried. As MacDonald had expected, the court decided that John Douglas had killed Ted Baldwin in self-defence, and he was set free. The newspapers were full of the strange story of the dead man who walked out of the wall. Douglas and his wife came to thank us before they left Birlstone.",
+    "“Mr. Douglas,” Holmes said to him, “I have one piece of advice for you, and I beg you to take it. Leave England, and leave it soon. There are dangers here worse than any you have faced. The men who sent Baldwin will now try other means, and they have a leader who never makes the same mistake twice.”",
+    "Douglas smiled. “I've been running for twenty years, Mr. Holmes. I'm used to it. But I'll take your advice. My wife and I will go to South Africa. I have friends there.”",
+    "They sailed two months later. I was glad, because I liked the man and I wanted him to find some peace at last. I thought often of him and of his first wife, Ettie, who had followed him out of the Valley of Fear, and of his second, who had stood by him so loyally at Birlstone.",
+    "One morning in the spring, Holmes and I were sitting in Baker Street when a note was brought up. Holmes opened it, read it, and gave a short, bitter laugh. He passed it to me. It was from Cecil Barker, and it said only this: “Jack has been lost overboard in a storm off St. Helena. No one knows how the accident happened. Mrs. Douglas is safe and is coming home.”",
+    "I stared at the paper in horror. “Lost overboard! An accident?”",
+    "“There was no accident,” said Holmes, and his face was as grave as I have ever seen it. “Douglas was killed, Watson, as surely as if he had been shot in this room. Somebody was on that ship who had been sent to do the work that Baldwin could not do. It was a clean piece of work, without noise, without witnesses, and without any trace. That is the professor's style. You can tell a master by his brush strokes, and I can tell a Moriarty when I see one.”",
+    "At that moment there was another ring at the bell, and a second letter was brought in, unsigned, in a hand I did not know. It contained only four words: “Dear me, Mr. Holmes! Dear me!”",
+    "Holmes sat for a long time in silence, staring at it. Then he rose and walked to the window, and looked out over the grey roofs of London.",
+    "“Do you mean,” I said, “that this man can never be beaten?”",
+    "“I don't say that,” said Holmes slowly. “But you must give me time, Watson. You must give me time.”"
+   ],
+   "glossary": [
+    {
+     "term": "bravery",
+     "meaning": "coragem, bravura"
+    },
+    {
+     "term": "at stake",
+     "meaning": "em jogo, em risco"
+    },
+    {
+     "term": "inquest",
+     "meaning": "inquérito (sobre uma morte)"
+    },
+    {
+     "term": "set free",
+     "meaning": "libertado"
+    },
+    {
+     "term": "overboard",
+     "meaning": "ao mar (caído do navio)"
+    },
+    {
+     "term": "grave",
+     "meaning": "sério, grave"
+    },
+    {
+     "term": "trace",
+     "meaning": "vestígio, rastro"
+    },
+    {
+     "term": "brush strokes",
+     "meaning": "pinceladas"
+    }
+   ]
+  }
+ ]
+}

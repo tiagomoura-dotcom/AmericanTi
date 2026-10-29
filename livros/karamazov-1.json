@@ -1,0 +1,807 @@
+{
+ "id": "karamazov-1",
+ "title": "The Brothers Karamazov, Part 1",
+ "author": "Fyodor Dostoevsky",
+ "year": 1880,
+ "module": 5,
+ "level": "C1",
+ "summary": "Numa pequena cidade russa, o velho e devasso Fyodor Pavlovich Karamazov vive em conflito com os três filhos que abandonou na infância: o apaixonado Dmitri, o intelectual Ivan e o bondoso Alyosha, noviço num mosteiro. Dinheiro, ciúme e uma mesma mulher, Grushenka, colocam pai e filho mais velho em rota de colisão. Enquanto isso, Ivan apresenta ao irmão suas dúvidas sobre Deus e o sofrimento humano no famoso poema “O Grande Inquisidor”.",
+ "chapters": [
+  {
+   "title": "A Family Without a Father",
+   "paragraphs": [
+    "Fyodor Pavlovich Karamazov was a landowner in our district, and he was famous for all the wrong reasons. He was a buffoon, a drunkard and a man who chased women with a shameless appetite that only grew stronger as he grew older. Yet he was no fool. Whatever his vices, he understood money perfectly, and by the time of the events in this story he had quietly gathered a fortune of about a hundred thousand roubles.",
+    "He married twice. His first wife, a lively and well-born young woman, ran away from him after a few years of quarrels, leaving behind a three-year-old boy called Dmitri. When she died in a garret in Petersburg, Fyodor Pavlovich ran through the streets shouting with joy, and some say he wept in the same breath. Either way, he forgot his son completely. The little boy would have been left to grow up in the servants' cottage if Grigory, the old servant, had not taken pity on him.",
+    "His second wife was a timid orphan girl named Sofia, so gentle and so frightened that she seemed made for suffering. Fyodor Pavlovich brought wild women into the house in front of her, and the poor creature fell into a kind of nervous illness, with fits of shrieking. Before she died she gave him two sons, Ivan and Alexei. These boys, too, were abandoned. Grigory looked after them for a while, and then relatives took them away, one after another, and the father hardly noticed.",
+    "So the three brothers grew up far from their father and far from each other. Dmitri, the eldest, became an army officer. He was passionate, generous and reckless, and he spent money as if it burned his fingers. He always believed that his father owed him a large part of his mother's property, and he borrowed against that hope again and again.",
+    "Ivan, four years older than Alyosha, was a gloomy and brilliant boy. He studied hard, paid his own way at the university by writing articles and book reviews, and soon became known in literary circles. People said he believed in nothing. An article of his about the Church courts had been praised by churchmen and atheists alike, and no one could quite tell which side he was really on.",
+    "Alexei, whom everyone called Alyosha, was the youngest, and he was not at all what anyone expected from a Karamazov. He was a healthy, cheerful, red-cheeked young man of twenty, with clear eyes and no trace of the dreamer about him. Yet people everywhere loved him at once, without knowing why. He never judged anyone. He could see the worst things a man did and still look at him with the same quiet affection. Even his father, who loved no one, grew fond of him.",
+    "There was also a fourth son, though no one called him that. Years before, a poor homeless girl, Lizaveta, who was simple in the mind and could hardly speak, used to wander the town barefoot in winter and summer. One night, after a drunken party, Fyodor Pavlovich and his friends laughed about her, and later the whole town whispered that he had taken advantage of her. Months afterwards Lizaveta climbed over the high fence into his garden and gave birth in the bathhouse, and she died before morning.",
+    "Grigory and his wife Marfa took the baby in. Grigory, a stern and religious man, named the child Pavel, and Fyodor Pavlovich, with his usual cruel humour, added the surname Smerdyakov, from Lizaveta's nickname, “the stinking one”. The boy grew up silent and strange. As a child he liked to hang cats and then bury them with a mock funeral, swinging a cloth over them like a censer. Grigory beat him for it, and the boy looked at him from a corner with dark resentment.",
+    "“You're not a human being,” Grigory once told him. “You were born of the bathhouse slime.”",
+    "Smerdyakov never forgave him for those words. Later he began to suffer from epileptic fits. Fyodor Pavlovich sent him to Moscow to learn cooking, and he came back a skilled cook, thin and yellow, with a careful little moustache, polished boots and a contempt for everyone around him. He now cooked for his master and lived in the cottage with Grigory and Marfa, and nobody guessed what he was thinking."
+   ],
+   "glossary": [
+    {
+     "term": "buffoon",
+     "meaning": "palhaço, bobo"
+    },
+    {
+     "term": "shameless",
+     "meaning": "descarado, sem vergonha"
+    },
+    {
+     "term": "garret",
+     "meaning": "sótão, água-furtada"
+    },
+    {
+     "term": "reckless",
+     "meaning": "imprudente, inconsequente"
+    },
+    {
+     "term": "taken pity on",
+     "meaning": "tido pena de"
+    },
+    {
+     "term": "mock funeral",
+     "meaning": "funeral de brincadeira"
+    },
+    {
+     "term": "resentment",
+     "meaning": "ressentimento"
+    }
+   ]
+  },
+  {
+   "title": "The Sons Come Home",
+   "paragraphs": [
+    "At the time our story begins, all three brothers had come back to the town, and the old house on the edge of it was suddenly full of tension. Ivan arrived first, at Dmitri's request, to help settle the business of the money between Dmitri and their father. Everyone was surprised that the proud and independent young scholar agreed to live in his father's house, and even more surprised that the two of them got on quite well. Fyodor Pavlovich respected his clever son and was a little afraid of him.",
+    "“He's not like the others,” the old man said once to Alyosha. “Ivan doesn't love anyone. He's a cold one. But he's sharp, I'll say that.”",
+    "Alyosha had come home a year earlier. To the astonishment of the whole town, he had entered the monastery just outside it as a novice, under the guidance of the famous elder Father Zosima. Pilgrims came from all over Russia to see Zosima, to ask for his blessing or simply to weep at his feet. Alyosha loved the old man with all the strength of his first great love.",
+    "Fyodor Pavlovich did not object. On the contrary, he found the idea rather touching. “Go, then,” he said, almost tearfully. “You'll pray for us sinners. I've often wondered who would pray for me. And tell me, Alyosha, are there hooks in hell? The devils must drag us down with hooks. But where do they get the iron? Do they have a foundry down there? If there are no hooks, then there's no hell, and what becomes of all your monks then?”",
+    "“There are no hooks there,” Alyosha answered quietly, looking at his father seriously.",
+    "“No hooks, eh? So it's only the shadows of hooks. Well, you're the only one in the world who hasn't condemned me, my boy. I feel it. I feel it.”",
+    "Dmitri, meanwhile, lived in rented rooms in town, drinking and quarrelling and making debts. The dispute with his father had grown bitter. Dmitri insisted that he was still owed thousands. Fyodor Pavlovich insisted that he had already paid him far more than his share. And beneath the dispute about money there was something worse, which the whole town was beginning to whisper about.",
+    "It was decided, half as a joke and half in earnest, that the family should meet in Father Zosima's cell and let the holy man settle their quarrel. The idea came partly from Miusov, a cousin of Dmitri's dead mother, a liberal gentleman from Paris who thought himself above such superstitions but was curious to see the famous elder.",
+    "Alyosha was terrified of the meeting. He knew his father would play the fool, he knew Miusov would be rude, and he suspected that Ivan was coming only out of cold curiosity. Only of Dmitri did he have a little hope, for Dmitri, whatever he did, at least had a heart that could be moved.",
+    "On a warm, bright morning at the end of August, the visitors drove up to the monastery gates in two carriages. Fyodor Pavlovich and Ivan came in one, Miusov and a young relative in another. Dmitri, as usual, was late."
+   ],
+   "glossary": [
+    {
+     "term": "novice",
+     "meaning": "noviço"
+    },
+    {
+     "term": "elder",
+     "meaning": "stárets, ancião (guia espiritual)"
+    },
+    {
+     "term": "touching",
+     "meaning": "comovente"
+    },
+    {
+     "term": "foundry",
+     "meaning": "fundição"
+    },
+    {
+     "term": "in earnest",
+     "meaning": "a sério"
+    },
+    {
+     "term": "cell",
+     "meaning": "cela (de monge)"
+    }
+   ]
+  },
+  {
+   "title": "In the Elder's Cell",
+   "paragraphs": [
+    "Father Zosima's cell was small and ordinary, with a few old icons, a lamp, some cheap engravings and two flowerpots on the windowsill. The elder was a short, bent old man of sixty-five, very weak from illness, with a dry face full of fine wrinkles and small, bright, shining eyes. Some of the visitors were disappointed. They had expected someone grander.",
+    "Fyodor Pavlovich began to perform almost at once. He bowed too low, crossed himself too often, and then started to talk.",
+    "“Great teacher,” he cried, “I'm a natural clown. I always play the fool. I do it out of shame, holy father, out of shame! When I come into a room, I always feel that everybody thinks I'm lower than they are, so I think: let me play the fool, then, since you all expect it!”",
+    "“Don't be ashamed of yourself,” said the elder gently. “That is the cause of everything. And above all, do not lie to yourself. The man who lies to himself and listens to his own lie comes to a point where he cannot see any truth, either in himself or around him. He loses all respect for himself and for others. And having no respect, he stops loving.”",
+    "For a moment Fyodor Pavlovich looked genuinely moved. Then he grinned and went on with his jokes, and Miusov went red with shame on his behalf.",
+    "The elder left them for a while to bless the women waiting for him outside. A peasant mother had lost her little boy and could not stop crying for him. Zosima did not tell her to stop. “Weep,” he said, “but each time you weep, remember that your little son is one of God's angels now and that he sees you and is happy to see your tears. Your grief will slowly turn into a quiet joy.” A rich lady, Madame Khokhlakova, confessed that she wanted to believe in the future life but could not. “Try to love your neighbours actively and without stopping,” Zosima told her. “As you advance in love, you will grow sure of the reality of God and of the immortality of your soul.”",
+    "When he returned, the conversation had turned to Ivan's famous article. A learned monk asked him to explain it, and Ivan did so politely and with a strange half-smile. He argued that the Church should not become a part of the State, but that the State should one day become the Church.",
+    "Then Miusov, eager to show that he too had something to say, repeated a remark he had heard Ivan make at a party. “Our friend Ivan Fyodorovich declared that there is no law of nature that makes men love one another,” he said. “If there is love on earth, it comes only from people's belief in immortality. Destroy that belief, and not only love but every force that keeps the world alive will dry up at once. Nothing will be immoral then. Everything will be permitted, even cannibalism. And for a man who does not believe in God or immortality, crime should not only be allowed but recognised as the most reasonable thing he could do.”",
+    "“Is that really your conviction?” asked the elder, looking at Ivan.",
+    "“Yes. That's what I said. There is no virtue if there is no immortality.”",
+    "“You are blessed if you believe that,” said Zosima, “or else most unhappy. I think you do not believe yourself either in the immortality of the soul or in what you have written. This question is not answered in you, and it torments your heart.”",
+    "Ivan was silent for a moment. Then he asked, strangely, “But can it be answered in me? Answered positively?”",
+    "“If it cannot be answered positively, it will never be answered negatively either. You know that yourself. But may God grant that your heart finds its answer on earth.” And the elder blessed him. Ivan rose, came to him, kissed his hand and went back to his seat with a serious face. Everyone was struck by this.",
+    "At that very moment Dmitri came in. He was a tall young man of twenty-eight, well dressed, with a pale, thin face and large dark eyes that looked at people with a strange fixed stare even when he laughed. He apologised for being late, explaining that Smerdyakov had told him the wrong time. He bowed to the elder, ignored his father, and sat down.",
+    "Within minutes the meeting turned into a scandal. Fyodor Pavlovich began to accuse his son of cheating him, of spending money on women, of trying to seduce a respectable young lady and at the same time chasing “a certain enchantress” in the town. Dmitri leapt up, shaking.",
+    "“You're the one who wants her!” he shouted. “You've offered her money to come to you! Monster! Why does such a man live?”",
+    "“Do you hear him, holy fathers?” cried the old man. “He wants to kill his own father!”",
+    "Then something extraordinary happened. The elder rose from his chair, walked slowly to Dmitri, and knelt down before him. He bowed so low that his forehead touched the floor. Dmitri stood for a moment as if struck. Then he cried, “Oh God!”, covered his face with his hands, and rushed out of the room."
+   ],
+   "glossary": [
+    {
+     "term": "grinned",
+     "meaning": "sorriu (de modo largo, zombeteiro)"
+    },
+    {
+     "term": "on his behalf",
+     "meaning": "por ele, no lugar dele"
+    },
+    {
+     "term": "weep",
+     "meaning": "chorar"
+    },
+    {
+     "term": "immortality",
+     "meaning": "imortalidade"
+    },
+    {
+     "term": "permitted",
+     "meaning": "permitido"
+    },
+    {
+     "term": "leapt up",
+     "meaning": "levantou-se de um salto"
+    },
+    {
+     "term": "struck",
+     "meaning": "atingido, impressionado"
+    }
+   ]
+  },
+  {
+   "title": "The Elder Sends Alyosha Away",
+   "paragraphs": [
+    "The visitors left the cell in confusion. No one understood the meaning of the elder's bow, and the monks were whispering about it. Alyosha, who had stayed behind, helped the exhausted old man back to his bed. Zosima looked at him with tenderness.",
+    "“Go, my son. Your place is not here for now. Go to your brothers. And not only to one, but to both.”",
+    "“Father, why did you bow to my brother Dmitri?”",
+    "“I bowed to the great suffering that is waiting for him,” the elder said softly. “I seemed to see something terrible in his eyes today. Do not ask any more. And listen to me: when I die, you must leave the monastery. Go out into the world. You will have many misfortunes, but you will be happy through them, and you will bless life and make others bless it. That is what matters most.”",
+    "On the path outside, Alyosha met Rakitin, a young theological student who was always hanging about the monastery. Rakitin was clever, ambitious and envious, and he liked to know everything about everybody.",
+    "“Did you understand what the old man meant by that bow?” Rakitin asked, with a sly smile. “I'll tell you. He smells crime. Your family stinks of it. Something is going to happen between your brother and your dear father, and the old man wanted to be ready, so that people would say afterwards: the holy elder foresaw it.”",
+    "“What crime?” said Alyosha, turning pale.",
+    "“Murder, of course. Dmitri hates his father, and they both want the same woman, Grushenka. Dmitri is a sensualist, and so is your father, and so, I'm sure, are you, in your quiet way. You're all Karamazovs. Your brother Ivan is another case. He wants Dmitri's fiancée, Katerina Ivanovna, and he'd be very glad if Dmitri ruined himself.”",
+    "Alyosha did not answer, but Rakitin's words had touched something he had already feared in his own heart.",
+    "Meanwhile the scandal continued. Fyodor Pavlovich, who had promised to leave, suddenly decided to go to the abbot's dinner after all, just to make a scene. He burst into the dining room, insulted the monks, accused them of greed and hypocrisy, and finally shouted for his son.",
+    "“Alyosha! Come home at once! Bring your pillow and your mattress. I won't let you stay a day longer in this place!”",
+    "Then he drove off with Ivan, singing and swearing. As the carriage moved away, he tried to say something more, and Ivan, without a word, pushed him back into his seat. They drove the rest of the way in silence."
+   ],
+   "glossary": [
+    {
+     "term": "misfortunes",
+     "meaning": "desgraças, infortúnios"
+    },
+    {
+     "term": "sly",
+     "meaning": "malicioso, astuto"
+    },
+    {
+     "term": "foresaw",
+     "meaning": "previu"
+    },
+    {
+     "term": "sensualist",
+     "meaning": "sensualista (pessoa dominada pelos prazeres)"
+    },
+    {
+     "term": "make a scene",
+     "meaning": "fazer um escândalo"
+    },
+    {
+     "term": "hypocrisy",
+     "meaning": "hipocrisia"
+    }
+   ]
+  },
+  {
+   "title": "Dmitri's Confession",
+   "paragraphs": [
+    "That afternoon, walking towards his father's house, Alyosha took a short cut through an old neighbouring garden. Suddenly he heard a voice calling from behind the bushes.",
+    "“Alyosha! Psst! Come here, quick!”",
+    "It was Dmitri, sitting in a small rotten summer-house with a bottle of brandy in front of him. He grabbed his brother by the arm and pulled him onto the bench.",
+    "“I've been waiting for you. I knew you'd come this way. Sit down, angel. I want to tell you everything, because you're the only one I can tell. You won't judge me.” He gulped his brandy. “I've hidden myself here, near the old man's garden, like a spy. I'm watching for someone. But first, listen.”",
+    "He began to recite verses by Schiller, laughing and weeping at the same time. Then he grew serious.",
+    "“Beauty is a terrible and awful thing, Alyosha. Terrible, because it can't be defined, and it can't be defined because God gives us only riddles. Here the two shores meet, and all contradictions live side by side. A man of noble heart and high mind begins with the ideal of the Madonna and ends with the ideal of Sodom. What's even worse, a man with the ideal of Sodom in his soul doesn't give up the ideal of the Madonna, and his heart burns for both. God and the devil are fighting there, and the battlefield is the heart of man.”",
+    "Alyosha listened silently. He loved this passionate, broken brother of his.",
+    "“Now I'll tell you about Katerina Ivanovna,” Dmitri went on. “You know she's my fiancée. Listen how it happened. Years ago, when I was serving in the army in a small town, her father was a lieutenant-colonel there. She'd just arrived from Moscow, proud, beautiful, educated. She looked down on me, and I hated her for it. Then I found out something. Her father had lost four thousand five hundred roubles of government money. He'd lent it to a merchant who didn't pay it back, and there was going to be an inspection. He was ruined, disgraced, maybe he'd shoot himself.”",
+    "He paused and looked at Alyosha.",
+    "“So I sent a message to her sister. I said: if your sister Katerina comes to me secretly, alone, I'll give her the money. Do you understand what I was offering? I was a beast. And she came, Alyosha. One evening she came to my lodgings, alone, pale, proud, ready to sacrifice herself to save her father. She stood there and looked at me, and I could have done anything I liked.”",
+    "“And what did you do?” whispered Alyosha.",
+    "“For three or four seconds I looked at her with hatred, the kind of hatred that is only a hair's breadth from love, from the most insane love. Then I went to the window, put my forehead to the cold glass, and turned round. I took out a bank note for five thousand roubles from a book, showed it to her, folded it and gave it to her. Then I opened the door and bowed to her very respectfully. She trembled all over, looked at me for a second, and then, without a word, bowed down to the ground before me, a real Russian bow, with her forehead to the floor. Then she ran out. When she'd gone, I drew my sword and almost stabbed myself, out of pure rapture, I don't know why.”",
+    "Alyosha's eyes filled with tears.",
+    "“Later her father died, and she inherited a fortune from a relative. Then she wrote to me: I love you madly, even if you don't love me, be my husband. I'll be the carpet under your feet. Imagine! And we were engaged. And now, Alyosha, now I've betrayed her.”"
+   ],
+   "glossary": [
+    {
+     "term": "summer-house",
+     "meaning": "caramanchão"
+    },
+    {
+     "term": "gulped",
+     "meaning": "engoliu de uma vez"
+    },
+    {
+     "term": "riddles",
+     "meaning": "enigmas, charadas"
+    },
+    {
+     "term": "lodgings",
+     "meaning": "alojamento, quarto alugado"
+    },
+    {
+     "term": "a hair's breadth",
+     "meaning": "um fio de cabelo, uma distância mínima"
+    },
+    {
+     "term": "rapture",
+     "meaning": "êxtase, enlevo"
+    },
+    {
+     "term": "betrayed",
+     "meaning": "traí"
+    }
+   ]
+  },
+  {
+   "title": "The Three Thousand",
+   "paragraphs": [
+    "Dmitri poured himself another glass and laughed bitterly.",
+    "“A month ago Katerina Ivanovna called me to her house. She gave me three thousand roubles and asked me to send them to her sister in Moscow. She knew perfectly well what I'd do. She was testing me. And I went straight to Grushenka. I'd been sent to her before, you know, to beat her, because she'd bought up some of my debts from the old man, and she was going to make trouble. I went to beat her, and I stayed. That woman, Alyosha, has a curve in her body, a curve that runs all the way down to her little left foot. I'm in love with her the way a man catches a plague.”",
+    "“And the money?”",
+    "“I took her to Mokroye, the village twenty miles away. We had gypsies, champagne, the whole village drunk on it. In two days I spent the three thousand, or at least I told everyone I did. And now I'm a thief. I've taken a proud girl's money and spent it on her rival. Do you understand what that means to me? I could bear anything, but not that. I'd rather be a murderer than a thief.”",
+    "“Brother, Katerina Ivanovna will understand...”",
+    "“That's exactly what I can't stand! Her understanding. Her forgiveness. She'll forgive me and look at me like a saint, and I'll have to live under her forgiveness for the rest of my life.” He seized Alyosha's hands. “Listen. I want you to do two things for me today. Go to our father and ask him for three thousand roubles. He owes me that much, by any honest reckoning. If I can give that money back to Katerina, I'll be free. Then go to her and tell her: he sends you his greetings. Just that. Say: he sends his greetings. She'll understand. It means I'm leaving her.”",
+    "“But father won't give you the money.”",
+    "“I know he won't. That's the miracle I'm waiting for. And do you know why I'm hiding in this garden? Because the old man has three thousand roubles ready in a big envelope, tied with a pink ribbon and sealed with three seals. On it he's written: For my angel Grushenka, if she will come. And then he added: and to my little chicken. Smerdyakov told me. Nobody else knows. He's waiting for her every night. He's agreed with Smerdyakov on some knocks on the window, so he'll know when she comes. And if she goes to him...”",
+    "“What will you do then?”",
+    "Dmitri's face darkened. “I don't know. I'm afraid that at that moment his face will suddenly become hateful to me. I hate his throat, his nose, his eyes, his shameless sneer. I feel a personal disgust. That's what I'm afraid of. I might not be able to control myself.”",
+    "“Dmitri, I'm sure God will help you.”",
+    "“Maybe I won't kill him, and maybe I will.” He stood up. “Go now, Alyosha. Go to the old man. And remember, whatever happens, you're my angel.”",
+    "Alyosha walked away towards the house, his heart heavy. Behind him, in the dusk of the garden, his brother sat down again in the broken summer-house to watch and wait."
+   ],
+   "glossary": [
+    {
+     "term": "plague",
+     "meaning": "peste, praga"
+    },
+    {
+     "term": "rival",
+     "meaning": "rival"
+    },
+    {
+     "term": "bear",
+     "meaning": "suportar, aguentar"
+    },
+    {
+     "term": "reckoning",
+     "meaning": "cálculo, conta"
+    },
+    {
+     "term": "sealed",
+     "meaning": "lacrado"
+    },
+    {
+     "term": "sneer",
+     "meaning": "sorriso de desprezo"
+    },
+    {
+     "term": "dusk",
+     "meaning": "crepúsculo, entardecer"
+    }
+   ]
+  },
+  {
+   "title": "Smerdyakov Speaks",
+   "paragraphs": [
+    "When Alyosha came into the house, dinner was over and the family were sitting with their brandy and coffee. Ivan sat at the table with his father. In the doorway stood Grigory and, just behind him, Smerdyakov, who had been allowed to stay and listen. Fyodor Pavlovich was in a cheerful, malicious mood.",
+    "“Here's our monk!” he cried. “Sit down, Alyosha, have some coffee. Listen to our Balaam's ass. He's begun to talk!”",
+    "Balaam's ass was Fyodor Pavlovich's nickname for Smerdyakov, who usually said nothing for days. Now, it seemed, he had started to argue with Grigory. The old servant had told a story about a Russian soldier who had been captured by Muslims far away. They had ordered him to give up his Christian faith or be tortured to death. The soldier refused, and he was skinned alive, dying with praise for Christ on his lips.",
+    "“That soldier was a hero,” said Grigory. “He'll go straight to heaven.”",
+    "“Even if he was a hero,” said Smerdyakov in his precise, affected voice, “there would have been no sin in giving up his faith in that situation. I'd say, on the contrary, that he could have saved his life and used it for good deeds afterwards, and so made up for his small cowardice.”",
+    "“How can it be no sin? You'll go to hell and be roasted like mutton for saying that!” shouted Grigory.",
+    "Smerdyakov smiled thinly. “Consider, Grigory Vasilyevich. As soon as I say to my torturers, I am not a Christian, I curse my God, then at that very moment, before I've even finished saying it, I'm cut off from the Church by God's own judgement. I'm like a heathen. So when I'm no longer a Christian, how can I be judged as one? Who can ask a heathen why he wasn't a Christian?”",
+    "Fyodor Pavlovich roared with laughter. “Casuist! Jesuit! Where did he learn all this? Grigory, he's beaten you. Hasn't he, Ivan?”",
+    "“And besides,” Smerdyakov went on calmly, “Scripture says that if you have faith as small as a grain of mustard seed, you can tell a mountain to move into the sea and it will move. Well, Grigory Vasilyevich, try telling that mountain over there to move. It won't, because you don't have that faith, and neither does anyone else, except perhaps two hermits in the desert. So if nobody has true faith, God will surely forgive everyone, and He'll forgive me too.”",
+    "Ivan watched Smerdyakov with an odd, attentive look. Fyodor Pavlovich, by now quite drunk, sent the servants away and turned to his sons.",
+    "“Ivan, tell me, is there a God or not? Only seriously! I want it seriously now.”",
+    "“No, there is no God.”",
+    "“Alyosha, is there a God?”",
+    "“There is.”",
+    "“Ivan, and is there immortality, some sort of immortality, just a little, just a tiny bit?”",
+    "“There is no immortality either.”",
+    "“None at all?”",
+    "“None at all.”",
+    "“Alyosha, is there immortality?”",
+    "“There is.”",
+    "“God and immortality?”",
+    "“God and immortality. In God is immortality.”",
+    "“Hm. It's more likely Ivan is right. Good Lord, to think what faith and energy man has wasted on that dream, and for so many thousands of years! Who is laughing at mankind, Ivan? For the last time, is there a God or not?”",
+    "“For the last time, no.”",
+    "“Then who is laughing at people?”",
+    "“It must be the devil,” said Ivan, smiling.",
+    "“And is there a devil?”",
+    "“No, there's no devil either.”",
+    "“Pity. Damn it, what wouldn't I do to the man who first invented God! Hanging would be too good for him.”",
+    "“There would have been no civilisation if they hadn't invented God,” said Ivan.",
+    "The old man's mood suddenly changed. He began to talk about Alyosha's mother, the poor shrieking woman, and how he had once spat on her icon to prove there was nothing miraculous about it. Alyosha jumped up, his face white, his hands trembling, and suddenly fell back into his chair in a fit exactly like his mother's, sobbing and shaking.",
+    "“Ivan! Water! He's like her, exactly like his mother!”",
+    "“But his mother was my mother too, I believe,” said Ivan, with a cold contempt that frightened even the old man."
+   ],
+   "glossary": [
+    {
+     "term": "malicious",
+     "meaning": "malicioso, maldoso"
+    },
+    {
+     "term": "affected",
+     "meaning": "afetado, artificial"
+    },
+    {
+     "term": "cowardice",
+     "meaning": "covardia"
+    },
+    {
+     "term": "heathen",
+     "meaning": "pagão"
+    },
+    {
+     "term": "roared with laughter",
+     "meaning": "caiu na gargalhada"
+    },
+    {
+     "term": "casuist",
+     "meaning": "casuísta (quem usa argumentos sutis e enganosos)"
+    },
+    {
+     "term": "mustard seed",
+     "meaning": "grão de mostarda"
+    },
+    {
+     "term": "shrieking",
+     "meaning": "que gritava de forma aguda"
+    }
+   ]
+  },
+  {
+   "title": "The Fight in the Hall",
+   "paragraphs": [
+    "At that moment there was a terrible noise in the hall. The door flew open and Dmitri burst into the room, with Grigory and Smerdyakov trying to hold him back.",
+    "“She's here!” he shouted. “I saw her come in! Where is she?”",
+    "Fyodor Pavlovich screamed and ran to hide behind Ivan. “Grushenka's here! He says she's here! Catch him, he's going to kill me!”",
+    "Dmitri rushed through the house, looking in every room. He knocked over a table, and a glass vase crashed to the floor. Then he came back into the hall, and the old man, half mad with fear, threw himself at him. Dmitri seized his father by the two tufts of hair that remained on his head, pulled him off his feet and flung him to the floor. Then he kicked him in the face two or three times with his heel. The old man moaned shrilly. Ivan, though he was not as strong as his brother, threw his arms round Dmitri and pulled him away with all his strength. Alyosha helped him from the front.",
+    "“Madman, you've killed him!” cried Ivan.",
+    "“Serves him right!” shouted Dmitri, breathing heavily. “And if I haven't killed him, I'll come back and do it. You can't protect him!”",
+    "“Dmitri! Get out of here at once!” cried Alyosha.",
+    "Dmitri suddenly calmed down. “Alyosha, you tell me. I'll believe only you. Was she here just now, or not? I saw her myself, slipping past the fence towards the house.”",
+    "“I swear to you, she wasn't here, and nobody expected her.”",
+    "“But I saw her... So she must... I'll find out at once where she is. Goodbye, Alyosha. Not a word to Aesop about the money now. But go to Katerina Ivanovna without fail and say: he sends his greetings. Describe this scene to her too.”",
+    "Meanwhile Ivan and Grigory had lifted the old man and sat him in an armchair. His face was covered with blood, but he was conscious and listened to Dmitri's cries.",
+    "Dmitri turned at the door and spoke to his father with icy contempt. “I don't repent of your blood, old man! Beware, old man, beware of your dream, because I have a dream too. I curse you myself and disown you completely.” And he ran out of the room.",
+    "They put Fyodor Pavlovich to bed with a wet towel on his head. He kept muttering, “He'll kill me. He'll kill me. And Grushenka... Ivan, she wasn't here, was she?”",
+    "Afterwards Ivan and Alyosha went outside into the yard. Ivan was pale and his lips were tight.",
+    "“If it hadn't been for me, Dmitri might have killed him,” said Ivan. “He's very weak.”",
+    "“God forbid!” said Alyosha.",
+    "“Why forbid it?” said Ivan in the same low voice, with a strange twist of his mouth. “One reptile will devour the other. And serve them both right.”",
+    "Alyosha shuddered.",
+    "“Of course I won't let a murder happen, any more than I let it happen just now,” Ivan went on, softening. “Stay here, Alyosha, I'll be in the yard.”",
+    "Later, when Alyosha went in to say goodnight, the old man held his hand. “Alyosha, my angel, tell me the truth. Has Grushenka been here? Did she come? Find out from her yourself. Find out with your own eyes whether she wants to marry me or Dmitri. Will you?”",
+    "“If I see her, I'll ask her,” said Alyosha in confusion.",
+    "“No, she won't tell you. She's a little rogue,” said the old man, and he closed his eyes."
+   ],
+   "glossary": [
+    {
+     "term": "burst into",
+     "meaning": "irrompeu em, entrou de repente"
+    },
+    {
+     "term": "tufts",
+     "meaning": "tufos"
+    },
+    {
+     "term": "flung",
+     "meaning": "atirou, jogou com força"
+    },
+    {
+     "term": "moaned",
+     "meaning": "gemeu"
+    },
+    {
+     "term": "serves him right",
+     "meaning": "bem feito para ele"
+    },
+    {
+     "term": "disown",
+     "meaning": "renego, deserdo"
+    },
+    {
+     "term": "devour",
+     "meaning": "devorar"
+    },
+    {
+     "term": "shuddered",
+     "meaning": "estremeceu"
+    }
+   ]
+  },
+  {
+   "title": "Two Proud Women",
+   "paragraphs": [
+    "Alyosha went straight from his father's house to Katerina Ivanovna. He had been sent by Dmitri with the message, and he dreaded it. Katerina Ivanovna received him at once, and she was not alone. To his amazement, sitting on the sofa in the drawing room was Grushenka herself.",
+    "Katerina Ivanovna was a tall, dark, very beautiful young woman with proud eyes and a firm mouth. She looked excited, almost feverish. Grushenka was quite different: plump, soft, with fair hair and a white face, slow graceful movements and a sweet, childish smile. She spoke in a soft, sing-song voice. There was something gentle and charming about her, and yet Alyosha felt something dangerous too.",
+    "“Here's Alexei Fyodorovich! You've come at just the right moment,” said Katerina Ivanovna. “Agrafena Alexandrovna has come to see me. We understand each other perfectly. She has told me everything. She loved a Polish officer five years ago. He abandoned her, but now he is free and he has written to her, and she is going to marry him. She never loved your brother Dmitri, she told me so herself. Isn't that right, my dear angel?”",
+    "Katerina Ivanovna seized Grushenka's plump little hand and kissed it, again and again, in a kind of ecstasy.",
+    "“You've got to love me, and I'll do anything for you,” Grushenka murmured sweetly. “Look how you kiss my hand, dear lady. But you know, I may not marry the Pole after all. I'm a capricious woman. I'm quite capable of changing my mind. I promised nothing. Dmitri Fyodorovich might take my fancy again.”",
+    "Katerina Ivanovna turned pale. “But you just said...”",
+    "“Oh, I just said! I'm such a silly creature.” Grushenka lifted the lady's hand to her own lips as if to kiss it in return. She held it there for a long moment, smiling, and Katerina Ivanovna waited, trembling with emotion. Then Grushenka said softly, “Do you know, dear lady, I think I won't kiss your hand after all.” She laughed a little silvery laugh. “I'll go and tell Mitya how you kissed my hand, and I didn't kiss yours. How he'll laugh!”",
+    "“Creature! Get out!” screamed Katerina Ivanovna, losing control.",
+    "“What, a young lady using such a word! You went to a gentleman's rooms at night for money, didn't you? You took your beauty to sell it. I know all about it.”",
+    "Katerina Ivanovna would have struck her if Alyosha had not held her back. Grushenka went out laughing. Katerina Ivanovna fell into hysterics. Alyosha, completely confused, could not even remember why he had come, and when at last she asked, he stammered out his brother's message.",
+    "“He sends his greetings. He told me to say that, nothing else.”",
+    "She looked at him strangely, and for a moment her face showed real pain. Then she drew herself up. “Thank you. Go now. Come tomorrow.”",
+    "On the road back towards the monastery, in the dark, a figure jumped out at him and he cried out in fright. It was Dmitri, laughing.",
+    "“Ha! Did I scare you? So, what happened? Tell me.”",
+    "Alyosha told him the whole scene. Dmitri listened, frowning at first, and then burst out laughing at the story of the hand.",
+    "“She didn't kiss it! She ran away! That's my Grushenka. She's the queen of all infernal women. And Katya, proud Katya, kissing her hand!” Then his face changed. “No, it's not funny. And what she said about Katya coming to me for money, that's my fault too. I told Grushenka the story myself, in a drunken moment. I betrayed Katya's secret. I'm a scoundrel, Alyosha.”",
+    "He struck his chest, at a spot just below his neck, as if there was something hidden there. “Look here. Right here, on my breast, I'm carrying a terrible disgrace. I could get rid of it tomorrow. I could restore half my honour. But I won't do it. I'm a scoundrel, and I'll stay one. Remember this place on my chest. Remember I told you. Goodbye, and don't pray for me. I'm not worth it.” He walked away without looking back. Alyosha did not understand at all what he meant."
+   ],
+   "glossary": [
+    {
+     "term": "dreaded",
+     "meaning": "temia"
+    },
+    {
+     "term": "drawing room",
+     "meaning": "sala de visitas"
+    },
+    {
+     "term": "plump",
+     "meaning": "rechonchuda"
+    },
+    {
+     "term": "capricious",
+     "meaning": "caprichosa, volúvel"
+    },
+    {
+     "term": "take my fancy",
+     "meaning": "me agradar, me atrair"
+    },
+    {
+     "term": "hysterics",
+     "meaning": "crise histérica"
+    },
+    {
+     "term": "stammered",
+     "meaning": "gaguejou"
+    },
+    {
+     "term": "scoundrel",
+     "meaning": "canalha, patife"
+    }
+   ]
+  },
+  {
+   "title": "The Captain and His Son",
+   "paragraphs": [
+    "The next day brought Alyosha more errands and more sorrows. First he went back to his father, who was still in bed with a bandaged head and was in a bitter mood. “I won't give Dmitri a penny,” he said. “I want to live as long as possible, my boy, and for that I need every rouble. I mean to go on sinning to the very end. Sin is sweet. Everyone condemns it, but everyone lives in it, only they do it in secret, and I do it openly.”",
+    "On his way into town Alyosha passed a group of schoolboys throwing stones at a small, pale boy of about nine, who stood alone on the other side of a ditch and threw stones back at them. One stone hit Alyosha painfully on the shoulder. When he went towards the lonely boy, the child looked at him with burning eyes, threw another stone, and then, as Alyosha came closer, seized his hand and bit his finger to the bone.",
+    "“I don't know you,” said Alyosha calmly, wrapping his finger in his handkerchief. “But I must have done something to you, or you wouldn't hurt me like that. What have I done?”",
+    "The boy burst into tears and ran away. The other boys told Alyosha that his name was Ilyusha and that he was a “mad little thing” who attacked anyone who mentioned a certain bath sponge.",
+    "Alyosha soon understood. At Katerina Ivanovna's house, where he went next, he learned the story. A week earlier Dmitri, drunk and furious about some business affair, had dragged a poor retired army captain, Snegiryov, out of a tavern by his beard, which the boys called his “bath sponge”, and pulled him through the square in front of everyone. The captain's little son, Ilyusha, had run beside them, crying and begging, “Daddy, Daddy!”, and kissing Dmitri's hands and asking him to let his father go.",
+    "Katerina Ivanovna gave Alyosha two hundred roubles to take to the captain, as a gift, so that he would not feel insulted. But first, in front of Ivan and Madame Khokhlakova, she made a strange, passionate speech.",
+    "“I have decided,” she said, with flashing eyes, “that even if Dmitri marries that creature, I will never leave him. I will watch over him all my life. I will be his god, to whom he prays. I will become nothing but a means for his happiness, an instrument, a machine for his happiness, and that for my whole life, so that he will see it.”",
+    "Ivan, who was in love with her, as Alyosha now clearly saw, answered quietly that he was leaving for Moscow, perhaps for ever. “Another woman would suffer from your feelings,” he said. “You need to look at your own heroism, you need to be in pain over Dmitri. You'll never leave him.” Then he went out.",
+    "Alyosha suddenly cried out, “You don't love Dmitri at all! You love Ivan, and you torment him because of your pride. You've never loved Dmitri.” Katerina Ivanovna turned white and told him coldly that he was a little holy fool, and Alyosha left, ashamed of having spoken.",
+    "He found Captain Snegiryov's family in a miserable room in a little wooden house. There was a crippled, half-mad wife, a hunchbacked daughter, another daughter who was a student, and, on a bed in the corner, Ilyusha, ill with fever. The captain was a thin, bitter, clownish man who mocked himself all the time. He took Alyosha outside, and Alyosha told him about the money.",
+    "The captain could hardly believe it. Two hundred roubles! With that he could take his sick wife and daughter to a better town, buy medicine, feed the children. He laughed with joy and talked excitedly about the future. Then he told Alyosha about his son.",
+    "“That evening, after your brother pulled my beard, Ilyusha said to me, Daddy, how he hurt you! And then he said: Daddy, when I grow up I'll challenge him to a duel and I'll kill him. I'll knock him down, take my sword, and say: I could kill you, but I forgive you. That's the sort of boy he is. He hasn't been the same since. The other boys tease him about the bath sponge.”",
+    "Then, all at once, the captain's face changed. He looked at the two crisp notes in his hand, crumpled them in his fist, and flung them on the sand.",
+    "“And what would I say to my boy if I took money from you for our shame?” he cried, trembling. He stamped on the notes with his heel, grinding them into the ground. “Tell those who sent you that the bath sponge does not sell his honour!” And he ran back into the house. Alyosha stood looking after him. Then he picked up the notes, smoothed them out, and put them in his pocket. He understood that the captain would accept them tomorrow, now that he had kept his pride today."
+   ],
+   "glossary": [
+    {
+     "term": "errands",
+     "meaning": "recados, incumbências"
+    },
+    {
+     "term": "ditch",
+     "meaning": "vala, fosso"
+    },
+    {
+     "term": "bath sponge",
+     "meaning": "esponja de banho"
+    },
+    {
+     "term": "tavern",
+     "meaning": "taberna"
+    },
+    {
+     "term": "crippled",
+     "meaning": "aleijada, inválida"
+    },
+    {
+     "term": "hunchbacked",
+     "meaning": "corcunda"
+    },
+    {
+     "term": "crumpled",
+     "meaning": "amassou"
+    },
+    {
+     "term": "stamped on",
+     "meaning": "pisou com força em"
+    }
+   ]
+  },
+  {
+   "title": "The Brothers Get Acquainted",
+   "paragraphs": [
+    "That evening, on his way back to his father's house, Alyosha learned that Ivan was in a little tavern called the Metropolis, and he went in. Ivan was sitting by a window, eating fish soup and drinking tea. He seemed pleased to see his brother.",
+    "“Come and sit with me. Will you have some fish soup? You don't live on tea alone, I suppose. And some cherry jam? You used to love cherry jam when you were little, do you remember?”",
+    "“You remember that?”",
+    "“I remember everything. I was fifteen when I left you, and you were eleven. Brothers who live four years apart never become close. Now we've lived three months in the same house and we haven't said a word to each other. I'm going away tomorrow, so I thought: let me get to know my little brother at last.”",
+    "Ivan was very different that evening. He talked warmly, like a young man, almost like a boy. He confessed that he loved life.",
+    "“Though I may not believe in the order of things, still the sticky little leaves that open in the spring are dear to me. The blue sky is dear to me. Some people are dear to me, though I don't know why. I want to live, Alyosha, and I go on living, even against logic. I know I'll go to Europe, and I know I'll be going to a graveyard, but to the dearest of graveyards. I'll fall on the earth there and kiss those stones and weep over them. If I lose faith in the woman I love, if I lose faith in the order of things, if I'm even convinced that everything is a disorderly, damned and perhaps devilish chaos, still I'll want to live. I'll drink from that cup until I'm thirty, and then I'll throw it away.”",
+    "“I think everyone must love life above everything in the world,” said Alyosha.",
+    "“Love life more than the meaning of it?”",
+    "“Certainly. Love it before logic, as you say. Only then will you understand its meaning. Half your work is done, Ivan. You love life. Now you only have to do the second half, and you will be saved.”",
+    "Ivan laughed. “You're already saving me, though perhaps I'm not perishing. And what is your second half?”",
+    "“To raise up your dead, who perhaps have never died.”",
+    "They talked about Dmitri and their father. “Am I my brother Dmitri's keeper?” said Ivan irritably. Then he caught himself. “That's Cain's answer to God about his murdered brother, isn't it? Perhaps that's what you're thinking. But I can't stay here and be their guardian. I have my own affairs.”",
+    "Then he grew serious. “Let's talk about what Russian boys always talk about. They meet in some dirty tavern for an hour, and what do they talk about? About the eternal questions. Whether there is a God, whether there is immortality. And those who don't believe in God talk about socialism and anarchism and changing the whole of humanity, which comes to the same thing, the same questions from the other end. You want to know my faith, don't you? You came for that.”",
+    "“Yes,” said Alyosha, smiling.",
+    "“Well, then. Imagine this. I accept God, plainly and simply. If God exists and created the world, then He made it according to Euclid's geometry, and he gave man a mind that can understand only three dimensions of space. Yet there are mathematicians, even now, who dare to dream that two parallel lines, which according to Euclid can never meet on earth, may meet somewhere in infinity. I've decided that if I can't understand even that, how can I understand God? I have a Euclidean, earthly mind. So I accept God, and I accept His wisdom and His purpose, which are beyond us. I believe in the eternal harmony in which they say we shall all be united at the end.”",
+    "He paused, and his face became pale.",
+    "“And yet, in the end, I don't accept this world of God's. Even though I know it exists, I don't accept it. It's not that I don't accept God, you understand. It's the world He created that I don't accept, and cannot accept.”",
+    "“Will you explain why?” said Alyosha quietly.",
+    "“Of course. That's what I've been leading up to. My dear little brother, I don't want to corrupt you or knock you off your foundation. Perhaps I want to be healed by you.” Ivan smiled, very gently, in a way Alyosha had never seen before."
+   ],
+   "glossary": [
+    {
+     "term": "sticky",
+     "meaning": "pegajosas"
+    },
+    {
+     "term": "graveyard",
+     "meaning": "cemitério"
+    },
+    {
+     "term": "perishing",
+     "meaning": "perecendo, morrendo"
+    },
+    {
+     "term": "keeper",
+     "meaning": "guardião, protetor"
+    },
+    {
+     "term": "caught himself",
+     "meaning": "conteve-se, percebeu o que dizia"
+    },
+    {
+     "term": "harmony",
+     "meaning": "harmonia"
+    },
+    {
+     "term": "leading up to",
+     "meaning": "chegando a, preparando"
+    },
+    {
+     "term": "corrupt",
+     "meaning": "corromper"
+    }
+   ]
+  },
+  {
+   "title": "Rebellion",
+   "paragraphs": [
+    "“I must make a confession,” Ivan began. “I could never understand how it's possible to love one's neighbours. It's precisely one's neighbours, it seems to me, that it's impossible to love, though perhaps people far away can be loved. To love a man, he must be hidden. As soon as he shows his face, love disappears. But let's leave that. I meant to talk about the suffering of mankind in general, but let's speak only of the suffering of children. That makes my argument ten times smaller, but it's better that way. Children haven't eaten the apple. They're not guilty of anything yet.”",
+    "He drank some tea and went on, in a level, almost dull voice, which made what he said even more terrible.",
+    "“People speak of a man's bestial cruelty, but that's unfair to the beasts. A beast can never be as cruel as a man, so artistically cruel. A tiger only tears and gnaws, that's all it can do. It would never occur to him to nail people's ears to a fence overnight. I've been collecting stories, Alyosha, from newspapers, from books. I have a fine little collection.",
+    "“Here is one. A little girl of five was hated by her parents, educated, respectable people. They beat her, kicked her, flogged her, for no reason. Then, on cold frosty nights, they locked her up all night in the outdoor toilet, because she didn't ask to be taken out at night, as if a child of five could wake up in time. They smeared her face with filth and made her eat it, and it was her mother who did it. And that mother could sleep at night while her poor child moaned in that vile place! Can you understand why a little creature who can't even understand what's being done to her should beat her little breast with her tiny fist in the dark and the cold, and weep her meek, unresentful tears to dear, kind God to protect her? Do you understand that, my friend and brother, my pious novice? Without it, they say, man could not have existed on earth, because he could not have known good and evil. Why should we know that diabolical good and evil, when it costs so much? The whole world of knowledge is not worth that child's prayer to dear, kind God.”",
+    "Alyosha sat with his head bowed.",
+    "“Here's another. It happened at the beginning of this century, in the darkest days of serfdom. There was a general, a very rich landowner, with hundreds of hunting dogs and nearly a hundred dog-boys. A serf boy of eight threw a stone in play and hurt the paw of the general's favourite hound. The general had the child locked up for the night. In the morning, at dawn, he came out on horseback in full hunting dress, with his dogs and his servants, and all the serfs were brought out to watch, and in front of them all, the child's mother. The boy was stripped naked. He shivered, numb with terror, not daring to make a sound. Then the general shouted, Make him run! Run! And the boy ran. And the general set the whole pack of hounds on him. They tore him to pieces before his mother's eyes.",
+    "“Well, what should be done with that general? Should he be shot? Speak, Alyosha!”",
+    "“He should be shot,” said Alyosha softly, lifting his eyes to his brother with a pale, twisted smile.",
+    "“Bravo!” cried Ivan, delighted. “If even you say so, then... So there's a little devil sitting in your heart too, Alyosha Karamazov!”",
+    "“What I said was absurd, but...”",
+    "“That's just it. Absurdities are too necessary on earth. I don't understand anything, and I don't want to understand. I want to stick to the facts. Listen. If all must suffer in order to pay for eternal harmony, what have children to do with it? Tell me, please. Why should they suffer too, and pay for harmony? I understand that everything is connected, that perhaps on that day all will rise up and sing, Thou art just, O Lord! Perhaps the mother will embrace the general who set the dogs on her son, and all three will cry with tears, Thou art just, O Lord! But I don't want it. I don't want the mother to embrace the torturer. Let her forgive him for her own suffering, if she wants to. But she has no right to forgive the sufferings of her tortured child. And if that is so, if no one has the right to forgive, where is the harmony?",
+    "“I don't want harmony. From love for humanity, I don't want it. Too high a price is asked for it. We can't afford to pay so much to enter. And so I hasten to give back my entrance ticket. It's not God that I don't accept, Alyosha. I just most respectfully return Him the ticket.”",
+    "“That's rebellion,” murmured Alyosha, looking down.",
+    "“Rebellion? I'm sorry to hear you call it that. One can't live in rebellion, and I want to live. Tell me yourself, honestly. Imagine that you are building the edifice of human destiny, with the aim of making men happy in the end, giving them peace and rest at last. But to do it you must torture to death only one tiny creature, that baby beating its breast with its fist, and build your building on its unavenged tears. Would you agree to be the architect on those conditions? Tell me the truth.”",
+    "“No, I wouldn't,” said Alyosha softly."
+   ],
+   "glossary": [
+    {
+     "term": "level",
+     "meaning": "monótona, sem altos e baixos (voz)"
+    },
+    {
+     "term": "gnaws",
+     "meaning": "rói"
+    },
+    {
+     "term": "flogged",
+     "meaning": "açoitavam"
+    },
+    {
+     "term": "meek",
+     "meaning": "mansas, humildes"
+    },
+    {
+     "term": "serfdom",
+     "meaning": "servidão"
+    },
+    {
+     "term": "stripped",
+     "meaning": "despido"
+    },
+    {
+     "term": "numb",
+     "meaning": "entorpecido, paralisado"
+    },
+    {
+     "term": "hasten",
+     "meaning": "apresso-me"
+    }
+   ]
+  },
+  {
+   "title": "The Grand Inquisitor",
+   "paragraphs": [
+    "“But there is a Being who can forgive everything,” said Alyosha, his eyes flashing. “Everyone and for everything, because He gave His innocent blood for all. You've forgotten Him, and the building is founded on Him.”",
+    "“Ah, the one without sin and His blood! No, I haven't forgotten Him. I was surprised you hadn't mentioned Him for so long. Do you know, Alyosha, don't laugh, I once wrote a poem, about a year ago. If you can spare me ten minutes, I'll tell it to you. It's called The Grand Inquisitor.”",
+    "“You wrote a poem?”",
+    "“Oh no, I never wrote it down, I've never written two lines of verse in my life. But I made it up, and I remember it. You'll be my first reader, or rather listener.",
+    "“The action takes place in Spain, in Seville, in the most terrible time of the Inquisition, when fires were lit every day to the glory of God, and heretics were burned in magnificent ceremonies. In His infinite mercy He came once more among men, in the form in which He walked on earth fifteen hundred years before. He came quietly, unseen. And yet, strange to say, everyone recognised Him.",
+    "“The day before, in the presence of the king, the court, the knights, the cardinals and the most charming ladies, almost a hundred heretics had been burned at once by the old Grand Inquisitor. Now He walked among the people, with a gentle smile of infinite compassion. The sun of love burned in His heart, and light and power shone from His eyes, and their radiance awakened answering love in people's hearts. He stretched out His hands to them, blessed them, and an old man who had been blind from childhood cried out, Lord, heal me, and I shall see Thee! And it was as if scales fell from his eyes, and he saw.",
+    "“On the steps of the cathedral, people were weeping and carrying in a small open white coffin. In it lay a child of seven, the only daughter of an important citizen. Her mother cried out, If it is You, raise my child! And He looked with compassion, and His lips softly pronounced once again, Talitha cumi, and the maiden arose. The little girl sat up in her coffin and looked round, smiling, with wide-open, wondering eyes, holding the bunch of white roses they had put in her hand.",
+    "“There was crying and sobbing and confusion among the people, and at that very moment the cardinal himself, the Grand Inquisitor, passed by the cathedral. He was an old man, almost ninety, tall and erect, with a withered face and sunken eyes, in which a gleam still shone like a fiery spark. He had seen everything. He saw the child rise up, and his face darkened. He frowned, and pointed his finger, and ordered the guards to take Him. And such was his power, so completely were the people used to obeying him, that the crowd immediately made way for the guards. In the deathlike silence, they laid hands on Him and led Him away. The crowd bowed down to the ground before the old Inquisitor, who blessed them in silence and passed on.",
+    "“The guards took the Prisoner to a gloomy vaulted cell in the ancient palace of the Holy Inquisition and locked Him in. The day passed and was followed by the dark, burning, breathless night of Seville. The air was fragrant with laurel and lemon. In the darkness, the iron door of the prison was suddenly opened, and the Grand Inquisitor himself came slowly in, with a light in his hand. He was alone. The door closed behind him. He stood in the doorway and for a long time, for a minute or two, gazed into the Prisoner's face. Then he set the light on the table and spoke.",
+    "“Is it You? You? But He receives no answer, and the old man adds at once: Don't answer, be silent. What could You say, indeed? I know too well what You would say. And You have no right to add anything to what You said of old. Why, then, have You come to hinder us? For You have come to hinder us, and You know that. But do You know what will be tomorrow? I don't know who You are, and I don't care to know whether it is You or only a likeness of Him, but tomorrow I shall condemn You and burn You at the stake as the worst of heretics. And the very people who today kissed Your feet will tomorrow, at the faintest sign from me, rush to heap up the embers of Your fire. Do You know that? Yes, maybe You know it.”",
+    "“I don't quite understand, Ivan,” said Alyosha, who had been listening in silence. “Is it simply a wild fantasy, or a mistake on the part of the old man, some impossible quiproquo?”",
+    "“Take it as the last,” said Ivan, laughing. “If you're so spoiled by modern realism. Let it be a mistake. The old man is ninety and might have gone mad over his idea long ago. But listen to what he says next. That's the point of the whole thing.”"
+   ],
+   "glossary": [
+    {
+     "term": "spare",
+     "meaning": "dispor de, ceder"
+    },
+    {
+     "term": "heretics",
+     "meaning": "hereges"
+    },
+    {
+     "term": "radiance",
+     "meaning": "brilho, esplendor"
+    },
+    {
+     "term": "maiden",
+     "meaning": "donzela, menina"
+    },
+    {
+     "term": "withered",
+     "meaning": "murcho, enrugado"
+    },
+    {
+     "term": "vaulted",
+     "meaning": "abobadado"
+    },
+    {
+     "term": "hinder",
+     "meaning": "atrapalhar, impedir"
+    },
+    {
+     "term": "embers",
+     "meaning": "brasas"
+    }
+   ]
+  },
+  {
+   "title": "The Three Temptations",
+   "paragraphs": [
+    "“The old man speaks,” Ivan went on, “and the Prisoner only listens, looking at him gently and saying nothing.",
+    "“You want to go into the world with empty hands, the old man says, with some promise of freedom which men, in their simplicity and their natural unruliness, cannot even understand, which they fear and dread. For nothing has ever been more unbearable to man and to human society than freedom. Remember the wise and terrible spirit who spoke to You in the wilderness, the spirit of self-destruction and non-being. He asked You three questions. If all the wisest men on earth were gathered together to invent three questions that would sum up the whole future history of the world, they could not have invented anything deeper or more powerful than those three questions.",
+    "“The first. You were hungry in the desert, and he said: Turn these stones into bread, and mankind will run after You like a flock of sheep, grateful and obedient, though forever trembling in case You take away Your hand and stop giving them bread. But You did not want to deprive man of freedom, and You refused, for what kind of freedom is it, You thought, if obedience is bought with loaves of bread? You replied that man does not live by bread alone. But do You know that, in the name of this earthly bread, the spirit of the earth will rise against You? Centuries will pass, and mankind will proclaim through the mouths of its wise men that there is no crime and therefore no sin. There are only hungry people. Feed them first, and then ask them to be virtuous! That's what they'll write on the banner they raise against You.",
+    "“And in the end they will lay their freedom at our feet and say to us: Make us your slaves, but feed us. They will understand at last that freedom and bread enough for all are unthinkable together, for never, never will they be able to share between them. You promised them the bread of heaven, but can that compare with earthly bread in the eyes of the weak, ever sinful and ungrateful human race? There is no more painful anxiety for man than to find someone quickly to whom he can hand over that gift of freedom with which he was born.",
+    "“The second. The spirit set You on the pinnacle of the temple and said: If You would know whether You are the Son of God, then cast Yourself down, for it is written that the angels will catch You. But You refused. You knew that if You took one step to throw Yourself down, You would be tempting God and would lose all faith in Him. You would not come down from the cross, either, when they shouted to You, Come down from the cross, and we will believe that You are He. You did not come down because You did not want to enslave man by a miracle. You wanted faith given freely, not based on miracles. But man seeks not so much God as the miraculous. And since he cannot bear to be without the miraculous, he will create new miracles of his own, and bow down to the magic of a witch.",
+    "“There are three powers, only three, that can conquer and hold captive forever the conscience of these weak rebels for their happiness. Those powers are miracle, mystery and authority. You rejected all three. We have corrected Your work and founded it upon miracle, mystery and authority. And men rejoiced that they were again led like sheep, and that the terrible gift that had brought them so much suffering had at last been lifted from their hearts.",
+    "“The third. The spirit offered You all the kingdoms of the earth, the sword of Caesar. You refused that too. But we took it. We took the sword of Caesar, and in taking it, of course, we rejected You and followed him. Oh, there are still ages of free thought and science and cannibalism to come, for having begun to build their tower of Babel without us, they will end, of course, with cannibalism. But then the beast will crawl to us and lick our feet and spatter them with tears of blood. And we shall sit upon the beast and raise the cup, and on it will be written: Mystery.",
+    "“Then, the old man says, we shall give them a quiet, humble happiness, the happiness of weak creatures, such as they are by nature. We shall allow them even to sin, because they are weak and helpless, and they will love us like children because we allow them to sin. We shall tell them that every sin will be forgiven if it is done with our permission. And all will be happy, all the millions of creatures, except the hundred thousand who rule over them. For only we, who guard the mystery, shall be unhappy. There will be thousands of millions of happy babes, and a hundred thousand sufferers who have taken upon themselves the curse of the knowledge of good and evil. Peacefully they will die, peacefully they will fade away in Your name, and beyond the grave they will find nothing but death. But we shall keep the secret, and for their happiness we shall lure them with the reward of heaven and eternity.",
+    "“Tomorrow, the old man says, You shall see that obedient flock, which at the first sign from me will rush to heap up the hot embers around the stake at which I shall burn You for coming to hinder us. For if anyone has ever deserved our fires, it is You. Tomorrow I shall burn You. I have spoken.”"
+   ],
+   "glossary": [
+    {
+     "term": "unruliness",
+     "meaning": "indisciplina, rebeldia"
+    },
+    {
+     "term": "wilderness",
+     "meaning": "deserto, região selvagem"
+    },
+    {
+     "term": "deprive",
+     "meaning": "privar"
+    },
+    {
+     "term": "loaves",
+     "meaning": "pães"
+    },
+    {
+     "term": "banner",
+     "meaning": "estandarte, bandeira"
+    },
+    {
+     "term": "pinnacle",
+     "meaning": "pináculo, ponto mais alto"
+    },
+    {
+     "term": "enslave",
+     "meaning": "escravizar"
+    },
+    {
+     "term": "lure",
+     "meaning": "atrair, seduzir"
+    }
+   ]
+  },
+  {
+   "title": "The Kiss",
+   "paragraphs": [
+    "Ivan stopped. He had grown flushed as he talked, and now he smiled.",
+    "Alyosha had listened in silence, but towards the end he had grown very agitated and had tried several times to interrupt. Now the words burst out of him.",
+    "“But that's absurd!” he cried, blushing. “Your poem is in praise of Jesus, not in blame of Him, as you meant it to be. And who will believe you about freedom? Is that the way to understand it? That's not the idea of it in the Orthodox Church. That's Rome, and not even the whole of Rome, that's not true. It's the worst of the Catholics, the Inquisitors, the Jesuits! And there could not be such a fantastic creature as your Inquisitor. What are these sins of mankind they take on themselves? Who are these keepers of the mystery who have taken some curse upon themselves for the happiness of mankind? Your suffering Inquisitor is a mere fantasy. They simply want power, filthy earthly riches, slavery. That's all.”",
+    "“Stop, stop,” laughed Ivan. “How excited you are! A fantasy, you say. Let it be so! But tell me, isn't it possible that there was at least one man among them who was tormented by great sadness, who loved humanity? Suppose there was one such old man, who spent his life in the desert eating roots and struggling to conquer his flesh, to make himself free and perfect. And then at the end of it he saw that the moral bliss of becoming perfect was nothing, if millions of God's creatures had been created only as a mockery, that they would never be strong enough to manage their freedom. Isn't that tragic? And if there was even one such man at the head of the whole army, wouldn't that be enough to make a tragedy?”",
+    "“But how does your poem end?” asked Alyosha suddenly, looking down. “Or was that the end?”",
+    "“I meant to end it like this. When the Inquisitor stopped speaking, he waited some time for his Prisoner to answer him. His silence weighed down upon him. He saw that the Prisoner had listened intently all the time, looking gently into his face and evidently not wishing to reply. The old man longed for Him to say something, however bitter and terrible. But He suddenly approached the old man in silence and softly kissed him on his bloodless, ninety-year-old lips. That was all His answer. The old man shuddered. His lips moved. He went to the door, opened it, and said to Him: Go, and come no more. Come not at all, never, never! And he let Him out into the dark streets of the town. The Prisoner went away.”",
+    "“And the old man?”",
+    "“The kiss glows in his heart, but the old man keeps to his idea.”",
+    "“And you with him, you too?” cried Alyosha sadly. Ivan laughed.",
+    "“Why, it's all nonsense, Alyosha. It's only a senseless poem of a senseless student, who could never write two lines of verse. Why do you take it so seriously? I tell you, all I want is to live on until I'm thirty, and then dash the cup to the ground.”",
+    "“But the sticky little leaves, and the precious graves, and the blue sky, and the woman you love! How will you live, how will you love them?” cried Alyosha. “With such a hell in your heart and your head, how can you? No, that's just why you're going away, to join them. If not, you will kill yourself. You can't endure it!”",
+    "“There is a strength to endure everything,” said Ivan with a cold smile.",
+    "“What strength?”",
+    "“The strength of the Karamazovs. The strength of the Karamazov baseness.”",
+    "“To sink into debauchery, to stifle your soul with corruption? Yes?”",
+    "“Possibly even that. Only perhaps until I'm thirty I shall escape it, and then...”",
+    "“How will you escape it? By what will you escape it? That's impossible with your ideas.”",
+    "“In the Karamazov way, again.”",
+    "“Everything is permitted, you mean? Everything is permitted, is that it?”",
+    "Ivan frowned, and suddenly turned strangely pale. “Ah, you've caught up yesterday's phrase, which so offended Miusov, and which Dmitri pounced on so naively. Yes, if you like, everything is permitted, since the word has been said. I won't deny it.” He looked at his brother. “I thought, Alyosha, that going away from here, I'd have you at least in the whole world. But now I see that there is no place for me even in your heart, my dear hermit. The formula, everything is permitted, I won't renounce. Will you renounce me for it, yes?”",
+    "Alyosha got up, went to him, and without a word kissed him softly on the lips.",
+    "“That's plagiarism!” cried Ivan, with sudden delight. “You stole that from my poem. Thank you, though. Come, Alyosha, it's time we were going, both of us.”",
+    "They went out, but stopped at the door of the tavern.",
+    "“Listen, Alyosha,” said Ivan in a firm voice. “If I am really able to love the sticky little leaves, I shall only love them, remembering you. It's enough for me that you are somewhere here, and I shan't lose my desire for life yet. Now go to your Father Zosima. He's dying, they say. And don't speak to me again about all this. I beg you. Not about Dmitri either.” He turned and walked away without looking back.",
+    "Alyosha watched him go, and noticed for the first time that his brother walked with a slight sway, and that his right shoulder looked lower than his left. Then he turned and almost ran towards the monastery. It was nearly dark, and he felt afraid, without knowing why. A new feeling was growing in him, a feeling he could not explain. He thought of Dmitri, waiting somewhere in the night with his hatred, and of Ivan, walking alone with his terrible idea. But then he remembered that his beloved elder was dying, and he hurried on, forgetting everything else."
+   ],
+   "glossary": [
+    {
+     "term": "flushed",
+     "meaning": "corado, vermelho"
+    },
+    {
+     "term": "mockery",
+     "meaning": "zombaria, escárnio"
+    },
+    {
+     "term": "intently",
+     "meaning": "atentamente"
+    },
+    {
+     "term": "dash",
+     "meaning": "espatifar, arremessar"
+    },
+    {
+     "term": "endure",
+     "meaning": "suportar"
+    },
+    {
+     "term": "baseness",
+     "meaning": "baixeza, vileza"
+    },
+    {
+     "term": "debauchery",
+     "meaning": "devassidão"
+    },
+    {
+     "term": "pounced on",
+     "meaning": "agarrou-se a, atacou"
+    }
+   ]
+  }
+ ]
+}

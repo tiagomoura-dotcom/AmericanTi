@@ -1,0 +1,538 @@
+{
+ "id": "jekyll-hyde",
+ "title": "Dr Jekyll and Mr Hyde",
+ "author": "Robert Louis Stevenson",
+ "year": 1886,
+ "module": 3,
+ "level": "B1",
+ "summary": "Na Londres neblinosa do século XIX, o advogado Mr Utterson fica preocupado com seu velho amigo, o respeitado Dr Henry Jekyll. Por que Jekyll deixou toda a sua fortuna para Edward Hyde, um homem pequeno e cruel que provoca horror em todos que o veem? Enquanto crimes violentos acontecem pela cidade, Utterson investiga a estranha ligação entre os dois homens e se aproxima de um segredo assustador.",
+ "chapters": [
+  {
+   "title": "The Story of the Door",
+   "paragraphs": [
+    "Mr Utterson the lawyer was a serious man. He rarely smiled, he spoke little, and he never seemed very warm. But there was something very human about him, and his friends loved him. He was always ready to help people in trouble, even when they had done bad things. “I let my brother go to the devil in his own way,” he used to say.",
+    "Every Sunday he went for a long walk with his cousin, Mr Richard Enfield. They seemed to have nothing in common, and people wondered what they talked about. But both men looked forward to these walks more than anything else in the week.",
+    "One Sunday they were walking along a busy little street in London. The shops were bright and clean. But on one corner there was a strange, ugly building. It had no windows, only a dirty old door with no bell and no knocker.",
+    "Enfield pointed at it with his stick. “Have you ever noticed that door?” he asked. “It is connected in my mind with a very strange story.”",
+    "“Really?” said Utterson. “What story?”",
+    "“Well, I was coming home at about three o’clock one black winter morning. The streets were empty. Suddenly I saw two people. One was a little man walking quickly along. The other was a girl of about eight or ten, running across the street. They ran into each other at the corner. And then came the horrible part. The man walked calmly over the girl’s body and left her screaming on the ground. It wasn’t like a man. It was like some terrible machine.”",
+    "“How awful,” said Utterson.",
+    "“I ran after him and caught him by the collar,” continued Enfield. “I brought him back to the girl. Her family was there, and a doctor came. We all hated that man at first sight. The doctor went white with the desire to kill him. We told him we would make his name famous for this in all of London, unless he paid. He agreed to pay a hundred pounds to the girl’s family.”",
+    "“And where did he get the money?” asked Utterson.",
+    "“That is the strange part. He took us to that door. He went in with a key, and he came out with ten pounds in gold and a cheque for the rest. The cheque was signed by a very well-known and respected man. I can’t tell you his name. I thought it must be false. But in the morning we went to the bank together, and the cheque was good.”",
+    "Utterson was silent for a moment. “And the man who walked over the child, what was his name?”",
+    "“Hyde. Mr Edward Hyde.”",
+    "“What does he look like?”",
+    "“That is hard to describe,” said Enfield. “There is something wrong with his appearance, something unpleasant, really hateful. I have never seen a man I disliked so much, and yet I hardly know why. He gives a strong feeling that he is deformed somehow, but I cannot say where.”",
+    "“Are you sure he used a key?” asked the lawyer.",
+    "“Absolutely sure.”",
+    "Utterson sighed. “Then I don’t need to ask you the name of the man who signed the cheque. I think I know it already.”",
+    "They agreed never to speak of the story again."
+   ],
+   "glossary": [
+    {
+     "term": "lawyer",
+     "meaning": "advogado"
+    },
+    {
+     "term": "looked forward to",
+     "meaning": "aguardavam ansiosamente"
+    },
+    {
+     "term": "knocker",
+     "meaning": "aldrava (batedor de porta)"
+    },
+    {
+     "term": "awful",
+     "meaning": "horrível"
+    },
+    {
+     "term": "at first sight",
+     "meaning": "à primeira vista"
+    },
+    {
+     "term": "cheque",
+     "meaning": "cheque"
+    },
+    {
+     "term": "deformed",
+     "meaning": "deformado"
+    },
+    {
+     "term": "sighed",
+     "meaning": "suspirou"
+    }
+   ]
+  },
+  {
+   "title": "Searching for Mr Hyde",
+   "paragraphs": [
+    "That evening, Mr Utterson went home in a dark mood. After dinner he opened his safe and took out a document. It was the will of his old friend, Dr Henry Jekyll. Utterson had never liked this will. It said that if Dr Jekyll died or disappeared for more than three months, all his money and property must go to “his friend and benefactor, Edward Hyde.”",
+    "Before, Utterson had not known who Hyde was. Now he knew, and it was worse. “I thought it was madness,” he said to himself. “Now I begin to fear it is disgrace.”",
+    "He went to see Dr Lanyon, another old friend of his and Jekyll’s. Lanyon was a cheerful, red-faced doctor. But when Utterson spoke of Jekyll, his face became cold.",
+    "“I see very little of him now,” said Lanyon. “About ten years ago, Henry Jekyll became too strange for me. He began to go wrong in his mind, with his unscientific ideas. And no, I have never heard of this Hyde.”",
+    "That night Utterson could not sleep. He kept seeing the little man walking over the child. He saw him standing by the bed of his rich friend and giving orders. But the figure had no face. He decided he must see Mr Hyde’s face with his own eyes.",
+    "“If he is Mr Hyde,” he thought, “I shall be Mr Seek.”",
+    "From then on, he waited near the strange door at all hours of the day and night. At last, on a clear, cold night, he heard light footsteps. A small man, very plainly dressed, came round the corner and went straight to the door with a key.",
+    "Utterson stepped forward and touched him on the shoulder. “Mr Hyde, I think?”",
+    "Hyde jumped back with a hissing breath. But he did not look up. “That is my name. What do you want?”",
+    "“I am an old friend of Dr Jekyll’s. My name is Utterson. Will you let me see your face?”",
+    "Hyde waited, and then he looked up. The two men stared at each other. Hyde was pale and very small. He smiled in an unpleasant way, and he spoke in a low, broken voice. “How did you know me?” he asked.",
+    "“Friends have described you.”",
+    "“Friends? Jekyll never told you!” cried Hyde in sudden anger. “You have lied!” And with an ugly laugh, he opened the door and disappeared inside.",
+    "Utterson stood there, shaken. He had never felt such disgust for a man. “Oh, my poor Harry Jekyll,” he thought. “If ever I read Satan’s signature on a face, it is on that of your new friend.”",
+    "Round the corner there was a square of old houses. One of them, a fine and comfortable house, was Dr Jekyll’s. Utterson knocked, and Poole, the old butler, opened the door. Jekyll was out.",
+    "“Poole,” said the lawyer, “I saw Mr Hyde go in by the old laboratory door. Is that right, when Dr Jekyll is not at home?”",
+    "“Quite right, sir. Mr Hyde has a key. The servants have orders to obey him. But he never eats here. He always comes and goes by the laboratory.”",
+    "Utterson walked home with a heavy heart. He was sure that Hyde had some terrible hold on his friend."
+   ],
+   "glossary": [
+    {
+     "term": "safe",
+     "meaning": "cofre"
+    },
+    {
+     "term": "benefactor",
+     "meaning": "benfeitor"
+    },
+    {
+     "term": "disgrace",
+     "meaning": "desonra, vergonha"
+    },
+    {
+     "term": "plainly dressed",
+     "meaning": "vestido de modo simples"
+    },
+    {
+     "term": "hissing",
+     "meaning": "sibilante, chiada"
+    },
+    {
+     "term": "shaken",
+     "meaning": "abalado"
+    },
+    {
+     "term": "disgust",
+     "meaning": "nojo, repulsa"
+    },
+    {
+     "term": "hold",
+     "meaning": "poder, controle"
+    }
+   ]
+  },
+  {
+   "title": "Dr Jekyll Is Quite at Ease",
+   "paragraphs": [
+    "Two weeks later, Dr Jekyll gave one of his pleasant dinners for a few old friends. Utterson stayed behind after the others had left. Jekyll was a large, handsome man of about fifty, with a kind face. They sat by the fire.",
+    "“Jekyll,” said Utterson, “I have wanted to speak to you about your will.”",
+    "A shadow passed over the doctor’s face, but he answered lightly. “My poor Utterson, you are unlucky with me. I have never seen a man so worried as you were about that will. Except for Lanyon, maybe, when he hears my scientific ideas.”",
+    "“You know I never liked it,” said Utterson. “And now I have learned something about young Hyde.”",
+    "Jekyll’s face went pale, and there was a dark look in his eyes. “I don’t want to hear any more,” he said. “This is a matter I thought we had agreed to drop.”",
+    "“What I heard was abominable,” said Utterson.",
+    "“It makes no difference. You do not understand my position,” replied the doctor, a little nervously. “I am in a very strange situation, Utterson. It cannot be fixed by talking.”",
+    "“Jekyll, you know me. I am a man you can trust. Tell me the truth, and I am sure I can help you.”",
+    "“My good Utterson, this is very kind of you. I believe you completely. I would trust you before any man alive. But it isn’t what you think. It is not so bad. And just to put your good heart at rest, I will tell you one thing. The moment I choose, I can be rid of Mr Hyde. I promise you that.”",
+    "He paused, then continued more seriously. “But I do have a great interest in poor Hyde. I know you have seen him. He told me, and I am afraid he was rude. If I am taken away, Utterson, I want you to promise me that you will make sure he gets his rights. I think you would do it, if you knew everything.”",
+    "“I cannot pretend that I shall ever like him,” said the lawyer.",
+    "“I don’t ask that,” said Jekyll, putting his hand on his friend’s arm. “I only ask for justice. I only ask you to help him for my sake, when I am no longer here.”",
+    "Utterson sighed deeply. “Well,” he said, “I promise.”"
+   ],
+   "glossary": [
+    {
+     "term": "drop",
+     "meaning": "deixar de lado, abandonar"
+    },
+    {
+     "term": "abominable",
+     "meaning": "abominável"
+    },
+    {
+     "term": "be rid of",
+     "meaning": "me livrar de"
+    },
+    {
+     "term": "for my sake",
+     "meaning": "por mim, pelo meu bem"
+    },
+    {
+     "term": "rude",
+     "meaning": "grosseiro, mal-educado"
+    },
+    {
+     "term": "pretend",
+     "meaning": "fingir"
+    }
+   ]
+  },
+  {
+   "title": "The Carew Murder Case",
+   "paragraphs": [
+    "Nearly a year later, all of London was shocked by a terrible crime. The victim was Sir Danvers Carew, a kind old gentleman and a member of Parliament.",
+    "A young maid was the only witness. She lived in a house near the river. At about eleven o’clock one night, she was sitting at her window, looking at the moon. She saw a handsome old man with white hair walking along the lane. Coming the other way was a small man, whom she recognised as a Mr Hyde. He had once visited her master.",
+    "The old gentleman stopped and spoke to him very politely, perhaps asking the way. Hyde listened impatiently, playing with a heavy stick in his hand. Suddenly he broke out in a great flame of anger, like a madman. He beat the old man to the ground with his stick. Then, with ape-like fury, he jumped on him and hit him again and again. The maid heard the bones break. At the horror of these sights and sounds, she fainted.",
+    "When she woke up, it was two o’clock in the morning. She called the police. The murderer had gone, but the old man lay dead in the middle of the lane. Half of the broken stick was on the ground beside him. In his pocket there was a letter addressed to Mr Utterson.",
+    "The police brought the letter to Utterson the next morning. When he saw the broken stick, he knew it at once. He had given that stick to Henry Jekyll many years before.",
+    "“Is this Mr Hyde a small man?” he asked the police inspector.",
+    "“Very small and very evil-looking, the maid says.”",
+    "“Then come with me. I think I can take you to his house.”",
+    "Hyde’s rooms were in Soho, a dirty, dark part of London. The fog was so thick that morning that the day looked like night. An old woman with an evil face opened the door. She told them that Mr Hyde had come home very late and gone out again within an hour.",
+    "The rooms were full of expensive things, but they had been searched in a hurry. Clothes were lying on the floor with their pockets turned out. In the fireplace there was a pile of grey ashes, as if many papers had been burned. Behind the door they found the other half of the stick. And in the ashes the inspector found the end of a green cheque book.",
+    "“I have him now!” said the inspector happily. “He has lost his head. We only have to wait for him at the bank.”",
+    "But it was not so easy. Hyde had no family, and nobody had ever photographed him. The few people who had seen him could not describe him well. They only agreed on one thing: there was a strange feeling of deformity about him that nobody could explain."
+   ],
+   "glossary": [
+    {
+     "term": "maid",
+     "meaning": "empregada doméstica"
+    },
+    {
+     "term": "impatiently",
+     "meaning": "impacientemente"
+    },
+    {
+     "term": "witness",
+     "meaning": "testemunha"
+    },
+    {
+     "term": "lane",
+     "meaning": "viela, rua estreita"
+    },
+    {
+     "term": "fainted",
+     "meaning": "desmaiou"
+    },
+    {
+     "term": "ashes",
+     "meaning": "cinzas"
+    }
+   ]
+  },
+  {
+   "title": "The Letter",
+   "paragraphs": [
+    "That afternoon Utterson went to Dr Jekyll’s house. Poole took him through the garden to the old laboratory at the back. It was a building where a famous surgeon had once worked. Utterson had never been there before. They went up some stairs to Jekyll’s private room, the cabinet.",
+    "Dr Jekyll was sitting close to the fire, looking very ill. He did not stand up to welcome his visitor.",
+    "“Have you heard the news?” asked Utterson.",
+    "“Yes, they were shouting it in the street,” said Jekyll. “I heard it in my dining room.”",
+    "“Carew was my client, but so are you, and I want to know what I am doing. You have not been mad enough to hide this man?”",
+    "“Utterson, I swear to God,” cried the doctor, “I swear I will never see him again. I promise you on my honour that I have finished with him in this world. It is all at an end. And indeed he does not want my help. You do not know him as I do. He is safe, quite safe. Mark my words, he will never be heard of again.”",
+    "“You seem very sure of him,” said Utterson. “If it comes to a trial, your name may appear.”",
+    "“I am quite sure of him,” replied Jekyll. “I have reasons that I cannot share. But there is one thing you can advise me on. I have received a letter, and I don’t know if I should show it to the police.”",
+    "He gave Utterson the letter. It was written in a strange, upright hand and signed “Edward Hyde.” It said that Dr Jekyll need not worry, because Hyde had a safe way to escape.",
+    "“Did you keep the envelope?” asked Utterson.",
+    "“I burned it without thinking. But it had no stamp. It was delivered by hand.”",
+    "“One more question,” said Utterson. “Was it Hyde who wrote the part in your will about disappearing?”",
+    "Jekyll seemed to feel faint. He closed his mouth tight and nodded.",
+    "“I knew it,” said Utterson. “He meant to murder you. You have had a lucky escape.”",
+    "“I have had what is more important,” said the doctor sadly. “I have had a lesson. Oh God, Utterson, what a lesson I have had!” And he covered his face with his hands.",
+    "On his way out, Utterson asked Poole about the letter. But Poole said that no letter had come by hand that day.",
+    "That evening, Utterson sat by the fire with his head clerk, Mr Guest. Guest was an expert on handwriting. Utterson showed him Hyde’s letter. Just then, a servant brought in a note from Dr Jekyll, a simple invitation to dinner.",
+    "Guest looked at the two papers side by side. “This is very interesting, sir,” he said. “The two hands are the same in many ways. Only the slope is different.”",
+    "When Guest had gone, Utterson locked the letter in his safe. His blood ran cold in his veins. “What!” he thought. “Henry Jekyll forge a letter for a murderer!”"
+   ],
+   "glossary": [
+    {
+     "term": "surgeon",
+     "meaning": "cirurgião"
+    },
+    {
+     "term": "I swear",
+     "meaning": "eu juro"
+    },
+    {
+     "term": "Mark my words",
+     "meaning": "escute o que eu digo"
+    },
+    {
+     "term": "trial",
+     "meaning": "julgamento"
+    },
+    {
+     "term": "nodded",
+     "meaning": "acenou com a cabeça"
+    },
+    {
+     "term": "clerk",
+     "meaning": "escrevente, auxiliar"
+    },
+    {
+     "term": "slope",
+     "meaning": "inclinação"
+    },
+    {
+     "term": "forge",
+     "meaning": "falsificar"
+    }
+   ]
+  },
+  {
+   "title": "The Strange Illness of Dr Lanyon",
+   "paragraphs": [
+    "Time passed. Thousands of pounds were offered as a reward, but Mr Hyde had disappeared as if he had never existed. The police discovered many terrible things about his past life, his cruelty and his violence. But about where he was now, there was not a whisper.",
+    "With Hyde gone, a new life began for Dr Jekyll. He came out of his hiding place and saw his friends again. He gave dinners and went to church. He did good works for the poor. His face seemed open and bright, as if he knew he had done something good. For more than two months, the doctor was at peace.",
+    "On the eighth of January, Utterson dined at Jekyll’s house with Lanyon, and the three old friends were happy together, like in the old days. But on the twelfth, and again on the fourteenth, Utterson was refused at the door. “The doctor is staying in his room,” Poole said, “and he will see no one.” On the fifteenth he tried again, and again he was refused.",
+    "Worried, Utterson went to see Dr Lanyon. He was shocked at the change in him. Lanyon looked like a dying man. His face was white and thin, his hair had become grey, and he was much older. But it was the look in his eyes that frightened Utterson most. It was a look of deep terror.",
+    "“I have had a shock,” said Lanyon, “and I shall never recover. It is a question of weeks.”",
+    "“Jekyll is ill too,” said Utterson. “Have you seen him?”",
+    "Lanyon’s face changed, and he held up a trembling hand. “I wish to see or hear no more of Dr Jekyll,” he said loudly. “I have finished with that person. Please, do not speak to me of one whom I regard as dead.”",
+    "“Can I do anything?” asked Utterson. “We are three very old friends, Lanyon. We shall not live to make others.”",
+    "“Nothing can be done. Ask him yourself.”",
+    "“He will not see me.”",
+    "“I am not surprised. Some day, Utterson, after I am dead, you may learn the right and wrong of this. I cannot tell you.”",
+    "Utterson wrote to Jekyll, and received a long, strange reply. “I do not blame our old friend,” wrote Jekyll, “but I share his view that we must never meet. From now on, I mean to live a life of complete loneliness. You must not be surprised if my door is often shut, even to you. I have brought on myself a punishment and a danger that I cannot name. If I am the chief of sinners, I am also the chief of sufferers.”",
+    "Within two weeks, Dr Lanyon was dead. After the funeral, Utterson locked himself in his office with a sealed envelope. It was addressed to him in Lanyon’s handwriting. Inside there was a second envelope, also sealed. On it was written: “Not to be opened until the death or disappearance of Dr Henry Jekyll.”",
+    "Disappearance! The same word as in that mad will. Utterson wanted badly to open it. But he was an honest man and a loyal friend. He put the envelope, still closed, at the back of his safe."
+   ],
+   "glossary": [
+    {
+     "term": "reward",
+     "meaning": "recompensa"
+    },
+    {
+     "term": "cruelty",
+     "meaning": "crueldade"
+    },
+    {
+     "term": "refused",
+     "meaning": "recusado, barrado"
+    },
+    {
+     "term": "trembling",
+     "meaning": "trêmula"
+    },
+    {
+     "term": "regard as",
+     "meaning": "considero como"
+    },
+    {
+     "term": "blame",
+     "meaning": "culpo"
+    },
+    {
+     "term": "sinners",
+     "meaning": "pecadores"
+    },
+    {
+     "term": "sealed",
+     "meaning": "lacrado"
+    }
+   ]
+  },
+  {
+   "title": "Poole Comes to Visit",
+   "paragraphs": [
+    "One Sunday, while Utterson and Enfield were on their usual walk, they passed by the strange door again. They went into the little square behind it and looked up at the windows of the laboratory. One window was half open. Sitting near it, like a sad prisoner, was Dr Jekyll.",
+    "“Jekyll!” called Utterson. “I hope you are better.”",
+    "“I am very low, Utterson,” replied the doctor sadly. “Very low. It will not last long, thank God.”",
+    "“You stay indoors too much. Come out and take a walk with us.”",
+    "“You are very good,” said Jekyll with a sigh. “I would like to, very much. But no, no, it is quite impossible. I dare not.”",
+    "Then, suddenly, his smile disappeared. On his face came an expression of such terror and despair that the blood of the two men below froze. The window was shut at once. They had seen it only for a moment, but it was enough. They turned and walked away in silence.",
+    "“God forgive us! God forgive us!” said Utterson at last. Enfield only nodded. His face was very pale.",
+    "Some weeks later, one evening in March, Utterson was sitting by his fire after dinner. He was surprised to see Poole come in. The old butler looked frightened and ill.",
+    "“Poole, what brings you here?” cried the lawyer. “Is the doctor ill?”",
+    "“Mr Utterson,” said Poole, “there is something wrong. I have been afraid for about a week, and I can bear it no more. I think there has been foul play.”",
+    "“Foul play! What do you mean?”",
+    "“I dare not say, sir. But will you come with me and see for yourself?”",
+    "It was a wild, cold night. The wind was blowing hard, and the streets were empty. When they arrived at Jekyll’s house, all the servants were standing together in the hall, like frightened sheep. The housemaid was crying.",
+    "Poole took a candle and led Utterson through the garden to the laboratory. At the bottom of the stairs to the cabinet, he stopped. He knocked on the door. “Mr Utterson is here, sir, asking to see you.”",
+    "A voice answered from inside. “Tell him I cannot see anyone.”",
+    "They went back to the kitchen. “Sir,” said Poole, looking into Utterson’s eyes, “was that my master’s voice?”",
+    "“It seemed much changed,” said the lawyer, very pale.",
+    "“Changed? Well, yes, I think so,” said Poole. “Have I been twenty years in this man’s house, to be deceived about his voice? No, sir. My master has been made away with. He was made away with eight days ago, when we heard him cry out upon the name of God. And who is in there instead of him, and why it stays there, is a thing that cries to Heaven, Mr Utterson!”"
+   ],
+   "glossary": [
+    {
+     "term": "indoors",
+     "meaning": "dentro de casa"
+    },
+    {
+     "term": "despair",
+     "meaning": "desespero"
+    },
+    {
+     "term": "froze",
+     "meaning": "congelou"
+    },
+    {
+     "term": "bear",
+     "meaning": "suportar"
+    },
+    {
+     "term": "foul play",
+     "meaning": "crime, jogo sujo"
+    },
+    {
+     "term": "sheep",
+     "meaning": "ovelhas"
+    },
+    {
+     "term": "made away with",
+     "meaning": "eliminado, morto"
+    },
+    {
+     "term": "Heaven",
+     "meaning": "céu (paraíso)"
+    }
+   ]
+  },
+  {
+   "title": "The Last Night",
+   "paragraphs": [
+    "Poole explained everything. All week, the person in the cabinet had cried day and night for some kind of medicine. Notes were thrown out on the stairs, sent to every chemist in London. Each time the medicine came back, there was another note: “This is not pure. Find me some of the old kind.”",
+    "“And I have seen him, sir,” Poole whispered. “Once he came out to look for something among the boxes. He had a mask over his face. When he saw me, he gave a cry like a rat and ran back inside. Sir, that thing was not my master. My master is a tall, fine man. This was more of a dwarf.”",
+    "Utterson felt cold. “Do you think it was Mr Hyde?”",
+    "“Yes, sir, I believe it was. He moved in the same light, quick way. And when he passed, I felt the same cold in my bones.”",
+    "“Then we must break down the door,” said Utterson.",
+    "“Now you are talking, sir!” cried Poole.",
+    "Poole took an axe, and Utterson took a heavy poker from the kitchen fire. Two other servants waited by the laboratory’s street door, in case the creature tried to escape. Then Utterson and Poole went quietly up to the cabinet door.",
+    "They could hear footsteps inside, going up and down, up and down.",
+    "“It walks all day like that, sir, and the better part of the night,” whispered Poole. “And once I heard it crying, like a woman or a lost soul.”",
+    "“Jekyll!” cried Utterson in a loud voice. “I demand to see you!” There was no reply. “I warn you, if you do not open, we shall break the door down!”",
+    "“Utterson,” said the voice inside, “for God’s sake, have mercy!”",
+    "“Ah, that is not Jekyll’s voice. It is Hyde’s!” cried Utterson. “Down with the door, Poole!”",
+    "Poole swung the axe. The whole building shook. A terrible scream, like an animal in fear, came from the cabinet. Again and again the axe fell, and at the fifth blow the door broke and fell in.",
+    "The room was quiet and warm. A fire was burning, and the kettle was singing. Everything looked calm and normal. But in the middle of the floor lay the body of a man, still moving a little. They turned it over. It was the face of Edward Hyde.",
+    "He was dressed in clothes much too large for him, the clothes of a man of Dr Jekyll’s size. In his hand there was a broken bottle, and the air smelled strongly of almonds. Hyde had poisoned himself.",
+    "“We have come too late,” said Utterson. “Hyde is gone to his account. Now we must find the body of your master.”",
+    "They searched the whole laboratory, but there was no sign of Henry Jekyll, dead or alive. On the table they found a large envelope addressed to Utterson. Inside there was a new will, which left everything to Utterson himself instead of Hyde. There was also a short note in Jekyll’s handwriting, dated that same day.",
+    "“He was alive today!” said Utterson. He read the note: “My dear Utterson, when this falls into your hands, I shall have disappeared. Go and read the letter that Lanyon gave you. If you wish to hear more, read the confession of your unworthy and unhappy friend, Henry Jekyll.”",
+    "There was a third envelope, thick and heavy. Utterson put it in his pocket. “I will go home and read these documents,” he said. “Say nothing to anyone. I shall be back before midnight, and then we shall send for the police.”"
+   ],
+   "glossary": [
+    {
+     "term": "chemist",
+     "meaning": "farmacêutico"
+    },
+    {
+     "term": "dwarf",
+     "meaning": "anão"
+    },
+    {
+     "term": "poker",
+     "meaning": "atiçador de lareira"
+    },
+    {
+     "term": "mercy",
+     "meaning": "piedade"
+    },
+    {
+     "term": "blow",
+     "meaning": "golpe"
+    },
+    {
+     "term": "kettle",
+     "meaning": "chaleira"
+    },
+    {
+     "term": "almonds",
+     "meaning": "amêndoas"
+    },
+    {
+     "term": "unworthy",
+     "meaning": "indigno"
+    }
+   ]
+  },
+  {
+   "title": "Dr Lanyon’s Letter",
+   "paragraphs": [
+    "Utterson sat down at home and opened the letter from Dr Lanyon. This is what it said.",
+    "“On the ninth of January, I received a letter from my old school friend, Henry Jekyll. I was surprised, because we were not close any more. He wrote: ‘Lanyon, my life, my honour and my reason are in your hands. If you fail me tonight, I am lost. Please go to my house. Poole will be waiting with a locksmith. Break open my cabinet and bring me the third drawer from my desk, with everything in it. Then, at midnight, be alone in your house. A man will come in my name. Give him the drawer. If you do this, you will save me.’",
+    "“I thought my poor friend was mad, but I did what he asked. In the drawer I found some packets of white salt, a little bottle of red liquid, and a notebook. In the notebook there were only dates and short notes, like ‘double’ and, once, ‘total failure!!!’ I took everything home and waited, with my gun ready.",
+    "“At exactly midnight, a small man knocked at my door. As soon as I saw him, I felt a strange coldness and dislike. He was dressed in good clothes, but they were far too big for him. He was very excited. ‘Have you got it?’ he cried, and he put his hand on my arm. I pushed him back.",
+    "“I showed him the drawer. He gave a great sigh of relief. Then he asked for a glass. He mixed the red liquid with one of the salts. The mixture changed colour, from red to purple, and then to green.",
+    "“‘And now,’ he said, ‘will you let me take this glass and leave your house without asking questions? Or are you curious? Think before you answer. If you choose to stay, a new world of knowledge will open in front of your eyes.’",
+    "“‘I have gone too far now,’ I said. ‘I want to see the end.’",
+    "“‘Very well,’ he replied. ‘Lanyon, remember your promise. You, who have laughed at the ideas of your betters, behold!’",
+    "“He put the glass to his lips and drank in one go. He gave a cry, and he held on to the table, staring with red eyes and an open mouth. Then, as I watched, he seemed to change. His body grew bigger. His face became black, and then it seemed to melt and change. The next moment I was on my feet, against the wall, my arm raised to protect myself, my mind full of terror.",
+    "“‘Oh God!’ I screamed. ‘Oh God!’ again and again. For there, in front of my eyes, pale and shaking, half fainting, like a man come back from death, stood Henry Jekyll!",
+    "“What he told me in the next hour, I cannot bring myself to write. I saw what I saw, I heard what I heard, and my soul is sick because of it. My life is shaken to its roots. I cannot sleep. I feel that my days are numbered, and that I must die. I will say only one thing, Utterson. The creature who came to my house that night was, as Jekyll himself confessed, the man called Hyde, the man every police officer in the land is looking for as the murderer of Carew.”"
+   ],
+   "glossary": [
+    {
+     "term": "locksmith",
+     "meaning": "chaveiro"
+    },
+    {
+     "term": "drawer",
+     "meaning": "gaveta"
+    },
+    {
+     "term": "relief",
+     "meaning": "alívio"
+    },
+    {
+     "term": "mixture",
+     "meaning": "mistura"
+    },
+    {
+     "term": "behold",
+     "meaning": "contemple, veja"
+    },
+    {
+     "term": "melt",
+     "meaning": "derreter"
+    },
+    {
+     "term": "confessed",
+     "meaning": "confessou"
+    },
+    {
+     "term": "my days are numbered",
+     "meaning": "meus dias estão contados"
+    }
+   ]
+  },
+  {
+   "title": "Henry Jekyll’s Full Statement",
+   "paragraphs": [
+    "Then Utterson opened the last envelope and read Jekyll’s own story.",
+    "“I was born rich, healthy and clever, and I wanted the respect of good men. But I also had a hidden side that loved pleasure. I hid this side from the world, and so, from a young age, I lived a double life. I came to believe that every man is not truly one, but truly two. Inside each of us there is a good self and an evil self, always fighting.",
+    "“In my laboratory I began to dream of separating them. If each could live in a different body, I thought, the good man could do good without shame, and the bad one could go his own way without guilt. After long work, I made a drug that could do this. I knew I was risking death. But one night, late, I mixed it and drank it.",
+    "“The pain was terrible. My bones ground, I felt sick, and my soul was in horror. Then it passed, and I felt younger, lighter, happier. I felt wicked, ten times more wicked, and the thought delighted me like wine. I looked in the mirror, and for the first time I saw Edward Hyde.",
+    "“He was smaller than me and younger, because my evil side had been less used than my good side. His face showed pure evil. And yet I was not afraid. This, too, was myself. I drank the drug again, and I became Jekyll once more.",
+    "“From then on, I could be Hyde whenever I wanted. I bought him the house in Soho. I made the will so he would have money if anything happened to me. As Hyde, I went out at night to enjoy pleasures that soon became monstrous. Hyde was cruel and cared for nothing. And then, safe in my bed, I woke up as respectable Dr Jekyll.",
+    "“But one morning, two months before the murder, I woke up and looked at my hand on the sheet. It was not the large white hand of Henry Jekyll. It was small, dark and hairy. It was the hand of Edward Hyde. I had gone to sleep as Jekyll and woken as Hyde, without the drug! I was terrified. I understood that I was slowly losing my good self.",
+    "“I decided to choose Jekyll. For two months I did not touch the drug. But Hyde was in a cage, and he wanted to get out. In a moment of weakness, I drank it again. My devil had been caged for a long time, and he came out roaring. That night I met Sir Danvers Carew. I killed him with pleasure, and I enjoyed every blow.",
+    "“After that I swore never to be Hyde again, because Hyde would hang for murder. And for a few weeks I was a good man. Then, one sunny day in Regent’s Park, I changed into Hyde while I was sitting on a bench. That is why I needed Lanyon’s help. From then on, I needed a double dose of the drug just to stay Jekyll. That was the day you saw me at the window, Utterson. The change began while we were talking.",
+    "“Now my supply of salt is almost finished. I sent Poole all over London for more, but the new salt does not work. I now believe that my first salt had something impure in it, and that impurity was the secret. I will never find it again.",
+    "“This is the last time Henry Jekyll can think his own thoughts or see his own face in the glass. In half an hour I shall be Hyde again, forever. Will Hyde die on the scaffold? Or will he find the courage to free himself at the last moment? God knows. I do not care. This is my true hour of death, and what follows concerns another than myself. Here, then, as I lay down the pen, I bring the life of that unhappy Henry Jekyll to an end.”"
+   ],
+   "glossary": [
+    {
+     "term": "double life",
+     "meaning": "vida dupla"
+    },
+    {
+     "term": "guilt",
+     "meaning": "culpa"
+    },
+    {
+     "term": "ground",
+     "meaning": "rangeram (os ossos)"
+    },
+    {
+     "term": "wicked",
+     "meaning": "perverso, malvado"
+    },
+    {
+     "term": "delighted",
+     "meaning": "encantou, deliciou"
+    },
+    {
+     "term": "roaring",
+     "meaning": "rugindo"
+    },
+    {
+     "term": "scaffold",
+     "meaning": "forca, cadafalso"
+    },
+    {
+     "term": "concerns",
+     "meaning": "diz respeito a"
+    }
+   ]
+  }
+ ]
+}

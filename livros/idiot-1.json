@@ -1,0 +1,837 @@
+{
+ "id": "idiot-1",
+ "title": "The Idiot, Part 1",
+ "author": "Fyodor Dostoevsky",
+ "year": 1869,
+ "module": 5,
+ "level": "C1",
+ "summary": "O príncipe Míchkin, um jovem bondoso e ingênuo, volta da Suíça para São Petersburgo depois de anos de tratamento para a epilepsia. No trem ele conhece Rogójin, um herdeiro apaixonado e violento, e logo se vê envolvido com a família Iepántchin, com a bela Aglaia e com a misteriosa Nastássia Filíppovna, uma mulher orgulhosa e ferida que todos querem possuir. Entre festas, ofertas de dinheiro e paixões perigosas, a bondade do príncipe é posta à prova numa sociedade que o chama de \"idiota\".",
+ "chapters": [
+  {
+   "title": "The Train from Warsaw",
+   "paragraphs": [
+    "At nine o'clock on a damp, foggy morning at the end of November, the Warsaw train was racing towards St. Petersburg. It was so cold and gloomy that the passengers in the third-class carriage could hardly see anything through the windows. Most of them were tired and silent, wrapped in their coats, their faces grey and swollen with sleep.",
+    "In one corner, by a window, two young men sat facing each other. One was about twenty-seven, short, with curly black hair and small, burning grey eyes. His face was pale, almost deathly, and there was something mocking and insolent in his smile. He wore a warm sheepskin coat and had clearly slept well. The other was a little older, fair-haired, with a thin, pointed beard and large blue eyes that had a strange, gentle, attentive look. He was dressed in a light cloak with a huge hood, the kind travellers wear in Switzerland in winter, and he was shivering from head to foot.",
+    "“Cold?” asked the dark young man with a grin.",
+    "“Very,” said the other, smiling politely. “And this is only a thaw! I never imagined it could be so cold here. I've lost the habit.”",
+    "“Been abroad, have you?”",
+    "“Yes, in Switzerland. Four years.”",
+    "The fair young man explained, quite openly and without any embarrassment, that he had been ill. He suffered from a strange nervous illness, something like epilepsy, with fits and trembling, and a kind benefactor had sent him to a Swiss doctor named Schneider. Now the benefactor was dead, the money had run out, and he was coming home with nothing but a small bundle on his knees.",
+    "At this point a third passenger joined the conversation. He was a shabby clerk of about forty, with a red nose and a pimply face, the kind of man who knows everybody's business and wants to know more. He listened eagerly and laughed whenever the dark young man laughed.",
+    "“And who are you, if I may ask?” the clerk said to the fair one.",
+    "“Prince Lev Nikolayevich Myshkin.”",
+    "“Myshkin? There was once a famous family of that name, but they've all died out.”",
+    "“I believe I am the last of them,” said the prince simply.",
+    "The dark young man looked at him with growing interest. “And I,” he said, “am Parfyon Rogozhin.”",
+    "The clerk almost jumped out of his seat. “Rogozhin! The son of Semyon Rogozhin, the honorary citizen, who died a month ago and left two and a half million roubles?”",
+    "“How do you know that?” Rogozhin asked with contempt. “Look at him, Prince, he doesn't even know me, and already he's crawling at my feet. Yes, my father died, and I'm going home from Pskov to collect my inheritance. A month ago I didn't have a pair of boots, and my brother and my father would have been glad to see me dead.”",
+    "Then, as if he could not stop himself, Rogozhin began to tell his story. A year before, his father had given him ten thousand roubles to deliver to a merchant. On the way, he had seen a woman getting into a carriage on the Nevsky Prospect, and he had felt as if he had been burned.",
+    "“Nastasya Filippovna!” cried the clerk. “Nastasya Filippovna Barashkova! Why, everyone knows her. She's kept by Afanasy Ivanovich Totsky, the rich landowner.”",
+    "Rogozhin gave him such a look that the clerk fell silent at once. “I spent the whole ten thousand,” Rogozhin went on in a low voice, “on a pair of diamond earrings, and I took them to her. She accepted them, she looked at me, and she said, ‘Thank you, Parfyon Semyonovich.’ That was all. And I went away happy, as if I had been to heaven. Then my father found out. He beat me and locked me up, and she sent the earrings back to him. I ran away to Pskov with a fever and lay in the street, and the dogs almost ate me.”",
+    "“Well, now she'll give you a better welcome,” giggled the clerk. “With two million you can buy anything.”",
+    "“If you say one more word about her,” said Rogozhin, “I'll thrash you, even if you are Lebedev.” For the clerk's name, it turned out, was Lebedev.",
+    "As the train came into the station, Rogozhin turned to the prince. “Listen, Prince,” he said, “I don't know why, but I like you. Perhaps because I met you at a moment like this. Come and see me. I'll give you a fur coat, the best one in Petersburg, and money too. And we'll go to see Nastasya Filippovna together. Will you come?”",
+    "“I'll come with great pleasure,” said the prince, shaking his hand warmly. “And thank you for liking me.”",
+    "“Did you hear, Lebedev?” laughed Rogozhin. “He's a holy fool, this prince. God loves such people.”",
+    "On the platform, a crowd of thirty people was waiting for Rogozhin, and they swept him away. The prince stood alone for a moment in his thin cloak, holding his bundle. Then he set off on foot to find the house of General Yepanchin, whose wife, he had heard, was a distant relation of his."
+   ],
+   "glossary": [
+    {
+     "term": "thaw",
+     "meaning": "degelo"
+    },
+    {
+     "term": "benefactor",
+     "meaning": "benfeitor"
+    },
+    {
+     "term": "shabby",
+     "meaning": "maltrapilho, surrado"
+    },
+    {
+     "term": "inheritance",
+     "meaning": "herança"
+    },
+    {
+     "term": "contempt",
+     "meaning": "desprezo"
+    },
+    {
+     "term": "thrash",
+     "meaning": "surrar, dar uma surra"
+    },
+    {
+     "term": "holy fool",
+     "meaning": "louco santo (o \"inocente\" abençoado da tradição russa)"
+    }
+   ]
+  },
+  {
+   "title": "A Visitor with a Bundle",
+   "paragraphs": [
+    "General Ivan Fyodorovich Yepanchin lived in his own fine house near the Liteyny. He was a man of fifty-six, healthy, rich, and very pleased with himself. He had begun life as the son of a soldier and had risen high through hard work and good connections. His wife, Lizaveta Prokofyevna, came from the old princely family of the Myshkins, and they had three daughters: Alexandra, Adelaida and Aglaya, all of them handsome and well educated, and the youngest of them a remarkable beauty.",
+    "When the prince rang at the door with his bundle, the manservant looked him up and down with great suspicion. A visitor in a Swiss cloak and old shoes, who wanted to see the general in person, did not seem like a gentleman at all. He was told to wait in the anteroom, and to the servant's horror, he sat down beside him and began to chat.",
+    "“Do you smoke?” the prince asked. “May I smoke a pipe here? I'm used to it.”",
+    "“Smoke? Here? Certainly not!” said the servant, shocked. “And it would be better if you waited in the reception room.”",
+    "But the prince stayed, and soon he was talking about France. He had seen an execution in Lyon, he said, by the guillotine.",
+    "“They cut off the head very quickly, don't they?” asked the servant, interested in spite of himself.",
+    "“Yes, in a second. But think about it. The worst pain is not in the wounds. It's the knowledge, the certainty, that in an hour, then in ten minutes, then in half a minute, then now, this very instant, your soul will leave your body and you will no longer be a man. To kill a man for murder is a far greater crime than the murder itself. A man attacked by robbers still hopes, even with his throat cut. But here all hope is taken away. Who can say that human nature can bear this without going mad?”",
+    "The servant did not know what to answer, but he looked at the strange visitor with a new expression.",
+    "Just then a young man came in. He was about twenty-eight, slim, handsome, dark-haired, and very well dressed. This was Gavrila Ardalionovich Ivolgin, known to everyone as Ganya, who worked as the general's secretary. His smile was charming, but his eyes were sharp and watchful.",
+    "The general received the prince at last, though without enthusiasm. He expected the young man to ask for money. But the prince only said, “I came simply to meet you. Your wife is a Myshkin, and I have no one else in Russia.”",
+    "“My dear sir, I am very busy,” said the general, glancing at the clock. “Why should I waste my time on you?”",
+    "“That's quite true,” the prince agreed with a smile. “If we don't like each other, there's no reason to meet again. I'll go.”",
+    "The general was disarmed by this frankness. He asked a few questions and learned that the prince had no money, no profession, and only a little education, but that he had very beautiful handwriting. The general gave him a pen, and the prince wrote, in perfect medieval script: “The humble Abbot Pafnuty signed this.”",
+    "“Wonderful!” cried the general. “This is not just writing, it's art. Ganya, look at this. With such a hand, my dear prince, you can earn your bread. I'll find you a place in an office. You'll get thirty-five roubles a month.”",
+    "On the table lay a large photograph of a woman. It showed a lady of unusual beauty, dressed in a black silk dress, with dark, deep eyes and a proud, thoughtful forehead. Her face was pale and a little thin, and there was something both passionate and suffering in it.",
+    "“Is that Nastasya Filippovna?” asked the prince.",
+    "Both men stared at him. “You know her already?” said the general.",
+    "The prince told them about Rogozhin and the train. Ganya grew pale. “Rogozhin! Is he serious?”",
+    "“He seemed very serious,” said the prince. “He has two million roubles, and he is full of passion. I think that with a man like that, everything might end badly.”",
+    "The prince did not yet know the story behind the photograph, but the reader should. Nastasya Filippovna was the daughter of a poor landowner who had died, leaving her an orphan. Totsky, a rich and refined man, had taken charge of her when she was a child. He had her educated on one of his estates, and when she became a beautiful young girl, he made her his mistress. For years she lived quietly in the country. But one day she learned that Totsky was going to marry. She came to Petersburg alone, and she was suddenly a different woman: cold, mocking, terrifyingly clever. She laughed in his face. She told him she despised him, and that she would ruin his marriage if she wished.",
+    "Now Totsky, who was fifty-five and wanted a quiet life, hoped to marry Alexandra, the eldest Yepanchin daughter. But first he had to get rid of Nastasya Filippovna. He had offered her seventy-five thousand roubles if she would marry someone respectable, and the general, who was rather in love with her himself, had suggested his secretary Ganya. Ganya was proud and poor, and he hated the idea of marrying a “fallen” woman for money. But he loved the money. Tonight, at her birthday party, Nastasya Filippovna had promised to give her final answer.",
+    "“I have a present for her,” said the general with a little cough, showing a case of magnificent pearls. “And now, Prince, you must meet my wife.”"
+   ],
+   "glossary": [
+    {
+     "term": "anteroom",
+     "meaning": "antessala"
+    },
+    {
+     "term": "execution",
+     "meaning": "execução"
+    },
+    {
+     "term": "disarmed",
+     "meaning": "desarmado (sem reação, conquistado)"
+    },
+    {
+     "term": "frankness",
+     "meaning": "franqueza"
+    },
+    {
+     "term": "handwriting",
+     "meaning": "caligrafia"
+    },
+    {
+     "term": "mistress",
+     "meaning": "amante"
+    },
+    {
+     "term": "despised",
+     "meaning": "desprezava"
+    },
+    {
+     "term": "get rid of",
+     "meaning": "livrar-se de"
+    }
+   ]
+  },
+  {
+   "title": "The Ladies of the House",
+   "paragraphs": [
+    "Lizaveta Prokofyevna was a tall, thin woman with a large nose and large eyes, a little faded now, but full of energy. She was impulsive, kind-hearted and easily offended, and her family both loved and feared her. She received the prince with suspicion, ready to see in him a poor relation who wanted something. Within a quarter of an hour, she was completely charmed.",
+    "“He's a child!” she exclaimed to her daughters. “A perfect child. Sit down, Prince, and have some coffee. Tell us about yourself. Tell us everything.”",
+    "The three young ladies looked at him with amused curiosity. Alexandra, the eldest, was calm and kind. Adelaida, the middle one, was an artist who could not find a subject for her pictures. Aglaya, the youngest, was the most beautiful, with dark eyes and a proud, mocking little smile. She was the spoiled darling of the whole family.",
+    "“You say you have been ill and almost an idiot,” said Adelaida. “But you don't seem like an idiot to us.”",
+    "“I'm not offended,” said the prince. “When I first went to Switzerland, I was almost a child in my mind. I couldn't speak properly. Then one day, in Basel, I heard a donkey braying in the market, and suddenly everything became clear in my head. I can't explain it. I've loved donkeys ever since.”",
+    "The girls burst out laughing. “A donkey!” said Aglaya. “How charming. Mother, he is making fun of us.”",
+    "“Not at all,” said the prince seriously, and they laughed even more.",
+    "Adelaida asked him to suggest a subject for a painting. The prince grew thoughtful. “Paint the face of a man condemned to death,” he said, “one minute before the blade falls, when he's already on the scaffold.”",
+    "Then he told them a story he had heard from a man who had actually lived through it. This man, he said, had been sentenced to be shot for a political crime, together with others. They were taken to a square and tied to posts. He calculated that he had five minutes left to live, and those five minutes seemed endless to him, an enormous wealth of time. He divided them up: two minutes to say goodbye to his friends, two to think about himself, and one to look around for the last time. He looked at the golden roof of a church glittering in the sun, and he felt that those rays were his new nature, and that in three minutes he would become one with them.",
+    "“And the worst thing,” the prince went on, “was the thought: what if I did not die? What if life were given back to me? What an eternity! I would turn every minute into a whole age, I would count every minute and waste nothing. And then, at the last moment, the pardon came. He lived.”",
+    "“And did he live like that?” Aglaya asked. “Counting every minute?”",
+    "“No,” said the prince. “He told me himself that he lost many, many minutes.”",
+    "There was a silence. Lizaveta Prokofyevna looked at him with tears in her eyes.",
+    "“Tell us how you fell in love,” said Aglaya suddenly. “You must have been in love.”",
+    "“No,” said the prince. “I was happy in another way.” And he told them about Marie, a poor girl in the Swiss village. She had been seduced and abandoned by a travelling salesman, and when she came home, the whole village treated her with contempt. Her own mother scorned her. The children threw stones at her. She was ill with consumption and coughed terribly. The prince had sold a little diamond pin to give her eight francs, and he had kissed her, not out of love, but out of pity. Then, little by little, he had taught the children to love her. They began to bring her presents, to sit with her, to call her “our Marie.” She died happy, he said, because the children loved her.",
+    "“The children were my whole world there,” he said. “I'm not afraid of them. A child can be told everything. Grown-ups don't realize that a child can give very good advice, even in the most difficult matters.”",
+    "“You're a philosopher,” said Aglaya, “and you've come to teach us.”",
+    "“Perhaps you're right,” said the prince, smiling. “Perhaps I do think I've come to teach. But I don't know how.”",
+    "“Now tell us,” said Adelaida, “what you see in our faces. You seem to read people.”",
+    "He looked at Alexandra and said she had a lovely, gentle face, but there was a secret sadness in it. He told Adelaida she had a happy face, the most sympathetic of the three. He told Lizaveta Prokofyevna that she was a perfect child in everything, in good and in bad, in spite of her age.",
+    "“And Aglaya?” asked the mother.",
+    "The prince looked at the youngest girl for a long moment. “I can't say anything now,” he said. “Beauty is a riddle. You are extraordinarily beautiful, Aglaya Ivanovna. So beautiful that one is afraid to look at you.”",
+    "Aglaya blushed and frowned at the same time."
+   ],
+   "glossary": [
+    {
+     "term": "spoiled",
+     "meaning": "mimada"
+    },
+    {
+     "term": "braying",
+     "meaning": "zurrando"
+    },
+    {
+     "term": "scaffold",
+     "meaning": "cadafalso"
+    },
+    {
+     "term": "sentenced",
+     "meaning": "condenado (por sentença)"
+    },
+    {
+     "term": "pardon",
+     "meaning": "perdão, indulto"
+    },
+    {
+     "term": "scorned",
+     "meaning": "desprezava"
+    },
+    {
+     "term": "consumption",
+     "meaning": "tuberculose (termo antigo)"
+    },
+    {
+     "term": "riddle",
+     "meaning": "enigma"
+    }
+   ]
+  },
+  {
+   "title": "The Note",
+   "paragraphs": [
+    "As the prince was about to leave, the general came in with Ganya. Lizaveta Prokofyevna soon heard about the portrait in her husband's study, and she demanded to see it. The prince was sent to fetch it.",
+    "On the way, Ganya stopped him in the corridor. His face was pale and anxious. “Prince,” he whispered, “would you do me a great favour? Give this note to Aglaya Ivanovna, but secretly, so that no one sees.”",
+    "The prince took the folded paper. On the way back to the drawing room, he stopped and looked at the portrait of Nastasya Filippovna for a long time. The face was proud and full of scorn, almost hatred, and at the same time there was something trusting, something wonderfully simple in it. He felt a strange compassion. Without knowing why, he raised the photograph to his lips and kissed it.",
+    "In the drawing room, the ladies passed the portrait from hand to hand. “So this is the famous beauty,” said Lizaveta Prokofyevna. “Yes, she's beautiful. Why do you value such beauty, Prince?”",
+    "“For its strength,” he said. “With such beauty one could turn the world upside down.”",
+    "“And is she kind?” asked Lizaveta Prokofyevna, watching him closely.",
+    "The prince looked at the portrait again. “It's a proud face,” he said slowly, “terribly proud. But I don't know whether she is kind. Ah, if only she were kind! Then everything would be saved.”",
+    "Aglaya looked at the photograph coldly. “Such a beauty is a power,” she said, and put it down.",
+    "When he had a moment alone with Aglaya, the prince handed her the note. She read it without changing her expression. It said: “Today my fate will be decided. You know how. Today I must give my word, and I will never be able to take it back. Say only one word to me, and I will break everything. I am not afraid. Just tell me: break everything, and I will break it today.”",
+    "Aglaya smiled scornfully. “He wants a guarantee,” she said. “He wants me to tell him to give up seventy-five thousand roubles, and then he'll still have me. And if I say nothing, he'll marry that woman and take the money. Return his note to him. Tell him I make no bargains.” She looked at the prince with curiosity. “Did he really trust you with this? You, whom he met this morning?”",
+    "“He did,” said the prince. “He's very anxious.”",
+    "“Then give it back to him,” said Aglaya, “and say nothing else.”",
+    "The prince went out and gave Ganya the note. Ganya went white with rage. “You showed it to her!” he hissed. “You talked about it! Idiot! You complete idiot!” And then, as they walked along the street together, he poured out his fury. “You've ruined everything. Who asked you to talk? What did she say to you? Tell me, word for word!”",
+    "The prince repeated Aglaya's words exactly. Ganya stopped and stared at him. “Then she showed the note to you herself? She read it in front of you? And you think I'll believe that you, a nobody, a stranger, are suddenly in her confidence?”",
+    "“I don't know why she did it,” said the prince quietly. “But I am telling you the truth. And allow me to say one thing, Gavrila Ardalionovich. I used to be so ill that I really was almost an idiot. But now I'm well, and it's unpleasant to be called an idiot to my face. Your situation is difficult, and I forgive you. But please don't shout at me.”",
+    "Ganya was taken aback. “Forgive me, Prince,” he muttered. “I'm in such a state that I don't know what I'm saying.” And then, after a pause: “Do you think she loves me? Aglaya, I mean. You saw her.”",
+    "“I don't think so,” said the prince honestly.",
+    "Ganya laughed bitterly. He explained that the general had arranged for the prince to rent a room in his family's flat. The Ivolgins were poor, and they let out rooms with meals. “My mother and sister are against my marriage,” he said. “There'll be a scene, you'll see. And my father, the general, is a drunkard and a liar. I'm warning you.”"
+   ],
+   "glossary": [
+    {
+     "term": "fetch",
+     "meaning": "ir buscar"
+    },
+    {
+     "term": "scorn",
+     "meaning": "desdém"
+    },
+    {
+     "term": "compassion",
+     "meaning": "compaixão"
+    },
+    {
+     "term": "guarantee",
+     "meaning": "garantia"
+    },
+    {
+     "term": "bargains",
+     "meaning": "barganhas, acordos"
+    },
+    {
+     "term": "hissed",
+     "meaning": "sibilou (falou entre os dentes)"
+    },
+    {
+     "term": "taken aback",
+     "meaning": "surpreso, desconcertado"
+    },
+    {
+     "term": "drunkard",
+     "meaning": "bêbado"
+    }
+   ]
+  },
+  {
+   "title": "The Ivolgin Flat",
+   "paragraphs": [
+    "The Ivolgins lived on the third floor of an ordinary building, in a flat of six or seven rooms, some of which they let to lodgers. The prince was given a small room off the corridor. There he met the family one by one, and each of them seemed to bring a new kind of trouble.",
+    "Nina Alexandrovna, Ganya's mother, was a thin, quiet woman of about fifty, with a sad face and a dignified manner. His sister Varvara Ardalionovna, called Varya, was twenty-three, plain but intelligent, with a firm, serious expression that reminded one of her brother. The youngest was Kolya, a cheerful schoolboy of thirteen, who immediately decided that the prince was his friend.",
+    "Then there was the father. General Ardalion Alexandrovich Ivolgin was a large, red-faced man of fifty-five, in a greasy old coat, who smelled of vodka. He embraced the prince with great emotion.",
+    "“Prince Myshkin! The son of Nikolai Lvovich! I knew your father, my dear boy, I carried you in my arms when you were a baby. Your mother, ah, your mother! I was in love with her. I almost fought a duel with your father over her.”",
+    "“But my father died twenty years ago,” said the prince gently, “and he was in prison, accused of something he didn't do.”",
+    "“Exactly, exactly!” cried the general, not at all disturbed. “I remember it perfectly. A terrible affair.” And he went on with a long story, full of details that changed every minute. The prince listened politely and did not contradict him.",
+    "Another lodger, a man named Ferdyshchenko, poked his head into the prince's room. He was about thirty, tall and broad-shouldered, with a face that was always making jokes. “I'm Ferdyshchenko,” he announced. “Remember that I live here. Do you have any money? Never mind, I won't ask. I'm a buffoon, everyone knows it. Nastasya Filippovna keeps me as her jester.”",
+    "From the next room came the sound of quarrelling. Varya was speaking to her brother in a low, angry voice. “If you marry that woman, I will leave this house. Mother is crying all day. Have you no shame?”",
+    "“I'll marry whom I please,” Ganya answered. “And you'll stop interfering.”",
+    "The prince, who did not want to listen, went out into the hall. At that moment the doorbell rang. He opened the door himself, and he stepped back in astonishment. In front of him stood Nastasya Filippovna.",
+    "She was even more beautiful than in her portrait. She looked at him for a second with flashing eyes and threw her fur coat into his arms without a word, as if he were a servant. The coat slipped and fell to the floor.",
+    "“Why don't you take it to the cloakroom?” she said irritably. “What a fool! Why are you staring at me? And go and announce me.”",
+    "“Whom should I announce?” asked the prince, still staring.",
+    "She laughed. “He doesn't even know who I am! Nastasya Filippovna, of course! Go on, idiot. Why don't they dismiss you? What are you looking at?”",
+    "“I'm looking at you,” said the prince, and he went to announce her.",
+    "The visit fell on the family like a thunderbolt. Nastasya Filippovna had never come before. She came now, everyone understood, to look at the people who despised her, the family that Ganya had promised to make her part of. Nina Alexandrovna received her with quiet courtesy. Varya stood stiffly and did not offer her hand. Ganya was white and confused.",
+    "Nastasya Filippovna sat down and examined the room with an ironical smile. “What a horrible flat,” she said lightly. “And you let rooms? How much do you charge? Who's this?” she added, as the prince came back. “Oh, the footman.”",
+    "“He's not a footman,” said Kolya, laughing. “He's Prince Myshkin.”",
+    "Nastasya Filippovna looked at the prince in amazement. “A prince? And I took you for a servant! Why didn't you say so?”",
+    "“I was so surprised to see you,” the prince said.",
+    "“And why were you surprised? What's so surprising about me?”",
+    "“I saw your portrait this morning,” he said, “and it seemed to me that I had seen you somewhere before. Perhaps in a dream.”",
+    "The room went silent. Nastasya Filippovna looked at him intently, no longer laughing. Then General Ivolgin, who had come in, began one of his stories. He told how he had once thrown a lady's lapdog out of a train window, because the lady had thrown away his cigar. Nastasya Filippovna burst out laughing.",
+    "“But General,” she said sweetly, “I read exactly that story in a newspaper last week. Only it happened in Belgium, to a Frenchman.”",
+    "The general went purple. Ganya looked as if he wanted to die."
+   ],
+   "glossary": [
+    {
+     "term": "lodgers",
+     "meaning": "inquilinos"
+    },
+    {
+     "term": "greasy",
+     "meaning": "engordurado"
+    },
+    {
+     "term": "poked his head",
+     "meaning": "enfiou a cabeça"
+    },
+    {
+     "term": "buffoon",
+     "meaning": "palhaço, bufão"
+    },
+    {
+     "term": "jester",
+     "meaning": "bobo da corte"
+    },
+    {
+     "term": "quarrelling",
+     "meaning": "discutindo"
+    },
+    {
+     "term": "thunderbolt",
+     "meaning": "raio (choque repentino)"
+    },
+    {
+     "term": "footman",
+     "meaning": "criado, lacaio"
+    }
+   ]
+  },
+  {
+   "title": "Rogozhin's Offer",
+   "paragraphs": [
+    "Just as the general's humiliation seemed complete, there was a great noise in the hall. The front door had been left open, and a crowd of men came pushing into the flat. There were ten or twelve of them, some drunk, some only half drunk, and all of them noisy. At their head was Rogozhin.",
+    "He came straight into the drawing room and stopped when he saw Nastasya Filippovna. He grew pale, his lips trembled, and he looked at her as if he could not believe his eyes. Then he turned to Ganya.",
+    "“So it's true!” he said. “Seventy-five thousand! I came to see if it was true. Ganya, you'd sell yourself for three roubles. Listen.” He turned back to Nastasya Filippovna. “Will you give me him? I'll pay. Here, eighteen thousand.” He threw a bundle of banknotes on the table.",
+    "Nastasya Filippovna looked at him with a cold smile. “Eighteen thousand? You think that's enough for me?”",
+    "“Forty thousand, then! Not eighteen, forty!”",
+    "She laughed. Lebedev, who was standing behind Rogozhin, whispered in his ear. Rogozhin's face lit up with a kind of madness. “A hundred thousand!” he shouted. “I'll have a hundred thousand by this evening. Lebedev, you'll get it for me. Do you hear, Nastasya Filippovna? A hundred thousand, this very day!”",
+    "The members of the Ivolgin family were horrified. Varya could bear it no longer. “Get this shameless woman out of here!” she cried, turning to her brother. “Who brought her into our house? Look at this! Is this what you want for us?”",
+    "“What, you dare to insult her in front of everyone?” said Ganya, beside himself. He seized his sister by the arm. Varya struggled, then turned and spat in his face.",
+    "“That's what you are!” she said.",
+    "Ganya lost all control. He raised his hand to strike her. But the prince stepped between them and caught his arm.",
+    "“Enough,” he said. “Stop it.”",
+    "“Are you always going to stand in my way?” roared Ganya, and he slapped the prince across the face with all his strength.",
+    "There was a cry of horror. The prince went very white. He looked straight into Ganya's eyes with a strange, reproachful look, and his lips trembled as he tried to speak. Then a twisted, quite inappropriate smile appeared on his face.",
+    "“Well, you may hit me,” he said quietly. “But I won't let you hit her.” Then he turned away, covered his face with his hands, went to a corner, and said in a breaking voice: “Oh, how ashamed you will be of what you have done!”",
+    "Ganya stood as if he had been struck himself. Kolya rushed to the prince and hugged him. Even Rogozhin was moved.",
+    "“He'll be ashamed, Ganya, you'll be ashamed of hurting such a lamb!” he shouted. “Prince, my dear soul, leave them alone. Come with me. You'll see how Rogozhin loves you.”",
+    "Nastasya Filippovna had watched everything with great attention. Now she rose, and her face was quite changed. She went up to the prince. “Aren't you ashamed?” she said to him, but softly. And then, almost as if speaking to herself, “I've seen his face somewhere before.”",
+    "“Aren't you ashamed?” the prince answered her, with deep feeling. “You're not what you're pretending to be now. It isn't possible.”",
+    "She looked at him in amazement. She laughed, but there was confusion in her laughter. Then she did something no one expected. She went up to Nina Alexandrovna, took her hand, and kissed it.",
+    "“He's right,” she whispered. “I'm not really like this. Forgive me.” And she went quickly out of the room, her face burning. In the hall she called back to everyone: “I'll see you all this evening! At my party. Rogozhin, don't forget the hundred thousand.”",
+    "Ganya ran after her to the stairs, but she had already gone. Rogozhin and his band followed her, shouting and laughing.",
+    "When the noise had died away, the flat was silent. Varya was weeping in her mother's arms. The general had disappeared, probably to the tavern. Ganya stood in the corridor, very pale, and he could not look at anyone."
+   ],
+   "glossary": [
+    {
+     "term": "banknotes",
+     "meaning": "cédulas"
+    },
+    {
+     "term": "shameless",
+     "meaning": "sem-vergonha"
+    },
+    {
+     "term": "beside himself",
+     "meaning": "fora de si"
+    },
+    {
+     "term": "spat",
+     "meaning": "cuspiu"
+    },
+    {
+     "term": "slapped",
+     "meaning": "deu um tapa"
+    },
+    {
+     "term": "reproachful",
+     "meaning": "de reprovação"
+    },
+    {
+     "term": "lamb",
+     "meaning": "cordeiro"
+    },
+    {
+     "term": "weeping",
+     "meaning": "chorando"
+    }
+   ]
+  },
+  {
+   "title": "An Evening of Wanderings",
+   "paragraphs": [
+    "The prince sat in his room, his cheek still burning, when there was a knock at the door. It was Ganya.",
+    "“Prince,” he said, without looking up, “I behaved like a scoundrel. Forgive me. I've come to beg your forgiveness.” He held out his hand. “If you want, you can hit me back.”",
+    "“I forgive you with all my heart,” said the prince, and shook his hand. “I knew you would come. You aren't wicked at all, Gavrila Ardalionovich. You're simply the most ordinary man, only a little weak, and not at all original.”",
+    "Ganya laughed in spite of himself. “Not original! That's the worst thing you could say to me. You're a strange fellow, Prince. Everyone says you're an idiot, but you notice things that others don't. Tell me, what did you think of her? Will she marry me?”",
+    "“I don't think she will,” said the prince. “And if she does, she'll be unhappy.”",
+    "“She'll marry me,” said Ganya grimly. “She wants respectability, a husband, a family, even if she despises them. And I want the money. In ten years, I'll be a rich man, and I'll laugh at all of them.” He looked at the prince more closely. “And you, Prince? You've fallen in love with her yourself, haven't you? Already, in one morning?”",
+    "The prince did not answer.",
+    "Ganya went away, and Varya came in a little later to thank the prince for defending her. She told him that Aglaya had sent a message to her that afternoon, and that Ganya was now desperate, because he understood that the scene had reached the Yepanchins.",
+    "The prince could not stop thinking about Nastasya Filippovna and her party. He had not been invited, but he felt that he had to go. He felt, without knowing why, that something terrible was about to happen to her, and that he must be there.",
+    "General Ivolgin found him in the corridor. “My dear Prince, you want to go to Nastasya Filippovna's? I'll take you. I know her well. She'll be delighted.” And he took the prince out into the street.",
+    "But the general had borrowed money from the prince for the cab, and instead of going to Nastasya Filippovna's, he took him to the flat of a certain captain's widow, Marfa Borisovna Terentyeva, with whom he had a long, tangled friendship. The widow was not at all pleased to see him. She shouted that he had taken her money, eaten her bread and ruined her children, and the general, with tremendous dignity, walked out, telling the prince that she was a poor unhappy woman whom he had always helped.",
+    "Then the general remembered another friend, a colonel, who lived somewhere nearby, and they climbed the stairs of another building only to find that the colonel had moved away years ago. At last the general began to weep and to talk about his past glory, and the prince understood that he would never get to the party with him.",
+    "As they stood in a dark doorway, the old man suddenly caught the prince's sleeve. “You think I'm a liar, Prince,” he said, and his voice trembled. “You're right. I am. But once I was an honest officer. I was at Kars. I was wounded. And now my own son is ashamed of me, and my wife pretends not to see me when I come home at night. Don't despise me, my dear boy.”",
+    "“I don't despise you,” said the prince gently. “I'm only sorry that I've caused you so much trouble this evening.”",
+    "“Trouble! You're an angel,” said the general, and he wiped his eyes with a dirty handkerchief.",
+    "Kolya rescued him. “Father has been drinking with the widow again,” he said, embarrassed. “I'll take you myself, Prince. I know where Nastasya Filippovna lives.”",
+    "On the way, Kolya chattered about everything. He told the prince that his father had been an honest man once, before he took to drink. He told him that Ganya was a coward, that Varya was the best person in the family, and that he himself was going to be very modern and despise all prejudices.",
+    "“And I'll tell you something else,” he said. “Ippolit, my friend, says that everyone in Petersburg is selling themselves. Ganya, the generals, everyone. Only you're not, Prince. You're not like anyone else.”",
+    "At the door of a fine building on the Semyonovsky Street, Kolya left him. “Good luck,” he said. “Don't be afraid of them. They'll laugh at you, but you're better than all of them.”",
+    "The prince stood for a moment on the steps. His heart was beating fast. He did not know what he would say or why he had come. He knew only that he could not stay away. Then he went up the stairs."
+   ],
+   "glossary": [
+    {
+     "term": "scoundrel",
+     "meaning": "canalha"
+    },
+    {
+     "term": "wicked",
+     "meaning": "mau, perverso"
+    },
+    {
+     "term": "grimly",
+     "meaning": "sombriamente, com determinação"
+    },
+    {
+     "term": "respectability",
+     "meaning": "respeitabilidade"
+    },
+    {
+     "term": "widow",
+     "meaning": "viúva"
+    },
+    {
+     "term": "tangled",
+     "meaning": "complicada, enrolada"
+    },
+    {
+     "term": "chattered",
+     "meaning": "tagarelou"
+    },
+    {
+     "term": "prejudices",
+     "meaning": "preconceitos"
+    }
+   ]
+  },
+  {
+   "title": "The Birthday Party",
+   "paragraphs": [
+    "Nastasya Filippovna's flat was not large, but it was elegantly furnished. The guests that evening were few: Totsky, calm and well dressed as always; General Yepanchin, with his pearls; Ganya, pale and silent; Ferdyshchenko, who was always invited because he amused her; a young officer named Ptitsyn, Varya's friend; an old teacher; and Darya Alexeyevna, a lively lady who had once been an actress. Everyone felt that the hostess was in a strange, feverish mood.",
+    "When the prince was announced, there was a moment of surprise, but Nastasya Filippovna came out to meet him herself. “I'm so glad you've come,” she said, looking at him with curiosity. “You were not invited, but that doesn't matter. You did well. Sit here, beside me.”",
+    "The general frowned, and Totsky raised his eyebrows. Ferdyshchenko was delighted. “The prince came without an invitation! That's original. I always say that original people are the most interesting.”",
+    "Nastasya Filippovna had drunk two or three glasses of champagne, which was unusual for her. She laughed often, then suddenly fell silent and stared at nothing. From time to time she shivered.",
+    "Totsky watched her uneasily. He had known her for many years, and he had never been able to predict what she would do. He had once said that she was capable of anything, of ruining herself out of pride, of throwing herself into the river, of marrying a coachman just to spite him. She was not interested in money, he thought, and that was what made her so dangerous. A woman who wants nothing cannot be bought.",
+    "“Let's play a game,” said Ferdyshchenko. “I know a new one. Everyone must tell, honestly, the worst thing he has ever done in his life. The very worst thing. Not a lie, the truth.”",
+    "“What a horrible idea,” said the general.",
+    "“It's a wonderful idea,” said Nastasya Filippovna, her eyes flashing. “Let's play it. Ferdyshchenko, you begin, since you invented it.”",
+    "Ferdyshchenko told his story with a mixture of shame and pleasure. Years before, he said, he had been visiting friends, and he had taken three roubles from a table. The money was missed, and a poor servant girl was accused of stealing it. She was dismissed, and he said nothing. “And that evening,” he added, “I gave the three roubles to a waiter for a bottle of wine.”",
+    "There was an uncomfortable silence. “And is that the worst thing you ever did?” asked Nastasya Filippovna coldly.",
+    "“It's the worst thing I'll admit to,” said Ferdyshchenko.",
+    "General Yepanchin told a story about a poor old woman he had shouted at when he was a young officer. She had died that same night, and he had always felt guilty. Then Totsky, with elegant ease, told a story about his youth. A friend of his had been in love with a lady, and wanted to give her camellias for a ball, but there were no camellias to be found in the whole province. Totsky had found the only camellias, bought them and given them to the lady himself. His friend, heartbroken, went off to the war and was killed.",
+    "“A charming confession,” said Nastasya Filippovna with a smile that made Totsky uneasy. “You really have no worse sins than that, Afanasy Ivanovich?”",
+    "Then she turned suddenly to the prince. “Prince,” she said, “I want to ask you something. My friends here want me to marry Gavrila Ardalionovich. Shall I marry him or not? I'll do exactly as you say.”",
+    "Everyone froze. Totsky turned pale. The general's mouth fell open. Ganya stared at her.",
+    "“Whom should you marry?” asked the prince, in a low voice.",
+    "“Gavrila Ardalionovich Ivolgin,” she repeated, slowly and clearly.",
+    "There were a few seconds of silence. The prince seemed to be making a great effort. Then he said, “No. Don't marry him.”",
+    "“Then so be it!” cried Nastasya Filippovna. She turned to Ganya with a ringing laugh. “Gavrila Ardalionovich, you heard what the prince decided? There's my answer. And let that be the end of it.”",
+    "Totsky stood up, very pale. “Nastasya Filippovna,” he said, “this is not serious. You promised—”",
+    "“I promised to give my answer tonight, and I've given it,” she said. “I let the prince decide, because he is the first man I have ever met who is truly devoted to me. He believed in me at first sight, and I believe in him.”",
+    "The general tried to protest. Darya Alexeyevna clapped her hands. Ganya said nothing. He stood like a statue, white as chalk, and only his lips moved.",
+    "Nastasya Filippovna laughed again, more wildly than before. “And here,” she said, taking the case of pearls, “General, take back your present. Afanasy Ivanovich, you can keep your seventy-five thousand. Tomorrow I'm leaving this flat, and I'll leave everything you've ever given me. Tomorrow I begin a new life. Today is my birthday, and I'm free for the first time.”",
+    "“Nastasya Filippovna, you're ill,” said the general anxiously. “You're not yourself.”",
+    "“Yes, I'm ill,” she said, still laughing. “I've been ill for five years. And now I'll be well, or I'll be on the street. It's all the same to me.”"
+   ],
+   "glossary": [
+    {
+     "term": "feverish",
+     "meaning": "febril"
+    },
+    {
+     "term": "original",
+     "meaning": "original, excêntrico"
+    },
+    {
+     "term": "dismissed",
+     "meaning": "demitida, mandada embora"
+    },
+    {
+     "term": "confession",
+     "meaning": "confissão"
+    },
+    {
+     "term": "sins",
+     "meaning": "pecados"
+    },
+    {
+     "term": "froze",
+     "meaning": "congelou, ficou paralisado"
+    },
+    {
+     "term": "so be it",
+     "meaning": "que assim seja"
+    },
+    {
+     "term": "white as chalk",
+     "meaning": "branco como cal"
+    }
+   ]
+  },
+  {
+   "title": "The Prince's Proposal",
+   "paragraphs": [
+    "At that moment the doorbell rang loudly, and there was a great noise in the hall. “It's Rogozhin and his hundred thousand,” said Nastasya Filippovna. “Let him in. I invited him.”",
+    "Rogozhin came in with his band behind him: Lebedev, a giant fist-fighter, a young officer who had once been a prince, and several others, all half drunk. But as soon as they entered that elegant room, they fell quiet and huddled near the door. Rogozhin himself stopped when he saw Nastasya Filippovna. He was holding something under his arm, a large parcel wrapped in a newspaper and tied with string.",
+    "He walked to the table and put the parcel down. “There,” he said hoarsely. “A hundred thousand. Just as I said.”",
+    "Nastasya Filippovna looked at the parcel and laughed. “Look, gentlemen,” she said. “A hundred thousand roubles, in a dirty newspaper! Rogozhin, you've kept your word. Very well. I'm going with you.”",
+    "“Nastasya Filippovna!” cried the general. “This is madness!”",
+    "“What is madness? That I go with Rogozhin? Why not? Totsky made me his mistress when I was sixteen. Now I'll be Rogozhin's. Everyone here was ready to sell me to Ganya. Rogozhin, at least, pays honestly.”",
+    "Then the prince rose. He was trembling, and his voice was quiet, but everyone heard him.",
+    "“Nastasya Filippovna,” he said, “I know very little, and I have seen very little. But I believe that you would be doing me an honour, and not I you. I am nothing, but you have suffered, and you have come out of such a hell pure. Why are you ashamed, and why do you want to go with Rogozhin? I love you, Nastasya Filippovna. I would die for you. I will never let anyone say a word against you. I want to marry you.”",
+    "There was a stunned silence. Then Ferdyshchenko giggled, and Darya Alexeyevna whispered, “Oh, Lord.”",
+    "“But what will you live on, Prince?” said Nastasya Filippovna, half laughing, half in tears. “You're so poor that you need a job at thirty-five roubles a month!”",
+    "“Perhaps not,” said the prince, and he took a letter out of his pocket. “I received this today in Moscow, I mean from Moscow. It's from a lawyer, Salazkin. He writes that I have inherited a large fortune from my aunt. I didn't want to speak of it before, but I believe it's true.”",
+    "Ptitsyn took the letter and read it carefully. “It's true,” he said. “Salazkin is a very reliable man. The prince will receive at least a million and a half roubles, perhaps more.”",
+    "The room exploded with voices. A prince, an idiot, a millionaire! Everyone crowded around him. General Yepanchin shook his hand. Lebedev tried to kiss his sleeve. Rogozhin stood alone, gripping the back of a chair, his face dark.",
+    "Nastasya Filippovna laughed hysterically. “Did you hear? I'm a princess now! The prince is marrying me. A princess, with a million and a half! Darya Alexeyevna, did you hear? I'll be a princess.” Then her laughter turned into something else. She looked at the prince with wide, tender eyes. “Is it true, Prince? Would you really take me, just as I am, with nothing? After Totsky?”",
+    "“I would,” said the prince. “I would think myself honoured.”",
+    "She looked at him a long time. Then she shook her head slowly. “No,” she said. “It's enough. I've had my moment. Ruin a child like you? That's what Totsky would do. He's an expert at ruining children. No, Prince, you need a pure girl, a girl like Aglaya Yepanchina. Not me. I'm Rogozhin's woman.”",
+    "“Nastasya Filippovna—” the prince began.",
+    "“Rogozhin, get ready!” she shouted. “We're leaving. But wait. First I want to see something. Ganya! Come here.”"
+   ],
+   "glossary": [
+    {
+     "term": "huddled",
+     "meaning": "amontoaram-se"
+    },
+    {
+     "term": "parcel",
+     "meaning": "pacote, embrulho"
+    },
+    {
+     "term": "hoarsely",
+     "meaning": "com voz rouca"
+    },
+    {
+     "term": "stunned",
+     "meaning": "atônito"
+    },
+    {
+     "term": "giggled",
+     "meaning": "deu risadinhas"
+    },
+    {
+     "term": "reliable",
+     "meaning": "confiável"
+    },
+    {
+     "term": "gripping",
+     "meaning": "agarrando com força"
+    },
+    {
+     "term": "ruin",
+     "meaning": "arruinar, perder (moralmente)"
+    }
+   ]
+  },
+  {
+   "title": "The Hundred Thousand",
+   "paragraphs": [
+    "Ganya came forward slowly. All evening he had been silent, and now he stood before her with a face as grey as ashes.",
+    "Nastasya Filippovna took the parcel from the table and tore off the newspaper. Inside were thick bundles of hundred-rouble notes. She held them up so that everyone could see them.",
+    "“Ganya,” she said, “I want to look into your soul one last time. You've been tormenting me for three months. Now I'll torment you. Look at this. A hundred thousand roubles. I'm going to throw it into the fire. If you pull it out with your bare hands, without gloves, it's yours. All of it. But you'll burn your fingers a little. And I'll watch your soul as you crawl into the fire for my money.”",
+    "“She's mad!” cried someone. “She's gone mad!”",
+    "Before anyone could stop her, she threw the parcel onto the burning logs in the fireplace. The flames caught the paper at once.",
+    "A cry went up from everyone in the room. Lebedev fell on his knees, wailing. “Mother of God! A hundred thousand! Let me get it, let me put my head in the fire!”",
+    "“Get away!” said Nastasya Filippovna. “It's not for you. It's for Ganya. Ganya, why are you waiting? It's burning!”",
+    "The fireplace roared. Ganya stood in front of it, very still. He did not move towards the money. His face was terrible. Everyone could see that he was fighting a dreadful battle inside himself, that he wanted to throw himself on the fire and that his pride would not let him. He smiled a strange, crooked smile. The edges of the bundle were already burning.",
+    "“He's going to let it burn!” said Ferdyshchenko in amazement. “He's going to let it burn!”",
+    "Ganya turned, walked towards the door, and suddenly fell to the floor in a faint.",
+    "At once Nastasya Filippovna seized the fire tongs and pulled the parcel out of the flames. The outer notes were burnt, but the inner bundles were safe. She knelt down beside Ganya and put the money by his side.",
+    "“It's all his,” she said. “It's his reward. He didn't touch it. His pride is stronger than his greed. Tell him when he wakes up. Rogozhin, let's go!”",
+    "Rogozhin's band let out a roar of delight. Nastasya Filippovna put on her coat. She went up to the prince, took his face in her hands, and looked at him for a long time.",
+    "“Goodbye, Prince,” she said softly. “I saw a real man for the first time today.” And she kissed him.",
+    "Then she was gone, with Rogozhin and his men, down the stairs and out into the frosty night, where carriages and sledges were waiting, with bells ringing. The prince stood for a moment in the middle of the room. Then, without saying goodbye to anyone, he ran out after them.",
+    "“Where are you going?” called General Yepanchin. “Prince, stop!”",
+    "But the prince was already in the street, looking for a cab. He heard someone say that they had gone to Ekaterinhof, a pleasure garden outside the city. He told the driver to follow them.",
+    "When he was gone, Totsky took the general's arm and they walked out together. “What a woman,” said Totsky thoughtfully. “What a pity. She was a diamond, a rare, uncut diamond. And now she will throw herself away.”",
+    "The general said nothing. He was thinking of his pearls.",
+    "Ganya woke up an hour later. Ptitsyn told him what had happened and gave him the parcel. Ganya said nothing. The next morning, he carried the money, every rouble of it, to the prince's lodgings and asked him to return it to Nastasya Filippovna. He would not keep a kopek. It was the proudest thing he had ever done, and perhaps the most unhappy."
+   ],
+   "glossary": [
+    {
+     "term": "ashes",
+     "meaning": "cinzas"
+    },
+    {
+     "term": "tormenting",
+     "meaning": "atormentando"
+    },
+    {
+     "term": "bare hands",
+     "meaning": "mãos nuas"
+    },
+    {
+     "term": "wailing",
+     "meaning": "lamentando-se em voz alta"
+    },
+    {
+     "term": "crooked",
+     "meaning": "torto"
+    },
+    {
+     "term": "faint",
+     "meaning": "desmaio"
+    },
+    {
+     "term": "fire tongs",
+     "meaning": "tenaz (pegador de lareira)"
+    },
+    {
+     "term": "greed",
+     "meaning": "ganância"
+    }
+   ]
+  },
+  {
+   "title": "Six Months Later",
+   "paragraphs": [
+    "For six months the prince was away from Petersburg. He went to Moscow to collect his inheritance, which turned out to be smaller than people had imagined, though still large. All sorts of strange people attached themselves to him there, and he gave money to many of them.",
+    "Rumours came to Petersburg. Nastasya Filippovna, it was said, had gone to Moscow with Rogozhin, and had almost married him. Then, on the very eve of the wedding, she had run away from him and taken refuge with the prince. For a month they had lived near each other, and it seemed that she might marry the prince instead. Then she had run away from him too, and gone back to Rogozhin. Then she had disappeared again. No one knew what was true.",
+    "The Yepanchins received one letter from the prince, written to Aglaya. It was short and confused. “I want very much,” he wrote, “that you should be happy. Are you happy? That is all I wanted to say.” Aglaya read it, laughed, and put it in her desk, inside an old book, a copy of Don Quixote. She never mentioned it to anyone.",
+    "Lebedev, who had been in Moscow himself for a time, later told the story in his own way. “She lived in a little house near the prince,” he said, “and he visited her every day, like a brother. He was gentle and patient, and she was quieter than anyone had ever seen her. They even fixed a day for the wedding. Then one morning she was gone, and a note said that she had gone back to Rogozhin. She couldn't bear it, you see. She couldn't bear to be loved without being punished.”",
+    "At the beginning of June, the prince came back. He arrived on a hot, stuffy morning on the Moscow train. As he got out of the carriage, he had the strange feeling that a pair of burning eyes was looking at him from the crowd. He looked around, but he saw no one. Still, he felt uneasy.",
+    "He went to see Lebedev, who had become a moneylender and petty lawyer, and who knew everything about everyone. Lebedev received him with great respect and many bows. He had rented a summer house in Pavlovsk, a fashionable resort outside the city, and he begged the prince to stay with him there.",
+    "Lebedev's household was a strange one. He was a widower with a grown-up daughter, Vera, who looked after a crying baby and her younger brothers, and a nephew who despised him openly. Every evening Lebedev lectured anyone who would listen on the Book of Revelation, which he claimed to understand better than any priest in Russia.",
+    "“We are living in the time of the third horse, Prince,” he said solemnly, “the black horse, whose rider holds a pair of scales in his hand. Everything today is weighed and bought and sold. Everyone is looking for his rights. And the star called Wormwood, which fell upon the waters, is the network of railways spread over Europe.”",
+    "“Do you really believe that?” asked the prince, smiling.",
+    "“I believe it and I explain it,” said Lebedev. “For I am a vile man, Prince, a low, mean little man, but I understand everything. And I pray every night for the soul of Madame du Barry, who was guillotined, and for the souls of all great sinners. Nobody else prays for them, you see.”",
+    "The prince looked at him with a kind of tender amusement. He knew that Lebedev was a liar and a flatterer, and that he would sell anyone for a few roubles. But he could not help liking him.",
+    "“The Yepanchins will be in Pavlovsk too,” he said, with a sly look. “All the best people go to Pavlovsk.”",
+    "“And Nastasya Filippovna?” asked the prince.",
+    "Lebedev's face became serious. “She's in Pavlovsk as well, with Darya Alexeyevna. She's afraid of Rogozhin. And she's afraid of you, Prince. She ran away from Rogozhin a third time. He's going mad, they say. He watches her all the time.”",
+    "That afternoon the prince went to see Rogozhin. He found the house in Gorokhovaya Street easily, though he had never been there. It was a large, gloomy, three-storey house of a dirty green colour, with thick walls and small windows. It looked like a fortress or a prison. “That's his house,” the prince said to himself as soon as he saw it. “I knew it would look like that.”",
+    "Rogozhin himself opened the door of his apartment. When he saw the prince, he grew so pale that his lips turned white, and he stood without moving, as if turned to stone.",
+    "“Parfyon,” said the prince, “perhaps I shouldn't have come. I can go away.”",
+    "“No, come in,” said Rogozhin, recovering. “I was surprised, that's all. Come in.”",
+    "The prince looked at him closely. “Parfyon, was it you I saw at the station this morning? In the crowd?”",
+    "Rogozhin smiled strangely. “Me? No. How could I know you were coming?”",
+    "But the prince felt certain that he had seen those same burning eyes."
+   ],
+   "glossary": [
+    {
+     "term": "rumours",
+     "meaning": "boatos"
+    },
+    {
+     "term": "on the very eve",
+     "meaning": "na véspera exata"
+    },
+    {
+     "term": "taken refuge",
+     "meaning": "se refugiado"
+    },
+    {
+     "term": "stuffy",
+     "meaning": "abafado"
+    },
+    {
+     "term": "moneylender",
+     "meaning": "agiota"
+    },
+    {
+     "term": "sly",
+     "meaning": "malicioso, astuto"
+    },
+    {
+     "term": "gloomy",
+     "meaning": "sombria"
+    },
+    {
+     "term": "fortress",
+     "meaning": "fortaleza"
+    }
+   ]
+  },
+  {
+   "title": "Two Rivals",
+   "paragraphs": [
+    "Rogozhin led the prince into his study. It was a large, high, dark room, full of old furniture covered with leather. On the desk lay a book, and beside it a garden knife with a handle of deer horn, the kind used for cutting pages. The prince picked it up absent-mindedly while they talked, and Rogozhin took it out of his hand and put it down, rather sharply.",
+    "“Parfyon,” said the prince, “I've come to tell you plainly that I'm not your enemy, and I don't intend to stand in your way. When she ran to me in Moscow, she ran to me from you, not to me for myself. She thinks I can save her. That's all. I love her, but not with love. With pity.”",
+    "Rogozhin laughed bitterly. “Pity! That's worse. Do you know what she told me? She said she'd marry me only so that she could be sure to destroy herself. ‘I'm marrying you because it's the same as drowning myself,’ she said. And she runs away to you, and then back to me, and every time she runs to me, it's because she's afraid of ruining you. She loves you, Prince. That's the truth. She loves you, and she's afraid of you, and she'll never marry you because she thinks she's not worthy of you.”",
+    "“Then you think she loves you too?”",
+    "“Me?” Rogozhin's face twisted. “She laughs at me. Once she stayed a whole night in a convent so as not to be near me. In Moscow I beat her once. Yes, I did. Then I stood outside her door for a whole day, and I didn't eat or sleep, and she came out and said, ‘Go away.’ She hates me, and she's going to marry me because she hates herself. Do you understand anything about it?”",
+    "The prince was silent for a while. He noticed that Rogozhin was watching him the whole time, as if he were trying to read something in his face, and that his eyes had the same heavy, burning look that the prince had felt at the station that morning.",
+    "“You know, Parfyon,” he said at last, “when you aren't angry, you have a good face. A clever face. I'd like to see that face more often.”",
+    "Rogozhin laughed shortly. “Perhaps. But I'm angry nearly all the time now.”",
+    "“I understand,” said the prince sadly. “I understand more than you think. She's ill, Parfyon. Her mind is suffering. She thinks she's guilty of everything, that she's a fallen creature. She's tortured herself for five years. That's why she runs. If she marries you, it will be her destruction, and yours too.”",
+    "“Her destruction,” repeated Rogozhin. He was silent for a while. “Do you know,” he said suddenly, “that I sometimes think she might be safer with you? I should give her to you. I'm afraid of myself, Prince.”",
+    "He told the prince that, when Nastasya Filippovna had laughed at him, he had sat for days in silence in this house, reading a book she had once mentioned, a history of Russia. He had begun to think. “She said I'd been born to be a moneylender like my father, that I'd sit in this house and count money and hoard it, and go mad with it. She's right, I would. But I love her, and that's all there is.”",
+    "The prince looked around the dark rooms. “Your house,” he said, “has the look of your whole family and of your whole life. I knew it from the street.”",
+    "“Yes,” said Rogozhin. “My father lived here, and his father. My mother still lives upstairs. She's old and doesn't understand anything any more. The rest of the house is let out to Skoptsy, the castrates, the old religious sect. My father liked them. He was almost one of them.”",
+    "They walked through the gloomy rooms. In one of them, over a door, hung a painting. It was a copy of a picture by Hans Holbein, showing the body of Christ just taken down from the cross. The body was stretched out, thin, already beginning to decay, the face swollen and bruised, the eyes open and glassy. It was a picture of a dead man, nothing more, and of death that nothing could defeat.",
+    "Rogozhin stopped in front of it. “I like looking at that picture,” he said.",
+    "“At that picture!” exclaimed the prince, as if struck by a sudden thought. “At that picture! Why, a man could lose his faith looking at that picture.”",
+    "“Yes, a man could,” said Rogozhin unexpectedly. “Tell me, Lev Nikolayevich, do you believe in God?”",
+    "The prince looked at him in surprise. Rogozhin's face, lit by the window, was pale and strange."
+   ],
+   "glossary": [
+    {
+     "term": "absent-mindedly",
+     "meaning": "distraidamente"
+    },
+    {
+     "term": "plainly",
+     "meaning": "francamente"
+    },
+    {
+     "term": "drowning myself",
+     "meaning": "me afogando"
+    },
+    {
+     "term": "convent",
+     "meaning": "convento"
+    },
+    {
+     "term": "tortured",
+     "meaning": "torturou"
+    },
+    {
+     "term": "hoard",
+     "meaning": "acumular (de forma avarenta)"
+    },
+    {
+     "term": "sect",
+     "meaning": "seita"
+    },
+    {
+     "term": "decay",
+     "meaning": "decompor-se"
+    }
+   ]
+  },
+  {
+   "title": "The Exchange of Crosses",
+   "paragraphs": [
+    "“How strangely you ask that,” said the prince. “And how strangely you look at me.” Then he smiled. “I'll answer you with four stories, Parfyon. They all happened to me in the last few days.”",
+    "He told him about an educated man, an atheist, with whom he had travelled on a train. The man had spoken for hours against God, very cleverly, but the prince felt that he was not speaking about the right thing at all. Then he told him about a peasant he had heard of, who had killed his friend for a silver watch. Before he did it, he crossed himself and prayed, “Lord, forgive me for Christ's sake.” Then he cut his friend's throat.",
+    "Rogozhin burst out laughing. “I like that! One man doesn't believe in God at all, and the other believes so much that he prays before he kills!”",
+    "“Then,” the prince went on, “I met a drunken soldier in the street who offered to sell me his silver cross for twenty kopeks. I could see that it was tin, not silver, but I paid him, and he went off happy to drink. And I thought, I mustn't judge this man who sold his Christ. God knows what is in these weak, drunken hearts.",
+    "“And the fourth story: I saw a young peasant woman with a tiny baby, six weeks old. The baby smiled at her for the first time, and she crossed herself with such devotion. I asked her why, and she said, ‘Just as a mother rejoices when she sees her baby's first smile, so God rejoices every time he sees from heaven a sinner kneeling to pray to him with all his heart.’ A simple peasant woman said that, Parfyon. That's the whole essence of Christianity, the idea of God as our own father, and of God's joy in man as a father's joy in his child. The essence of religious feeling has nothing to do with reasoning, or crimes, or atheism. There's something there that atheists will always slide past, and they'll always be talking about the wrong thing.”",
+    "Rogozhin listened in silence. Then he said, “Show me the cross you bought.”",
+    "The prince took out the tin cross on its string. Rogozhin was wearing a gold cross on a chain. “Let's exchange crosses,” he said. “You give me yours, and I'll give you mine.”",
+    "“Why? Do you want us to be brothers?” said the prince, delighted. “Gladly, Parfyon. I'm happy. We'll be brothers.”",
+    "They exchanged crosses. Then Rogozhin took the prince by the hand and led him upstairs to see his mother. She was a little old woman, very thin, with a kind, empty face, sitting in an armchair surrounded by servants and icons. She did not seem to understand who they were.",
+    "“Mother,” said Rogozhin, kissing her hand, “this is Prince Lev Nikolayevich Myshkin. He and I have exchanged crosses. He was like a brother to me in Moscow. Bless him, Mother, as you'd bless your own son.”",
+    "The old woman looked at the prince for a long time. Then, slowly, she raised her hand, put three fingers together, and made the sign of the cross over him three times. Then she nodded to him kindly.",
+    "As they went down the stairs, Rogozhin stopped. His face had changed. “Go now, Lev Nikolayevich,” he said, embracing him. “Take her, if that's your fate. She's yours. I give her up to you. Remember Rogozhin.” He turned quickly away, went into his flat and slammed the door, without looking back.",
+    "The prince went out into the hot street. He was full of joy and confusion at the same time. Rogozhin had given up Nastasya Filippovna. Rogozhin had embraced him like a brother. But why had his eyes looked so dark? Why had he not wanted to look at him as they said goodbye?",
+    "The day was stifling. The prince walked aimlessly through the streets for hours. He felt the approach of one of his fits. He knew the signs: a strange dullness, then flashes of extraordinary clarity, then a feeling of anxiety without cause. He remembered that, just before a fit, he sometimes experienced a moment of supreme harmony and joy, a second of light so intense that he would give his whole life for it. Afterwards came darkness and stupor. And he asked himself, as he had often asked himself: if this moment is caused by illness, does it matter? If, in that second, I see the highest beauty and the fullest life, what difference does it make that it's a disease?"
+   ],
+   "glossary": [
+    {
+     "term": "atheist",
+     "meaning": "ateu"
+    },
+    {
+     "term": "crossed himself",
+     "meaning": "fez o sinal da cruz"
+    },
+    {
+     "term": "tin",
+     "meaning": "lata, estanho"
+    },
+    {
+     "term": "rejoices",
+     "meaning": "se alegra"
+    },
+    {
+     "term": "essence",
+     "meaning": "essência"
+    },
+    {
+     "term": "icons",
+     "meaning": "ícones (imagens religiosas)"
+    },
+    {
+     "term": "stifling",
+     "meaning": "sufocante"
+    },
+    {
+     "term": "stupor",
+     "meaning": "estupor, torpor"
+    }
+   ]
+  },
+  {
+   "title": "The Knife on the Staircase",
+   "paragraphs": [
+    "As he walked, the prince found himself in front of a cutler's shop window. He stopped and looked at an object in it, a knife with a horn handle, exactly like the one he had seen on Rogozhin's desk. He realized that he had stopped in front of this same window earlier that day, and that he had been unconsciously thinking about that knife for hours. And he realized something else. All day, wherever he went, he had felt those eyes on him, the same eyes he had seen at the station.",
+    "“There's someone following me,” he thought. “And I know who it is.”",
+    "He was filled with shame at this thought, as if he had committed a crime. How could he suspect Rogozhin, his brother, the man who had just exchanged crosses with him? He tried to drive the idea away. But it came back again and again.",
+    "Without deciding to, he took a cab to the street where Nastasya Filippovna had been staying in Petersburg. She was not there; she had gone to Pavlovsk. He walked back across the city, and the feeling grew stronger and stronger. He was certain now that Rogozhin was watching him from somewhere in the crowd.",
+    "At last, exhausted, he went back to his hotel. The sky had darkened, and a thunderstorm was about to break. The gate of the hotel led into a dark, narrow staircase that wound round a stone pillar. As he entered the gloomy staircase, he saw, in a dark recess on the first landing, a figure hiding. A man was waiting there.",
+    "The prince's heart stopped. Those eyes, Rogozhin's eyes, were shining in the darkness. And something gleamed in Rogozhin's raised right hand.",
+    "“Parfyon, I don't believe it!” cried the prince.",
+    "At that very instant, something seemed to open up before him. An extraordinary inner light flooded his soul. The moment lasted perhaps half a second, but he remembered clearly the beginning of the terrible scream that burst from his own chest, a scream that no force on earth could have stopped. Then his consciousness went out, and there was total darkness.",
+    "It was a fit of epilepsy, the first he had had for a long time. In such fits, the face is suddenly distorted, especially the eyes, and the whole body is seized by convulsions. The scream is so terrible, so inhuman, that it seems to come from someone else. Many people who see it are filled with an unbearable mystical terror.",
+    "That scream saved his life. Rogozhin, horrified, stood frozen with the knife in his hand. The prince's body fell backwards, down the stone stairs, and his head struck one of the steps. Rogozhin did not strike. He rushed down past the body and ran out of the hotel into the rain, like a madman.",
+    "A few minutes later, the hotel servants found the prince lying in a pool of blood at the foot of the stairs, his body still twitching. They did not know who he was. But by chance Kolya Ivolgin had come to the hotel that evening, looking for him. He recognized the prince at once and took charge of everything. He called a doctor, who found that the wound on the head was not dangerous, and he stayed by the prince's bed all night.",
+    "Two days later, the prince was able to stand up. He was weak and pale, and he did not speak of what had happened on the staircase. Lebedev came, full of sympathy and curiosity, and insisted that the prince should leave the stifling city at once and come to his summer house in Pavlovsk, where the air was fresh and the park was green.",
+    "“You must rest, Prince,” said Lebedev. “You must have quiet.”",
+    "The prince agreed. He had a feeling that everything that mattered in his life was now waiting for him in Pavlovsk: the Yepanchins, Aglaya, and Nastasya Filippovna. And Rogozhin, too, would surely be there. He touched the gold cross that hung on his chest, the cross his brother had given him, and he did not know whether to pray for Rogozhin or for himself."
+   ],
+   "glossary": [
+    {
+     "term": "cutler's shop",
+     "meaning": "cutelaria"
+    },
+    {
+     "term": "unconsciously",
+     "meaning": "inconscientemente"
+    },
+    {
+     "term": "recess",
+     "meaning": "recanto, nicho"
+    },
+    {
+     "term": "landing",
+     "meaning": "patamar (da escada)"
+    },
+    {
+     "term": "gleamed",
+     "meaning": "brilhou"
+    },
+    {
+     "term": "convulsions",
+     "meaning": "convulsões"
+    },
+    {
+     "term": "unbearable",
+     "meaning": "insuportável"
+    },
+    {
+     "term": "twitching",
+     "meaning": "se contorcendo, tremendo"
+    }
+   ]
+  }
+ ]
+}

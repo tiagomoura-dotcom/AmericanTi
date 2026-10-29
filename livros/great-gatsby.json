@@ -1,0 +1,742 @@
+{
+ "id": "great-gatsby",
+ "title": "The Great Gatsby",
+ "author": "F. Scott Fitzgerald",
+ "year": 1925,
+ "module": 5,
+ "level": "C1",
+ "summary": "No verão de 1922, o jovem Nick Carraway se muda para Long Island e passa a viver ao lado de Jay Gatsby, um milionário misterioso que dá festas enormes e sobre quem ninguém sabe a verdade. Do outro lado da baía mora Daisy, prima de Nick, casada com o rico e arrogante Tom Buchanan. Entre jazz, champanhe e segredos, Nick descobre o sonho que move Gatsby e o preço da riqueza na América dos anos 1920.",
+ "chapters": [
+  {
+   "title": "The House Across the Bay",
+   "paragraphs": [
+    "When I was younger and more easily hurt, my father gave me a piece of advice that I have been turning over in my mind ever since. “Whenever you feel like criticizing anyone,” he told me, “just remember that all the people in this world haven't had the advantages that you've had.” He didn't say any more, but we always understood each other without many words. As a result, I am inclined to reserve all judgements, a habit that has opened up many curious natures to me. It has also made me the victim of more than a few bores.",
+    "My name is Nick Carraway. My family have been well-to-do people in a Middle Western city for three generations, and after I came back from the war I decided to learn the bond business in New York. Everybody I knew was in the bond business, so I supposed it could support one more single man. In the spring of 1922 I rented a small house on Long Island, in a village called West Egg. It was an ugly little place, squeezed between two enormous mansions that rented for twelve or fifteen thousand dollars a season.",
+    "The mansion on my right was a colossal affair by any standard. It was a copy of some town hall in Normandy, with a tower on one side, a marble swimming pool and more than forty acres of lawn and garden. It belonged to a man called Gatsby, though at that time I knew nothing more about him than his name. Across the bay, on the more fashionable peninsula of East Egg, the white palaces glittered along the water. That was where my story really begins, on the evening I drove over to have dinner with Tom and Daisy Buchanan.",
+    "Daisy was my second cousin once removed, and I had known Tom at college. He had been one of the most powerful football players ever to play for Yale, the kind of man who reaches such a sharp peak at twenty-one that everything afterwards tastes of anticlimax. His family were enormously wealthy, and he had brought a string of polo ponies with him from Lake Forest. Now he stood on the porch of his red-and-white Georgian mansion in riding clothes, a sturdy straw-haired man of thirty with a hard mouth and a rather arrogant manner. When he moved, you could see the great mass of muscle shifting under his coat.",
+    "“I've got a nice place here,” he said, turning me around by the arm with one broad hand. He showed me the Italian garden and the half acre of roses, and then he led me inside, into a bright rosy-coloured room where the curtains blew in and out like pale flags. Two young women were lying on an enormous couch, their white dresses rippling as if they had just been blown back in after a short flight around the house. One of them was Daisy. The other, who lay completely still with her chin raised a little, was a stranger to me.",
+    "Daisy tried to rise, then laughed an absurd, charming little laugh. “I'm p-paralysed with happiness,” she said, holding my hand and looking up into my face as if there were no one in the world she so much wanted to see. Her voice was the thing that men who had cared for her found hard to forget. It was low and thrilling, a voice that seemed to promise that she had done gay, exciting things just a while ago and that there were gay, exciting things hovering in the next hour. She told me in a murmur that the girl on the couch was Jordan Baker, a famous golf champion.",
+    "We had dinner on the porch as the sun went down. Tom was full of a book he had been reading about the danger to the white race, and he talked about it with a kind of angry seriousness that made Daisy wink at me. Then the telephone rang inside, and the butler called Tom away. Daisy followed him a moment later, and Jordan leaned forward without any shame at all, listening.",
+    "“This Mr. Gatsby you spoke of is my neighbour,” I said, trying to make conversation.",
+    "“Don't talk. I want to hear what happens,” Jordan whispered. “Tom's got some woman in New York.”",
+    "“Got some woman?” I repeated blankly.",
+    "“She might have the decency not to telephone him at dinner time. Don't you think?” Jordan said, and she seemed rather amused by the whole thing.",
+    "When Daisy came back she was bright and talkative, but the evening had been broken somehow. Later, when Tom and Jordan had gone inside, she took me out to the porch and told me about her little daughter. “I hope she'll be a fool,” she said in a strange, flat voice. “That's the best thing a girl can be in this world, a beautiful little fool.” I felt a trick in what she said, as if the whole evening had been a performance designed to win my sympathy.",
+    "I drove home to West Egg a little disturbed. When I reached my house, I saw that I was not alone. A figure had come out of the shadow of the mansion next door and was standing with his hands in his pockets, looking at the silver stars. Something in his relaxed movements told me it was Mr. Gatsby himself, come out to see what share of our local heavens was his.",
+    "I decided to call to him, but I didn't. He gave a sudden hint that he was content to be alone. He stretched out his arms towards the dark water in a curious way, and, far as I was from him, I could have sworn he was trembling. I looked out to sea and saw nothing except a single green light, very small and far away, that might have been the end of a dock. When I looked back for Gatsby, he had vanished, and I was alone again in the unquiet darkness."
+   ],
+   "glossary": [
+    {
+     "term": "reserve all judgements",
+     "meaning": "evitar julgar os outros"
+    },
+    {
+     "term": "bores",
+     "meaning": "pessoas chatas"
+    },
+    {
+     "term": "well-to-do",
+     "meaning": "abastados, ricos"
+    },
+    {
+     "term": "anticlimax",
+     "meaning": "decepção depois de um ponto alto"
+    },
+    {
+     "term": "sturdy",
+     "meaning": "robusto, forte"
+    },
+    {
+     "term": "hovering",
+     "meaning": "pairando"
+    },
+    {
+     "term": "decency",
+     "meaning": "decência, bom senso"
+    },
+    {
+     "term": "trembling",
+     "meaning": "tremendo"
+    }
+   ]
+  },
+  {
+   "title": "The Valley of Ashes",
+   "paragraphs": [
+    "About halfway between West Egg and New York the road joins the railway and runs beside it for a quarter of a mile, to avoid a certain desolate area of land. This is a valley of ashes, a strange farm where ashes grow like wheat into ridges and hills and grotesque gardens. Grey men move dimly through the powdery air, and grey cars crawl along an invisible track. Above it all, on an enormous old advertisement, the blue eyes of Doctor T. J. Eckleburg look out from behind a pair of huge yellow spectacles. Some oculist must have set them there to grow his business and then forgotten them, and now they brood over the dumping ground like the eyes of a forgotten god.",
+    "I first met Tom Buchanan's mistress because of that valley. One afternoon we were travelling into New York together on the train, and when it stopped by the ash heaps Tom jumped to his feet and took hold of my elbow. “We're getting off,” he insisted. “I want you to meet my girl.” I think he had been drinking at lunch, and his determination to have my company bordered on violence.",
+    "We walked back along the road to a small garage with a sign that said “Repairs. George B. Wilson. Cars bought and sold.” The owner appeared in the doorway, wiping his hands on a piece of rag. He was a blond, spiritless man, anaemic and faintly handsome, and when he saw Tom a damp gleam of hope came into his light blue eyes. “When are you going to sell me that car?” he asked. “I need the money.”",
+    "“Next week. I've got my man working on it now,” Tom answered coldly. Then footsteps sounded on the stairs, and a woman came down into the garage. She was in her middle thirties and rather stout, but she carried her flesh sensuously, as some women can. There was an immediately noticeable vitality about her, as if the nerves of her body were continually smouldering. She walked past her husband as if he were a ghost, shook hands with Tom and looked him straight in the eye.",
+    "“Get some chairs, why don't you, so somebody can sit down,” she said to Wilson, and he went obediently towards the little office. When he had gone, Tom spoke quickly in a low voice. “I want to see you. Get on the next train.” She nodded, and we walked back to the station, leaving George Wilson to his chairs.",
+    "Her name was Myrtle, and Tom kept a small apartment for her on West 158th Street. That afternoon she gathered a few friends there for an improvised party. There was her sister Catherine, a slender, worldly girl with a sticky bob of red hair, and there was a pale, feminine man from the flat below called McKee, with his wife. Tom took out a bottle of whisky from a locked drawer, and it was only the second time in my life that I got drunk, so everything that happened afterwards has a dim, hazy quality.",
+    "Myrtle had changed her dress, and with the change her personality had also undergone a transformation. The intense vitality that had been so remarkable in the garage turned into impressive arrogance. She complained about the servants and the prices, and she spoke of her husband with open contempt. “I married him because I thought he was a gentleman,” she said. “I thought he knew something about breeding, but he wasn't fit to lick my shoe.”",
+    "Catherine leaned towards me and whispered. “Neither of them can stand the person they're married to,” she said. “It's really his wife that's keeping them apart. She's a Catholic, and they don't believe in divorce.” Daisy was not a Catholic, and I was a little shocked at the elaborateness of the lie. Then Catherine asked me if I lived on Long Island. “I was down there at a party about a month ago,” she said. “At a man named Gatsby's. They say he's a nephew or a cousin of Kaiser Wilhelm's. That's where all his money comes from.”",
+    "The afternoon became evening, and the evening went on and on. People came and went, and the little apartment filled up with smoke. Some time towards midnight Tom Buchanan and Mrs. Wilson stood face to face, discussing in passionate voices whether Mrs. Wilson had any right to mention Daisy's name.",
+    "“Daisy! Daisy! Daisy!” shouted Mrs. Wilson. “I'll say it whenever I want to! Daisy! Dai...”",
+    "Making a short, efficient movement, Tom Buchanan broke her nose with his open hand. Then there were bloody towels on the bathroom floor, women's voices scolding, and high over the confusion a long broken wail of pain. I found my hat and left with Mr. McKee, and some hours later I was lying half asleep in the cold lower level of Pennsylvania Station, waiting for the four o'clock train."
+   ],
+   "glossary": [
+    {
+     "term": "desolate",
+     "meaning": "desolado, deserto"
+    },
+    {
+     "term": "brood",
+     "meaning": "pairam pensativos, vigiam sombriamente"
+    },
+    {
+     "term": "bordered on",
+     "meaning": "beirava, chegava perto de"
+    },
+    {
+     "term": "stout",
+     "meaning": "corpulenta"
+    },
+    {
+     "term": "smouldering",
+     "meaning": "ardendo lentamente"
+    },
+    {
+     "term": "contempt",
+     "meaning": "desprezo"
+    },
+    {
+     "term": "breeding",
+     "meaning": "boa educação, berço"
+    },
+    {
+     "term": "wail",
+     "meaning": "lamento, gemido alto"
+    }
+   ]
+  },
+  {
+   "title": "A Party Next Door",
+   "paragraphs": [
+    "There was music from my neighbour's house through the summer nights. In his blue gardens men and girls came and went like moths among the whispering and the champagne and the stars. On weekends his Rolls-Royce became an omnibus, carrying parties to and from the city between nine in the morning and long past midnight. Every Friday five crates of oranges and lemons arrived from a fruiterer in New York, and every Monday these same oranges and lemons left his back door in a pyramid of pulpless halves. Once a fortnight a whole army of caterers came down with hundreds of feet of canvas and enough coloured lights to make a Christmas tree of Gatsby's enormous garden.",
+    "I believe that on the first night I went to Gatsby's house I was one of the few guests who had actually been invited. People were not invited; they simply went there. They got into cars that took them to Long Island, and somehow they ended up at Gatsby's door. But a chauffeur in a uniform of robin's-egg blue crossed my lawn early that Saturday morning with a surprisingly formal note from his employer. The honour would be entirely Gatsby's, it said, if I would attend his “little party” that night.",
+    "At seven o'clock the orchestra arrived, no thin five-piece affair, but a whole pitful of oboes and trombones and saxophones and drums. The bar was in full swing, and floating rounds of cocktails filled the garden outside. The lights grew brighter as the earth turned away from the sun, and the air was alive with chatter and laughter and casual introductions forgotten on the spot. I wandered around feeling rather lonely, until I saw Jordan Baker standing at the top of the marble steps. She seemed glad to see me, and we drifted together through the crowd.",
+    "“Somebody told me they thought he killed a man once,” a girl in yellow whispered to us, leaning forward with enthusiasm. Another one said that he had been a German spy during the war. A man insisted that he had been in the American army. It was testimony to the romantic speculation he inspired that there were whispers about him from people who had found little that it was necessary to whisper about in this world.",
+    "Jordan and I went looking for our host, but he was not at the bar or on the steps. We pushed open a heavy door and found ourselves in a high Gothic library, panelled with carved English oak. A stout, middle-aged man with enormous owl-eyed spectacles was sitting somewhat drunk on the edge of a great table, staring at the shelves of books. “Absolutely real!” he cried. “They're real books! I thought they'd be a nice durable cardboard, but they're absolutely real. This fellow's a regular Belasco. It's a triumph. He knew when to stop, too. He didn't cut the pages.”",
+    "Later, sitting at a table in the garden, I found myself talking with a man of about my own age. “Your face is familiar,” he said politely. “Weren't you in the First Division during the war?” I had been, and we talked for a while about some wet, grey little villages in France. Then I mentioned that this was an unusual party for me, because I had never even seen the host. “I live over there,” I said, waving my hand at the invisible hedge in the distance, “and this man Gatsby sent over his chauffeur with an invitation.”",
+    "For a moment he looked at me as if he failed to understand. “I'm Gatsby,” he said suddenly.",
+    "“What!” I exclaimed. “Oh, I beg your pardon.”",
+    "“I thought you knew, old sport. I'm afraid I'm not a very good host.” He smiled understandingly, much more than understandingly. It was one of those rare smiles with a quality of eternal reassurance in it, a smile that you may come across four or five times in life. It faced, or seemed to face, the whole external world for an instant, and then concentrated on you with an irresistible prejudice in your favour. It understood you just as far as you wanted to be understood and believed in you as you would like to believe in yourself.",
+    "Precisely at that point it vanished, and I was looking at an elegant young roughneck, a year or two over thirty, whose elaborate formality of speech just missed being absurd. Some time before he introduced himself I'd got a strong impression that he was picking his words with care. A butler hurried up to tell him that Chicago was calling on the telephone, and he excused himself with a small bow that included each of us in turn.",
+    "As the night went on the party became louder and wilder. A girl sang through tears, and two couples quarrelled bitterly in the hall. Gatsby stood alone on the marble steps, looking from one group to another with approving eyes, and I noticed that he did not drink at all. Then his butler came to tell Jordan that Mr. Gatsby would like to speak to her alone. She was gone for an hour, and when she came back she looked strangely excited. “I've just heard the most amazing thing,” she said in my ear, “but I swore I wouldn't tell it. Come and see me.”",
+    "On my way home I looked back. A wafer of a moon was shining over Gatsby's house, and the sudden emptiness seemed to flow now from the windows and the great doors. Gatsby himself stood alone on the porch, his hand raised in a formal gesture of farewell."
+   ],
+   "glossary": [
+    {
+     "term": "moths",
+     "meaning": "mariposas"
+    },
+    {
+     "term": "fortnight",
+     "meaning": "quinzena, duas semanas"
+    },
+    {
+     "term": "caterers",
+     "meaning": "empresa de bufê"
+    },
+    {
+     "term": "in full swing",
+     "meaning": "a todo vapor"
+    },
+    {
+     "term": "speculation",
+     "meaning": "especulação, boatos"
+    },
+    {
+     "term": "old sport",
+     "meaning": "meu velho, meu caro"
+    },
+    {
+     "term": "reassurance",
+     "meaning": "tranquilidade, segurança"
+    },
+    {
+     "term": "roughneck",
+     "meaning": "sujeito rude, grosseirão"
+    }
+   ]
+  },
+  {
+   "title": "The Lunch with Wolfsheim",
+   "paragraphs": [
+    "That summer I saw Jordan Baker often. At first I was flattered to go places with her, because she was a golf champion and everyone knew her name. Then it became something more, a kind of tender curiosity. I learned that she was incurably dishonest. At her first big golf tournament there had been a rumour that she had moved her ball from a bad position, and though the story died away, I remembered it. She wasn't able to endure being at a disadvantage, and she had begun dealing in subterfuges when she was very young.",
+    "“You're a rotten driver,” I protested one day, after she passed so close to some workmen that our wheel flicked a button on one man's coat. “Either you ought to be more careful, or you oughtn't to drive at all.”",
+    "“I am careful,” she said calmly. “They'll keep out of my way. It takes two to make an accident.”",
+    "“Suppose you met somebody just as careless as yourself?”",
+    "“I hope I never will,” she answered. “I hate careless people. That's why I like you.” Her grey eyes looked straight ahead, and for a moment I thought I loved her. But I am slow-thinking and full of interior rules, and I knew I had a vague understanding with a girl back home that had to be ended properly first.",
+    "At nine o'clock one morning late in July, Gatsby's gorgeous car came up the rocky drive to my door. It was a rich cream colour, bright with nickel, swollen here and there with triumphant hatboxes and supper boxes, and full of glittering windshields that mirrored a dozen suns. “Good morning, old sport,” he said. “You're having lunch with me today, and I thought we'd ride up together.”",
+    "We had met half a dozen times by then, and I was disappointed to find that he had little to say. But on the way to the city he began, rather abruptly, to tell me about himself. “Look here, old sport,” he said, “what's your opinion of me, anyhow? I don't want you to get a wrong idea of me from all these stories you hear. I'll tell you God's truth.” He said he was the son of some wealthy people in the Middle West, all dead now. He had been brought up in America but educated at Oxford, because all his ancestors had been educated there for many years. It was a family tradition.",
+    "“What part of the Middle West?” I asked casually.",
+    "“San Francisco,” he replied, and my incredulity must have shown, because he hurried on. After his family died he had lived like a young rajah in all the capitals of Europe, collecting jewels, hunting big game and painting a little. Then the war came, and he had been a major. In the Argonne Forest he had held a position with the remains of his machine-gun battalion for two days and two nights, and every government had decorated him. He reached into his pocket and a piece of metal on a ribbon dropped into my palm. It was a medal from Montenegro, and it was real. He also showed me a photograph of himself at Oxford, holding a cricket bat with a group of young men.",
+    "“I'm going to make a big request of you today,” he said at last, putting the souvenirs back in his pocket. “Miss Baker is going to speak to you about it this afternoon. You'll hear all about it then.” I had no idea what he meant, and I was more annoyed than interested.",
+    "We crossed the Queensboro Bridge, with the city rising up across the river in white heaps and sugar lumps. A policeman stopped us for speeding, but Gatsby showed him a white card and the policeman touched his hat. “I was able to do the commissioner a favour once,” Gatsby explained, “and he sends me a Christmas card every year.”",
+    "We had lunch in a cellar restaurant on Forty-second Street. Gatsby introduced me to a small, flat-nosed man with a large head and two fine growths of hair in each nostril. His name was Meyer Wolfsheim, and his cufflinks, he told me proudly, were made from the finest specimens of human molars. He talked about old gangsters and dead friends and looked at me suspiciously when Gatsby left the table for a moment.",
+    "“He's quite a character around New York,” Gatsby told me afterwards. “He's the man who fixed the World Series back in 1919.”",
+    "“Fixed the World Series?” I repeated, staggered. It had never occurred to me that one man could start to play with the faith of fifty million people, with the single-mindedness of a burglar blowing a safe. “How did he happen to do that? Why isn't he in jail?”",
+    "“They can't get him, old sport,” Gatsby said simply. “He's a smart man.”"
+   ],
+   "glossary": [
+    {
+     "term": "flattered",
+     "meaning": "lisonjeado"
+    },
+    {
+     "term": "endure",
+     "meaning": "suportar"
+    },
+    {
+     "term": "subterfuges",
+     "meaning": "artimanhas, subterfúgios"
+    },
+    {
+     "term": "rotten",
+     "meaning": "péssimo, horrível"
+    },
+    {
+     "term": "careless",
+     "meaning": "descuidado, imprudente"
+    },
+    {
+     "term": "incredulity",
+     "meaning": "incredulidade"
+    },
+    {
+     "term": "staggered",
+     "meaning": "pasmo, chocado"
+    },
+    {
+     "term": "burglar",
+     "meaning": "ladrão (que invade casas)"
+    }
+   ]
+  },
+  {
+   "title": "Jordan's Story",
+   "paragraphs": [
+    "That afternoon Jordan Baker sat up very straight on a chair in the tea garden of the Plaza Hotel and told me a story. “One October day in 1917,” she said, “I was walking along from one place to another in Louisville, half on the sidewalks and half on the lawns. I liked walking on the lawns because I had on shoes from England with rubber knobs on the soles that bit into the soft ground. The largest of the banners and the largest of the lawns belonged to Daisy Fay's house. She was just eighteen, two years older than me, and by far the most popular of all the young girls in Louisville.”",
+    "Daisy dressed in white and had a little white roadster, Jordan went on, and all day long the telephone rang in her house with excited young officers from the camp, demanding the privilege of seeing her that night. That morning she was sitting in her car with a lieutenant Jordan had never seen before. They were so absorbed in each other that Daisy didn't notice her until she was five feet away. “The officer looked at Daisy while she was speaking,” Jordan said, “in a way that every young girl wants to be looked at some time. His name was Jay Gatsby, and I didn't lay eyes on him again for over four years. Even after I'd met him on Long Island I didn't realise it was the same man.”",
+    "By the next autumn the officer had gone to the war, and there were wild rumours about Daisy. Her mother found her packing her bag one winter night to go to New York and say goodbye to a soldier who was going overseas. She was effectually prevented, and she wasn't on speaking terms with her family for several weeks. After that she didn't play around with the soldiers any more. By the following June she married Tom Buchanan of Chicago, with more pomp and circumstance than Louisville had ever known. He came down with a hundred people in four private railway cars and gave her a string of pearls valued at three hundred and fifty thousand dollars.",
+    "“I was a bridesmaid,” Jordan said. “I came into her room half an hour before the bridal dinner and found her lying on her bed, as lovely as the June night in her flowered dress, and as drunk as a monkey. She had a bottle of wine in one hand and a letter in the other. ‘Tell 'em all Daisy's changed her mind!’ she said, and she began to cry, and cry. I locked the door and put her into a cold bath with the letter. She wouldn't let go of it, and she held it until it came to pieces like snow. But she didn't say another word. The next day at five o'clock she married Tom without so much as a shiver.”",
+    "After the honeymoon, Jordan told me, she had seen them in Santa Barbara, and she had never seen a girl so mad about her husband. If he left the room for a minute, Daisy would look around uneasily and ask where Tom had gone. Then one night Tom ran into a wagon on the Ventura road, and a chambermaid from the hotel was in the car with him and got her arm broken. The little girl was born in the spring, and after that the Buchanans drifted here and there, a fast crowd, all young and rich and wild.",
+    "“Well, about six weeks ago,” Jordan said, “Daisy heard the name Gatsby for the first time in years. It was when I asked you, do you remember, whether you knew Gatsby in West Egg. After you had gone home she came into my room and woke me up and said, ‘What Gatsby?’ And when I described him she said in the strangest voice that it must be the man she used to know.”",
+    "I was beginning to understand. “It was a strange coincidence,” I said.",
+    "“But it wasn't a coincidence at all,” she answered. “Gatsby bought that house so that Daisy would be just across the bay.” Then it had not been merely the stars to which he had stretched out his arms on that June night. He came alive to me, delivered suddenly from the womb of his purposeless splendour.",
+    "“He wants to know,” Jordan continued, “if you'll invite Daisy to your house some afternoon and then let him come over. He's waited five years and bought a mansion where he dispenses starlight to casual moths, all so he can come over some afternoon to a stranger's garden. He half expected her to wander into one of his parties, some night, but she never did. Then he began asking people casually if they knew her, and I was the first one he found.”",
+    "“Did I have to know all this before he could ask such a little thing?” I said.",
+    "“He's afraid. He's waited so long. He thought you might be offended. You see, he's a regular tough underneath it all.” Jordan smiled. “And Daisy ought to have something in her life. Tom mustn't know about it.”",
+    "We drove back through Central Park in the dusk, and I put my arm around Jordan's golden shoulder and drew her towards me. Unlike Gatsby and Tom Buchanan, I had no girl whose disembodied face floated along the dark cornices and blinding signs. So I drew up the girl beside me, tightening my arms. Her wan, scornful mouth smiled, and I drew her up again, closer this time, to my face.",
+    "When I reached home that night, Gatsby's house was lit from tower to cellar, though there was no party. He came walking across the lawn towards me in the darkness. “I talked with Miss Baker,” I said after a moment. “I'm going to call up Daisy tomorrow and invite her over here to tea.”",
+    "“Oh, that's all right,” he said carelessly. “I don't want to put you to any trouble. What day would suit you?” Then, hesitating, he offered me some confidential business on the side, a nice bit of money, as if paying for a favour, and I refused it as tactfully as I could."
+   ],
+   "glossary": [
+    {
+     "term": "roadster",
+     "meaning": "carro conversível de dois lugares"
+    },
+    {
+     "term": "lay eyes on",
+     "meaning": "pôr os olhos em, ver"
+    },
+    {
+     "term": "pomp and circumstance",
+     "meaning": "pompa e cerimônia"
+    },
+    {
+     "term": "bridesmaid",
+     "meaning": "dama de honra"
+    },
+    {
+     "term": "shiver",
+     "meaning": "arrepio, tremor"
+    },
+    {
+     "term": "splendour",
+     "meaning": "esplendor"
+    },
+    {
+     "term": "dusk",
+     "meaning": "crepúsculo, entardecer"
+    },
+    {
+     "term": "scornful",
+     "meaning": "desdenhoso"
+    }
+   ]
+  },
+  {
+   "title": "Tea in the Rain",
+   "paragraphs": [
+    "The day agreed upon was pouring rain. At about eleven o'clock a man in a raincoat, dragging a lawnmower, knocked at my front door and said that Mr. Gatsby had sent him over to cut my grass. Then at two o'clock a greenhouse arrived from Gatsby's, with innumerable receptacles to contain it. An hour later the front door opened nervously, and Gatsby, in a white flannel suit, silver shirt and gold-coloured tie, hurried in. He was pale, and there were dark signs of sleeplessness beneath his eyes.",
+    "“Is everything all right?” he asked immediately.",
+    "“The grass looks fine, if that's what you mean.”",
+    "“What grass?” he inquired blankly. “Oh, the grass in the yard.” He looked out the window at it, but, judging from his expression, I don't believe he saw a thing. He sat down miserably, as if I had struck him, and for half an hour he looked at the clock and the rain without speaking.",
+    "“Nobody's coming to tea,” he said at last. “It's too late! I can't wait all day.” He stood up as if to leave. At that moment there was the sound of a motor turning into my lane, and we both jumped a little. I went out into the yard. A large open car was coming up the drive, and under a dripping, lavender-coloured hat Daisy's face looked out at me with a bright, ecstatic smile.",
+    "“Is this absolutely where you live, my dearest one?” Her voice was a wild tonic in the rain. “Are you in love with me,” she said low in my ear, “or why did I have to come alone?” I took her into the living room, but to my astonishment it was empty. Then there was a light dignified knocking at the front door. I went out and opened it. Gatsby, pale as death, with his hands plunged like weights in his coat pockets, was standing in a puddle of water, glaring tragically into my eyes.",
+    "With his hands still in his coat pockets he stalked past me into the hall, turned sharply as if he were on a wire, and disappeared into the living room. For half a minute there wasn't a sound. Then I heard a sort of choking murmur and part of a laugh, followed by Daisy's voice on a clear, artificial note. “I certainly am awfully glad to see you again.”",
+    "When I went in, Gatsby was leaning against the mantelpiece in a strained imitation of perfect ease, even of boredom. His head leaned back so far that it rested against the face of an old clock, and from this position his distraught eyes stared down at Daisy, who was sitting frightened but graceful on the edge of a stiff chair. Then the clock tilted dangerously at the pressure of his head. He turned and caught it with trembling fingers and set it back in place.",
+    "“I'm sorry about the clock,” he said.",
+    "“It's an old clock,” I told them idiotically. I think we all believed for a moment that it had smashed in pieces on the floor.",
+    "“We haven't met for many years,” said Daisy, her voice as matter-of-fact as it could ever be.",
+    "“Five years next November,” Gatsby answered automatically. The conversation died, and after a few minutes of agony I invented an excuse and went out into the kitchen. Gatsby followed me. “Oh, God!” he whispered. “This is a terrible mistake, a terrible, terrible mistake.”",
+    "“You're just embarrassed, that's all,” I said, and luckily I added, “Daisy's embarrassed too. You're acting like a little boy. Not only that, but you're rude. Daisy's sitting in there all alone.”",
+    "He raised his hand to stop my words, looked at me with unforgettable reproach, and, opening the door cautiously, went back into the other room. I walked out the back way into the rain and stood under a huge black tree for half an hour, looking at Gatsby's house. After a while the sun came out again, and I went back inside, making every possible noise in the kitchen short of pushing over the stove. But I don't believe they heard a sound.",
+    "They were sitting at either end of the couch, looking at each other as if some question had been asked, or was in the air, and every vestige of embarrassment was gone. Daisy's face was smeared with tears, and when I came in she jumped up and began wiping it with her handkerchief before a mirror. But there was a change in Gatsby that was simply confounding. He literally glowed. Without a word or a gesture of exultation, a new well-being radiated from him and filled the little room.",
+    "“Oh, hello, old sport,” he said, as if he hadn't seen me for years. “It's stopped raining. I want you and Daisy to come over to my house. I'd like to show her around.”"
+   ],
+   "glossary": [
+    {
+     "term": "pouring rain",
+     "meaning": "chovendo a cântaros"
+    },
+    {
+     "term": "lawnmower",
+     "meaning": "cortador de grama"
+    },
+    {
+     "term": "inquired",
+     "meaning": "perguntou"
+    },
+    {
+     "term": "puddle",
+     "meaning": "poça"
+    },
+    {
+     "term": "mantelpiece",
+     "meaning": "consolo da lareira"
+    },
+    {
+     "term": "distraught",
+     "meaning": "transtornados, aflitos"
+    },
+    {
+     "term": "reproach",
+     "meaning": "censura, reprovação"
+    },
+    {
+     "term": "confounding",
+     "meaning": "desconcertante"
+    }
+   ]
+  },
+  {
+   "title": "The Green Light",
+   "paragraphs": [
+    "We walked across the lawn together, and Gatsby could not take his eyes off Daisy. He showed her the huge façade of his house, the gardens, the sparkling odour of jonquils and the pale gold odour of kiss-me-at-the-gate. “My house looks well, doesn't it?” he asked. “See how the whole front of it catches the light.” I agreed that it was splendid. “It took me just three years to earn the money that bought it,” he added.",
+    "“I thought you inherited your money,” I said.",
+    "“I did, old sport,” he said automatically, “but I lost most of it in the big panic, the panic of the war.” I think he hardly knew what he was saying, for when I asked him what business he was in, he answered, “That's my affair,” before he realised that it wasn't an appropriate reply.",
+    "Inside, we wandered through Marie Antoinette music rooms and Restoration salons, through period bedrooms swathed in rose and lavender silk. He revalued everything in his house according to the reaction it drew from her well-loved eyes. Sometimes, too, he stared around at his possessions in a dazed way, as though in her actual and astounding presence none of it was any longer real. Once he nearly toppled down a flight of stairs.",
+    "His bedroom was the simplest room of all, except where the dresser was garnished with a toilet set of pure dull gold. He took us to two enormous cabinets which held his massed suits and dressing gowns and ties, and his shirts, piled like bricks in stacks a dozen high. “I've got a man in England who buys me clothes,” he said. “He sends over a selection of things at the beginning of each season, spring and fall.”",
+    "He took out a pile of shirts and began throwing them, one by one, before us: shirts of sheer linen and thick silk and fine flannel, which lost their folds as they fell and covered the table in many-coloured disarray. While we admired them he brought more, and the soft rich heap mounted higher. Shirts with stripes and scrolls and plaids in coral and apple-green and lavender and faint orange, with monograms of Indian blue. Suddenly, with a strained sound, Daisy bent her head into the shirts and began to cry stormily.",
+    "“They're such beautiful shirts,” she sobbed, her voice muffled in the thick folds. “It makes me sad because I've never seen such... such beautiful shirts before.”",
+    "After the house, we were to see the grounds and the swimming pool and the hydroplane, but it had begun to rain again. We stood in a row looking out at the corrugated surface of the Sound. “If it wasn't for the mist we could see your home across the bay,” said Gatsby. “You always have a green light that burns all night at the end of your dock.”",
+    "Daisy put her arm through his abruptly, but he seemed absorbed in what he had just said. Possibly it had occurred to him that the colossal significance of that light had now vanished forever. Compared to the great distance that had separated him from Daisy, it had seemed very near to her, almost touching her. It had seemed as close as a star to the moon. Now it was again a green light on a dock. His count of enchanted objects had diminished by one.",
+    "Gatsby called in a pale young man named Klipspringer, who lived in the house and was known as “the boarder”, and made him play the piano. Klipspringer protested that he was out of practice, but he sat down and played “The Love Nest” and “Ain't We Got Fun?” while the evening darkened and the lights came on across the water. In the morning, in the evening, ain't we got fun, the song went, and the rich get richer and the poor get children.",
+    "When I went over to say goodbye, I saw that the expression of bewilderment had come back into Gatsby's face, as though a faint doubt had occurred to him about the quality of his present happiness. Almost five years! There must have been moments even that afternoon when Daisy tumbled short of his dreams. It was not her fault, but because of the colossal vitality of his illusion. It had gone beyond her, beyond everything. He had thrown himself into it with a creative passion, adding to it all the time, decorating it with every bright feather that drifted his way.",
+    "As I watched him he adjusted himself a little, visibly. His hand took hold of hers, and as she said something low in his ear he turned towards her with a rush of emotion. I think that voice held him most, with its fluctuating, feverish warmth, because it couldn't be over-dreamed. That voice was a deathless song. They had forgotten me, but Daisy glanced up and held out her hand; Gatsby didn't know me now at all. I looked once more at them, and they looked back at me, remotely, possessed by intense life. Then I went out of the room and down the marble steps into the rain, leaving them there together."
+   ],
+   "glossary": [
+    {
+     "term": "swathed",
+     "meaning": "envoltos, cobertos"
+    },
+    {
+     "term": "dazed",
+     "meaning": "atordoado"
+    },
+    {
+     "term": "toppled",
+     "meaning": "caiu, tombou"
+    },
+    {
+     "term": "disarray",
+     "meaning": "desordem"
+    },
+    {
+     "term": "sobbed",
+     "meaning": "soluçou"
+    },
+    {
+     "term": "bewilderment",
+     "meaning": "perplexidade"
+    },
+    {
+     "term": "feverish",
+     "meaning": "febril"
+    },
+    {
+     "term": "boarder",
+     "meaning": "hóspede, inquilino"
+    }
+   ]
+  },
+  {
+   "title": "The Boy Who Invented Himself",
+   "paragraphs": [
+    "About this time an ambitious young reporter from New York arrived one morning at Gatsby's door and asked him if he had anything to say. “Anything to say about what?” Gatsby inquired politely. “Why, any statement to give out.” It turned out that the young man had heard Gatsby's name around his office in a connection which he either wouldn't reveal or didn't fully understand. Gatsby's notoriety, spread about by the hundreds who had accepted his hospitality, had increased all summer until he fell just short of being news.",
+    "James Gatz was his real name. That was what was written on his birth certificate in North Dakota, and he had changed it at the age of seventeen, at the specific moment that witnessed the beginning of his career. He saw a yacht drop anchor over the most dangerous flat on Lake Superior, and he borrowed a rowing boat, pulled out to the yacht and told its owner that a wind might catch him and break him up in half an hour. James Gatz had been loafing along the beach that afternoon in a torn green jersey. It was Jay Gatsby who rowed out to the yacht.",
+    "His parents were shiftless and unsuccessful farm people, and his imagination had never really accepted them as his parents at all. The truth was that Jay Gatsby of West Egg, Long Island, sprang from his Platonic conception of himself. He was a son of God, and he must be about His Father's business, the service of a vast, vulgar and meretricious beauty. So he invented just the sort of Jay Gatsby that a seventeen-year-old boy would be likely to invent, and to this conception he was faithful to the end.",
+    "The yacht belonged to Dan Cody, a millionaire of fifty who had made his fortune in silver and gold mining. Cody asked the young man a few questions, and one of them brought out the brand-new name. He found that he was quick and extravagantly ambitious. A few days later he took him to a town nearby and bought him a blue coat, six pairs of white trousers and a yachting cap. For five years Gatsby sailed around the continent with Cody as a steward, a mate, a skipper, a secretary and even a jailor, because Dan Cody sober knew what lavish doings Dan Cody drunk might soon be about.",
+    "The arrangement lasted until one night in Boston when Dan Cody suddenly died. Cody left Gatsby twenty-five thousand dollars in his will, but he never received it. A woman who had been travelling with them got all the millions, by some legal trick that Gatsby never understood. He was left with his singularly appropriate education; the vague contour of Jay Gatsby had filled out to the substantiality of a man. He told me all this very much later, but I write it down here to explode those first wild rumours about his past.",
+    "For several weeks I didn't see him or hear his voice on the phone. Then one Sunday afternoon I went over to his house, and I hadn't been there two minutes when somebody brought Tom Buchanan in for a drink. He came with two friends on horseback, a man named Sloane and a pretty woman in a brown riding habit. I was startled, naturally, but the really surprising thing was that it hadn't happened before.",
+    "“I'm delighted to see you,” said Gatsby, standing on his porch. He was profoundly affected by the fact that Tom was there. “I believe we've met somewhere before, Mr. Buchanan,” he said.",
+    "“Oh, yes,” said Tom, gruffly polite, but obviously not remembering. Gatsby offered them drinks and food, and he talked too much, too eagerly. “I know your wife,” he said at last, almost aggressively.",
+    "“That so?” Tom turned to me. “You live near here, Nick?” he asked, ignoring Gatsby's remark.",
+    "Mr. Sloane and the lady drank and became more friendly, and the lady invited Gatsby to dinner at their house that evening. “Come along with us,” she insisted. Gatsby didn't understand that she was being merely polite, and he went inside to get his hat and coat so that he could follow them. While he was gone the others mounted their horses and rode quickly away, laughing.",
+    "Tom looked after him with open contempt. “My God, I believe the man's coming,” he said. “Doesn't he know she doesn't want him?” Then he turned to me with a frown. “Where in the devil did he meet Daisy? By God, I may be old-fashioned in my ideas, but women run around too much these days to suit me. They meet all kinds of crazy fish.” They rode away down the drive just as Gatsby, with hat and light overcoat in hand, came out the front door."
+   ],
+   "glossary": [
+    {
+     "term": "notoriety",
+     "meaning": "notoriedade, fama"
+    },
+    {
+     "term": "loafing",
+     "meaning": "vadiando, à toa"
+    },
+    {
+     "term": "shiftless",
+     "meaning": "sem iniciativa, preguiçosos"
+    },
+    {
+     "term": "meretricious",
+     "meaning": "vistosa mas falsa"
+    },
+    {
+     "term": "extravagantly",
+     "meaning": "exageradamente"
+    },
+    {
+     "term": "lavish",
+     "meaning": "extravagantes, pródigas"
+    },
+    {
+     "term": "startled",
+     "meaning": "espantado"
+    },
+    {
+     "term": "gruffly",
+     "meaning": "de modo áspero"
+    }
+   ]
+  },
+  {
+   "title": "Repeating the Past",
+   "paragraphs": [
+    "Tom was evidently perturbed at Daisy's running around alone, for on the following Saturday night he came with her to Gatsby's party. Perhaps his presence gave the evening its peculiar quality of oppressiveness. It stands out in my memory from Gatsby's other parties that summer. There were the same people, or at least the same sort of people, the same profusion of champagne, the same many-coloured, many-keyed commotion. But I felt an unpleasantness in the air, a pervading harshness that hadn't been there before.",
+    "“These things excite me so,” Daisy whispered. “If you want to kiss me any time during the evening, Nick, just let me know and I'll be glad to arrange it for you. Just mention my name. Or present a green card. I'm giving out green...”",
+    "Gatsby took them around and introduced them to famous people: a film star, a director, a senator. “Mrs. Buchanan,” he said, “and Mr. Buchanan, the polo player.”",
+    "“Oh, no,” objected Tom quickly, “not me.” But evidently the sound of it pleased Gatsby, for Tom remained “the polo player” for the rest of the evening. Daisy and Gatsby danced together. I remember being surprised by his graceful, conservative fox-trot; I had never seen him dance before. Then they sauntered over to my house and sat on the steps for half an hour, while at her request I remained watchfully in the garden.",
+    "Daisy did not enjoy the party. She was appalled by West Egg, this unprecedented place that Broadway had begotten upon a Long Island fishing village. She was appalled by its raw vigour that chafed under the old euphemisms and by the too-obtrusive fate that herded its inhabitants along a short cut from nothing to nothing. She saw something awful in the very simplicity she failed to understand. Tom, for his part, was openly hostile.",
+    "“Who is this Gatsby anyhow?” he demanded, while they waited for their car. “Some big bootlegger?”",
+    "“Where'd you hear that?” I asked.",
+    "“I didn't hear it. I imagined it. A lot of these newly rich people are just big bootleggers, you know.” He stared at the house with suspicion. “I'd like to know who he is and what he does,” he insisted. “And I think I'll make a point of finding out.”",
+    "“He owned some drugstores, a lot of drugstores,” Daisy said quickly. “He built them up himself.” The car came at last, and as they drove away I could still hear her low, thrilling voice humming the music of the band.",
+    "I stayed late that night, because Gatsby had asked me to wait until he was free. When the last guests had gone, he came down the steps with his face tight and his eyes bright and tired. “She didn't like it,” he said immediately. “She didn't have a good time.”",
+    "“Of course she did,” I said.",
+    "“She didn't like it,” he insisted. “I feel far away from her. It's hard to make her understand.” I gathered that what he wanted from Daisy was nothing less than that she should go to Tom and say, “I never loved you.” After she had wiped out four years with that sentence, they could decide upon the more practical measures. One of them was that, after she was free, they were to go back to Louisville and be married from her house, just as if it were five years ago.",
+    "“I wouldn't ask too much of her,” I ventured. “You can't repeat the past.”",
+    "“Can't repeat the past?” he cried incredulously. “Why, of course you can!” He looked around him wildly, as if the past were lurking here in the shadow of his house, just out of reach of his hand. “I'm going to fix everything just the way it was before,” he said, nodding determinedly. “She'll see.”",
+    "He talked a lot about the past, and I gathered that he wanted to recover something, some idea of himself perhaps, that had gone into loving Daisy. His life had been confused and disordered since then, but if he could once return to a certain starting place and go over it all slowly, he could find out what that thing was. One autumn night, five years before, they had been walking down the street when the leaves were falling. They came to a place where there were no trees and the sidewalk was white with moonlight. He knew that when he kissed this girl, and forever wed his unutterable visions to her perishable breath, his mind would never romp again like the mind of God. So he waited, listening for a moment longer to the tuning fork that had been struck upon a star. Then he kissed her. At his lips' touch she blossomed for him like a flower, and the incarnation was complete.",
+    "Through all he said, even through his appalling sentimentality, I was reminded of something, an elusive rhythm, a fragment of lost words, that I had heard somewhere a long time ago. For a moment a phrase tried to take shape in my mouth. But it made no sound, and what I had almost remembered was uncommunicable forever."
+   ],
+   "glossary": [
+    {
+     "term": "perturbed",
+     "meaning": "perturbado, incomodado"
+    },
+    {
+     "term": "sauntered",
+     "meaning": "caminharam devagar, passearam"
+    },
+    {
+     "term": "appalled",
+     "meaning": "horrorizada, chocada"
+    },
+    {
+     "term": "bootlegger",
+     "meaning": "contrabandista de bebida"
+    },
+    {
+     "term": "lurking",
+     "meaning": "à espreita, escondido"
+    },
+    {
+     "term": "unutterable",
+     "meaning": "indizíveis"
+    },
+    {
+     "term": "perishable",
+     "meaning": "perecível, passageiro"
+    },
+    {
+     "term": "elusive",
+     "meaning": "esquivo, difícil de captar"
+    }
+   ]
+  },
+  {
+   "title": "The Hottest Day of the Summer",
+   "paragraphs": [
+    "It was when curiosity about Gatsby was at its highest that the lights in his house failed to go on one Saturday night, and his career as Trimalchio was over. I went over to find out what was wrong. A strange butler with a villainous face opened the door and told me suspiciously that Mr. Gatsby wasn't well. The next day Gatsby himself called me on the phone. He had dismissed every servant in his house and replaced them with half a dozen people sent by Wolfsheim. “I wanted somebody who wouldn't gossip,” he explained. “Daisy comes over quite often, in the afternoons.” So the whole caravansary had fallen in like a card house at the disapproval in her eyes.",
+    "He was calling, he said, at Daisy's request. Would I come to lunch at her house tomorrow? Miss Baker would be there. Half an hour later Daisy herself telephoned and seemed relieved to find that I was coming. Something was up. And yet I couldn't believe that they would choose this occasion for a scene, especially for the rather harrowing scene that Gatsby had outlined in the garden.",
+    "The next day was broiling, almost the last, certainly the warmest, of the summer. In the Buchanans' cool, darkened drawing room Daisy and Jordan lay upon an enormous couch, like silver idols weighing down their own white dresses against the singing breeze of the fans. Tom was on the telephone in the hall, and the nurse brought in Daisy's little girl for a moment. Gatsby looked at the child with surprise. I don't think he had ever really believed in its existence before.",
+    "When Tom came back, Daisy watched him go out again to get some drinks. Then she got up and went over to Gatsby and pulled his face down, kissing him on the mouth. “You know I love you,” she murmured. Her husband was in the next room, and Jordan reminded her that there was a lady present.",
+    "Later, at the table, Daisy cried out in despair, “What'll we do with ourselves this afternoon? And the day after that, and the next thirty years?” She looked at Gatsby, and he looked at her, and they looked at each other alone in space. “You always look so cool,” she said to him. She had told him that she loved him, and Tom Buchanan saw. He was astounded. His mouth opened a little, and he looked at Gatsby, and then back at Daisy, as if he had just recognised her as someone he knew a long time ago.",
+    "“All right,” Tom broke in sharply. “I'm perfectly willing to go to town. Come on, we're all going to town.” He got up, his eyes still flashing between Gatsby and his wife.",
+    "“She's got an indiscreet voice,” I remarked to Gatsby, while we waited outside. “It's full of...” I hesitated.",
+    "“Her voice is full of money,” he said suddenly. That was it; I'd never understood before. It was full of money, that was the inexhaustible charm that rose and fell in it, the jingle of it, the cymbals' song of it. High in a white palace the king's daughter, the golden girl.",
+    "Tom insisted on driving Gatsby's yellow car, with Jordan and me, and he made Gatsby take Daisy in his own blue coupé. On the way he told me that he had made a small investigation of this fellow. “He's no Oxford man,” he said with contempt. “He wears a pink suit. An Oxford man!” We stopped for petrol at Wilson's garage in the valley of ashes, under the faded eyes of Doctor Eckleburg.",
+    "George Wilson came out looking sick and green. “I've been here too long,” he said. “I want to get away. My wife and I want to go west.” He had discovered, he said, that his wife had some sort of life apart from him, and the shock had made him physically ill. He did not yet know with whom. Tom felt the hot whips of panic: in one afternoon both his wife and his mistress were slipping away from him.",
+    "As we pulled away, I noticed that over the garage, in one of the upstairs windows, Myrtle Wilson was looking down at the car. Her eyes were wide with jealous terror, fixed not on Tom but on Jordan Baker, whom she took to be his wife."
+   ],
+   "glossary": [
+    {
+     "term": "villainous",
+     "meaning": "de vilão, perverso"
+    },
+    {
+     "term": "gossip",
+     "meaning": "fazer fofoca"
+    },
+    {
+     "term": "harrowing",
+     "meaning": "angustiante"
+    },
+    {
+     "term": "broiling",
+     "meaning": "escaldante"
+    },
+    {
+     "term": "astounded",
+     "meaning": "perplexo, estupefato"
+    },
+    {
+     "term": "indiscreet",
+     "meaning": "indiscreta"
+    },
+    {
+     "term": "jingle",
+     "meaning": "tilintar"
+    },
+    {
+     "term": "whips",
+     "meaning": "chicotadas"
+    }
+   ]
+  },
+  {
+   "title": "The Plaza Hotel",
+   "paragraphs": [
+    "In the end we took a suite at the Plaza Hotel, because nobody could think of anything better to do. The room was large and stifling, and though it was already four o'clock, opening the windows let in only a gust of hot shrubbery from the park. Daisy went to the mirror and stood with her back to us, fixing her hair. Downstairs, a wedding was taking place, and the music of Mendelssohn's march rose up to us through the heat.",
+    "Tom began it. “Your name is Gatsby, isn't it? I hear you're an Oxford man,” he said.",
+    "“Not exactly. I went there in 1919,” said Gatsby. “I only stayed five months. It was an opportunity they gave to some of the officers after the war. We could go to any of the universities in England or France.” I wanted to get up and slap him on the back. I had one of those renewals of complete faith in him that I'd experienced before.",
+    "“I want to ask you one question,” Tom went on, his voice rising. “What kind of a row are you trying to cause in my house anyhow?” They were out in the open at last, and Gatsby was content.",
+    "“He isn't causing a row,” Daisy said, looking desperately from one to the other. “You're causing a row. Please have a little self-control.”",
+    "“Self-control!” Tom repeated incredulously. “I suppose the latest thing is to sit back and let Mr. Nobody from Nowhere make love to your wife. Well, if that's the idea you can count me out.” Flushed with his impassioned gibberish, he saw himself standing alone on the last barrier of civilisation.",
+    "“I've got something to tell you, old sport,” began Gatsby. But Daisy guessed at his intention. “Please don't!” she interrupted helplessly. “Please let's all go home. Why don't we all go home?”",
+    "“Your wife doesn't love you,” said Gatsby. “She's never loved you. She loves me. She only married you because I was poor and she was tired of waiting for me. It was a terrible mistake, but in her heart she never loved anyone except me!”",
+    "“Sit down, Daisy,” Tom's voice groped unsuccessfully for the paternal note. “What's been going on? I want to hear all about it.” And when Gatsby told him that they had loved each other for five years, Tom laughed at him. “You must be crazy! I can't speak about what happened five years ago, because I didn't know Daisy then. But all the rest of that's a lie. Daisy loved me when she married me, and she loves me now. Once in a while I go off on a spree and make a fool of myself, but I always come back, and in my heart I love her all the time.”",
+    "“You're revolting,” said Daisy. She turned to me, and her voice, dropping an octave lower, filled the room with thrilling scorn. “Do you know why we left Chicago? I'm surprised that they didn't treat you to the story of that little spree.”",
+    "Gatsby walked over and stood beside her. “Daisy, that's all over now,” he said earnestly. “It doesn't matter any more. Just tell him the truth, that you never loved him, and it's all wiped out forever.”",
+    "She looked at him blindly. “Why, how could I love him, possibly?” But her voice was reluctant. Tom reminded her of a day at Kapiolani, when he had carried her down from the Punch Bowl to keep her shoes dry. “Daisy?” he said tenderly. And Daisy broke.",
+    "“Oh, you want too much!” she cried to Gatsby. “I love you now; isn't that enough? I can't help what's past.” She began to sob helplessly. “I did love him once, but I loved you too.” Gatsby's eyes opened and closed. “You loved me too?” he repeated.",
+    "Then Tom attacked. He had found out what Gatsby's drugstores really were. With Wolfsheim, he had bought up a lot of side-street drugstores in New York and Chicago and sold grain alcohol over the counter. “That's one of his little stunts,” Tom said. “I picked him for a bootlegger the first time I saw him.” And there was worse: something about bonds and a man called Walter Chase who had gone to prison.",
+    "That unfamiliar yet recognisable look was back again in Gatsby's face. He began to talk excitedly to Daisy, denying everything, defending his name against accusations that had not been made. But with every word she was drawing further and further into herself, so he gave that up, and only the dead dream fought on as the afternoon slipped away, trying to touch what was no longer tangible.",
+    "“Please, Tom!” Daisy begged. “I can't stand this any more.” Her frightened eyes told that whatever intentions, whatever courage she had had, were definitely gone.",
+    "“You two start on home, Daisy,” said Tom. “In Mr. Gatsby's car. Go on. He won't annoy you. I think he realises that his presumptuous little flirtation is over.” They were gone, without a word, snapped out, made accidental, isolated, like ghosts, even from our pity. Then I remembered that it was my birthday. I was thirty. Before me stretched the portentous, menacing road of a new decade."
+   ],
+   "glossary": [
+    {
+     "term": "stifling",
+     "meaning": "sufocante"
+    },
+    {
+     "term": "row",
+     "meaning": "briga, discussão"
+    },
+    {
+     "term": "gibberish",
+     "meaning": "disparate, palavreado sem sentido"
+    },
+    {
+     "term": "groped",
+     "meaning": "tateou, procurou às cegas"
+    },
+    {
+     "term": "spree",
+     "meaning": "farra"
+    },
+    {
+     "term": "revolting",
+     "meaning": "repugnante, nojento"
+    },
+    {
+     "term": "stunts",
+     "meaning": "golpes, truques"
+    },
+    {
+     "term": "presumptuous",
+     "meaning": "presunçoso, atrevido"
+    }
+   ]
+  },
+  {
+   "title": "The Death Car",
+   "paragraphs": [
+    "The young Greek, Michaelis, who ran the coffee joint beside the ash heaps, was the principal witness at the inquest. He had slept through the heat until after five, when he strolled over to the garage and found George Wilson sick in his office. Wilson told him that he had locked his wife up upstairs, and that they were going to move away in a couple of days. Michaelis was astonished, because Wilson was one of those worn-out men who are nobody's enemy. A little after seven he heard Mrs. Wilson's voice, loud and scolding, downstairs in the garage.",
+    "“Beat me!” he heard her cry. “Throw me down and beat me, you dirty little coward!” A moment later she rushed out into the dusk, waving her hands and shouting. Before he could move from his door the business was over.",
+    "The “death car”, as the newspapers called it, didn't stop. It came out of the gathering darkness, wavered tragically for a moment, and then disappeared around the next bend. Michaelis wasn't even sure of its colour; he told the first policeman that it was light green. Myrtle Wilson, her life violently extinguished, knelt in the road and mingled her thick dark blood with the dust.",
+    "We saw the crowd from a distance as Tom, Jordan and I drove back from the city. “A wreck,” said Tom. “That's good. Wilson'll have a little business at last.” He slowed down, still without any intention of stopping, until, as we came nearer, the hushed faces of the people at the garage door made him automatically put on the brakes. Then we heard a high, groaning sound from inside: “Oh, my God! Oh, my Ga-od!”",
+    "Inside the garage, Myrtle's body lay on a work table, wrapped in a blanket. George Wilson was standing in the doorway of his office, holding on with both hands and swaying back and forth. A policeman was taking names, and a pale, well-dressed man was describing what he had seen. “It was a yellow car,” he said. “Big yellow car. New.” Tom heard it and went to Wilson and spoke to him firmly. “Listen,” he said, “I just got here a minute ago, from New York. That yellow car I was driving this afternoon wasn't mine, do you hear? I haven't seen it all afternoon.”",
+    "On the way home Tom drove slowly until we were beyond the bend, and then his foot came down hard. After a while I heard a low husky sob, and saw that the tears were overflowing down his face. “The God damned coward!” he whimpered. “He didn't even stop his car.”",
+    "At the Buchanans' house Tom invited me in, but I refused. I'd had enough of all of them for one day, and suddenly that included Jordan too. I was waiting for a taxi by the gate when Gatsby stepped out from between two bushes. His pink suit glowed in the moonlight. “What are you doing?” I inquired.",
+    "“Just standing here, old sport.” He hesitated. “Did you see any trouble on the road?” he asked after a minute.",
+    "“Yes,” I said. “The woman was killed.”",
+    "“I thought so; I told Daisy I thought so. It's better that the shock should all come at once. She stood it pretty well.” He spoke as if Daisy's reaction was the only thing that mattered. I asked him how it had happened. “Was Daisy driving?”",
+    "“Yes,” he said after a moment, “but of course I'll say I was. You see, when we left New York she was very nervous, and she thought it would steady her to drive. This woman rushed out at us just as we were passing a car coming the other way. It all happened in a minute. Daisy tried to turn away, but she lost her nerve and turned back. The second my hand reached the wheel I felt the shock. It must have killed her instantly.”",
+    "He was staying there, he told me, to see if Tom tried to bother Daisy about that unpleasantness that afternoon. She had locked herself in her room, and if he tried any brutality she was going to turn the light out and on again. “I'll wait all night if necessary,” he said.",
+    "I walked back along the path to see if there was any sign of trouble. Through a rift in the kitchen blind I saw Daisy and Tom sitting opposite each other at the kitchen table, with a plate of cold fried chicken between them and two bottles of ale. He was talking intently across the table at her, and in his earnestness his hand had fallen upon and covered her own. There was an unmistakable air of natural intimacy about the picture, and anybody would have said that they were conspiring together. I went back to Gatsby and left him standing there in the moonlight, watching over nothing."
+   ],
+   "glossary": [
+    {
+     "term": "inquest",
+     "meaning": "inquérito"
+    },
+    {
+     "term": "wavered",
+     "meaning": "vacilou, oscilou"
+    },
+    {
+     "term": "mingled",
+     "meaning": "misturou"
+    },
+    {
+     "term": "hushed",
+     "meaning": "silenciosos"
+    },
+    {
+     "term": "swaying",
+     "meaning": "balançando"
+    },
+    {
+     "term": "whimpered",
+     "meaning": "choramingou"
+    },
+    {
+     "term": "steady",
+     "meaning": "acalmar, firmar"
+    },
+    {
+     "term": "conspiring",
+     "meaning": "conspirando"
+    }
+   ]
+  },
+  {
+   "title": "The Last Morning",
+   "paragraphs": [
+    "I couldn't sleep all night. Towards dawn I heard a taxi go up Gatsby's drive, and I jumped out of bed and began to dress. I felt that I had something to tell him, something to warn him about, and morning would be too late. He was leaning against a table in the hall, heavy with dejection or sleep. “Nothing happened,” he said wanly. “I waited, and about four o'clock she came to the window and stood there for a minute and then turned out the light.”",
+    "His house had never seemed so enormous to me as it did that night when we hunted through the great rooms for cigarettes. “You ought to go away,” I said. “It's pretty certain they'll trace your car.” But he wouldn't consider it. He couldn't possibly leave Daisy until he knew what she was going to do. He was clutching at some last hope, and I couldn't bear to shake him free.",
+    "It was this night that he told me the strange story of his youth with Dan Cody, and it was this night that he told me about Daisy. She was the first “nice” girl he had ever known. He had gone to her house in Louisville, at first with other officers, then alone. It amazed him; he had never been in such a beautiful house before. There was a ripe mystery about it, a hint of bedrooms upstairs more beautiful and cool than other bedrooms, of romances that were fresh and breathing and redolent of this year's shining motor cars.",
+    "“I can't describe to you how surprised I was to find out I loved her, old sport,” he said. “I even hoped for a while that she'd throw me over, but she didn't, because she was in love with me too. She thought I knew a lot because I knew different things from her.” He had taken her under false pretences. He had let her believe that he came from much the same social level as herself, that he was fully able to take care of her. In fact, he was a penniless young man without a past, and at any moment the invisible cloak of his uniform might slip from his shoulders.",
+    "After the war he had tried very hard to get home, but some complication or misunderstanding sent him to Oxford instead. Daisy's letters were nervous and despairing. She didn't see why he couldn't come. She wanted her life shaped now, immediately, by some force of love, of money, of unquestionable practicality. That force took shape in the middle of spring with the arrival of Tom Buchanan. “I don't think she ever loved him,” Gatsby said, turning around from the window. “She might have loved him just for a minute, when they were first married, and loved me more even then, do you see? In any case,” he said, “it was just personal.”",
+    "It was light now. The gardener came to say that he was going to drain the pool, since leaves would soon start falling. “Don't do it today,” Gatsby answered. He turned to me apologetically. “You know, old sport, I've never used that pool all summer.” I looked at my watch and stood up. I didn't want to go to the city; I wasn't worth a decent stroke of work, but it was more than that. I didn't want to leave Gatsby.",
+    "“I'll call you up,” I said finally. We shook hands, and I started away. Just before I reached the hedge I remembered something and turned around. “They're a rotten crowd,” I shouted across the lawn. “You're worth the whole damn bunch put together.”",
+    "I've always been glad I said that. It was the only compliment I ever gave him, because I disapproved of him from beginning to end. First he nodded politely, and then his face broke into that radiant and understanding smile, as if we'd been in ecstatic cahoots on that fact all the time. His gorgeous pink suit made a bright spot of colour against the white steps, and I thought of the night when I first came to his ancestral home, three months before.",
+    "Meanwhile, in the valley of ashes, George Wilson had sat up all night with Michaelis. He kept saying that his wife had been murdered. He had found a small, expensive dog leash in her room, and he knew she had a lover. “I spoke to her,” he muttered after a long silence. “I told her she might fool me, but she couldn't fool God. I took her to the window and I said, ‘God knows what you've been doing, everything you've been doing. You may fool me, but you can't fool God!’” Standing behind him, Michaelis saw with a shock that he was looking at the eyes of Doctor T. J. Eckleburg, which had just emerged, pale and enormous, from the dissolving night.",
+    "“God sees everything,” repeated Wilson. Later that morning he slipped away. By some means he learned the owner of the yellow car, perhaps from Tom himself, and by half past two he was in West Egg, asking someone the way to Gatsby's house.",
+    "At two o'clock Gatsby put on his bathing suit and told his butler that if anyone phoned word was to be brought to him at the pool. He took an air mattress and went down to the water, and the chauffeur heard the shots, though he thought nothing much about them at the time. No telephone message arrived. I have an idea that Gatsby himself didn't believe it would come, and perhaps he no longer cared. If that was true he must have felt that he had lost the old warm world, paid a high price for living too long with a single dream.",
+    "When we ran down to the pool, the mattress was moving irregularly down the water, with its accidental burden, tracing a thin red circle. It was after we started with Gatsby towards the house that the gardener saw Wilson's body a little way off in the grass, and the holocaust was complete."
+   ],
+   "glossary": [
+    {
+     "term": "dejection",
+     "meaning": "desânimo, abatimento"
+    },
+    {
+     "term": "wanly",
+     "meaning": "debilmente, com palidez"
+    },
+    {
+     "term": "clutching at",
+     "meaning": "agarrando-se a"
+    },
+    {
+     "term": "redolent of",
+     "meaning": "que lembrava, com cheiro de"
+    },
+    {
+     "term": "under false pretences",
+     "meaning": "sob falsos pretextos"
+    },
+    {
+     "term": "penniless",
+     "meaning": "sem um tostão"
+    },
+    {
+     "term": "in ecstatic cahoots",
+     "meaning": "em feliz cumplicidade"
+    },
+    {
+     "term": "leash",
+     "meaning": "coleira com guia"
+    }
+   ]
+  },
+  {
+   "title": "Boats Against the Current",
+   "paragraphs": [
+    "After two years I remember the rest of that day, and that night and the next day, only as an endless drill of police and photographers and newspapermen in and out of Gatsby's front door. The newspapers made it a story of a jealous husband driven mad by grief. Catherine, who might have said anything, swore that her sister had never seen Gatsby and had been completely happy with her husband. And so the case remained in its simplest form.",
+    "I found myself on Gatsby's side, and alone. I called Daisy half an hour after we found him, but she and Tom had gone away early that afternoon, taking baggage with them, and they had left no address. I tried to call Wolfsheim, who sent a letter saying he was deeply shocked but could not get mixed up in this thing now. When I telephoned Klipspringer, the boarder, he only wanted to know about a pair of tennis shoes he had left behind.",
+    "On the third day a telegram came from a man named Henry C. Gatz in a town in Minnesota. He arrived the next morning, a solemn old man, very helpless and dismayed, bundled up in a long cheap coat against the warm September day. His eyes leaked continuously with excitement, and when I led him into the music room he couldn't stop looking around at the height and splendour of the hall. Then his grief began to mix with an awed pride.",
+    "“Jimmy always liked it better down East,” he said. “He had a big future before him, you know. If he'd lived, he'd have been a great man, a man like James J. Hill. He'd have helped build up the country.” He showed me an old book that had belonged to his son as a boy. On the last blank page was printed the word SCHEDULE, with a daily plan: rise from bed, dumbbell exercise, study electricity, work, sports, practise elocution, and study needed inventions. Below it were general resolves: no wasting time, no more smoking or chewing, read one improving book every week, be better to parents.",
+    "“It just shows you, don't it?” said Mr. Gatz proudly. “Jimmy was bound to get ahead.”",
+    "At three o'clock on the day of the funeral it began to rain. We waited for half an hour, but nobody came. Of all the hundreds who had danced in his gardens and drunk his champagne, only one appeared at the cemetery gate: the man with owl-eyed glasses whom I had found in the library on that first night. He took off his glasses and wiped them, outside and in. “Why, my God! They used to go there by the hundreds,” he said. Then, quietly, he added, “The poor son-of-a-bitch.”",
+    "After Gatsby's death the East was haunted for me, distorted beyond my eyes' power of correction. I decided to go back home to the Middle West. There were one or two things to settle first. I saw Jordan Baker and talked over what had happened to us together. She told me coolly that I had thrown her over on the telephone, and that she was engaged to another man now. “You said a bad driver was only safe until she met another bad driver,” she said. “Well, I met another bad driver, didn't I? I mean it was careless of me to make such a wrong guess. I thought you were rather an honest, straightforward person.” I was thirty, I told her. I was five years too old to lie to myself and call it honour.",
+    "One afternoon late in October I saw Tom Buchanan walking ahead of me along Fifth Avenue. I tried to avoid him, but he held out his hand. “What's the matter, Nick? Do you object to shaking hands with me?” He admitted at last that he had told Wilson who owned the yellow car. “That fellow had it coming to him,” he said defiantly. “He ran over Myrtle like you'd run over a dog and never even stopped his car.” There was nothing I could say, except the one unutterable fact that it wasn't true.",
+    "They were careless people, Tom and Daisy. They smashed up things and creatures and then retreated back into their money or their vast carelessness, or whatever it was that kept them together, and let other people clean up the mess they had made. I shook hands with him at last. It seemed silly not to, for I felt suddenly as though I were talking to a child.",
+    "On my last night in West Egg I went over and looked at that huge incoherent failure of a house once more. Some boy had written an obscene word on the white steps, and I erased it with my shoe. Then I wandered down to the beach and sprawled out on the sand. As the moon rose higher, the inessential houses began to melt away, until gradually I became aware of the old island here that had flowered once for Dutch sailors' eyes, a fresh, green breast of the new world.",
+    "And as I sat there, brooding on the old, unknown world, I thought of Gatsby's wonder when he first picked out the green light at the end of Daisy's dock. He had come a long way to this blue lawn, and his dream must have seemed so close that he could hardly fail to grasp it. He did not know that it was already behind him. Gatsby believed in the green light, the orgastic future that year by year recedes before us. It eluded us then, but that's no matter; tomorrow we will run faster, stretch out our arms farther. And one fine morning... So we beat on, boats against the current, borne back ceaselessly into the past."
+   ],
+   "glossary": [
+    {
+     "term": "dismayed",
+     "meaning": "consternado"
+    },
+    {
+     "term": "bundled up",
+     "meaning": "agasalhado, embrulhado"
+    },
+    {
+     "term": "awed",
+     "meaning": "admirado, maravilhado"
+    },
+    {
+     "term": "resolves",
+     "meaning": "resoluções"
+    },
+    {
+     "term": "haunted",
+     "meaning": "assombrado"
+    },
+    {
+     "term": "had it coming to him",
+     "meaning": "mereceu, procurou por isso"
+    },
+    {
+     "term": "sprawled out",
+     "meaning": "esparramei-me, deitei-me"
+    },
+    {
+     "term": "ceaselessly",
+     "meaning": "incessantemente"
+    }
+   ]
+  }
+ ]
+}

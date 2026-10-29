@@ -1,0 +1,698 @@
+{
+ "id": "the-cave",
+ "title": "The Republic: The Ring, the Cave and the Just Life",
+ "author": "Plato",
+ "year": -375,
+ "module": 5,
+ "level": "C1",
+ "summary": "Numa noite de festa no porto do Pireu, perto de Atenas, Sócrates entra numa conversa que vai durar até o amanhecer: o que é a justiça, e por que alguém deveria ser justo se pudesse agir mal sem ser descoberto? Desafiado pelo agressivo Trasímaco e pelos irmãos Gláucon e Adimanto, Sócrates imagina uma cidade perfeita, divide a alma em três partes e conta histórias que atravessaram os séculos, como o anel que torna invisível e a caverna onde prisioneiros só veem sombras. Um diálogo vivo sobre poder, educação, verdade e felicidade.",
+ "chapters": [
+  {
+   "title": "Down to the Piraeus",
+   "paragraphs": [
+    "Socrates had gone down to the Piraeus, the busy port of Athens, with Glaucon, the son of Ariston. They wanted to say a prayer to the goddess and to watch the festival, which was being held there for the first time. The procession of the local people was beautiful, and the procession of the Thracian visitors was no less impressive. When they had finished their prayers and seen the show, they turned to walk back to the city. But Polemarchus, the son of Cephalus, caught sight of them from a distance and sent his slave running to ask them to wait.",
+    "The boy took hold of Socrates's cloak from behind. “Polemarchus wants you to wait,” he said, and soon Polemarchus himself came up, together with Glaucon's brother Adeimantus and several other young men. “Socrates,” said Polemarchus, laughing, “it looks to me as if you are hurrying back to the city.”",
+    "“That's not a bad guess,” said Socrates.",
+    "“Well, do you see how many of us there are? Either you prove stronger than all of us, or you stay here.”",
+    "“Isn't there another possibility?” said Socrates. “We might persuade you to let us go.”",
+    "“But could you persuade us if we refused to listen?” said Polemarchus, and everyone laughed. Then Adeimantus told them that there would be a torch race on horseback that evening, in honour of the goddess, and a festival all night long. That settled it. They went home with Polemarchus, where they found his brothers and a crowd of other guests, among them the famous teacher of speaking, Thrasymachus of Chalcedon.",
+    "Cephalus, the father of Polemarchus, was there too. He was a very old man, sitting on a cushioned chair with a garland on his head, for he had just made a sacrifice in the courtyard. He greeted Socrates warmly. “You don't come down to the Piraeus very often, Socrates,” he said, “but you should. As the pleasures of the body fade away, my desire for good conversation grows stronger.”",
+    "“I enjoy talking with very old people, Cephalus,” Socrates answered. “They have travelled a road that we will probably have to travel too, and we should ask them what kind of road it is: rough and difficult, or easy and smooth. So tell me, is old age a hard part of life?”",
+    "“Many of my friends complain about it,” said Cephalus. “They miss the pleasures of youth, wine and love and feasting, and they grumble that their families treat them badly. But I think they blame the wrong thing. Someone once asked the poet Sophocles whether he could still make love to a woman. ‘Quiet, man!’ he said. ‘I am delighted to have escaped from all that, like a slave who has escaped from a mad and savage master.’ The real cause of unhappiness, Socrates, is not old age but a person's character. If people are orderly and content, even old age is only a moderate burden.”",
+    "Socrates admired the answer, but he wanted to draw the old man out further. “Many people would say you bear old age easily because you are rich,” he said. “Tell me, what is the greatest benefit you have enjoyed from your wealth?”",
+    "Cephalus thought for a moment. “When a man starts to believe that he will soon die,” he said, “fears come into his mind that never troubled him before. The old stories about punishments in the next world, which he used to laugh at, now begin to torment him. What if they are true? He asks himself whether he has wronged anybody. Money is useful here, because it helps a decent man avoid cheating or lying, even unintentionally, and it lets him leave this life without owing sacrifices to a god or money to a man.”",
+    "“Beautifully said, Cephalus,” said Socrates. “But what about this thing itself, justice? Shall we say that it is simply telling the truth and giving back what we have taken? Or are these things sometimes just and sometimes unjust? Suppose, for example, that a friend lent you a weapon when he was sane, and then he went mad and asked for it back. Everyone would agree that you should not return it, and that you shouldn't tell the whole truth to someone in that state.”",
+    "“You are right,” said Cephalus.",
+    "“Then this is not the definition of justice: to speak the truth and to give back what one has received.”",
+    "“Oh, but it is, Socrates,” interrupted Polemarchus, “if we are to believe the poet Simonides.”",
+    "Cephalus smiled and rose from his chair. “Well, I hand the argument over to you,” he said. “I must go and look after the sacrifices.” He went out laughing, and Polemarchus, the heir of his father's money, became the heir of his argument too."
+   ],
+   "glossary": [
+    {
+     "term": "cloak",
+     "meaning": "manto"
+    },
+    {
+     "term": "settled",
+     "meaning": "resolveu, decidiu"
+    },
+    {
+     "term": "garland",
+     "meaning": "guirlanda, coroa de flores"
+    },
+    {
+     "term": "grumble",
+     "meaning": "resmungam"
+    },
+    {
+     "term": "burden",
+     "meaning": "fardo, peso"
+    },
+    {
+     "term": "draw the old man out",
+     "meaning": "fazer o velho falar mais"
+    },
+    {
+     "term": "wronged",
+     "meaning": "prejudicou, fez mal a"
+    },
+    {
+     "term": "heir",
+     "meaning": "herdeiro"
+    }
+   ]
+  },
+  {
+   "title": "Friends and Enemies",
+   "paragraphs": [
+    "“Tell me then, Polemarchus,” said Socrates, “what did Simonides say about justice that you think is correct?”",
+    "“He said that it is just to give each person what is owed to him,” Polemarchus answered. “And I think he was right.”",
+    "“It is hard to disagree with a wise and inspired man like Simonides,” said Socrates. “But what did he mean? He certainly did not mean that we should give back the weapon to the madman, although in a sense it is owed to him. So what is owed, in the poet's opinion, and to whom?”",
+    "Polemarchus considered this. “He meant that friends owe it to friends to do them good, and never harm,” he said. “And enemies owe each other what is fitting, which is some kind of harm.”",
+    "“So justice, according to Simonides, means helping your friends and harming your enemies?”",
+    "“That's what I believe.”",
+    "Socrates began to question him gently, as he always did. A doctor is the best person to help friends who are sick, he pointed out, and a ship's captain is the best person to help them at sea. In what activity, then, is the just man the best at helping friends? Polemarchus said it was in partnerships and contracts, especially money. But when do we need a just partner in money matters? Not when we are buying a horse, because then we want an expert on horses. It turned out that we need a just man only when money is lying idle and must be kept safe.",
+    "“Then justice is useful only for useless things,” said Socrates, “which does not sound very important. And there is something worse. The man who is best at guarding against a disease is also best at causing it secretly. The general who guards his army well is best at stealing the enemy's plans. So if the just man is good at keeping money safe, he is also good at stealing it. Our just man has turned out to be a kind of thief!”",
+    "“No, by Zeus!” said Polemarchus. “I don't know what I meant any more. But I still think that justice means helping friends and harming enemies.”",
+    "“Then let us look at it another way,” said Socrates. “When we say ‘friends’, do we mean the people who seem good to us, or the people who really are good? Because we often make mistakes. We may think that bad men are good, and treat them as friends, and harm good men we take for enemies. In that case, justice would mean harming good people who have done nothing wrong.”",
+    "“That can't be right,” said Polemarchus. “Let us say instead that a friend is someone who both seems good and is good. Then justice means helping our friends when they are good, and harming our enemies when they are bad.”",
+    "“But should a just man harm anybody at all?” asked Socrates. “Think about horses. When horses are harmed, do they become better or worse?”",
+    "“Worse, of course.”",
+    "“Worse in the excellence that belongs to horses, or the excellence that belongs to dogs?”",
+    "“The excellence of horses.”",
+    "“And when human beings are harmed, do they not become worse in the excellence that belongs to human beings? And isn't justice that human excellence?”",
+    "“It must be.”",
+    "“Then if you harm a man, you make him more unjust. Now, can a musician use music to make people unmusical? Can a horseman use his skill to make people bad riders? Heat does not make things cold, and dryness does not make things wet. In the same way, a good man does not make others bad, and a just man cannot use his justice to make people unjust. So it is not the work of the just man to harm anyone, Polemarchus, either a friend or anyone else. That is the work of his opposite, the unjust man.”",
+    "“I think you are completely right, Socrates.”",
+    "“Then we will fight together, you and I, against anyone who says that Simonides or any other wise man said such a thing. I suspect the saying belongs to some rich tyrant who thought he had great power.” Polemarchus agreed with enthusiasm. “Very well,” said Socrates. “But since it is now clear that justice is not this either, what else could it be?”",
+    "All through this conversation Thrasymachus had been trying to break in, but the people sitting near him had held him back because they wanted to hear the argument to the end. Now, when Socrates paused, he could not keep quiet any longer. He gathered himself up like a wild beast and threw himself at them, as if he were going to tear them to pieces. Socrates and Polemarchus shrank back in fright.",
+    "“What nonsense is this, Socrates?” he shouted at the whole company. “Why do you two keep bowing politely to each other like a pair of fools? If you really want to know what justice is, stop asking questions and showing off by refuting everyone's answers. You know very well that it is far easier to ask questions than to answer them. Give an answer yourself, and tell us what you think justice is. And don't tell me that it is the useful, or the beneficial, or the profitable. I won't accept that kind of rubbish.”"
+   ],
+   "glossary": [
+    {
+     "term": "fitting",
+     "meaning": "apropriado"
+    },
+    {
+     "term": "idle",
+     "meaning": "parado, sem uso"
+    },
+    {
+     "term": "excellence",
+     "meaning": "excelência, virtude"
+    },
+    {
+     "term": "break in",
+     "meaning": "interromper"
+    },
+    {
+     "term": "shrank back",
+     "meaning": "recuaram"
+    },
+    {
+     "term": "bowing",
+     "meaning": "fazendo reverências"
+    },
+    {
+     "term": "refuting",
+     "meaning": "refutar, contestar"
+    },
+    {
+     "term": "rubbish",
+     "meaning": "besteira, lixo"
+    }
+   ]
+  },
+  {
+   "title": "The Advantage of the Stronger",
+   "paragraphs": [
+    "Socrates looked at Thrasymachus and trembled a little. “Don't be harsh with us, Thrasymachus,” he said. “If we have made mistakes, they were not deliberate. If we were looking for gold, we would not bow to each other and spoil our chances of finding it. We are looking for justice, which is more precious than much gold. It is far more likely that we simply lack the ability, and clever people like you ought to pity us rather than be angry.”",
+    "Thrasymachus laughed scornfully. “There it is,” he said, “that famous irony of Socrates! I knew it. I told everyone here that you would refuse to answer and pretend to be ignorant, anything rather than give an answer.” But it was obvious that he wanted to speak, because he believed he had a splendid answer and would win glory from it. After some persuading he gave in. “Listen, then,” he said. “I say that justice is nothing other than the advantage of the stronger. Well, why don't you praise me? But no, you won't.”",
+    "“First I must understand what you mean,” said Socrates. “You say that justice is what benefits the stronger. Surely you don't mean that if Polydamas the wrestler is stronger than us, and beef is good for his body, then beef is just for us weaker men too?”",
+    "“You are disgusting, Socrates,” said Thrasymachus. “You take my words in the way that does them the most harm. Don't you know that some cities are ruled by tyrants, some by the people and some by aristocrats? And in every city the ruling group is the stronger. Each government makes laws for its own advantage: a democracy makes democratic laws, a tyranny makes tyrannical laws, and so on. Then they announce that these laws are just for their subjects, and they punish anyone who breaks them as a lawbreaker and a wrongdoer. That is what I mean. In every city justice is the same thing: the advantage of the established government.”",
+    "“Now I understand you,” said Socrates. “But tell me, do rulers ever make mistakes? Can they sometimes make laws that are not to their advantage?”",
+    "“I suppose they can.”",
+    "“And you say it is just for the subjects to obey whatever laws the rulers make?”",
+    "“Of course.”",
+    "“Then according to you it is just to do not only what is to the advantage of the stronger, but also the opposite, what is to their disadvantage. Because when the rulers make a mistake, the subjects who obey them will be harming the rulers.”",
+    "“By Zeus, that's clear enough!” cried Polemarchus.",
+    "But Thrasymachus did not give up so easily. “You argue like a cheat, Socrates,” he said. “Do you call a doctor who makes a mistake a doctor, at the moment he makes it? Or a calculator who makes an error in arithmetic? We say ‘the doctor made an error’, but strictly speaking no craftsman ever makes a mistake insofar as he is a craftsman. He makes the mistake when his knowledge fails him, and at that moment he is not a craftsman. It's the same with the ruler. A ruler, in the precise sense, never makes mistakes and always makes laws that are best for himself.”",
+    "“Very well,” said Socrates calmly, “let us use your precise sense. The doctor in the precise sense, is he a moneymaker or someone who treats the sick?”",
+    "“Someone who treats the sick.”",
+    "“And the captain of a ship, in the precise sense, is he a ruler of sailors or merely a sailor?”",
+    "“A ruler of sailors.”",
+    "“Now every craft exists to benefit something, doesn't it? Medicine does not look for its own advantage but for the advantage of the body. Horsemanship looks after horses. No craft seeks its own advantage, since it has no need of anything, but only the advantage of the thing it takes care of. So a doctor, insofar as he is a doctor, seeks what is good for the patient, not for himself. And the captain seeks what is good for the sailors under him. It follows, then, that no ruler, insofar as he is a ruler, seeks his own advantage. He seeks the advantage of his subjects.”",
+    "When they had reached this point it was obvious to everyone that the definition of justice had been turned upside down. Thrasymachus, instead of replying, said, “Tell me, Socrates, do you have a nurse?”",
+    "“Why do you ask such a question,” said Socrates, “when you ought to be answering?”",
+    "“Because she lets you run around with a snotty nose and doesn't wipe it,” said Thrasymachus. “You don't even know the difference between sheep and shepherd. You think that shepherds fatten their sheep for the good of the sheep, and not for the good of their masters and themselves. You are so far from understanding justice that you don't realise that justice is really someone else's good. It benefits the stronger and the ruler, and it harms the weaker person who obeys and serves.”",
+    "He was not finished. “Look at it everywhere,” he went on. “When a just man and an unjust man are partners, the unjust man always comes out with more. When there are taxes to pay, the just man pays more on the same income. When public offices are given out, the just man loses money by neglecting his own affairs, and his family hate him because he refuses to do them favours against the law. But the unjust man prospers. And look above all at the most complete injustice, the tyranny, which takes other people's property not little by little but all at once, sacred and private alike. If a man is caught doing a small part of this, he is punished as a temple-robber or a kidnapper. But when he enslaves all the citizens, people call him happy and blessed. People criticise injustice not because they are afraid of doing it, but because they are afraid of suffering it.”"
+   ],
+   "glossary": [
+    {
+     "term": "deliberate",
+     "meaning": "de propósito, intencional"
+    },
+    {
+     "term": "gave in",
+     "meaning": "cedeu"
+    },
+    {
+     "term": "wrestler",
+     "meaning": "lutador"
+    },
+    {
+     "term": "subjects",
+     "meaning": "súditos"
+    },
+    {
+     "term": "craftsman",
+     "meaning": "artesão, profissional"
+    },
+    {
+     "term": "insofar as",
+     "meaning": "na medida em que"
+    },
+    {
+     "term": "snotty",
+     "meaning": "ranhento"
+    },
+    {
+     "term": "prospers",
+     "meaning": "prospera"
+    }
+   ]
+  },
+  {
+   "title": "Thrasymachus Blushes",
+   "paragraphs": [
+    "Having poured this flood of words into their ears like a bath attendant, Thrasymachus intended to leave. But the company would not let him, and Socrates begged him to stay. “What a thing to throw at us and then walk away, Thrasymachus!” he said. “Do you think it is a small matter to decide how a person should live his whole life? I am not persuaded that injustice is more profitable than justice, even if one were free to do whatever one liked. So persuade us, my friend.”",
+    "“And how am I to persuade you,” said Thrasymachus, “if you are not persuaded by what I've just said? Shall I take the argument and push it into your soul?”",
+    "“Heaven forbid,” said Socrates. “But first stick to what you say. You call perfect injustice profitable and perfect justice foolish. Do you call justice a vice, then?”",
+    "“No, I call it a very noble simplicity,” said Thrasymachus. “Good-natured stupidity.”",
+    "“And injustice you call good judgement?”",
+    "“I call it good sense, at least for those who can be perfectly unjust and bring whole cities and nations under their power. You probably think I mean pickpockets. Those things are profitable too, if they're not found out, but they are not worth mentioning beside what I've just described.”",
+    "Socrates was surprised at the boldness of this. He said that it was no longer easy to answer, because Thrasymachus was placing injustice with virtue and wisdom, and justice with their opposites. Then he began asking him a long series of small questions. Does the just man try to outdo another just man? No, Thrasymachus said, otherwise he would not be the pleasant simpleton he is. Does the unjust man try to outdo everybody, the just and the unjust alike? Yes, certainly. Then Socrates turned to the crafts. A musician who tunes a lyre does not try to outdo another musician; he only tries to tune it correctly. An ignorant person, however, tries to outdo both the expert and the ignorant. So the wise and good man does not try to outdo those who are like him, but the bad and ignorant man tries to outdo everybody.",
+    "“Then the just man is like the wise and good,” said Socrates, “and the unjust man is like the ignorant and bad.”",
+    "Thrasymachus agreed to all of this, not as easily as it sounds when it is told, but with great reluctance, pouring with sweat, for it was summer and very hot. And then something happened that no one had seen before: Thrasymachus blushed.",
+    "But Socrates did not stop there. “Now, you also said that injustice is powerful,” he went on. “Tell me, could a city, an army or a band of robbers or thieves achieve anything together if they treated each other unjustly?”",
+    "“No, they couldn't.”",
+    "“Because injustice causes hatred and fighting, while justice brings friendship and a sense of common purpose. And if injustice appears among free men or slaves, it makes them hate each other and unable to act together. Even within one person, it makes him divided against himself, an enemy to himself and to the just. So the completely unjust, if there were such men, would be completely powerless. Whatever they achieve, they achieve because some trace of justice remains among them.”",
+    "Then Socrates offered a final argument. Everything has its function, he said, the work that it alone can do, or do best. The function of the eyes is to see, and the function of a pruning knife is to cut the branches of vines. Each thing that has a function also has an excellence that allows it to perform well. Eyes without their excellence see badly. The soul too has its function: to take care of things, to rule, to deliberate, in short, to live. “And if the excellence of the soul is justice,” he said, “then the just soul and the just man will live well, and the unjust man will live badly. And whoever lives well is blessed and happy, while whoever lives badly is the opposite.”",
+    "“Let that be your feast at the festival, Socrates,” said Thrasymachus sourly.",
+    "“I owe it to you, Thrasymachus, since you have become gentle with me,” Socrates replied. “But I have not had a good dinner, and it is my own fault. Like a greedy man who grabs every dish before he has properly tasted the one before, I left our first question, what justice actually is, before we had found the answer. I let myself be distracted by whether it was a vice or a virtue, wisdom or ignorance. The result of our whole discussion is that I know nothing. For if I don't know what justice is, I can hardly know whether it is a virtue, or whether the person who has it is happy or unhappy.”"
+   ],
+   "glossary": [
+    {
+     "term": "profitable",
+     "meaning": "lucrativo, vantajoso"
+    },
+    {
+     "term": "outdo",
+     "meaning": "superar, levar vantagem sobre"
+    },
+    {
+     "term": "simpleton",
+     "meaning": "ingênuo, bobo"
+    },
+    {
+     "term": "lyre",
+     "meaning": "lira"
+    },
+    {
+     "term": "reluctance",
+     "meaning": "relutância"
+    },
+    {
+     "term": "blushed",
+     "meaning": "corou, ficou vermelho"
+    },
+    {
+     "term": "pruning knife",
+     "meaning": "podão, faca de podar"
+    },
+    {
+     "term": "sourly",
+     "meaning": "de mau humor, com azedume"
+    }
+   ]
+  },
+  {
+   "title": "The Ring of Gyges",
+   "paragraphs": [
+    "Socrates thought the discussion was over, but in fact it was only the beginning. Glaucon, who was always very brave in everything, would not accept Thrasymachus's retreat. “Socrates,” he said, “do you want to seem to have persuaded us, or to really persuade us, that it is better in every way to be just than unjust?”",
+    "“I would choose to really persuade you, if I could.”",
+    "“Then you are not doing it yet. Tell me, don't you think there are three kinds of good things? Some we welcome for their own sake, like joy and harmless pleasures. Some we love both for their own sake and for what comes from them, like knowledge, sight and health. And some are painful but beneficial, like physical training, medical treatment or earning money, and we choose them only for the rewards they bring. In which class do you put justice?”",
+    "“In the finest class,” said Socrates, “the one we love both for itself and for its results, if we are going to be happy.”",
+    "“Well, most people don't agree,” said Glaucon. “They put it among the painful things, which must be practised for the sake of rewards and reputation, but which in themselves should be avoided. Thrasymachus gave up too soon, like a snake charmed by you. So I am going to renew his argument. I don't believe it myself, but I have never heard anyone defend justice in the way I want to hear it, praised for its own sake. I will make three points. First, what people say justice is and where it comes from. Second, that everyone who practises it does so unwillingly, as something necessary, not good. Third, that they are reasonable to do so, because the life of the unjust man is much better.”",
+    "“Nothing would please me more,” said Socrates.",
+    "“People say,” Glaucon began, “that doing injustice is naturally good and suffering it is bad, but that the bad of suffering it is far greater than the good of doing it. So when people have both done and suffered injustice, and tasted both, those who are not strong enough to avoid the one and choose the other decide that it is profitable to make an agreement with each other: neither to do injustice nor to suffer it. That is how they began to make laws and contracts, and they called what the law commands lawful and just. This is the origin and the essence of justice. It is a compromise between the best thing, doing wrong without paying the penalty, and the worst thing, suffering wrong without being able to take revenge. A real man, who was able to do injustice, would never make such an agreement with anyone. He would be mad to do it.”",
+    "“Now here is the proof that people are just only unwillingly. Suppose we gave the just man and the unjust man the power to do whatever they liked, and then followed them to see where their desires would lead. We would catch the just man going down exactly the same road as the unjust man, because every nature naturally pursues getting more and more. The best way to give them this freedom is the power that they say once came to Gyges, the ancestor of the Lydian king.”",
+    "“He was a shepherd in the service of the king of Lydia. One day there was a great storm and an earthquake, and the ground opened up where he was grazing his flock. Amazed, he went down into the chasm, and there, among other marvels, he saw a hollow bronze horse with little doors. Inside was a corpse, larger than a human being, wearing nothing but a gold ring on its finger. Gyges took the ring and came out.”",
+    "“When the shepherds held their usual monthly meeting to report to the king on the flocks, Gyges came along wearing the ring. While he was sitting among the others, he happened to turn the setting of the ring towards himself, into the palm of his hand. At once he became invisible to the people sitting near him, and they went on talking about him as if he had left. He was astonished, and he turned the ring outwards again and became visible. He tested it many times, and every time the same thing happened. As soon as he was sure of its power, he arranged to be one of the messengers sent to the king. When he arrived at the palace he seduced the queen, plotted with her against the king, killed him and took the kingdom.”",
+    "Glaucon leaned forward. “Now suppose there were two such rings, and the just man put on one and the unjust man the other. Nobody, it seems, would be so strong-minded that he would stay just and keep his hands off other people's property. He could take whatever he wanted from the market without fear, go into houses and sleep with anyone he wished, kill or free from prison anyone he liked, and act like a god among humans. In this he would behave no differently from the unjust man. This is strong evidence that nobody is just willingly, but only under compulsion. If anyone had such power and refused to do wrong, people would think him the most wretched and foolish man alive, though they would praise him in public, deceiving each other out of fear of suffering injustice themselves.”"
+   ],
+   "glossary": [
+    {
+     "term": "retreat",
+     "meaning": "recuo, retirada"
+    },
+    {
+     "term": "charmed",
+     "meaning": "encantada, enfeitiçada"
+    },
+    {
+     "term": "penalty",
+     "meaning": "pena, castigo"
+    },
+    {
+     "term": "grazing",
+     "meaning": "pastando, levando para pastar"
+    },
+    {
+     "term": "chasm",
+     "meaning": "abismo, fenda"
+    },
+    {
+     "term": "hollow",
+     "meaning": "oco"
+    },
+    {
+     "term": "seduced",
+     "meaning": "seduziu"
+    },
+    {
+     "term": "under compulsion",
+     "meaning": "por obrigação, à força"
+    }
+   ]
+  },
+  {
+   "title": "Two Statues and a City",
+   "paragraphs": [
+    "“If we want to judge which life is better,” Glaucon continued, “we must separate the most just man from the most unjust, and look at each in his purest form. Let the unjust man be like a clever craftsman, who knows what is possible and what is impossible. He commits his crimes skilfully and is never caught, because the height of injustice is to seem just without being so. If he slips, he can put things right; he has the eloquence to persuade, the courage to use force, and friends and money to help him. Beside him let us place the just man, simple and noble, who wants not to seem good but to be good. We must take away his reputation, for if he seems just he will be honoured and rewarded, and we won't know whether he is just for the sake of justice or for the sake of the rewards.”",
+    "“So let him be stripped of everything except justice. Though he does no wrong, let him have the greatest reputation for injustice, so that his justice may be tested by not weakening under a bad name. Let him go on like this, unchangeable until death, seeming unjust all his life but being just. They will say that such a man will be whipped, tortured and bound in chains, his eyes will be burned out, and at last, after every kind of suffering, he will be impaled. Then he will understand that one should want not to be just but to seem just. Meanwhile the unjust man rules his city, marries into any family he likes, makes rich gifts to the gods, and is loved by gods and men more than the just man is.”",
+    "“My goodness, Glaucon,” said Socrates, “how vigorously you have polished these two men for judgement, like a pair of statues!”",
+    "Before Socrates could answer, Adeimantus spoke. “Surely you don't think the case has been fully stated, Socrates? The most important point has not been mentioned. Think about what fathers say to their sons, and what all teachers say. They don't praise justice itself, only the good reputation it brings. And the poets tell us that the gods give rich harvests and fat flocks to the just. What is worse, they also say that the gods can be persuaded by sacrifices and prayers to forgive the wicked. Beggar priests go to the doors of rich men and convince them that, for a small fee, they can wash away any crime with feasts and ceremonies.”",
+    "“What effect, my dear Socrates, do you think these stories have on the souls of young people? A clever young man will reason like this: ‘If I am just but don't seem so, I gain only pain and loss. But if I am unjust and have a reputation for justice, I will live like a god. So I must build a façade of virtue around myself, and keep behind it the greedy, crafty fox.’ So please, don't just prove to us that justice is better than injustice. Show us what each of them does, in itself, to the person who has it, whether gods and men see it or not, which makes one good and the other bad.”",
+    "Socrates was full of admiration for the two brothers. “Sons of Ariston,” he said, “you are truly divine, if you are not convinced that injustice is better, though you can speak so well for it. I feel helpless to defend justice, but it would be impious not to try while I have breath and voice.” He thought for a moment. “The investigation we are undertaking is not easy. It needs sharp eyes. Suppose some short-sighted people were asked to read small letters from a distance, and then someone noticed the same letters written somewhere else, larger and on a larger surface. They would read the large letters first, and then compare them with the small ones. Justice, we say, belongs to a single person, but it also belongs to a whole city. And a city is larger than one person. So let us look for justice first in the city, and then in the individual.”",
+    "“So let us build a city in our argument from the beginning. A city comes into being, I think, because none of us is self-sufficient. We all need many things. The first and greatest need is food, the second is shelter, and the third is clothing. So we need a farmer, a builder, a weaver, and perhaps a shoemaker. Now, should each of them make everything for himself, or should each do one job for all the others? I think things are done better when each person does one thing that suits his nature, at the right time, and leaves the rest. Soon we will need carpenters and smiths, shepherds, merchants, sailors, a market and money.”",
+    "Socrates described this little city, where people would eat simple bread and drink wine, sing hymns to the gods, and live in peace and health into old age. But Glaucon interrupted. “If you were founding a city of pigs, Socrates, what else would you feed them? Give them couches to lie on, tables, sauces and sweets, like people have today.”",
+    "“I see,” said Socrates. “You want a luxurious city, a city with a fever. Very well. Then we will need perfumes and paintings, actors and dancers, cooks and doctors. And the land that was once enough to feed everyone will become too small. We will have to take a slice of our neighbours' land, and they of ours, if they also desire unlimited wealth. So we shall go to war, Glaucon. And for war we need a whole army of guardians.”"
+   ],
+   "glossary": [
+    {
+     "term": "stripped of",
+     "meaning": "despojado de, privado de"
+    },
+    {
+     "term": "impaled",
+     "meaning": "empalado"
+    },
+    {
+     "term": "vigorously",
+     "meaning": "com vigor"
+    },
+    {
+     "term": "façade",
+     "meaning": "fachada"
+    },
+    {
+     "term": "crafty",
+     "meaning": "astuta"
+    },
+    {
+     "term": "impious",
+     "meaning": "ímpio, desrespeitoso aos deuses"
+    },
+    {
+     "term": "self-sufficient",
+     "meaning": "autossuficiente"
+    },
+    {
+     "term": "weaver",
+     "meaning": "tecelão"
+    }
+   ]
+  },
+  {
+   "title": "The Guardians and the Noble Lie",
+   "paragraphs": [
+    "“What kind of nature should our guardians have?” Socrates asked. “They must be quick to notice the enemy, swift to chase him, and strong to fight him. And they must be brave, which means spirited, for spirit is something irresistible that makes the soul fearless. But here is the difficulty, Glaucon. People with spirited natures tend to be savage towards each other and towards everyone else. Our guardians must be gentle to their own people and fierce to their enemies. Where can we find such a combination?”",
+    "“It does seem impossible,” said Glaucon.",
+    "“And yet we can see it in a well-bred dog,” said Socrates. “A good dog is as gentle as possible with people it knows, and the opposite with strangers. When it sees someone it doesn't know, it gets angry, though it has never been harmed by him. When it sees someone it knows, it welcomes him, though it has never received any kindness from him. So a dog judges friend and enemy only by knowledge and ignorance. In that sense it is a lover of learning, a philosophical creature. Our guardians, then, must be philosophical as well as spirited, swift and strong.”",
+    "Then they discussed how these guardians should be educated. Socrates said there should be music for the soul and physical training for the body, and music should come first, because we tell children stories before we train them in the gymnasium. “The beginning is the most important part of any work,” he said, “especially with anything young and tender, for that is when it is most easily moulded. So we must supervise the storytellers. Most of the stories that Homer and Hesiod tell must be thrown out.”",
+    "“Which ones?” asked Adeimantus.",
+    "“The ones that tell lies about the gods,” said Socrates, “in which gods fight and plot against each other, deceive human beings, or change their shapes. A god is good, so he cannot be the cause of evil, but only of good things. And a god is perfect, so he never changes his form and never lies. Nor must we tell stories that make death seem terrible, with heroes weeping and lamenting, because then our guardians will fear death more than slavery.” The same care, Socrates said, must be taken with music and rhythm, since they sink deep into the soul. Harmonies that are soft and drunken must go; they would keep only the music of courage and of self-control. And physical training must be simple, like their diet, so that the guardians stay healthy without needing doctors all the time.",
+    "“Next we must choose the rulers from among the guardians,” Socrates continued. “They should be the older ones, and the best of them, those who are most devoted to the city, and who have shown all their lives, under every test of pain and pleasure, that they will always do what is best for it. We will call these the complete guardians, and the young men who help them we will call auxiliaries.”",
+    "“Now,” he said, “how can we get the whole city to believe a single noble falsehood? It is a sort of Phoenician tale, which has happened often before, the poets say, but not in our time.” He seemed embarrassed to say it, and Glaucon urged him on. “We shall tell our citizens that their whole upbringing and education were like a dream. In reality they were being formed and nourished inside the earth, and when they were complete the earth, their mother, sent them up into the light. So they must defend the land as their mother and nurse, and think of the other citizens as their brothers, born of the same earth.”",
+    "“But we shall go on with the story. ‘All of you in this city are brothers,’ we shall say, ‘but when the god made you, he mixed gold into those fit to rule, which is why they are the most honoured. He put silver into the auxiliaries, and iron and bronze into the farmers and other craftsmen.’ Usually children will be like their parents, but sometimes a silver child will be born from a gold parent, or a gold child from bronze parents. Then the rulers must not feel pity, but must give each child the place that suits its nature. For there is an oracle that the city will be destroyed when it is guarded by a man of iron or bronze.”",
+    "“Is there any way to make them believe it?” Socrates asked.",
+    "“Not the first generation,” said Glaucon, “but perhaps their sons and their descendants.”",
+    "Finally, Socrates said that the guardians must have no private property beyond what is absolutely necessary. They should have no houses or storerooms that anyone cannot enter, and they should eat together in common, like soldiers in a camp. They must be told that they have divine gold and silver in their souls, and so they have no need of human gold. If they ever acquire land and houses and money of their own, they will become householders and farmers instead of guardians, hateful masters instead of allies of the other citizens.",
+    "Here Adeimantus objected. “What would you say, Socrates, if someone told you that you are not making these men very happy? The city really belongs to them, but they get nothing good from it. They have no lands or fine houses, they cannot offer their own sacrifices to the gods, and they don't even receive a salary. They are just like hired guards, sitting in the city and keeping watch.”",
+    "“We are not founding our city,” Socrates replied, “so that one group in it will be outstandingly happy, but so that the whole city will be as happy as possible. If we were painting a statue, and someone complained that we did not paint the eyes, the most beautiful part, with the most beautiful colour, purple, but with black, we would answer that we should not paint the eyes so beautifully that they don't look like eyes. We should look at whether we make the whole thing beautiful. In the same way, we must not give the guardians a kind of happiness that will make them anything other than guardians.”"
+   ],
+   "glossary": [
+    {
+     "term": "spirited",
+     "meaning": "corajoso, impetuoso"
+    },
+    {
+     "term": "well-bred",
+     "meaning": "de boa raça"
+    },
+    {
+     "term": "moulded",
+     "meaning": "moldado"
+    },
+    {
+     "term": "lamenting",
+     "meaning": "lamentando-se"
+    },
+    {
+     "term": "auxiliaries",
+     "meaning": "auxiliares"
+    },
+    {
+     "term": "urged him on",
+     "meaning": "insistiu para que continuasse"
+    },
+    {
+     "term": "nourished",
+     "meaning": "alimentados, nutridos"
+    },
+    {
+     "term": "householders",
+     "meaning": "donos de casa, proprietários"
+    }
+   ]
+  },
+  {
+   "title": "The Three Parts of the Soul",
+   "paragraphs": [
+    "“Our city is now founded,” said Socrates. “If it has been correctly founded, it must be completely good, which means that it is wise, courageous, moderate and just. Let us find these qualities one by one. The city is wise because of the knowledge of its small class of rulers, the complete guardians, who deliberate about the city as a whole. It is courageous because of its soldiers, who preserve, through pleasure and pain, the right belief about what should and should not be feared. They hold it like wool that has been dyed so well that no soap can wash out the colour.”",
+    "“And moderation?” asked Glaucon.",
+    "“Moderation is a kind of harmony,” said Socrates. “It is the agreement, among the rulers and the ruled, about who should rule. It spreads through the whole city like a chord, making the weakest, the strongest and those in between sing the same song together. And now, Glaucon, we must be like hunters surrounding a thicket, so that justice doesn't slip away and disappear. Look! I think I see its tracks.” He laughed. “In fact, it has been rolling around at our feet from the very beginning, and we didn't see it. We are like people who search for something they are already holding in their hands. Remember the principle we laid down when we founded the city: that each person must do the one job for which his nature is best suited.”",
+    "“Yes, we did say that.”",
+    "“Well, this, I think, is justice: doing one's own work and not meddling in other people's. When the moneymakers, the auxiliaries and the guardians each do their own work in the city, that is justice, and it makes the city just. But if a craftsman, puffed up by wealth or by his supporters, tries to enter the class of soldiers, or a soldier tries to become a ruler without being fit for it, that meddling is the greatest harm to the city. That is injustice.”",
+    "“Now let us apply this to the individual,” Socrates went on, “and see whether there are three parts in the soul too, corresponding to the three classes. It is hard to decide whether we do each thing with the same part of ourselves, or with different parts. But consider this: the same thing cannot do or suffer opposites, in the same respect and at the same time. Now, is it true that sometimes thirsty people are unwilling to drink?”",
+    "“Certainly, often.”",
+    "“Then what should we say about them? Isn't there something in their soul that commands them to drink, and something else that forbids them, which is different and overpowers the first? The part that forbids comes from calculation and reason, while the part that drives and drags them comes from passions and diseases. So we can call the part with which it reasons the rational part, and the part with which it loves, hungers and thirsts the appetitive part, the companion of pleasures and satisfactions.”",
+    "“And what about anger, the spirited part? Is it a third part, or is it the same as one of these? I once heard a story that I believe. Leontius, the son of Aglaion, was walking up from the Piraeus under the outside of the north wall, when he noticed some corpses lying at the place of public execution. He had an appetite to look at them, but at the same time he was disgusted and tried to turn away. For a while he struggled and covered his face. But finally, overpowered by the appetite, he opened his eyes wide, ran towards the corpses and shouted, ‘Look for yourselves, you wretches, take your fill of this beautiful sight!’”",
+    "“I've heard that story too,” said Glaucon.",
+    "“It shows that anger sometimes makes war against the appetites, as if they were two different things. When a person's appetites force him to act against reason, he scolds himself and becomes angry at the part of him that is doing the forcing. In this civil war, the spirit becomes the ally of reason. So there are three parts in the soul, just as there were three classes in the city. Reason should rule, because it is wise and takes care of the whole soul. Spirit should obey it and be its ally. Music and physical training will make these two harmonious, and together they will govern the appetites, which make up the largest part of each soul and are by nature insatiable for money.”",
+    "“Justice, then, is not really about a man's external actions,” Socrates concluded, “but about what is inside him, about his true self. The just man does not allow any part of himself to do the work of another part. He puts himself in order, becomes his own friend, and harmonises the three parts like the three notes of a musical scale, high, low and middle. Only then does he act, whether in making money, taking care of his body, or in politics. Injustice, on the other hand, is a kind of civil war between the three parts, a rebellion of one part against the whole soul. Justice is to the soul what health is to the body, and injustice is like disease.”",
+    "“Then the question of which is more profitable has become ridiculous,” said Glaucon. “Life doesn't seem worth living when the body's nature is ruined, even with all the food and drink and wealth and power in the world. So how could it be worth living when the very thing by which we live is disordered and corrupted?”"
+   ],
+   "glossary": [
+    {
+     "term": "dyed",
+     "meaning": "tingida"
+    },
+    {
+     "term": "thicket",
+     "meaning": "moita, mato fechado"
+    },
+    {
+     "term": "meddling",
+     "meaning": "intrometer-se"
+    },
+    {
+     "term": "puffed up",
+     "meaning": "inflado, cheio de si"
+    },
+    {
+     "term": "appetitive",
+     "meaning": "apetitivo, dos desejos"
+    },
+    {
+     "term": "wretches",
+     "meaning": "desgraçados, miseráveis"
+    },
+    {
+     "term": "take your fill",
+     "meaning": "fartem-se"
+    },
+    {
+     "term": "insatiable",
+     "meaning": "insaciáveis"
+    }
+   ]
+  },
+  {
+   "title": "The Biggest Wave",
+   "paragraphs": [
+    "Socrates was about to describe the bad kinds of city and soul when Polemarchus whispered something to Adeimantus, and the two of them stopped him. They wanted to hear more about a remark he had made in passing, that among the guardians “friends will have everything in common”, including wives and children. So Socrates had to face what he called three great waves. The first wave was that women of the right nature should be guardians too, sharing the same education and the same duties as men. “A woman may have a talent for medicine or music or war, just like a man,” he said. “The only difference is that, in general, women are physically weaker. We should laugh at nothing except what is bad.”",
+    "The second wave was even larger: that the guardians would live as one family, with no private marriages, so that no one would say “mine” and “not mine” about different things. The whole city would share joys and sorrows like a single body that feels pain in one finger. Socrates admitted that these ideas sounded strange, and he hurried on, because Glaucon was pressing him with the most important question of all. Could such a city ever come into existence, and how?",
+    "“You are very harsh with me,” said Socrates. “I have barely escaped two waves, and now you are bringing the biggest and most difficult, the third wave. Still, I will say it, even if it drowns me in laughter and contempt. Until philosophers rule as kings in cities, or those who are now called kings and leaders genuinely and adequately study philosophy, until political power and philosophy entirely coincide, there can be no rest from evils for cities, nor, I think, for the human race.”",
+    "Glaucon whistled. “After saying a thing like that, Socrates, you can expect a great crowd of not undistinguished men to throw off their cloaks, grab the nearest weapon and run at you, ready to do terrible things. If you don't defend yourself with an argument, you will truly pay the penalty of ridicule.”",
+    "“Then we must explain what we mean by a philosopher,” said Socrates. “A lover of wine loves every kind of wine, and a lover of honour loves every kind of honour. So the philosopher, the lover of wisdom, desires all wisdom, not one part of it. He is a lover of the sight of truth. There are people who are lovers of sights and sounds, who run around to every festival to hear new choruses. They delight in beautiful voices, colours and shapes, but their minds are unable to see and delight in the nature of beauty itself. Such people live in a dream, mistaking a likeness for the thing it resembles. The philosopher, on the other hand, can see both beauty itself and the things that share in it, and he never confuses them. His mind has knowledge, while the mind of the other has only opinion.”",
+    "Adeimantus was not satisfied. “No one can contradict you when you argue like this, Socrates,” he said. “People feel that they are being led a little astray at each question, because they are inexperienced at this game, and at the end of the discussion they find themselves completely overturned. But look at the facts. Most of those who study philosophy for a long time become very strange, not to say rotten, and even the best of them are made useless to their cities.”",
+    "“Then let me answer you with an image,” said Socrates. “Picture a ship. The owner is bigger and stronger than everyone on board, but he is a little deaf and short-sighted, and his knowledge of sailing is just as poor. The sailors are quarrelling with each other about who should steer, though none of them has ever learned the art of navigation, and they even say that it cannot be taught. They crowd around the owner, begging him to give them the wheel. Sometimes they kill or throw overboard those he prefers. Then they drug the owner with wine, take control of the ship, and sail on, drinking and feasting.”",
+    "“They praise anyone who helps them gain power as a great navigator, and they call anyone else useless. They don't understand that a true captain must pay attention to the seasons, the sky, the stars and the winds, if he is really to be the ruler of a ship. So on a ship like that, the real navigator would be called a stargazer, a babbler, a good-for-nothing. That is how our cities treat true philosophers. The fault is not in the philosophers, but in those who don't make use of them. It is not natural for the captain to beg the sailors to be ruled by him.”",
+    "“And the corruption you mentioned is real,” Socrates continued. “But it happens precisely because the best natures, if they receive a bad upbringing, become the worst of all. Great crimes come not from feeble natures but from vigorous ones ruined by education. Crowds in the assemblies and theatres shout their praise and blame until a young man is swept away by the flood. The philosopher who escapes is like someone who takes shelter behind a wall in a storm of dust and wind. Seeing others filled with lawlessness, he is content if he can live his life free from injustice. But he would accomplish much more in a city that suited him.”"
+   ],
+   "glossary": [
+    {
+     "term": "waves",
+     "meaning": "ondas"
+    },
+    {
+     "term": "coincide",
+     "meaning": "coincidir"
+    },
+    {
+     "term": "ridicule",
+     "meaning": "ridículo, zombaria"
+    },
+    {
+     "term": "likeness",
+     "meaning": "semelhança, imagem"
+    },
+    {
+     "term": "astray",
+     "meaning": "para o caminho errado"
+    },
+    {
+     "term": "steer",
+     "meaning": "conduzir o leme, pilotar"
+    },
+    {
+     "term": "babbler",
+     "meaning": "tagarela"
+    },
+    {
+     "term": "swept away",
+     "meaning": "arrastado"
+    }
+   ]
+  },
+  {
+   "title": "The Sun and the Divided Line",
+   "paragraphs": [
+    "“The future rulers must be tested in many kinds of study,” said Socrates, “to see whether they can endure the greatest subject of all.”",
+    "“What is that?” asked Adeimantus. “Is there something greater than justice and the other virtues?”",
+    "“There is. The greatest subject is the form of the good. It is by their relation to it that just things and all the others become useful and beneficial. If we don't know it, then even if we knew everything else perfectly, it would be of no benefit to us, just as it is no use to possess anything without possessing the good. Most people believe that the good is pleasure, while the more refined believe that it is knowledge. But those who say it is knowledge cannot tell us knowledge of what, and finally they are forced to say ‘knowledge of the good’, as if we understood what they meant by the word.”",
+    "“But what do you think the good is, Socrates?” said Glaucon. “You can't just repeat other people's opinions and never give your own.”",
+    "“I'm afraid it is beyond my powers,” Socrates admitted. “If I try, my enthusiasm will only make me ridiculous. Let us leave the good itself for now. But I am willing to tell you about something that seems to be its offspring, and most like it. Think about sight. For the eyes to see and colours to be seen, a third thing is needed: light. And which of the gods in heaven is responsible for this light?”",
+    "“The sun, obviously.”",
+    "“The eye is not the sun, but it is the most sunlike of the sense organs. Now, this is what I call the offspring of the good, which the good produced as an image of itself. What the good is in the intelligible world, in relation to understanding and the things we understand, the sun is in the visible world, in relation to sight and the things we see. When our eyes look at things at night, they seem nearly blind. But when they look at things lit by the sun, they see clearly. The soul is the same. When it focuses on what is illuminated by truth and reality, it understands and knows. But when it focuses on what is mixed with darkness, on what comes into being and passes away, it has only opinion and is dim-sighted.”",
+    "“And there is more,” Socrates said. “The sun not only makes things visible, it also gives them growth and nourishment, though it is not itself growth. In the same way, the objects of knowledge not only receive from the good their being known, but also their very existence and being, though the good is not being. It is even beyond being, superior to it in rank and power.”",
+    "Glaucon laughed. “By Apollo,” he said, “what a divine superiority!”",
+    "“It's your fault for forcing me to tell you what I thought,” said Socrates. Then he asked Glaucon to imagine a line divided into two unequal sections, and each section divided again in the same proportion. One main section stood for the visible world, and the other for the intelligible world. In the lowest part of the visible section there are images: shadows, reflections in water, and in smooth, shiny surfaces. In the next part are the things that these images resemble: animals, plants and everything made by human hands.",
+    "“Now divide the intelligible section,” Socrates continued. “In the first part, the soul uses the visible things as images, and it is forced to begin from assumptions. It moves not to a first principle but to a conclusion. That is how geometers work. They draw squares and diagonals, but they are not thinking about the figures they draw. They are thinking about the square itself and the diagonal itself. In the highest part, the soul moves from assumptions upwards to a first principle that is not an assumption, using no images at all, but only the forms themselves. This is the power of dialectic, of philosophical conversation.”",
+    "“So there are four conditions of the soul, one for each part of the line,” said Socrates. “Understanding for the highest, thought for the second, belief for the third, and imagination for the last. Arrange them in order, and consider that each has as much clarity as its objects have truth.”",
+    "“I understand,” said Glaucon, “and I agree, and I will arrange them as you say.”"
+   ],
+   "glossary": [
+    {
+     "term": "refined",
+     "meaning": "refinados, sofisticados"
+    },
+    {
+     "term": "offspring",
+     "meaning": "filho, descendência"
+    },
+    {
+     "term": "intelligible",
+     "meaning": "inteligível"
+    },
+    {
+     "term": "illuminated",
+     "meaning": "iluminado"
+    },
+    {
+     "term": "dim-sighted",
+     "meaning": "de vista fraca"
+    },
+    {
+     "term": "rank",
+     "meaning": "posição, hierarquia"
+    },
+    {
+     "term": "assumptions",
+     "meaning": "pressupostos, hipóteses"
+    },
+    {
+     "term": "geometers",
+     "meaning": "geômetras"
+    }
+   ]
+  },
+  {
+   "title": "The Allegory of the Cave",
+   "paragraphs": [
+    "“Next,” said Socrates, “compare the effect of education, and of the lack of it, on our nature to an experience like this. Imagine human beings living in an underground cave, with a long entrance open to the light, as wide as the cave itself. They have been there since childhood, with their legs and necks chained, so that they cannot move and can only look ahead at the back wall. Far above and behind them a fire is burning. Between the fire and the prisoners there is a raised road, and along it a low wall has been built, like the screen that puppeteers put in front of themselves, above which they show their puppets.”",
+    "“I can picture it,” said Glaucon.",
+    "“Then imagine people walking along behind the wall, carrying all kinds of objects that rise above it: statues of men and animals made of stone and wood and every material. Some of the carriers are talking, as you would expect, and others are silent.”",
+    "“It is a strange image,” said Glaucon, “and they are strange prisoners.”",
+    "“They are like us,” said Socrates. “Do you suppose such people could see anything of themselves and each other, or of the objects carried past, except the shadows that the fire throws on the wall of the cave in front of them? And if they could talk to one another, wouldn't they think that the names they used applied to the shadows they saw? And if there were an echo from the wall, when one of the passers-by spoke, wouldn't they believe that the voice came from the passing shadow? Altogether, then, such prisoners would believe that the truth is nothing but the shadows of artificial objects.”",
+    "“They would have no choice.”",
+    "“Now consider what would happen if one of them were released and cured of his ignorance. Suppose he were suddenly forced to stand up, turn his head, walk and look towards the light. All this would be painful, and the glare would dazzle him so much that he could not see the things whose shadows he used to see. What do you think he would say if someone told him that what he had seen before was nonsense, and that now he was closer to reality and seeing more correctly? Wouldn't he be confused, and think that the shadows were truer than the objects being shown to him now?”",
+    "“Much truer.”",
+    "“And if he were forced to look at the light itself, wouldn't his eyes hurt, and wouldn't he turn away and run back to the things he could look at? And if someone dragged him by force up the rough, steep path and out into the sunlight, he would be angry and in pain. When he came into the light, his eyes would be filled with its brilliance, and he would not be able to see a single one of the things we now call true. He would need time to get used to it. At first he would see shadows most easily, then the reflections of men and things in water, and then the things themselves. After that he would look at the heavens at night, at the moon and the stars. Finally, he would be able to look at the sun itself, not its reflection in water, but the sun as it is in its own place.”",
+    "“And then he would conclude that it is the sun that produces the seasons and the years, and governs everything in the visible world, and is in a way the cause of everything he and his companions used to see. When he remembered his first home, and what passed for wisdom there, and his fellow prisoners, wouldn't he count himself happy for the change and pity them? Among them there were honours and prizes for whoever was quickest to recognise the shadows as they passed, and best at remembering which came first, and so best able to predict what would come next. Do you think he would envy those prizes? Wouldn't he feel, as Homer says, that he would rather be a poor man's servant on earth than live like that again?”",
+    "“Yes, he would rather suffer anything than live like that.”",
+    "“Now imagine that he went back down and sat in his old seat. Coming suddenly out of the sun, his eyes would be full of darkness. And if he had to compete again with the prisoners in recognising the shadows, while his sight was still weak, wouldn't he make a fool of himself? They would say that he had gone up and come back with his eyes ruined, and that it was not worth even trying to go up. And if they could get their hands on the man who tried to free them and lead them upwards, wouldn't they kill him?”",
+    "“They certainly would.”",
+    "“This whole image, my dear Glaucon, must be applied to what we said before,” said Socrates. “The prison is the visible world, and the light of the fire is the power of the sun. The climb upwards is the journey of the soul into the intelligible world. And the last thing to be seen there, with great difficulty, is the form of the good. Once seen, it must be understood as the cause of all that is right and beautiful in everything. So education is not what some people say it is, putting knowledge into souls that lack it, like putting sight into blind eyes. The power to learn is already in every soul. Education is the art of turning the whole soul around, away from the world of becoming, until it can bear to look at the brightest of all things.”",
+    "“And that is why,” Socrates went on, “we must not allow those who have climbed out to stay up there. We will compel them to go back down to the prisoners and share their labours and honours. We will tell them, ‘You have been educated better and more completely than the others. Down you must go, each of you in turn. Once you are used to the dark, you will see a thousand times better than the people there, because you have seen the truth about beautiful, just and good things.’ The city whose rulers are least eager to rule will be governed best and most peacefully, and the city with the opposite kind of rulers will be governed worst.”"
+   ],
+   "glossary": [
+    {
+     "term": "underground",
+     "meaning": "subterrânea"
+    },
+    {
+     "term": "puppeteers",
+     "meaning": "titereiros, manipuladores de bonecos"
+    },
+    {
+     "term": "passers-by",
+     "meaning": "passantes"
+    },
+    {
+     "term": "glare",
+     "meaning": "clarão"
+    },
+    {
+     "term": "dazzle",
+     "meaning": "ofuscar"
+    },
+    {
+     "term": "steep",
+     "meaning": "íngreme"
+    },
+    {
+     "term": "envy",
+     "meaning": "invejar"
+    },
+    {
+     "term": "compel",
+     "meaning": "obrigar"
+    }
+   ]
+  },
+  {
+   "title": "The Tyrant's Soul",
+   "paragraphs": [
+    "“Now we must return to the point where we left the road,” said Socrates. “We were going to describe the bad kinds of city, and the kinds of soul that resemble them. There are four of them, Glaucon, and each is born from the decline of the one before. First comes timocracy, the rule of honour, where the rulers love victory and fame more than wisdom. Then, when the love of honour turns into the love of money, comes oligarchy, the rule of the rich, where a man's vote depends on his property. Such a city is really two cities, one of the rich and one of the poor, always plotting against each other.”",
+    "“And when the poor win, they kill some of their opponents, exile others, and give the rest an equal share in the government. That is democracy. It is the most beautiful of the constitutions, like a coat embroidered with every colour, because it has every kind of character in it. Everyone is free to say and do whatever he likes. But its insatiable desire for freedom, and its neglect of everything else, is what destroys it. Fathers become afraid of their sons, and teachers flatter their pupils. Even the horses and donkeys walk the streets with their heads held high, bumping into anyone who doesn't step aside!”",
+    "Adeimantus laughed. “You are telling me my own dream. That happens to me often when I'm on my way to the country.”",
+    "“Too much freedom, then, seems to change into nothing but too much slavery,” said Socrates, “both for a private individual and for a city. The people always choose one man as their special champion and make him great. And that champion is the root from which a tyrant grows. At first he smiles at everyone, makes promises, cancels debts and gives land to the people. But soon he starts wars so that the people will need a leader. He gets rid of anyone brave, wise or rich who might oppose him, just as a doctor purges the body, but in the opposite way. He removes the best and leaves the worst.”",
+    "“And what about the tyrannical man himself?” asked Socrates. “In all of us there are terrible, savage, lawless desires, which show themselves in our dreams, when the rest of the soul is asleep. Then the beastly part, full of food and wine, tries to satisfy itself without shame, and there is no crime it would not commit. In the tyrannical man these desires rule even when he is awake. A great winged drone of passion becomes the master of his soul, surrounded by a swarm of other appetites, and they are never satisfied. When his own money runs out, he takes his parents' money, then he robs temples, and finally he will commit any murder.”",
+    "“Is he happy, then?” Socrates asked. “Look at the tyrant's city and tell me. Is it free or enslaved?”",
+    "“Completely enslaved,” said Glaucon.",
+    "“And the tyrant's soul is just the same. The best parts of it are enslaved, and a small part, the worst and maddest, is its master. Such a soul is always poor and unsatisfied, full of fear and confusion. Imagine a rich man with fifty slaves, who is suddenly carried by a god, with his wife and children, to a desert place where no free man can help him. How afraid he would be that his slaves would kill him! He would have to flatter some of them and free them against his will. That is the prison in which the tyrant lives. He cannot travel or see the festivals, like other free men, but lives shut up in his house like a woman, envying anyone who can go abroad.”",
+    "“Now, which man is happiest? Rank them yourself, like the judge in a contest.”",
+    "“That's easy,” said Glaucon. “I rank them in the same order as the cities, from the kingly and just man, the happiest, down to the tyrant, the most miserable.”",
+    "“Shall I hire a herald, then,” said Socrates, “or shall I announce it myself? The son of Ariston has decided that the best and most just man is the happiest, and that he is the one who rules himself like a king. And the worst and most unjust man is the most wretched, and he is the one who is most tyrannical towards himself and his city.” Then Socrates offered two more proofs. Each of the three parts of the soul has its own pleasure, he said: the love of learning, the love of honour and the love of gain. Only the philosopher has tasted all three, so only he can judge which is sweetest, and he chooses the pleasure of learning. Besides, the pleasures of the body are mostly a relief from pain, like a shadow-painting of pleasure, while the pleasures of knowledge are pure and real. He even calculated, partly as a joke, that the king lives seven hundred and twenty-nine times more pleasantly than the tyrant.",
+    "“So there it is,” Socrates concluded. “No one should say that injustice pays. Let us make an image of the soul: a many-headed beast, a lion, and a human being, all joined together inside one human body. Whoever praises injustice is saying that it pays to feed the beast and the lion, and to starve the human being inside, so that he is dragged wherever the others want. But whoever praises justice says that we should do and say what will give the inner human being the most control, so that he can care for the many-headed beast like a farmer, feeding the gentle heads and stopping the wild ones from growing, and making the lion his ally.”"
+   ],
+   "glossary": [
+    {
+     "term": "decline",
+     "meaning": "decadência, declínio"
+    },
+    {
+     "term": "embroidered",
+     "meaning": "bordado"
+    },
+    {
+     "term": "flatter",
+     "meaning": "bajulam"
+    },
+    {
+     "term": "purges",
+     "meaning": "purga, limpa"
+    },
+    {
+     "term": "beastly",
+     "meaning": "bestial"
+    },
+    {
+     "term": "drone",
+     "meaning": "zangão"
+    },
+    {
+     "term": "herald",
+     "meaning": "arauto"
+    },
+    {
+     "term": "starve",
+     "meaning": "deixar passar fome"
+    }
+   ]
+  },
+  {
+   "title": "The Myth of Er",
+   "paragraphs": [
+    "“We have now shown,” said Socrates, “that justice itself is the best thing for the soul itself, whether a man has the ring of Gyges or not. So now, Glaucon, I may give back to justice the rewards it receives from gods and men, which I took away at your request. You asked me to let the just man seem unjust, for the sake of the argument. But the truth is that the gods cannot fail to see who is just, and they love him. And among human beings too, the clever unjust are like runners who start fast but finish badly. They run off with their ears on their shoulders, as the saying goes, but in the end they are laughed at. The just run to the end of the race and receive the prize.”",
+    "“Yet these rewards in life are nothing compared with those that wait for each of them after death. I want to tell you about them, so that each of them may receive in full what the argument owes. It is not a tale of Odysseus, but the story of a brave man, Er, the son of Armenius, from Pamphylia. He was killed in battle, and when the bodies were collected ten days later, already decaying, his was found untouched. They carried him home to bury him, and on the twelfth day, as he was lying on the funeral pyre, he came back to life. Then he told them what he had seen in the other world.”",
+    "“He said that when his soul left his body, it travelled with many others until they came to a marvellous place. There were two openings side by side in the earth, and opposite them two openings in the sky above. Judges sat between them. After each judgement, they ordered the just to go to the right and upwards through the sky, with signs of their judgement fastened on their fronts. The unjust they sent to the left and downwards, with the signs of all they had done on their backs. When Er came forward, the judges told him that he was to be a messenger to humanity about the things there. He must listen to and observe everything in that place.”",
+    "“He saw souls coming out of the other two openings too. From the earth came souls full of dust and dirt, and from the sky came souls that were clean. They greeted each other like people at a festival. Those from the earth wept as they remembered the terrible things they had suffered on their journey under the earth, which lasted a thousand years. Those from heaven described the beautiful sights and the indescribable happiness they had enjoyed. For every wrong that a soul had done, it paid ten times over. The worst sinners, like the tyrant Ardiaeus, who had killed his father and brother, were never allowed out. When they tried to climb up, the opening bellowed, and fierce men of fire seized them, flayed them, and threw them back into Tartarus.”",
+    "“After seven days in the meadow, the souls had to travel on, and they came to a place where they could see a straight column of light, like a rainbow but brighter and purer, stretching through the whole of heaven and earth. There they saw the spindle of Necessity, on which all the heavens turn, and the three Fates, Lachesis, Clotho and Atropos, the daughters of Necessity, singing of the past, the present and the future. A herald arranged the souls in order and took from the lap of Lachesis lots and models of lives. Then he climbed onto a high platform and spoke.”",
+    "“‘Souls of a day, here begins another cycle that will end in death. Your guiding spirit will not be given to you by lot; you will choose it. Virtue has no master; each of you will have more or less of it according to whether you honour or despise it. The responsibility belongs to the one who chooses. The god is blameless.’ Then he threw the lots among them, and each soul picked up the one that fell beside it, except Er, who was not allowed to choose. The number on each lot showed the order in which each soul would choose.”",
+    "“The herald then laid out on the ground models of lives, many more than there were souls: lives of every animal and every kind of human being. There were tyrannies, some lasting all one's life, some ending in poverty, exile and begging. There were lives of famous men, honoured for beauty or strength or noble birth, and lives of unknown ones, and lives of women too. And here, my dear Glaucon, is the moment of greatest danger for a human being. That is why each of us must neglect every other kind of learning, and seek above all the knowledge that allows us to tell a good life from a bad one, and always to choose the better.”",
+    "“Er said that the soul with the first lot ran forward and immediately chose the greatest tyranny. In his folly and greed he did not examine everything properly, and he failed to notice that it was his fate to eat his own children, and suffer other horrors. When he looked at it more closely, he beat his breast and lamented his choice, blaming chance and the gods and anything except himself. He was one of those who had come from heaven, having lived his previous life in a well-ordered city, and he had been virtuous through habit, without philosophy. Many of those from heaven were caught like this, because they had not been trained by suffering. But many of those from the earth, who had suffered themselves and seen others suffer, did not make their choices in a hurry.”",
+    "“It was a sight worth seeing, Er said, pitiful, funny and surprising. Most souls chose according to the habits of their previous lives. He saw the soul of Orpheus choose the life of a swan, because he hated women, who had killed him. The soul of Ajax chose the life of a lion, because he did not want to be a man again. By chance, the soul of Odysseus had the last lot of all. Remembering his former labours, he had recovered from his love of honour, and he went around for a long time looking for the life of a private man who minded his own business. He found it with difficulty, lying in a corner, ignored by everyone else. He said that he would have chosen the same life even if he had drawn the first lot, and he was glad to choose it.”",
+    "“When all the souls had chosen, they travelled through terrible, choking heat to the Plain of Forgetfulness, and camped by the River of Unheeding, whose water no vessel can hold. Each soul had to drink a certain amount, and those who were not saved by wisdom drank more than they should. Whoever drinks forgets everything. At midnight there was thunder and an earthquake, and suddenly the souls were carried upwards, this way and that, like shooting stars, to their birth. Er himself was not allowed to drink the water. He did not know how he returned to his body. He just opened his eyes and found himself lying at dawn on the funeral pyre.”",
+    "“And so, Glaucon, the story was saved and not lost,” said Socrates, as the night came to an end, “and it will save us too, if we are persuaded by it. Then we shall cross the River of Forgetfulness safely and not stain our souls. If we believe that the soul is immortal and able to endure every good and every evil, we will always hold to the upward path and practise justice with wisdom in every way. So we shall be friends to ourselves and to the gods, both while we remain here and when we receive the rewards of justice, like victors in the games collecting their prizes. And both in this life and on the thousand-year journey we have described, we shall fare well.”"
+   ],
+   "glossary": [
+    {
+     "term": "decaying",
+     "meaning": "em decomposição"
+    },
+    {
+     "term": "funeral pyre",
+     "meaning": "pira funerária"
+    },
+    {
+     "term": "bellowed",
+     "meaning": "rugiu, berrou"
+    },
+    {
+     "term": "flayed",
+     "meaning": "esfolaram"
+    },
+    {
+     "term": "spindle",
+     "meaning": "fuso"
+    },
+    {
+     "term": "blameless",
+     "meaning": "sem culpa, inocente"
+    },
+    {
+     "term": "folly",
+     "meaning": "insensatez, loucura"
+    },
+    {
+     "term": "fare well",
+     "meaning": "nos sairemos bem"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,816 @@
+{
+ "id": "karamazov-3",
+ "title": "The Brothers Karamazov, Part 3",
+ "author": "Fyodor Dostoevsky",
+ "year": 1880,
+ "module": 5,
+ "level": "C1",
+ "summary": "Nas partes anteriores, o velho Fyodor Pavlovich Karamazov foi assassinado e seu filho Dmitri, que o odiava e precisava desesperadamente de dinheiro, foi preso na mesma noite. Agora começa a investigação, com provas que parecem esmagadoras, enquanto Ivan, atormentado pela consciência, visita repetidas vezes o estranho criado Smerdyakov. Paralelamente, Alyosha acompanha um grupo de meninos e o pequeno Ilyusha, até que toda a cidade se reúne para o grande julgamento.",
+ "chapters": [
+  {
+   "title": "The Interrogation",
+   "paragraphs": [
+    "The questioning began at the table in the blue room. Nikolai Parfenovich, the young examining magistrate, asked the questions politely, while the prosecutor, Ippolit Kirillovich, watched Dmitri closely and occasionally added a sharp remark. The secretary wrote everything down.",
+    "At first Dmitri was cheerful, almost friendly. He was so sure of his innocence that he felt he only had to explain, and these intelligent gentlemen would understand.",
+    "“Gentlemen, I'm a frank man. I won't hide anything. Yes, I hated my father. I told everyone I would kill him. I said it in taverns, I said it in front of the elder. All that is true. But I didn't kill him. You see, I'm telling you everything. A murderer wouldn't tell you how much he hated his victim.”",
+    "“Tell us everything that happened yesterday,” said the magistrate, “from the beginning.”",
+    "So Dmitri told them about Samsonov, the drunken peasant in the forest, the charcoal fumes, Madame Khokhlakova and her gold mines. He laughed at himself as he told it. But when he came to the moment when he seized the pestle in Fenya's kitchen, he hesitated.",
+    "“Why did you take the pestle?” asked the prosecutor quietly.",
+    "“Why? I don't know. I just grabbed it. For dogs, maybe. It was dark. In case of anything.”",
+    "“In case of anything? Then you had some purpose in mind?”",
+    "Dmitri flushed. “Gentlemen, I see what you're doing. Write it down if you like. I took it to kill my father! There! Are you satisfied? I took it to smash his head. No, I didn't. I don't know why I took it.”",
+    "He told them about the garden, the lighted window, his father looking out and calling for Grushenka. He told them about the signals.",
+    "“How did you know the signals?”",
+    "“Smerdyakov told me. Only he and my father knew them. I knocked, and the old man opened the window.”",
+    "“And then?”",
+    "Dmitri was silent for a moment. “And then I ran away. I hated him so much at that moment, gentlemen, I was ready to kill him. I had the pestle in my hand. But then... either someone's tears, or my mother prayed to God, or a good angel kissed me at that moment, I don't know. But the devil was conquered. I rushed away from the window and ran to the fence. And there Grigory caught me by the leg, and I hit him.”",
+    "“And the door into the garden? Was it open when you were at the window?”",
+    "“No, it was shut. Shut tight. Why do you ask?”",
+    "The prosecutor and the magistrate exchanged a glance. “Grigory states,” said Nikolai Parfenovich, “that when he came out into the garden, before he saw you, he saw the door from the house into the garden standing wide open.”",
+    "“That's not true!” cried Dmitri. “It was shut. Nobody could open it except my father, and he'd only open it for Grushenka, or with the signals. If it was open, then... then someone else opened it. Smerdyakov! It must have been Smerdyakov!”",
+    "“Smerdyakov is lying in bed in an epileptic fit, and has been since the afternoon. The doctor says he may not live.”",
+    "Dmitri stared at them. “Then it's the devil who killed my father,” he said slowly."
+   ],
+   "glossary": [
+    {
+     "term": "frank",
+     "meaning": "franco, sincero"
+    },
+    {
+     "term": "grabbed",
+     "meaning": "agarrei, peguei"
+    },
+    {
+     "term": "in case of anything",
+     "meaning": "para o que desse e viesse"
+    },
+    {
+     "term": "flushed",
+     "meaning": "corou"
+    },
+    {
+     "term": "conquered",
+     "meaning": "vencido, derrotado"
+    },
+    {
+     "term": "shut tight",
+     "meaning": "bem fechada"
+    },
+    {
+     "term": "states",
+     "meaning": "declara, afirma"
+    }
+   ]
+  },
+  {
+   "title": "The Secret on His Breast",
+   "paragraphs": [
+    "“Now, Dmitri Fyodorovich,” said the magistrate, “we come to an important question. Where did you get the money that you had last night? At five o'clock in the afternoon you pawned your pistols for ten roubles. At nine you had several thousand roubles in your hand. Where did that money come from?”",
+    "Dmitri's face changed. He looked down. “I can't tell you that.”",
+    "“You must understand how important this is.”",
+    "“I understand perfectly. But I won't tell you. It's a matter of honour. It has nothing to do with my father's death. The money was mine. That's all I can say.”",
+    "The prosecutor leaned forward. “Your father had three thousand roubles in an envelope. The envelope was found torn open and empty on the floor beside his body. You knew about that envelope. You told several people about it.”",
+    "“I didn't take it! I never saw it!”",
+    "“Then where did the money come from?”",
+    "“I won't say. Write it down: the accused refuses to answer. Write it in capital letters.”",
+    "Then they told him, politely, that they would have to search him. He would have to take off his clothes. Dmitri was outraged, but he obeyed. He took off his coat and his trousers and his shirt, and they examined everything, every seam and every pocket. They found blood on his clothes, on the cuffs and on the back of his coat. They counted the money that was left, and it came to eight hundred and thirty-six roubles.",
+    "They left him sitting there in his underwear, while they looked at the clothes. He felt more ashamed than he had ever felt in his life. His feet were bare, and he hated them. His big toes were ugly, and he felt that everyone was looking at them. He felt as if he had become a criminal, a lower being, just because his clothes had been taken away. At last they brought him other clothes, borrowed from Kalganov, which were too small for him.",
+    "“How much money did you spend here last night?” asked the prosecutor. “Witnesses say that a month ago you spent three thousand roubles here, and last night you told everyone that you had three thousand on you again.”",
+    "Dmitri was silent for a long time. He sat with his head in his hands. Then he looked up, pale.",
+    "“All right, gentlemen. I'll tell you. I'll tell you my secret, my shame. It's worse than murder for me. You'll understand nothing, but I'll tell you.”",
+    "“A month ago,” said Dmitri, “Katerina Ivanovna gave me three thousand roubles to send to her sister in Moscow. I went to Mokroye with Grushenka and spent it. Everyone thinks I spent all three thousand. I let them think so. But it's not true. I spent only half, fifteen hundred. The other fifteen hundred I sewed into a little bag, a piece of cloth, and I hung it round my neck. I've been carrying it here, on my chest, for a month.”",
+    "The prosecutor and the magistrate looked at each other in astonishment.",
+    "“Why did you do it?”",
+    "“Why? Don't you understand? As long as I had that fifteen hundred on my chest, I was not a thief. I was a scoundrel, a man who had spent half of a lady's money, but not a thief. Every day I could have gone to her and said: I've spent half your money, but here's the other half. Then I would be a scoundrel, but not a thief. And every day I said to myself: tomorrow, tomorrow I'll take it to her. And I didn't. Every day I didn't. Because I was keeping it for Grushenka. If she came to me, I'd need money to take her away. You understand? Once, I struck my chest in front of Alyosha, my brother, and told him: here, on my breast, I carry my disgrace. He'll remember it.”",
+    "“And last night?”",
+    "“Last night, when I came from the garden with blood on my hands and learned that Grushenka had gone to Mokroye, I tore open the little bag on my way to Perkhotin's. That was the money. That was my fifteen hundred. And at that moment I became a thief, a real thief. Do you understand now why I didn't want to tell you? It's the worst shame of my life.”",
+    "“And where is the little bag now? The cloth?”",
+    "“I threw it away somewhere in the street. I don't remember where.”",
+    "The prosecutor smiled slightly. “Nobody has ever seen this little bag, Dmitri Fyodorovich. Nobody saw you sew it. You tell everyone, for a whole month, that you spent three thousand roubles in Mokroye. Last night you told the innkeeper that you had three thousand on you again. Your father's envelope with three thousand is found empty. And now you tell us that it was fifteen hundred, and that you carried it for a month in a little bag that no one ever saw, and that you threw away.”",
+    "“Yes,” said Dmitri miserably. “That's what I tell you. I see that you don't believe me. How could you? I wouldn't believe it myself.”",
+    "Then the witnesses were called. Trifon Borisych swore that Dmitri had said he had three thousand. Kalganov and old Maximov said the same. The Poles declared, with great dignity, that Dmitri had offered them three thousand. Each new witness seemed to tighten the rope around his neck.",
+    "Dmitri listened to them all with a kind of weary amazement. “It's true,” he said once. “I did say three thousand. I lied. I liked to boast. I wanted everyone to think I was a great man, who could throw away three thousand roubles in one night on a woman. That's what I'm like, gentlemen. A Karamazov. Write that down too.” The magistrate wrote it down, with a polite little smile, and Dmitri understood that every word he said was being turned against him. Only Grushenka, when she was brought in, defended him passionately. “He never told a lie in his life,” she said. “If he says he didn't kill his father, then he didn't. Believe him.”"
+   ],
+   "glossary": [
+    {
+     "term": "outraged",
+     "meaning": "indignado, ultrajado"
+    },
+    {
+     "term": "seam",
+     "meaning": "costura"
+    },
+    {
+     "term": "big toes",
+     "meaning": "dedões do pé"
+    },
+    {
+     "term": "astonishment",
+     "meaning": "espanto, assombro"
+    },
+    {
+     "term": "sewed",
+     "meaning": "costurei"
+    },
+    {
+     "term": "tore open",
+     "meaning": "rasguei, abri à força"
+    },
+    {
+     "term": "miserably",
+     "meaning": "tristemente, desolado"
+    },
+    {
+     "term": "tighten",
+     "meaning": "apertar"
+    }
+   ]
+  },
+  {
+   "title": "The Dream of the Babe",
+   "paragraphs": [
+    "By now the interrogation had lasted many hours. Dmitri was exhausted. While the officials wrote up their records, he lay down on a big chest in the corner and fell into a deep sleep. He had a strange dream.",
+    "He was driving somewhere through the steppe, where he had once been stationed as a soldier, long ago. Wet snow was falling. It was cold. He was being driven by a peasant in a cart drawn by two horses. Not far away there was a village. He could see some black huts, half of them burned down, with only the charred beams sticking up. And along the road stood women, a long row of thin, worn-out peasant women with brown faces. One of them, a tall, bony woman, held a little baby in her arms. The baby was crying. It was holding out its little bare arms, its little fists blue with cold. Her breasts were dry. There was not a drop of milk.",
+    "“Why are they crying? Why are they crying?” Dmitri asked the driver as they passed.",
+    "“It's the babe weeping,” said the driver. “The babe.” And Dmitri was struck by the way he said it, the babe, in the peasant way.",
+    "“But why is it weeping?” Dmitri insisted, as if he were stupid. “Why are its little arms bare? Why don't they wrap it up?”",
+    "“The babe's cold, its little clothes are frozen, and they don't warm it.”",
+    "“But why? Why?”",
+    "“They're poor people, burned out. They've no bread. They're begging because they've been burned out.”",
+    "“No, no,” Dmitri still seemed not to understand. “Tell me, why are those poor mothers standing there? Why are people poor? Why is the babe poor? Why is the steppe barren? Why don't they hug each other and kiss? Why don't they sing songs of joy? Why are they so dark from black misery? Why don't they feed the babe?”",
+    "He felt that what he was asking was mad and meaningless, but he wanted to ask it, and he had to ask it in just that way. And he felt that a passion of pity, such as he had never known before, was rising in his heart. He wanted to cry. He wanted to do something for them all, so that the babe should weep no more, so that the dark, dried-up mother should not weep, so that no one should shed tears again from that moment, and he wanted to do it at once, at once, regardless of all obstacles, with all the recklessness of the Karamazovs.",
+    "“And I'm coming with you. I won't leave you now, for the rest of my life I'm coming with you,” he heard close beside him Grushenka's tender voice, thrilling with emotion. And his heart glowed, and he struggled forward towards the light, and he longed to live, to live, to go on and on, towards the new, beckoning light, and to hurry, hurry, now, at once!",
+    "He woke up. Someone had put a pillow under his head while he slept. He did not know who had done it, and the kindness moved him to tears.",
+    "“Who put that pillow under my head? Who was so kind?” he cried, with a kind of ecstatic gratitude. “I had a good dream, gentlemen.”",
+    "They read the record of his statement to him, and he signed it. Then the magistrate announced that he was to be taken to the town prison. Dmitri rose.",
+    "“Gentlemen, we're all cruel, we're all monsters, we all make men weep, and mothers, and babes at the breast. But of all, let it be settled here, now, of all I am the lowest reptile! I accept the torture of accusation and my public shame. I want to suffer, and by suffering I shall be purified. But I am not guilty of my father's blood. I accept my punishment, not because I killed him, but because I meant to kill him, and perhaps I really might have killed him.”",
+    "As they led him out to the cart, Grushenka ran to him. “I'm yours, Mitya. I'll follow you everywhere. Forgive me for my cruelty, I ruined you.” They kissed, and the constables pulled them apart. The bells jingled, and the cart drove off through the grey morning towards the town."
+   ],
+   "glossary": [
+    {
+     "term": "steppe",
+     "meaning": "estepe"
+    },
+    {
+     "term": "charred",
+     "meaning": "carbonizadas"
+    },
+    {
+     "term": "beams",
+     "meaning": "vigas"
+    },
+    {
+     "term": "babe",
+     "meaning": "bebê, criancinha"
+    },
+    {
+     "term": "barren",
+     "meaning": "estéril, árido"
+    },
+    {
+     "term": "regardless of",
+     "meaning": "independentemente de, apesar de"
+    },
+    {
+     "term": "beckoning",
+     "meaning": "que acenava, que chamava"
+    },
+    {
+     "term": "purified",
+     "meaning": "purificado"
+    }
+   ]
+  },
+  {
+   "title": "Kolya Krasotkin",
+   "paragraphs": [
+    "Two months passed. It was November, with hard frost, and the case against Dmitri Karamazov was now the talk not only of our town but of all Russia. The trial was set for the end of the month. In the meantime, life went on, and in one small corner of the town another drama was coming to its end.",
+    "Kolya Krasotkin was thirteen, the only son of a young widow who adored him. He was small for his age, which he hated, but he was clever, proud, fearless and a little conceited, and the other boys at school both admired and feared him. He read books that were too old for him and liked to call himself a socialist. Once, to win a bet, he had lain down between the rails while a train passed over him at full speed. The boys never forgot it, though his poor mother nearly died of fright.",
+    "Kolya had heard a great deal about Alexei Karamazov, and for a long time he had wanted to meet him, though he pretended not to care. Now the moment had come.",
+    "The story was this. After the business with the bath sponge, the other boys had gone on teasing little Ilyusha Snegiryov, and Kolya, who was older, had taken the small, proud boy under his protection. But then something happened. Smerdyakov, who liked to talk with boys, had taught Ilyusha a cruel trick: to take a piece of bread, push a pin inside it, and throw it to a hungry dog. Ilyusha did it to a homeless dog called Zhuchka. The dog swallowed the bread, screamed, spun round and ran away, and was never seen again. Ilyusha was horrified at what he had done. He cried for days and believed that God was punishing him.",
+    "Kolya, as a lesson, had told Ilyusha that he would no longer be his friend. Soon afterwards, when the boys were throwing stones at Ilyusha, the little boy had attacked Kolya with a penknife. Then he had fallen ill. Now, the doctors said, he was dying of consumption.",
+    "Alyosha had made friends with the boys, one by one, and had brought them to Ilyusha's bedside, so that they had all made peace with him. Only Kolya had stayed away. Today, at last, he was coming.",
+    "Kolya met Alyosha in the yard outside the captain's house. He was trying hard to appear older and more indifferent than he was.",
+    "“So you're Karamazov,” he said, shaking hands. “I've wanted to meet you for a long time. I've heard about you. You're a mystic, they say. But you've been in a monastery. I respect your convictions, though I don't share them. I'm a socialist, you know. Christ, of course, was a very humane person, and if He were alive today He would be among the revolutionaries. Everyone knows that.”",
+    "Alyosha could not help smiling. “Where did you get all that? Who told you?”",
+    "Kolya blushed. “Well, one reads, one thinks. I've read Belinsky.” Then, uneasily, “You're laughing at me.”",
+    "“Not at all. I'm only sad that a lovely nature like yours has been spoiled by such nonsense before you've even begun to live. You haven't read Belinsky, I'm sure. You've only heard these things from someone else.”",
+    "Kolya was silent for a moment, and then, to his own surprise, he laughed too. “You're right. I'm a fool sometimes. I talk like this to make people think I'm grown up. I'm often terribly ashamed of myself afterwards. Do you despise me?”",
+    "“Despise you? Why? Everyone is like that now. You must not be like that, though. You must be different from everyone else, even if you're the only one.”",
+    "Kolya looked at him with shining eyes. “You know, Karamazov, I think we're going to be friends.” He paused. “And now let's go in. I've brought Ilyusha a surprise.”",
+    "At his feet stood a big shaggy dog with a black patch on its side and one ear torn, wagging its tail."
+   ],
+   "glossary": [
+    {
+     "term": "frost",
+     "meaning": "geada"
+    },
+    {
+     "term": "conceited",
+     "meaning": "convencido, presunçoso"
+    },
+    {
+     "term": "rails",
+     "meaning": "trilhos"
+    },
+    {
+     "term": "penknife",
+     "meaning": "canivete"
+    },
+    {
+     "term": "indifferent",
+     "meaning": "indiferente"
+    },
+    {
+     "term": "humane",
+     "meaning": "humano, compassivo"
+    },
+    {
+     "term": "despise",
+     "meaning": "desprezar"
+    },
+    {
+     "term": "shaggy",
+     "meaning": "peludo, desgrenhado"
+    }
+   ]
+  },
+  {
+   "title": "At Ilyusha's Bedside",
+   "paragraphs": [
+    "The miserable little room was full of boys. Ilyusha lay on his bed under the icons, pale and thin, with burning eyes. His father hovered around him, laughing and joking and then turning away to hide his tears. His mother, the crazy invalid, sat in her armchair, delighted with the boys' visits. On the bed beside Ilyusha lay a puppy, a gift from his father, which he hardly looked at.",
+    "When Kolya came in, Ilyusha's face lit up, and then clouded. Kolya, a little embarrassed, sat down beside him.",
+    "“Hello, old man. How are you?”",
+    "“Kolya, I keep thinking about Zhuchka,” whispered Ilyusha. “Do you think she's dead? I killed her, Kolya.”",
+    "“Never mind Zhuchka,” said Kolya, with an odd smile. “Your Zhuchka has disappeared. Come, I've brought you something. Look.” And he whistled.",
+    "The shaggy dog came running into the room. Kolya made it sit, lie down, stand up, play dead. Then he said, “Ilyusha, look at this dog. Look at her ear. Look at the patch on her side. Don't you know her?”",
+    "Ilyusha sat up, trembling all over. “It's... it's Zhuchka!” he cried.",
+    "“Of course it's Zhuchka. I've been searching for her for weeks, and I found her, and I've trained her. I call her Perezvon now. She's yours.”",
+    "Ilyusha could not speak. He threw his thin arms round the dog's neck, and the dog licked his face. The captain stood by, laughing and crying at once. The boys shouted with joy. Only Alyosha noticed how this happiness was too much for the sick boy, how his chest rose and fell, how his cheeks burned.",
+    "Afterwards the great doctor arrived, a famous specialist whom Katerina Ivanovna had sent for from Moscow at her own expense. He examined Ilyusha, said a few words in the passage to the captain, and prepared to leave. Nothing could be done. The boy might live a little longer, the doctor said, if they took him to Syracuse in Italy, to the warm sea. The captain stood staring at him, unable to grasp that such advice was a cruel joke for a man who could hardly buy bread.",
+    "“Syracuse!” he repeated, his voice breaking. “Syracuse!”",
+    "When the doctor had gone, the captain went back into the room, sat down by the bed and hid his face in the blanket. Ilyusha put his arms round his father's head.",
+    "“Daddy, Daddy, don't cry. When I die, get a good boy, another one. Choose a good one from all the boys, call him Ilyusha, and love him instead of me.”",
+    "“Be quiet, old man, he's going to get well,” said Kolya roughly, almost angrily, because he was trying not to cry.",
+    "“Daddy,” Ilyusha went on, “don't ever forget me. Come to my grave. And bury me by our big stone, the one where we used to walk together. And come there with Krasotkin in the evenings. And Perezvon too. I'll be waiting for you.”",
+    "The captain sobbed and could not answer. Kolya rushed out into the passage. Alyosha found him there, crying, pressing his face against the wall.",
+    "“Karamazov,” he said, wiping his eyes, “I'm ashamed of myself. I could have brought the dog much sooner. I wanted to make a big effect. I wanted to show off. I'm a scoundrel.”",
+    "“You're a good boy,” said Alyosha. “You gave him great joy.”",
+    "“Karamazov, tell me, is it true what you believe? That we'll all rise from the dead and see each other again? Ilyusha too?”",
+    "“Certainly we shall rise again,” said Alyosha. “Certainly we shall see each other, and tell each other gladly and joyfully everything that has happened.”"
+   ],
+   "glossary": [
+    {
+     "term": "hovered",
+     "meaning": "rondava, pairava"
+    },
+    {
+     "term": "invalid",
+     "meaning": "inválida, doente"
+    },
+    {
+     "term": "clouded",
+     "meaning": "se anuviou"
+    },
+    {
+     "term": "licked",
+     "meaning": "lambeu"
+    },
+    {
+     "term": "grasp",
+     "meaning": "compreender"
+    },
+    {
+     "term": "show off",
+     "meaning": "me exibir"
+    },
+    {
+     "term": "rise from the dead",
+     "meaning": "ressuscitar"
+    }
+   ]
+  },
+  {
+   "title": "The Brothers Before the Trial",
+   "paragraphs": [
+    "That same day Alyosha visited Dmitri in prison. He found his brother changed. Dmitri was thinner, his face had grown older, but there was a new light in his eyes.",
+    "“Alyosha, I've been thinking. Rakitin comes to see me. He explains all the new science to me. He says there are little nerves in the brain, with little tails, and when they quiver, an image appears, and then I think. That's all thought is, he says. Not because I have a soul, not because I'm made in God's image, but because of little tails. It's magnificent, science. And yet I'm sorry to lose God.”",
+    "He walked up and down the cell.",
+    "“But listen, brother. In these two months I've felt a new man rise up in me. He was shut up inside me, and he would never have come out if it weren't for this blow. I didn't kill my father, but I must go. I accept it. I'll go for the babe. Because we are all responsible for all. For all the babes. And there, underground, in the mines, with the convicts, we'll sing a tragic hymn to God, in whom is joy. A man can't live without God underground. I'm in pain, but I exist. I'm on the rack, but I exist. I see the sun, and even if I don't see the sun, I know it's there. And to know that the sun is there is life itself.”",
+    "Then his mood changed and he lowered his voice. “Only Ivan wants me to escape. He's arranged it all, to America, with Grushenka. He has money for the guards. But how can I run away from my cross? And yet how can I live without Grusha? They won't let her come to me there, and I can't live without her. And Ivan... Ivan doesn't believe I'm innocent. He's never said so, but I know he thinks I killed father. Alyosha, tell me the truth, as before God: do you believe I killed him?”",
+    "“I have never believed for a single minute that you were the murderer,” said Alyosha.",
+    "Dmitri's face lit up. “Thank you. You've given me new life. Go to Ivan now. Go.”",
+    "Alyosha found Ivan in the street, late that evening, walking towards Katerina Ivanovna's house. Ivan was pale, nervous and irritable. He talked strangely and kept looking over his shoulder.",
+    "“Have you heard? Katerina has a letter, a letter Dmitri wrote her when he was drunk, the day before the murder. In it he says he'll kill father and take the money. That's a mathematical proof.”",
+    "“Ivan,” said Alyosha suddenly, stopping under a street lamp, “you've been saying to yourself that it was you who killed father.”",
+    "Ivan turned white. “What? What are you talking about? When did I say that?”",
+    "“You've said it to yourself many times in these two months, when you were alone. You've accused yourself and confessed to yourself that you're the murderer. But you didn't kill him. You're mistaken. You're not the murderer. Do you hear? It was not you. God has sent me to tell you so.”",
+    "They stood in silence. Ivan's face was twisted with something like fear.",
+    "“You've been in my room at night, when he came,” he whispered. “You've seen him. You know.”",
+    "“Who? I don't know what you mean,” said Alyosha, frightened.",
+    "Ivan took control of himself. “Alexei Fyodorovich,” he said coldly, “I can't stand prophets and epileptics, and especially messengers from God. From this moment I break with you, I think for ever. Please leave me at this crossroads.” He walked away quickly, without looking back. Alyosha stood watching him, full of anxiety, and then, instead of going home, he went towards Ivan's lodgings. But Ivan had already turned in a different direction. He was going to see Smerdyakov, for the third time."
+   ],
+   "glossary": [
+    {
+     "term": "quiver",
+     "meaning": "tremem, vibram"
+    },
+    {
+     "term": "convicts",
+     "meaning": "condenados, presidiários"
+    },
+    {
+     "term": "on the rack",
+     "meaning": "no potro (instrumento de tortura)"
+    },
+    {
+     "term": "cross",
+     "meaning": "cruz"
+    },
+    {
+     "term": "prophets",
+     "meaning": "profetas"
+    },
+    {
+     "term": "crossroads",
+     "meaning": "encruzilhada"
+    }
+   ]
+  },
+  {
+   "title": "The First and Second Visits",
+   "paragraphs": [
+    "Ivan had come back from Moscow five days after the murder, on the very day of the funeral. He had been called by a telegram from Alyosha. From the start, one question tormented him: what had Smerdyakov meant at the gate, when he had urged him to go away? Why had he said, “It's always worth talking to a clever man”?",
+    "He went to see Smerdyakov for the first time in the hospital. The servant was thin and pale, but calm.",
+    "“You told me you would have a fit, and you had one. You foretold the day and even the hour. How could you know?”",
+    "“I didn't know, sir. I only feared it. When I'm afraid, it often comes. I went down into the cellar thinking: will it happen now? And because I was afraid, a spasm took me by the throat, and I fell.”",
+    "“And you told the investigators that you warned me?”",
+    "“I told them nothing about our conversation, sir, nothing at all. Why should I? I only said I was afraid of the fit. And what did I say to you that was bad? I only said that it would be better for you to go away, to save yourself from trouble. If I had suspected anything, sir, I wouldn't have let you go. You left because you wanted to.”",
+    "Ivan went away half reassured. Smerdyakov had answered everything. And then there was all the evidence against Dmitri, the blood, the money, the threats. The doctors swore that Smerdyakov's fit had been real. Ivan almost forgot his suspicions.",
+    "But a month later he went again. By then Smerdyakov had left the hospital and was living in a small house with Marya Kondratyevna, a neighbour's daughter who had been in love with him. He was sitting at a table, in a dressing gown, reading a book, with spectacles on his nose. He looked at Ivan with cold insolence.",
+    "“Why have you come, sir? What is there to talk about?”",
+    "“What did you mean, at the gate, when you talked of the cellar and the fit? Speak!”",
+    "Smerdyakov smiled. “I meant that you, knowing everything beforehand, about the murder of your father, left him to his fate. So that people wouldn't think anything bad of you. That's all I meant.”",
+    "“What? Are you mad?”",
+    "“You see, sir, you wanted your father to be murdered. You knew Dmitri Fyodorovich might kill him. And still you went away. You went to Moscow instead of Chermashnya. I told you clearly: go to Chermashnya, and you went further. It means you didn't want to be here, and you didn't want to stop it. You wanted the inheritance, sir. Forty thousand roubles each, and maybe more.”",
+    "Ivan jumped up and struck him on the shoulder so hard that he fell back against the wall. Smerdyakov wiped his eyes, which were full of tears.",
+    "“It's a shame, sir, to strike a sick man.”",
+    "Ivan left in a rage. But on the way home the words burned in him. “Yes, I expected it then,” he thought. “It's true. I wanted it. I wanted the murder!” And he remembered how, on that last night, he had crept onto the stairs to listen to his father moving below.",
+    "From that day he grew more and more convinced of Dmitri's guilt, almost desperately convinced, because if Dmitri was guilty, then he, Ivan, was only guilty of a wish. He began to plan Dmitri's escape. But his health was failing. He slept badly. Strange things began to happen in his room at night. And at last, on the evening before the trial, after his quarrel with Alyosha in the street, he went to Smerdyakov for the third and last time."
+   ],
+   "glossary": [
+    {
+     "term": "urged",
+     "meaning": "insistiu, exortou"
+    },
+    {
+     "term": "foretold",
+     "meaning": "previu, predisse"
+    },
+    {
+     "term": "spasm",
+     "meaning": "espasmo"
+    },
+    {
+     "term": "evidence",
+     "meaning": "provas"
+    },
+    {
+     "term": "insolence",
+     "meaning": "insolência"
+    },
+    {
+     "term": "inheritance",
+     "meaning": "herança"
+    },
+    {
+     "term": "failing",
+     "meaning": "enfraquecendo, piorando"
+    }
+   ]
+  },
+  {
+   "title": "The Third Visit",
+   "paragraphs": [
+    "A snowstorm had begun. The wind blew the dry snow into his face, and the streets were dark and empty. On the way Ivan passed a drunken peasant, singing and stumbling. Ivan felt a sudden furious hatred for him, and he pushed him so hard that the man fell down in the snow and lay there without moving. Ivan walked on.",
+    "Smerdyakov was alone. He had grown much worse in appearance: yellow, thin, his eyes sunken. He did not get up.",
+    "“You're ill?” said Ivan.",
+    "“I'm ill, sir. And you are too. You don't look well at all. Your eyes are yellow.” He paused. “Why do you keep coming? Why do you torment yourself? Go home. You didn't kill him.”",
+    "Ivan shuddered. “I know I didn't kill him. What do you mean?”",
+    "Smerdyakov looked at him with a strange, slow hatred. “You know very well. You killed him, sir. You are the real murderer. I was only your instrument, your faithful servant. I did it according to your words.”",
+    "“You did it? You killed him?” Ivan felt a chill run through his body.",
+    "“Can it be you really didn't know? Are you pretending, here, alone with me?” Smerdyakov raised his trouser leg, took off his long white stocking, and from inside it he pulled out a bundle of notes, stuck together, and laid them on the table. “Here they are. Three thousand roubles. Count them. Take them.”",
+    "Ivan sat down. He could not speak. At last he whispered, “Tell me how you did it. Everything.”",
+    "And Smerdyakov told him. The fit in the cellar had been half real and half pretended. That night, lying in bed, he heard Grigory shout and then fall silent. He got up and went out into the garden. He saw Grigory lying by the fence, and the master's window open. So Dmitri had come and gone. He went to the window and gave the signals. The old man would not believe at first, but Smerdyakov whispered, “She's here, she's in the bushes.” The old man opened the door. Smerdyakov went in with him into the bedroom, where the old man leaned out of the window, calling, “Grushenka, Grushenka!” And Smerdyakov took the heavy iron paperweight from the table and struck him on the head, three times.",
+    "“Then I took the envelope from behind the icons, took out the money, and threw the envelope on the floor, with the ribbon. A stranger who knew about it, like Dmitri Fyodorovich, would be in a hurry. He'd tear it open and throw it down. I would never have done that, I'd have taken the envelope with me, so no one would know the money had been there. So I left it as proof. Then I hid the money in a hollow in a tree and went back to bed, and screamed as if I were having a fit. And I left the door open.”",
+    "“But why? Why did you do it?”",
+    "“Because of you, sir. You taught me. You said: everything is permitted. If there's no God, there's no virtue, and no need of it. You were right. That's how I reasoned.”",
+    "“And you're giving the money back now?”",
+    "“I don't need it any more. I thought I'd start a new life in Moscow, or abroad. But that was a dream. Because everything is permitted. You taught me that, sir, and then you stopped believing it yourself. Take it.”",
+    "Ivan gathered up the notes. “Tomorrow, at the trial, I shall tell everything. And you will come with me and confess.”",
+    "“You won't do it, sir. You're too proud. You love money and respect. Nobody will believe you, anyway. And I'll say I know nothing.” Smerdyakov smiled faintly. “Goodbye, sir.”",
+    "Going home through the snowstorm, Ivan felt a strange joy. He had decided. Tomorrow he would tell the truth. On the way he found the drunken peasant lying unconscious in the snow, half frozen. He picked him up, carried him to a house, called the police and a doctor, and paid for everything. It took him an hour. “If I had not decided so firmly about tomorrow,” he thought, “I wouldn't have stopped for him.” Then he went home, and the moment he entered his room, the joy vanished."
+   ],
+   "glossary": [
+    {
+     "term": "snowstorm",
+     "meaning": "nevasca"
+    },
+    {
+     "term": "stumbling",
+     "meaning": "cambaleando"
+    },
+    {
+     "term": "chill",
+     "meaning": "arrepio, calafrio"
+    },
+    {
+     "term": "stocking",
+     "meaning": "meia"
+    },
+    {
+     "term": "paperweight",
+     "meaning": "peso de papel"
+    },
+    {
+     "term": "hollow",
+     "meaning": "oco, buraco"
+    },
+    {
+     "term": "reasoned",
+     "meaning": "raciocinei"
+    },
+    {
+     "term": "vanished",
+     "meaning": "desapareceu"
+    }
+   ]
+  },
+  {
+   "title": "The Devil",
+   "paragraphs": [
+    "Ivan sat down on the sofa. He felt dizzy, and his head was burning. He had a fever. A doctor had warned him days before that he was on the edge of a serious brain illness and might have hallucinations. Ivan had laughed at him.",
+    "He looked across the room. On the other sofa, by the wall, sat a gentleman.",
+    "He was a Russian gentleman of a certain kind, no longer young, about fifty, with some grey in his dark hair and a little pointed beard. He wore a brown jacket from a good tailor, but rather worn and out of fashion, a soft white hat, and a monocle on a ribbon. He looked like a poor relation, a sponger who lives in other people's houses, a pleasant, polite, slightly shabby gentleman who has seen better days.",
+    "“You're not real,” said Ivan. “You're a lie, my illness, a phantom. You're only myself, only one side of me, my thoughts and feelings, the most stupid and nasty of them.”",
+    "“Exactly,” said the gentleman cheerfully. “I am you, and nothing more. But you'll talk to me all the same, won't you? You have no one else.”",
+    "For a long time he chattered. He told Ivan that he suffered from rheumatism, that he had tried homeopathy, that he would love to be a merchant's wife and light candles in church. He mocked Ivan's ideas in Ivan's own words, repeating the things Ivan had thought as a young man and was ashamed of now.",
+    "“You know, I'm sent to be the negative, the necessary minus,” he said. “Without me, there would be no events. If everything on earth were sensible, nothing would happen. So I must exist, to make things happen. They command me to deny, and I deny. But in my heart I'm good-natured. I'd love to say Hosanna with all the others in heaven. But they won't let me.”",
+    "Then he reminded Ivan of a poem he had written as a student, called The Geological Upheaval. “Once humanity has given up God, everything will change. Men will unite to get everything life can give, but only for joy and happiness in this world. Man will become a god, a man-god. And for a man-god everything is permitted. Where the man-god stands, that place is holy. Everything is permitted, and that's the end of it. That's very charming. Only, if a man wants to cheat, why does he need the sanction of truth?”",
+    "“Shut up!” shouted Ivan. “You're stupid. You're me, but with a different face. You say only what I think, and you can't tell me anything new.”",
+    "“And yet you're afraid of me. You were going to go to the trial tomorrow and tell them everything, out of pride, out of noble feeling. You'll be a hero. But you don't believe in virtue. So why do it? Because you want to be praised. That's the truth.”",
+    "Ivan seized a glass of tea from the table and threw it at him. The gentleman jumped up, brushing the drops from his jacket. At that moment there was a loud knocking at the window. The gentleman vanished.",
+    "Ivan ran to open the door. It was Alyosha, pale and trembling.",
+    "“An hour ago Smerdyakov hanged himself,” he said. “Marya Kondratyevna came to tell me. He's left a note.”",
+    "“I knew it,” said Ivan, with a strange calm. “He told me. Who told me? He told me. He was here. He sat on that sofa. He just left when you knocked.” And then he began to talk wildly, about the gentleman, about lies and truth, about tomorrow. Alyosha read the note Smerdyakov had left: I destroy myself of my own will and wish, so as to throw no blame on anyone. Nothing about the murder. Nothing about Dmitri.",
+    "Ivan was shaking with fever, talking without stopping. Alyosha put him to bed and sat beside him all night, praying for him. “God and his truth are winning,” he thought. “Either he'll rise up in the light of truth, or he'll perish in hate, taking revenge on himself and on everyone for serving a truth he doesn't believe in.”"
+   ],
+   "glossary": [
+    {
+     "term": "dizzy",
+     "meaning": "tonto"
+    },
+    {
+     "term": "monocle",
+     "meaning": "monóculo"
+    },
+    {
+     "term": "sponger",
+     "meaning": "aproveitador, parasita"
+    },
+    {
+     "term": "shabby",
+     "meaning": "maltrapilho, surrado"
+    },
+    {
+     "term": "chattered",
+     "meaning": "tagarelou"
+    },
+    {
+     "term": "upheaval",
+     "meaning": "convulsão, revolução"
+    },
+    {
+     "term": "sanction",
+     "meaning": "aprovação, autorização"
+    },
+    {
+     "term": "hanged himself",
+     "meaning": "se enforcou"
+    }
+   ]
+  },
+  {
+   "title": "The Witnesses",
+   "paragraphs": [
+    "The next morning the courtroom was packed. People had come from Petersburg and Moscow, journalists, lawyers, ladies in their best dresses. The ladies were almost all on Dmitri's side, because he was a passionate lover who had killed for a woman, while the men were nearly all against him. The famous defence lawyer Fetyukovich had come from Petersburg, hired by Katerina Ivanovna. He was a tall, thin man with long legs and a narrow face, who looked like a bird.",
+    "Dmitri came in wearing a new black frock coat, very well dressed. He walked with long, firm steps and looked straight ahead. When the judge asked him if he pleaded guilty, he stood up and answered in a loud voice.",
+    "“I plead guilty to drunkenness and dissipation, to idleness and debauchery. I meant to become an honest man for good, just at the moment when I was struck down by fate. But I am not guilty of the death of the old man, my enemy and my father. No, no, I'm not guilty of robbing him. I could not be. Dmitri Karamazov is a scoundrel, but not a thief.”",
+    "The witnesses were called one by one. Old Grigory, with a bandage still on his head, repeated firmly that he had seen the garden door wide open before he saw Dmitri running away. Fetyukovich asked him politely about his famous medicine for his back, and whether he had drunk the rest of it that night. Grigory admitted that he had. “And a glass of pure spirit with herbs, how much did you drink? Could you have seen the gates of heaven open, as well as the door?” Some people laughed.",
+    "Rakitin spoke next, at great length, about the Karamazov family as a symbol of Russian decay. He was very pleased with himself, until the defence lawyer revealed that he had taken twenty-five roubles from Grushenka for bringing Alyosha to her. Rakitin left the stand red with shame.",
+    "Captain Snegiryov was called, drunk and confused. He began to cry and talk about Ilyusha, and he had to be led away.",
+    "Then Alyosha was called. He said that he had never believed his brother was guilty. Suddenly he remembered something that he had forgotten until that moment: the evening on the road, when Dmitri had struck himself on the breast, below his neck, and said that he carried his disgrace there, and could get rid of it, but would not.",
+    "“He struck himself here, on the upper part of the chest. I thought then that he meant his heart. But it was higher. He must have meant the little bag with the fifteen hundred roubles! He was showing me where it was.”",
+    "The audience was moved. Here, at last, was some evidence for the little bag. But the prosecutor smiled. A brother's memory, appearing so conveniently at the trial?",
+    "Then Katerina Ivanovna was called. She came in dressed in black, very pale, and spoke quietly. To everyone's astonishment, she told the story of how, years ago, she had gone alone to Dmitri's lodgings for money for her father, and how he had given her five thousand roubles and let her go with a bow. She told it calmly, sacrificing her pride and her reputation to save him. A thrill ran through the court.",
+    "“He gave me the money and asked nothing,” she said. “That is the man you are judging.”",
+    "Dmitri, in the dock, put his head in his hands. “Katya, why have you ruined yourself?” he cried, and burst into tears.",
+    "Grushenka spoke next, angry and proud. She said she did not know if Dmitri had killed his father, but that Smerdyakov had done it, she was sure. She said Katerina Ivanovna was a snake. The judge stopped her."
+   ],
+   "glossary": [
+    {
+     "term": "packed",
+     "meaning": "lotado"
+    },
+    {
+     "term": "frock coat",
+     "meaning": "sobrecasaca"
+    },
+    {
+     "term": "pleaded guilty",
+     "meaning": "se declarou culpado"
+    },
+    {
+     "term": "dissipation",
+     "meaning": "dissipação, vida desregrada"
+    },
+    {
+     "term": "idleness",
+     "meaning": "ociosidade"
+    },
+    {
+     "term": "stand",
+     "meaning": "banco das testemunhas"
+    },
+    {
+     "term": "thrill",
+     "meaning": "frêmito, arrepio de emoção"
+    },
+    {
+     "term": "dock",
+     "meaning": "banco dos réus"
+    }
+   ]
+  },
+  {
+   "title": "A Sudden Catastrophe",
+   "paragraphs": [
+    "Then Ivan Fyodorovich Karamazov was called. Everyone had heard that he was ill, and they looked at him with curiosity. He came in slowly. His face was grey and strange, with the look of a man who is dying. He was neatly dressed, but his eyes were dull.",
+    "The judge asked whether he had anything to say. At first he answered vaguely and seemed about to leave. He even began to walk away. Then he stopped, turned round, and came back.",
+    "“I'm like a peasant girl,” he said with a strange smile. “You know how it goes: I'll stand up if I like, and I won't if I don't.” Then he took out a bundle of notes and laid them on the table. “Here is the money. The money that was in that envelope, for which my father was murdered. Where shall I put it? Mr Clerk, take it.”",
+    "The court was in an uproar. “Where did you get it?” asked the judge.",
+    "“From Smerdyakov, the murderer, yesterday. I was with him just before he hanged himself. It was he, not my brother, who killed our father. He killed him, and I told him to do it. Who doesn't desire his father's death?”",
+    "“Are you in your right mind?” asked the judge.",
+    "“I'm in my right mind, my vile mind, the same as yours and all these faces here.” He turned to the public. “They all desire the death of their fathers. One reptile devours another. If there were no murder of a father, they'd all be angry and go home in a bad temper. A spectacle! Bread and circuses! I'm a fine one to talk, though. Have you any water? Give me a drink, for Christ's sake!”",
+    "“Have you any proof?” asked the judge.",
+    "“That's just it. I have no proof. That dog Smerdyakov won't send you any proof from the other world. I have only one witness.”",
+    "“Who is that?”",
+    "“He has a tail, your excellency. That would be irregular! The devil doesn't exist! Don't pay attention. He's a worthless little devil.” He bent forward and whispered confidentially, “He's probably here somewhere, under the table with the material evidence.” Then he began to shout wildly, and the guards seized him. He struggled and screamed as they carried him out of the court.",
+    "Before the court had calmed down, Katerina Ivanovna jumped up, hysterical. “I have one more document!” she cried. “A letter. Read it, quickly! It's from that monster, from Dmitri. He wrote it the day before the murder. It proves everything. He killed his father! I'll tell you everything now!”",
+    "It was the letter Dmitri had written her when he was drunk in a tavern: Katya, tomorrow I'll get the money and give you back your three thousand. If I can't get it, I'll go to my father and break his head and take the money from under his pillow, if only Ivan goes away. I'll go to Siberia, but I'll give you back your three thousand. Farewell.",
+    "Then, in a torrent of words, she poured out all her hatred. She had saved Dmitri by her testimony a few hours earlier; now she destroyed him. He had despised her, she said, ever since the day she bowed to him. He had laughed at her with that creature. And Ivan, who was so noble, who had tried to save his brother, had told her that Dmitri was guilty, that he had seen it all.",
+    "“Ivan is mad! He's been ill for weeks. He wanted to save his brother by accusing himself. And he did it because he loves me!” She fell to the floor in a fit of hysterics and was carried out.",
+    "Dmitri, in the dock, cried out to her, “Katya! You've ruined me!” Then, very quietly, “Now you've had your revenge.”",
+    "The letter was read aloud to the court. Everyone now considered the case closed. The letter was, as Ivan had once said, a mathematical proof."
+   ],
+   "glossary": [
+    {
+     "term": "dull",
+     "meaning": "sem brilho, apagados"
+    },
+    {
+     "term": "uproar",
+     "meaning": "tumulto"
+    },
+    {
+     "term": "right mind",
+     "meaning": "juízo perfeito"
+    },
+    {
+     "term": "bread and circuses",
+     "meaning": "pão e circo"
+    },
+    {
+     "term": "irregular",
+     "meaning": "irregular, fora das regras"
+    },
+    {
+     "term": "torrent",
+     "meaning": "torrente"
+    },
+    {
+     "term": "testimony",
+     "meaning": "depoimento"
+    }
+   ]
+  },
+  {
+   "title": "The Prosecutor's Speech",
+   "paragraphs": [
+    "Late in the evening the prosecutor, Ippolit Kirillovich, rose to make his speech. He was a sick man, consumptive, and everyone knew this was the most important moment of his career. He spoke for a long time, with real passion.",
+    "“Gentlemen of the jury, this case has shaken all Russia. And what is surprising about it? We have grown used to such horrors. But here is a family that is a picture of our society. A father, a sensualist and a buffoon, who left his children in the servants' cottage. And three sons. One is a European, an educated man who believes in nothing. One is a young man of the people, a believer, who flees to the monastery. And the third, the accused, is Russia herself, our dear Mother Russia, as she is: broad, passionate, reckless.",
+    "“The Karamazov nature is capable of combining the most incredible contradictions. It can contemplate two abysses at once, the abyss above us, the abyss of the highest ideals, and the abyss below us, the abyss of the lowest degradation. Such a man can weep over a noble poem and at the same moment commit a crime. He needs both abysses at once. Without them he is miserable.",
+    "“Look at the facts. He hated his father. He said so publicly, many times. He needed three thousand roubles desperately; he ran all over the district for them and could not get them. He knew about the envelope. He knew the signals. He seized a pestle. He went to the garden. He struck down a faithful old servant who caught him running away. An hour later he had thousands of roubles in his bloody hands. And now he tells us about a little bag on his chest, which no one ever saw, and which he threw away somewhere, nobody knows where.",
+    "“Some say Smerdyakov killed the old man. A sick, weak epileptic, who was in a fit that night, and who could not even have known about the money's hiding place unless the master told him. Why would he kill his master, and then give the money to Ivan Karamazov, as we heard today, and then hang himself? Ivan Karamazov is a sick man, and we have all seen his condition. His evidence is the evidence of a delirious mind.",
+    "“And now the letter, the fatal letter. In it the accused tells us in advance exactly what he will do and how. Gentlemen, this is a programme of murder. And he carried it out, step by step.",
+    "“And then, at Mokroye, with blood on his hands, what does he do? He spends the night drinking and dancing with his mistress, ready to shoot himself at dawn. He has the pistols. He has the note: I punish myself for my whole life. What is that, if not a confession?",
+    "“Gentlemen, our fatal Russian troika is galloping madly, perhaps to destruction, and the other nations of Europe stand aside to let it pass. Let us not give them the chance to say that our justice cannot stop a parricide. Remember that you are the defenders of our truth, our holy Russia, its foundations, its family, everything sacred in it. Do not be moved by pity. Convict him!”",
+    "The prosecutor sat down, exhausted and trembling, and there was loud applause. The ladies, however, were displeased. They were waiting for Fetyukovich."
+   ],
+   "glossary": [
+    {
+     "term": "jury",
+     "meaning": "júri"
+    },
+    {
+     "term": "flees",
+     "meaning": "foge"
+    },
+    {
+     "term": "broad",
+     "meaning": "ampla, largo"
+    },
+    {
+     "term": "abysses",
+     "meaning": "abismos"
+    },
+    {
+     "term": "degradation",
+     "meaning": "degradação"
+    },
+    {
+     "term": "delirious",
+     "meaning": "delirante"
+    },
+    {
+     "term": "mistress",
+     "meaning": "amante"
+    },
+    {
+     "term": "troika",
+     "meaning": "troica (carruagem russa de três cavalos)"
+    }
+   ]
+  },
+  {
+   "title": "The Defence and the Verdict",
+   "paragraphs": [
+    "Fetyukovich began quietly, in a clear, sincere voice. “Gentlemen of the jury, I am a newcomer here. I knew nothing of the accused before. That is my advantage. I was not influenced by stories about his character.",
+    "“My learned friend, the prosecutor, has given you a brilliant psychological portrait. But psychology, gentlemen, is a knife that cuts both ways. Let me show you. The prosecutor says that the accused, in his blind rage, attacked Grigory and then bent over him and wiped his head with a handkerchief, to see whether he was dead. A cold-blooded murderer would not do that. He would finish him off. A man who had just killed his father would not stop to look after a servant. Psychology can prove anything.",
+    "“Now the money. Who saw it? Who ever saw three thousand roubles in that envelope? Only Smerdyakov said he did. The envelope was found empty. Very well. But was there money in it? Perhaps the old man took it out himself. Perhaps someone else took it. Nobody can prove that the accused took it. Where then is the robbery? And if there was no robbery, where is the motive for murder?",
+    "“And the letter, the terrible letter. It was written by a drunken man, in a tavern, in a moment of despair. How many of us have said, in anger, I'll kill him? That letter is not a programme. It is a cry.",
+    "“Was it even a murder by the son? Gentlemen, I ask you, what is a father? A father is not only the man who begets a child. A father is the man who earns the name by his love and care. What did Fyodor Pavlovich ever do for this son? He forgot him. He left him in the servants' cottage, barefoot, without a single button on his trousers. He cheated him of his inheritance. He tried to steal the woman he loved. Is such a man a father? To kill such a father cannot even be called parricide.",
+    "“But I do not say the accused killed him. I say he did not. Do not ruin a man's life on a chain of guesses. Better to let ten guilty men go free than to punish one innocent. Show him mercy, and you will see what a noble heart can do when it is saved. He will bless you. He will become a new man.”",
+    "The ladies wept. Many men applauded too. Everyone felt that Fetyukovich had won.",
+    "Then the prosecutor rose again to reply, briefly and angrily. He accused the defence of inventing a novel, of turning a parricide into a hero, of teaching young people that a son may kill his father if the father has not loved him enough. “Such a doctrine,” he said, “would destroy the family and Russia with it.” Fetyukovich answered him calmly, with a slight bow, and the judge then explained the law to the jury at great length, in a dry and careful voice.",
+    "Dmitri was allowed to say a few last words. He stood up, exhausted. “Gentlemen, the day of judgement has come for me. I feel the hand of God upon me. The end of an erring man! I tell you, as I would tell God, I am not guilty of my father's blood. I loved what is beautiful. I'm sorry for my wicked life. Spare me. If you don't, I'll pray for the old man's soul anyway.”",
+    "The jury left the room. They were gone for an hour. It was nearly one o'clock in the morning. When they came back, the hall fell completely silent. The foreman stood up.",
+    "“Did the accused commit the murder for the purpose of robbery and with premeditation?”",
+    "“Yes, guilty.”",
+    "There was not a single word about mercy. A terrible silence fell. Then Dmitri leapt up and cried out in a heart-rending voice, stretching out his hands:",
+    "“I swear by God and by the dreadful day of judgement, I'm not guilty of my father's blood! Katya, I forgive you! Brothers, friends, have pity on the other woman!” He could not go on. He broke into terrible sobs.",
+    "From somewhere in the gallery there came a woman's piercing cry. It was Grushenka. The ladies wept and protested. The men said, “Our peasants have stood up for themselves.” Dmitri was led away, and the crowd went out into the cold night."
+   ],
+   "glossary": [
+    {
+     "term": "cuts both ways",
+     "meaning": "tem dois gumes"
+    },
+    {
+     "term": "cold-blooded",
+     "meaning": "a sangue-frio"
+    },
+    {
+     "term": "begets",
+     "meaning": "gera"
+    },
+    {
+     "term": "erring",
+     "meaning": "errante, que erra"
+    },
+    {
+     "term": "foreman",
+     "meaning": "presidente do júri"
+    },
+    {
+     "term": "premeditation",
+     "meaning": "premeditação"
+    },
+    {
+     "term": "heart-rending",
+     "meaning": "de partir o coração"
+    },
+    {
+     "term": "piercing",
+     "meaning": "estridente, lancinante"
+    }
+   ]
+  },
+  {
+   "title": "A Lie Becomes Truth",
+   "paragraphs": [
+    "Five days after the trial, early in the morning, Alyosha went to Katerina Ivanovna's house. Ivan lay there in another room, unconscious with brain fever.",
+    "Alyosha had spent those five days rushing between the prison hospital, Katerina Ivanovna's house and the captain's little room, where Ilyusha was dying. He slept very little. Yet he did not feel tired. He felt that all of them, Dmitri, Ivan, Katerina, Grushenka, the captain and the boys, were held together in his heart, and that he must not let any one of them fall. Katerina Ivanovna had insisted on taking him in, against all the gossip of the town, and she nursed him herself. The doctors did not know whether he would live.",
+    "She and Alyosha talked about the plan for Dmitri's escape. Ivan had arranged it all before his illness. Dmitri had been sentenced to twenty years' hard labour in the mines of Siberia. On the way there, at the third stage of the journey, the officer in charge of the convoy could be bribed with ten thousand roubles. Dmitri would escape with Grushenka and go to America.",
+    "“Ivan left me the money and the plan,” said Katerina Ivanovna. “He made me promise. I will do it. I owe it to Dmitri.”",
+    "“Dmitri is afraid it's dishonest,” said Alyosha. “He wanted to suffer, to accept his cross.”",
+    "“Tell him that a man who is not guilty doesn't need a cross like that. Tell him he can carry his cross in another way. In America he can suffer, he can work and repent. But he must live.” She paused. Then, with difficulty, she said, “Alyosha, does he want to see me?”",
+    "“Yes. He begs you to come. Today. He's in the prison hospital. He's ill with fever too. Come. He wants to ask your forgiveness. Only come to the door.”",
+    "She went. When she entered the little room in the hospital, Dmitri stood up, pale, and looked at her with a timid smile. For a long moment they said nothing. Then she rushed to him, took his hands and held them tightly, and both of them began to cry.",
+    "“I've come to bow to you,” she said. “Let me tell you: you were my wound, and you will always be. I loved you, and I'll go on loving you for the rest of my life. Love is over, Mitya. But the past is painfully dear to me. Now let what might have been come true for one minute,” she said, with a twisted smile. “You love another woman, and I love another man, and yet I shall love you for ever, and you will love me. Do you know that? Do you hear? Love me, love me all your life.”",
+    "“I shall love you, Katya,” said Dmitri. “Do you know, five days ago, that evening, I loved you. When you fell down and were carried out. All my life! So it will be, always so.”",
+    "“Forgive me for that letter, for what I did at the trial,” she whispered. “I didn't believe you were guilty, even when I said it. Even then I didn't believe it. I hated you at that moment, and I wanted to destroy you. But I didn't believe it for a minute.”",
+    "“You never believed it!” Dmitri's face lit up. “You did right to say what you said. I knew you'd say it. I forgive you.”",
+    "For one minute, as Dmitri said later, the lie became truth. They both talked like people who had nothing else in the world.",
+    "Suddenly the door opened and Grushenka stood there. She had come without warning. Katerina Ivanovna went white, and she moved quickly to the door. In the doorway she stopped in front of Grushenka.",
+    "“Forgive me,” she said in a low voice.",
+    "Grushenka looked at her coldly and paused. Then she answered in a hard voice full of venom, “We are both full of hatred, my girl. How can we forgive each other? You save him, and I'll pray to you all my life.”",
+    "“You won't forgive her?” cried Dmitri.",
+    "“Don't worry, Mitya. I'll forgive her, I'll forgive her. Later,” said Grushenka, and turned away.",
+    "Katerina Ivanovna went out quickly. Alyosha followed her into the street. She would not let him go with her. “No, I can't. I'll send someone to see you this evening. Go to the funeral. I know where you're going.” She hurried away."
+   ],
+   "glossary": [
+    {
+     "term": "gossip",
+     "meaning": "fofoca, falatório"
+    },
+    {
+     "term": "sentenced",
+     "meaning": "condenado (a uma pena)"
+    },
+    {
+     "term": "hard labour",
+     "meaning": "trabalhos forçados"
+    },
+    {
+     "term": "convoy",
+     "meaning": "comboio, escolta"
+    },
+    {
+     "term": "bribed",
+     "meaning": "subornado"
+    },
+    {
+     "term": "repent",
+     "meaning": "arrepender-se"
+    },
+    {
+     "term": "venom",
+     "meaning": "veneno"
+    }
+   ]
+  },
+  {
+   "title": "Hurrah for Karamazov!",
+   "paragraphs": [
+    "Ilyusha had died two days after the verdict. Alyosha arrived at the captain's house just as the coffin was being carried out. The twelve boys were all there, with Kolya Krasotkin at their head, each one with a school satchel over his shoulder. Ilyusha lay in his little blue coffin with a white frill round it, his hands folded on his breast. His face was thin and yellow, but he looked as though he were asleep. There were flowers all around him, sent by Lise Khokhlakova and by Katerina Ivanovna.",
+    "The captain was beside himself with grief. He ran about, he wept, he kissed his son's feet, he could not let him go. He would not allow them to bury Ilyusha in the churchyard; he wanted him buried by the big stone, as Ilyusha had asked. Only when the boys and Alyosha gently persuaded him did he agree to the church.",
+    "After the funeral service, as they were leaving the church, the captain kept crumbling a piece of bread that he had taken from his pocket and scattering the crumbs on the little grave. “Let the sparrows fly down,” he said. “The sparrows will come, and he'll hear them and be glad he's not alone.” Then he turned and ran home, and the boys ran after him, and they found him crying on his knees beside Ilyusha's little boots, the old patched boots that stood in a corner of the room.",
+    "When they came out again, the boys gathered round Alyosha by the big stone at the edge of the town, the stone where Ilyusha had wanted to be buried. The day was clear and frosty. Alyosha looked at their bright, sad faces, and he spoke to them.",
+    "“Boys, we are going to part soon. I'll be staying here for a time with my two brothers, one of whom is going to Siberia and the other is lying at death's door. But soon I shall leave this town, perhaps for a long time. So let us agree here, at Ilyusha's stone, that we will never forget Ilyusha, and never forget one another. And whatever happens to us later in life, if we don't meet for twenty years, let us always remember how we buried this poor boy, at whom we once threw stones, and whom we afterwards all came to love.",
+    "“My little friends, perhaps you won't understand what I'm going to say, because I often speak unclearly, but you'll remember it all the same, and one day you'll agree with me. You must know that there is nothing higher and stronger and more wholesome and good for life than some good memory, especially a memory of childhood, of home. People talk to you a great deal about your education, but some good, sacred memory, kept from childhood, is perhaps the best education. If a man carries many such memories with him into life, he is saved for ever. And even if only one good memory stays with us in our hearts, even that may some day be the means of saving us.",
+    "“Perhaps we may become wicked later on, may even be unable to stop ourselves from doing a bad action, may laugh at men's tears and at those who say, as Kolya did today, I want to suffer for all men. But however bad we may become, which God forbid, when we remember how we buried Ilyusha, how we loved him in his last days, and how we have been talking like friends all together at this stone, the cruellest and most mocking of us will not dare to laugh inwardly at having been kind and good at this moment. And this memory may keep him from great evil.”",
+    "“Karamazov,” cried Kolya, “can it really be true, as religion says, that we shall all rise again from the dead and shall live and see one another again, all, Ilyusha too?”",
+    "“Certainly we shall all rise again. Certainly we shall see each other, and shall tell each other with joy and gladness all that has happened!” Alyosha answered, half laughing, half enthusiastic.",
+    "“Ah, how splendid it will be!” cried Kolya.",
+    "“Well, now we'll finish talking and go to the funeral dinner. Don't be put off by our eating pancakes. It's a very old custom, and there's something nice in that,” laughed Alyosha. “Well, let's go! And now we go hand in hand.”",
+    "“And always so, all our lives hand in hand! Hurrah for Karamazov!” Kolya cried once more rapturously, and once more all the boys joined in his cry.",
+    "“Hurrah for Karamazov!”"
+   ],
+   "glossary": [
+    {
+     "term": "satchel",
+     "meaning": "mochila escolar, bolsa"
+    },
+    {
+     "term": "frill",
+     "meaning": "babado"
+    },
+    {
+     "term": "beside himself",
+     "meaning": "fora de si"
+    },
+    {
+     "term": "crumbling",
+     "meaning": "esfarelando"
+    },
+    {
+     "term": "sparrows",
+     "meaning": "pardais"
+    },
+    {
+     "term": "at death's door",
+     "meaning": "à beira da morte"
+    },
+    {
+     "term": "wholesome",
+     "meaning": "saudável, benéfico"
+    },
+    {
+     "term": "put off",
+     "meaning": "desanimados, desencorajados"
+    }
+   ]
+  }
+ ]
+}

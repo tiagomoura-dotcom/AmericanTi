@@ -1,0 +1,335 @@
+{
+ "id": "time-machine",
+ "title": "The Time Machine",
+ "author": "H. G. Wells",
+ "year": 1895,
+ "module": 2,
+ "level": "A2",
+ "summary": "Um cientista inglês, conhecido apenas como o Viajante do Tempo, constrói uma máquina capaz de viajar para o futuro. Ele chega ao ano 802.701 e encontra um mundo bonito e silencioso, habitado por pessoas pequenas e gentis. Mas algo estranho e assustador se esconde debaixo da terra, e o Viajante precisa descobrir a verdade para conseguir voltar para casa.",
+ "chapters": [
+  {
+   "title": "The Little Machine",
+   "paragraphs": [
+    "Every Thursday evening a few men had dinner at the house of a scientist in Richmond, near London. We called him the Time Traveller. He was a clever man with grey eyes, and he loved new ideas.",
+    "One evening, after dinner, he spoke to us by the fire. “You all know that a thing has length, width and height,” he said. “But there is a fourth dimension. It is Time. We move through Time every day, from yesterday to today and to tomorrow. But we can't choose our speed or direction. I think a machine can travel through Time, forward or back, like a ship on the sea.”",
+    "“That's impossible,” said the Psychologist.",
+    "“Is it?” said the Time Traveller with a smile. He went out of the room and came back with a small object. It was made of metal, ivory and a clear crystal, and it was about the size of a little clock. He put it on a table near the fire.",
+    "“This is a model of my Time Machine,” he said. “This lever sends it into the future, and that one sends it into the past. Now watch.”",
+    "He asked the Psychologist to press the lever. The Psychologist pressed it with his finger. There was a little wind, and the lamp flame jumped. The machine turned around, became like a ghost for a second, and disappeared. The table was empty.",
+    "We all looked at each other. Nobody said a word.",
+    "“Where is it?” asked the Doctor at last.",
+    "“It has gone into the future,” said the Time Traveller calmly. “And I have a big machine, almost finished, in my laboratory. When it is ready, I am going to travel in it myself.”",
+    "We did not really believe him. We thought it was a clever trick. But we were wrong."
+   ],
+   "glossary": [
+    {
+     "term": "clever",
+     "meaning": "inteligente"
+    },
+    {
+     "term": "length",
+     "meaning": "comprimento"
+    },
+    {
+     "term": "width",
+     "meaning": "largura"
+    },
+    {
+     "term": "ivory",
+     "meaning": "marfim"
+    },
+    {
+     "term": "lever",
+     "meaning": "alavanca"
+    },
+    {
+     "term": "flame",
+     "meaning": "chama"
+    },
+    {
+     "term": "trick",
+     "meaning": "truque"
+    }
+   ]
+  },
+  {
+   "title": "The Journey",
+   "paragraphs": [
+    "The next Thursday we arrived for dinner, but the Time Traveller was not there. We started to eat without him. Suddenly the door opened, and he came in. We were shocked. His clothes were dirty and torn, his face was pale, and there was a cut on his chin. He walked badly, like a very tired man.",
+    "“Don't worry,” he said. “I'm all right. But please give me some meat. I am very hungry.” He ate quickly. Then he went upstairs and changed his clothes. When he came back, he sat by the fire.",
+    "“I have had a strange time,” he said. “I will tell you everything, but you must not interrupt me. You will probably think it is a lie. That doesn't matter.”",
+    "And this is the story that he told us.",
+    "“This morning at ten o'clock my Time Machine was ready,” he said. “I sat in the saddle and pushed the lever forward. I felt a strange movement, like falling in a dream. I looked around. My housekeeper came into the laboratory and crossed the room very fast, like a rocket. Then night came, and day, and night again, faster and faster.",
+    "“Soon the days and nights became a grey light. The sun jumped across the sky every minute. I saw trees grow and die like smoke. I saw big buildings appear and disappear. The ground changed again and again. I was going faster and faster into the future.",
+    "“Then I began to be afraid. What if I hit something when I stopped? So I pulled the lever back very hard. The machine turned over, and I fell out onto the grass. There was thunder all around me, and hail was falling from the sky. I looked at the dial on the machine. It said that the year was eight hundred and two thousand, seven hundred and one.”"
+   ],
+   "glossary": [
+    {
+     "term": "chin",
+     "meaning": "queixo"
+    },
+    {
+     "term": "interrupt",
+     "meaning": "interromper"
+    },
+    {
+     "term": "saddle",
+     "meaning": "assento, sela"
+    },
+    {
+     "term": "hail",
+     "meaning": "granizo"
+    },
+    {
+     "term": "dial",
+     "meaning": "mostrador"
+    },
+    {
+     "term": "smoke",
+     "meaning": "fumaça"
+    }
+   ]
+  },
+  {
+   "title": "The Eloi",
+   "paragraphs": [
+    "“When the hail stopped, the sun came out,” said the Time Traveller. “I was in a beautiful garden full of flowers. Near me there was a huge white stone figure, like a sphinx with wings. I could see big, old buildings among the trees.",
+    "“Then some people came towards me. They were very small, only about four feet tall. They wore soft, colorful clothes, and they had pretty faces with small mouths and big eyes. They were not afraid of me. They touched my hands and my machine, and they laughed and talked in a sweet language.",
+    "“I took the small levers off my machine and put them in my pocket. I didn't want anybody to use it. Then the little people led me into one of the big buildings. Inside, there were stone tables covered with fruit. Hundreds of the little people were sitting and eating. They ate only fruit. There were no animals anywhere, no cows, no horses, no dogs.",
+    "“I tried to learn their language. These people were called the Eloi. But they were like children. They were interested in something for a minute, and then they got bored and went away. They didn't work, they didn't read, and they didn't study. They played, swam in the river, ate fruit and slept.",
+    "“That evening I walked to the top of a hill and looked at the land. There were no small houses, no roads and no farms. It was like one big garden. I thought that humanity had won. There was no more danger and no more work. People didn't need to be strong or clever now, so they had become small, weak and beautiful.",
+    "“It was a nice idea. But I was wrong.",
+    "“When I came back to the sphinx in the moonlight, my Time Machine was gone!”"
+   ],
+   "glossary": [
+    {
+     "term": "huge",
+     "meaning": "enorme"
+    },
+    {
+     "term": "sphinx",
+     "meaning": "esfinge"
+    },
+    {
+     "term": "wings",
+     "meaning": "asas"
+    },
+    {
+     "term": "feet",
+     "meaning": "pés (medida)"
+    },
+    {
+     "term": "humanity",
+     "meaning": "humanidade"
+    },
+    {
+     "term": "got bored",
+     "meaning": "ficavam entediados"
+    },
+    {
+     "term": "farms",
+     "meaning": "fazendas"
+    }
+   ]
+  },
+  {
+   "title": "The Machine Is Gone",
+   "paragraphs": [
+    "“I ran around like a madman,” said the Time Traveller. “I looked everywhere in the garden, but I couldn't find the machine. I screamed and woke some of the Eloi, but they didn't understand me. They ran away in fear. At last I fell on the grass and cried. I felt completely alone in this strange world.",
+    "“In the morning I felt calmer. I looked at the grass near the sphinx. There were marks on the ground. Someone had pulled the machine into the base of the sphinx. The base had bronze doors, but they were closed. I hit them with a stone, but they didn't open. The Eloi looked at me strangely. When I tried to talk to them about the doors, they turned away. They didn't like that subject at all.",
+    "“I decided to be patient. 'I can't do anything now,' I thought. 'I will learn more about this world. Then I will find a way to open the doors.'",
+    "“A few days later, I saw some Eloi swimming in the river. Suddenly one of them, a little woman, got into trouble. The water was fast, and she was going to drown. The other Eloi watched, but they didn't help her. So I jumped into the water and pulled her out.",
+    "“After that, she followed me everywhere. Her name was Weena. She was like a happy child. She gave me flowers and held my hand. I taught her some English words, and she taught me some of her language. I was very glad to have a friend.",
+    "“But there was something strange about Weena and the Eloi. They were very afraid of the dark. When night came, they all went inside the big buildings and slept together in groups. Nobody went out in the dark. Weena was terribly afraid of it, too, and I didn't understand why.”"
+   ],
+   "glossary": [
+    {
+     "term": "madman",
+     "meaning": "louco"
+    },
+    {
+     "term": "marks",
+     "meaning": "marcas"
+    },
+    {
+     "term": "base",
+     "meaning": "base, pedestal"
+    },
+    {
+     "term": "subject",
+     "meaning": "assunto"
+    },
+    {
+     "term": "patient",
+     "meaning": "paciente"
+    },
+    {
+     "term": "drown",
+     "meaning": "se afogar"
+    },
+    {
+     "term": "glad",
+     "meaning": "contente"
+    }
+   ]
+  },
+  {
+   "title": "The Morlocks",
+   "paragraphs": [
+    "“Early one morning, in the grey light, I saw some strange white animals running among the trees,” said the Time Traveller. “I thought they were monkeys. One evening I saw one more clearly. It was a pale little creature, like an ape, with big grey-red eyes and white hair on its back. It saw me and ran away into the darkness.",
+    "“There were many old wells in that land, round holes in the ground with stone walls. They went deep into the earth. When I looked down into one, I heard the noise of machines. I felt a cold wind coming up. And I saw the same white creature climbing down the wall into the darkness.",
+    "“Then I understood. There were two kinds of people in this world. The Eloi lived up in the sun. The other people lived under the ground. They were called the Morlocks. Millions of years ago, the rich people lived above, and the poor workers lived and worked below, in factories and tunnels. Slowly they became two different races.",
+    "“The Morlocks worked machines under the earth. They made clothes for the Eloi and brought them food. But why? I didn't know yet, and I didn't like the answer that came into my head.",
+    "“I knew that I had to go down. Maybe the Morlocks had my machine. One day I climbed down into a well. Weena cried and pulled my arm, but I went.",
+    "“It was a long climb. At the bottom there was a dark tunnel. I could hear the machines and feel the Morlocks' soft hands touching me in the dark. I lit a match. In the light I saw them. They hated the light and covered their eyes. I also saw a table with meat on it. Red meat. But there were no animals in this world.",
+    "“My match went out. Their hands pulled at my clothes. I lit another match and ran back to the well. I climbed up as fast as I could, and they held my feet, but I kicked them away and escaped into the sunlight.”"
+   ],
+   "glossary": [
+    {
+     "term": "creature",
+     "meaning": "criatura"
+    },
+    {
+     "term": "ape",
+     "meaning": "macaco grande"
+    },
+    {
+     "term": "wells",
+     "meaning": "poços"
+    },
+    {
+     "term": "darkness",
+     "meaning": "escuridão"
+    },
+    {
+     "term": "factories",
+     "meaning": "fábricas"
+    },
+    {
+     "term": "match",
+     "meaning": "fósforo"
+    },
+    {
+     "term": "kicked",
+     "meaning": "chutei"
+    }
+   ]
+  },
+  {
+   "title": "The Palace of Green Porcelain",
+   "paragraphs": [
+    "“Now I knew the terrible truth,” said the Time Traveller. “The Eloi were not masters. They were like animals on a farm. The Morlocks gave them food and clothes. And then, at night, in the dark of the moon, they came up and took the Eloi for food. That was why Weena was so afraid of the dark.",
+    "“I needed a weapon. Far away, on a hill, I saw a big green building. Weena and I walked there. It was a very old museum, and we called it the Palace of Green Porcelain. Inside there were the bones of great animals and old, broken machines. Everything was covered with dust.",
+    "“In one room I found a heavy iron bar from an old machine, and I took it. It was a good weapon. Then I found something better: a box of matches! They were very old, but they still worked. I also found some camphor, which burns very well.",
+    "“By then it was late. The sun was going down, and we were far from the sphinx. We had to walk through a forest. I decided to make a fire to keep the Morlocks away. It was night now, and the moon was not in the sky.",
+    "“In the forest the Morlocks came. I heard their soft feet and saw their eyes in the dark. Weena was very tired, so I carried her. I lit the camphor, and the Morlocks ran from the light. But they came back again and again. I hit them with my iron bar.",
+    "“Then I made a big fire with dry wood. But the fire spread through the dry trees, and soon the whole forest was burning. In the smoke and the confusion, I lost Weena. I looked everywhere and called her name. I never found her. I think the fire killed her, or the Morlocks took her.",
+    "“In the morning I walked out of the forest alone. I had lost my only friend.”"
+   ],
+   "glossary": [
+    {
+     "term": "masters",
+     "meaning": "senhores, donos"
+    },
+    {
+     "term": "weapon",
+     "meaning": "arma"
+    },
+    {
+     "term": "porcelain",
+     "meaning": "porcelana"
+    },
+    {
+     "term": "bones",
+     "meaning": "ossos"
+    },
+    {
+     "term": "dust",
+     "meaning": "poeira"
+    },
+    {
+     "term": "camphor",
+     "meaning": "cânfora"
+    },
+    {
+     "term": "spread",
+     "meaning": "espalhou-se"
+    }
+   ]
+  },
+  {
+   "title": "Escape from the Morlocks",
+   "paragraphs": [
+    "“When I came back to the sphinx, I was tired and very sad,” said the Time Traveller. “Then I saw something surprising. The bronze doors at the base of the sphinx were open.",
+    "“Inside, in the shadows, I could see my Time Machine. I understood. It was a trap. The Morlocks wanted me to go inside. But I had the levers in my pocket, so I wasn't afraid. I dropped my iron bar and walked in.",
+    "“At once the doors closed behind me. I was in complete darkness. I heard the Morlocks laughing softly and coming towards me. I wanted to light a match, but these were the kind of matches that only light on the box. And I had left the box outside!",
+    "“Their cold hands were on me. I quickly put the levers into the machine. A Morlock tried to take one of them, and I hit him in the head. I held the levers tightly and pushed them forward. The hands fell away. The darkness disappeared, and I was back in the grey light of moving time.",
+    "“But I was not going home. In my hurry I had pushed the levers the wrong way. I was going further into the future.”"
+   ],
+   "glossary": [
+    {
+     "term": "trap",
+     "meaning": "armadilha"
+    },
+    {
+     "term": "dropped",
+     "meaning": "larguei"
+    },
+    {
+     "term": "at once",
+     "meaning": "imediatamente"
+    },
+    {
+     "term": "hurry",
+     "meaning": "pressa"
+    },
+    {
+     "term": "further",
+     "meaning": "mais longe"
+    }
+   ]
+  },
+  {
+   "title": "The End of the World",
+   "paragraphs": [
+    "“The days became longer and longer,” said the Time Traveller. “At last the sun stopped moving. It sat big and red near the horizon. I stopped the machine. I was on a cold, empty beach. The sea did not move, and the air was very thin. There was no grass and no trees, only green plants on the rocks.",
+    "“Then I saw something terrible. A huge red crab came slowly towards me, with long arms and moving eyes. I pulled the lever and went on, thousands and millions of years.",
+    "“Each time I stopped, the sun was bigger and darker, and the world was colder. At the end, after thirty million years, there was no life at all, only snow, a black sky and a dying red sun. I felt sick and afraid. I turned the machine and started the long journey home.",
+    "“The days and nights began to move again. I saw buildings grow, and then my own laboratory. At last I stopped. I was home, and the clock said that it was half past seven. I walked out of the laboratory and into this room. And that is my story.”",
+    "We sat in silence. Then the Doctor said, “It's a wonderful story, but I can't believe it.” The Time Traveller showed us two strange white flowers from his pocket. Weena had put them there.",
+    "The next day I visited him again. He was taking a camera and a bag. “Wait for me for half an hour,” he said. “I will bring you proof.” He went into the laboratory. I heard a sound and felt a little wind. When I opened the door, the room was empty.",
+    "That was three years ago. The Time Traveller has never come back. Where is he now? In the past, or in the future? I don't know. But I still have the two white flowers. They remind me that even when people are weak and the world is dark, gratitude and love can still live in a human heart."
+   ],
+   "glossary": [
+    {
+     "term": "horizon",
+     "meaning": "horizonte"
+    },
+    {
+     "term": "thin",
+     "meaning": "rarefeito"
+    },
+    {
+     "term": "crab",
+     "meaning": "caranguejo"
+    },
+    {
+     "term": "dying",
+     "meaning": "morrendo"
+    },
+    {
+     "term": "proof",
+     "meaning": "prova"
+    },
+    {
+     "term": "remind",
+     "meaning": "lembram"
+    },
+    {
+     "term": "gratitude",
+     "meaning": "gratidão"
+    }
+   ]
+  }
+ ]
+}

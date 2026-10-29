@@ -1,0 +1,755 @@
+{
+ "id": "sign-of-four",
+ "title": "The Sign of Four",
+ "author": "Arthur Conan Doyle",
+ "year": 1890,
+ "module": 4,
+ "level": "B2",
+ "summary": "Uma jovem governanta, Mary Morstan, procura Sherlock Holmes porque recebe uma pérola valiosa todos os anos de um remetente desconhecido e agora foi chamada para um encontro misterioso. Holmes e o Dr. Watson entram numa história de tesouro roubado, juramentos secretos e vingança que começou anos antes na Índia. Entre a névoa de Londres e as águas escuras do Tâmisa, a dupla precisa descobrir quem está por trás do estranho sinal dos quatro.",
+ "chapters": [
+  {
+   "title": "The Science of Deduction",
+   "paragraphs": [
+    "Sherlock Holmes took a small bottle from the corner of the mantelpiece and a needle from its neat leather case. I watched him roll up his sleeve. His arm was covered with tiny marks, and I had seen him do this three times a day for many months. That afternoon, perhaps because of the wine I had drunk at lunch, I could no longer keep quiet.",
+    "“Which is it today?” I asked. “Morphine or cocaine?”",
+    "“Cocaine,” he said calmly. “A seven-per-cent solution. Would you care to try it, Watson?”",
+    "“No, indeed. My health has not fully recovered from the war in Afghanistan. Holmes, why do you risk your fine mind for a moment of excitement? You know the harm it can do.”",
+    "He smiled and leaned back in his armchair. “My mind rebels against doing nothing. Give me problems, give me work, give me the most difficult puzzle, and I can do without artificial help. But I hate the dull routine of life. That is why I chose my own profession. I am the only consulting detective in the world.”",
+    "“The only one?” I said.",
+    "“The only one. When the police are out of their depth, they come to me. I look at the facts, I give my opinion, and I take no credit. My reward is the work itself.” He picked up my watch, which I had left on the table. “Let me show you. This watch has recently come into your hands. Tell me what you think of the man who owned it before you.”",
+    "I passed it to him with some amusement, because I believed the test was impossible. Watches are cleaned before they are given to a new owner. He looked at it closely, opened the back and examined the inside with his lens. Then he closed it and handed it back.",
+    "“There is very little information,” he said. “But I would say that it belonged to your elder brother, who inherited it from your father. He was a careless man. He had good chances in life, but he threw them away. He lived in poverty for some time, with short periods of wealth. In the end he took to drink, and he died.”",
+    "I jumped out of my chair. “Holmes, that is unworthy of you! You must have made inquiries about my poor brother. You cannot have learned this from an old watch.”",
+    "“My dear doctor,” he said kindly, “please accept my apologies. I did not know you had a brother until you handed me that watch. The initials H. W. are on the back, so it was a family watch. It was made fifty years ago, so it probably came from your father to the eldest son. The case is full of dents and scratches, because he kept it in the same pocket as coins and keys. A man who treats an expensive watch like that must be careless. And look here, inside: four numbers scratched by a pawnbroker. Your brother was often short of money, and he left the watch at the pawnshop. But he was able to buy it back, so he had periods of wealth too.”",
+    "“And the drink?”",
+    "“Look at the hole for the key. It is surrounded by thousands of scratches, where the key slipped. A sober man puts the key in at once. A drunkard's hand is unsteady. He winds his watch at night, and he leaves these marks.”",
+    "“It is as clear as daylight,” I said, a little ashamed. “Forgive me for doubting you.”",
+    "At that moment there was a knock at the door, and our landlady came in with a card on a tray.",
+    "“A young lady to see you, sir,” she said.",
+    "“Miss Mary Morstan,” Holmes read. “I do not know the name. Ask the young lady to step up, Mrs Hudson. Don't go, Watson. I would prefer you to stay.”"
+   ],
+   "glossary": [
+    {
+     "term": "mantelpiece",
+     "meaning": "consolo da lareira"
+    },
+    {
+     "term": "solution",
+     "meaning": "solução (líquido com substância dissolvida)"
+    },
+    {
+     "term": "out of their depth",
+     "meaning": "sem saber o que fazer, perdidos"
+    },
+    {
+     "term": "inherited",
+     "meaning": "herdou"
+    },
+    {
+     "term": "pawnbroker",
+     "meaning": "agiota de penhores"
+    },
+    {
+     "term": "dents",
+     "meaning": "amassados"
+    },
+    {
+     "term": "sober",
+     "meaning": "sóbrio"
+    },
+    {
+     "term": "unworthy of you",
+     "meaning": "indigno de você"
+    }
+   ]
+  },
+  {
+   "title": "The Story of Mary Morstan",
+   "paragraphs": [
+    "Miss Morstan entered the room with a firm step. She was a small, fair young woman, dressed simply but with good taste in a grey dress. Her face was not beautiful in the usual way, but her large blue eyes were full of kindness and intelligence. In all my experience of women in three continents, I had never seen a face that showed a more sensitive nature. I noticed that her lips trembled a little as she sat down.",
+    "“I have come to you, Mr Holmes,” she said, “because you once helped my employer, Mrs Cecil Forrester, with a small family matter. She was very impressed by your skill.”",
+    "“I remember it,” said Holmes. “It was a very simple case.”",
+    "“My case is not simple, I promise you. Nothing could be stranger. My father was an officer in an Indian regiment. He sent me home to England when I was a child, because my mother was dead and I had no relatives here. I was placed in a comfortable boarding school in Edinburgh. In 1878 my father got twelve months' leave and came home. He sent me a telegram from London, saying he had arrived safely and asking me to come at once to the Langham Hotel.”",
+    "She paused, and her voice became softer. “I went immediately. At the hotel they told me that Captain Morstan was staying there, but that he had gone out the night before and had not returned. I waited all day without news. That night I went to the police, and the next morning we put advertisements in all the papers. Nothing was ever discovered. He never came back. He had come home to rest, and instead...” She put her hand to her throat and could not continue.",
+    "“The date?” asked Holmes, opening his notebook.",
+    "“He disappeared on the third of December, 1878, nearly ten years ago. His luggage was found at the hotel. There were clothes, some books, and a number of curiosities from the Andaman Islands, where he had been an officer in charge of the prison guard.”",
+    "“Did he have any friends in London?”",
+    "“Only one, Major Sholto, of the same regiment, who lived in Upper Norwood. But he did not even know that my father was in England. And the strangest part is still to come. About six years ago, on the fourth of May, 1882, an advertisement appeared in The Times, asking for the address of Miss Mary Morstan. It said that it would be to her advantage to come forward. There was no name or address. I had just started working for Mrs Forrester as a governess, and on her advice I published my address. The same day a small cardboard box arrived for me by post. Inside was a very large and beautiful pearl. No letter came with it. Since then, every year on the same date, a similar box has arrived, with a similar pearl.”",
+    "She opened a flat box and showed us six pearls. They were the finest I had ever seen.",
+    "“Your story is very interesting,” said Holmes. “Has anything else happened?”",
+    "“Yes, and this is why I have come. This morning I received this letter.”",
+    "Holmes took it and read it aloud. “Be at the third pillar from the left outside the Lyceum Theatre tonight at seven o'clock. If you are distrustful, bring two friends. You are a wronged woman and shall have justice. Do not bring police. If you do, all will be in vain. Your unknown friend.”",
+    "“Well, really, this is a pretty little mystery!” said Holmes, and his eyes shone. “What do you intend to do, Miss Morstan?”",
+    "“That is exactly what I wanted to ask you.”",
+    "“Then we shall certainly go, you and I and... yes, why, Dr Watson is the very man. The letter says two friends. He and I have worked together before.”",
+    "“But would he come?” she asked, turning to me with a look I shall never forget.",
+    "“I shall be proud and happy,” I said, “if I can be of any service.”",
+    "She promised to return at six. When she had gone, I stood at the window and watched her walking down the street until her grey hat disappeared in the crowd.",
+    "“What a very attractive woman!” I said.",
+    "Holmes had lit his pipe again. “Is she?” he said lazily. “I did not notice.”",
+    "“You really are a machine, a calculating machine,” I cried. “Sometimes there is something positively inhuman in you.”",
+    "He smiled gently. “It is of the first importance not to let your judgment be influenced by personal qualities. A client is to me a mere unit, a factor in a problem.”"
+   ],
+   "glossary": [
+    {
+     "term": "trembled",
+     "meaning": "tremeu"
+    },
+    {
+     "term": "regiment",
+     "meaning": "regimento"
+    },
+    {
+     "term": "boarding school",
+     "meaning": "internato"
+    },
+    {
+     "term": "leave",
+     "meaning": "licença (do trabalho ou do exército)"
+    },
+    {
+     "term": "governess",
+     "meaning": "governanta, preceptora"
+    },
+    {
+     "term": "pearl",
+     "meaning": "pérola"
+    },
+    {
+     "term": "distrustful",
+     "meaning": "desconfiada"
+    },
+    {
+     "term": "in vain",
+     "meaning": "em vão"
+    }
+   ]
+  },
+  {
+   "title": "The Man in the Strange House",
+   "paragraphs": [
+    "At half past five Holmes came back in high spirits. He had spent the afternoon reading old newspapers.",
+    "“There is no great mystery about this matter,” he said. “Major Sholto, the only friend of Captain Morstan in London, died on the twenty-eighth of April, 1882. Within a week of his death, Miss Morstan's address was asked for in The Times, and the first pearl arrived. Somebody in the Major's family feels that a wrong was done to her and wants to repair it. What could the wrong be, except that she was deprived of her father?”",
+    "“But why would the letter come now, after six years?” I asked.",
+    "“That is the difficulty. Perhaps the person has discovered something new. Ah, here is our client. Have you got your revolver, Watson? You had better take it.”",
+    "Miss Morstan was wearing a dark cloak and looked calm, although a little pale. She gave Holmes a paper she had found in her father's desk. It was a plan of some large building, with many halls and passages. At one point there was a small red cross, and in the corner was written, in a rough hand, “The sign of the four: Jonathan Small, Mahomet Singh, Abdullah Khan, Dost Akbar.” Holmes looked at it with great interest and put it carefully into his pocket.",
+    "It was a September evening, and a dense, wet fog lay low upon the great city. The shop windows threw a dim yellow light onto the crowded streets. Only Holmes was unaffected by the gloom.",
+    "At the Lyceum the crowds were already thick at the side doors. We had hardly reached the third pillar when a small, dark man dressed like a coachman came up to us.",
+    "“Are you the people who come with Miss Morstan?” he asked.",
+    "“I am Miss Morstan, and these two gentlemen are my friends,” she said.",
+    "He looked at us with sharp eyes. “You will excuse me, miss, but I must ask you to give me your word that neither of your companions is a police officer.”",
+    "“I give you my word,” she answered.",
+    "He whistled, and a boy brought a four-wheeled carriage. We got in, and the driver whipped up his horse and set off at a furious pace through the foggy streets. At first I tried to follow our direction, but soon I was lost. Holmes, however, called out the names of the streets as we passed. We crossed the river and went through a labyrinth of streets on the Surrey side. Finally we stopped in a poor, quiet street at the third house in a new terrace. All the other houses were empty and dark, but in this one there was a single light in the kitchen window.",
+    "The door was opened by a servant from India, in a yellow turban and white loose clothes. Behind him we heard a high, thin voice. “Show them in to me, Khitmutgar. Show them straight in.”",
+    "We followed him down a dirty passage, and then he opened a door. A blaze of yellow light poured out. In the middle of the room stood a small man with a very high head. He had a bright red beard and a bald, shining top, like a mountain peak rising out of a forest. He kept rubbing his hands together, and his face was never still: one moment smiling, the next moment frowning. He could not have been more than thirty.",
+    "The room itself was astonishing. It was like a diamond in a setting of brass. The walls were covered with the richest curtains and tapestries, and two great tiger skins lay on a thick, soft carpet. A large silver lamp hung from the ceiling and filled the air with a sweet smell.",
+    "“Your servant, Miss Morstan,” said the little man nervously. “Your servant, gentlemen. My name is Thaddeus Sholto. You must excuse my little home. It is an oasis of art in the howling desert of South London.”",
+    "“If you have anything to say to me, Mr Sholto,” said Miss Morstan, “I would be glad if you said it quickly. It is very late.”",
+    "“Of course, of course.” He sat down on a low sofa and looked at her with his watery blue eyes. “Now, you will want to know about your father. I must tell you that he is no longer alive.”"
+   ],
+   "glossary": [
+    {
+     "term": "deprived of",
+     "meaning": "privada de"
+    },
+    {
+     "term": "cloak",
+     "meaning": "capa"
+    },
+    {
+     "term": "dim",
+     "meaning": "fraca, pouco iluminada"
+    },
+    {
+     "term": "gloom",
+     "meaning": "escuridão, clima sombrio"
+    },
+    {
+     "term": "coachman",
+     "meaning": "cocheiro"
+    },
+    {
+     "term": "whipped up",
+     "meaning": "chicoteou para apressar"
+    },
+    {
+     "term": "terrace",
+     "meaning": "fileira de casas geminadas"
+    },
+    {
+     "term": "blaze",
+     "meaning": "clarão"
+    }
+   ]
+  },
+  {
+   "title": "Thaddeus Sholto's Story",
+   "paragraphs": [
+    "Miss Morstan went very white, but she did not faint. I poured her a glass of water, and after a moment she nodded to the little man to continue.",
+    "“My father was Major John Sholto,” he began. “About eleven years ago he retired from the army and came home from India with a considerable fortune. He bought a large house, Pondicherry Lodge, in Upper Norwood, and lived there in great style with many Indian servants. My twin brother Bartholomew and I were his only children.",
+    "“We read about the disappearance of Captain Morstan in the papers and discussed it freely in front of our father. We never suspected that he had the whole secret hidden in his own heart. We did know that he was afraid of something. He employed two prizefighters as porters at Pondicherry Lodge, and he had a particular horror of men with wooden legs.",
+    "“Early in 1882 my father received a letter from India which was a great shock to him. He almost fainted at the breakfast table when he opened it, and from that day he was ill. By the end of April we were told that there was no hope, and he called us to his bed. He asked us to lock the door and to stand on each side of him. Then, holding our hands, he told us a remarkable story.”",
+    "Thaddeus Sholto lowered his voice. “He said, ‘I have only one thing on my mind at this moment. It is my treatment of poor Morstan's orphan. My greed has been my sin all my life, and I have kept from her the treasure, half of which at least should have been hers. And yet I have made no use of it myself. So blind and foolish a thing is greed. Morstan and I discovered a great treasure in India, and I brought it to England.",
+    "“‘When Morstan arrived in London, he came straight to this house to claim his share. We had an argument about how to divide it. He was in a terrible temper. Suddenly he pressed his hand to his side, his face turned dark, and he fell backwards, hitting his head on the corner of the treasure chest. When I bent over him, I found, to my horror, that he was dead. He had suffered from a weak heart for years.",
+    "“‘Who would believe that I had not killed him? There was a wound on his head, and we had been quarrelling. So my servant and I decided to hide the truth. Together we buried the body that night, and a few days later the London papers were full of the mysterious disappearance of Captain Morstan. I was not guilty of his death, but I was guilty of hiding the body, and of hiding the treasure. I want you to give Morstan's daughter her share. The treasure is hidden in...’",
+    "“At that very moment,” said Thaddeus, “a horrible change came over his face. His eyes stared wildly, his jaw dropped, and he cried in a voice I shall never forget, ‘Keep him out! For God's sake, keep him out!’ We both turned round to the window behind us. A face was looking in at us out of the darkness. It was a bearded, hairy face, with wild, cruel eyes and an expression of terrible hatred. We rushed to the window, but the man was gone. When we returned to my father, his heart had stopped.",
+    "“We searched the garden that night, but we found no trace of the intruder, except for a single footmark in the flower bed under the window. In the morning we discovered that somebody had broken into my father's room. His cupboards and boxes had been searched, and on his chest was a torn piece of paper with the words ‘The sign of the four’ written on it. Nothing seemed to have been stolen.”",
+    "The little man stopped to light a strange pipe. “For years,” he continued, “Bartholomew dug up every part of the garden, without success. My father had shown us a chain of fine pearls from the treasure, and I persuaded my brother to send Miss Morstan one pearl each year. It was the least we could do. Now, at last, the matter has been decided. Yesterday Bartholomew found the treasure. He measured the house and discovered that there was a space at the top which nobody knew about. He broke through the ceiling and found a small secret room. In the middle of it stood the treasure chest, resting on two beams. He lowered it through the hole, and there it is. He thinks it is worth not less than half a million pounds.”",
+    "At the mention of this enormous sum, we all stared at one another. Miss Morstan, if she received her rights, would become one of the richest heiresses in England. I am ashamed to say that my heart sank. A loyal friend should have been glad, but I could only think that she would now be far beyond the reach of a poor army doctor like me.",
+    "“I wrote to you at once, Miss Morstan,” said Thaddeus, standing up. “My brother is not happy about sharing it, so we must go together to Pondicherry Lodge tonight and claim your share. Bartholomew is expecting us.”"
+   ],
+   "glossary": [
+    {
+     "term": "considerable",
+     "meaning": "considerável"
+    },
+    {
+     "term": "prizefighters",
+     "meaning": "lutadores de boxe profissionais"
+    },
+    {
+     "term": "greed",
+     "meaning": "ganância"
+    },
+    {
+     "term": "share",
+     "meaning": "parte, quinhão"
+    },
+    {
+     "term": "quarrelling",
+     "meaning": "discutindo, brigando"
+    },
+    {
+     "term": "intruder",
+     "meaning": "invasor"
+    },
+    {
+     "term": "beams",
+     "meaning": "vigas"
+    },
+    {
+     "term": "heiresses",
+     "meaning": "herdeiras"
+    },
+    {
+     "term": "my heart sank",
+     "meaning": "meu coração ficou apertado, desanimei"
+    }
+   ]
+  },
+  {
+   "title": "The Tragedy of Pondicherry Lodge",
+   "paragraphs": [
+    "It was nearly eleven o'clock when we reached Pondicherry Lodge. The fog had cleared, and a half moon was peeping out from behind the clouds. The house stood in its own grounds, surrounded by a very high stone wall with broken glass along the top. There was only one narrow iron door. Thaddeus knocked on it in a special way.",
+    "“Who is there?” cried a rough voice from inside.",
+    "“It is I, McMurdo. You know my knock by this time.”",
+    "The door swung open, and a short, deep-chested man stood there with a lantern. He did not want to let strangers in, until the light fell on Holmes's face.",
+    "“Not Mr Sherlock Holmes!” cried the porter. “I remember you, sir. You fought three rounds with me once, and you might have been a champion. Come in, all of you.”",
+    "The house was large and gloomy. There was no light anywhere except a moonbeam on one window high up under the roof. The garden all around was covered with piles of earth, as though some giant mole had been at work there. Bartholomew's years of digging had left their mark.",
+    "Thaddeus Sholto stood in front of the door, shaking. “I cannot understand it,” he said. “There is something wrong. My brother always shows a light in his study at this hour.”",
+    "Suddenly, from inside the house, came the sound of a woman crying. It was the old housekeeper, Mrs Bernstone. She ran towards us, sobbing with relief.",
+    "“Oh, Mr Thaddeus, sir, I am so glad you have come! Mr Bartholomew has locked himself in his room all day and won't answer. An hour ago I looked through the keyhole, and I saw his face. Sir, I have never seen a face like it.”",
+    "Miss Morstan stayed with the frightened housekeeper, while Holmes, Thaddeus and I went up the stairs with the lamp. The door at the top was locked, and the key had been turned from the inside. Holmes bent down to look through the keyhole, and then he stood up again quickly, breathing hard.",
+    "“There is something devilish in this, Watson,” he said. I had never seen him so moved before.",
+    "I looked through the keyhole myself, and I drew back in horror. Moonlight was streaming into the room. Looking straight at me, and seeming to hang in the air, was a face exactly like that of our companion Thaddeus. But the features were twisted into a horrible smile, a fixed and unnatural grin, which in that still, moonlit room was more frightening than any scream.",
+    "“The door must come down,” said Holmes. We threw ourselves against it together. It cracked, and at the third attempt it gave way with a crash, and we found ourselves in Bartholomew Sholto's room.",
+    "It looked like a chemical laboratory. Bottles and glass tubes stood all around, and the smell of tar filled the air. In one corner a ladder led up to a hole in the ceiling, which was large enough for a man to pass through. At the foot of the ladder there was a broken bottle, and a dark liquid had spread across the floor.",
+    "By the table, in a wooden armchair, the master of the house was seated alone. His head was sunk upon his left shoulder, with that ghastly, unexplainable smile upon his face. He was stiff and cold and had clearly been dead for many hours. Beside his hand lay a strange instrument, a brown stick with a stone head like a hammer, tied on with coarse string. Next to it was a torn sheet of paper with some words written on it. Holmes glanced at it and then handed it to me.",
+    "“You see,” he said, raising his eyebrows.",
+    "In the light of the lantern I read, with a shiver of horror, “The sign of the four.”",
+    "“In God's name, what does it all mean?” I asked.",
+    "“It means murder,” said Holmes, bending over the dead man. “Ah, I expected it. Look here!” He pointed to what looked like a long, dark thorn stuck in the skin just above the ear.",
+    "“It looks like a thorn,” I said.",
+    "“It is a thorn. You may pick it out. But be careful, because it is poisoned.”",
+    "I took it carefully between my finger and thumb. It came out so easily that it left hardly any mark.",
+    "Behind us, Thaddeus Sholto was still standing in the doorway, wringing his hands and moaning. Suddenly he cried out, “The treasure is gone! They have robbed him of the treasure! There is the hole through which we lowered it. I helped him do it myself. I was the last person who saw him alive. I left him here last night, and I heard him lock the door as I came downstairs.”",
+    "“What time was that?”",
+    "“It was ten o'clock. And now the police will suspect me. Surely you don't think it was I, gentlemen?”",
+    "“You have no reason for fear,” said Holmes kindly, putting his hand on the man's shoulder. “Take my advice and drive down to the police station to report the matter. We shall wait here until you return.”"
+   ],
+   "glossary": [
+    {
+     "term": "peeping out",
+     "meaning": "espiando, aparecendo um pouco"
+    },
+    {
+     "term": "mole",
+     "meaning": "toupeira"
+    },
+    {
+     "term": "sobbing",
+     "meaning": "soluçando"
+    },
+    {
+     "term": "devilish",
+     "meaning": "diabólico"
+    },
+    {
+     "term": "grin",
+     "meaning": "sorriso largo"
+    },
+    {
+     "term": "ghastly",
+     "meaning": "horrível, medonho"
+    },
+    {
+     "term": "coarse",
+     "meaning": "grosso, áspero"
+    },
+    {
+     "term": "wringing his hands",
+     "meaning": "torcendo as mãos de nervoso"
+    }
+   ]
+  },
+  {
+   "title": "Footprints on the Roof",
+   "paragraphs": [
+    "When Thaddeus had gone, Holmes rubbed his hands. “Now, Watson, we have half an hour to ourselves. Let us make good use of it. First, how did these people come in, and how did they leave? The door has not been opened since last night. What about the window?” He carried the lamp across the room and opened it. “No water pipe near. The roof is quite out of reach. Yet a man has climbed up by this window. It rained a little last night. Here is the mark of a muddy foot on the window sill. And here is a round, muddy mark, and here again by the table. See here, Watson! This is really a very pretty demonstration.”",
+    "I looked at the round, well-defined muddy marks. “That is not a footmark,” I said.",
+    "“It is something much more valuable to us. It is the impression of a wooden stump. You see here on the sill is the boot mark, a heavy boot with a broad metal heel, and beside it is the mark of the wooden leg.”",
+    "“It is the wooden-legged man!”",
+    "“Quite so. But there has been someone else, a very able and efficient ally. Could you climb that wall, Doctor?”",
+    "I looked out of the open window. It was a good sixty feet to the ground, and I could see no foothold anywhere.",
+    "“It is absolutely impossible,” I answered.",
+    "“Without help it is so. But suppose you had a friend up here who lowered to you this good stout rope, which I see in the corner. Then, if you were an active man, you might climb up, wooden leg and all. You would leave in the same way, and your ally would draw up the rope and close the window from inside. Then he would leave the way he came.”",
+    "“This is all very well,” I said, “but the thing becomes more mysterious than ever. How did this ally get into the room?”",
+    "“How often have I said to you,” said Holmes, “that when you have eliminated the impossible, whatever remains, however improbable, must be the truth? He did not come through the door, the window, or the chimney. Where, then, did he come from?”",
+    "“He came through the hole in the roof!” I cried.",
+    "“Of course he did.” He climbed the ladder, and I followed. The small attic was empty, except for dust. But in the dust, by the light of the lamp, we saw the clear marks of a naked foot, well-defined and perfectly formed, but scarcely half the size of those of an ordinary man.",
+    "“Holmes,” I said in a whisper, “a child has done this horrid thing.”",
+    "He had recovered his self-control in an instant. “I was surprised for a moment,” he said, “but the thing is quite natural. My memory failed me, or I should have been able to predict it.”",
+    "He found a small trapdoor in the roof and pushed it open. “This is the way he came in and went out. And look, he has left something behind.” With great care he examined the marks, and then he gave a cry of satisfaction. “He has put his foot in the creosote! You see that bottle which was broken downstairs? The liquid is creosote, and our little friend has stepped in it. Now we shall have him. I know a dog who could follow that smell to the end of the world.”",
+    "As we came down, we heard loud voices in the hall. The police had arrived, led by a stout, red-faced man in a grey suit. He was Mr Athelney Jones of Scotland Yard, and he knew Holmes well.",
+    "“Here's a pretty business!” he said loudly. “Mr Sherlock Holmes, the theorist! I remember you.”",
+    "Jones looked around the room and at the dead man. “Facts are better than theories, after all,” he declared. “The brother was here last night. They quarrelled. The brother left, and the treasure is gone. It is perfectly clear. I am afraid I must arrest Mr Thaddeus Sholto.”",
+    "“Jones, you are making a mistake,” said Holmes. “I can give you the name and description of one of the two people who were in this room last night. His name, I have every reason to believe, is Jonathan Small. He is a poorly educated man, small, active, with his right leg missing, and he wears a wooden stump which is worn away on the inner side. His left boot has a coarse, square-toed sole with an iron band round the heel. He is a middle-aged man, very sunburned, and has been a prisoner. The other man...”",
+    "“Ah! The other man?” asked Jones with a sneer, but he was clearly impressed.",
+    "“Is a rather curious person,” said Holmes, turning on his heel. “I hope before very long to introduce you to the pair of them.”",
+    "Jones refused to listen. He arrested Thaddeus, the servant Lal Rao, the housekeeper and the porter, and sent them to the police station. When the sound of their voices had died away, Holmes drew me to one side.",
+    "“Look here, Watson,” he said. “You must take Miss Morstan home to Camberwell. Then, on your way back, go to number three, Pinchin Lane, down near the water at Lambeth. The third house on the right-hand side belongs to a bird-stuffer called Sherman. Knock him up and tell him, with my compliments, that I want Toby at once. You will bring Toby back in the cab with you.”",
+    "“A dog, I suppose?”",
+    "“Yes, a strange mongrel with a most amazing power of scent. I would rather have Toby's help than that of the whole detective force of London.”"
+   ],
+   "glossary": [
+    {
+     "term": "window sill",
+     "meaning": "parapeito da janela"
+    },
+    {
+     "term": "stump",
+     "meaning": "toco (aqui, a perna de pau)"
+    },
+    {
+     "term": "ally",
+     "meaning": "aliado, cúmplice"
+    },
+    {
+     "term": "foothold",
+     "meaning": "apoio para o pé"
+    },
+    {
+     "term": "scarcely",
+     "meaning": "mal, quase não"
+    },
+    {
+     "term": "trapdoor",
+     "meaning": "alçapão"
+    },
+    {
+     "term": "sneer",
+     "meaning": "sorriso de desprezo"
+    },
+    {
+     "term": "mongrel",
+     "meaning": "vira-lata"
+    },
+    {
+     "term": "scent",
+     "meaning": "faro, cheiro"
+    }
+   ]
+  },
+  {
+   "title": "Toby Follows the Trail",
+   "paragraphs": [
+    "Miss Morstan had been calm all through the terrible night, but in the cab she broke down and cried. She told me later that she had found me cold and distant during that journey. She little knew the struggle in my heart. My love for her was strong, but how could I speak of it at such a moment? And worse, if Holmes succeeded, she would be a rich woman. It would be mean and dishonourable for a poor doctor to take advantage of her trouble. So I held her hand and said nothing.",
+    "It was nearly two o'clock when we reached Mrs Cecil Forrester's house. The kind lady had been waiting up, and she put her arms around the girl like a mother.",
+    "Pinchin Lane was a row of shabby two-storeyed brick houses in the lower quarter of Lambeth. I had to knock for some time at number three before a face appeared at an upper window.",
+    "“Go on, you drunken vagabond,” said the face. “If you make any more noise, I'll open the kennels and let out forty-three dogs on you.”",
+    "“I only want one,” I said. “Mr Sherlock Holmes...”",
+    "The effect of the name was magical. The window closed at once, and within a minute the door was open. Mr Sherman was a thin old man with blue glasses. “A friend of Mr Sherlock is always welcome,” he said. “Here is Toby.”",
+    "Toby proved to be an ugly, long-haired, lop-eared creature, half spaniel and half lurcher, brown and white in colour, with a very clumsy, waddling walk. He accepted a lump of sugar from me, and after that he followed me to the cab without difficulty. It was three o'clock when I arrived back at Pondicherry Lodge.",
+    "Holmes was waiting on the doorstep, smoking his pipe. He had climbed across the roof while I was away, to see how our little friend came down. “And look what I found up there,” he said. He held out a little pouch woven of coloured grasses, with a few beads of cheap decoration. In shape and size it was not unlike a cigarette case. Inside were half a dozen dark thorns, the same as the one that had killed Bartholomew Sholto.",
+    "“They are hellish things,” he said. “Look out that you don't prick yourself. I'm delighted to have them, for the chances are that they are all he has. Now, Toby!”",
+    "He held a handkerchief, wet with creosote, under the dog's nose. Toby smelled it eagerly, then put his nose to the ground. With a sharp cry he set off, his tail in the air, pulling hard on his lead. We had to run to keep up with him.",
+    "In the cold grey light of dawn, Toby led us over the wall and through streets that were just waking up, towards Kennington. The men had clearly chosen a winding route through back streets to avoid being seen.",
+    "Suddenly Toby stopped at the edge of a timber yard. He ran round and round, then jumped onto a large barrel and stood there, wagging his tail and looking at us with an expression of pride. The barrel was full of creosote.",
+    "Holmes and I looked at each other, and then we both burst out laughing.",
+    "“We are in a timber yard, full of creosote,” said Holmes. “Poor Toby has lost the trail. We must go back to the place where the two smells crossed.”",
+    "We did so, and this time the dog went off in a different direction, towards the river. He led us at last to the water's edge, to a small wooden wharf. There he stood whining, looking out over the dark current beyond.",
+    "“We are out of luck,” said Holmes. “They have taken a boat here.”",
+    "Over a door nearby was a board with the words, in large letters, “Mordecai Smith. Boats to hire by the hour or day.” A second notice said that a steam launch was available. Holmes looked slowly round, and his face took on a curious expression.",
+    "“This looks bad,” he said quietly. “These fellows are cleverer than I expected. They seem to have covered their tracks. Leave the talking to me, Watson.”"
+   ],
+   "glossary": [
+    {
+     "term": "dishonourable",
+     "meaning": "desonroso"
+    },
+    {
+     "term": "shabby",
+     "meaning": "maltrapilho, em mau estado"
+    },
+    {
+     "term": "kennels",
+     "meaning": "canis"
+    },
+    {
+     "term": "lop-eared",
+     "meaning": "de orelhas caídas"
+    },
+    {
+     "term": "waddling",
+     "meaning": "gingado, bamboleante"
+    },
+    {
+     "term": "pouch",
+     "meaning": "bolsinha"
+    },
+    {
+     "term": "prick",
+     "meaning": "picar, espetar"
+    },
+    {
+     "term": "timber yard",
+     "meaning": "depósito de madeira"
+    },
+    {
+     "term": "wharf",
+     "meaning": "cais, pequeno porto"
+    }
+   ]
+  },
+  {
+   "title": "The Baker Street Irregulars",
+   "paragraphs": [
+    "As we approached the door, a little curly-haired boy of six came running out, followed by a stout, red-faced woman with a large sponge in her hand.",
+    "“You come back and be washed, Jack!” she shouted. “Come back, you young imp!”",
+    "“Dear little chap!” said Holmes, cleverly. “What a rosy-cheeked young rascal! Now, Jack, is there anything you would like?”",
+    "“I'd like a shilling,” said the boy.",
+    "“Here you are, then! Catch! A fine child, Mrs Smith. I wanted to speak to Mr Smith about hiring his steam launch.”",
+    "“Why, bless you, sir, he has gone off in her since yesterday morning,” said the woman. “And to tell you the truth, I am beginning to feel frightened about him. It isn't like him to stay away so long. I don't like that wooden-legged man, with his ugly face and outlandish talk. He came here three or four times. Last night he knocked on the window at about three o'clock, and my husband went off with him. The steam was up in the launch already. My husband had woken our eldest son, Jim, and taken him too.”",
+    "“And what is the name of the launch?” asked Holmes casually.",
+    "“The Aurora, sir. She is black, with two red lines, and a black funnel with a white band.”",
+    "As we walked away, Holmes said, “The main thing with people of that sort is never to let them think that their information is of the slightest importance to you. If you do, they will close up like an oyster. If you listen to them under protest, as it were, you are very likely to get what you want.”",
+    "We took a cab back to Baker Street. I was exhausted, so I had a bath and changed my clothes, and when I came down, breakfast was ready. After breakfast he took down a large book from the shelf. “Listen to this, Watson. It is a gazetteer, a kind of geographical dictionary. ‘The Andaman Islands, situated three hundred and forty miles to the north of Sumatra, in the Bay of Bengal. The natives of these islands may perhaps claim to be among the smallest people on earth. Their average height is rather below four feet.’ You see? The little footprints, the poisoned darts, the strange stone club. Our small friend is an Andaman Islander, who uses a blowpipe. And Small, as we know, once had a connection with the Andaman Islands, where there is a great prison.”",
+    "At that moment there was a loud noise on the stairs, a sound of many bare feet, and Mrs Hudson's voice raised in protest. A dozen dirty and ragged little street boys burst into the room. One of them, taller and older than the others, stood in front with an air of authority.",
+    "“Got your message, sir,” he said, “and brought 'em on sharp.”",
+    "“In future you shall report to Wiggins alone,” said Holmes sternly, “and the rest of you must wait in the street. However, since you are all here, you may hear my instructions. I want to find the whereabouts of a steam launch called the Aurora, owned by Mordecai Smith, black with two red stripes, funnel black with a white band. She is down the river somewhere. I want one boy to be at Mordecai Smith's wharf, opposite Millbank, to say if the boat comes back. You must divide it among yourselves and search both banks thoroughly. Let me know the moment you have news. Is that all clear?”",
+    "“Yes, guv'nor,” said Wiggins.",
+    "“The old rate, and a guinea to the boy who finds the boat. Here is a day in advance. Now off you go!” He gave them each a shilling, and away they ran down the stairs.",
+    "“They can go everywhere and hear everything,” said Holmes. “Nobody notices them.”",
+    "But the day passed without news, and so did the next. Holmes became more and more restless. He walked up and down the room for hours, smoking pipe after pipe. I could hear him pacing all through the night. On the third morning he looked worn and pale. “I am going to settle the matter myself,” he said at last. “I shall go down the river and search for the launch. If any message comes, open it and act on your own judgment.”",
+    "Meanwhile I went to Camberwell to tell the ladies everything. “It is a romance!” cried Mrs Forrester. “An injured lady, half a million in treasure, and a wooden-legged ruffian.” To my surprise, Miss Morstan did not seem excited at all about the treasure. She was far more worried about poor Thaddeus Sholto, who was now in prison."
+   ],
+   "glossary": [
+    {
+     "term": "imp",
+     "meaning": "diabinho, criança travessa"
+    },
+    {
+     "term": "rascal",
+     "meaning": "malandrinho"
+    },
+    {
+     "term": "outlandish",
+     "meaning": "estranho, esquisito"
+    },
+    {
+     "term": "funnel",
+     "meaning": "chaminé (de navio)"
+    },
+    {
+     "term": "oyster",
+     "meaning": "ostra"
+    },
+    {
+     "term": "blowpipe",
+     "meaning": "zarabatana"
+    },
+    {
+     "term": "whereabouts",
+     "meaning": "paradeiro"
+    },
+    {
+     "term": "pacing",
+     "meaning": "andando de um lado para o outro"
+    },
+    {
+     "term": "ruffian",
+     "meaning": "bandido, brutamontes"
+    }
+   ]
+  },
+  {
+   "title": "The Old Sailor",
+   "paragraphs": [
+    "The next morning, the newspapers announced that Thaddeus Sholto and the housekeeper had been released, because there was no evidence against them. Shortly afterwards a telegram arrived for Holmes, but since he was away, I opened it. A few minutes later, Mr Athelney Jones himself was shown into our sitting room. He was a very different man from the loud, confident detective of Pondicherry Lodge. His face was sad, and his manner was humble, even apologetic.",
+    "“Good day, sir,” he said. “Mr Sherlock Holmes is out, I understand. I had a wire from him telling me to come here. He said he was on the track of this Sholto business.”",
+    "“He told me he would be back soon,” I said. “Please sit down and have a cigar.”",
+    "“Thank you,” he said, wiping his forehead. “I'll tell you the truth, Doctor. My theory has fallen to pieces. Mr Thaddeus Sholto was able to prove an alibi which could not be shaken. My professional reputation is at stake, and I should be very glad of a little assistance.”",
+    "Just then we heard a heavy step on the stairs, with a great deal of wheezing and coughing. An old man entered the room. He was dressed in seafaring clothes, with an old pea-jacket buttoned up to his throat. His back was bent, his knees were shaky, and he was leaning on a thick oak stick. His face was almost hidden by a scarf and bushy white eyebrows and long grey whiskers.",
+    "“What is it, my man?” I asked.",
+    "“Is Mr Sherlock Holmes here?” he said, looking around slowly.",
+    "“No, but I am acting for him. You can tell me any message you have for him.”",
+    "“It was to him himself I was to tell it,” he said, with the stubbornness of the very old. “I know where the men are that he's after, and I know where the treasure is. I know all about it.”",
+    "“Then tell me, and I shall let him know.”",
+    "“No, no. I'll tell it to him or to nobody.” He shuffled towards the door, but Athelney Jones got in front of him.",
+    "“Wait a bit, my friend,” said Jones. “You have important information, and you must not walk off. We shall keep you, whether you like it or not, until our friend returns.”",
+    "“Pretty sort of treatment this!” cried the old man, stamping his stick. But he came across sulkily and sat with his face resting on his hands. Jones and I went back to our cigars and our talk. Suddenly, however, Holmes's voice broke in upon us.",
+    "“I think that you might offer me a cigar too,” he said.",
+    "We both jumped in our chairs. There was Holmes, sitting close to us with an air of quiet amusement. The white wig, the whiskers and the pea-jacket lay in a heap beside him.",
+    "“Holmes!” I exclaimed. “You here! But where is the old man?”",
+    "“Here is the old man,” he said, holding up a heap of white hair. “Here he is: wig, whiskers, eyebrows and all. I thought my disguise was pretty good, but I hardly expected that it would stand that test.”",
+    "“Ah, you rogue!” cried Jones, highly delighted. “You would have made an actor, and a rare one.”",
+    "“But have you found them?” asked Jones eagerly.",
+    "“I have. I asked myself where I would hide a steam launch, if I were Small. He could not take it back to Smith's wharf, and he could not leave it in the open river, where the police would see it. The best answer was to take it to a boatbuilder's yard and ask for some small repair. There it would be hidden in a shed, and yet ready to leave at an hour's notice. So, dressed as a sailor, I went to every yard down the river. At the fifteenth, Jacobson's, I found the Aurora. She had been brought there two days ago by a wooden-legged man, who wanted some trifling repair to her rudder. And while I stood there, who should come along but Mordecai Smith himself, rather the worse for drink. He shouted out the name of his launch, and he said that he would need her at eight o'clock tonight, ‘eight o'clock sharp, mind, for I have two gentlemen who won't be kept waiting.’”",
+    "“Then we must arrest them at the yard,” said Jones.",
+    "“No. Small is a clever fellow. He would send a scout on ahead, and if anything looked suspicious, he would hide for another week. We must catch them on the river. I want a fast police boat, a steam launch, to be at the Westminster Stairs at seven o'clock.”",
+    "“That is easily managed,” said Jones. “And when we catch them, I shall want the treasure. It is evidence, you understand.”",
+    "“I want one thing in return,” said Holmes. “The treasure will be taken first to Miss Morstan. It is her right to open the box. And I want to hear Small's story from his own lips. I like to work the detail of my cases out.”",
+    "“Well, you are master of the situation,” said Jones. “Agreed.”",
+    "“Then,” said Holmes, “you will dine with us before we go.”"
+   ],
+   "glossary": [
+    {
+     "term": "wire",
+     "meaning": "telegrama"
+    },
+    {
+     "term": "at stake",
+     "meaning": "em jogo, em risco"
+    },
+    {
+     "term": "wheezing",
+     "meaning": "chiando ao respirar"
+    },
+    {
+     "term": "whiskers",
+     "meaning": "suíças, costeletas"
+    },
+    {
+     "term": "shuffled",
+     "meaning": "arrastou os pés"
+    },
+    {
+     "term": "sulkily",
+     "meaning": "emburrado"
+    },
+    {
+     "term": "rogue",
+     "meaning": "malandro"
+    },
+    {
+     "term": "trifling",
+     "meaning": "insignificante"
+    },
+    {
+     "term": "rudder",
+     "meaning": "leme"
+    }
+   ]
+  },
+  {
+   "title": "The Chase on the River",
+   "paragraphs": [
+    "It was a little past seven when we reached the Westminster Stairs and found our launch waiting. It was long and low, with two policemen in the stern and an engineer at the engines. Holmes looked it over with approval. We took our seats, and Jones, Holmes and I sat together in the front. Holmes had told me to bring my revolver.",
+    "“Where to?” asked Jones.",
+    "“To the Tower. Tell them to stop opposite Jacobson's yard.”",
+    "Our boat was very fast, and the lights of the city glittered on the dark water.",
+    "When we reached a point opposite Jacobson's yard, we stopped among some barges, where we could watch the yard without being seen. An hour passed. The night was cold and the river was busy with boats and ships.",
+    "“They may not come at all,” I said.",
+    "“There is your man!” said Holmes suddenly. “And she is going like the devil! Full speed ahead, engineer. Follow that launch with the yellow light. By heaven, I shall never forgive myself if she proves to have the heels of us!”",
+    "The Aurora had slipped out of the yard entrance and passed behind two or three small boats, so that she had gained a good lead. She was now flying down the river, near the shore, at a tremendous rate. Jones looked at her gravely.",
+    "“She is very fast,” he said. “I doubt if we shall catch her.”",
+    "“We must catch her!” cried Holmes between his teeth. “Heap it on, stokers! Make her do all she can! If we burn the boat, we must have them!”",
+    "The furnaces roared, and the engines beat like a great metallic heart. Our sharp bow cut through the river water, and with every throb of the engines the boat quivered like a living thing. Right ahead, a dark shape and a line of white foam showed where the Aurora was racing.",
+    "We flashed past barges, steamers and merchant vessels, in and out, and still the Aurora thundered on. Slowly, we came closer and closer. We were now near enough to see the figures on the Aurora. One man sat by the stern, with something black between his knees, over which he stooped. Beside him lay a dark mass, which looked like a Newfoundland dog. The boy held the tiller, while against the red glare of the furnace I could see old Smith, stripped to the waist, shovelling coals for dear life.",
+    "Jones yelled to them to stop. The man in the stern sprang up from the deck and shook his two clenched fists at us, cursing the while in a high, cracked voice. He was a strong, powerful man, and as he stood there with his legs apart, I could see that from the thigh downwards there was only a wooden stump upon the right side.",
+    "At the sound of his angry cries there was movement in the huddled bundle upon the deck. It straightened itself into a little black man, the smallest I have ever seen, with a great, misshapen head and a mass of tangled hair. Holmes had already drawn his revolver, and I took out mine at the sight of this savage, distorted creature. His small eyes glowed with a fierce light, and his thick lips were drawn back from his teeth in half-animal fury.",
+    "“Fire if he raises his hand,” said Holmes quietly.",
+    "We were within a boat's length by this time. Even as we looked, he plucked out from under his covering a short, round piece of wood, like a school ruler, and put it to his lips. Our pistols rang out together. He whirled round, threw up his arms, and with a kind of choking cough fell sideways into the river. I caught one glimpse of his venomous, menacing eyes amid the white swirl of the waters.",
+    "At the same moment the wooden-legged man threw himself upon the rudder and turned the boat straight for the southern bank. We were only a few feet behind. The Aurora ran up onto the mud bank with a dull crash. The fugitive sprang out, but his stump instantly sank its whole length into the sodden soil. He could not move a step, and we had to throw him a rope and drag him out, like some evil fish, over our side.",
+    "The two Smiths, father and son, sat sullenly in their launch but came aboard when commanded. On the Aurora's deck lay a heavy iron box of Indian workmanship. There was no key, but it was very heavy, and we carried it carefully into our own little cabin.",
+    "As we steamed slowly back, Holmes pointed to the wooden hatch of our boat. Stuck in it, just behind where we had been standing, was one of those murderous darts.",
+    "“It must have passed between us at the instant that we fired,” said Holmes, shrugging his shoulders. I confess that it turned me sick to think of the horrible death which had passed so close to us that night."
+   ],
+   "glossary": [
+    {
+     "term": "stern",
+     "meaning": "popa"
+    },
+    {
+     "term": "barges",
+     "meaning": "barcaças"
+    },
+    {
+     "term": "glittered",
+     "meaning": "cintilavam"
+    },
+    {
+     "term": "furnaces",
+     "meaning": "fornalhas"
+    },
+    {
+     "term": "bow",
+     "meaning": "proa"
+    },
+    {
+     "term": "quivered",
+     "meaning": "tremia"
+    },
+    {
+     "term": "tiller",
+     "meaning": "cana do leme"
+    },
+    {
+     "term": "clenched",
+     "meaning": "cerrados"
+    },
+    {
+     "term": "sodden",
+     "meaning": "encharcado"
+    },
+    {
+     "term": "sullenly",
+     "meaning": "de cara fechada"
+    }
+   ]
+  },
+  {
+   "title": "The Empty Box",
+   "paragraphs": [
+    "Our prisoner sat in the cabin opposite the iron box which he had done so much and waited so long to gain. He was a sunburned, reckless-eyed fellow, with a face lined by hard work in the open air. His beard was thick and grizzled, and he must have been well over fifty. He looked at us with neither anger nor fear, only a kind of tired calm.",
+    "“Well, Jonathan Small,” said Holmes, lighting a cigar, “I am sorry that it has come to this.”",
+    "“And so am I, sir,” he answered frankly. “I don't believe that I can swing over the job. I give you my word on the Book that I never raised a hand against Mr Sholto. It was that little hell-hound Tonga who shot one of his cursed darts into him. I had no part in it, sir. I was as grieved as if it had been my own relation. I beat the little devil with the slack end of the rope for it, but it was done, and I could not undo it again.”",
+    "“If it had been the old Major, I would have killed him with a light heart. He deserved it. But it is hard that I should be hanged over this young Sholto, with whom I had no quarrel whatever.”",
+    "When we reached the city, Jones agreed that I could take the box to Miss Morstan, as Holmes had asked, with a police inspector as my companion. I drove alone with the inspector to Camberwell. I found Miss Morstan seated by the open window, dressed in some sort of white material, with a little touch of scarlet at the neck and waist. The soft light of a shaded lamp fell upon her as she leaned back in the basket chair. She rose when she heard my step, and a bright flush of surprise and pleasure coloured her pale cheeks.",
+    "“I have brought something better than news,” I said, putting down the box on the table and speaking cheerfully, although my heart was heavy within me. “I have brought you something which is worth all the news in the world. I have brought you a fortune.”",
+    "She glanced at the iron box. “Is that the treasure, then?” she asked, coolly enough.",
+    "“Yes, this is the great Agra treasure. Half of it is yours, and half is Thaddeus Sholto's. You will have a couple of hundred thousand each. Think of that! There will be few richer young ladies in England. Is it not glorious?”",
+    "I think I must have been rather overacting my delight, and she detected a hollow ring in my congratulations, for I saw her eyebrows rise a little, and she looked at me curiously.",
+    "“If I have it,” she said, “I owe it to you.”",
+    "“No, no,” I answered, “not to me but to my friend Sherlock Holmes.” Then I told her the story of the night. When I spoke of the dart that had so narrowly missed us, she turned so white that I feared she was about to faint. “It was a shock to hear that I had placed my friends in such horrible danger,” she said.",
+    "“That is all over,” I answered. “Let us turn to something brighter. There is the treasure.”",
+    "The box was locked, and there was no key. I took a heavy iron poker from the fireplace and forced the lid open. With trembling fingers I threw back the lid. We both stood gazing in astonishment. The box was empty!",
+    "No wonder that it was heavy. The ironwork was two-thirds of an inch thick all round. It was massive, well made and solid, like a chest constructed to carry things of great price, but not one shred or crumb of metal or jewellery lay within it. It was absolutely and completely empty.",
+    "“The treasure is lost,” said Miss Morstan calmly.",
+    "As I listened to the words and realised what they meant, a great shadow seemed to pass from my soul. I did not know how this Agra treasure had weighed me down, until now that it was finally removed. It was selfish, no doubt, disloyal, wrong, but I could realise nothing save that the golden barrier was gone from between us.",
+    "“Thank God!” I said, from my very heart.",
+    "She looked at me with a quick, questioning smile. “Why do you say that?” she asked.",
+    "“Because you are within my reach again,” I said, taking her hand. She did not withdraw it. “Because I love you, Mary, as truly as ever a man loved a woman. Because this treasure, these riches, sealed my lips. Now that they are gone, I can tell you how I love you. That is why I said, ‘Thank God.’”",
+    "“Then I say, ‘Thank God,’ too,” she whispered, as I drew her to my side.",
+    "Whoever had lost a treasure, I knew that night that I had gained one."
+   ],
+   "glossary": [
+    {
+     "term": "reckless",
+     "meaning": "imprudente, inconsequente"
+    },
+    {
+     "term": "grizzled",
+     "meaning": "grisalho"
+    },
+    {
+     "term": "swing",
+     "meaning": "(gíria) ser enforcado"
+    },
+    {
+     "term": "grieved",
+     "meaning": "triste, de luto"
+    },
+    {
+     "term": "hanged",
+     "meaning": "enforcado"
+    },
+    {
+     "term": "flush",
+     "meaning": "rubor"
+    },
+    {
+     "term": "hollow ring",
+     "meaning": "som falso, sem sinceridade"
+    },
+    {
+     "term": "poker",
+     "meaning": "atiçador de lareira"
+    },
+    {
+     "term": "shred",
+     "meaning": "pedacinho"
+    }
+   ]
+  },
+  {
+   "title": "The Story of the Four",
+   "paragraphs": [
+    "When I returned to Baker Street, Jones, Holmes and the prisoner were waiting for me. I showed them the empty box. Jones's face fell, but Jonathan Small threw back his head and laughed loudly.",
+    "“This is your doing, Small,” said Jones angrily.",
+    "“Yes, I have put it away where you shall never lay hands upon it,” he cried. “It is my treasure, and if I can't have the loot, I'll take good care that no one else does. No living man has any right to it, except three men who are in the Andaman convict prison and myself. The key to it is where little Tonga is. When I saw that your launch must catch us, I put the loot away in a safe place. All along the river, I threw it in, handful by handful. It is at the bottom of the Thames.”",
+    "Holmes asked him to tell his story, and Small, sitting with his chained hands in his lap, began.",
+    "“I was born in Worcestershire. I joined the army when I was young and was sent to India. But I had hardly been there long when I went swimming in the Ganges, and a crocodile took my right leg off, just above the knee. I was no use as a soldier after that, so I got a job on an indigo plantation. Then the great Mutiny of 1857 broke out. In a few weeks the country was like hell. Thousands of soldiers rebelled against the British, and many of us fled to the old fort at Agra.",
+    "“The fort was enormous, with endless passages. I was put in charge of a small gate on the far side, with two Sikh soldiers, Mahomet Singh and Abdullah Khan. On the third night, in the dark and rain, they suddenly seized me and held a knife to my throat. ‘Do not make a noise,’ they said. ‘You can join us, or you can die. There is a fortune to be won.’ They told me that a rich rajah, fearing the war, had sent his treasure to the fort in the care of a servant, Achmet, who was coming that night disguised as a merchant. He would be guided by Dost Akbar, Abdullah's foster brother. They meant to kill him and share the treasure. I swore to be one of them.",
+    "“The man came, a little fat fellow with a heavy bundle under his arm. I will not tell you everything. He was killed, and we buried his body in an empty hall of the fort. We hid the treasure too, behind a loose brick in a wall. There were a hundred and forty-three diamonds, many emeralds, rubies and pearls. We made a plan of the place, and we each signed it with the sign of the four, swearing always to act together.",
+    "“But murder will out. After the war Achmet's body was found, and the four of us were sent to prison for life in the Andaman Islands. There I heard that two officers, Major Sholto and Captain Morstan, had lost heavily at cards and were deep in debt.",
+    "“I offered Sholto and Morstan a share of the treasure if they helped the four of us to escape. They agreed. Sholto went to India first, to find the treasure and bring back a boat for us. But he never came back. A short time later I read that he had left the army and returned to England a rich man. He had cheated us all, and Morstan too.",
+    "“From that day I lived only for revenge. I thought of it night and day. Years went by. Then I met Tonga, a little islander who was very ill. I nursed him back to health, and he became devoted to me. One night he brought a canoe, and we escaped together. After many adventures we came to England, where I found where Sholto lived. A servant in his house told me news about him. The night he was dying, I climbed into the garden and looked through the window. I saw his face, and I swore at him. Later I searched his room for the plan of the treasure, but found nothing. So I left the sign of the four on his body, to show that we had not forgotten.",
+    "“Then I heard that his son had found the treasure. I could not climb to that room with my leg, so I sent Tonga over the roof with a rope. But the little devil killed the young man before I came up. That is the whole truth, gentlemen.”",
+    "When Jones had taken his prisoner away, Holmes and I sat in silence for some time.",
+    "“Well, there is the end of our little drama,” I said at last. “I fear that it may be the last investigation in which I shall have the chance of studying your methods. Miss Morstan has done me the honour to accept me as a husband.”",
+    "He gave a most dismal groan. “I feared as much,” he said. “I really cannot congratulate you. She is one of the most charming young ladies I ever met. But love is an emotional thing, and whatever is emotional is opposed to that true cold reason which I place above all things. I should never marry myself, lest I bias my judgment.”",
+    "“It seems unfair,” I said, laughing. “You have done all the work in this business. I get a wife out of it, Jones gets the credit. Pray what remains for you?”",
+    "“For me,” said Sherlock Holmes, stretching his long white hand up for it, “there still remains the cocaine bottle.”"
+   ],
+   "glossary": [
+    {
+     "term": "loot",
+     "meaning": "saque, tesouro roubado"
+    },
+    {
+     "term": "handful",
+     "meaning": "punhado"
+    },
+    {
+     "term": "fled",
+     "meaning": "fugiram"
+    },
+    {
+     "term": "foster brother",
+     "meaning": "irmão de criação"
+    },
+    {
+     "term": "emeralds",
+     "meaning": "esmeraldas"
+    },
+    {
+     "term": "murder will out",
+     "meaning": "um crime sempre acaba sendo descoberto"
+    },
+    {
+     "term": "cheated",
+     "meaning": "enganou, trapaceou"
+    },
+    {
+     "term": "dismal",
+     "meaning": "deprimente, triste"
+    },
+    {
+     "term": "lest",
+     "meaning": "para que não"
+    }
+   ]
+  }
+ ]
+}
