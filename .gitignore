@@ -1,0 +1,3 @@
+# Arquivos de aula, livros importados e backups ficam fora do repositório, que é público
+*.json
+*.zip

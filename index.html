@@ -1,0 +1,2092 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F2F4F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121819" media="(prefers-color-scheme: dark)">
+<title>Inglês: ouvir e falar</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icone-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icone-192.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Inglês">
+<meta name="description" content="Curso pessoal de inglês: aulas no chat com o Claude, exercícios, flashcards e biblioteca.">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#F2F4F3; --surface:#FFFFFF; --ink:#1D2A2C; --muted:#5B6B6C; --line:#D7DFDD;
+  --accent:#1F5F5B; --accent-ink:#FFFFFF; --marker:#FFE07A; --marker-soft:#FFF2C4;
+  --gold:#E8CB82; --ok:#2E7D4F; --no:#B3412E;
+  --m1:#2E6B5E; --m2:#2D4A7A; --m3:#5B3A6E; --m4:#9A6328; --m5:#7A2E35;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --reader-size:1.15rem;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    color-scheme: dark;
+    --bg:#121819; --surface:#1A2224; --ink:#E4EAE8; --muted:#98A6A5; --line:#2A3537;
+    --accent:#7CC2B6; --accent-ink:#0E1A19; --marker:#6A5617; --marker-soft:#3B3313; --ok:#7FCB9A; --no:#F08A76;
+  }
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.5;-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+button,select,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.app{max-width:720px;margin:0 auto;padding:0 20px calc(96px + env(safe-area-inset-bottom,0px))}
+.muted{color:var(--muted)}
+
+/* Navegação inferior */
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding:6px 8px calc(6px + env(safe-area-inset-bottom,0px));display:flex;justify-content:center}
+.nav-inner{display:grid;grid-template-columns:repeat(4,1fr);width:100%;max-width:520px}
+.nav button{background:none;border:0;padding:6px 4px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:.72rem;color:var(--muted)}
+.nav button svg{width:24px;height:24px}
+.nav button[aria-current="page"]{color:var(--accent);font-weight:600}
+
+/* Cabeçalhos */
+.page-head{padding:28px 0 8px}
+.page-head h1{font-family:var(--serif);font-weight:600;font-size:2.1rem;line-height:1.1;margin:0 0 6px;letter-spacing:-.01em}
+.page-head p{margin:0;color:var(--muted);max-width:32em}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:10px 18px;border:1px solid var(--line);background:var(--surface);font-weight:600;font-size:.95rem}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn svg{width:18px;height:18px}
+.head-actions{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap}
+
+/* Estante */
+.module{margin-top:28px}
+.module h2{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:0}
+.module .note{margin:2px 0 12px;font-size:.88rem;color:var(--muted)}
+.shelf{display:grid;grid-auto-flow:column;grid-auto-columns:116px;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -20px;padding:6px 20px 14px;scrollbar-width:thin}
+.book-card{scroll-snap-align:start;background:none;border:0;padding:0;text-align:left;display:flex;flex-direction:column;gap:8px}
+.book-card .bt{font-family:var(--serif);font-size:.92rem;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.book-card .bs{font-size:.78rem;color:var(--muted)}
+.book-card .bs.reading{color:var(--accent);font-weight:600}
+
+/* Capa em tecido com letras douradas */
+.cover{--cloth:var(--m1);position:relative;aspect-ratio:2/3;width:100%;font-size:13px;border-radius:3px 7px 7px 3px;
+  background:
+    linear-gradient(90deg,rgba(0,0,0,.30) 0,rgba(0,0,0,.08) 5%,rgba(255,255,255,.07) 6.5%,rgba(0,0,0,0) 9%),
+    repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 1px,transparent 1px 3px),
+    repeating-linear-gradient(90deg,rgba(0,0,0,.06) 0 1px,transparent 1px 3px),
+    var(--cloth);
+  box-shadow:0 1px 0 rgba(0,0,0,.15),0 8px 16px -8px rgba(0,0,0,.5);
+  color:var(--gold);display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:20% 12% 13% 15%;overflow:hidden}
+.cover::before{content:"";position:absolute;inset:6% 7% 6% 10%;border:1px solid rgba(232,203,130,.5);border-radius:2px;pointer-events:none}
+.cover .ct{font-family:var(--serif);font-weight:600;font-size:1em;line-height:1.18;text-align:center;text-wrap:balance}
+.cover .orn{width:2.2em;height:1px;background:currentColor;opacity:.6;margin:.6em auto}
+.cover .ca{font-family:var(--serif);font-style:italic;font-size:.74em;text-align:center;opacity:.9}
+.cover.soon{filter:grayscale(.6) brightness(.95);opacity:.62}
+.cover.lg{font-size:18px}
+.m1{--cloth:var(--m1)}.m2{--cloth:var(--m2)}.m3{--cloth:var(--m3)}.m4{--cloth:var(--m4)}.m5{--cloth:var(--m5)}
+
+/* Página do livro */
+.back{background:none;border:0;padding:20px 0 4px;display:inline-flex;align-items:center;gap:4px;color:var(--accent);font-weight:600}
+.back svg{width:20px;height:20px}
+.book-top{display:grid;grid-template-columns:136px 1fr;gap:20px;align-items:end;margin-top:12px}
+.book-top h1{font-family:var(--serif);font-weight:600;font-size:1.75rem;line-height:1.12;margin:0 0 4px}
+.book-top .by{font-family:var(--serif);font-style:italic;margin:0 0 10px}
+.book-top .facts{font-size:.86rem;color:var(--muted);margin:0}
+.summary{font-size:1rem;margin:22px 0 0;max-width:34em}
+.chapters{margin:28px 0 0;padding:0;list-style:none;border-top:1px solid var(--line)}
+.chapters li{border-bottom:1px solid var(--line)}
+.chapters button{width:100%;background:none;border:0;padding:14px 2px;display:grid;grid-template-columns:2.2em 1fr auto;gap:8px;align-items:baseline;text-align:left}
+.chapters .num{font-family:var(--serif);color:var(--muted)}
+.chapters .name{font-family:var(--serif);font-size:1.05rem}
+.chapters .tag{font-size:.78rem;color:var(--accent);font-weight:600}
+.imported-note{font-size:.82rem;color:var(--muted);margin-top:18px}
+.link-btn{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-size:inherit}
+
+/* Leitor */
+.reader-bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px solid var(--line)}
+.reader-bar .back{padding:8px 0}
+.reader-bar .where{font-size:.82rem;color:var(--muted);text-align:center;flex:1}
+.size-ctrl{display:flex;gap:4px}
+.size-ctrl button{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface);font-family:var(--serif);font-weight:600}
+.size-ctrl button:first-child{font-size:.8rem}
+.size-ctrl button:last-child{font-size:1.1rem}
+.chapter{max-width:34em;margin:0 auto;padding-top:28px}
+.chapter .kicker{font-size:.85rem;color:var(--muted);margin:0 0 4px}
+.chapter h1{font-family:var(--serif);font-weight:600;font-size:1.7rem;line-height:1.15;margin:0 0 22px}
+.chapter p{font-family:var(--serif);font-size:var(--reader-size);line-height:1.78;margin:0 0 1em;hyphens:auto}
+.s{border-radius:3px;cursor:pointer;background-image:linear-gradient(var(--marker),var(--marker));background-repeat:no-repeat;background-size:0% 100%;transition:background-size .55s ease;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.s.here{background-image:linear-gradient(var(--marker-soft),var(--marker-soft));background-size:100% 100%}
+.s.on{background-image:linear-gradient(var(--marker),var(--marker));background-size:100% 100%}
+.g{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline dotted;text-decoration-color:var(--accent);text-underline-offset:.2em;text-decoration-thickness:1.5px;cursor:help}
+.glossary{margin:32px 0 0;padding:18px 0 0;border-top:1px solid var(--line)}
+.glossary h2{font-size:.95rem;margin:0 0 10px}
+.glossary dl{display:grid;grid-template-columns:minmax(7em,auto) 1fr;gap:6px 16px;margin:0;font-size:.95rem}
+.glossary dt{font-family:var(--serif);font-style:italic}
+.glossary dd{margin:0;color:var(--muted)}
+.ch-nav{display:flex;justify-content:space-between;gap:12px;margin:32px 0 8px}
+.ch-nav .btn:only-child{margin-left:auto}
+.end-note{font-family:var(--serif);font-style:italic;text-align:center;color:var(--muted);margin:28px 0 0}
+
+/* Barra de áudio */
+.audiobar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px))}
+.audiobar-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:12px}
+.play{width:52px;height:52px;flex:none;border-radius:50%;border:0;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center}
+.play svg{width:24px;height:24px}
+.ab-mid{flex:1;min-width:0}
+.ab-title{font-weight:600;font-size:.92rem}
+.ab-hint{font-size:.78rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.speed{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:6px 10px;font-size:.85rem;font-weight:600;min-width:58px}
+.voice{max-width:112px;border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:6px 4px;font-size:.8rem}
+
+/* Placeholder, aviso e folha */
+.empty{margin-top:24px;padding:20px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);max-width:34em}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(104px + env(safe-area-inset-bottom,0px));z-index:40;background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:.9rem;max-width:calc(100% - 32px);box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.sheet{position:fixed;left:12px;right:12px;bottom:calc(92px + env(safe-area-inset-bottom,0px));z-index:35;max-width:520px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:0 10px 30px rgba(0,0,0,.22);display:flex;gap:12px;align-items:flex-start}
+.sheet .term{font-family:var(--serif);font-style:italic;font-size:1.15rem}
+.sheet .meaning{color:var(--muted)}
+.sheet .close{margin-left:auto;background:none;border:0;font-size:1.3rem;line-height:1;color:var(--muted);padding:2px 4px}
+/* Hoje, Aulas e Revisão */
+.tiles{display:grid;gap:12px;margin-top:20px}
+.tile{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:16px 18px}
+.tile .big{font-family:var(--serif);font-size:1.7rem;line-height:1.1}
+.tile .big.title{font-size:1.15rem;margin-top:2px}
+.tile .lbl{color:var(--muted);font-size:.9rem}
+.tile.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.tile.primary .lbl{color:inherit;opacity:.85}
+.section-title{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:34px 0 6px}
+.stepper{display:flex;align-items:center;gap:10px;margin-top:6px}
+.stepper .score{min-width:4.5em;text-align:center}
+.prompt-box{width:100%;min-height:180px;margin-top:12px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.78rem;border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--surface);color:var(--ink)}
+.focus{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:14px 0 0;font-size:.95rem}
+.focus dt{color:var(--muted)}
+.focus dd{margin:0}
+.lesson-list{list-style:none;margin:8px 0 0;padding:0;border-top:1px solid var(--line)}
+.lesson-list li{border-bottom:1px solid var(--line)}
+.lesson-list button{width:100%;background:none;border:0;padding:14px 2px;display:grid;grid-template-columns:2.4em 1fr auto;gap:10px;align-items:baseline;text-align:left}
+.lesson-list .num{font-family:var(--serif);color:var(--muted)}
+.lesson-list .name{font-family:var(--serif);font-size:1.05rem}
+.lesson-list .tag{font-size:.78rem;color:var(--muted)}
+.lesson-list .tag.done{color:var(--accent);font-weight:600}
+.lesson-list .tag.next{color:var(--accent);font-weight:600}
+.lesson-list .sub{display:block;font-size:.82rem;color:var(--muted);margin-top:2px;line-height:1.35}
+.steps{margin:8px 0 0;padding-left:1.3em;max-width:34em}
+.steps li{margin:0 0 8px}
+.acts{margin-top:24px}
+.act{border-top:1px solid var(--line)}
+.act:last-child{border-bottom:1px solid var(--line)}
+.act summary{list-style:none;cursor:pointer;padding:16px 2px;display:grid;grid-template-columns:2em 1fr auto;gap:10px;align-items:baseline}
+.act summary::-webkit-details-marker{display:none}
+.act summary .num{font-family:var(--serif);color:var(--muted)}
+.act summary .name{font-family:var(--serif);font-size:1.12rem}
+.act summary .res{font-size:.82rem;color:var(--accent);font-weight:600}
+.act .body{padding:0 2px 20px}
+.hint{font-size:.88rem;color:var(--muted);margin:0 0 12px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.row.center{justify-content:center}
+.row .hint{margin:0}
+.mt{margin-top:10px}
+.btn.sm{padding:7px 14px;font-size:.88rem}
+.field{width:100%;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:10px 12px;font-size:1rem}
+.item{padding:14px 0;border-bottom:1px dashed var(--line)}
+.item:last-of-type{border-bottom:0}
+.item .q{font-family:var(--serif);font-size:1.08rem;margin:0 0 10px}
+.gap{color:var(--accent);font-weight:600}
+.fb{margin-top:8px;font-size:.92rem}
+.fb p{margin:0 0 4px}
+.fb.ok{color:var(--ok)}
+.fb.no{color:var(--no)}
+.w-ok{color:var(--ok);font-weight:600}
+.w-no{color:var(--no);text-decoration:underline wavy;text-underline-offset:3px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:7px 12px;font-family:var(--serif);font-size:1rem}
+.chip.used{opacity:.35}
+.chip.right{border-color:var(--ok);color:var(--ok);font-weight:600}
+.chip.wrong{border-color:var(--no);color:var(--no)}
+.answer-line{min-height:46px;border-bottom:2px solid var(--line);margin:0 0 12px;padding:6px 0;display:flex;flex-wrap:wrap;gap:8px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.pair .chip{padding:18px 10px;font-size:1.25rem;text-align:center}
+.score{font-family:var(--serif);font-size:1.5rem}
+.video-wrap{position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden;margin:0 0 12px}
+.video-wrap > *{position:absolute;inset:0;width:100%;height:100%}
+.media-card{padding:6px 0 14px;border-bottom:1px dashed var(--line)}
+.media-card:last-child{border-bottom:0}
+.media-card h3{font-family:var(--serif);font-weight:600;font-size:1.08rem;margin:8px 0 4px}
+.media-card audio{width:100%;margin:0 0 10px}
+.vocab{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:10px 0;border-bottom:1px dashed var(--line)}
+.vocab .t{font-family:var(--serif);font-size:1.05rem}
+.vocab .tr{color:var(--muted);font-size:.92rem}
+.vocab .ex{grid-column:1/-1;font-family:var(--serif);font-style:italic;font-size:.92rem;color:var(--muted)}
+.flag{font-size:.78rem;font-weight:600;color:var(--no)}
+.icon-btn{width:40px;height:40px;flex:none;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);display:grid;place-items:center}
+.icon-btn svg{width:18px;height:18px}
+.err{padding:12px 0;border-bottom:1px dashed var(--line)}
+.err .said{text-decoration:line-through;color:var(--muted)}
+.err .right{font-family:var(--serif);font-size:1.05rem}
+.err .why{font-size:.9rem;color:var(--muted)}
+.flash{margin:16px auto 0;max-width:30em;border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:24px 20px;text-align:center;min-height:240px;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.flash .front{font-family:var(--serif);font-size:1.7rem;line-height:1.2}
+.flash .ex{font-family:var(--serif);font-style:italic;color:var(--muted)}
+.flash .back{font-size:1.15rem;border-top:1px solid var(--line);padding-top:12px}
+.flash .meta{font-size:.85rem;color:var(--muted)}
+.flash-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:30em;margin:14px auto 0}
+.flash-actions .btn{justify-content:center}
+.flash-actions .btn:only-child{grid-column:1/-1}
+dialog.importer{border:1px solid var(--line);border-radius:16px;background:var(--surface);color:var(--ink);padding:20px;width:min(560px,calc(100% - 24px))}
+dialog.importer::backdrop{background:rgba(0,0,0,.45)}
+dialog.importer h2{font-family:var(--serif);margin:0 0 6px;font-size:1.3rem}
+dialog.importer p{margin:0}
+dialog.importer textarea{width:100%;min-height:180px;margin:12px 0;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--bg);color:var(--ink)}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion: reduce){.s{transition:none}}
+@media (min-width:600px){.shelf{grid-auto-columns:132px}.cover{font-size:14px}}
+</style>
+</head>
+<body>
+<main class="app" id="view"></main>
+<nav class="nav" id="nav" aria-label="Seções">
+  <div class="nav-inner">
+    <button data-tab="hoje"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Hoje</button>
+    <button data-tab="aulas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="m2 13 10 5 10-5"/></svg>Aulas</button>
+    <button data-tab="biblioteca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4h4v16H4zM10 4h4v16h-4zM15.5 5.2l3.9-1 3.1 14.6-3.9 1z"/></svg>Biblioteca</button>
+    <button data-tab="revisao"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>Revisão</button>
+  </div>
+</nav>
+<div class="audiobar" id="audiobar" hidden></div>
+<div class="sheet" id="sheet" hidden role="dialog" aria-live="polite"></div>
+<div class="toast" id="toast" hidden role="status"></div>
+<dialog class="importer" id="importer" aria-labelledby="impTitulo">
+  <h2 id="impTitulo">Importar</h2>
+  <p class="hint" id="impDica">Cole aqui o JSON ou escolha um arquivo .json.</p>
+  <textarea id="impTexto" spellcheck="false" autocapitalize="off" autocorrect="off" aria-label="JSON para importar"></textarea>
+  <div class="row">
+    <button class="btn primary" id="impColar">Importar texto colado</button>
+    <button class="btn" id="impArquivo">Escolher arquivo</button>
+    <button class="btn" id="impFechar">Cancelar</button>
+  </div>
+</dialog>
+<input type="file" id="importFile" accept=".json,application/json" hidden>
+
+<script>
+/* ============================================================
+   CATÁLOGO DA COLEÇÃO
+   Todos os livros planejados por módulo. Os que já têm texto
+   ficam em LIVROS, mais abaixo; os outros aparecem como "Em breve".
+   ============================================================ */
+const MODULOS = [
+  {n:1, nivel:'A1', nota:'Nível A1, livros de até 1.500 palavras'},
+  {n:2, nivel:'A2', nota:'Nível A2, livros de 2.000 a 3.000 palavras'},
+  {n:3, nivel:'B1', nota:'Nível B1, livros de 4.000 a 6.000 palavras'},
+  {n:4, nivel:'B2', nota:'Nível B2, livros de 7.000 a 10.000 palavras'},
+  {n:5, nivel:'C1', nota:'Nível C1, livros de 10.000 a 15.000 palavras'}
+];
+
+const CATALOGO = [
+  /* Módulo 1 (A1): contos curtos com final marcante */
+  {id:'gift-of-the-magi', title:'The Gift of the Magi', author:'O. Henry', year:1905, module:1},
+  {id:'red-headed-league', title:'The Red-Headed League', author:'Arthur Conan Doyle', year:1891, module:1},
+  {id:'tell-tale-heart', title:'The Tell-Tale Heart', author:'Edgar Allan Poe', year:1843, module:1},
+  {id:'the-necklace', title:'The Necklace', author:'Guy de Maupassant', year:1884, module:1},
+  {id:'monkeys-paw', title:'The Monkey’s Paw', author:'W. W. Jacobs', year:1902, module:1},
+  /* Módulo 2 (A2): mistério e aventura */
+  {id:'study-in-scarlet', title:'A Study in Scarlet', author:'Arthur Conan Doyle', year:1887, module:2},
+  {id:'rue-morgue', title:'The Murders in the Rue Morgue', author:'Edgar Allan Poe', year:1841, module:2},
+  {id:'eighty-days', title:'Around the World in Eighty Days', author:'Jules Verne', year:1872, module:2},
+  {id:'invisible-man', title:'The Invisible Man', author:'H. G. Wells', year:1897, module:2},
+  {id:'canterville-ghost', title:'The Canterville Ghost', author:'Oscar Wilde', year:1887, module:2},
+  /* Módulo 3 (B1): grandes histórias */
+  {id:'baskervilles', title:'The Hound of the Baskervilles', author:'Arthur Conan Doyle', year:1902, module:3},
+  {id:'moby-dick', title:'Moby-Dick', author:'Herman Melville', year:1851, module:3},
+  {id:'monte-cristo', title:'The Count of Monte Cristo', author:'Alexandre Dumas', year:1844, module:3},
+  {id:'jekyll-hyde', title:'Dr Jekyll and Mr Hyde', author:'Robert Louis Stevenson', year:1886, module:3},
+  {id:'father-brown', title:'The Innocence of Father Brown', author:'G. K. Chesterton', year:1911, module:3},
+  /* Módulo 4 (B2): romances com mais camadas */
+  {id:'sign-of-four', title:'The Sign of Four', author:'Arthur Conan Doyle', year:1890, module:4},
+  {id:'red-and-black', title:'The Red and the Black', author:'Stendhal', year:1830, module:4},
+  {id:'phantom-opera', title:'The Phantom of the Opera', author:'Gaston Leroux', year:1910, module:4},
+  {id:'dorian-gray', title:'The Picture of Dorian Gray', author:'Oscar Wilde', year:1890, module:4},
+  {id:'frankenstein', title:'Frankenstein', author:'Mary Shelley', year:1818, module:4},
+  /* Módulo 5 (C1): perto do original */
+  {id:'valley-of-fear', title:'The Valley of Fear', author:'Arthur Conan Doyle', year:1915, module:5},
+  {id:'crime-punishment', title:'Crime and Punishment', author:'Fyodor Dostoevsky', year:1866, module:5},
+  {id:'dracula', title:'Dracula', author:'Bram Stoker', year:1897, module:5},
+  {id:'great-gatsby', title:'The Great Gatsby', author:'F. Scott Fitzgerald', year:1925, module:5},
+  {id:'moonstone', title:'The Moonstone', author:'Wilkie Collins', year:1868, module:5}
+];
+
+/* ============================================================
+   LIVROS ADAPTADOS
+   Mesmo formato aceito em "Importar livro" (.json).
+   ============================================================ */
+const LIVROS = [
+{
+  id:'gift-of-the-magi',
+  title:'The Gift of the Magi',
+  author:'O. Henry',
+  year:1905,
+  module:1,
+  level:'A1',
+  summary:'Nova York, véspera de Natal. Della tem só um dólar e oitenta e sete centavos para comprar um presente para Jim, o marido que ela ama. Os dois são pobres, mas têm duas coisas de muito valor. Uma história curta sobre amor e sacrifício.',
+  chapters:[
+    {
+      title:'One Dollar and Eighty-Seven Cents',
+      paragraphs:[
+        'One dollar and eighty-seven cents. That is all the money. Della counts it. She counts it again. She counts it a third time. It is always one dollar and eighty-seven cents. And tomorrow is Christmas.',
+        'Della sits on the old sofa and cries. She wants to buy a present for her husband, Jim. She loves Jim very much. But what can she buy with one dollar and eighty-seven cents?',
+        'Della and Jim live in a small apartment in New York. There is one room with an old sofa, a small table and a small window. Jim works every day, but his pay is only twenty dollars a week. The rent is eight dollars a week, and food is expensive.',
+        'Every week, Della saves a little money. She buys cheap food. She does not buy new clothes. She walks everywhere. For many months she saves and saves. But now she has only one dollar and eighty-seven cents.',
+        '“It is not enough,” she says. “It is not enough for a good present. Jim is a wonderful husband. He needs a wonderful present.”'
+      ],
+      glossary:[
+        {term:'counts', meaning:'conta (verbo count, contar)'},
+        {term:'cries', meaning:'chora'},
+        {term:'present', meaning:'presente'},
+        {term:'husband', meaning:'marido'},
+        {term:'pay', meaning:'salário'},
+        {term:'rent', meaning:'aluguel'},
+        {term:'saves', meaning:'economiza, guarda dinheiro'},
+        {term:'cheap', meaning:'barato'},
+        {term:'enough', meaning:'suficiente'}
+      ]
+    },
+    {
+      title:'Two Special Things',
+      paragraphs:[
+        'Della and Jim are poor. But they have two special things, and they are very proud of them.',
+        'The first special thing is Jim’s watch. It is a beautiful gold watch, and it is very old. It comes from Jim’s grandfather. Jim loves his watch, but it has no chain. It has only an old leather strap. In the street, Jim looks at the time quickly, and then he hides the watch. He is a little embarrassed.',
+        'The second special thing is Della’s hair. Her hair is long and brown and very beautiful. When it is down, it goes down her back to her knees. It shines like a brown river.',
+        'Della stands up and goes to the mirror. She looks at her long hair for a minute. Her eyes are bright. Then her face is white. She has an idea.',
+        'She puts on her old brown coat and her old brown hat. She runs out of the apartment, down the stairs and into the street.'
+      ],
+      glossary:[
+        {term:'poor', meaning:'pobres'},
+        {term:'proud', meaning:'orgulhosos'},
+        {term:'watch', meaning:'relógio'},
+        {term:'gold', meaning:'de ouro'},
+        {term:'chain', meaning:'corrente'},
+        {term:'leather strap', meaning:'pulseira de couro'},
+        {term:'hides', meaning:'esconde'},
+        {term:'embarrassed', meaning:'envergonhado'},
+        {term:'knees', meaning:'joelhos'},
+        {term:'shines', meaning:'brilha'},
+        {term:'mirror', meaning:'espelho'},
+        {term:'stairs', meaning:'escada'}
+      ]
+    },
+    {
+      title:'Madame Sofronie',
+      paragraphs:[
+        'Della walks fast along the street. She stops at a door with a sign: “Madame Sofronie. Hair of All Kinds.” She goes up the stairs and into a small shop. Madame Sofronie is a big woman with cold eyes.',
+        '“Do you buy hair?” Della asks.',
+        '“Yes, I buy hair,” says Madame Sofronie. “Take off your hat. I want to see it.”',
+        'Della takes off her hat, and her beautiful brown hair falls down.',
+        'Madame Sofronie touches the hair with her big hand. “Twenty dollars,” she says.',
+        '“Give me the money. Quickly,” says Della.',
+        'One hour later, Della has short hair and twenty dollars. Now she is happy. She goes from shop to shop and looks for a present for Jim. And then she finds it: a platinum watch chain. It is simple and beautiful, like Jim. It is perfect for his gold watch.',
+        '“With this chain,” she thinks, “Jim can look at the time anywhere. He can be proud of his watch.”',
+        'The chain costs twenty-one dollars. Della pays and runs home with eighty-seven cents.'
+      ],
+      glossary:[
+        {term:'sign', meaning:'placa'},
+        {term:'kinds', meaning:'tipos'},
+        {term:'takes off', meaning:'tira (chapéu, roupa)'},
+        {term:'touches', meaning:'toca'},
+        {term:'quickly', meaning:'rápido'},
+        {term:'later', meaning:'depois'},
+        {term:'looks for', meaning:'procura'},
+        {term:'finds', meaning:'encontra'},
+        {term:'platinum', meaning:'platina'},
+        {term:'costs', meaning:'custa'},
+        {term:'pays', meaning:'paga'}
+      ]
+    },
+    {
+      title:'Short Hair',
+      paragraphs:[
+        'At home, Della looks in the mirror. Her hair is very short now, with small curls all over her head. She looks like a schoolboy.',
+        '“Oh, Jim,” she says quietly. “Please don’t be angry.”',
+        'At seven o’clock the coffee is ready. Della sits near the door with the chain in her hand. She hears Jim on the stairs, and her face is white. “Please, God,” she says, “I want Jim to think I am still pretty.”',
+        'The door opens and Jim comes in. He is thin and serious. He is only twenty-two. He needs a new coat, and he has no gloves.',
+        'Jim stops at the door. He looks at Della, and he doesn’t move. His eyes are strange. They are not angry. They are not surprised. Della doesn’t understand his eyes, and she is afraid.',
+        'She runs to him. “Jim, darling,” she cries, “don’t look at me like that! I sold my hair. I wanted to buy a present for you. My hair grows fast. Say ‘Merry Christmas’, Jim, and be happy. I have a beautiful present for you!”',
+        '“Your hair is gone?” Jim asks slowly, like a man in a dream.',
+        '“Yes, it is gone. I sold it,” says Della. “But it is Christmas, Jim. Be nice to me. Maybe someone can count the hairs on my head, but nobody can count my love for you.”'
+      ],
+      glossary:[
+        {term:'curls', meaning:'cachos'},
+        {term:'looks like', meaning:'parece'},
+        {term:'quietly', meaning:'baixinho'},
+        {term:'angry', meaning:'bravo'},
+        {term:'still', meaning:'ainda'},
+        {term:'pretty', meaning:'bonita'},
+        {term:'thin', meaning:'magro'},
+        {term:'gloves', meaning:'luvas'},
+        {term:'strange', meaning:'estranhos'},
+        {term:'afraid', meaning:'com medo'},
+        {term:'darling', meaning:'querido'},
+        {term:'sold', meaning:'vendi (passado de sell, vender)'},
+        {term:'wanted', meaning:'queria (passado de want)'},
+        {term:'grows', meaning:'cresce'},
+        {term:'gone', meaning:'não existe mais, foi embora'},
+        {term:'dream', meaning:'sonho'},
+        {term:'nobody', meaning:'ninguém'}
+      ]
+    },
+    {
+      title:'The Magi',
+      paragraphs:[
+        'Jim wakes up from his dream and takes Della in his arms. Then he takes a small package out of his coat and puts it on the table.',
+        '“Dell,” he says, “short hair or long hair, I love you. But open the package, and you can understand.”',
+        'Della opens the package. First she screams with happiness. Then she cries.',
+        'In the package there are combs, a set of beautiful combs for long hair. They have small jewels on them. Della knows these combs. For a long time she looks at them in a shop window on Broadway, and she loves them. But they are very expensive. And now the combs are hers, but her long hair is gone.',
+        'She holds the combs and smiles through her tears. “My hair grows very fast, Jim!” she says.',
+        'Then she remembers his present. She opens her hand and shows him the chain. “Isn’t it beautiful, Jim? Now you can look at the time a hundred times a day. Give me your watch. I want to see the chain on it.”',
+        'Jim doesn’t give her the watch. He sits down on the sofa, puts his hands behind his head and smiles.',
+        '“Dell,” he says, “let’s put our presents away for now. They are too nice for us at the moment. I sold the watch for the money for your combs. And now let’s have dinner.”',
+        'The magi are the three wise men in the Christmas story. They bring presents to the baby Jesus. They are wise, so their presents are wise too. Della and Jim are two young people in a small apartment. They give away the most special things in their home. Maybe they are not very wise. But of all the people who give presents, these two are the wisest. They are the magi.'
+      ],
+      glossary:[
+        {term:'wakes up', meaning:'acorda'},
+        {term:'package', meaning:'pacote'},
+        {term:'screams', meaning:'grita'},
+        {term:'happiness', meaning:'felicidade'},
+        {term:'combs', meaning:'pentes de enfeite para o cabelo'},
+        {term:'jewels', meaning:'pedras preciosas'},
+        {term:'shop window', meaning:'vitrine'},
+        {term:'holds', meaning:'segura'},
+        {term:'tears', meaning:'lágrimas'},
+        {term:'remembers', meaning:'lembra'},
+        {term:'for now', meaning:'por enquanto'},
+        {term:'wise', meaning:'sábios'},
+        {term:'give away', meaning:'abrem mão de, dão'},
+        {term:'wisest', meaning:'os mais sábios'},
+        {term:'magi', meaning:'os Reis Magos'}
+      ]
+    }
+  ]
+}
+];
+
+/* ============================================================
+   ARMAZENAMENTO (com reserva em memória se o navegador bloquear)
+   ============================================================ */
+/* Prefixo evita conflito com outros apps hospedados no mesmo endereço do GitHub Pages */
+const PREFIXO = 'ingles:';
+const memoria = {};
+const store = {
+  get(k, padrao){
+    try { const v = localStorage.getItem(PREFIXO + k); if (v !== null) return JSON.parse(v); } catch(e) {}
+    return (k in memoria) ? memoria[k] : padrao;
+  },
+  set(k, v){
+    memoria[k] = v;
+    try { localStorage.setItem(PREFIXO + k, JSON.stringify(v)); } catch(e) {}
+  }
+};
+
+/* ============================================================
+   UTILITÁRIOS
+   ============================================================ */
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const fmt = n => n.toLocaleString('pt-BR');
+const reduzMovimento = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function dividirFrases(texto){
+  if (window.Intl && Intl.Segmenter){
+    const seg = new Intl.Segmenter('en', {granularity:'sentence'});
+    return Array.from(seg.segment(texto), s => s.segment.trim()).filter(Boolean);
+  }
+  return (texto.match(/[^.!?]+[.!?]+[”’"']?\s*|[^.!?]+$/g) || [texto]).map(s => s.trim()).filter(Boolean);
+}
+function contarPalavras(livro){
+  let n = 0;
+  livro.chapters.forEach(c => c.paragraphs.forEach(p => { n += (p.match(/[A-Za-z’']+/g) || []).length; }));
+  return n;
+}
+
+let toastTimer;
+function aviso(msg){
+  const t = $('#toast');
+  t.textContent = msg; t.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.hidden = true; }, 3200);
+}
+
+const ICON = {
+  back:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>',
+  play:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>',
+  pause:'<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>',
+  read:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2zM22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"/></svg>',
+  listen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/></svg>',
+  importar:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg>'
+};
+
+/* ============================================================
+   DADOS DA BIBLIOTECA
+   ============================================================ */
+function todosLivros(){
+  const importados = store.get('livros:importados', {});
+  const mapa = new Map();
+  CATALOGO.forEach(c => mapa.set(c.id, {...c, disponivel:false}));
+  LIVROS.forEach(b => mapa.set(b.id, {...(mapa.get(b.id) || {}), ...b, disponivel:true}));
+  Object.values(importados).forEach(b => mapa.set(b.id, {...(mapa.get(b.id) || {}), ...b, disponivel:true, importado:true}));
+  return [...mapa.values()];
+}
+function livroPorId(id){ return todosLivros().find(b => b.id === id && b.disponivel); }
+function progresso(id){ return store.get('progresso:' + id, null); }
+function salvarProgresso(id, cap, frase, lido){
+  const atual = progresso(id) || {};
+  store.set('progresso:' + id, {cap, frase, lido: lido || atual.lido || false});
+}
+
+function capa(b, grande){
+  return `<div class="cover m${b.module}${b.disponivel ? '' : ' soon'}${grande ? ' lg' : ''}" aria-hidden="true">
+    <div class="ct">${esc(b.title)}</div>
+    <div><div class="orn"></div><div class="ca">${esc(b.author)}</div></div>
+  </div>`;
+}
+function statusLivro(b){
+  if (!b.disponivel) return '<span class="bs">Em breve</span>';
+  const p = progresso(b.id);
+  if (!p) return '<span class="bs">Novo</span>';
+  if (p.lido) return '<span class="bs">Lido</span>';
+  return `<span class="bs reading">Capítulo ${p.cap + 1} de ${b.chapters.length}</span>`;
+}
+
+/* ============================================================
+   TELAS
+   ============================================================ */
+function telaBiblioteca(){
+  const livros = todosLivros();
+  const modulos = MODULOS.map(m => {
+    const doModulo = livros.filter(b => b.module === m.n);
+    if (!doModulo.length) return '';
+    doModulo.sort((a, b) => (b.disponivel - a.disponivel));
+    return `<section class="module" aria-labelledby="mod${m.n}">
+      <h2 id="mod${m.n}">Módulo ${m.n}</h2>
+      <p class="note">${esc(m.nota)}</p>
+      <div class="shelf">
+        ${doModulo.map(b => `<button class="book-card" data-book="${esc(b.id)}" data-ok="${b.disponivel ? 1 : 0}" aria-label="${esc(b.title)}, de ${esc(b.author)}">
+          ${capa(b)}
+          <span class="bt">${esc(b.title)}</span>
+          ${statusLivro(b)}
+        </button>`).join('')}
+      </div>
+    </section>`;
+  }).join('');
+  return `<header class="page-head">
+      <h1>Biblioteca</h1>
+      <p>Clássicos em domínio público, adaptados para cada módulo do curso. Leia ou ouça.</p>
+      <div class="head-actions"><button class="btn" data-act="importar-livro">${ICON.importar}Importar livro</button></div>
+    </header>
+    ${modulos}`;
+}
+
+function telaLivro(b){
+  const p = progresso(b.id);
+  const palavras = contarPalavras(b);
+  const continuar = p && !p.lido && (p.cap > 0 || p.frase > 0);
+  return `<button class="back" data-go="#biblioteca">${ICON.back}Biblioteca</button>
+    <div class="book-top">
+      ${capa(b, true)}
+      <div>
+        <h1>${esc(b.title)}</h1>
+        <p class="by">${esc(b.author)}</p>
+        <p class="facts">Original de ${esc(b.year)}. Adaptação nível ${esc(b.level || MODULOS[b.module - 1].nivel)}, módulo ${esc(b.module)}, com ${fmt(palavras)} palavras.</p>
+      </div>
+    </div>
+    ${b.summary ? `<p class="summary">${esc(b.summary)}</p>` : ''}
+    <div class="head-actions">
+      <button class="btn primary" data-read="${p && !p.lido ? p.cap : 0}">${ICON.read}${continuar ? `Continuar no capítulo ${p.cap + 1}` : 'Ler'}</button>
+      ${temVoz ? `<button class="btn" data-listen="${p && !p.lido ? p.cap : 0}">${ICON.listen}Ouvir</button>` : ''}
+    </div>
+    <ol class="chapters">
+      ${b.chapters.map((c, i) => `<li><button data-read="${i}">
+        <span class="num">${i + 1}</span><span class="name">${esc(c.title)}</span>
+        <span class="tag">${p && !p.lido && p.cap === i ? 'Lendo' : ''}</span>
+      </button></li>`).join('')}
+    </ol>
+    ${b.importado ? `<p class="imported-note">Livro importado. <button class="link-btn" data-remove="${esc(b.id)}">Remover da biblioteca</button></p>` : ''}`;
+}
+
+function telaLeitor(b, ci){
+  const c = b.chapters[ci];
+  const glossario = c.glossary || [];
+  const significado = {};
+  glossario.forEach(g => { significado[g.term.toLowerCase()] = g.meaning; });
+  const termos = glossario.map(g => g.term).sort((a, z) => z.length - a.length);
+  const re = termos.length ? new RegExp('(^|[^A-Za-z’\'])(' + termos.map(escRe).join('|') + ')(?=$|[^A-Za-z’\'])', 'gi') : null;
+  leitor.significado = significado;
+  leitor.frases = [];
+  let k = 0;
+  const paragrafos = c.paragraphs.map(par => {
+    const frases = dividirFrases(par).map(f => {
+      leitor.frases.push(f);
+      let html = esc(f);
+      if (re) html = html.replace(re, (m, antes, termo) => `${antes}<button type="button" class="g" data-t="${esc(termo.toLowerCase())}">${termo}</button>`);
+      return `<span class="s" data-i="${k++}">${html}</span>`;
+    });
+    return `<p>${frases.join(' ')}</p>`;
+  }).join('');
+  const ultimo = ci === b.chapters.length - 1;
+  return `<div class="reader-bar">
+      <button class="back" data-go="#livro/${esc(b.id)}" aria-label="Voltar para o livro">${ICON.back}Livro</button>
+      <span class="where">Capítulo ${ci + 1} de ${b.chapters.length}</span>
+      <div class="size-ctrl"><button id="fontMenos" aria-label="Diminuir letra">A</button><button id="fontMais" aria-label="Aumentar letra">A</button></div>
+    </div>
+    <article class="chapter">
+      <p class="kicker">Capítulo ${ci + 1}</p>
+      <h1>${esc(c.title)}</h1>
+      ${paragrafos}
+      ${glossario.length ? `<section class="glossary"><h2>Palavras do capítulo</h2><dl>
+        ${glossario.map(g => `<dt>${esc(g.term)}</dt><dd>${esc(g.meaning)}</dd>`).join('')}
+      </dl></section>` : ''}
+      <div class="ch-nav">
+        ${ci > 0 ? `<button class="btn" data-read="${ci - 1}">Capítulo anterior</button>` : ''}
+        ${ultimo ? `<button class="btn primary" id="btnConcluir">Concluir livro</button>` : `<button class="btn primary" data-read="${ci + 1}">Próximo capítulo</button>`}
+      </div>
+      ${ultimo ? '<p class="end-note">The End</p>' : ''}
+    </article>`;
+}
+
+
+/* ============================================================
+   LEITURA EM VOZ ALTA (voz do próprio aparelho)
+   ============================================================ */
+const temVoz = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+const VELOCIDADES = [0.6, 0.75, 0.9, 1, 1.15];
+const leitor = {livro:null, cap:0, frases:[], significado:{}, idx:0, tocando:false, token:0, aposCapitulo:false};
+
+function vozesIngles(){
+  if (!temVoz) return [];
+  return speechSynthesis.getVoices().filter(v => /^en([-_]|$)/i.test(v.lang));
+}
+function vozEscolhida(){
+  const lista = vozesIngles();
+  const salva = store.get('voz', null);
+  return lista.find(v => v.voiceURI === salva) || lista.find(v => /en[-_]US/i.test(v.lang)) || lista[0] || null;
+}
+function rotuloVelocidade(r){ return String(r).replace('.', ',') + '×'; }
+
+function montarBarraAudio(){
+  const bar = $('#audiobar');
+  if (!temVoz){
+    bar.innerHTML = '<div class="audiobar-inner"><div class="ab-mid"><div class="ab-title">Áudio indisponível</div><div class="ab-hint">Este navegador não tem leitura em voz alta.</div></div></div>';
+    bar.hidden = false;
+    return;
+  }
+  const vel = store.get('velocidade', 0.9);
+  bar.innerHTML = `<div class="audiobar-inner">
+    <button class="play" id="btnPlay" aria-label="Ouvir">${ICON.play}</button>
+    <div class="ab-mid"><div class="ab-title" id="abTitulo">Ouvir capítulo</div><div class="ab-hint" id="abDica">Toque numa frase para começar dali</div></div>
+    <button class="speed" id="btnVel" aria-label="Velocidade">${rotuloVelocidade(vel)}</button>
+    <select class="voice" id="selVoz" aria-label="Voz"></select>
+  </div>`;
+  bar.hidden = false;
+  preencherVozes();
+}
+function preencherVozes(){
+  const sel = $('#selVoz');
+  if (!sel) return;
+  const lista = vozesIngles();
+  const atual = vozEscolhida();
+  if (!lista.length){
+    sel.innerHTML = '<option>Sem voz em inglês</option>';
+    sel.disabled = true;
+    return;
+  }
+  sel.disabled = false;
+  sel.innerHTML = lista.map(v => `<option value="${esc(v.voiceURI)}"${atual && v.voiceURI === atual.voiceURI ? ' selected' : ''}>${esc(v.name.replace(/^(Microsoft|Google)\s+/,''))} (${esc(v.lang.replace('_','-'))})</option>`).join('');
+}
+if (temVoz) speechSynthesis.addEventListener('voiceschanged', preencherVozes);
+
+function atualizarBarra(){
+  const btn = $('#btnPlay');
+  if (!btn) return;
+  btn.innerHTML = leitor.tocando ? ICON.pause : ICON.play;
+  btn.setAttribute('aria-label', leitor.tocando ? 'Pausar' : 'Ouvir');
+  $('#abTitulo').textContent = leitor.tocando ? 'Lendo em voz alta' : 'Ouvir capítulo';
+  $('#abDica').textContent = leitor.tocando ? 'Toque numa frase para pular para ela' : 'Toque numa frase para começar dali';
+}
+function marcarFrase(i, classe){
+  document.querySelectorAll('.s.on, .s.here').forEach(el => el.classList.remove('on', 'here'));
+  const el = document.querySelector(`.s[data-i="${i}"]`);
+  if (!el) return;
+  el.classList.add(classe);
+  const r = el.getBoundingClientRect();
+  const topo = 70, base = window.innerHeight - 110;
+  if (r.top < topo || r.bottom > base) el.scrollIntoView({block:'center', behavior: reduzMovimento ? 'auto' : 'smooth'});
+}
+function tocarDe(i){
+  if (!temVoz) return;
+  leitor.token++;
+  const ocupado = speechSynthesis.speaking || speechSynthesis.pending;
+  speechSynthesis.cancel();
+  leitor.idx = Math.max(0, Math.min(i, leitor.frases.length - 1));
+  leitor.tocando = true;
+  atualizarBarra();
+  /* Se algo estava tocando, espera um instante: alguns navegadores ignoram a fala dada logo após cancel(). */
+  if (ocupado) setTimeout(falarProxima, 80); else falarProxima();
+}
+function falarProxima(){
+  if (!leitor.tocando) return;
+  if (leitor.idx >= leitor.frases.length){
+    const b = leitor.livro, prox = leitor.cap + 1;
+    leitor.tocando = false;
+    atualizarBarra();
+    if (b && prox < b.chapters.length){
+      salvarProgresso(b.id, prox, 0);
+      leitor.aposCapitulo = true;
+      location.hash = `#ler/${b.id}/${prox + 1}`;
+    } else if (b){
+      salvarProgresso(b.id, leitor.cap, 0, true);
+      aviso('Fim do livro.');
+    }
+    return;
+  }
+  const i = leitor.idx;
+  marcarFrase(i, 'on');
+  const u = new SpeechSynthesisUtterance(leitor.frases[i]);
+  const voz = vozEscolhida();
+  if (voz){ u.voice = voz; u.lang = voz.lang; } else { u.lang = 'en-US'; }
+  u.rate = store.get('velocidade', 0.9);
+  const meu = ++leitor.token;
+  u.onend = () => {
+    if (meu !== leitor.token) return;
+    leitor.idx++;
+    if (leitor.livro) salvarProgresso(leitor.livro.id, leitor.cap, Math.min(leitor.idx, leitor.frases.length - 1));
+    falarProxima();
+  };
+  u.onerror = e => {
+    if (meu !== leitor.token) return;
+    if (e.error === 'interrupted' || e.error === 'canceled') return;
+    leitor.tocando = false;
+    atualizarBarra();
+    aviso('Não foi possível tocar o áudio. Tente outra voz.');
+  };
+  speechSynthesis.speak(u);
+}
+function pausar(){
+  if (!temVoz) return;
+  leitor.tocando = false;
+  leitor.token++;
+  speechSynthesis.cancel();
+  atualizarBarra();
+  marcarFrase(leitor.idx, 'here');
+}
+
+/* ============================================================
+   EMENTA (usada para montar o prompt de cada aula)
+   [número, som, escuta, gramática, vocabulário e situação]
+   ============================================================ */
+const EMENTA = [
+  [0,"Diagnóstico","Teste de pares mínimos","Teste de nível","Teste de vocabulário; leitura em voz alta e conversa curta, gravadas para comparar no fim do curso"],
+  [1,"/iː/ × /ɪ/","sheep/ship, leave/live, eat/it","Verbo to be e a/an com profissões","Apresentar-se: profissões, países e cumprimentos"],
+  [2,"Consoantes finais sem vogal extra","Identificar como a palavra termina","Artigos: a/an, the e quando não usar","Objetos do dia a dia e cores"],
+  [3,"TH /θ/ e /ð/","the, this, three em frases","Idade com to be: I'm 25","Números de 0 a 100, idade e telefone"],
+  [4,"R do inglês × R forte; H","red/head, rat/hat","Possessivos: my, your e 's","Família e cômodos da casa"],
+  [5,"T e D antes de I","tea, dinner, city, party","Presente simples, com he/she + -s e don't","Rotina: verbos do dia e horários"],
+  [6,"/æ/ × /ɛ/","bad/bed, man/men, sad/said","like + -ing e perguntas com Do you…?","Gostos e hobbies; falsos cognatos 1 (actually, pretend)"],
+  [7,"L, M e N finais","milk, people; time, room","Contáveis × incontáveis, some/any","Restaurante: comida, bebida, Can I have…?, I'd like…"],
+  [8,"S inicial sem \"e\"","school, Spain, street, speak","There is/are e preposições de lugar","Cidade e direções: turn left, go straight"],
+  [9,"Terminações -S e -ED","cats/dogs/buses; worked/played/wanted","Passado simples: regulares e irregulares mais comuns","Fim de semana e lazer"],
+  [10,"Checkpoint 1","Ditado com os sons do módulo","Revisão dos pontos do módulo","Teste de vocabulário; gravação lendo um texto curto e conversa livre"],
+  [11,"Acento de palavra em cognatos","chocolate, hotel, comfortable; fifteen × fifty","How much/How many e this/that/these/those","Compras: roupas, lojas e preços; cognatos com acento diferente"],
+  [12,"Schwa /ə/","about, banana, problem, today","Adjetivos: antes do substantivo e sem plural","Aparência e personalidade"],
+  [13,"Ritmo: palavras de conteúdo × função","Frases com batida regular","Advérbios de frequência e sua posição","Trabalho e estudo; combinações com make × do"],
+  [14,"Formas fracas: to, for, of, and, can","can × can't","can e can't","Habilidades e verbos de ação"],
+  [15,"Letras mudas, escrita × pronúncia","Wednesday, vegetable, island, listen","It's para hora, data e clima; in/on/at de tempo","Agenda: dias, meses, horas e compromissos"],
+  [16,"/ʌ/ e /ɜr/","cup, money; work × walk, bird","going to e will","Planos e férias; combinações com take e have"],
+  [17,"/ʊ/ × /uː/","full/fool, pull/pool, look/Luke","Perguntas com How long, How far, How often","Viagem: aeroporto, hotel e transporte"],
+  [18,"Entonação de perguntas","Sobe no sim/não, desce no Wh-","Perguntas com do, does, did e ordem das palavras","Conversa social: perguntas para conhecer alguém"],
+  [19,"-ING e /ŋ/","thing, sing, morning","Presente contínuo","Casa e tarefas domésticas"],
+  [20,"Checkpoint 2","Ditado com formas fracas","Revisão dos pontos do módulo","Teste de vocabulário; gravação de um minuto sobre sua rotina"],
+  [21,"Ligação consoante + vogal","an apple, turn it off, pick it up","Imperativo: instruções e avisos","Phrasal verbs de casa e rotina (turn on, put away)"],
+  [22,"Elisão: sons que somem","next day, last night, sandwich","Past continuous × passado simples","Contar uma história: conectores (then, suddenly, after that)"],
+  [23,"Assimilação","did you → didja, got you → gotcha","Verbo + -ing ou to (mind doing, want to do)","Pedidos e favores: Could you…?, Would you mind…?"],
+  [24,"Reduções","gonna, wanna, gotta, kinda","have to, must, need to","Regras e obrigações no trabalho"],
+  [25,"T americano: flap e T engolido","water, better; button, mountain","Present perfect × passado simples (ever, already, yet)","Experiências de vida; falsos cognatos 2 (eventually, attend, realize)"],
+  [26,"Contrações de auxiliares","I'd, you'll, should've","should, should have e I wish","Problemas do dia a dia e conselhos"],
+  [27,"Aspiração e consoantes finais sonoras","pin × bin; bag × back, prize × price","Comparativo e superlativo","Comparar cidades, produtos e serviços"],
+  [28,"Acento de frase e contraste","I said RED, not blue","I agree, So do I, Neither do I","Expressões de opinião (In my opinion, I see your point)"],
+  [29,"Sotaques americano, britânico e australiano","R final, T e a vogal de bath","Present perfect continuous com for e since","Lugares, culturas e comida típica"],
+  [30,"Checkpoint 3","Ditado de trecho real em velocidade normal","Revisão dos pontos do módulo","Teste de vocabulário; conversa de 5 minutos sobre uma experiência"],
+  [31,"Entonação e atitude","Educado × seco, surpresa, ironia","Question tags (isn't it?, don't you?)","Reclamações e cortesia (I'm afraid…, To be honest…)"],
+  [32,"Expressões de preenchimento","you know, I mean, let me think","Orações relativas (who, which, that)","Descrever o que você não sabe nomear (the thing that you use to…)"],
+  [33,"Acento em palavras derivadas e compostas","PHOtograph × phoTOgrapher; GREENhouse × green HOUSE","Verbos e adjetivos com preposição (depend on, interested in)","Trabalho e profissões; famílias de palavras (employ, employee)"],
+  [34,"Formas fracas em condicionais","I'd've, if I'd known","Condicionais 1, 2 e 3","Decisões e hipóteses (make a decision, take a risk)"],
+  [35,"Letras, números e nomes","Soletrar sem trocar E/I e G/J; thirteen × thirty","Números ordinais, datas e números grandes","Ligações e reuniões online (hold on, you're on mute)"],
+  [36,"Ritmo de narrar","Pausas e ênfase num relato","Discurso indireto: said × told, explain to me","Verbos de relato (suggest, admit, complain)"],
+  [37,"Acento em phrasal verbs","pick it UP, turn it OFF","Phrasal verbs separáveis e posição do pronome","Problemas e soluções (figure out, sort out)"],
+  [38,"Fala rápida","Podcast para nativos, estratégias de decodificação","Voz passiva","Vocabulário de notícias, tirado do episódio"],
+  [39,"Pausas e grupos de sentido","Trecho de palestra do TED","Conectores para estruturar a fala (first of all, however, to sum up)","Apresentar uma ideia em 2 minutos sobre um tema seu"],
+  [40,"Checkpoint 4","Ditado de podcast para nativos","Revisão dos pontos do módulo","Teste de vocabulário; apresentação gravada de 3 minutos"],
+  [41,"Vogais reduzidas em palavras longas","Sufixos -tion, -able, -ous","Modais de dedução e cautela (might, must be, it seems that)","Vocabulário acadêmico; falsos cognatos 3 (sensible, sympathetic)"],
+  [42,"Ênfase avançada","What I mean is…, It was X who…","Frases de ênfase e inversão (Never have I…)","Expressões para debater e argumentar"],
+  [43,"Homófonos e trocadilhos","their/there, write/right; humor em séries","Past perfect e tempos da narrativa","Humor e expressões coloquiais"],
+  [44,"Expressões idiomáticas na fala rápida","Episódios de The English We Speak","Elipse na fala informal (Sounds good, Want some?)","Expressões idiomáticas comuns"],
+  [45,"Registro na voz","Formal × informal","Perguntas indiretas (Could you tell me where…?)","Entrevista de emprego e vocabulário profissional"],
+  [46,"Sotaques variados","Indiano, irlandês, escocês e falantes não nativos","unless, as long as, provided that e condicionais mistas","Negociação (deal, compromise, counteroffer)"],
+  [47,"Fala longa","Histórias contadas por nativos","used to e would para hábitos no passado","Emoções com nuance (thrilled, relieved, devastated)"],
+  [48,"Checkpoint final","Ditado de conteúdo nativo sem adaptação","Revisão geral","Teste final de vocabulário; repetir a leitura e a conversa da aula 0 e comparar"]
+];
+/* Armadilha típica do brasileiro em cada aula (entra no prompt e na página da aula) */
+const ARMADILHAS = {
+  0:"É o diagnóstico: o objetivo é descobrir seus pontos fracos, então não se preocupe em acertar tudo.",
+  1:"Falar sheep e ship do mesmo jeito; dizer I am teacher sem o a.",
+  2:"Colocar um \"i\" no fim das palavras (big vira \"bigui\"); usar the em generalizações, como The life is hard.",
+  3:"Trocar o TH por t, f ou d (\"tink\", \"fink\", \"dis\"); dizer I have 25 years.",
+  4:"Falar o R inicial como R forte, e red soar como head; dizer the house of my mother.",
+  5:"Falar \"tchi\" e \"dji\" (tea vira \"tchi\", dinner vira \"djinner\"); esquecer o -s de he works.",
+  6:"bad e bed soarem iguais; perguntar You like coffee? sem o do.",
+  7:"L final virando \"u\" (milk vira \"miuk\"); terminar time sem fechar os lábios; dizer informations e advices.",
+  8:"Colocar um \"e\" antes do S (school vira \"escool\"); usar have no lugar de there is.",
+  9:"Pronunciar o -ed como sílaba extra (worked vira \"workédi\").",
+  10:"Revisão: os erros que mais apareceram no módulo 1.",
+  11:"Usar o acento do português em cognatos (comfortable, vegetable, develop); confundir fifteen e fifty.",
+  12:"Pronunciar a vogal cheia onde o inglês usa schwa; colocar o adjetivo no plural (reds cars).",
+  13:"Dar o mesmo peso a todas as sílabas; colocar o advérbio no lugar errado (I go always).",
+  14:"Falar can com a vogal cheia, e can soar como can't.",
+  15:"Ler como se escreve (Wednesday com todas as letras); dizer Is raining sem o it.",
+  16:"work soar como walk; usar will para todos os planos.",
+  17:"full e fool soarem iguais; dizer How much time no lugar de How long.",
+  18:"Fazer perguntas só com a entonação (You like coffee?); subir a voz no fim das perguntas com Wh-.",
+  19:"morning virar \"morningui\"; usar o presente simples para o que está acontecendo agora.",
+  20:"Revisão: os erros que mais apareceram no módulo 2.",
+  21:"Separar as palavras em vez de ligar (turn / it / off).",
+  22:"Pronunciar todos os sons, como o t de next day e o d de sandwich.",
+  23:"Não reconhecer \"didja\" e \"gotcha\" na fala rápida; dizer I enjoy to read.",
+  24:"Não reconhecer gonna e wanna; usar must para toda obrigação.",
+  25:"Não reconhecer o T americano (water soa quase como \"wader\"); achar que eventually quer dizer \"eventualmente\".",
+  26:"Não ouvir should've e would've na fala rápida; dizer I wish I have no lugar de I wish I had.",
+  27:"P, T e K sem aspiração, e pin soar como bin; dizer more big.",
+  28:"Dizer I'm agree; colocar a ênfase sempre na última palavra.",
+  29:"Dizer I live here since 2015 no lugar de I've lived here since 2015.",
+  30:"Revisão: os erros que mais apareceram no módulo 3.",
+  31:"Entonação monótona, que pode soar seca ou rude; não usar question tags.",
+  32:"Encher a fala de \"éééé\"; travar quando falta uma palavra, em vez de descrever com who, which ou that.",
+  33:"Manter o acento na mesma sílaba em toda a família (photograph, photographer); dizer depend of e interested on.",
+  34:"Dizer If I would know no lugar de If I knew; não ouvir I'd've.",
+  35:"Trocar E e I, G e J ao soletrar; thirteen e thirty soarem iguais.",
+  36:"Dizer He said me e Explain me.",
+  37:"Dizer pick up it; colocar o acento no verbo em vez da partícula.",
+  38:"Tentar entender palavra por palavra; evitar a voz passiva.",
+  39:"Falar tudo emendado, sem pausas; usar na fala conectores de texto escrito, como moreover.",
+  40:"Revisão: os erros que mais apareceram no módulo 4.",
+  41:"Pronunciar sufixos com a vogal cheia; afirmar demais, sem might ou may.",
+  42:"Dar ênfase só com o volume da voz, sem mudar a estrutura da frase.",
+  43:"Misturar os tempos ao contar uma história; não perceber trocadilhos.",
+  44:"Traduzir expressões idiomáticas ao pé da letra.",
+  45:"Dizer Can you tell me where is the station?; usar registro informal demais numa entrevista.",
+  46:"Travar com sotaques diferentes do americano; confundir unless com if.",
+  47:"Dizer I use to wake up early para um hábito de hoje (o certo é I usually wake up early).",
+  48:"Revisão final: comparar com a gravação e a conversa da aula 0."
+};
+const moduloDa = n => n <= 10 ? 1 : n <= 20 ? 2 : n <= 30 ? 3 : n <= 40 ? 4 : 5;
+function aulaEmenta(n){
+  const e = EMENTA.find(x => x[0] === n);
+  if (!e) return null;
+  return {n:e[0], modulo:moduloDa(e[0]), som:e[1], escuta:e[2], gramatica:e[3], vocab:e[4], armadilha:ARMADILHAS[e[0]] || ''};
+}
+
+/* Banco fixo de pares mínimos para as aulas de contraste de sons */
+const PARES_FIXOS = {
+  1: [["sheep","ship"],["leave","live"],["eat","it"],["seat","sit"],["feel","fill"],["heel","hill"],["beat","bit"],["cheap","chip"],["sleep","slip"],["peel","pill"]],
+  3: [["think","sink"],["three","tree"],["thin","tin"],["thank","tank"],["they","day"],["then","den"],["though","dough"],["mouth","mouse"],["path","pass"],["thick","tick"]],
+  4: [["red","head"],["rat","hat"],["rope","hope"],["rate","hate"],["ride","hide"],["row","hoe"],["rim","him"],["rug","hug"],["rot","hot"],["rid","hid"]],
+  6: [["bad","bed"],["man","men"],["sad","said"],["had","head"],["pan","pen"],["bag","beg"],["sat","set"],["land","lend"],["track","trek"],["gas","guess"]],
+  14: [["I can swim.","I can't swim."],["She can drive.","She can't drive."],["We can come.","We can't come."],["He can cook.","He can't cook."],["They can help.","They can't help."]],
+  16: [["work","walk"],["word","ward"],["shirt","short"],["bird","board"],["burn","born"],["hurt","heart"],["cup","cop"],["luck","lock"],["hut","hot"],["duck","dock"]],
+  17: [["full","fool"],["pull","pool"],["look","Luke"],["soot","suit"],["wood","wooed"],["hood","who'd"],["should","shooed"],["could","cooed"]],
+  19: [["sin","sing"],["thin","thing"],["ran","rang"],["win","wing"],["ban","bang"],["ton","tongue"]],
+  27: [["pin","bin"],["pear","bear"],["time","dime"],["coat","goat"],["cold","gold"],["pie","buy"],["back","bag"],["price","prize"],["cap","cab"],["ten","den"]]
+};
+
+const INTERVALOS = [1, 3, 7, 14, 30];
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+ICON.fwd = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>';
+ICON.som = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+
+/* ============================================================
+   UTILITÁRIOS DAS ATIVIDADES
+   ============================================================ */
+function isoDe(d){ return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+function hoje(){ return isoDe(new Date()); }
+function somarDias(iso, n){ const [y, m, d] = iso.split('-').map(Number); return isoDe(new Date(y, m - 1, d + n)); }
+function normalizar(s){
+  return String(s == null ? '' : s).toLowerCase()
+    .replace(/[’‘`´]/g, "'").replace(/[^a-z0-9'\s-]/g, ' ')
+    .replace(/\s+/g, ' ').trim();
+}
+function tokens(s){ const n = normalizar(s); return n ? n.split(' ') : []; }
+function comparar(alvo, resposta){
+  const a = tokens(alvo), b = tokens(resposta);
+  const dp = Array.from({length:a.length + 1}, () => new Array(b.length + 1).fill(0));
+  for (let i = a.length - 1; i >= 0; i--)
+    for (let j = b.length - 1; j >= 0; j--)
+      dp[i][j] = a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  const okA = new Array(a.length).fill(false), okB = new Array(b.length).fill(false);
+  let i = 0, j = 0;
+  while (i < a.length && j < b.length){
+    if (a[i] === b[j]){ okA[i] = okB[j] = true; i++; j++; }
+    else if (dp[i + 1][j] >= dp[i][j + 1]) i++; else j++;
+  }
+  const acertos = okA.filter(Boolean).length;
+  return {okA, pct: a.length ? Math.round(acertos / a.length * 100) : 0, extras: okB.filter(x => !x).length};
+}
+function colorirAlvo(alvo, c){
+  let k = 0;
+  return String(alvo).split(/\s+/).filter(Boolean).map(w => {
+    const n = tokens(w).length;
+    if (!n) return esc(w);
+    const ok = c.okA.slice(k, k + n).every(Boolean);
+    k += n;
+    return `<span class="${ok ? 'w-ok' : 'w-no'}">${esc(w)}</span>`;
+  }).join(' ');
+}
+function bate(resp, esperado){
+  const lista = Array.isArray(esperado) ? esperado : [esperado];
+  const r = normalizar(resp);
+  return lista.some(e => normalizar(e) === r);
+}
+function embaralhar(arr){
+  for (let i = arr.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; }
+  return arr;
+}
+function segundos(t){
+  if (typeof t === 'number') return t;
+  if (!t) return 0;
+  return String(t).split(':').map(Number).reduce((s, x) => s * 60 + (x || 0), 0);
+}
+function idYouTube(url){
+  try {
+    const u = new URL(url);
+    if (u.hostname.includes('youtu.be')) return u.pathname.slice(1).split('/')[0] || null;
+    if (u.hostname.includes('youtube')){
+      if (u.searchParams.get('v')) return u.searchParams.get('v');
+      const m = u.pathname.match(/\/(embed|shorts|live)\/([^/?]+)/);
+      if (m) return m[2];
+    }
+  } catch(e) {}
+  return null;
+}
+function indiceCerto(q){
+  if (typeof q.resposta === 'number') return q.resposta;
+  return (q.opcoes || []).findIndex(o => normalizar(o) === normalizar(q.resposta));
+}
+
+/* Voz do aparelho para as atividades */
+function falar(texto, opts = {}){
+  if (!temVoz){ aviso('Este navegador não tem leitura em voz alta.'); return; }
+  leitor.tocando = false;
+  leitor.token++;
+  const ocupado = speechSynthesis.speaking || speechSynthesis.pending;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(texto);
+  const v = opts.voz || vozEscolhida();
+  if (v){ u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+  u.rate = opts.rate || store.get('velocidade', 0.9);
+  if (ocupado) setTimeout(() => speechSynthesis.speak(u), 80); else speechSynthesis.speak(u);
+}
+
+/* ============================================================
+   DADOS DAS AULAS
+   ============================================================ */
+const aulasSalvas = () => store.get('aulas', {});
+const cartoes = () => store.get('cartoes', {});
+const errosCaderno = () => store.get('erros', {});
+const resultados = n => store.get('resultado:' + n, {});
+function salvarResultado(n, campo, valor){ const r = resultados(n); r[campo] = valor; store.set('resultado:' + n, r); }
+
+/* ============================================================
+   IMPORTAÇÃO (aula, livro ou backup)
+   ============================================================ */
+function abrirImportador(titulo, dica){
+  $('#impTitulo').textContent = titulo;
+  $('#impDica').textContent = dica;
+  $('#impTexto').value = '';
+  const d = $('#importer');
+  if (d.showModal) d.showModal(); else d.setAttribute('open', '');
+}
+function fecharImportador(){
+  const d = $('#importer');
+  if (d.close) d.close(); else d.removeAttribute('open');
+}
+function lerJSON(txt){
+  const s = String(txt).trim();
+  const a = s.indexOf('{'), b = s.lastIndexOf('}');
+  if (a < 0 || b < a) return null;
+  try { return JSON.parse(s.slice(a, b + 1)); } catch(e) { return null; }
+}
+function importarObjeto(obj){
+  if (obj && obj.tipo === 'backup') return restaurarBackup(obj);
+  if (obj && (obj.tipo === 'aula' || (obj.aula && obj.aula.numero !== undefined))) return importarAula(obj);
+  if (obj && Array.isArray(obj.chapters)) return importarLivro(obj);
+  aviso('Arquivo não reconhecido: não é aula, livro nem backup.');
+  return false;
+}
+function importarLivro(b){
+  const erro = validarLivro(b);
+  if (erro){ aviso('Livro inválido: ' + erro); return false; }
+  const imp = store.get('livros:importados', {});
+  imp[b.id] = b;
+  store.set('livros:importados', imp);
+  aviso('Livro importado: ' + b.title);
+  telaAtual = '';
+  ir('#livro/' + b.id);
+  return true;
+}
+function validarAula(a){
+  if (!a.aula || !Number.isInteger(a.aula.numero) || a.aula.numero < 0 || a.aula.numero > 48) return 'aula.numero deve ser um número de 0 a 48.';
+  for (const k of ['vocabulario', 'erros', 'exercicios', 'ditado', 'midia', 'pares_minimos'])
+    if (a[k] !== undefined && !Array.isArray(a[k])) return `o campo ${k} deve ser uma lista.`;
+  for (const v of a.vocabulario || []) if (!v || typeof v.termo !== 'string') return 'há um item de vocabulário sem termo.';
+  for (const e of a.erros || []) if (!e || typeof e.certo !== 'string') return 'há um erro sem o campo certo.';
+  for (const x of a.exercicios || []) if (!x || !['lacuna', 'ordenar', 'escolha', 'corrigir'].includes(x.tipo)) return 'há um exercício com tipo desconhecido.';
+  for (const d of a.ditado || []) if (typeof d !== 'string') return 'o ditado deve ter só frases.';
+  for (const p of a.pares_minimos || []) if (!Array.isArray(p) || p.length !== 2) return 'cada par mínimo deve ter duas palavras.';
+  return null;
+}
+function importarAula(a){
+  const erro = validarAula(a);
+  if (erro){ aviso('Aula inválida: ' + erro); return false; }
+  const n = a.aula.numero;
+  const todas = aulasSalvas();
+  const reimportacao = !!todas[n];
+  a.importadaEm = new Date().toISOString();
+  todas[n] = a;
+  store.set('aulas', todas);
+
+  const cs = cartoes();
+  (a.vocabulario || []).forEach(v => {
+    const base = {termo:v.termo, traducao:v.traducao || '', exemplo:v.exemplo || '', tonica:v.tonica || '', falso_cognato:!!v.falso_cognato, aula:n};
+    const modos = v.producao ? ['reconhecer', 'produzir'] : ['reconhecer'];
+    modos.forEach(modo => {
+      const id = (modo === 'produzir' ? 'p:' : 'r:') + normalizar(v.termo);
+      if (cs[id]) Object.assign(cs[id], base);
+      else cs[id] = {id, modo, ...base, nivel:-1, due:hoje(), erros:0, acertos:0};
+    });
+  });
+  store.set('cartoes', cs);
+
+  const cad = errosCaderno();
+  const vistos = new Set();
+  (a.erros || []).forEach(e => {
+    const id = normalizar(e.certo);
+    vistos.add(id);
+    if (cad[id]){
+      Object.assign(cad[id], {disse:e.disse || cad[id].disse, explicacao:e.explicacao || cad[id].explicacao, tipo:e.tipo || cad[id].tipo, ultimaAula:n});
+      if (!reimportacao){ cad[id].vezes++; cad[id].aulasSem = 0; cad[id].resolvido = false; }
+    } else {
+      cad[id] = {id, disse:e.disse || '', certo:e.certo, explicacao:e.explicacao || '', tipo:e.tipo || '', aula:n, ultimaAula:n, vezes:1, aulasSem:0, resolvido:false};
+    }
+  });
+  if (!reimportacao) Object.values(cad).forEach(e => {
+    if (!vistos.has(e.id) && !e.resolvido){ e.aulasSem++; if (e.aulasSem >= 3) e.resolvido = true; }
+  });
+  store.set('erros', cad);
+
+  if (!reimportacao) store.set('aula:alvo', Math.min(48, n + 1));
+  aviso(`Aula ${n} importada: ${(a.vocabulario || []).length} palavras, ${(a.erros || []).length} erros e ${(a.exercicios || []).length} exercícios.`);
+  telaAtual = '';
+  ir('#aula/' + n);
+  return true;
+}
+function exportarBackup(){
+  const dados = {};
+  try {
+    for (let i = 0; i < localStorage.length; i++){
+      const k = localStorage.key(i);
+      if (k.startsWith(PREFIXO)) dados[k.slice(PREFIXO.length)] = JSON.parse(localStorage.getItem(k));
+    }
+  } catch(e) {}
+  Object.keys(memoria).forEach(k => { if (!(k in dados)) dados[k] = memoria[k]; });
+  const blob = new Blob([JSON.stringify({tipo:'backup', versao:1, data:new Date().toISOString(), dados})], {type:'application/json'});
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = `backup-ingles-${hoje()}.json`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(link.href), 3000);
+  aviso('Backup exportado.');
+}
+function restaurarBackup(obj){
+  if (!obj.dados || typeof obj.dados !== 'object'){ aviso('Backup inválido.'); return false; }
+  Object.entries(obj.dados).forEach(([k, v]) => store.set(k, v));
+  aviso('Backup restaurado.');
+  telaAtual = '';
+  ir('#hoje');
+  return true;
+}
+
+/* ============================================================
+   HOJE E PROMPT DA PRÓXIMA AULA
+   ============================================================ */
+function proximaAula(){
+  const alvo = store.get('aula:alvo', null);
+  if (alvo !== null) return alvo;
+  const nums = Object.keys(aulasSalvas()).map(Number);
+  return nums.length ? Math.min(48, Math.max(...nums) + 1) : 0;
+}
+function gerarPrompt(n){
+  const e = aulaEmenta(n);
+  const nivel = MODULOS[e.modulo - 1].nivel;
+  const pend = Object.values(errosCaderno()).filter(x => !x.resolvido).sort((a, b) => b.vezes - a.vezes).slice(0, 8);
+  const fracas = Object.values(cartoes()).filter(c => c.erros > 0).sort((a, b) => b.erros - a.erros).slice(0, 10);
+  const dit = store.get('ditados', []).slice(-3);
+  const idLivro = store.get('leitura:ultimo', null);
+  const livro = idLivro ? livroPorId(idLivro) : null;
+  const pl = livro ? progresso(livro.id) : null;
+  const todas = aulasSalvas();
+  const anterior = Object.keys(todas).map(Number).filter(x => x < n).sort((a, b) => b - a)[0];
+  const notas = anterior !== undefined ? todas[anterior].notas : '';
+  const avaliacao = n === 0 || /^Checkpoint/.test(e.som);
+
+  const modelo = {
+    tipo:'aula', versao:1,
+    aula:{numero:n, modulo:e.modulo, nivel, titulo:'Título curto da aula', data:hoje()},
+    foco:{som:e.som, gramatica:e.gramatica, situacao:e.vocab},
+    vocabulario:[{termo:"I'm a teacher", traducao:'sou professor', exemplo:"I'm a teacher in São Paulo.", tonica:'TEA-cher', falso_cognato:false, producao:true}],
+    erros:[{disse:"I'm teacher", certo:"I'm a teacher", explicacao:'Profissão pede a/an.', tipo:'gramatica'}],
+    exercicios:[
+      {tipo:'lacuna', frase:"She's ___ engineer.", resposta:'an'},
+      {tipo:'ordenar', palavras:['you', 'are', 'where', 'from'], resposta:'Where are you from?'},
+      {tipo:'escolha', pergunta:'Which is correct?', opcoes:['I have 25 years.', "I'm 25."], resposta:1},
+      {tipo:'corrigir', frase:'He work in a bank.', resposta:'He works in a bank.'}
+    ],
+    ditado:['Is this seat free?'],
+    midia:[{tipo:'video', titulo:'Nome do vídeo', url:'https://www.youtube.com/watch?v=ID_DO_VIDEO', inicio:'1:05', fim:'1:40', perguntas:[{pergunta:'Where is she from?', opcoes:['Spain', 'Italy', 'Brazil'], resposta:0}]}],
+    pares_minimos:[['sheep', 'ship']],
+    notas:'O que retomar na próxima aula'
+  };
+
+  const L = [];
+  L.push('Você é meu professor de inglês. Sou brasileiro e faço um curso focado em ouvir e falar: as aulas são aqui no chat e os exercícios ficam num app meu. Conduza a aula abaixo.');
+  L.push('');
+  L.push(`AULA ${n} (módulo ${e.modulo}, nível ${nivel})`);
+  L.push(`- Som: ${e.som}`);
+  L.push(`- Escuta: ${e.escuta}`);
+  L.push(`- Gramática: ${e.gramatica}`);
+  L.push(`- Vocabulário e situação: ${e.vocab}`);
+  if (e.armadilha) L.push(`- Armadilha típica do brasileiro nesta aula: ${e.armadilha}`);
+  L.push('');
+  L.push('MEU MOMENTO');
+  L.push('- Erros que ainda se repetem: ' + (pend.length ? pend.map(x => x.disse ? `"${x.disse}" → "${x.certo}"` : `"${x.certo}"`).join('; ') : 'nenhum registrado ainda'));
+  L.push('- Palavras que mais erro nos flashcards: ' + (fracas.length ? fracas.map(c => c.termo).join(', ') : 'nenhuma registrada ainda'));
+  L.push('- Últimos ditados: ' + (dit.length ? dit.map(d => `aula ${d.aula}: ${d.pct}%`).join('; ') : 'nenhum ainda'));
+  if (livro) L.push(`- Livro que estou lendo: ${livro.title}, de ${livro.author} (capítulo ${(pl ? pl.cap : 0) + 1} de ${livro.chapters.length})`);
+  if (notas) L.push(`- Notas da aula anterior: ${notas}`);
+  L.push('');
+  L.push('COMO CONDUZIR');
+  if (avaliacao){
+    L.push('Esta é uma aula de avaliação. Em vez das etapas normais:');
+    L.push('1. Faça uma conversa livre de uns 5 minutos sobre a situação da aula, no meu nível.');
+    L.push('2. Peça um texto curto, de 5 a 8 frases, e corrija explicando.');
+    L.push('3. Avalie pronúncia (pelo que der para perceber), gramática e vocabulário, e aponte os 3 pontos que mais preciso treinar.');
+    L.push('Coloque esses 3 pontos em "notas" no JSON.');
+  } else {
+    L.push('1. Comece revisando rapidamente 2 ou 3 erros da lista acima.');
+    L.push('2. Som: explique comparando com o português (boca, língua e o erro típico do brasileiro). Depois me peça palavras e frases para falar.');
+    L.push('3. Gramática: mostre de 4 a 6 frases, deixe eu tentar descobrir a regra e só então explique em português, mostrando onde o português me leva ao erro.');
+    L.push('4. Vocabulário: de 15 a 20 palavras e blocos da situação, com a sílaba tônica marcada.');
+    L.push('5. Role-play da situação da aula.');
+    L.push('6. Escrita curta: peça de 3 a 5 frases minhas e corrija explicando.');
+  }
+  L.push('Faça uma etapa por vez e espere minha resposta. Fale comigo em inglês no nível da aula e explique em português.');
+  L.push('Se eu colar a transcrição de um vídeo ou podcast com o link, escolha um trecho de 30 a 90 segundos para a parte de escuta.');
+  L.push('');
+  L.push('QUANDO EU ESCREVER "FIM DA AULA"');
+  L.push('Gere o JSON da aula num único bloco de código, só com o JSON dentro, neste formato:');
+  L.push(JSON.stringify(modelo, null, 2));
+  L.push('Regras do JSON:');
+  L.push('- vocabulario: tudo o que foi ensinado; marque "producao": true nos blocos que devo saber falar; em "tonica", a sílaba forte em maiúsculas.');
+  L.push('- erros: tudo o que eu errei na aula, com "tipo" igual a "pronuncia", "gramatica" ou "vocabulario".');
+  L.push('- exercicios: de 8 a 12 itens misturando lacuna (use ___), ordenar, escolha e corrigir; em escolha, "resposta" é o índice da opção certa, começando em 0.');
+  L.push('- ditado: de 5 a 8 frases curtas que usem o som da aula.');
+  L.push('- pares_minimos: de 6 a 10 pares do som da aula quando ele for um contraste; senão, deixe a lista vazia.');
+  L.push('- midia: só os trechos que usamos, com "tipo" igual a "video", "podcast", "musica", "filme" ou "serie", início e fim no formato m:ss e de 2 a 4 perguntas de múltipla escolha. Para filme e série, use "plataforma" e "episodio" no lugar de "url".');
+  L.push('- Nunca inclua letra de música no JSON.');
+  return L.join('\n');
+}
+function copiarPrompt(n){
+  if (n === undefined || isNaN(n)) n = proximaAula();
+  store.set('prompt:' + n, hoje());
+  const txt = gerarPrompt(n);
+  const box = $('#promptBox');
+  box.value = txt;
+  box.hidden = false;
+  const manual = () => { box.focus(); box.select(); aviso('Selecione o texto da caixa e copie.'); };
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(() => aviso('Prompt copiado. Cole no chat com o Claude.'), manual);
+  } else manual();
+}
+function telaHoje(){
+  const lista = Object.values(cartoes());
+  const pendentes = lista.filter(c => c.due <= hoje()).length;
+  const erros = Object.values(errosCaderno()).filter(e => !e.resolvido).length;
+  const n = proximaAula();
+  const e = aulaEmenta(n);
+  const idLivro = store.get('leitura:ultimo', null);
+  const livro = idLivro ? livroPorId(idLivro) : null;
+  const pl = livro ? progresso(livro.id) : null;
+  const data = new Date().toLocaleDateString('pt-BR', {weekday:'long', day:'numeric', month:'long'});
+  return `<header class="page-head"><h1>Hoje</h1><p>${esc(data.charAt(0).toUpperCase() + data.slice(1))}</p></header>
+    <div class="tiles">
+      <button class="tile${pendentes ? ' primary' : ''}" data-go="#revisao/cartoes"><div class="big">${pendentes}</div><div class="lbl">${pendentes === 1 ? 'cartão para revisar' : 'cartões para revisar'}</div></button>
+      <button class="tile" data-go="#revisao/erros"><div class="big">${erros}</div><div class="lbl">${erros === 1 ? 'erro no caderno' : 'erros no caderno'}</div></button>
+      ${livro && !(pl && pl.lido) ? `<button class="tile" data-go="#ler/${esc(livro.id)}/${(pl ? pl.cap : 0) + 1}"><div class="lbl">Continuar lendo</div><div class="big title">${esc(livro.title)}</div></button>` : ''}
+    </div>
+    ${Object.keys(aulasSalvas()).length ? '' : `<h2 class="section-title">Como começar</h2>
+    <ol class="steps">
+      <li>Toque em <strong>Copiar prompt da aula</strong>, logo abaixo. A primeira é a aula 0, de diagnóstico.</li>
+      <li>Cole numa conversa nova com o Claude e faça a aula. No fim, escreva “fim da aula”.</li>
+      <li>Copie o JSON que ele gerar, toque em <strong>Importar aula</strong> e cole.</li>
+    </ol>`}
+    <h2 class="section-title">Próxima aula</h2>
+    <div class="stepper">
+      <button class="icon-btn" data-act="aula-prev" aria-label="Aula anterior">${ICON.back}</button>
+      <span class="score">Aula ${n}</span>
+      <button class="icon-btn" data-act="aula-next" aria-label="Próxima aula">${ICON.fwd}</button>
+    </div>
+    <dl class="focus">
+      <dt>Módulo</dt><dd>${e.modulo}, nível ${MODULOS[e.modulo - 1].nivel}</dd>
+      <dt>Som</dt><dd>${esc(e.som)}</dd>
+      <dt>Gramática</dt><dd>${esc(e.gramatica)}</dd>
+      <dt>Situação</dt><dd>${esc(e.vocab)}</dd>
+    </dl>
+    <div class="head-actions">
+      <button class="btn primary" data-act="copiar-prompt" data-n="${n}">Copiar prompt da aula</button>
+      <button class="btn" data-go="#aula/${n}">Abrir aula</button>
+      <button class="btn" data-act="importar-aula">${ICON.importar}Importar aula</button>
+    </div>
+    <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt da aula"></textarea>
+    <h2 class="section-title">Backup</h2>
+    <p class="hint">Seu progresso fica salvo só neste aparelho. Exporte um backup de vez em quando.</p>
+    <div class="row"><button class="btn sm" data-act="backup">Exportar backup</button><button class="btn sm" data-act="restaurar">Restaurar backup</button></div>`;
+}
+
+/* ============================================================
+   AULAS
+   ============================================================ */
+function telaAulas(){
+  const todas = aulasSalvas();
+  const prox = proximaAula();
+  const topo = `<header class="page-head"><h1>Aulas</h1><p>49 aulas em 5 módulos. Toque numa aula para ver o que ela cobre, copiar o prompt e importar o resultado.</p>
+    <div class="head-actions"><button class="btn primary" data-go="#aula/${prox}">Abrir a próxima aula</button><button class="btn" data-act="importar-aula">${ICON.importar}Importar aula</button></div></header>`;
+  return topo + MODULOS.map(m => `<section class="module"><h2>Módulo ${m.n}</h2><p class="note">Nível ${m.nivel}</p><ul class="lesson-list">
+    ${EMENTA.filter(x => moduloDa(x[0]) === m.n).map(x => {
+      const n = x[0], a = todas[n], r = resultados(n);
+      const nome = (a && a.aula && a.aula.titulo) || x[1];
+      let tag = '', cls = '';
+      if (r.concluida){ tag = 'Concluída'; cls = ' done'; }
+      else if (a) tag = 'Importada';
+      else if (n === prox){ tag = 'Próxima'; cls = ' next'; }
+      else if (store.get('prompt:' + n, null)) tag = 'Em curso';
+      return `<li><button data-go="#aula/${n}"><span class="num">${n}</span><span><span class="name">${esc(nome)}</span><span class="sub">${esc(x[4])}</span></span><span class="tag${cls}">${tag}</span></button></li>`;
+    }).join('')}
+  </ul></section>`).join('');
+}
+
+let estadoAula = null;
+function prepararAula(n, a){
+  estadoAula = {n, a, ex:{}, dit:{}, percep:null, grav:{}, ord:{}, emb:{}, players:{}, rates:{}, ditSalvo:false};
+  (a.exercicios || []).forEach((x, i) => {
+    if (x.tipo !== 'ordenar') return;
+    const palavras = Array.isArray(x.palavras) ? x.palavras : String(x.resposta || '').split(/\s+/).filter(Boolean);
+    estadoAula.emb[i] = embaralhar(palavras.map(w => ({w})));
+    estadoAula.ord[i] = [];
+  });
+}
+function paresDaAula(n, a){
+  const vistos = new Set();
+  return [...(PARES_FIXOS[n] || []), ...(a.pares_minimos || [])].filter(p => {
+    const k = p.map(normalizar).join('|');
+    if (vistos.has(k)) return false;
+    vistos.add(k);
+    return true;
+  });
+}
+function bloco(num, nome, id, res, corpo, extra = ''){
+  return `<details class="act" ${extra}><summary><span class="num">${num}</span><span class="name">${nome}</span><span class="res" id="res-${id}">${res}</span></summary><div class="body">${corpo}</div></details>`;
+}
+function pct(v){ return v === undefined || v === null ? '' : v + '%'; }
+function telaAula(n, a){
+  const e = aulaEmenta(n);
+  const r = resultados(n);
+  const importada = !!a;
+  a = a || {};
+  const foco = a.foco || {};
+  const titulo = (a.aula && a.aula.titulo) || e.som;
+  const pares = paresDaAula(n, a);
+  const pendentes = Object.values(cartoes()).filter(c => c.due <= hoje()).length;
+  const som = foco.som || e.som, gram = foco.gramatica || e.gramatica, sit = foco.situacao || e.vocab;
+
+  const antes = `<h2 class="section-title">1. Antes, no app</h2>
+    ${pendentes ? `<p class="hint">Você tem ${pendentes} ${pendentes === 1 ? 'cartão' : 'cartões'} para revisar. <button class="link-btn" data-go="#revisao/cartoes">Revisar agora</button></p>` : ''}
+    ${pares.length
+      ? `<div class="acts">${bloco('', 'Percepção', 'percep', pct(r.percepcao), '<p class="hint">Ouça e toque na palavra que você ouviu. A voz muda a cada rodada, e a meta é acertar 8 de 10.</p><div id="percep"><button class="btn primary sm" data-act="percep-start">Começar</button></div>')}</div>`
+      : '<p class="hint">Esta aula não tem treino de percepção. Pode ir direto para o chat.</p>'}`;
+
+  const chat = `<h2 class="section-title">2. No chat</h2>
+    <p class="hint">Copie o prompt, cole numa conversa nova com o Claude e faça a aula. Para terminar, escreva “fim da aula” e copie o JSON que ele gerar.</p>
+    <div class="row"><button class="btn primary" data-act="copiar-prompt" data-n="${n}">Copiar prompt desta aula</button></div>
+    <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt da aula"></textarea>`;
+
+  let depois;
+  if (!importada){
+    depois = `<h2 class="section-title">3. Depois, no app</h2>
+      <p class="hint">Cole aqui o JSON do fim da aula. Em seguida aparecem as atividades: escuta, ditado, repetir e gravar, exercícios, vocabulário e erros.</p>
+      <button class="btn primary" data-act="importar-aula">${ICON.importar}Importar resultado da aula</button>`;
+  } else {
+    const blocos = [];
+    let k = 0;
+    if ((a.midia || []).length) blocos.push(bloco(++k, 'Escuta', 'midia', '', a.midia.map(htmlMidia).join(''), 'data-kind="midia"'));
+    if ((a.ditado || []).length){
+      blocos.push(bloco(++k, 'Ditado', 'dit', pct(r.ditado),
+        `<p class="hint">Ouça cada frase e escreva o que ouviu. Pontuação e maiúsculas não contam.</p>${a.ditado.map(htmlDitado).join('')}<div class="fb" id="dsum"></div>`));
+      blocos.push(bloco(++k, 'Repetir e gravar', 'rep', '',
+        `<p class="hint">Ouça o modelo, grave você repetindo e compare as duas.${SR ? ' O teste mostra quais palavras o reconhecimento de voz entendeu.' : ''}</p>${a.ditado.map(htmlRepetir).join('')}`));
+    }
+    if ((a.exercicios || []).length) blocos.push(bloco(++k, 'Exercícios', 'ex', pct(r.exercicios), `${a.exercicios.map(htmlExercicio).join('')}<div class="fb" id="xsum"></div>`));
+    if ((a.vocabulario || []).length) blocos.push(bloco(++k, 'Vocabulário', 'voc', '', `<p class="hint">Estas palavras já estão nos seus flashcards.</p>${a.vocabulario.map(htmlVocab).join('')}`));
+    if ((a.erros || []).length) blocos.push(bloco(++k, 'Erros da aula', 'err', '', `<p class="hint">Estes erros entraram no seu caderno de erros.</p>${a.erros.map(htmlErro).join('')}`));
+    depois = `<h2 class="section-title">3. Depois, no app</h2>
+      ${a.notas ? `<p class="hint">Para a próxima aula: ${esc(a.notas)}</p>` : ''}
+      <div class="acts">${blocos.join('')}</div>
+      <div class="head-actions">
+        ${r.concluida ? '<span class="hint">Aula concluída.</span>' : '<button class="btn primary" data-act="concluir-aula">Marcar aula como concluída</button>'}
+        <button class="btn" data-act="importar-aula">Importar de novo</button>
+      </div>`;
+  }
+
+  return `<button class="back" data-go="#aulas">${ICON.back}Aulas</button>
+    <header class="page-head"><p>Aula ${n}, módulo ${e.modulo}, nível ${MODULOS[e.modulo - 1].nivel}</p><h1>${esc(titulo)}</h1></header>
+    <dl class="focus">
+      <dt>Som</dt><dd>${esc(som)}</dd>
+      <dt>Escuta</dt><dd>${esc(e.escuta)}</dd>
+      <dt>Gramática</dt><dd>${esc(gram)}</dd>
+      <dt>Situação</dt><dd>${esc(sit)}</dd>
+      ${e.armadilha ? `<dt>Atenção</dt><dd>${esc(e.armadilha)}</dd>` : ''}
+    </dl>
+    ${antes}${chat}${depois}`;
+}
+
+function htmlMidia(m, i){
+  const ini = segundos(m.inicio), fim = segundos(m.fim);
+  const nomes = {video:'Vídeo', podcast:'Podcast', musica:'Música', filme:'Filme', serie:'Série'};
+  const titulo = m.titulo || nomes[m.tipo] || 'Mídia';
+  const trecho = (m.inicio || m.fim) ? `<p class="hint">Trecho de ${esc(m.inicio || '0:00')} a ${esc(m.fim || 'fim')}</p>` : '';
+  const yt = m.url ? idYouTube(m.url) : null;
+  const botoes = `<div class="row"><button class="btn sm primary" data-act="media-play" data-mi="${i}">Tocar trecho</button><button class="btn sm" data-act="media-slow" data-mi="${i}">Velocidade 1×</button>`;
+  let player;
+  if (yt){
+    player = `<div class="video-wrap"><div id="yt-${i}" data-yt="${esc(yt)}" data-ini="${ini}" data-fim="${fim}"></div></div>${botoes}<a class="btn sm" href="https://www.youtube.com/watch?v=${encodeURIComponent(yt)}&t=${ini}s" target="_blank" rel="noopener">Abrir no YouTube</a></div>`;
+  } else if (m.url && /^https?:/i.test(m.url) && m.tipo !== 'filme' && m.tipo !== 'serie'){
+    player = `<audio id="au-${i}" preload="none" controls src="${esc(m.url)}"></audio>${botoes}</div>`;
+  } else {
+    const info = [m.plataforma && `Onde assistir: ${m.plataforma}`, m.episodio && `Episódio: ${m.episodio}`].filter(Boolean).join('. ');
+    player = `<p class="hint">${esc(info || 'Assista no serviço de streaming.')}</p>`;
+  }
+  const perguntas = (m.perguntas || []).map((q, qi) => `<div class="item"><p class="q">${esc(q.pergunta)}</p><div class="chips">
+      ${(q.opcoes || []).map((o, oi) => `<button class="chip" data-act="mq" data-mi="${i}" data-qi="${qi}" data-oi="${oi}">${esc(o)}</button>`).join('')}
+    </div><div class="fb" id="mqfb-${i}-${qi}"></div></div>`).join('');
+  return `<div class="media-card"><h3>${esc(titulo)}</h3>${trecho}${player}${perguntas}</div>`;
+}
+function htmlDitado(frase, i){
+  return `<div class="item"><div class="row">
+      <button class="icon-btn" data-act="dit-ouvir" data-di="${i}" aria-label="Ouvir a frase ${i + 1}">${ICON.som}</button>
+      <button class="btn sm" data-act="dit-devagar" data-di="${i}">Devagar</button>
+      <span class="hint">Frase ${i + 1}</span>
+    </div>
+    <input class="field mt" data-dit-input="${i}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Escreva o que ouviu">
+    <div class="row mt"><button class="btn sm" data-act="dit-conferir" data-di="${i}">Conferir</button></div>
+    <div class="fb" id="ditfb-${i}"></div></div>`;
+}
+function htmlRepetir(frase, i){
+  return `<div class="item"><p class="q">${esc(frase)}</p><div class="row">
+      <button class="btn sm" data-act="rep-ouvir" data-ri="${i}">Ouvir modelo</button>
+      <button class="btn sm" data-act="rep-gravar" data-ri="${i}">Gravar</button>
+      <button class="btn sm" data-act="rep-minha" data-ri="${i}" hidden>Ouvir minha voz</button>
+      ${SR ? `<button class="btn sm" data-act="rep-testar" data-ri="${i}">Testar se entende</button>` : ''}
+    </div><div class="fb" id="repfb-${i}"></div></div>`;
+}
+function htmlExercicio(x, i){
+  const fb = `<div class="fb" id="xfb-${i}"></div>`;
+  const campo = ph => `<input class="field" data-x-input="${i}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="${ph}"><div class="row mt"><button class="btn sm" data-act="ex-conferir" data-xi="${i}">Conferir</button></div>`;
+  if (x.tipo === 'lacuna') return `<div class="item"><p class="q">${esc(x.frase || '').replace(/_{2,}/g, '<span class="gap">____</span>')}</p>${campo('Complete a lacuna')}${fb}</div>`;
+  if (x.tipo === 'corrigir') return `<div class="item"><p class="q">Corrija: ${esc(x.frase || '')}</p>${campo('Escreva a frase certa')}${fb}</div>`;
+  if (x.tipo === 'escolha') return `<div class="item"><p class="q">${esc(x.pergunta || x.frase || '')}</p><div class="chips">
+      ${(x.opcoes || []).map((o, oi) => `<button class="chip" data-act="ex-escolha" data-xi="${i}" data-oi="${oi}">${esc(o)}</button>`).join('')}
+    </div>${fb}</div>`;
+  if (x.tipo === 'ordenar') return `<div class="item"><p class="q">Coloque as palavras em ordem.</p>
+    <div class="answer-line" id="xline-${i}"></div><div class="chips" id="xchips-${i}">${htmlChipsOrdem(i)}</div>
+    <div class="row mt"><button class="btn sm" data-act="ex-ordenar" data-xi="${i}">Conferir</button><button class="btn sm" data-act="ex-limpar" data-xi="${i}">Limpar</button></div>${fb}</div>`;
+  return '';
+}
+function htmlChipsOrdem(i){
+  const usados = new Set(estadoAula.ord[i]);
+  return estadoAula.emb[i].map((p, wi) => `<button class="chip${usados.has(wi) ? ' used' : ''}" data-act="ex-palavra" data-xi="${i}" data-wi="${wi}"${usados.has(wi) ? ' disabled' : ''}>${esc(p.w)}</button>`).join('');
+}
+function atualizarOrdem(i){
+  $('#xline-' + i).innerHTML = estadoAula.ord[i].map((wi, pos) => `<button class="chip" data-act="ex-tirar" data-xi="${i}" data-pos="${pos}">${esc(estadoAula.emb[i][wi].w)}</button>`).join('');
+  $('#xchips-' + i).innerHTML = htmlChipsOrdem(i);
+}
+function htmlVocab(v){
+  return `<div class="vocab"><div><div class="t">${esc(v.termo)}${v.falso_cognato ? ' <span class="flag">falso cognato</span>' : ''}</div>
+      <div class="tr">${esc(v.traducao || '')}${v.tonica ? ` · tônica: ${esc(v.tonica)}` : ''}</div></div>
+    <button class="icon-btn" data-act="falar" data-texto="${esc(v.termo)}" aria-label="Ouvir ${esc(v.termo)}">${ICON.som}</button>
+    ${v.exemplo ? `<div class="ex">${esc(v.exemplo)}</div>` : ''}</div>`;
+}
+function htmlErro(e){
+  return `<div class="err">${e.disse ? `<div class="said">${esc(e.disse)}</div>` : ''}<div class="right">${esc(e.certo)}</div>${e.explicacao ? `<div class="why">${esc(e.explicacao)}</div>` : ''}</div>`;
+}
+
+/* Percepção */
+function percepIniciar(){
+  const pares = paresDaAula(estadoAula.n, estadoAula.a);
+  estadoAula.percep = {pares, rodada:0, acertos:0, total:10, atual:null, respondeu:false};
+  percepRodada();
+}
+function percepRodada(){
+  const p = estadoAula.percep;
+  if (!p || !document.getElementById('percep')) return;
+  if (p.rodada >= p.total) return percepFim();
+  const par = p.pares[Math.floor(Math.random() * p.pares.length)];
+  const idx = Math.random() < 0.5 ? 0 : 1;
+  const vozes = vozesIngles();
+  const voz = vozes.length ? vozes[Math.floor(Math.random() * vozes.length)] : null;
+  p.atual = {par, idx, voz};
+  p.respondeu = false;
+  $('#percep').innerHTML = `<p class="hint">Rodada ${p.rodada + 1} de ${p.total}. Acertos: ${p.acertos}.</p>
+    <button class="btn sm" data-act="percep-repetir">Ouvir de novo</button>
+    <div class="pair">${par.map((w, k) => `<button class="chip" data-act="percep-resp" data-k="${k}">${esc(w)}</button>`).join('')}</div>
+    <div class="fb" id="percfb"></div>`;
+  falar(par[idx], {voz, rate:0.85});
+}
+function percepResponder(k){
+  const p = estadoAula.percep;
+  if (!p || p.respondeu) return;
+  p.respondeu = true;
+  const ok = k === p.atual.idx;
+  if (ok) p.acertos++;
+  document.querySelectorAll('[data-act="percep-resp"]').forEach(b => {
+    const bk = +b.dataset.k;
+    b.classList.toggle('right', bk === p.atual.idx);
+    b.classList.toggle('wrong', bk === k && !ok);
+  });
+  const fb = $('#percfb');
+  fb.className = 'fb ' + (ok ? 'ok' : 'no');
+  fb.textContent = ok ? 'Isso.' : `Era “${p.atual.par[p.atual.idx]}”.`;
+  p.rodada++;
+  setTimeout(percepRodada, ok ? 900 : 1600);
+}
+function percepFim(){
+  const p = estadoAula.percep;
+  const valor = Math.round(p.acertos / p.total * 100);
+  salvarResultado(estadoAula.n, 'percepcao', valor);
+  $('#res-percep').textContent = valor + '%';
+  $('#percep').innerHTML = `<p class="score">${p.acertos} de ${p.total}</p>
+    <p class="hint">${p.acertos >= 8 ? 'Meta atingida.' : 'A meta é 8 de 10. Vale repetir depois de rever a explicação no chat.'}</p>
+    <button class="btn sm" data-act="percep-start">Fazer de novo</button>`;
+}
+
+/* Escuta com vídeo e áudio */
+let ytCarregando = false;
+function initMidia(){
+  if (!estadoAula) return;
+  const alvos = [...document.querySelectorAll('[data-yt]')].filter(el => !estadoAula.players[el.id]);
+  if (!alvos.length) return;
+  const criar = () => alvos.forEach(el => {
+    if (!document.body.contains(el) || estadoAula.players[el.id]) return;
+    const fim = +el.dataset.fim;
+    const vars = {start:+el.dataset.ini, playsinline:1, rel:0};
+    if (fim) vars.end = fim;
+    estadoAula.players[el.id] = new YT.Player(el, {videoId:el.dataset.yt, playerVars:vars});
+  });
+  if (window.YT && window.YT.Player) return criar();
+  const anterior = window.onYouTubeIframeAPIReady;
+  window.onYouTubeIframeAPIReady = () => { if (anterior) anterior(); criar(); };
+  if (!ytCarregando){
+    ytCarregando = true;
+    const s = document.createElement('script');
+    s.src = 'https://www.youtube.com/iframe_api';
+    s.onerror = () => { ytCarregando = false; aviso('Não foi possível carregar o YouTube. Use o botão Abrir no YouTube.'); };
+    document.head.appendChild(s);
+  }
+}
+function tocarMidia(i){
+  const m = estadoAula.a.midia[i];
+  const ini = segundos(m.inicio), fim = segundos(m.fim);
+  const rate = estadoAula.rates[i] || 1;
+  if (temVoz) speechSynthesis.cancel();
+  const yt = document.getElementById('yt-' + i);
+  if (yt){
+    const p = estadoAula.players['yt-' + i];
+    if (!p || typeof p.loadVideoById !== 'function'){ initMidia(); aviso('O vídeo ainda está carregando. Toque de novo em instantes.'); return; }
+    const opts = {videoId:idYouTube(m.url), startSeconds:ini};
+    if (fim) opts.endSeconds = fim;
+    p.loadVideoById(opts);
+    setTimeout(() => { try { p.setPlaybackRate(rate); } catch(e) {} }, 700);
+    return;
+  }
+  const au = document.getElementById('au-' + i);
+  if (au){
+    au.playbackRate = rate;
+    const inicio = () => { au.currentTime = ini; };
+    if (au.readyState >= 1) inicio(); else au.addEventListener('loadedmetadata', inicio, {once:true});
+    au.ontimeupdate = () => { if (fim && au.currentTime >= fim) au.pause(); };
+    au.play().catch(() => aviso('Não foi possível tocar este áudio. Confira o link.'));
+  }
+}
+function alternarVelocidadeMidia(i, el){
+  const opcoes = [1, 0.75, 0.5];
+  const atual = estadoAula.rates[i] || 1;
+  const prox = opcoes[(opcoes.indexOf(atual) + 1) % opcoes.length];
+  estadoAula.rates[i] = prox;
+  el.textContent = 'Velocidade ' + rotuloVelocidade(prox);
+  const p = estadoAula.players['yt-' + i];
+  if (p && typeof p.setPlaybackRate === 'function') try { p.setPlaybackRate(prox); } catch(e) {}
+  const au = document.getElementById('au-' + i);
+  if (au) au.playbackRate = prox;
+}
+function responderMidia(mi, qi, oi){
+  const q = estadoAula.a.midia[mi].perguntas[qi];
+  const certo = indiceCerto(q);
+  document.querySelectorAll(`[data-act="mq"][data-mi="${mi}"][data-qi="${qi}"]`).forEach(b => {
+    const bo = +b.dataset.oi;
+    b.classList.toggle('right', bo === certo);
+    b.classList.toggle('wrong', bo === oi && oi !== certo);
+  });
+  const fb = $(`#mqfb-${mi}-${qi}`);
+  fb.className = 'fb ' + (oi === certo ? 'ok' : 'no');
+  fb.textContent = oi === certo ? 'Certo.' : `Resposta: ${q.opcoes[certo] || ''}`;
+}
+
+/* Ditado */
+function conferirDitado(i){
+  const alvo = estadoAula.a.ditado[i];
+  const inp = document.querySelector(`[data-dit-input="${i}"]`);
+  if (!inp) return;
+  if (!inp.value.trim()){ aviso('Escreva o que ouviu antes de conferir.'); return; }
+  const c = comparar(alvo, inp.value);
+  const fb = $('#ditfb-' + i);
+  fb.className = 'fb';
+  fb.innerHTML = `<p>${colorirAlvo(alvo, c)}</p><p class="hint">${c.pct}% das palavras${c.extras ? `, com ${c.extras} a mais` : ''}.</p>`;
+  estadoAula.dit[i] = c.pct;
+  const total = estadoAula.a.ditado.length;
+  if (Object.keys(estadoAula.dit).length === total){
+    const media = Math.round(Object.values(estadoAula.dit).reduce((s, x) => s + x, 0) / total);
+    salvarResultado(estadoAula.n, 'ditado', media);
+    if (!estadoAula.ditSalvo){
+      const hist = store.get('ditados', []);
+      hist.push({aula:estadoAula.n, pct:media, data:hoje()});
+      store.set('ditados', hist.slice(-20));
+      estadoAula.ditSalvo = true;
+    }
+    $('#dsum').textContent = `Resultado do ditado: ${media}%.`;
+    $('#res-dit').textContent = media + '%';
+  }
+}
+
+/* Repetir e gravar */
+let gravador = null;
+async function alternarGravacao(i, btn){
+  if (gravador){
+    const mesmo = gravador.i === i;
+    pararGravacao();
+    if (mesmo) return;
+  }
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia || !window.MediaRecorder){ aviso('Este navegador não grava áudio.'); return; }
+  if (temVoz) speechSynthesis.cancel();
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({audio:true});
+    const mr = new MediaRecorder(stream);
+    const partes = [];
+    mr.ondataavailable = ev => { if (ev.data && ev.data.size) partes.push(ev.data); };
+    mr.onstop = () => {
+      stream.getTracks().forEach(t => t.stop());
+      if (!estadoAula) return;
+      const blob = new Blob(partes, {type:mr.mimeType || 'audio/webm'});
+      if (estadoAula.grav[i]) URL.revokeObjectURL(estadoAula.grav[i]);
+      estadoAula.grav[i] = URL.createObjectURL(blob);
+      btn.textContent = 'Gravar de novo';
+      const minha = document.querySelector(`[data-act="rep-minha"][data-ri="${i}"]`);
+      if (minha) minha.hidden = false;
+    };
+    mr.start();
+    gravador = {mr, i};
+    btn.textContent = 'Parar';
+  } catch(err) {
+    aviso('Sem acesso ao microfone. Libere a permissão no navegador.');
+  }
+}
+function pararGravacao(){
+  if (gravador && gravador.mr.state === 'recording') gravador.mr.stop();
+  gravador = null;
+}
+function testarFala(i){
+  if (!SR) return;
+  const alvo = estadoAula.a.ditado[i];
+  const fb = $('#repfb-' + i);
+  if (temVoz) speechSynthesis.cancel();
+  let r;
+  try { r = new SR(); } catch(e) { aviso('O reconhecimento de voz não está disponível.'); return; }
+  r.lang = 'en-US';
+  r.interimResults = false;
+  r.maxAlternatives = 1;
+  fb.className = 'fb';
+  fb.textContent = 'Pode falar a frase agora.';
+  let recebeu = false;
+  r.onresult = ev => {
+    recebeu = true;
+    const t = ev.results[0][0].transcript;
+    const c = comparar(alvo, t);
+    fb.innerHTML = `<p>Entendi: “${esc(t)}”</p><p>${colorirAlvo(alvo, c)}</p><p class="hint">${c.pct}% das palavras reconhecidas.</p>`;
+  };
+  r.onerror = ev => {
+    recebeu = true;
+    fb.textContent = (ev.error === 'not-allowed' || ev.error === 'service-not-allowed') ? 'Sem permissão para usar o microfone.' : 'Não consegui ouvir. Tente de novo.';
+  };
+  r.onend = () => { if (!recebeu) fb.textContent = 'Não ouvi nada. Tente de novo.'; };
+  r.start();
+}
+
+/* Exercícios */
+function registrarEx(i, ok){
+  if (estadoAula.ex[i] === undefined) estadoAula.ex[i] = ok;
+  const total = estadoAula.a.exercicios.length;
+  const feitos = Object.keys(estadoAula.ex).length;
+  const acertos = Object.values(estadoAula.ex).filter(Boolean).length;
+  $('#xsum').textContent = `Acertos de primeira: ${acertos} de ${feitos}${feitos < total ? `, faltam ${total - feitos}` : ''}.`;
+  if (feitos === total){
+    const valor = Math.round(acertos / total * 100);
+    salvarResultado(estadoAula.n, 'exercicios', valor);
+    $('#res-ex').textContent = valor + '%';
+  }
+}
+function mostrarFb(id, ok, certo){
+  const fb = $('#' + id);
+  fb.className = 'fb ' + (ok ? 'ok' : 'no');
+  fb.textContent = ok ? 'Certo.' : `Resposta: ${certo}`;
+}
+function conferirTexto(i){
+  const x = estadoAula.a.exercicios[i];
+  const inp = document.querySelector(`[data-x-input="${i}"]`);
+  if (!inp.value.trim()){ aviso('Escreva sua resposta antes de conferir.'); return; }
+  const ok = bate(inp.value, x.resposta);
+  mostrarFb('xfb-' + i, ok, Array.isArray(x.resposta) ? x.resposta[0] : x.resposta);
+  registrarEx(i, ok);
+}
+function responderEscolha(i, oi){
+  const x = estadoAula.a.exercicios[i];
+  const certo = indiceCerto(x);
+  document.querySelectorAll(`[data-act="ex-escolha"][data-xi="${i}"]`).forEach(b => {
+    const bo = +b.dataset.oi;
+    b.classList.toggle('right', bo === certo);
+    b.classList.toggle('wrong', bo === oi && oi !== certo);
+  });
+  mostrarFb('xfb-' + i, oi === certo, (x.opcoes || [])[certo] || '');
+  registrarEx(i, oi === certo);
+}
+function conferirOrdem(i){
+  const x = estadoAula.a.exercicios[i];
+  const resp = estadoAula.ord[i].map(wi => estadoAula.emb[i][wi].w).join(' ');
+  if (!resp){ aviso('Toque nas palavras para montar a frase.'); return; }
+  const ok = bate(resp, x.resposta);
+  mostrarFb('xfb-' + i, ok, x.resposta);
+  registrarEx(i, ok);
+}
+
+/* ============================================================
+   REVISÃO: FLASHCARDS E CADERNO DE ERROS
+   ============================================================ */
+function telaRevisao(){
+  const lista = Object.values(cartoes());
+  const pendentes = lista.filter(c => c.due <= hoje()).length;
+  const erros = Object.values(errosCaderno()).filter(e => !e.resolvido).length;
+  return `<header class="page-head"><h1>Revisão</h1><p>Os cartões voltam em 1, 3, 7, 14 e 30 dias. Quando você erra, o cartão recomeça.</p></header>
+    <div class="tiles">
+      <button class="tile${pendentes ? ' primary' : ''}" data-go="#revisao/cartoes"><div class="big">${pendentes}</div><div class="lbl">${pendentes === 1 ? 'cartão para hoje' : 'cartões para hoje'}, de ${lista.length} no total</div></button>
+      <button class="tile" data-go="#revisao/erros"><div class="big">${erros}</div><div class="lbl">${erros === 1 ? 'erro no caderno' : 'erros no caderno'}</div></button>
+    </div>`;
+}
+let sessao = null;
+function iniciarSessao(){
+  const fila = Object.values(cartoes()).filter(c => c.due <= hoje()).map(c => c.id);
+  embaralhar(fila);
+  sessao = {fila, pos:0, virado:false, total:fila.length, primeira:0, repetidos:new Set()};
+}
+function telaCartoes(){
+  return `<button class="back" data-go="#revisao">${ICON.back}Revisão</button><header class="page-head"><h1>Flashcards</h1></header><div id="flashArea">${htmlCartao()}</div>`;
+}
+function htmlCartao(){
+  if (!sessao.fila.length) return '<p class="empty">Nenhum cartão para hoje. Os cartões novos chegam quando você importa uma aula.</p>';
+  if (sessao.pos >= sessao.fila.length) return `<div class="flash"><div class="front">Sessão concluída</div><div class="meta">${sessao.primeira} de ${sessao.total} certos de primeira.</div></div>
+    <div class="flash-actions"><button class="btn" data-go="#revisao">Revisão</button><button class="btn primary" data-go="#hoje">Hoje</button></div>`;
+  const c = cartoes()[sessao.fila[sessao.pos]];
+  if (!c){ sessao.pos++; return htmlCartao(); }
+  const som = t => `<div class="row center"><button class="icon-btn" data-act="falar" data-texto="${esc(t)}" aria-label="Ouvir">${ICON.som}</button></div>`;
+  const meta = `<div class="meta">Cartão ${sessao.pos + 1} de ${sessao.fila.length}${c.modo === 'produzir' ? '. Diga em inglês, em voz alta.' : ''}</div>`;
+  let frente, verso;
+  if (c.modo === 'produzir'){
+    frente = `<div class="front">${esc(c.traducao || c.termo)}</div>`;
+    verso = `<div class="back"><div class="front">${esc(c.termo)}</div>${c.exemplo ? `<div class="ex">${esc(c.exemplo)}</div>` : ''}${som(c.termo)}</div>`;
+  } else {
+    frente = `<div class="front">${esc(c.termo)}</div>${c.exemplo ? `<div class="ex">${esc(c.exemplo)}</div>` : ''}${som(c.termo)}`;
+    verso = `<div class="back">${esc(c.traducao)}${c.tonica ? `<div class="meta">Tônica: ${esc(c.tonica)}</div>` : ''}${c.falso_cognato ? '<div class="flag">Falso cognato</div>' : ''}</div>`;
+  }
+  const acoes = sessao.virado
+    ? '<div class="flash-actions"><button class="btn" data-act="errei">Errei</button><button class="btn primary" data-act="acertei">Acertei</button></div>'
+    : '<div class="flash-actions"><button class="btn primary" data-act="virar">Mostrar resposta</button></div>';
+  return `<div class="flash">${meta}${frente}${sessao.virado ? verso : ''}</div>${acoes}`;
+}
+function responderCartao(certo){
+  const cs = cartoes();
+  const id = sessao.fila[sessao.pos];
+  const c = cs[id];
+  const repetido = sessao.repetidos.has(id);
+  if (c){
+    if (certo){
+      if (!repetido){
+        c.nivel = Math.min(c.nivel + 1, INTERVALOS.length - 1);
+        c.due = somarDias(hoje(), INTERVALOS[c.nivel]);
+        c.acertos++;
+        sessao.primeira++;
+      }
+    } else {
+      c.erros++;
+      c.nivel = 0;
+      c.due = somarDias(hoje(), 1);
+      if (!repetido){ sessao.repetidos.add(id); sessao.fila.push(id); }
+    }
+    store.set('cartoes', cs);
+  }
+  sessao.pos++;
+  sessao.virado = false;
+  $('#flashArea').innerHTML = htmlCartao();
+}
+let cadernoAtual = [];
+function telaCaderno(){
+  const todos = Object.values(errosCaderno());
+  cadernoAtual = todos.filter(e => !e.resolvido).sort((a, b) => b.vezes - a.vezes);
+  const resolvidos = todos.length - cadernoAtual.length;
+  const topo = `<button class="back" data-go="#revisao">${ICON.back}Revisão</button>
+    <header class="page-head"><h1>Caderno de erros</h1><p>Um erro sai do caderno quando não aparece em 3 aulas seguidas.${resolvidos ? ` ${resolvidos} já ${resolvidos === 1 ? 'saiu' : 'saíram'}.` : ''}</p></header>`;
+  if (!cadernoAtual.length) return topo + '<p class="empty">Nenhum erro pendente. Os erros chegam com as aulas importadas.</p>';
+  return topo + cadernoAtual.map((e, i) => `<div class="item">
+      <p class="q">${e.disse ? `Corrija: ${esc(e.disse)}` : `Escreva a forma certa. ${esc(e.explicacao)}`}</p>
+      <input class="field" data-err-input="${i}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Forma certa">
+      <div class="row mt"><button class="btn sm" data-act="err-conferir" data-ei="${i}">Conferir</button><span class="hint">Aula ${e.aula}${e.vezes > 1 ? `, apareceu ${e.vezes} vezes` : ''}</span></div>
+      <div class="fb" id="errfb-${i}"></div></div>`).join('');
+}
+function conferirErro(i){
+  const e = cadernoAtual[i];
+  const inp = document.querySelector(`[data-err-input="${i}"]`);
+  if (!e || !inp) return;
+  if (!inp.value.trim()){ aviso('Escreva a forma certa antes de conferir.'); return; }
+  const ok = bate(inp.value, e.certo);
+  const fb = $('#errfb-' + i);
+  fb.className = 'fb ' + (ok ? 'ok' : 'no');
+  fb.innerHTML = `<p>${ok ? 'Certo.' : `Forma certa: ${esc(e.certo)}`}</p>${e.explicacao ? `<p class="hint">${esc(e.explicacao)}</p>` : ''}`;
+}
+
+/* ============================================================
+   AÇÕES DOS BOTÕES (data-act)
+   ============================================================ */
+function acao(nome, el){
+  const d = el.dataset;
+  switch (nome){
+    case 'importar-aula': abrirImportador('Importar aula', 'Cole aqui o JSON que o Claude gerou no fim da aula, ou escolha um arquivo .json.'); break;
+    case 'importar-livro': abrirImportador('Importar livro', 'Cole o JSON do livro ou escolha um arquivo .json.'); break;
+    case 'restaurar': abrirImportador('Restaurar backup', 'Escolha o arquivo de backup .json ou cole o conteúdo dele.'); break;
+    case 'backup': exportarBackup(); break;
+    case 'aula-prev':
+    case 'aula-next': {
+      const n = Math.max(0, Math.min(48, proximaAula() + (nome === 'aula-next' ? 1 : -1)));
+      store.set('aula:alvo', n);
+      $('#view').innerHTML = telaHoje();
+      break;
+    }
+    case 'copiar-prompt': copiarPrompt(d.n !== undefined ? +d.n : undefined); break;
+    case 'falar': falar(d.texto); break;
+    case 'percep-start': percepIniciar(); break;
+    case 'percep-repetir': if (estadoAula.percep && estadoAula.percep.atual){ const a = estadoAula.percep.atual; falar(a.par[a.idx], {voz:a.voz, rate:0.85}); } break;
+    case 'percep-resp': percepResponder(+d.k); break;
+    case 'media-play': tocarMidia(+d.mi); break;
+    case 'media-slow': alternarVelocidadeMidia(+d.mi, el); break;
+    case 'mq': responderMidia(+d.mi, +d.qi, +d.oi); break;
+    case 'dit-ouvir': falar(estadoAula.a.ditado[+d.di]); break;
+    case 'dit-devagar': falar(estadoAula.a.ditado[+d.di], {rate:0.6}); break;
+    case 'dit-conferir': conferirDitado(+d.di); break;
+    case 'rep-ouvir': falar(estadoAula.a.ditado[+d.ri]); break;
+    case 'rep-gravar': alternarGravacao(+d.ri, el); break;
+    case 'rep-minha': { const u = estadoAula.grav[+d.ri]; if (u) new Audio(u).play().catch(() => aviso('Não foi possível tocar a gravação.')); break; }
+    case 'rep-testar': testarFala(+d.ri); break;
+    case 'ex-conferir': conferirTexto(+d.xi); break;
+    case 'ex-escolha': responderEscolha(+d.xi, +d.oi); break;
+    case 'ex-palavra': estadoAula.ord[+d.xi].push(+d.wi); atualizarOrdem(+d.xi); break;
+    case 'ex-tirar': estadoAula.ord[+d.xi].splice(+d.pos, 1); atualizarOrdem(+d.xi); break;
+    case 'ex-limpar': estadoAula.ord[+d.xi] = []; atualizarOrdem(+d.xi); break;
+    case 'ex-ordenar': conferirOrdem(+d.xi); break;
+    case 'concluir-aula':
+      salvarResultado(estadoAula.n, 'concluida', true);
+      if (proximaAula() <= estadoAula.n) store.set('aula:alvo', Math.min(48, estadoAula.n + 1));
+      aviso('Aula concluída.');
+      telaAtual = '';
+      rota();
+      break;
+    case 'virar': sessao.virado = true; $('#flashArea').innerHTML = htmlCartao(); break;
+    case 'errei': responderCartao(false); break;
+    case 'acertei': responderCartao(true); break;
+    case 'err-conferir': conferirErro(+d.ei); break;
+  }
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Enter') return;
+  const t = e.target;
+  if (!t.matches) return;
+  if (t.matches('[data-dit-input]')){ e.preventDefault(); conferirDitado(+t.dataset.ditInput); }
+  else if (t.matches('[data-x-input]')){ e.preventDefault(); conferirTexto(+t.dataset.xInput); }
+  else if (t.matches('[data-err-input]')){ e.preventDefault(); conferirErro(+t.dataset.errInput); }
+});
+document.addEventListener('toggle', e => {
+  const d = e.target;
+  if (d.matches && d.matches('details[data-kind="midia"]') && d.open) initMidia();
+}, true);
+$('#impColar').addEventListener('click', () => {
+  const txt = $('#impTexto').value;
+  if (!txt.trim()){ aviso('Cole o JSON antes de importar.'); return; }
+  const obj = lerJSON(txt);
+  if (!obj){ aviso('Não consegui ler o JSON. Confira se copiou o bloco inteiro.'); return; }
+  if (importarObjeto(obj)) fecharImportador();
+});
+$('#impArquivo').addEventListener('click', () => $('#importFile').click());
+$('#impFechar').addEventListener('click', fecharImportador);
+
+/* ============================================================
+   ROTAS
+   ============================================================ */
+let telaAtual = '';
+function rota(){
+  const h = decodeURIComponent(location.hash.replace(/^#/, '')) || 'hoje';
+  if (h === telaAtual) return;
+  const saiuDoLeitor = telaAtual.startsWith('ler/');
+  telaAtual = h;
+  if (temVoz && !leitor.aposCapitulo){
+    if (saiuDoLeitor) leitor.tocando = false;
+    leitor.token++;
+    speechSynthesis.cancel();
+  }
+  pararGravacao();
+  $('#sheet').hidden = true;
+
+  const partes = h.split('/');
+  const view = $('#view');
+  let aba = partes[0];
+  let noLeitor = false;
+
+  if (partes[0] === 'livro'){
+    const b = livroPorId(partes[1]);
+    if (!b){ location.hash = '#biblioteca'; return; }
+    view.innerHTML = telaLivro(b);
+    aba = 'biblioteca';
+  } else if (partes[0] === 'ler'){
+    const b = livroPorId(partes[1]);
+    const ci = Math.max(0, (parseInt(partes[2], 10) || 1) - 1);
+    if (!b || ci >= b.chapters.length){ location.hash = '#biblioteca'; return; }
+    leitor.livro = b; leitor.cap = ci;
+    store.set('leitura:ultimo', b.id);
+    view.innerHTML = telaLeitor(b, ci);
+    noLeitor = true;
+    aba = 'biblioteca';
+    const p = progresso(b.id);
+    const inicio = (p && p.cap === ci && !p.lido) ? p.frase : 0;
+    leitor.idx = Math.min(inicio, leitor.frases.length - 1);
+    if (!p || p.lido || p.cap !== ci) salvarProgresso(b.id, ci, 0, p && p.lido);
+    montarBarraAudio();
+    window.scrollTo(0, 0);
+    if (leitor.aposCapitulo){
+      leitor.aposCapitulo = false;
+      tocarDe(0);
+    } else if (inicio > 0) marcarFrase(inicio, 'here');
+  } else if (partes[0] === 'aulas'){
+    view.innerHTML = telaAulas();
+  } else if (partes[0] === 'aula'){
+    const n = parseInt(partes[1], 10);
+    if (!(n >= 0 && n <= 48)){ location.hash = '#aulas'; return; }
+    const a = aulasSalvas()[n] || null;
+    prepararAula(n, a || {});
+    view.innerHTML = telaAula(n, a);
+    aba = 'aulas';
+  } else if (partes[0] === 'revisao'){
+    if (partes[1] === 'cartoes'){ iniciarSessao(); view.innerHTML = telaCartoes(); }
+    else if (partes[1] === 'erros') view.innerHTML = telaCaderno();
+    else view.innerHTML = telaRevisao();
+    aba = 'revisao';
+  } else if (partes[0] === 'biblioteca'){
+    view.innerHTML = telaBiblioteca();
+  } else {
+    view.innerHTML = telaHoje();
+    aba = 'hoje';
+  }
+  if (!noLeitor){ $('#audiobar').hidden = true; window.scrollTo(0, 0); }
+  $('#nav').hidden = noLeitor;
+  document.documentElement.style.setProperty('--reader-size', store.get('fonte', 1.15) + 'rem');
+  document.querySelectorAll('.nav button').forEach(btn => {
+    if (btn.dataset.tab === aba) btn.setAttribute('aria-current', 'page'); else btn.removeAttribute('aria-current');
+  });
+}
+function ir(hash){
+  location.hash = hash;
+  rota();
+}
+
+/* ============================================================
+   EVENTOS
+   ============================================================ */
+document.addEventListener('click', e => {
+  const t = e.target;
+
+  const navBtn = t.closest('.nav button');
+  if (navBtn){ ir('#' + navBtn.dataset.tab); return; }
+
+  const go = t.closest('[data-go]');
+  if (go){ ir(go.dataset.go); return; }
+
+  const act = t.closest('[data-act]');
+  if (act){ acao(act.dataset.act, act); return; }
+
+  const card = t.closest('.book-card');
+  if (card){
+    if (card.dataset.ok === '1') ir('#livro/' + card.dataset.book);
+    else aviso('Este livro ainda não foi adaptado. Peça a adaptação no chat.');
+    return;
+  }
+
+  const rm = t.closest('[data-remove]');
+  if (rm){
+    const imp = store.get('livros:importados', {});
+    delete imp[rm.dataset.remove];
+    store.set('livros:importados', imp);
+    aviso('Livro removido.');
+    ir('#biblioteca');
+    return;
+  }
+
+  const ouvir = t.closest('[data-listen]');
+  if (ouvir){
+    const id = location.hash.split('/')[1];
+    const ci = parseInt(ouvir.dataset.listen, 10);
+    ir(`#ler/${id}/${ci + 1}`);
+    tocarDe(leitor.idx);
+    return;
+  }
+
+  const ler = t.closest('[data-read]');
+  if (ler){
+    const id = decodeURIComponent(location.hash.split('/')[1]);
+    const ci = parseInt(ler.dataset.read, 10);
+    if (leitor.tocando) pausar();
+    ir(`#ler/${id}/${ci + 1}`);
+    return;
+  }
+
+  if (t.closest('#btnConcluir')){
+    if (leitor.livro){
+      pausar();
+      salvarProgresso(leitor.livro.id, leitor.cap, 0, true);
+      aviso('Livro concluído.');
+      ir('#livro/' + leitor.livro.id);
+    }
+    return;
+  }
+
+  if (t.closest('#fontMais') || t.closest('#fontMenos')){
+    let f = store.get('fonte', 1.15);
+    f = t.closest('#fontMais') ? Math.min(1.6, f + 0.1) : Math.max(0.9, f - 0.1);
+    f = Math.round(f * 100) / 100;
+    store.set('fonte', f);
+    document.documentElement.style.setProperty('--reader-size', f + 'rem');
+    return;
+  }
+
+  const g = t.closest('.g');
+  if (g){
+    const termo = g.dataset.t;
+    const sheet = $('#sheet');
+    sheet.innerHTML = `<div><div class="term">${esc(g.textContent)}</div><div class="meaning">${esc(leitor.significado[termo] || '')}</div></div><button class="close" aria-label="Fechar">×</button>`;
+    sheet.hidden = false;
+    return;
+  }
+  if (t.closest('#sheet .close')){ $('#sheet').hidden = true; return; }
+
+  const frase = t.closest('.s');
+  if (frase){
+    const i = parseInt(frase.dataset.i, 10);
+    if (leitor.tocando) tocarDe(i);
+    else {
+      leitor.idx = i;
+      marcarFrase(i, 'here');
+      if (leitor.livro) salvarProgresso(leitor.livro.id, leitor.cap, i);
+    }
+    return;
+  }
+
+  if (t.closest('#btnPlay')){
+    if (leitor.tocando) pausar(); else tocarDe(leitor.idx);
+    return;
+  }
+
+  if (t.closest('#btnVel')){
+    const atual = store.get('velocidade', 0.9);
+    const prox = VELOCIDADES[(VELOCIDADES.indexOf(atual) + 1) % VELOCIDADES.length] || 0.9;
+    store.set('velocidade', prox);
+    $('#btnVel').textContent = rotuloVelocidade(prox);
+    if (leitor.tocando) tocarDe(leitor.idx);
+    return;
+  }
+
+  if (!t.closest('#sheet')) $('#sheet').hidden = true;
+});
+
+document.addEventListener('change', e => {
+  if (e.target.id === 'selVoz'){
+    store.set('voz', e.target.value);
+    if (leitor.tocando) tocarDe(leitor.idx);
+  }
+});
+
+/* Importar arquivo: aula, livro ou backup */
+$('#importFile').addEventListener('change', async e => {
+  const arq = e.target.files[0];
+  e.target.value = '';
+  if (!arq) return;
+  const obj = lerJSON(await arq.text());
+  if (!obj){ aviso('Arquivo inválido: não é um JSON.'); return; }
+  if (importarObjeto(obj)) fecharImportador();
+});
+function validarLivro(b){
+  if (!b || typeof b !== 'object') return 'o conteúdo não é um livro.';
+  for (const campo of ['id', 'title', 'author']) if (typeof b[campo] !== 'string' || !b[campo].trim()) return `falta o campo ${campo}.`;
+  if (!Number.isInteger(b.module) || b.module < 1 || b.module > 5) return 'o campo module deve ser de 1 a 5.';
+  if (!Array.isArray(b.chapters) || !b.chapters.length) return 'falta a lista chapters.';
+  for (const c of b.chapters){
+    if (typeof c.title !== 'string' || !Array.isArray(c.paragraphs) || !c.paragraphs.every(p => typeof p === 'string')) return 'há um capítulo sem title ou paragraphs.';
+    if (c.glossary && (!Array.isArray(c.glossary) || !c.glossary.every(g => g && typeof g.term === 'string' && typeof g.meaning === 'string'))) return 'há um glossário com formato errado.';
+  }
+  return null;
+}
+
+window.addEventListener('hashchange', rota);
+rota();
+
+if ('serviceWorker' in navigator && location.protocol === 'https:'){
+  window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => {}); });
+}
+</script>
+</body>
+</html>
