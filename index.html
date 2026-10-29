@@ -45,7 +45,7 @@ button{cursor:pointer}
 
 /* Navegação inferior */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding:6px 8px calc(6px + env(safe-area-inset-bottom,0px));display:flex;justify-content:center}
-.nav-inner{display:grid;grid-template-columns:repeat(4,1fr);width:100%;max-width:520px}
+.nav-inner{display:grid;grid-template-columns:repeat(5,1fr);width:100%;max-width:560px}
 .nav button{background:none;border:0;padding:6px 4px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:.72rem;color:var(--muted)}
 .nav button svg{width:24px;height:24px}
 .nav button[aria-current="page"]{color:var(--accent);font-weight:600}
@@ -56,6 +56,7 @@ button{cursor:pointer}
 .page-head p{margin:0;color:var(--muted);max-width:32em}
 .btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:10px 18px;border:1px solid var(--line);background:var(--surface);font-weight:600;font-size:.95rem}
 .btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+a.btn{color:var(--ink);text-decoration:none}
 .btn svg{width:18px;height:18px}
 .head-actions{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap}
 
@@ -237,6 +238,25 @@ dialog.importer::backdrop{background:rgba(0,0,0,.45)}
 dialog.importer h2{font-family:var(--serif);margin:0 0 6px;font-size:1.3rem}
 dialog.importer p{margin:0}
 dialog.importer textarea{width:100%;min-height:180px;margin:12px 0;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--bg);color:var(--ink)}
+/* Prática */
+.seg{display:flex;gap:8px;overflow-x:auto;margin:16px -20px 0;padding:2px 20px 6px;scrollbar-width:none}
+.seg .btn{flex:none}
+.lesson-list .trail{display:flex;flex-wrap:wrap;gap:6px;padding:0 2px 12px calc(2.4em + 12px);margin-top:-6px}
+.lesson-list .trail .trail-chip{width:auto;display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:.78rem;color:var(--muted)}
+.lesson-list .trail .trail-chip.done{color:var(--accent);border-color:var(--accent);font-weight:600}
+.checklist{list-style:none;margin:10px 0 12px;padding:0;font-size:.92rem;color:var(--muted)}
+.checklist li{padding:3px 0}
+.checklist li::before{content:"○ "}
+.checklist li.ok,.checklist li.no{font-weight:600}
+.checklist li.ok{color:var(--ok)}
+.checklist li.no{color:var(--no)}
+.checklist li.ok::before,.checklist li.no::before{content:""}
+.writing{min-height:200px;font-family:var(--serif);line-height:1.6;resize:vertical}
+.model{font-family:var(--serif);font-size:1.02rem;line-height:1.7;margin:0 0 12px}
+.line{margin:0 0 6px}
+.link-plain{background:none;border:0;padding:0;font:inherit;color:inherit;text-align:left}
+.who{display:inline-block;min-width:1.4em;font-family:var(--sans);font-size:.8rem;font-weight:700;color:var(--accent)}
+.video-wrap > .load-video{position:absolute;inset:auto;left:50%;top:50%;width:auto;height:auto;transform:translate(-50%,-50%)}
 [hidden]{display:none!important}
 @media (prefers-reduced-motion: reduce){.s{transition:none}}
 @media (min-width:600px){.shelf{grid-auto-columns:132px}.cover{font-size:14px}}
@@ -248,6 +268,7 @@ dialog.importer textarea{width:100%;min-height:180px;margin:12px 0;font-family:u
   <div class="nav-inner">
     <button data-tab="hoje"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Hoje</button>
     <button data-tab="aulas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="m2 13 10 5 10-5"/></svg>Aulas</button>
+    <button data-tab="pratica"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg>Prática</button>
     <button data-tab="biblioteca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4h4v16H4zM10 4h4v16h-4zM15.5 5.2l3.9-1 3.1 14.6-3.9 1z"/></svg>Biblioteca</button>
     <button data-tab="revisao"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>Revisão</button>
   </div>
@@ -1022,6 +1043,7 @@ function lerJSON(txt){
 }
 function importarObjeto(obj){
   if (obj && obj.tipo === 'backup') return restaurarBackup(obj);
+  if (obj && obj.tipo === 'pratica') return importarPratica(obj);
   if (obj && (obj.tipo === 'aula' || (obj.aula && obj.aula.numero !== undefined))) return importarAula(obj);
   if (obj && Array.isArray(obj.chapters)) return importarLivro(obj);
   aviso('Arquivo não reconhecido: não é aula, livro nem backup.');
@@ -1040,6 +1062,9 @@ function importarLivro(b){
 }
 function validarAula(a){
   if (!a.aula || !Number.isInteger(a.aula.numero) || a.aula.numero < 0 || a.aula.numero > 48) return 'aula.numero deve ser um número de 0 a 48.';
+  return validarListas(a);
+}
+function validarListas(a){
   for (const k of ['vocabulario', 'erros', 'exercicios', 'ditado', 'midia', 'pares_minimos'])
     if (a[k] !== undefined && !Array.isArray(a[k])) return `o campo ${k} deve ser uma lista.`;
   for (const v of a.vocabulario || []) if (!v || typeof v.termo !== 'string') return 'há um item de vocabulário sem termo.';
@@ -1047,7 +1072,37 @@ function validarAula(a){
   for (const x of a.exercicios || []) if (!x || !['lacuna', 'ordenar', 'escolha', 'corrigir'].includes(x.tipo)) return 'há um exercício com tipo desconhecido.';
   for (const d of a.ditado || []) if (typeof d !== 'string') return 'o ditado deve ter só frases.';
   for (const p of a.pares_minimos || []) if (!Array.isArray(p) || p.length !== 2) return 'cada par mínimo deve ter duas palavras.';
+  for (const m of a.midia || []) if (!m || typeof m !== 'object') return 'há um item de mídia com formato errado.';
   return null;
+}
+/* Vocabulário vira flashcard e erros vão para o caderno; origem é o número da aula ou o id do treino */
+function guardarVocabulario(lista, origem){
+  const cs = cartoes();
+  (lista || []).forEach(v => {
+    const base = {termo:v.termo, traducao:v.traducao || '', exemplo:v.exemplo || '', tonica:v.tonica || '', falso_cognato:!!v.falso_cognato, aula:origem};
+    const modos = v.producao ? ['reconhecer', 'produzir'] : ['reconhecer'];
+    modos.forEach(modo => {
+      const id = (modo === 'produzir' ? 'p:' : 'r:') + normalizar(v.termo);
+      if (cs[id]) Object.assign(cs[id], base);
+      else cs[id] = {id, modo, ...base, nivel:-1, due:hoje(), erros:0, acertos:0};
+    });
+  });
+  store.set('cartoes', cs);
+}
+function guardarErros(lista, origem, contar){
+  const cad = errosCaderno();
+  const vistos = new Set();
+  (lista || []).forEach(e => {
+    const id = normalizar(e.certo);
+    vistos.add(id);
+    if (cad[id]){
+      Object.assign(cad[id], {disse:e.disse || cad[id].disse, explicacao:e.explicacao || cad[id].explicacao, tipo:e.tipo || cad[id].tipo, ultimaAula:origem});
+      if (contar){ cad[id].vezes++; cad[id].aulasSem = 0; cad[id].resolvido = false; }
+    } else {
+      cad[id] = {id, disse:e.disse || '', certo:e.certo, explicacao:e.explicacao || '', tipo:e.tipo || '', aula:origem, ultimaAula:origem, vezes:1, aulasSem:0, resolvido:false};
+    }
+  });
+  return {cad, vistos};
 }
 function importarAula(a){
   const erro = validarAula(a);
@@ -1059,30 +1114,8 @@ function importarAula(a){
   todas[n] = a;
   store.set('aulas', todas);
 
-  const cs = cartoes();
-  (a.vocabulario || []).forEach(v => {
-    const base = {termo:v.termo, traducao:v.traducao || '', exemplo:v.exemplo || '', tonica:v.tonica || '', falso_cognato:!!v.falso_cognato, aula:n};
-    const modos = v.producao ? ['reconhecer', 'produzir'] : ['reconhecer'];
-    modos.forEach(modo => {
-      const id = (modo === 'produzir' ? 'p:' : 'r:') + normalizar(v.termo);
-      if (cs[id]) Object.assign(cs[id], base);
-      else cs[id] = {id, modo, ...base, nivel:-1, due:hoje(), erros:0, acertos:0};
-    });
-  });
-  store.set('cartoes', cs);
-
-  const cad = errosCaderno();
-  const vistos = new Set();
-  (a.erros || []).forEach(e => {
-    const id = normalizar(e.certo);
-    vistos.add(id);
-    if (cad[id]){
-      Object.assign(cad[id], {disse:e.disse || cad[id].disse, explicacao:e.explicacao || cad[id].explicacao, tipo:e.tipo || cad[id].tipo, ultimaAula:n});
-      if (!reimportacao){ cad[id].vezes++; cad[id].aulasSem = 0; cad[id].resolvido = false; }
-    } else {
-      cad[id] = {id, disse:e.disse || '', certo:e.certo, explicacao:e.explicacao || '', tipo:e.tipo || '', aula:n, ultimaAula:n, vezes:1, aulasSem:0, resolvido:false};
-    }
-  });
+  guardarVocabulario(a.vocabulario, n);
+  const {cad, vistos} = guardarErros(a.erros, n, !reimportacao);
   if (!reimportacao) Object.values(cad).forEach(e => {
     if (!vistos.has(e.id) && !e.resolvido){ e.aulasSem++; if (e.aulasSem >= 3) e.resolvido = true; }
   });
@@ -1214,14 +1247,7 @@ function gerarPrompt(n){
 function copiarPrompt(n){
   if (n === undefined || isNaN(n)) n = proximaAula();
   store.set('prompt:' + n, hoje());
-  const txt = gerarPrompt(n);
-  const box = $('#promptBox');
-  box.value = txt;
-  box.hidden = false;
-  const manual = () => { box.focus(); box.select(); aviso('Selecione o texto da caixa e copie.'); };
-  if (navigator.clipboard && navigator.clipboard.writeText){
-    navigator.clipboard.writeText(txt).then(() => aviso('Prompt copiado. Cole no chat com o Claude.'), manual);
-  } else manual();
+  copiarTexto(gerarPrompt(n));
 }
 function telaHoje(){
   const lista = Object.values(cartoes());
@@ -1245,6 +1271,9 @@ function telaHoje(){
       <li>Cole numa conversa nova com o Claude e faça a aula. No fim, escreva “fim da aula”.</li>
       <li>Copie o JSON que ele gerar, toque em <strong>Importar aula</strong> e cole.</li>
     </ol>`}
+    ${(() => { const prox = proximosTreinos(n, 3); return prox.length ? `<h2 class="section-title">Treino para intercalar</h2>
+    <p class="hint">Gramática, escuta e escrita das aulas até a ${n}, corrigidas no próprio app.</p>
+    <div class="tiles">${prox.map(t => `<button class="tile" data-go="#treino/${t.id}"><div class="lbl">${NOME_TRILHA[t.trilha]} · aula ${t.apos}</div><div class="big title">${esc(t.titulo)}</div></button>`).join('')}</div>` : ''; })()}
     <h2 class="section-title">Próxima aula</h2>
     <div class="stepper">
       <button class="icon-btn" data-act="aula-prev" aria-label="Aula anterior">${ICON.back}</button>
@@ -1274,7 +1303,7 @@ function telaHoje(){
 function telaAulas(){
   const todas = aulasSalvas();
   const prox = proximaAula();
-  const topo = `<header class="page-head"><h1>Aulas</h1><p>49 aulas em 5 módulos. Toque numa aula para ver o que ela cobre, copiar o prompt e importar o resultado.</p>
+  const topo = `<header class="page-head"><h1>Aulas</h1><p>49 aulas em 5 módulos. Toque numa aula para ver o que ela cobre, copiar o prompt e importar o resultado. Abaixo de cada aula ficam os treinos de gramática, escuta e escrita para fazer junto.</p>
     <div class="head-actions"><button class="btn primary" data-go="#aula/${prox}">Abrir a próxima aula</button><button class="btn" data-act="importar-aula">${ICON.importar}Importar aula</button></div></header>`;
   return topo + MODULOS.map(m => `<section class="module"><h2>Módulo ${m.n}</h2><p class="note">Nível ${m.nivel}</p><ul class="lesson-list">
     ${EMENTA.filter(x => moduloDa(x[0]) === m.n).map(x => {
@@ -1285,7 +1314,8 @@ function telaAulas(){
       else if (a) tag = 'Importada';
       else if (n === prox){ tag = 'Próxima'; cls = ' next'; }
       else if (store.get('prompt:' + n, null)) tag = 'Em curso';
-      return `<li><button data-go="#aula/${n}"><span class="num">${n}</span><span><span class="name">${esc(nome)}</span><span class="sub">${esc(x[4])}</span></span><span class="tag${cls}">${tag}</span></button></li>`;
+      const trilha = treinosDaAula(n).map(t => `<button class="trail-chip${resultados(t.id).concluida ? ' done' : ''}" data-go="#treino/${t.id}">${resultados(t.id).concluida ? '✓ ' : ''}${NOME_TRILHA[t.trilha]}</button>`).join('');
+      return `<li><button data-go="#aula/${n}"><span class="num">${n}</span><span><span class="name">${esc(nome)}</span><span class="sub">${esc(x[4])}</span></span><span class="tag${cls}">${tag}</span></button>${trilha ? `<div class="trail">${trilha}</div>` : ''}</li>`;
     }).join('')}
   </ul></section>`).join('');
 }
@@ -1371,7 +1401,7 @@ function telaAula(n, a){
       <dt>Situação</dt><dd>${esc(sit)}</dd>
       ${e.armadilha ? `<dt>Atenção</dt><dd>${esc(e.armadilha)}</dd>` : ''}
     </dl>
-    ${antes}${chat}${depois}`;
+    ${antes}${chat}${depois}${htmlTrilhaAula(n)}`;
 }
 
 function htmlMidia(m, i){
@@ -1580,7 +1610,7 @@ function conferirDitado(i){
   if (Object.keys(estadoAula.dit).length === total){
     const media = Math.round(Object.values(estadoAula.dit).reduce((s, x) => s + x, 0) / total);
     salvarResultado(estadoAula.n, 'ditado', media);
-    if (!estadoAula.ditSalvo){
+    if (!estadoAula.ditSalvo && typeof estadoAula.n === 'number'){
       const hist = store.get('ditados', []);
       hist.push({aula:estadoAula.n, pct:media, data:hoje()});
       store.set('ditados', hist.slice(-20));
@@ -1665,6 +1695,8 @@ function registrarEx(i, ok){
     const valor = Math.round(acertos / total * 100);
     salvarResultado(estadoAula.n, 'exercicios', valor);
     $('#res-ex').textContent = valor + '%';
+    /* Gramática e escuta contam como concluídas ao terminar os exercícios; escrita depende do texto */
+    if (estadoAula.t && estadoAula.t.trilha !== 'escrita') salvarResultado(estadoAula.n, 'concluida', true);
   }
 }
 function mostrarFb(id, ok, certo){
@@ -1779,7 +1811,7 @@ function telaCaderno(){
   return topo + cadernoAtual.map((e, i) => `<div class="item">
       <p class="q">${e.disse ? `Corrija: ${esc(e.disse)}` : `Escreva a forma certa. ${esc(e.explicacao)}`}</p>
       <input class="field" data-err-input="${i}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Forma certa">
-      <div class="row mt"><button class="btn sm" data-act="err-conferir" data-ei="${i}">Conferir</button><span class="hint">Aula ${e.aula}${e.vezes > 1 ? `, apareceu ${e.vezes} vezes` : ''}</span></div>
+      <div class="row mt"><button class="btn sm" data-act="err-conferir" data-ei="${i}">Conferir</button><span class="hint">${esc(rotuloOrigem(e.aula))}${e.vezes > 1 ? `, apareceu ${e.vezes} vezes` : ''}</span></div>
       <div class="fb" id="errfb-${i}"></div></div>`).join('');
 }
 function conferirErro(i){
@@ -1791,6 +1823,837 @@ function conferirErro(i){
   const fb = $('#errfb-' + i);
   fb.className = 'fb ' + (ok ? 'ok' : 'no');
   fb.innerHTML = `<p>${ok ? 'Certo.' : `Forma certa: ${esc(e.certo)}`}</p>${e.explicacao ? `<p class="hint">${esc(e.explicacao)}</p>` : ''}`;
+}
+
+/* ============================================================
+   PRÁTICA: GRAMÁTICA, ESCUTA E ESCRITA
+   Treinos com correção no próprio app, intercalados com as aulas.
+   Exercícios em formato compacto:
+   L: lacuna (frase=resposta|alternativa), C: corrigir (frase=resposta|alternativa),
+   O: ordenar (frase certa), E: escolha (pergunta=opção|*certa|opção)
+   ============================================================ */
+const GRAMATICA = {
+  1:{exp:["O verbo to be é ser e estar: I am, you are, he/she/it is, we/they are. Na fala, quase sempre contraído: I'm, you're, she's.",
+    "Profissão sempre leva a ou an: I'm a teacher. She's an engineer. Em português dizemos “sou professor”, sem artigo.",
+    "An vem antes de som de vogal (an engineer, an hour) e a antes de som de consoante (a doctor, a university, que soa “iu”).",
+    "Negativa: I'm not, he isn't, they aren't. Pergunta: Are you a nurse? Is she from Brazil?"],
+   ex:["L:She ___ a doctor.=is|'s","L:I'm ___ engineer.=an","L:They ___ from Brazil. They're from Chile.=aren't|are not",
+    "E:Qual está certa?=I'm teacher.|*I'm a teacher.|I am teacher.","E:Complete: It takes ___ hour.=a|*an","O:Is your sister a nurse?","C:He is architect.=He is an architect.|He's an architect."]},
+  2:{exp:["a/an: uma coisa qualquer, mencionada pela primeira vez: I have a car.",
+    "the: algo específico, que os dois sabem qual é: The car is red. Close the door.",
+    "Sem artigo para falar em geral, com plurais e incontáveis: Life is hard. I like dogs. Coffee is expensive. Em português dizemos “a vida”, “os cachorros”.",
+    "Também sem artigo: at home, at work, go to bed, by bus, have lunch e a maioria dos países (Brazil, mas the United States)."],
+   ex:["L:I have ___ umbrella.=an","L:___ sun is very hot today.=the","E:Qual está certa?=The life is beautiful.|*Life is beautiful.|A life is beautiful.",
+    "E:Complete: I go to work ___ bus.=by the|*by|with","O:The keys are on the table","C:I don't like the coffee in general.=I don't like coffee in general.|I do not like coffee in general."]},
+  3:{exp:["Idade em inglês usa to be, não have: I'm 25 (years old). How old are you?",
+    "Nunca diga I have 25 years: soa como “eu possuo 25 anos”.",
+    "Telefone: dígito por dígito; o 0 vira “oh” ou “zero”; números repetidos: double five.",
+    "thirteen (13) × thirty (30): em thirTEEN a força fica no fim, em THIRty fica no começo."],
+   ex:["L:How old ___ you?=are","L:My son is ten years ___.=old","E:Qual está certa?=I have 30 years.|*I'm 30.|I'm 30 years.",
+    "E:Como se escreve 40?=fourty|*forty|fortie","O:How old is your brother?","C:She has 19 years old.=She is 19 years old.|She's 19 years old.|She is 19.|She's 19."]},
+  4:{exp:["Possessivos vêm antes do substantivo e não mudam no plural: my, your, his (dele), her (dela), its, our, their.",
+    "His e her dependem do dono, não da coisa: Maria and her husband; João and his wife.",
+    "'s indica posse de pessoas: my mother's house (a casa da minha mãe). Não diga the house of my mother.",
+    "Plural terminado em s ganha só o apóstrofo: my parents' car (o carro dos meus pais)."],
+   ex:["L:Ana loves ___ brother.=her","L:Pedro lives with ___ parents.=his","E:Qual está certa?=The car of my father is new.|*My father's car is new.|My father car is new.",
+    "E:They have a house. ___ house is big.=There|*Their|They're","O:This is my sister's bedroom","C:Paulo and her wife are teachers.=Paulo and his wife are teachers."]},
+  5:{exp:["Presente simples: hábitos e rotina. I work, you work, we work, they work.",
+    "Com he, she e it, o verbo ganha -s: she works, he watches, it goes, she has (have vira has).",
+    "Negativa com don't/doesn't, e o verbo volta ao normal: She doesn't work on Sundays (nunca doesn't works).",
+    "Pergunta com do/does: Do you work here? Does he like coffee?"],
+   ex:["L:My brother ___ in a bank. (work)=works","L:She ___ like coffee. (negativa)=doesn't|does not","E:Complete: He ___ TV every night.=watch|*watches|watchs",
+    "E:Qual está certa?=She don't eat meat.|She doesn't eats meat.|*She doesn't eat meat.","O:What time do you get up?","C:He work from Monday to Friday.=He works from Monday to Friday."]},
+  6:{exp:["Depois de like, love, hate e enjoy, use o verbo com -ing: I like swimming. She loves cooking.",
+    "Pergunta de sim ou não precisa de do/does: Do you like music? Só “You like music?”, com a voz subindo, soa informal e pode confundir.",
+    "Respostas curtas: Yes, I do. / No, I don't. Não responda só Yes, I like.",
+    "would like é diferente: é querer, com educação: I'd like a coffee."],
+   ex:["L:I love ___ to music. (listen)=listening","L:___ you like football?=Do","E:Complete: She enjoys ___.=read|*reading|to reading",
+    "E:Resposta curta para Do you like pizza?=Yes, I like.|*Yes, I do.|Yes, I am.","O:Does your sister like dancing?","C:You like coffee?=Do you like coffee?"]},
+  7:{exp:["Contáveis têm plural: an apple, two apples. Incontáveis não: water, rice, money, information, advice, bread.",
+    "Não existe informations nem advices: diga some information, a piece of advice.",
+    "some em afirmativas, ofertas e pedidos (Would you like some tea?); any em negativas e perguntas (Do you have any eggs? There isn't any milk).",
+    "Para medir incontáveis: a glass of water, a cup of coffee, a slice of bread."],
+   ex:["L:Is there ___ milk in the fridge?=any","L:I'd like ___ water, please.=some","E:Qual está certa?=Can you give me some advices?|*Can you give me some advice?|Can you give me an advice?",
+    "E:Complete: We don't have ___ bread.=some|*any|a","O:Would you like some coffee?","C:I need some informations.=I need some information."]},
+  8:{exp:["There is (singular) e there are (plural) dizem que algo existe num lugar: There's a bank near here. There are two parks.",
+    "O brasileiro usa have nesse sentido (“tem um banco aqui”), mas em inglês have é possuir.",
+    "Pergunta: Is there a pharmacy near here? Are there any restaurants?",
+    "Lugar: in (dentro), on (em cima; na rua: on Paulista Avenue), next to (ao lado), between (entre), across from (em frente), near (perto)."],
+   ex:["L:___ two banks on this street.=There are","L:Is ___ a supermarket near here?=there","E:Qual está certa?=Have a pharmacy near here?|*Is there a pharmacy near here?|There is a pharmacy near here?",
+    "E:The bank is ___ the pharmacy and the school.=across|*between|next","O:There is a park next to my house","C:Have many people in the street.=There are many people in the street.|There are a lot of people in the street."]},
+  9:{exp:["Passado simples: ação terminada num momento do passado (yesterday, last week, in 2019).",
+    "Regulares ganham -ed: worked, played, wanted. O -ed só vira sílaba extra depois de t ou d (wanted, needed); worked soa “workt”.",
+    "Irregulares comuns: go/went, have/had, see/saw, make/made, get/got, eat/ate, buy/bought.",
+    "Negativa e pergunta com did, e o verbo volta ao normal: I didn't go. Did you see it? (nunca didn't went)."],
+   ex:["L:Yesterday I ___ to the beach. (go)=went","L:We ___ a movie last night. (watch)=watched","E:Qual está certa?=I didn't went to work.|*I didn't go to work.|I don't went to work.",
+    "E:Passado de buy:=buyed|*bought|brought","O:What did you do last weekend?","C:Did you saw the game?=Did you see the game?"]},
+  11:{exp:["How much? para incontáveis e preço: How much water? How much is this shirt?",
+    "How many? para contáveis: How many shoes do you have?",
+    "this (perto, singular), these (perto, plural), that (longe, singular), those (longe, plural).",
+    "Jeans, pants e glasses são plurais em inglês: these jeans, those glasses."],
+   ex:["L:How ___ is this jacket?=much","L:How ___ brothers do you have?=many","E:Complete: ___ shoes here are cheap.=This|*These|That",
+    "E:Complete (longe, plural): Look at ___ birds in the sky!=these|*those|that","O:How much are these jeans?","C:How many money do you have?=How much money do you have?"]},
+  12:{exp:["O adjetivo vem antes do substantivo: a red car, a beautiful city (não a car red).",
+    "Adjetivo nunca vai para o plural: red cars, tall people (não reds cars).",
+    "Vários adjetivos seguem uma ordem: opinião, tamanho, idade, cor: a nice big old red house.",
+    "Com to be, o adjetivo vem depois: She's tall. They're friendly."],
+   ex:["L:She has ___ hair. (long, dark)=long dark|long, dark","L:My neighbors are very ___. (simpáticos)=friendly|nice|kind","E:Qual está certa?=He has blues eyes.|He has eyes blue.|*He has blue eyes.",
+    "E:Qual está certa?=a red big car|*a big red car|a car big red","O:She is a very kind person","C:They are talls and thins.=They are tall and thin.|They're tall and thin."]},
+  13:{exp:["Frequência: always (100%), usually, often, sometimes, rarely, never (0%).",
+    "Ficam antes do verbo principal: I always drink coffee. She never eats meat. (não I drink always).",
+    "Mas depois do verbo to be: He is always late.",
+    "sometimes também pode abrir a frase: Sometimes I work from home. Para perguntar: How often do you…?"],
+   ex:["L:I ___ eat fish. I hate it. (nunca)=never","L:He is ___ late. (sempre)=always","E:Qual está certa?=I go always to the gym.|*I always go to the gym.|Always I go to the gym.",
+    "E:Qual está certa?=She always is tired.|*She is always tired.|Always she tired.","O:I usually have lunch at noon","C:We go often to the movies.=We often go to the movies."]},
+  14:{exp:["can: habilidade e possibilidade. Igual para todas as pessoas: I can, she can (nunca she cans).",
+    "Depois de can, o verbo vem sem to: I can swim (não I can to swim).",
+    "Na fala, can afirmativo é fraco (“cən”) e can't é forte e longo: a diferença está mais na vogal e na força do que no t.",
+    "Pergunta: Can you drive? Respostas: Yes, I can. / No, I can't."],
+   ex:["L:She ___ speak three languages. (sabe)=can","L:I ___ swim. I never learned.=can't|cannot|can not","E:Qual está certa?=He cans play guitar.|He can to play guitar.|*He can play guitar.",
+    "E:Resposta curta para Can you cook?=Yes, I cook.|*Yes, I can.|Yes, I do.","O:Can you help me with this?","C:My son can to ride a bike.=My son can ride a bike."]},
+  15:{exp:["Hora, data e clima usam it como sujeito: It's 3 o'clock. It's Monday. It's raining. (não Is raining).",
+    "at para horas: at 7 o'clock, at noon, at night.",
+    "on para dias e datas: on Monday, on May 5th, on my birthday.",
+    "in para meses, anos, estações e partes do dia: in July, in 2020, in the summer, in the morning."],
+   ex:["L:The meeting is ___ Friday.=on","L:I was born ___ 1995.=in","L:The class starts ___ 8 o'clock.=at",
+    "E:Qual está certa?=Is cold today.|*It's cold today.|Makes cold today.","O:What time is it?","C:I have class in Monday.=I have class on Monday.|I have a class on Monday."]},
+  16:{exp:["going to: planos já decididos: I'm going to visit my parents next week.",
+    "going to também para previsões com evidência: Look at those clouds. It's going to rain.",
+    "will: decisões na hora (I'll have the chicken), promessas e ofertas (I'll help you) e opiniões sobre o futuro (I think it will rain).",
+    "Na fala, going to vira gonna, e I will vira I'll."],
+   ex:["L:We ___ travel to Chile in July. We bought the tickets.=are going to|'re going to","L:A: The phone is ringing. B: I ___ get it!=will|'ll",
+    "E:Você já comprou as passagens. Qual fica melhor?=I'll go to Rio next week, I think.|*I'm going to go to Rio next week.","E:Decisão na hora, no restaurante:=*I'll have the fish, please.|I'm going to having the fish.|I have the fish tomorrow.",
+    "O:What are you going to do this weekend?","C:I will to call you tomorrow.=I will call you tomorrow.|I'll call you tomorrow."]},
+  17:{exp:["How long? é duração: How long is the flight? It's two hours. How much time soa estranho na maioria dos casos.",
+    "How far? é distância: How far is the airport? It's 10 kilometers.",
+    "How often? é frequência: How often do you travel? Twice a year.",
+    "Frequência: once (uma vez), twice (duas vezes), three times a week."],
+   ex:["L:How ___ is the hotel from the station? It's 2 km.=far","L:How ___ do you go to the gym? Three times a week.=often","E:Qual soa natural?=How much time is the trip?|*How long is the trip?|How many time is the trip?",
+    "E:Duas vezes por mês:=two times for month|*twice a month|two time in month","O:How long does it take to get there?","C:How much time does the flight take?=How long does the flight take?"]},
+  18:{exp:["Perguntas no presente usam do/does; no passado, did: Where do you live? Where does she work? When did you arrive?",
+    "Ordem: palavra Wh + auxiliar + sujeito + verbo: Where do you work? (não Where you work?).",
+    "Com to be não precisa de do: Where are you from? Is he married?",
+    "Perguntas sobre o sujeito não usam do: Who lives here? What happened?"],
+   ex:["L:Where ___ your sister live?=does","L:What time ___ you arrive yesterday?=did","E:Qual está certa?=Where you work?|Where does you work?|*Where do you work?",
+    "E:Qual está certa?=What did happen?|*What happened?|What happen?","O:What do you do on Sundays?","C:Where you went last night?=Where did you go last night?"]},
+  19:{exp:["Presente contínuo: am/is/are + verbo com -ing, para o que está acontecendo agora: I'm cooking. She's working from home this week.",
+    "Presente simples é rotina; contínuo é agora: I usually walk, but today I'm taking the bus.",
+    "Verbos de estado não costumam ir para o contínuo: I know, I like, I want, I need (não I'm knowing).",
+    "Ortografia: make → making, run → running, lie → lying."],
+   ex:["L:Be quiet! The baby ___ sleeping.=is|'s","L:Look! It ___. (rain)=is raining|'s raining","E:Agora, neste momento:=I clean the kitchen now.|*I'm cleaning the kitchen now.|I cleaning the kitchen now.",
+    "E:Qual está certa?=I'm wanting a coffee.|*I want a coffee.|I wanting a coffee.","O:What are you doing right now?","C:She is cook dinner at the moment.=She is cooking dinner at the moment.|She's cooking dinner at the moment."]},
+  21:{exp:["Imperativo é o verbo puro, sem sujeito: Turn left. Close the door. Sit down, please.",
+    "Negativo com don't: Don't touch that. Don't worry.",
+    "Para convidar: Let's go! Let's not argue.",
+    "please suaviza, mas para pedir com educação prefira Could you…? (aula 23)."],
+   ex:["L:___ worry. Everything is fine.=Don't|Do not","L:___ go to the beach! (vamos)=Let's|Let us","E:Aviso numa porta:=No touch.|*Don't touch.|Not touch.",
+    "E:Instrução correta:=You turn off the lights.|*Turn off the lights, please.|Turning off the lights.","O:Please put your phone away","C:No forget your keys.=Don't forget your keys.|Do not forget your keys."]},
+  22:{exp:["Past continuous: was/were + -ing, ação em andamento no passado: At 8 p.m. I was having dinner.",
+    "Junto com o passado simples, mostra a ação longa interrompida pela curta: I was walking home when it started to rain.",
+    "while + ação longa: While I was cooking, the phone rang.",
+    "Para contar histórias: first, then, after that, suddenly, in the end."],
+   ex:["L:I ___ TV when you called. (watch)=was watching","L:They were playing football when it ___ to rain. (start)=started","E:Qual está certa?=While I cooked, the phone was ringing.|*While I was cooking, the phone rang.|While I was cook, the phone rang.",
+    "E:Complete: She ___ when she broke her leg.=skied|*was skiing|is skiing","O:What were you doing at nine last night?","C:I was sleep when the alarm rang.=I was sleeping when the alarm rang."]},
+  23:{exp:["Alguns verbos pedem -ing depois: enjoy, mind, finish, avoid, keep, suggest: I enjoy reading. Would you mind waiting?",
+    "Outros pedem to: want, need, decide, hope, plan, learn, would like: I want to travel. I decided to stay.",
+    "Depois de preposição, sempre -ing: I'm good at cooking. Thanks for coming.",
+    "Não existe I enjoy to read nem I want traveling."],
+   ex:["L:Would you mind ___ the window? (open)=opening","L:I decided ___ a new car. (buy)=to buy","E:Qual está certa?=I enjoy to cook.|*I enjoy cooking.|I enjoy cook.",
+    "E:Complete: She wants ___ English.=learning|*to learn|learn","O:Could you help me carry these bags?","C:Thanks for come to my party.=Thanks for coming to my party.|Thank you for coming to my party."]},
+  24:{exp:["have to: obrigação que vem de fora, regra: I have to wear a uniform at work.",
+    "must: obrigação que o falante sente, ou regra escrita: I must call my mom. Passengers must wear seat belts.",
+    "Cuidado: don't have to = não precisa (é opcional); mustn't = é proibido.",
+    "need to: necessidade: I need to sleep. O passado de have to e de must é had to."],
+   ex:["L:You ___ pay. It's free.=don't have to|do not have to|don't need to|do not need to","L:You ___ smoke here. It's forbidden.=mustn't|must not|can't|cannot",
+    "E:Ontem fui obrigado a trabalhar até tarde:=I must work late yesterday.|*I had to work late yesterday.|I have to worked late yesterday.","E:Complete: She ___ wear a uniform at school.=have to|*has to|haves to",
+    "O:Do I have to bring anything?","C:He musts finish the report today.=He must finish the report today.|He has to finish the report today."]},
+  25:{exp:["Present perfect (have/has + particípio): experiência na vida, sem dizer quando: I've been to Chile. Have you ever eaten sushi?",
+    "Passado simples quando o momento é dito: I went to Chile in 2019 (não I have been to Chile in 2019).",
+    "already (já), yet (já/ainda, no fim de perguntas e negativas) e just (acabou de): I've just arrived. Have you finished yet?",
+    "Falsos cognatos: eventually = no fim, finalmente; actually = na verdade."],
+   ex:["L:___ you ever been to Argentina?=Have","L:I ___ that movie last week. (see)=saw","E:Qual está certa?=I have visited Paris in 2018.|*I visited Paris in 2018.|I have visit Paris in 2018.",
+    "E:Complete: She has ___ finished her homework. (já)=yet|*already|ever","O:Have you finished your report yet?","C:I have seen him yesterday.=I saw him yesterday."]},
+  26:{exp:["should: conselho: You should see a doctor. You shouldn't work so much.",
+    "should have + particípio: arrependimento ou crítica sobre o passado: I should have studied more. Na fala: should've.",
+    "I wish + passado: desejo sobre o presente: I wish I had more time. Não diga I wish I have.",
+    "I wish + had + particípio: desejo sobre o passado: I wish I had gone."],
+   ex:["L:You look tired. You ___ go to bed early.=should","L:I failed the test. I should have ___ more. (study)=studied","E:Qual está certa?=I wish I have a car.|*I wish I had a car.|I wish I will have a car.",
+    "E:Conselho:=You must to rest.|*You should rest.|You should to rest.","O:You shouldn't drink coffee at night","C:I should went to the party.=I should have gone to the party.|I should've gone to the party."]},
+  27:{exp:["Adjetivo curto: -er e -est: cheap, cheaper, the cheapest; big, bigger, the biggest.",
+    "Adjetivo longo: more e the most: more expensive, the most beautiful (não more big).",
+    "Irregulares: good, better, the best; bad, worse, the worst; far, farther.",
+    "Comparação com than: São Paulo is bigger than Rio. Igualdade: as big as."],
+   ex:["L:Rio is ___ than São Paulo. (hot)=hotter","L:This is the ___ restaurant in town. (good)=best","E:Qual está certa?=This phone is more cheap.|*This phone is cheaper.|This phone is more cheaper.",
+    "E:Complete: My car is ___ than yours.=more old|*older|oldest","O:This is the most expensive hotel in the city","C:She is more tall than her brother.=She is taller than her brother.|She's taller than her brother."]},
+  28:{exp:["agree é verbo: I agree (nunca I'm agree).",
+    "So do I / So am I = eu também, concordando com uma afirmativa. Repete o auxiliar da frase: I like tea. So do I. I'm tired. So am I.",
+    "Neither do I / Neither am I = eu também não, com negativas: I don't smoke. Neither do I.",
+    "Para discordar com educação: I see your point, but… / I'm not sure about that."],
+   ex:["L:A: I love pizza. B: So ___ I.=do","L:A: I'm not hungry. B: Neither ___ I.=am","E:Qual está certa?=I'm agree with you.|*I agree with you.|I am agreeing with you.",
+    "E:A: I can't swim. B: ___=So can I.|*Neither can I.|Neither do I.","O:I see your point, but I disagree","C:A: I went to the concert. B: So do I.=So did I."]},
+  29:{exp:["Algo que começou no passado e continua: I've lived here since 2015. I've been working here for three years.",
+    "O português usa o presente (moro aqui desde 2015); o inglês usa o present perfect. Não diga I live here since 2015.",
+    "for + período (for two years, for a long time); since + ponto de início (since 2015, since Monday, since I was a child).",
+    "Pergunta: How long have you been learning English?"],
+   ex:["L:I've worked here ___ 2019.=since","L:She has been studying ___ three hours.=for","E:Qual está certa?=I live in Curitiba since 2010.|*I have lived in Curitiba since 2010.|I am living in Curitiba since 2010.",
+    "E:Complete: How long ___ learning English?=are you|*have you been|do you","O:How long have you been waiting?","C:We know each other for ten years.=We have known each other for ten years.|We've known each other for ten years."]},
+  31:{exp:["Question tag é o “né?” do inglês: It's cold, isn't it? You like coffee, don't you?",
+    "Frase afirmativa pede tag negativa; frase negativa pede tag afirmativa: She isn't here, is she?",
+    "O tag repete o auxiliar: He can swim, can't he? They went, didn't they?",
+    "Entonação descendo: só confirmando. Subindo: dúvida de verdade."],
+   ex:["L:It's a beautiful day, ___ it?=isn't","L:You don't eat meat, ___ you?=do","E:She works here, ___?=isn't she|*doesn't she|don't she",
+    "E:They went to Rio, ___?=went they|*didn't they|don't they","O:You can drive, can't you?","C:He is your brother, no?=He is your brother, isn't he?|He's your brother, isn't he?"]},
+  32:{exp:["who para pessoas: The woman who lives next door is a doctor.",
+    "which para coisas e animais: The book which I bought is great. that serve para os dois.",
+    "Quando o pronome é objeto, dá para omitir: The book (that) I bought.",
+    "Ótimo quando falta a palavra: It's a thing that you use to open bottles. It's a person who fixes cars."],
+   ex:["L:A dentist is a person ___ takes care of teeth.=who|that","L:This is the phone ___ I bought yesterday.=which|that","E:Qual está certa?=The man which called you is here.|*The man who called you is here.|The man who he called you is here.",
+    "E:Descrevendo um objeto:=It's a thing who you use to cut.|*It's a thing that you use to cut.|It's a thing you use it to cut.","O:She is the friend who helped me","C:The restaurant who we went to was great.=The restaurant which we went to was great.|The restaurant that we went to was great.|The restaurant we went to was great."]},
+  33:{exp:["Muitas preposições não são as do português: depend on (não of), interested in (não on), good at (não in).",
+    "Outras comuns: listen to, wait for, ask for, think about, worried about, afraid of, married to.",
+    "Depois de preposição, o verbo vai com -ing: I'm interested in learning.",
+    "Guarde a combinação inteira como um bloco: depend on, e não só depend."],
+   ex:["L:It depends ___ the weather.=on","L:I'm very interested ___ history.=in","E:Qual está certa?=She is good in math.|*She is good at math.|She is good on math.",
+    "E:Complete: We are waiting ___ the bus.=to|*for|by","O:He is married to a Brazilian woman","C:I'm worried with my exam.=I'm worried about my exam.|I am worried about my exam."]},
+  34:{exp:["1ª condicional (real, futuro): If + presente, will: If it rains, I'll stay home.",
+    "2ª (imaginária, presente): If + passado, would: If I had money, I would travel. Não diga If I would have.",
+    "3ª (passado que não aconteceu): If + had + particípio, would have: If I had known, I would have come. Na fala: I'd've.",
+    "Na 2ª, com be, use were: If I were you, I'd take the job."],
+   ex:["L:If it ___ tomorrow, we'll cancel the trip. (rain)=rains","L:If I ___ rich, I would buy a house on the beach. (be)=were|was","E:Qual está certa?=If I would know, I would tell you.|*If I knew, I would tell you.|If I know, I would tell you.",
+    "E:Complete: If she had studied, she ___ the exam.=would pass|*would have passed|will pass","O:What would you do if you won the lottery?","C:If I will see him, I will tell him.=If I see him, I will tell him.|If I see him, I'll tell him."]},
+  35:{exp:["Ordinais: first, second, third, fourth, fifth… twenty-first. Nos EUA o mês vem antes: 05/10 é 10 de maio.",
+    "Anos: 1998 = nineteen ninety-eight; 2024 = twenty twenty-four.",
+    "Vírgula separa milhares e ponto marca decimais: 1,500 = one thousand five hundred; 2.5 = two point five.",
+    "hundred, thousand e million não vão para o plural depois de número: two hundred people (não two hundreds)."],
+   ex:["L:My birthday is on March ___. (3)=third|3rd","L:There were three ___ people at the concert. (mil)=thousand","E:Como se diz 1,200?=one thousand and two hundreds|*one thousand two hundred|one point two hundred",
+    "E:Nos EUA, 04/07 é:=4 de julho|*7 de abril","O:The meeting is on the twenty-first of June","C:Two millions people live there.=Two million people live there."]},
+  36:{exp:["say não leva a pessoa direto; tell leva: He said (that) he was tired. He told me (that) he was tired. Nunca He said me.",
+    "explain também não: Explain it to me (não Explain me).",
+    "O tempo verbal costuma recuar um passo: “I am busy” → She said she was busy; “I will call” → He said he would call.",
+    "Pedidos: She asked me to wait. Perguntas: He asked where I lived (sem do, na ordem da afirmação)."],
+   ex:["L:She ___ me she was sick.=told","L:He ___ that he was busy.=said","E:Qual está certa?=Can you explain me this?|*Can you explain this to me?|Can you explain to me this?",
+    "E:“I will help you.” → He said he ___ help me.=will|*would|wills","O:She asked me to close the door","C:He said me that he was tired.=He told me that he was tired.|He told me he was tired.|He said that he was tired.|He said he was tired."]},
+  37:{exp:["Muitos phrasal verbs aceitam o objeto no meio ou no fim: Turn off the light / Turn the light off.",
+    "Com pronome (it, them, him), o pronome fica no meio: Turn it off (nunca turn off it). Pick it up.",
+    "A força vai na partícula: pick it UP, figure it OUT.",
+    "Comuns: pick up, put away, turn on/off, figure out, sort out, give back, throw away."],
+   ex:["L:The music is too loud. Please turn ___ down.=it","L:I don't understand this. Can you help me figure it ___?=out","E:Qual está certa?=Pick up it.|*Pick it up.|Up pick it.",
+    "E:These are your books. Please put ___.=away them|*them away|they away","O:Please give it back to me","C:I threw away it.=I threw it away."]},
+  38:{exp:["Voz passiva: to be + particípio, quando quem faz não importa ou não se sabe: English is spoken here. The car was stolen.",
+    "O tempo fica no to be: is made, was built, has been sold, will be announced.",
+    "by mostra quem fez, quando importa: The book was written by Machado de Assis.",
+    "Muito comum em notícias: Two people were injured. A new law has been approved."],
+   ex:["L:This bridge ___ built in 1950.=was","L:Coffee ___ grown in Brazil.=is","E:Qual está certa?=My phone was stole.|*My phone was stolen.|My phone stolen.",
+    "E:Complete: The results will ___ tomorrow.=announce|*be announced|announced","O:The windows are cleaned every week","C:The house was build in 1920.=The house was built in 1920."]},
+  39:{exp:["Abrir e ordenar: first of all, to begin with, then, after that, finally.",
+    "Contrastar: but, however (no começo da frase, com vírgula), although (Although it was late, we stayed).",
+    "Somar e exemplificar: also, in addition, for example. Causa e consequência: because, so, that's why.",
+    "Fechar: to sum up, all in all. Na fala, moreover e furthermore soam formais demais."],
+   ex:["L:It was raining, ___ we stayed home.=so","L:I like my job. ___, the salary is low.=However|But","E:Qual está certa?=Although it was cold, but we went out.|*Although it was cold, we went out.|Although it was cold, so we went out.",
+    "E:Para fechar uma apresentação:=First of all|*To sum up|For example","O:First of all, I want to thank you","C:I was tired, because I went to bed early.=I was tired, so I went to bed early."]},
+  41:{exp:["must be: certeza de que é verdade: She's been working all day. She must be tired.",
+    "can't be: certeza de que não é: That can't be Ana; she's in Paris.",
+    "might, may e could: possibilidade: It might rain. He may be late.",
+    "Passado: must have, might have, can't have + particípio: He must have forgotten. Para suavizar: It seems that…, I'd say…"],
+   ex:["L:He hasn't eaten all day. He ___ be hungry.=must","L:That ___ be true! It's impossible.=can't|cannot","E:Talvez chova:=It must rain.|*It might rain.|It can't rain.",
+    "E:Complete: The lights are off. They ___ gone out.=must|*must have|might","O:She might have missed the bus","C:He must to be at home.=He must be at home."]},
+  42:{exp:["Frase clivada: What I need is a vacation. It was Maria who called (foi a Maria que ligou).",
+    "do/does/did para enfatizar: I do like it! She did call you.",
+    "Inversão formal depois de expressões negativas: Never have I seen… Not only is it cheap, but it's also good.",
+    "Use com moderação; na conversa, a mais útil é What I mean is…"],
+   ex:["L:___ I need is more time.=What","L:It was my brother ___ broke the window.=who|that","E:Ênfase com inversão:=Never I have seen this.|*Never have I seen this.|Never have seen I this.",
+    "E:Ênfase em afirmativa:=I liked do it.|*I did like it.|I do liked it.","O:What I mean is that we need help","C:Not only it is cheap, but it is also fast.=Not only is it cheap, but it is also fast.|Not only is it cheap, but it's also fast."]},
+  43:{exp:["Past perfect (had + particípio): algo que aconteceu antes de outro ponto do passado: When I arrived, the movie had started.",
+    "Na narrativa: passado simples para a sequência, past continuous para o pano de fundo, past perfect para voltar atrás.",
+    "Compare: When I got there, she left (saiu quando cheguei) × she had left (já tinha saído).",
+    "Não misture presente e passado no meio da história."],
+   ex:["L:By the time we arrived, the train ___ left.=had","L:She was tired because she ___ slept well. (negativa)=hadn't|had not","E:Quando cheguei, ela já tinha saído:=When I arrived, she left.|*When I arrived, she had left.|When I had arrived, she left.",
+    "E:Complete: I ___ never seen snow before that trip.=have|*had|was","O:I realized I had forgotten my wallet","C:When we got to the cinema, the film already started.=When we got to the cinema, the film had already started."]},
+  44:{exp:["Na fala informal, o começo da frase cai: (It) Sounds good. (Do you) Want some coffee? (I) Got it.",
+    "Respostas curtas sem repetir: A: Are you coming? B: I think so. / I hope not.",
+    "Substituição: I'd love to (sem repetir o verbo). I didn't want to, but I had to.",
+    "Reconhecer essas formas é tão importante quanto usar; na escrita formal, use a frase completa."],
+   ex:["L:A: Are you going to the party? B: I hope ___. (sim)=so","L:A: Do you want to come? B: I'd love ___!=to","E:Forma completa de “Sounds good.”:=It sound good.|*That sounds good.|Is sounds good.",
+    "E:Resposta natural para “Can you help me?”:=Sure, I can help.|*Sure, I can.|Sure, I can it.","O:I didn't want to, but I had to","C:A: Is it going to rain? B: I think yes.=I think so."]},
+  45:{exp:["Pergunta indireta é mais educada: Could you tell me…?, Do you know…?, I was wondering…",
+    "Depois da introdução, a ordem é de afirmação, sem do/does/did: Could you tell me where the station is? (não where is the station).",
+    "Sem palavra Wh, use if ou whether: Do you know if the store is open?",
+    "Útil em entrevistas e no trabalho: I'd like to know what the next steps are."],
+   ex:["L:Do you know ___ the bank opens on Saturdays? (se)=if|whether","L:Could you tell me how much this ___? (custa)=costs","E:Qual está certa?=Can you tell me where is the station?|*Can you tell me where the station is?|Can you tell me where does the station is?",
+    "E:Qual está certa?=Do you know what time does it start?|*Do you know what time it starts?|Do you know what time starts it?","O:I was wondering if you could help me","C:Could you tell me where does she live?=Could you tell me where she lives?"]},
+  46:{exp:["unless = a menos que, se não: I'll go unless it rains (= if it doesn't rain). Não use negativa depois de unless.",
+    "as long as / provided that = desde que, contanto que: You can borrow my car as long as you're careful.",
+    "Condicional mista, passado que afeta o presente: If I had taken that job, I would be rich now.",
+    "Ou presente que explica o passado: If I were braver, I would have said something."],
+   ex:["L:We'll have the meeting outside ___ it rains.=unless","L:You can go out ___ long as you come back before midnight.=as","E:Qual está certa?=I won't go unless you don't come.|*I won't go unless you come.|I won't go unless you will come.",
+    "E:Passado que afeta o presente:=If I had studied medicine, I would have been a doctor now.|*If I had studied medicine, I would be a doctor now.|If I studied medicine, I would have been a doctor now.",
+    "O:I will lend you the money as long as you pay me back","C:Unless you don't hurry, you'll miss the bus.=Unless you hurry, you'll miss the bus.|Unless you hurry, you will miss the bus."]},
+  47:{exp:["used to: hábito ou estado do passado que acabou: I used to live in Recife. I used to have long hair.",
+    "would: só para ações repetidas no passado, comum em histórias: Every summer we would go to the beach. Não use would para estados.",
+    "Negativa e pergunta: I didn't use to… Did you use to…? (sem o d).",
+    "Hábito de hoje usa o presente com usually: I usually wake up early (não I use to wake up early)."],
+   ex:["L:I ___ to smoke, but I quit five years ago.=used","L:Did you ___ to play soccer as a child?=use","E:Hábito de hoje:=I use to drink coffee every morning.|*I usually drink coffee every morning.|I used to drink coffee every morning now.",
+    "E:Estado no passado:=I would have a dog when I was a kid.|*I used to have a dog when I was a kid.|I use to have a dog when I was a kid.","O:We used to go to the beach every summer","C:When I was a child, I use to play outside.=When I was a child, I used to play outside."]}
+};
+
+/* Escuta: diálogos lidos pelo aparelho, com duas vozes (A e B). Sem letra no começo da linha, é narração. */
+const ESCUTAS = [
+  {apos:2, t:'Conhecendo alguém', tema:'Apresentações, países e profissões',
+   falas:["A: Hi, I'm Laura. What's your name?","B: Hi, Laura. I'm Pedro. Nice to meet you.","A: Nice to meet you too. Where are you from, Pedro?","B: I'm from Brazil, from Belo Horizonte. And you?","A: I'm from Canada. I'm a nurse. What do you do?","B: I'm an engineer. I work for a car company.","A: Oh, nice! Is this your first time in London?","B: Yes, it is. It's a beautiful city."],
+   q:["E:Where is Laura from?=Brazil|*Canada|London","E:What does Pedro do?=He's a nurse.|*He's an engineer.|He's a teacher.","E:Is it Pedro's first time in London?=*Yes, it is.|No, it isn't."],
+   dit:["Nice to meet you too.","Where are you from?","I work for a car company."]},
+  {apos:4, t:'A família do Pedro', tema:'Família e casa',
+   falas:["A: Is this a photo of your family?","B: Yes. This is my mother, Rosa, and this is my father, Carlos.","A: And who is the girl in the red dress?","B: That's my sister, Julia. She's twenty-three. She's a student.","A: Do you have any brothers?","B: Yes, one. His name is Rafael. He lives in Lisbon with his wife.","A: Your family is big!","B: Yes, and my grandmother lives with my parents too."],
+   q:["E:How old is Julia?=Thirteen|*Twenty-three|Thirty-three","E:Where does Rafael live?=*In Lisbon|In London|With his parents","E:Who lives with the parents?=*The grandmother|Julia|Rafael's wife"],
+   dit:["This is my mother.","She's twenty-three.","He lives in Lisbon with his wife."]},
+  {apos:6, t:'Rotina e horários', tema:'Rotina, horários e hobbies',
+   falas:["A: What time do you get up on weekdays?","B: I get up at six thirty. I have breakfast and I take the bus at seven fifteen.","A: That's early! What time do you start work?","B: At eight. I finish at five, and then I go to the gym.","A: Do you go to the gym every day?","B: No, only on Mondays, Wednesdays and Fridays. On weekends I sleep late.","A: Lucky you! I work on Saturdays."],
+   q:["E:What time does B get up?=At six|*At six thirty|At seven fifteen","E:How does B go to work?=By car|*By bus|On foot","E:When does B go to the gym?=Every day|*On Mondays, Wednesdays and Fridays|On weekends"],
+   dit:["I get up at six thirty.","What time do you start work?","On weekends I sleep late."]},
+  {apos:8, t:'Pedindo direções', tema:'Cidade e direções',
+   falas:["A: Excuse me, is there a pharmacy near here?","B: Yes, there's one on Green Street.","A: How do I get there?","B: Go straight for two blocks and turn left. The pharmacy is next to the bank.","A: Next to the bank. Is it far?","B: No, it's about five minutes on foot.","A: Great. Thank you very much!","B: You're welcome."],
+   q:["E:Where is the pharmacy?=*On Green Street|On Bank Street|Next to the hospital","E:What do you do after two blocks?=Turn right|*Turn left|Go back","E:How far is it?=Fifteen minutes by bus|*About five minutes on foot|Two kilometers"],
+   dit:["Is there a pharmacy near here?","Go straight for two blocks and turn left.","It's about five minutes on foot."]},
+  {apos:12, t:'Numa loja de roupas', tema:'Compras, tamanhos e preços',
+   falas:["A: Hi, can I help you?","B: Yes, I'm looking for a jacket. Something warm for the winter.","A: What size are you?","B: Medium, I think.","A: How about this one? It's very popular.","B: It's nice, but I don't really like the color. Do you have it in black?","A: Yes, here you are. The fitting rooms are over there.","B: Thanks. How much is it?","A: It's eighty-nine dollars, but it's twenty percent off this week."],
+   q:["E:What is B looking for?=A shirt|*A warm jacket|Black shoes","E:What color does B want?=Blue|*Black|White","E:What is the discount this week?=Ten percent|*Twenty percent|Eighty-nine dollars"],
+   dit:["I'm looking for a jacket.","Do you have it in black?","The fitting rooms are over there."]},
+  {apos:14, t:'Entrevista rápida', tema:'Trabalho e habilidades',
+   falas:["A: So, tell me a little about yourself.","B: Well, I'm a graphic designer. I have five years of experience.","A: Can you speak Spanish?","B: Yes, I can. I can speak Spanish and Portuguese, and my English is getting better.","A: Great. Can you work on weekends sometimes?","B: I can work on Saturdays, but I can't work on Sundays. I usually visit my family.","A: That's fine. We often have big projects on Saturdays."],
+   q:["E:What does B do?=*Graphic designer|Engineer|Teacher","E:Which languages can B speak?=Only Spanish|*Spanish and Portuguese|French and Spanish","E:When can't B work?=On Saturdays|*On Sundays|On Mondays"],
+   dit:["Can you speak Spanish?","I can't work on Sundays.","We often have big projects on Saturdays."]},
+  {apos:16, t:'Planos de férias', tema:'Planos e férias',
+   falas:["A: Are you going to travel in July?","B: Yes! I'm going to visit my cousins in Chile. We're going to ski in the mountains.","A: Wow. How long are you going to stay?","B: Two weeks. And you? Any plans?","A: Not yet. Maybe I'll go to the beach. I don't know.","B: You should go to Florianópolis. It's beautiful.","A: Good idea. I think I'll look for flights tonight."],
+   q:["E:Where is B going?=*To Chile|To Florianópolis|To Mexico","E:How long is B going to stay?=One week|*Two weeks|One month","E:What is A going to do tonight?=Visit cousins|*Look for flights|Go to the beach"],
+   dit:["I'm going to visit my cousins.","How long are you going to stay?","I think I'll look for flights tonight."]},
+  {apos:18, t:'No hotel', tema:'Viagem: aeroporto, hotel e transporte',
+   falas:["A: Good evening. Do you have a reservation?","B: Yes, my name is Lucas Ferreira. I have a reservation for three nights.","A: Let me check. Yes, a double room until Friday. Can I see your passport, please?","B: Sure, here it is. What time is breakfast?","A: From six thirty to ten. The restaurant is on the first floor.","B: And how far is the hotel from the city center?","A: About ten minutes by taxi. There's also a bus stop across the street.","B: Perfect, thank you."],
+   q:["E:How many nights is the reservation for?=Two|*Three|Five","E:What time does breakfast end?=At six thirty|*At ten|At eleven","E:How far is the city center?=*About ten minutes by taxi|An hour by bus|Five minutes on foot"],
+   dit:["I have a reservation for three nights.","What time is breakfast?","There's also a bus stop across the street."]},
+  {apos:22, t:'Chuva nas montanhas', tema:'Contar uma história',
+   falas:["Last year I was traveling in Peru with two friends.","One afternoon, we were walking in the mountains when it suddenly started to rain.","We didn't have umbrellas, so we ran to a small house.","An old woman opened the door and invited us in.","While we were drinking hot tea, she was telling us stories about the village.","In the end, the rain stopped and we walked back to the hotel.","It was the best day of the trip."],
+   q:["E:Where were they traveling?=In Chile|*In Peru|In Bolivia","E:What happened while they were walking?=They got lost|*It started to rain|They met some friends","E:What did the old woman do?=She sold umbrellas|*She invited them in|She called a taxi"],
+   dit:["We were walking in the mountains when it suddenly started to rain.","We didn't have umbrellas.","It was the best day of the trip."]},
+  {apos:24, t:'Primeiro dia no trabalho', tema:'Regras e obrigações no trabalho',
+   falas:["A: So, it's your first day. Any questions?","B: Yes. Do I have to wear a suit?","A: No, you don't have to. Smart casual is fine. But you must wear your ID badge all the time.","B: Okay. What about working hours?","A: You have to be here at nine, but you can leave at five thirty. And you mustn't use your personal phone during meetings.","B: Got it. Do I need to bring my own laptop?","A: No, we'll give you one this afternoon."],
+   q:["E:Does B need to wear a suit?=Yes|*No|Only on Mondays","E:What must B wear all the time?=A tie|*An ID badge|A uniform","E:What is forbidden during meetings?=Drinking coffee|*Using a personal phone|Using laptops"],
+   dit:["Do I have to wear a suit?","You must wear your ID badge all the time.","We'll give you one this afternoon."]},
+  {apos:26, t:'Pedindo conselho', tema:'Problemas do dia a dia e conselhos',
+   falas:["A: You look stressed. What's wrong?","B: I'm working too much and I can't sleep. I don't know what to do.","A: You should talk to your boss. Maybe you could work from home on Fridays.","B: That's a good idea. Actually, I should have asked last month.","A: And you shouldn't drink coffee after six. That helps me a lot.","B: I wish I had more time for exercise, too.","A: Why don't you walk to work? It's only twenty minutes."],
+   q:["E:What is B's problem?=*B works too much and can't sleep|B hates the boss|B is bored","E:What does A suggest about Fridays?=Taking the day off|*Working from home|Going to the gym","E:What does A say about coffee?=*Don't drink it after six|Drink more of it|Drink tea instead"],
+   dit:["You should talk to your boss.","I should have asked last month.","I wish I had more time for exercise."]},
+  {apos:28, t:'Curitiba ou Porto Alegre?', tema:'Comparar cidades e dar opinião',
+   falas:["A: So, which city is better to live in, Curitiba or Porto Alegre?","B: In my opinion, Curitiba is cleaner and safer. But it's colder, too.","A: I agree, but Porto Alegre is cheaper, isn't it?","B: A little. Rent is more expensive in Curitiba.","A: And the food? I think Porto Alegre has the best barbecue in the country.","B: I see your point, but that's a matter of taste.","A: Fair enough."],
+   q:["E:According to B, Curitiba is…=*cleaner and safer|cheaper|warmer","E:Where is rent more expensive?=*In Curitiba|In Porto Alegre|It's the same","E:What does A say about Porto Alegre?=It's colder|*It has the best barbecue|It's safer"],
+   dit:["Curitiba is cleaner and safer.","Rent is more expensive in Curitiba.","That's a matter of taste."]},
+  {apos:32, t:'Aquela coisa que…', tema:'Descrever o que você não sabe nomear',
+   falas:["A: I need to buy that thing… you know, the thing that you use to open wine bottles.","B: A corkscrew?","A: Yes! A corkscrew. And what's the word for the person who fixes pipes?","B: A plumber. Why, is something broken?","A: The kitchen sink, the one which my landlord installed last year, is leaking again.","B: You should call the guy who fixed my shower. He's really good."],
+   q:["E:What does A want to open?=A door|*Wine bottles|A window","E:What is broken?=The shower|*The kitchen sink|The fridge","E:Who does B recommend?=A carpenter|*The person who fixed B's shower|The landlord"],
+   dit:["It's the thing that you use to open wine bottles.","What's the word for the person who fixes pipes?","He's really good."]},
+  {apos:34, t:'Se eu ganhasse na loteria', tema:'Decisões e hipóteses',
+   falas:["A: If you won the lottery, what would you do?","B: First, I'd pay off my apartment. Then I'd travel for a year.","A: Would you quit your job?","B: Probably not. If I didn't work, I'd get bored.","A: I would. Actually, if I had known how stressful this job was, I wouldn't have accepted it.","B: Well, if you're unhappy, you should start looking for something else.","A: I will, if I find the time."],
+   q:["E:What would B do first?=Travel|*Pay off the apartment|Quit the job","E:Why wouldn't B quit?=*B would get bored|B loves the boss|B needs the money","E:What does A regret?=*Accepting the job|Buying a lottery ticket|Moving to a new city"],
+   dit:["If you won the lottery, what would you do?","If I didn't work, I'd get bored.","I wouldn't have accepted it."]},
+  {apos:36, t:'O recado do Marcos', tema:'Contar o que alguém disse',
+   falas:["A: Did Marcos call?","B: Yes, he called this morning. He said he was stuck in traffic and that he would be late for the meeting.","A: Did he say what time he would arrive?","B: He told me he would be here around eleven. He also asked me to send him the slides.","A: Okay. Did he mention the client?","B: He said the client had complained about the price again.","A: Not again! Thanks for letting me know."],
+   q:["E:Why was Marcos late?=He was sick|*He was stuck in traffic|He missed the bus","E:When will he arrive?=At ten|*Around eleven|After lunch","E:What did the client complain about?=The slides|*The price|The delay"],
+   dit:["He said he was stuck in traffic.","He asked me to send him the slides.","Thanks for letting me know."]},
+  {apos:38, t:'Notícias da noite', tema:'Vocabulário de notícias',
+   falas:["Good evening. A new bridge was opened in the city center this morning.","The project was started three years ago and cost around fifty million dollars.","According to the mayor, the bridge will be used by more than twenty thousand cars every day.","However, some residents have complained about the noise.","In other news, two people were injured in a small fire at a shopping mall last night.","The fire was put out quickly, and the mall will be reopened tomorrow."],
+   q:["E:When was the bridge opened?=Last night|*This morning|Three years ago","E:How many cars will use it every day?=Two thousand|*More than twenty thousand|Fifty million","E:What happened at the mall?=A robbery|*A small fire|A concert"],
+   dit:["A new bridge was opened in the city center.","Two people were injured.","The mall will be reopened tomorrow."]},
+  {apos:42, t:'Trabalho remoto em debate', tema:'Debater e argumentar',
+   falas:["A: What really worries me about remote work is the lack of contact between colleagues.","B: I see what you mean, but it's productivity that matters in the end, isn't it?","A: Not only does isolation affect morale, but it also slows down learning for junior staff.","B: That's a fair point. Still, what most people want is flexibility, not five days in the office.","A: Maybe a hybrid model is the answer, then.","B: Now that's something we can agree on."],
+   q:["E:What worries A?=Productivity|*The lack of contact between colleagues|The salary","E:According to B, what do most people want?=*Flexibility|Five days in the office|Higher salaries","E:What do they agree on in the end?=*A hybrid model|Remote work only|Office work only"],
+   dit:["What really worries me is the lack of contact.","That's a fair point.","Now that's something we can agree on."]},
+  {apos:44, t:'Encontro na rua', tema:'Humor e expressões coloquiais',
+   falas:["A: Hey, long time no see! How've you been?","B: Can't complain. Busy as usual. You?","A: Same here. Got a new job, actually. It's a piece of cake compared to the old one.","B: Good for you! Want to grab a coffee sometime?","A: Sounds good. How about Thursday?","B: Thursday works. I'll text you.","A: Cool. Catch you later!"],
+   q:["E:How is A's new job?=*Much easier than the old one|Harder than the old one|Boring","E:What do they plan to do?=Have dinner|*Grab a coffee|Go to the movies","E:When?=On Tuesday|*On Thursday|On Saturday"],
+   dit:["Long time no see!","It's a piece of cake.","Want to grab a coffee sometime?"]},
+  {apos:46, t:'Negociando um contrato', tema:'Negociação',
+   falas:["A: We're interested in a two-year contract, provided that you can lower the price by ten percent.","B: Ten percent is a lot. Unless you increase the volume, I'm afraid we can't go below five.","A: What if we committed to fifteen thousand units a year?","B: In that case, we could offer eight percent, as long as payment is made within thirty days.","A: Let's meet halfway. Eight percent, with payment in forty-five days.","B: I'll need to check with my director, but I think we have a deal."],
+   q:["E:How long is the contract?=One year|*Two years|Five years","E:What discount is finally on the table?=Five percent|*Eight percent|Ten percent","E:What does B need to do?=*Check with the director|Sign today|Lower the volume"],
+   dit:["Provided that you can lower the price.","I'm afraid we can't go below five.","I think we have a deal."]},
+  {apos:47, t:'A fazenda dos avós', tema:'Lembranças e emoções com nuance',
+   falas:["When I was a kid, we used to spend every summer at my grandparents' farm.","My grandfather would wake us up at five to milk the cows, and we would complain every single time.","I didn't use to like vegetables, but my grandmother's soup was the exception.","I hadn't been back for almost twenty years when I finally visited last spring.","The house was smaller than I remembered, and honestly, I was a bit devastated to see how much it had changed.","Still, I was relieved that the old mango tree was still there."],
+   q:["E:Where did the speaker spend the summers?=At the beach|*At the grandparents' farm|In the city","E:What did the grandfather do at five?=He made soup|*He woke the kids up to milk the cows|He went to the market","E:How did the speaker feel about the mango tree?=Devastated|*Relieved|Angry"],
+   dit:["We used to spend every summer at my grandparents' farm.","My grandfather would wake us up at five.","The house was smaller than I remembered."]}
+];
+
+/* Escrita: tarefa, checklist conferida pelo app, texto modelo e exercícios.
+   Cada item do checklist: [descrição, expressão regular, quantas vezes precisa aparecer] */
+const ESCRITAS = [
+  {apos:3, t:'Apresente-se', min:30,
+   tarefa:'Escreva de 5 a 6 frases sobre você: nome, idade, cidade, profissão e alguém da família.',
+   checks:[['Use I’m ou I am', /\b(i'm|i am)\b/g, 2],['Diga a idade com to be (I’m 30)', /\b(i'm|i am) \d+|\byears old\b/g, 1],['Profissão com a ou an', /\b(i'm|i am) (a|an) /g, 1]],
+   modelo:"Hi! My name is Ana Souza. I'm 32 years old and I'm from Salvador, in Brazil. I'm a nurse and I work in a big hospital. I'm married and I have a son. His name is Lucas and he's five.",
+   ex:["E:Qual frase está bem escrita?=i'm from brazil.|*I'm from Brazil.|I'm From brazil.","C:I have 32 years.=I'm 32.|I am 32.|I'm 32 years old.|I am 32 years old.","O:My name is Ana and I am a nurse"]},
+  {apos:5, t:'Sua rotina', min:50,
+   tarefa:'Escreva de 6 a 8 frases sobre um dia normal seu, com horários e conectores.',
+   checks:[['Diga pelo menos 2 horários com at', /\bat (\d|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|noon|midnight)/g, 2],['Use first, then ou after that', /\b(first|then|after that)\b/g, 2],['Use um advérbio de frequência', /\b(always|usually|often|sometimes|never)\b/g, 1]],
+   modelo:"On weekdays I get up at six thirty. First, I take a shower and have breakfast. Then I take the bus to work. I start work at eight and I have lunch at noon. After that, I work until five. In the evening, I usually go to the gym or watch TV. I go to bed at eleven.",
+   ex:["L:I get up ___ seven o'clock.=at","C:She go to work by bus.=She goes to work by bus.","E:Qual está certa?=Then I breakfast have.|*Then I have breakfast.|Then have I breakfast."]},
+  {apos:7, t:'Mensagem para um restaurante', min:35,
+   tarefa:'Escreva uma mensagem curta (4 a 6 frases) para reservar uma mesa e perguntar sobre o cardápio.',
+   checks:[['Peça com educação (I’d like, Could you, Can I)', /\b(i'd like|i would like|could you|can i|could i)\b/g, 1],['Faça pelo menos uma pergunta', /\?/g, 1],['Use some ou any', /\b(some|any)\b/g, 1]],
+   modelo:"Hi! I'd like to book a table for four people on Saturday at eight p.m. Do you have any tables outside? One of my friends doesn't eat meat. Are there any vegetarian dishes on the menu? Could you also tell me if you accept credit cards? Thank you, Marcos.",
+   ex:["L:I'd ___ a table for two, please.=like","E:Pedido educado:=I want water.|*Could I have some water, please?|Give me water.","C:Do you have some vegetarian dishes?=Do you have any vegetarian dishes?"]},
+  {apos:9, t:'Seu fim de semana', min:50,
+   tarefa:'Escreva de 6 a 8 frases sobre o seu último fim de semana, no passado.',
+   checks:[['Use pelo menos 4 verbos no passado', /\b(went|had|saw|ate|made|got|bought|was|were|did|took|met|came|left|slept|read|\w+ed)\b/g, 4],['Diga quando (last, on Saturday, yesterday)', /\b(last|yesterday|on saturday|on sunday|on friday)\b/g, 1]],
+   modelo:"Last weekend was great. On Saturday morning, I played soccer with my friends. Then we had lunch at a small restaurant near the beach. In the afternoon, I watched a movie at home. On Sunday, I visited my parents and we cooked together. In the evening, I didn't go out because I was tired. I went to bed early.",
+   ex:["L:Last Sunday we ___ to the park. (go)=went","C:I didn't saw my friends.=I didn't see my friends.|I did not see my friends.","E:Qual está certa?=Yesterday I play tennis.|*Yesterday I played tennis.|Yesterday I playing tennis."]},
+  {apos:13, t:'Descreva uma pessoa', min:55,
+   tarefa:'Escreva de 6 a 8 frases sobre um amigo ou parente: aparência, personalidade e hábitos.',
+   checks:[['Use pelo menos 3 adjetivos de aparência ou personalidade', /\b(tall|short|thin|slim|friendly|kind|funny|shy|smart|quiet|nice|curly|straight|long|brown|blue|green|dark|blond)\b/g, 3],['Use um advérbio de frequência', /\b(always|usually|often|sometimes|never|rarely)\b/g, 1]],
+   modelo:"My best friend is called Bia. She's tall and thin, and she has long curly hair and brown eyes. She's very funny and kind, but sometimes she's a little shy with new people. She works as a teacher and she always helps her students. On weekends we usually go to the movies together. She never forgets my birthday.",
+   ex:["C:She has hair long and black.=She has long black hair.|She has long, black hair.","E:Qual está certa?=*He is always late.|He always is late.|Always he is late.","L:They are very ___. (simpáticos)=friendly|nice|kind"]},
+  {apos:15, t:'E-mail marcando um compromisso', min:50,
+   tarefa:'Escreva um e-mail curto para marcar uma reunião ou um encontro: dia, hora e lugar.',
+   checks:[['Comece com uma saudação (Hi, Hello, Dear)', /\b(hi|hello|dear)\b/g, 1],['Dia com on (on Tuesday)', /\bon (monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b/g, 1],['Hora com at', /\bat \d/g, 1],['Feche o e-mail (Best, Regards, Thanks, See you)', /\b(best|regards|thanks|thank you|see you)\b/g, 1]],
+   modelo:"Hi Carla, I hope you're well. Can we meet next week to talk about the project? I'm free on Tuesday at 10 a.m. or on Thursday afternoon. We can meet at the café on Main Street, or online if you prefer. Please let me know what works for you. Best regards, Rafael",
+   ex:["L:Let's meet ___ Friday.=on","L:I'm free ___ the afternoon.=in","E:Fechamento de e-mail de trabalho:=Kisses,|*Best regards,|Bye bye,"]},
+  {apos:17, t:'Planos de viagem', min:60,
+   tarefa:'Escreva de 7 a 9 frases sobre uma viagem que você vai fazer (real ou inventada).',
+   checks:[['Use going to para planos', /\b(going to|gonna)\b/g, 2],['Use will ou ’ll', /\b(will|won't)\b|'ll\b/g, 1],['Diga quanto tempo (for … days, weeks)', /\bfor (a |two |three |four |five |six |seven |ten |\d+ )?(day|days|week|weeks|month|months)\b/g, 1]],
+   modelo:"Next month I'm going to travel to Buenos Aires with my wife. We're going to stay there for five days. We booked a small hotel near the city center. We're going to visit museums and eat a lot of empanadas. I think we'll also see a tango show. The flight is only three hours, so it isn't very tiring. I'll take a lot of pictures.",
+   ex:["L:We're going ___ visit the museum.=to","E:Previsão com opinião:=I think it is going rain.|*I think it will rain.|I think it rains tomorrow.","C:I will to stay for a week.=I will stay for a week.|I'll stay for a week."]},
+  {apos:19, t:'O que está acontecendo agora', min:50,
+   tarefa:'Descreva o que as pessoas estão fazendo agora à sua volta e compare com a sua rotina.',
+   checks:[['Use o presente contínuo pelo menos 3 vezes', /\b(am|is|are|'m|'s|'re) \w+ing\b/g, 3],['Compare com a rotina (usually, every day)', /\b(usually|always|every)\b/g, 1]],
+   modelo:"Right now I'm sitting in a café near my office. A man next to me is reading the newspaper, and two students are studying together. The waiter is cleaning the tables. Outside, it's raining and people are walking fast. I usually have lunch at home, but today I'm working in the city, so I'm eating here.",
+   ex:["L:Look! The children ___ playing in the rain.=are|'re","E:Qual está certa?=I'm knowing the answer.|*I know the answer.|I knowing the answer.","C:She is study now.=She is studying now.|She's studying now."]},
+  {apos:23, t:'Conte uma história', min:80,
+   tarefa:'Escreva de 8 a 10 frases contando algo que aconteceu com você, com começo, meio e fim.',
+   checks:[['Use o past continuous (was/were + -ing)', /\b(was|were) \w+ing\b/g, 1],['Use pelo menos 2 conectores de história', /\b(suddenly|then|after that|in the end|when|while|at first|finally)\b/g, 2],['Use pelo menos 5 verbos no passado', /\b(went|had|saw|ate|made|got|bought|was|were|did|took|met|came|left|ran|told|said|gave|found|\w+ed)\b/g, 5]],
+   modelo:"Last summer, something funny happened to me. I was waiting for the bus when a dog suddenly ran to me with a shoe in its mouth. At first, I didn't understand. Then a man came running and shouting. While he was trying to catch the dog, the bus arrived. I decided to help him, so I missed my bus. After that, we finally caught the dog behind a bakery. In the end, the man thanked me and gave me a ride to work.",
+   ex:["L:While I ___ dinner, the lights went out. (cook)=was cooking","E:Conector para algo inesperado:=Firstly|*Suddenly|However","C:I was walk home when I saw him.=I was walking home when I saw him."]},
+  {apos:25, t:'Experiências de vida', min:60,
+   tarefa:'Escreva de 6 a 8 frases sobre experiências que você já teve ou nunca teve. Dê detalhes de pelo menos uma.',
+   checks:[['Use o present perfect pelo menos 2 vezes', /\b(i've|i have|i haven't|have you|has|hasn't|we've|they've)\b/g, 2],['Use ever, never, already ou yet', /\b(ever|never|already|yet)\b/g, 1],['Dê um detalhe com tempo no passado (in 2015, ago, last…)', /\b(in (19|20)\d\d|ago|last|when i was)\b/g, 1]],
+   modelo:"I've traveled to six countries, but I've never been to Asia. I've already visited Argentina three times. The first time was in 2015, and I loved the food. I've never tried skydiving, but I'd like to. Have you ever eaten something really strange? I ate frog legs in France two years ago, and they were delicious! I haven't learned to swim yet, and that's my next goal.",
+   ex:["L:I've ___ been to Japan. (nunca)=never","E:Qual está certa?=I have been to Chile last year.|*I went to Chile last year.|I have went to Chile last year.","C:Did you ever eat sushi?=Have you ever eaten sushi?"]},
+  {apos:27, t:'Comparando duas opções', min:70,
+   tarefa:'Compare duas cidades, dois celulares ou dois empregos, e diga qual você escolheria e por quê.',
+   checks:[['Use pelo menos 2 comparativos com than', /\b(\w+er|more \w+|less \w+|better|worse) than\b/g, 2],['Use um superlativo', /\bthe (most|least|best|worst|\w+est)\b/g, 1],['Dê sua conclusão (in my opinion, I think, so)', /\b(in my opinion|i think|i'd choose|i would choose|so,)\b/g, 1]],
+   modelo:"I'm trying to decide between two phones. The first one is cheaper than the second, and it's lighter too. However, the second phone has a better camera, and its battery is bigger than the first one's. My friends say it's the best phone on the market right now. In my opinion, the camera is the most important thing for me, because I take a lot of pictures. So, I think I'll buy the more expensive one.",
+   ex:["L:This phone is ___ than that one. (cheap)=cheaper","E:Qual está certa?=It's the more beautiful city.|*It's the most beautiful city.|It's the beautifulest city.","C:My house is more big than yours.=My house is bigger than yours."]},
+  {apos:29, t:'Opinião num fórum', min:70,
+   tarefa:'Responda num fórum: é melhor morar numa cidade grande ou pequena? Dê sua opinião, comente o argumento do outro lado e fale da sua experiência.',
+   checks:[['Dê sua opinião (in my opinion, I think, personally)', /\b(in my opinion|i think|i believe|personally)\b/g, 1],['Concorde ou discorde de um ponto (agree, point)', /\b(agree|disagree|point)\b/g, 1],['Present perfect com for ou since', /\b(have|has|'ve) (been|lived|worked|studied)\b[^.]*\b(for|since)\b/g, 1]],
+   modelo:"Personally, I think small towns are better for families. I've lived in a big city for ten years, and I've been tired of the traffic and the noise since my son was born. Some people say that big cities have more opportunities, and I agree with that point. However, with remote work, you don't need to live in a big city anymore. In my opinion, quality of life is more important than having a hundred restaurants near your house.",
+   ex:["L:I've lived here ___ 2018.=since","E:Qual está certa?=I'm agree with you.|*I agree with you.|I am agree with you.","C:I work here since three years.=I have worked here for three years.|I've worked here for three years.|I have been working here for three years.|I've been working here for three years."]},
+  {apos:33, t:'Reclamação educada', min:60,
+   tarefa:'Escreva um e-mail reclamando de um produto ou serviço, com firmeza e cortesia.',
+   checks:[['Saudação formal (Dear)', /\bdear\b/g, 1],['Use uma expressão de cortesia (unfortunately, I’m afraid, I would appreciate)', /\b(unfortunately|i'm afraid|i am afraid|i would appreciate|i'd appreciate)\b/g, 1],['Faça um pedido com could you', /\bcould you\b/g, 1],['Use uma oração relativa (who, which, that)', /\b(who|which|that)\b/g, 1]],
+   modelo:"Dear Customer Service, I'm writing about the coffee machine which I bought on your website last week. Unfortunately, it stopped working after only three days. I contacted the technician who you recommended, but he couldn't fix it. Could you please send me a new machine or give me a full refund? I would appreciate a quick reply. Kind regards, Fernanda Lima",
+   ex:["L:I'm writing ___ the order I placed last week.=about|regarding","E:Tom mais educado:=Fix it now!|*Could you please fix it as soon as possible?|You must fix it.","C:The product who I bought is broken.=The product which I bought is broken.|The product that I bought is broken.|The product I bought is broken."]},
+  {apos:35, t:'Confirmando uma reunião', min:55,
+   tarefa:'Escreva um e-mail confirmando uma reunião online, com data, horário, número de participantes e um dado em números.',
+   checks:[['Data com ordinal (June 12th, the 3rd)', /\b(\d+(st|nd|rd|th)|first|second|third|fourth|fifth|tenth|twentieth)\b/g, 1],['Use pelo menos 2 números', /\d/g, 2],['Mencione a reunião (meeting, call)', /\b(meeting|call)\b/g, 1]],
+   modelo:"Hi team, I'd like to confirm our online meeting on Thursday, June 12th, at 3 p.m. (Brasília time). We'll have around 15 participants, so please join a few minutes early. We'll discuss the second quarter results: sales grew by 7.5%, and we reached 1,200 new clients. If you can't join, please let me know before Wednesday. Thanks, Paula",
+   ex:["L:Our meeting is on May ___. (21)=21st|twenty-first","E:Como se escreve dois e meio em inglês?=2,5|*2.5|2;5","C:We have three hundreds clients.=We have three hundred clients."]},
+  {apos:37, t:'Resumo de uma conversa', min:55,
+   tarefa:'Conte uma conversa importante que você teve: o que a pessoa disse, pediu e perguntou.',
+   checks:[['Use said ou told pelo menos 2 vezes', /\b(said|told)\b/g, 2],['Use asked', /\basked\b/g, 1],['Recue o tempo verbal (was, would, had, could)', /\b(was|were|would|had|could)\b/g, 2]],
+   modelo:"Yesterday I talked to my manager about my vacation. She said that the team was very busy in July. She told me that I could take my vacation in August instead. I asked her if I could split it into two parts, and she said it wouldn't be a problem. She also asked me to finish the report before I left.",
+   ex:["L:She ___ me she would call later.=told","E:“Where do you live?” → He asked me where ___=do I live.|*I lived.|did I live.","C:He said me to wait.=He told me to wait.|He asked me to wait."]},
+  {apos:39, t:'Roteiro de apresentação', min:90,
+   tarefa:'Escreva o roteiro de uma apresentação de 2 minutos sobre um tema que você conhece, com abertura, contraste e fechamento.',
+   checks:[['Abra com first of all, to begin with ou firstly', /\b(first of all|to begin with|firstly)\b/g, 1],['Faça um contraste (however, although, on the other hand)', /\b(however|although|on the other hand)\b/g, 1],['Feche com to sum up, in conclusion ou all in all', /\b(to sum up|in conclusion|all in all)\b/g, 1]],
+   modelo:"Good morning, everyone. Today I'm going to talk about urban gardens. First of all, let me explain what they are: small gardens that are created in empty spaces in the city. They are used by neighbors to grow vegetables and herbs. In addition, they make the city greener and bring people together. However, many gardens are abandoned after a few months because nobody takes care of them. Although this is a real challenge, I believe that schools can help. To sum up, urban gardens are cheap, healthy and good for the community. Thank you.",
+   ex:["L:___, I would like to thank you all for coming. (antes de tudo)=First of all","E:Para contrastar:=In addition|*However|For example","C:The report was write by the team.=The report was written by the team."]},
+  {apos:41, t:'Argumento com cautela', min:90,
+   tarefa:'Escreva um parágrafo argumentativo: a inteligência artificial vai substituir os professores? Use linguagem de cautela.',
+   checks:[['Use pelo menos 2 modais de cautela (might, may, could, probably, it seems)', /\b(might|may|could|probably|it seems|likely)\b/g, 2],['Faça um contraste (however, although, nevertheless)', /\b(however|although|nevertheless|on the other hand)\b/g, 1],['Feche com overall, in conclusion ou to sum up', /\b(overall|in conclusion|to sum up|all in all)\b/g, 1]],
+   modelo:"Will artificial intelligence replace teachers? It seems unlikely, at least in the near future. AI tools might help students practice more and get instant feedback, and they may reduce the time teachers spend on repetitive tasks. However, learning is not only about information. Students need motivation, guidance and someone who notices when they are struggling. A machine could identify mistakes, but it probably can't build the kind of trust that keeps a teenager in school. Overall, the most likely scenario is that teachers who use AI well will replace teachers who don't.",
+   ex:["L:She isn't answering. She ___ be in a meeting. (talvez)=might|may|could","E:Mais cauteloso:=AI will destroy all jobs.|*AI might change many jobs.|AI must destroys jobs.","C:It must to be expensive.=It must be expensive."]},
+  {apos:43, t:'Narrativa com reviravolta', min:85,
+   tarefa:'Conte uma história, real ou inventada, com pano de fundo, uma volta ao passado e uma surpresa no fim.',
+   checks:[['Use o past perfect (had + particípio)', /\bhad (already |just |never )?\w+(ed|en|wn|ne|t|ost|ought|ound|een)\b/g, 1],['Use o past continuous (was/were + -ing)', /\b(was|were) \w+ing\b/g, 1],['Marque a surpresa (suddenly, to my surprise, it turned out)', /\b(suddenly|to my surprise|it turned out|at that moment)\b/g, 1]],
+   modelo:"It was a cold night in July, and I was driving home after a long day at work. I had just stopped at a red light when I noticed a woman waving at me from the sidewalk. She looked worried, so I opened the window. She explained that she had lost her keys and that her phone had died. While we were talking, I realized I had seen her before. To my surprise, she was my primary school teacher, whom I hadn't seen for almost twenty-five years.",
+   ex:["L:When I got home, I realized I ___ left my phone at work.=had","E:Pano de fundo da história:=It rained and I walk home.|*It was raining and I was walking home.|It has rained and I walked home.","C:When I arrived, everybody already left.=When I arrived, everybody had already left."]},
+  {apos:45, t:'Carta de apresentação', min:90,
+   tarefa:'Escreva uma carta de apresentação para uma vaga de emprego, em registro formal, com uma pergunta indireta.',
+   checks:[['Saudação formal (Dear)', /\bdear\b/g, 1],['Faça uma pergunta indireta (I would like to know, could you tell me, I was wondering if)', /\b(i would like to know|i'd like to know|could you tell me|i was wondering if|i was wondering whether)\b/g, 1],['Use vocabulário profissional (experience, skills, position, team)', /\b(experience|skills|position|team|role)\b/g, 2],['Fechamento formal (Kind regards, Sincerely)', /\b(sincerely|kind regards|best regards)\b/g, 1]],
+   modelo:"Dear Ms. Carter, I am writing to apply for the position of Project Manager advertised on your website. I have eight years of experience managing international teams in the logistics sector, and I am confident that my skills in planning and negotiation would be valuable to your company. In my current role, I reduced delivery costs by 12% in two years. I would also like to know whether the position offers opportunities for remote work, and I was wondering if you could tell me when the selection process is expected to end. Kind regards, João Almeida",
+   ex:["E:Pergunta indireta correta:=Could you tell me when does the process end?|*Could you tell me when the process ends?|Could you tell me when ends the process?","L:I am writing to ___ for the position of analyst.=apply","C:I have experience in manage teams.=I have experience in managing teams.|I have experience managing teams."]},
+  {apos:47, t:'Crônica: como a vida mudou', min:95,
+   tarefa:'Escreva um texto pessoal sobre algo que mudou na sua vida, com hábitos do passado e emoções com nuance.',
+   checks:[['Use used to', /\bused to\b/g, 1],['Use would para hábito do passado', /\bwould\b/g, 1],['Use uma emoção com nuance (thrilled, relieved, devastated, overwhelmed, grateful, nostalgic)', /\b(thrilled|relieved|devastated|overwhelmed|grateful|nostalgic|anxious|delighted)\b/g, 1],['Use unless, as long as ou provided that', /\b(unless|as long as|provided that)\b/g, 1]],
+   modelo:"Ten years ago, I used to spend two hours a day in traffic. I would leave home before sunrise, listen to the same radio station and arrive at work already exhausted. I didn't use to think much about it; it was simply part of life. Then the pandemic came, and suddenly my commute disappeared. At first I was thrilled, then a little overwhelmed by the silence of working alone. Today I go to the office twice a week, and I'm grateful for the balance. I won't go back to the old routine unless there's a very good reason.",
+   ex:["L:When I was a teenager, I ___ to play the guitar every day.=used","E:Emoção com nuance (aliviado):=devastated|*relieved|thrilled","C:I use to work late when I was younger.=I used to work late when I was younger."]}
+];
+
+/* Canais com vídeos embutidos (o app mostra os vídeos mais recentes de cada canal) */
+const CANAIS = [
+  {nome:'VOA Learning English', id:'UCKyTokYo0nK2OA-az-sDijA', nivel:'A2 a B1', modulos:[1,2,3], desc:'Notícias e aulas em inglês americano mais lento e claro. A série Let’s Learn English é ótima para os módulos 1 e 2.'},
+  {nome:'Rachel’s English', id:'UCvn_XCl_mgQmt3sD753zdJA', nivel:'Todos', modulos:[1,2,3,4,5], desc:'Pronúncia americana: sons, ligação entre palavras e reduções. Combina com o foco de som de cada aula.'},
+  {nome:'English with Lucy', id:'UCz4tgANd4yy8Oe0iXCdSWfA', nivel:'A2 a B2', modulos:[2,3,4], desc:'Inglês britânico: gramática, vocabulário e pronúncia explicados com calma.'},
+  {nome:'mmmEnglish', id:'UCrRiVfHqBIIvSgKmgnSY66g', nivel:'A2 a B2', modulos:[2,3,4], desc:'Gramática, conversa e expressões do dia a dia, com sotaque australiano (aula 29).'},
+  {nome:'Easy English', id:'UCTRHegh7UqWuKRymXoqzbzA', nivel:'B1 a C1', modulos:[3,4,5], desc:'Entrevistas na rua com nativos, com legendas. Fala real, rápida e com sotaques variados.'},
+  {nome:'TED', id:'UCAuUUnT6oDeKwE6v1NGQxug', nivel:'B2 a C1', modulos:[4,5], desc:'Palestras para treinar pausas, ênfase e apresentações (aulas 39 e 40).'},
+  {nome:'BBC Learning English', id:null, url:'https://www.youtube.com/@bbclearningenglish', nivel:'A2 a C1', modulos:[2,3,4,5], desc:'Vídeos curtos de gramática, vocabulário e notícias em inglês britânico. Abre no YouTube.'}
+];
+const PODCASTS = [
+  {nome:'6 Minute English (BBC)', apple:'262026947', nivel:'A2 a B1', desc:'Episódios de 6 minutos sobre temas do dia a dia, com o vocabulário explicado.'},
+  {nome:'Speak English Now', apple:'1216879060', nivel:'A2 a B1', desc:'Histórias e conversas faladas devagar, para treinar a fala sem travar na gramática.'},
+  {nome:'The English We Speak (BBC)', apple:'262026989', nivel:'B1 a B2', desc:'Episódios de 3 minutos, cada um com uma expressão idiomática (aula 44).'},
+  {nome:'Rachel’s English Podcast', apple:'1260073690', nivel:'B1 a C1', desc:'Conversas naturais com análise da pronúncia americana.'},
+  {nome:'All Ears English', apple:'751574016', nivel:'B1 a C1', desc:'Inglês americano de conversa, com dicas para soar natural.'},
+  {nome:'Luke’s English Podcast', apple:'312059190', nivel:'B2 a C1', desc:'Inglês britânico em episódios longos e divertidos, bons para a fala longa (aula 47).'},
+  {nome:'TED Talks Daily', apple:'160904630', nivel:'C1', desc:'Palestras completas em áudio, com sotaques variados (aulas 46 a 48).'}
+];
+
+const NOME_TRILHA = {gramatica:'Gramática', escuta:'Escuta', escrita:'Escrita'};
+const ORDEM_TRILHA = {gramatica:0, escuta:1, escrita:2};
+function exCompacto(s){
+  const tipo = s[0], corpo = s.slice(2);
+  const k = corpo.indexOf('=');
+  const a = k < 0 ? corpo : corpo.slice(0, k), b = k < 0 ? '' : corpo.slice(k + 1);
+  if (tipo === 'L') return {tipo:'lacuna', frase:a, resposta:b.split('|')};
+  if (tipo === 'C') return {tipo:'corrigir', frase:a, resposta:b.split('|')};
+  if (tipo === 'O') return {tipo:'ordenar', resposta:a};
+  const ops = b.split('|');
+  return {tipo:'escolha', pergunta:a, opcoes:ops.map(o => o.replace(/^\*/, '')), resposta:Math.max(0, ops.findIndex(o => o[0] === '*'))};
+}
+function treino(id){
+  const m = /^([gew])(\d+)$/.exec(String(id || ''));
+  if (!m) return null;
+  const k = +m[2];
+  if (m[1] === 'g'){
+    const e = aulaEmenta(k);
+    if (!e) return null;
+    const revisao = /^Checkpoint/.test(e.som);
+    const titulo = k === 0 ? 'Teste de nível de gramática' : revisao ? `Revisão de gramática do módulo ${e.modulo}` : e.gramatica;
+    return {id:m[0], trilha:'gramatica', n:k, apos:k, modulo:e.modulo, titulo, revisao:revisao || k === 0, dados:GRAMATICA[k] || null};
+  }
+  const lista = m[1] === 'e' ? ESCUTAS : ESCRITAS;
+  const d = lista[k - 1];
+  if (!d) return null;
+  return {id:m[0], trilha:m[1] === 'e' ? 'escuta' : 'escrita', n:k, apos:d.apos, modulo:moduloDa(d.apos), titulo:d.t, dados:d};
+}
+function idsTreino(trilha){
+  if (trilha === 'gramatica') return EMENTA.map(x => 'g' + x[0]);
+  if (trilha === 'escuta') return ESCUTAS.map((_, i) => 'e' + (i + 1));
+  return ESCRITAS.map((_, i) => 'w' + (i + 1));
+}
+function todosOsTreinos(){
+  return ['gramatica', 'escuta', 'escrita'].flatMap(idsTreino).map(treino)
+    .sort((a, b) => a.apos - b.apos || ORDEM_TRILHA[a.trilha] - ORDEM_TRILHA[b.trilha]);
+}
+const treinosDaAula = n => todosOsTreinos().filter(t => t.apos === n);
+const praticasSalvas = () => store.get('praticas', {});
+function exerciciosGramatica(t){
+  if (t.dados) return t.dados.ex.map(exCompacto);
+  const unidades = Object.keys(GRAMATICA).map(Number);
+  if (t.n === 0) return [1, 2, 3, 4, 5].flatMap(m => embaralhar(unidades.filter(x => moduloDa(x) === m)).slice(0, 3)
+    .map(x => { const ex = GRAMATICA[x].ex; return exCompacto(ex[Math.floor(Math.random() * ex.length)]); }));
+  return embaralhar(unidades.filter(x => moduloDa(x) === t.modulo).flatMap(x => GRAMATICA[x].ex)).slice(0, 12).map(exCompacto);
+}
+function montarTreino(t){
+  const imp = praticasSalvas()[t.id] || {};
+  let ex = [], dit = [];
+  if (t.trilha === 'gramatica') ex = exerciciosGramatica(t);
+  else if (t.trilha === 'escuta'){ ex = t.dados.q.map(exCompacto); dit = t.dados.dit.slice(); }
+  else ex = t.dados.ex.map(exCompacto);
+  return {exercicios:ex.concat(imp.exercicios || []), ditado:dit.concat(imp.ditado || []), midia:imp.midia || [],
+    vocabulario:imp.vocabulario || [], erros:imp.erros || [], notas:imp.notas || '', imp};
+}
+function rotuloOrigem(o){
+  const t = typeof o === 'string' ? treino(o) : null;
+  return t ? `${NOME_TRILHA[t.trilha]}: ${t.titulo}` : 'Aula ' + o;
+}
+function tagTreino(t){
+  const r = resultados(t.id);
+  if (r.concluida) return {tag:'Concluído', cls:' done'};
+  if (r.exercicios !== undefined) return {tag:r.exercicios + '%', cls:''};
+  if (praticasSalvas()[t.id]) return {tag:'Importado', cls:''};
+  return {tag:'', cls:''};
+}
+function proximosTreinos(n, max){
+  return todosOsTreinos().filter(t => t.apos <= n && !resultados(t.id).concluida).slice(0, max);
+}
+
+/* Telas da prática */
+const SECOES_PRATICA = [['gramatica', 'Gramática'], ['escuta', 'Escuta'], ['escrita', 'Escrita'], ['videos', 'Vídeos'], ['podcasts', 'Podcasts']];
+function telaPratica(sec){
+  if (!SECOES_PRATICA.some(s => s[0] === sec)) sec = 'gramatica';
+  const intro = {
+    gramatica:'Uma unidade para cada aula, com explicação curta e exercícios corrigidos na hora. Nos checkpoints, uma revisão sorteada do módulo.',
+    escuta:'Diálogos lidos pela voz do aparelho, com perguntas, ditado e repetição. Cada unidade também tem um prompt para uma aula de escuta com vídeo ou podcast no chat.',
+    escrita:'Uma tarefa de escrita por etapa, com checklist conferido pelo app, texto modelo e um prompt para o Claude corrigir seu texto.',
+    videos:'Toque em Carregar vídeos para ver os vídeos mais recentes de cada canal aqui dentro. Para uma aula de escuta com perguntas, use o prompt das unidades de Escuta.',
+    podcasts:'Podcasts para ouvir no caminho. Os links abrem no Apple Podcasts ou numa busca no Spotify.'
+  }[sec];
+  const seg = `<div class="seg" role="tablist">${SECOES_PRATICA.map(([k, nome]) => `<button class="btn sm${k === sec ? ' primary' : ''}" data-go="#pratica/${k}"${k === sec ? ' aria-current="page"' : ''}>${nome}</button>`).join('')}</div>`;
+  let corpo;
+  if (sec === 'videos') corpo = htmlVideos();
+  else if (sec === 'podcasts') corpo = htmlPodcasts();
+  else {
+    const lista = idsTreino(sec).map(treino).filter(Boolean);
+    corpo = MODULOS.map(m => {
+      const doModulo = lista.filter(t => t.modulo === m.n);
+      if (!doModulo.length) return '';
+      return `<section class="module"><h2>Módulo ${m.n}</h2><p class="note">Nível ${m.nivel}</p><ul class="lesson-list">${doModulo.map(t => {
+        const {tag, cls} = tagTreino(t);
+        const sub = `Junto com a aula ${t.apos}${t.trilha === 'escuta' ? '. ' + t.dados.tema : ''}`;
+        return `<li><button data-go="#treino/${t.id}"><span class="num">${t.apos}</span><span><span class="name">${esc(t.titulo)}</span><span class="sub">${esc(sub)}</span></span><span class="tag${cls}">${tag}</span></button></li>`;
+      }).join('')}</ul></section>`;
+    }).join('');
+  }
+  return `<header class="page-head"><h1>Prática</h1><p>${esc(intro)}</p></header>${seg}${corpo}`;
+}
+function htmlVideos(){
+  const meus = store.get('videos:meus', []);
+  const canais = CANAIS.map((c, i) => `<div class="media-card"><h3>${esc(c.nome)}</h3>
+      <p class="hint">${esc(c.desc)} Nível ${esc(c.nivel)}; módulos ${c.modulos.join(', ')}.</p>
+      ${c.id ? `<div class="video-wrap" id="canal-${i}"><button class="btn primary sm load-video" data-act="canal-carregar" data-ci="${i}">Carregar vídeos</button></div>` : ''}
+      <div class="row"><a class="btn sm" href="${esc(c.id ? 'https://www.youtube.com/channel/' + c.id : c.url)}" target="_blank" rel="noopener">Abrir no YouTube</a></div></div>`).join('');
+  const lista = meus.map((v, i) => `<div class="media-card"><h3>${esc(v.titulo || 'Vídeo')}</h3>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(v.id)}?rel=0&playsinline=1${v.inicio ? '&start=' + v.inicio : ''}" title="${esc(v.titulo || 'Vídeo')}" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+      <div class="row"><button class="btn sm" data-act="video-del" data-i="${i}">Remover</button></div></div>`).join('');
+  return `<h2 class="section-title">Canais</h2>${canais}
+    <h2 class="section-title">Meus vídeos</h2>
+    <p class="hint">Cole o link de um vídeo do YouTube para guardar aqui. Se o link tiver o tempo (&t=90s), o vídeo começa nesse ponto.</p>
+    <input class="field" id="vUrl" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="https://www.youtube.com/watch?v=...">
+    <input class="field mt" id="vTitulo" autocomplete="off" placeholder="Título (opcional)">
+    <div class="row mt"><button class="btn primary sm" data-act="video-add">Adicionar vídeo</button></div>
+    ${lista || '<p class="empty">Nenhum vídeo seu ainda.</p>'}`;
+}
+function htmlPodcasts(){
+  return PODCASTS.map(p => `<div class="media-card"><h3>${esc(p.nome)}</h3><p class="hint">${esc(p.desc)} Nível ${esc(p.nivel)}.</p>
+    <div class="row"><a class="btn sm" href="https://podcasts.apple.com/podcast/id${p.apple}" target="_blank" rel="noopener">Apple Podcasts</a>
+    <a class="btn sm" href="https://open.spotify.com/search/${encodeURIComponent(p.nome.replace(/\s*\(.*\)/, ''))}" target="_blank" rel="noopener">Buscar no Spotify</a></div></div>`).join('');
+}
+function htmlTrilhaAula(n){
+  const lista = treinosDaAula(n);
+  if (!lista.length) return '';
+  return `<h2 class="section-title">Treino junto com esta aula</h2><div class="tiles">${lista.map(t => {
+    const {tag} = tagTreino(t);
+    return `<button class="tile" data-go="#treino/${t.id}"><div class="lbl">${NOME_TRILHA[t.trilha]}${tag ? ' · ' + tag : ''}</div><div class="big title">${esc(t.titulo)}</div></button>`;
+  }).join('')}</div>`;
+}
+function telaTreino(t, a){
+  const e = aulaEmenta(t.apos);
+  const r = resultados(t.id);
+  const nivel = MODULOS[t.modulo - 1].nivel;
+  const blocos = [];
+  let k = 0, topo = '';
+  if (t.trilha === 'gramatica'){
+    const exp = t.dados ? t.dados.exp : [t.n === 0
+      ? 'Este teste mistura 15 itens dos 5 módulos, para você ver onde está. Os itens mudam a cada vez que a página abre.'
+      : 'Revisão com 12 itens sorteados das unidades de gramática deste módulo. Os itens mudam a cada vez que a página abre.'];
+    topo = `<h2 class="section-title">Explicação</h2><ul class="steps">${exp.map(x => `<li>${esc(x)}</li>`).join('')}</ul>
+      ${t.dados && ARMADILHAS[t.n] ? `<p class="hint"><strong>Atenção:</strong> ${esc(ARMADILHAS[t.n])}</p>` : ''}`;
+    blocos.push(bloco(++k, 'Exercícios', 'ex', pct(r.exercicios), `${a.exercicios.map(htmlExercicio).join('')}<div class="fb" id="xsum"></div>`, 'open'));
+  } else if (t.trilha === 'escuta'){
+    const d = t.dados;
+    topo = `<p class="hint">Tema: ${esc(d.tema)}. Ouça primeiro sem ler, quantas vezes quiser. Depois responda, faça o ditado e repita as frases.</p>
+      <div class="row"><button class="btn primary" data-act="esc-ouvir">${ICON.som} Ouvir</button><button class="btn" data-act="esc-devagar">Devagar</button><button class="btn" data-act="parar-voz">Parar</button></div>
+      <details class="act mt"><summary><span class="num"></span><span class="name">Transcrição</span><span class="res"></span></summary><div class="body">
+        <p class="hint">Toque numa frase para ouvir só ela.</p>
+        ${d.falas.map(f => { const m = /^([A-Z]):\s*(.*)$/.exec(f); const txt = m ? m[2] : f;
+          return `<p class="q line"><button class="link-plain" data-act="falar" data-texto="${esc(txt)}">${m ? `<span class="who">${m[1]}</span> ` : ''}${esc(txt)}</button></p>`; }).join('')}
+      </div></details>`;
+    blocos.push(bloco(++k, 'Perguntas', 'ex', pct(r.exercicios), `${a.exercicios.map(htmlExercicio).join('')}<div class="fb" id="xsum"></div>`));
+  } else {
+    const d = t.dados;
+    const texto = store.get('texto:' + t.id, '');
+    topo = `<h2 class="section-title">Tarefa</h2><p>${esc(d.tarefa)}</p>
+      <ul class="checklist" id="checklist">${htmlChecklist(t, texto)}</ul>
+      <textarea class="field writing" id="textoEscrita" data-id="${t.id}" spellcheck="true" lang="en" autocapitalize="sentences" placeholder="Write here...">${esc(texto)}</textarea>
+      <p class="hint" id="wcount">${contarPalavrasTexto(texto)} palavras (mínimo ${d.min})</p>
+      <div class="row"><button class="btn primary sm" data-act="escrita-checar">Conferir checklist</button><button class="btn sm" data-act="escrita-ouvir">Ouvir meu texto</button></div>
+      <h2 class="section-title">Correção pelo Claude</h2>
+      <p class="hint">O prompt já leva a tarefa e o seu texto. O Claude corrige, explica e, no fim da aula, gera um JSON com os erros para o seu caderno.</p>
+      <div class="row"><button class="btn primary" data-act="copiar-prompt-treino" data-id="${t.id}">Copiar prompt de correção</button><button class="btn" data-act="importar-aula">${ICON.importar}Importar correção</button></div>
+      <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt"></textarea>
+      ${a.imp.texto_corrigido ? `<h2 class="section-title">Texto corrigido</h2><p class="model">${esc(a.imp.texto_corrigido)}</p>${a.imp.comentario ? `<p class="hint">${esc(a.imp.comentario)}</p>` : ''}` : ''}
+      <details class="act mt"><summary><span class="num"></span><span class="name">Texto modelo</span><span class="res"></span></summary><div class="body">
+        <p class="hint">Veja depois de escrever o seu.</p><p class="model">${esc(d.modelo)}</p>
+        <button class="btn sm" data-act="falar" data-texto="${esc(d.modelo)}">Ouvir o modelo</button></div></details>`;
+    blocos.push(bloco(++k, 'Exercícios', 'ex', pct(r.exercicios), `${a.exercicios.map(htmlExercicio).join('')}<div class="fb" id="xsum"></div>`));
+  }
+  if (a.ditado.length){
+    blocos.push(bloco(++k, 'Ditado', 'dit', pct(r.ditado), `<p class="hint">Ouça cada frase e escreva o que ouviu. Pontuação e maiúsculas não contam.</p>${a.ditado.map(htmlDitado).join('')}<div class="fb" id="dsum"></div>`));
+    blocos.push(bloco(++k, 'Repetir e gravar', 'rep', '', `<p class="hint">Ouça o modelo, grave você repetindo e compare.${SR ? ' O teste mostra quais palavras o reconhecimento de voz entendeu.' : ''}</p>${a.ditado.map(htmlRepetir).join('')}`));
+  }
+  if (a.midia.length) blocos.push(bloco(++k, 'Escuta com vídeo ou podcast', 'midia', '', a.midia.map(htmlMidia).join(''), 'data-kind="midia"'));
+  if (a.vocabulario.length) blocos.push(bloco(++k, 'Vocabulário', 'voc', '', `<p class="hint">Estas palavras já estão nos seus flashcards.</p>${a.vocabulario.map(htmlVocab).join('')}`));
+  if (a.erros.length) blocos.push(bloco(++k, 'Erros', 'err', '', `<p class="hint">Estes erros entraram no seu caderno de erros.</p>${a.erros.map(htmlErro).join('')}`));
+
+  const chat = t.trilha === 'escrita' ? '' : `<h2 class="section-title">Aula no chat (opcional)</h2>
+    <p class="hint">${t.trilha === 'gramatica'
+      ? 'Para praticar mais, copie o prompt e faça uma aula de gramática com o Claude. No fim, escreva “fim da aula” e importe o JSON: os exercícios novos aparecem aqui.'
+      : 'Escolha um vídeo (aba Vídeos) ou um episódio de podcast, copie o prompt e cole no chat junto com o link e a transcrição. No fim, importe o JSON: o trecho do vídeo, as perguntas e o ditado aparecem aqui.'}</p>
+    <div class="row"><button class="btn primary" data-act="copiar-prompt-treino" data-id="${t.id}">Copiar prompt</button><button class="btn" data-act="importar-aula">${ICON.importar}Importar aula do chat</button></div>
+    <textarea class="prompt-box" id="promptBox" readonly hidden aria-label="Prompt"></textarea>`;
+
+  return `<button class="back" data-go="#pratica/${t.trilha}">${ICON.back}${NOME_TRILHA[t.trilha]}</button>
+    <header class="page-head"><p>${NOME_TRILHA[t.trilha]} · módulo ${t.modulo}, nível ${nivel} · junto com a aula ${t.apos}</p><h1>${esc(t.titulo)}</h1>
+      <p><button class="link-btn" data-go="#aula/${t.apos}">Ver a aula ${t.apos}: ${esc(e.som)}</button></p></header>
+    ${topo}
+    ${a.notas ? `<p class="hint">Do chat: ${esc(a.notas)}</p>` : ''}
+    <div class="acts">${blocos.join('')}</div>
+    ${chat}
+    <div class="head-actions">${r.concluida ? '<span class="hint">Treino concluído.</span>' : `<button class="btn primary" data-act="concluir-treino" data-id="${t.id}">Marcar como concluído</button>`}</div>`;
+}
+
+/* Escuta: o diálogo é lido com duas vozes quando o aparelho tem mais de uma */
+function tocarDialogo(falas, rate){
+  if (!temVoz){ aviso('Este navegador não tem leitura em voz alta.'); return; }
+  leitor.tocando = false;
+  leitor.token++;
+  const ocupado = speechSynthesis.speaking || speechSynthesis.pending;
+  speechSynthesis.cancel();
+  const vozes = vozesIngles();
+  const vA = vozEscolhida();
+  const vB = (vA && (vozes.find(v => v.voiceURI !== vA.voiceURI && v.lang === vA.lang) || vozes.find(v => v.voiceURI !== vA.voiceURI))) || vA;
+  const ler = () => falas.forEach(f => {
+    const m = /^([A-Z]):\s*(.*)$/.exec(f);
+    const quem = m ? m[1] : 'A';
+    const u = new SpeechSynthesisUtterance(m ? m[2] : f);
+    const v = quem === 'B' ? vB : vA;
+    if (v){ u.voice = v; u.lang = v.lang; } else u.lang = 'en-US';
+    if (quem === 'B' && vB === vA) u.pitch = 1.3;
+    u.rate = rate;
+    speechSynthesis.speak(u);
+  });
+  if (ocupado) setTimeout(ler, 80); else ler();
+}
+
+/* Escrita: checklist e contagem de palavras */
+function contarPalavrasTexto(s){ return (String(s).match(/[A-Za-zÀ-ÿ0-9’']+/g) || []).length; }
+function avaliarEscrita(t, texto){
+  const s = String(texto).toLowerCase().replace(/[’‘]/g, "'");
+  const itens = [[`Pelo menos ${t.dados.min} palavras`, contarPalavrasTexto(texto) >= t.dados.min]];
+  t.dados.checks.forEach(([d, re, min]) => itens.push([d, (s.match(re) || []).length >= (min || 1)]));
+  return itens;
+}
+function htmlChecklist(t, texto, conferido){
+  return avaliarEscrita(t, texto).map(([d, ok]) => `<li class="${conferido ? (ok ? 'ok' : 'no') : ''}">${conferido ? (ok ? '✓ ' : '✗ ') : ''}${esc(d)}</li>`).join('');
+}
+function checarEscrita(){
+  const ta = $('#textoEscrita');
+  if (!ta || !estadoAula || !estadoAula.t) return;
+  if (!ta.value.trim()){ aviso('Escreva seu texto antes de conferir.'); return; }
+  const itens = avaliarEscrita(estadoAula.t, ta.value);
+  $('#checklist').innerHTML = htmlChecklist(estadoAula.t, ta.value, true);
+  const ok = itens.filter(x => x[1]).length;
+  salvarResultado(estadoAula.t.id, 'checklist', Math.round(ok / itens.length * 100));
+  aviso(ok === itens.length ? 'Checklist completo. Agora copie o prompt e peça a correção ao Claude.' : `${ok} de ${itens.length} itens do checklist.`);
+}
+
+/* Prompts das aulas de prática no chat */
+function gerarPromptTreino(t, texto){
+  const e = aulaEmenta(t.apos);
+  const nivel = MODULOS[t.modulo - 1].nivel;
+  const pend = Object.values(errosCaderno()).filter(x => !x.resolvido && (t.trilha !== 'gramatica' || !x.tipo || x.tipo === 'gramatica'))
+    .sort((a, b) => b.vezes - a.vezes).slice(0, 8);
+  const exemplo = {tipo:'lacuna', frase:"She ___ a doctor.", resposta:['is', "'s"]};
+  const modelo = {tipo:'pratica', versao:1, trilha:t.trilha, unidade:t.id, titulo:'Título curto da aula'};
+  const L = [];
+  L.push(`Você é meu professor de inglês. Sou brasileiro, estou no nível ${nivel} (módulo ${t.modulo} de 5) e faço um curso focado em ouvir e falar, com aulas aqui no chat e exercícios num app meu.`);
+  L.push('');
+  if (t.trilha === 'gramatica'){
+    Object.assign(modelo, {exercicios:[exemplo, {tipo:'escolha', pergunta:'Which is correct?', opcoes:['I have 25 years.', "I'm 25."], resposta:1}, {tipo:'ordenar', resposta:'Where are you from?'}, {tipo:'corrigir', frase:'He work in a bank.', resposta:['He works in a bank.']}],
+      erros:[{disse:"I'm teacher", certo:"I'm a teacher", explicacao:'Profissão pede a/an.', tipo:'gramatica'}],
+      vocabulario:[{termo:'engineer', traducao:'engenheiro', exemplo:"She's an engineer.", tonica:'en-gi-NEER', falso_cognato:false, producao:true}], notas:'O que retomar'});
+    L.push(`HOJE: AULA DE GRAMÁTICA, ligada à aula ${t.apos} do curso.`);
+    L.push(`- Tema: ${t.titulo}`);
+    L.push(`- Situação da aula ${t.apos}, para os exemplos: ${e.vocab}`);
+    if (t.dados && ARMADILHAS[t.n]) L.push(`- Armadilha típica do brasileiro: ${ARMADILHAS[t.n]}`);
+    if (t.dados) L.push(`- O que o app já explicou: ${t.dados.exp.join(' ')}`);
+    if (t.revisao) L.push('- Esta é uma revisão: misture os pontos de gramática do módulo, começando pelos que eu mais erro.');
+    L.push('- Meus erros de gramática que ainda se repetem: ' + (pend.length ? pend.map(x => x.disse ? `"${x.disse}" → "${x.certo}"` : `"${x.certo}"`).join('; ') : 'nenhum registrado ainda'));
+    L.push('');
+    L.push('COMO CONDUZIR');
+    L.push('1. Mostre de 4 a 6 frases de exemplo na situação da aula e me peça para descobrir a regra.');
+    L.push('2. Explique em português, comparando com o português e mostrando onde o brasileiro erra.');
+    L.push('3. Prática controlada: de 6 a 8 frases para eu completar ou transformar, uma por vez, corrigindo cada resposta.');
+    L.push('4. Prática livre: me faça perguntas que me obriguem a usar a estrutura, como numa conversa, e corrija.');
+    L.push('5. Feche com um resumo de 3 linhas.');
+  } else if (t.trilha === 'escuta'){
+    const canais = CANAIS.filter(c => c.modulos.includes(t.modulo)).map(c => c.nome).join(', ');
+    Object.assign(modelo, {midia:[{tipo:'video', titulo:'Nome do vídeo', url:'https://www.youtube.com/watch?v=ID_DO_VIDEO', inicio:'1:05', fim:'1:50', perguntas:[{pergunta:'What is the video about?', opcoes:['Travel', 'Work', 'Food'], resposta:0}]}],
+      ditado:['Frase curta tirada do trecho.'], exercicios:[exemplo],
+      vocabulario:[{termo:'grab a coffee', traducao:'tomar um café', exemplo:'Want to grab a coffee?', tonica:'GRAB a COF-fee', falso_cognato:false, producao:true}],
+      erros:[{disse:'I didn\'t understood', certo:'I didn\'t understand', explicacao:'Depois de did, o verbo fica na forma base.', tipo:'gramatica'}], notas:'O que retomar'});
+    L.push(`HOJE: AULA DE ESCUTA, ligada à aula ${t.apos} do curso.`);
+    L.push(`- Tema: ${t.dados.tema}`);
+    L.push(`- Som da aula ${t.apos}: ${e.som}. Foco de escuta: ${e.escuta}`);
+    L.push(`- Material: vou colar o link de um vídeo do YouTube ou de um episódio de podcast, com a transcrição ou um trecho dela. Canais que uso no meu nível: ${canais}. Se eu ainda não tiver escolhido, sugira que tipo de vídeo procurar e espere.`);
+    L.push('');
+    L.push('COMO CONDUZIR');
+    L.push('1. Escolha um trecho de 30 a 90 segundos e me diga onde começa e termina (m:ss).');
+    L.push('2. Antes de ouvir: de 5 a 8 palavras ou expressões-chave do trecho, com a sílaba tônica.');
+    L.push('3. Primeira escuta: uma pergunta geral. Segunda escuta: de 3 a 4 perguntas de detalhe. Espere minhas respostas.');
+    L.push('4. Decodificação: pegue 3 frases rápidas do trecho e mostre o que acontece na fala (ligação, redução, formas fracas), comparando com a escrita.');
+    L.push('5. Shadowing: 3 frases para eu repetir em voz alta, imitando o ritmo.');
+    L.push('6. Peça um resumo do trecho em inglês, com 3 frases, e corrija.');
+  } else {
+    Object.assign(modelo, {texto_corrigido:'Meu texto com as correções, mantendo minhas ideias.', comentario:'O que melhorou e o que treinar.',
+      erros:[{disse:'I have 32 years', certo:"I'm 32", explicacao:'Idade usa to be.', tipo:'gramatica'}],
+      exercicios:[{tipo:'corrigir', frase:'She go to work by bus.', resposta:['She goes to work by bus.']}],
+      vocabulario:[{termo:'commute', traducao:'trajeto diário', exemplo:'My commute takes an hour.', tonica:'com-MUTE', falso_cognato:false, producao:true}], notas:'O que retomar'});
+    L.push(`HOJE: AULA DE ESCRITA, ligada à aula ${t.apos} do curso.`);
+    L.push(`- Tarefa: ${t.dados.tarefa}`);
+    L.push(`- Pontos que o texto deve usar: ${t.dados.checks.map(c => c[0]).join('; ')}`);
+    L.push(`- Gramática da aula ${t.apos}: ${e.gramatica}`);
+    L.push('- Meus erros que ainda se repetem: ' + (pend.length ? pend.map(x => x.disse ? `"${x.disse}" → "${x.certo}"` : `"${x.certo}"`).join('; ') : 'nenhum registrado ainda'));
+    L.push('');
+    L.push('MEU TEXTO');
+    L.push(texto && texto.trim() ? texto.trim() : '(Ainda não escrevi. Me ajude a planejar o texto com 3 perguntas e espere eu mandar.)');
+    L.push('');
+    L.push('COMO CONDUZIR');
+    L.push('1. Diga em uma ou duas frases o que ficou bom.');
+    L.push('2. Liste os erros, um por um, explicando em português. Priorize os que atrapalham o entendimento e os típicos de brasileiro.');
+    L.push('3. Mostre o texto corrigido mantendo minhas ideias e, depois, uma versão mais natural no meu nível.');
+    L.push('4. Peça para eu reescrever 2 ou 3 frases que tinham erro e corrija.');
+    L.push('5. Me peça para ler o texto corrigido em voz alta e aponte 3 palavras de pronúncia difícil, com a sílaba tônica.');
+  }
+  L.push('Faça uma etapa por vez e espere minha resposta. Fale comigo em inglês no meu nível e explique em português.');
+  L.push('');
+  L.push('QUANDO EU ESCREVER "FIM DA AULA"');
+  L.push('Gere o JSON num único bloco de código, só com o JSON dentro, neste formato:');
+  L.push(JSON.stringify(modelo, null, 2));
+  L.push('Regras do JSON:');
+  L.push(`- "unidade" deve ser exatamente "${t.id}".`);
+  L.push('- exercicios: de 8 a 12 itens novos, que não repitam os do app, misturando lacuna (use ___), ordenar, escolha e corrigir. Em lacuna e corrigir, "resposta" pode ser uma lista com as formas aceitas. Em escolha, "resposta" é o índice da opção certa, começando em 0.');
+  L.push('- erros: tudo o que eu errei, com "tipo" igual a "pronuncia", "gramatica" ou "vocabulario".');
+  L.push('- vocabulario: só o que for novo; marque "producao": true no que devo saber falar.');
+  if (t.trilha === 'escuta') L.push('- midia: o link exatamente como eu colei, início e fim no formato m:ss e de 2 a 4 perguntas de múltipla escolha. ditado: de 4 a 6 frases curtas tiradas do trecho. Nunca inclua letra de música.');
+  if (t.trilha === 'escrita') L.push('- texto_corrigido: meu texto inteiro corrigido. comentario: até 3 frases em português.');
+  return L.join('\n');
+}
+function copiarTexto(txt){
+  const box = $('#promptBox');
+  if (box){ box.value = txt; box.hidden = false; }
+  const manual = () => { if (box){ box.focus(); box.select(); } aviso('Selecione o texto da caixa e copie.'); };
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(() => aviso('Prompt copiado. Cole no chat com o Claude.'), manual);
+  } else manual();
+}
+
+/* Importação de uma aula de prática feita no chat */
+function importarPratica(p){
+  const t = treino(p.unidade);
+  if (!t){ aviso('Aula de prática inválida: o campo unidade não corresponde a nenhum treino do app.'); return false; }
+  const erro = validarListas(p);
+  if (erro){ aviso('Aula de prática inválida: ' + erro); return false; }
+  for (const k of ['texto_corrigido', 'comentario', 'notas']) if (p[k] !== undefined && typeof p[k] !== 'string') { aviso(`Aula de prática inválida: o campo ${k} deve ser texto.`); return false; }
+  const todas = praticasSalvas();
+  const reimportacao = !!todas[t.id];
+  p.importadaEm = new Date().toISOString();
+  todas[t.id] = p;
+  store.set('praticas', todas);
+  guardarVocabulario(p.vocabulario, t.id);
+  store.set('erros', guardarErros(p.erros, t.id, !reimportacao).cad);
+  aviso(`${NOME_TRILHA[t.trilha]} importada: ${(p.exercicios || []).length} exercícios e ${(p.erros || []).length} erros.`);
+  telaAtual = '';
+  ir('#treino/' + t.id);
+  return true;
 }
 
 /* ============================================================
@@ -1842,8 +2705,60 @@ function acao(nome, el){
     case 'errei': responderCartao(false); break;
     case 'acertei': responderCartao(true); break;
     case 'err-conferir': conferirErro(+d.ei); break;
+    case 'copiar-prompt-treino': {
+      const t = treino(d.id);
+      if (t) copiarTexto(gerarPromptTreino(t, t.trilha === 'escrita' ? store.get('texto:' + t.id, '') : ''));
+      break;
+    }
+    case 'esc-ouvir': tocarDialogo(estadoAula.t.dados.falas, store.get('velocidade', 0.9)); break;
+    case 'esc-devagar': tocarDialogo(estadoAula.t.dados.falas, 0.65); break;
+    case 'parar-voz': if (temVoz) speechSynthesis.cancel(); break;
+    case 'escrita-checar': checarEscrita(); break;
+    case 'escrita-ouvir': { const ta = $('#textoEscrita'); if (ta && ta.value.trim()) falar(ta.value); else aviso('Escreva seu texto primeiro.'); break; }
+    case 'concluir-treino':
+      salvarResultado(d.id, 'concluida', true);
+      aviso('Treino concluído.');
+      telaAtual = '';
+      rota();
+      break;
+    case 'canal-carregar': {
+      const c = CANAIS[+d.ci];
+      const box = document.getElementById('canal-' + d.ci);
+      if (c && c.id && box) box.innerHTML = `<iframe src="https://www.youtube.com/embed/videoseries?list=UU${encodeURIComponent(c.id.slice(2))}&rel=0&playsinline=1" title="${esc(c.nome)}" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+      break;
+    }
+    case 'video-add': {
+      const url = $('#vUrl').value.trim();
+      const id = idYouTube(url);
+      if (!id){ aviso('Não reconheci esse link do YouTube.'); break; }
+      let inicio = 0;
+      try { inicio = segundos(String(new URL(url).searchParams.get('t') || '').replace(/s$/, '').replace(/(\d+)m(\d+)/, '$1:$2')); } catch(e) {}
+      const meus = store.get('videos:meus', []);
+      meus.unshift({id, titulo:$('#vTitulo').value.trim(), inicio:inicio || 0});
+      store.set('videos:meus', meus);
+      aviso('Vídeo adicionado.');
+      telaAtual = '';
+      rota();
+      break;
+    }
+    case 'video-del': {
+      const meus = store.get('videos:meus', []);
+      meus.splice(+d.i, 1);
+      store.set('videos:meus', meus);
+      telaAtual = '';
+      rota();
+      break;
+    }
   }
 }
+document.addEventListener('input', e => {
+  const ta = e.target;
+  if (ta.id !== 'textoEscrita') return;
+  store.set('texto:' + ta.dataset.id, ta.value);
+  const t = treino(ta.dataset.id);
+  const wc = $('#wcount');
+  if (t && wc) wc.textContent = `${contarPalavrasTexto(ta.value)} palavras (mínimo ${t.dados.min})`;
+});
 
 document.addEventListener('keydown', e => {
   if (e.key !== 'Enter') return;
@@ -1922,6 +2837,16 @@ function rota(){
     prepararAula(n, a || {});
     view.innerHTML = telaAula(n, a);
     aba = 'aulas';
+  } else if (partes[0] === 'pratica'){
+    view.innerHTML = telaPratica(partes[1] || 'gramatica');
+  } else if (partes[0] === 'treino'){
+    const t = treino(partes[1]);
+    if (!t){ location.hash = '#pratica'; return; }
+    const a = montarTreino(t);
+    prepararAula(t.id, a);
+    estadoAula.t = t;
+    view.innerHTML = telaTreino(t, a);
+    aba = 'pratica';
   } else if (partes[0] === 'revisao'){
     if (partes[1] === 'cartoes'){ iniciarSessao(); view.innerHTML = telaCartoes(); }
     else if (partes[1] === 'erros') view.innerHTML = telaCaderno();

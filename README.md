@@ -6,7 +6,7 @@ App pessoal para aprender inglês com foco em ouvir e falar. As aulas acontecem 
 
 | Arquivo | Para que serve |
 | --- | --- |
-| `index.html` | O app inteiro: telas, ementa das 49 aulas, prompts, atividades, biblioteca e livros |
+| `index.html` | O app inteiro: telas, ementa das 49 aulas, treinos de prática, prompts, atividades, biblioteca e livros |
 | `manifest.webmanifest` | Nome, ícones e cores para instalar o app no celular |
 | `sw.js` | Faz o app abrir sem internet |
 | `icone-192.png`, `icone-512.png`, `icone-maskable-512.png` | Ícones do app |
@@ -48,6 +48,18 @@ Sem o arquivo de verificação de domínio (`assetlinks.json`), o APK abre com u
 2. Cole numa conversa nova com o Claude e faça a aula. No fim, escreva **fim da aula**.
 3. Copie o JSON que o Claude gerar e toque em **Importar aula**. Dá para colar o texto ou escolher um arquivo `.json`.
 4. Faça as atividades da aula e revise os flashcards todo dia na aba **Revisão**.
+
+## Prática: gramática, escuta e escrita
+
+A aba **Prática** tem treinos que o próprio app corrige, ligados às aulas de conversa. Na aba **Aulas**, cada aula mostra embaixo os treinos para fazer junto, e a aba **Hoje** sugere os próximos.
+
+- **Gramática:** uma unidade para cada aula, com explicação curta em português e exercícios (lacuna, escolha, ordenar e corrigir). A aula 0 tem um teste de nível, e cada checkpoint tem uma revisão sorteada do módulo. Os dados ficam na constante `GRAMATICA`.
+- **Escuta:** 20 diálogos lidos pela voz do aparelho, com duas vozes quando há mais de uma instalada, perguntas, ditado e repetição com gravação. Os dados ficam em `ESCUTAS`.
+- **Escrita:** 20 tarefas, com checklist conferido pelo app, contagem de palavras, texto modelo e exercícios. O texto fica salvo no aparelho. Os dados ficam em `ESCRITAS`.
+- **Vídeos:** os vídeos mais recentes de canais de inglês, dentro do app (constante `CANAIS`), e uma lista sua de vídeos do YouTube.
+- **Podcasts:** links para o Apple Podcasts e para uma busca no Spotify (constante `PODCASTS`).
+
+Cada treino tem um prompt para uma aula no chat: gramática, escuta com um vídeo ou podcast que você escolher, ou correção do seu texto. No fim, o Claude gera um JSON com `"tipo": "pratica"` e o `"unidade"` do treino (por exemplo `g5`, `e3` ou `w2`). Ele entra pelo mesmo botão **Importar aula**: os exercícios novos, o trecho do vídeo com perguntas e o ditado aparecem no treino, o vocabulário vira flashcard e os erros vão para o caderno.
 
 ## Seus dados
 
