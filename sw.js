@@ -1,6 +1,6 @@
 /* Service worker: deixa o app abrir sem internet.
    Ao mudar algum arquivo do app, troque a versão abaixo para o celular buscar a atualização. */
-const VERSAO = 'ingles-v1';
+const VERSAO = 'ingles-v2';
 const ARQUIVOS = ['./', './index.html', './manifest.webmanifest', './icone-192.png', './icone-512.png', './icone-maskable-512.png'];
 
 self.addEventListener('install', e => {
@@ -26,17 +26,20 @@ self.addEventListener('fetch', e => {
   if (req.mode === 'navigate' || url.pathname.endsWith('.html')){
     e.respondWith(
       fetch(req)
-        .then(resp => { const copia = resp.clone(); caches.open(VERSAO).then(c => c.put(req, copia)); return resp; })
+        .then(resp => { if (resp.ok){ const copia = resp.clone(); caches.open(VERSAO).then(c => c.put(req, copia)); } return resp; })
         .catch(() => caches.match(req).then(r => r || caches.match('./index.html')))
     );
     return;
   }
 
-  /* Ícones e manifesto: cópia guardada primeiro */
+  /* Ícones, manifesto e livros: cópia guardada primeiro. Só guarda respostas válidas,
+     para um erro (como um 404) nunca ficar salvo no aparelho. */
   e.respondWith(
     caches.match(req).then(r => r || fetch(req).then(resp => {
-      const copia = resp.clone();
-      caches.open(VERSAO).then(c => c.put(req, copia));
+      if (resp.ok){
+        const copia = resp.clone();
+        caches.open(VERSAO).then(c => c.put(req, copia));
+      }
       return resp;
     }))
   );
