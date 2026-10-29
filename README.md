@@ -92,6 +92,8 @@ A biblioteca tem adaptações (graded readers) de clássicos em domínio públic
 
 Cada livro é um arquivo em `livros/<id>.json`, e a constante `CATALOGO` do `index.html` lista os livros (o campo `arquivo: true` indica que o texto está nessa pasta). O app só baixa um livro quando você o abre, e depois ele fica salvo para ler sem internet. O botão **Baixar todos para ler sem internet** baixa a biblioteca inteira de uma vez. O conto The Gift of the Magi fica embutido na constante `LIVROS`.
 
+**Livros no formato rico** (`"format": "leitoringles-book"`): o app também lê livros com dicionário palavra por palavra (`lexicon`), expressões e phrasal verbs (`expressions`) e notas de gramática (`grammar`) com a posição de cada ocorrência no texto. No leitor, toque em qualquer palavra para ver tradução, classe, definição e, nos nomes, a imagem da Wikipédia; as expressões ficam sublinhadas, e o botão Marcar a gramática destaca os pontos de gramática. Dá para guardar palavras e expressões nos flashcards. A página do livro lista todas as expressões e os tópicos de gramática com exemplos. Esses livros entram pelo botão **Importar livro** e ficam guardados no aparelho (IndexedDB). O Dracula da estante B1 (`livros/dracula-b1.json`) está nesse formato.
+
 No topo da Biblioteca, **Criar um livro com o Claude** gera um prompt para transformar um texto seu, em português ou inglês, num livro do nível escolhido. Use com textos em domínio público ou escritos por você. O resultado entra pelo botão **Importar livro**, no formato abaixo:
 
 ```json
