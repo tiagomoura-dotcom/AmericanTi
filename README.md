@@ -10,12 +10,13 @@ App pessoal para aprender inglês com foco em ouvir e falar. As aulas acontecem 
 | `manifest.webmanifest` | Nome, ícones e cores para instalar o app no celular |
 | `sw.js` | Faz o app abrir sem internet |
 | `icone-192.png`, `icone-512.png`, `icone-maskable-512.png` | Ícones do app |
+| `android/`, `.github/workflows/apk.yml` | Projeto Android e a compilação automática do APK |
 
 ## Publicar no GitHub Pages
 
-1. Suba todos os arquivos na raiz do repositório `americanTi` (Add file, depois Upload files).
+1. Os arquivos ficam na raiz da branch `main` do repositório `AmericanTi`.
 2. Em Settings, abra Pages. Em Build and deployment, escolha Deploy from a branch, a branch `main` e a pasta `/ (root)`, e salve.
-3. Em um ou dois minutos o app fica em `https://SEU-USUARIO.github.io/americanTi/`.
+3. Em um ou dois minutos o app fica em `https://tiagomoura-dotcom.github.io/AmericanTi/`.
 
 No plano gratuito do GitHub, o Pages só funciona com repositório público. O repositório não guarda nenhum dado seu: o progresso fica só no celular.
 
@@ -26,13 +27,20 @@ No plano gratuito do GitHub, o Pages só funciona com repositório público. O r
 
 Instalado assim, o app abre em tela cheia, funciona sem internet e não precisa de APK.
 
-## Gerar o APK (opcional)
+## APK para Android
 
-1. Com o app já publicado, abra [pwabuilder.com](https://www.pwabuilder.com) e cole o endereço do app.
-2. Peça o pacote para Android. O PWABuilder gera um `.apk` para instalar direto no celular e um `.aab` para a Play Store, junto com uma chave de assinatura. Guarde essa chave: ela é necessária para gerar atualizações do APK.
-3. Para instalar o `.apk`, o Android pede permissão para instalar apps de fontes desconhecidas.
+O APK é gerado sozinho pelo GitHub Actions (`.github/workflows/apk.yml`) sempre que algo em `android/`, no manifesto ou nos ícones muda na `main`. Também dá para gerar na hora: aba Actions, Gerar APK, Run workflow.
 
-Sem o arquivo de verificação de domínio (`assetlinks.json`), o APK abre com uma barra de endereço fina no topo. Para tirar a barra, esse arquivo precisa ficar em `https://SEU-USUARIO.github.io/.well-known/assetlinks.json`, ou seja, num repositório chamado `SEU-USUARIO.github.io`. Os nomes dos botões do PWABuilder podem mudar com o tempo.
+- **Baixar:** https://github.com/tiagomoura-dotcom/AmericanTi/releases/latest/download/ingles.apk
+- Para instalar, o Android pede permissão para instalar apps de fontes desconhecidas.
+- O APK abre o endereço do GitHub Pages dentro do Chrome, em tela cheia. Por isso o Pages precisa estar ativo, e o primeiro acesso precisa de internet.
+- O progresso fica guardado no Chrome, não no APK. Desinstalar e instalar de novo não apaga nada.
+
+A pasta `android/` tem o projeto Android (Trusted Web Activity, com a biblioteca android-browser-helper do Google).
+
+**Assinatura.** Sem chave guardada no repositório, cada compilação assina o APK com uma chave nova, e o Android só aceita atualizar por cima se a chave for a mesma. Nesse caso, desinstale o APK antigo antes de instalar o novo. Para manter sempre a mesma chave, crie uma keystore e salve em Settings, Secrets and variables, Actions, dois segredos: `ANDROID_KEYSTORE_BASE64` (a keystore em base64, com alias `americanti`) e `ANDROID_KEYSTORE_PASSWORD`.
+
+Sem o arquivo de verificação de domínio (`assetlinks.json`), o APK abre com uma barra de endereço fina no topo. Para tirar a barra, esse arquivo precisa ficar em `https://tiagomoura-dotcom.github.io/.well-known/assetlinks.json`, ou seja, num repositório chamado `tiagomoura-dotcom.github.io`, com a impressão digital SHA-256 da chave fixa. O log da compilação mostra essa impressão digital.
 
 ## Como usar
 

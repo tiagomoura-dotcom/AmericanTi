@@ -1,0 +1,81 @@
+# Gera o APK (Trusted Web Activity) e publica numa Release do GitHub.
+# Link fixo para baixar: https://github.com/tiagomoura-dotcom/AmericanTi/releases/latest/download/ingles.apk
+name: Gerar APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'android/**'
+      - 'manifest.webmanifest'
+      - 'icone-*.png'
+      - '.github/workflows/apk.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: android-actions/setup-android@v3
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.10.2'
+
+      # Com os segredos ANDROID_KEYSTORE_BASE64 e ANDROID_KEYSTORE_PASSWORD, todo APK sai com a mesma assinatura.
+      # Sem eles, cada compilação gera uma chave nova: para atualizar, desinstale o APK antigo antes
+      # (o progresso fica no Chrome, e não no APK, então não se perde).
+      - name: Preparar chave de assinatura
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          if [ -n "$KEYSTORE_B64" ] && [ -n "$KEYSTORE_PASS" ]; then
+            echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.keystore"
+            echo "KEYSTORE_PASSWORD=$KEYSTORE_PASS" >> "$GITHUB_ENV"
+          else
+            SENHA=$(openssl rand -hex 16)
+            keytool -genkeypair -v -keystore "$RUNNER_TEMP/release.keystore" -alias americanti \
+              -keyalg RSA -keysize 2048 -validity 10000 -storepass "$SENHA" -keypass "$SENHA" \
+              -dname "CN=Ingles, O=AmericanTi, C=BR"
+            echo "::add-mask::$SENHA"
+            echo "KEYSTORE_PASSWORD=$SENHA" >> "$GITHUB_ENV"
+          fi
+          echo "KEYSTORE_PATH=$RUNNER_TEMP/release.keystore" >> "$GITHUB_ENV"
+          echo "VERSION_CODE=${{ github.run_number }}" >> "$GITHUB_ENV"
+
+      - name: Compilar
+        working-directory: android
+        run: gradle assembleRelease --no-daemon
+
+      - name: Renomear APK
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk ingles.apk
+          keytool -printcert -jarfile ingles.apk | grep -i "SHA256:" || true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ingles-apk
+          path: ingles.apk
+
+      - name: Publicar Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-v${{ github.run_number }}
+          name: APK ${{ github.run_number }}
+          make_latest: true
+          files: ingles.apk
+          body: |
+            APK do app Inglês: ouvir e falar.
+            Abre https://tiagomoura-dotcom.github.io/AmericanTi/ dentro do Chrome, em tela cheia.
+            Para instalar, o Android pede permissão para instalar apps de fontes desconhecidas.
