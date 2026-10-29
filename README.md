@@ -88,7 +88,11 @@ O `index.html` se atualiza sozinho quando o app abre com internet. Se trocar íc
 
 ## Livros
 
-Os livros embutidos ficam na constante `LIVROS` do `index.html`. Novos livros chegam como `.json` e entram pelo botão **Importar livro**, na **Biblioteca**. Formato:
+A biblioteca tem adaptações (graded readers) de clássicos em domínio público, em prateleiras por nível, do A1 ao C1: contos de Poe, Maupassant e Conan Doyle, romances de Wells, Verne, Dumas, Stevenson, Shelley, Wilde, Stoker e Fitzgerald, peças de Shakespeare em prosa (Macbeth, Othello, King Lear), Dostoiévski (White Nights, Notes from Underground, Crime and Punishment, The Idiot e The Brothers Karamazov) e diálogos de Platão. As prateleiras seguem os módulos, mas dá para ler em qualquer ordem. Os livros grandes vêm divididos em partes.
+
+Cada livro é um arquivo em `livros/<id>.json`, e a constante `CATALOGO` do `index.html` lista os livros (o campo `arquivo: true` indica que o texto está nessa pasta). O app só baixa um livro quando você o abre, e depois ele fica salvo para ler sem internet. O botão **Baixar todos para ler sem internet** baixa a biblioteca inteira de uma vez. O conto The Gift of the Magi fica embutido na constante `LIVROS`.
+
+No topo da Biblioteca, **Criar um livro com o Claude** gera um prompt para transformar um texto seu, em português ou inglês, num livro do nível escolhido. Use com textos em domínio público ou escritos por você. O resultado entra pelo botão **Importar livro**, no formato abaixo:
 
 ```json
 {
